@@ -1,0 +1,1095 @@
+========================================================================
+SYNTHESEEINHEIT: GH_regpro_AH
+Beschreibung: Regulierungs-Befuerworter
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 174 Aussagen + 126 Handlungen = 300 gesamt
+Zeitraum Aussagen: 2013-10-01 bis 2026-02-07
+Zeitraum Handlungen: 1978 bis 2025-11-06
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (174 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2013-10-01, schriftlich)
+  "We need a ban on weapon systems that make the decision to apply violent force autonomously."
+  Kontext: Offener Brief im Oktober 2013 von ueber 270 Ingenieuren, Informatikern und KI-Experten. [PERSON] gehoert zu den Unterzeichnern.
+
+[A002] (2014-03-06, muendlich)
+  "The simple goal was to energize women engineers and focus on personal and professional development. What started with 17 women grew to 1,800 members strong all over the world, with 12 chapters."
+  Kontext: Reflecting on founding and growth of QWISE at Qualcomm
+
+[A003] (2015-01-01, schriftlich)
+  "We recommend expanded research aimed at ensuring that increasingly capable AI systems are robust and beneficial."
+  Kontext: Open letter drafted by Russell calling for AI safety research, signed by thousands including leading AI researchers
+
+[A004] (2015-07-01, schriftlich)
+  "Starting a military AI arms race is a bad idea."
+  Kontext: Open letter on autonomous weapons calling for ban, signed by 4,667 AI researchers
+
+[A005] (2015-07-01, schriftlich)
+  "Robots would not be restrained by human compassion, which can provide an important check on the killing of civilians."
+  Kontext: Statement in campaign against lethal autonomous weapons
+
+[A006] (2016-01-01, muendlich)
+  "The ImpaQt blueprint consists of three phases—Ideation, Review and Prototyping—and the program engages the entire employee population, with those who come up with workable ideas remaining involved in their projects all the way through to fruition, creating and nurturing a culture of innovation and collaboration."
+  Kontext: Describing Qualcomm ImpaQt innovation incubator structure
+
+[A007] (2018-03-27, muendlich)
+  "Backpropagation showed that neural networks could discover their own internal representations of data, which was a major breakthrough."
+  Kontext: [PERSON] wird zusammen mit [PERSON] und [PERSON] mit dem Turing Award 2018 ausgezeichnet. Die Begruendung betont Backpropagation.
+
+[A008] (2018-12-04, schriftlich)
+  "AI development must be guided by the principles of well-being, respect for autonomy, protection of privacy and intimacy, solidarity, democratic participation, equity, diversity inclusion, prudence, and responsibility."
+  Kontext: Ethische Erklaerung, die unter [PERSON]s Leitung von der Universitaet [UNI] und MILA entwickelt wurde.
+
+[A009] (2019-03-27, muendlich)
+  "Deep learning has allowed us to make progress on many difficult problems like machine translation, object recognition, speech recognition, and playing games, but we're just at the beginning of this journey toward artificial general intelligence."
+  Kontext: Bekanntgabe des Turing Awards 2018 fuer die drei 'Godfathers of Deep Learning' fuer ihre Arbeit an neuronalen Netzen.
+
+[A010] (2019-10-01, schriftlich)
+  "Advanced AI poses a risk because it will have the ability to make high quality decisions, yet may not share human values perfectly. More intelligent AI systems can take steps to preempt human interference, acquire additional resources, and (if necessary) deceive humans about their intentions, all in the service of a given objective."
+  Kontext: Core argument about AI risk from Human Compatible book and interviews
+
+[A011] (2019-10-01, schriftlich)
+  "The machine's purpose should be to maximize the realization of human values, having no purpose of its own and no innate desire to protect itself. The machine should be initially uncertain about what those human values are, which turns out to be crucial."
+  Kontext: Core principle from Human Compatible on value alignment approach
+
+[A012] (2019-11-01, muendlich)
+  "The standard model is, in fact, I think, an engineering mistake. It's a way of creating systems that relies on perfection on the part of humans in our ability to specify objectives, and that's a really bad idea to assume perfection on the part of humans."
+  Kontext: Criticism of current AI development paradigm in podcast interview
+
+[A013] (2020-01-01, muendlich)
+  "I think the only way forward is to figure out how to make AI safety a condition of doing business."
+  Kontext: Statement on AI safety funding and business practices
+
+[A014] (2020-01-01, muendlich)
+  "Between startups and big tech companies approximately $100 billion will be spent on creating artificial general intelligence, while global expenditure in the public sector on AI safety research is maybe $10 million—a factor of about 10,000 times less investment."
+  Kontext: Comparison of AGI development spending vs. safety research funding
+
+[A015] (2020-01-01, schriftlich)
+  "AI today lacks common sense, and simply does whatever we've asked it to. That's true even if the goal isn't what we really want, or the methods it's choosing are ones we would never accept."
+  Kontext: McKinsey interview on problems with current AI systems
+
+[A016] (2020-11-03, schriftlich)
+  "We need a lot more research on safety. We need to be able to build AI systems that are fundamentally on the side of humans."
+  Kontext: Interview mit [UNI] Technology Review, in dem [PERSON] seine zunehmenden Bedenken ueber KI-Risiken aeussert.
+
+[A017] (2020-11-03, schriftlich)
+  "The danger is not that the machine turns against us, which is science fiction, but that people with power use machine learning to gain more power."
+  Kontext: Fortsetzung des [UNI]-TR-Interviews. [PERSON] unterscheidet zwischen Science-Fiction-Szenarien und realen Risiken.
+
+[A018] (2021-01-01, muendlich)
+  "The goal was to create an ecosystem for startups and Global 2000s focusing on responsible development of AI through the Marketplace for Ethical and Responsible AI Tools."
+  Kontext: Describing nonprofit MERAT initiative before founding [FIRMA]
+
+[A019] (2021-01-27, schriftlich)
+  "I accepted feedback that, as a co-founder at [FIRMA], I drove people too hard and at times my management style was not constructive."
+  Kontext: Oeffentliches Statement nach Untersuchung durch Anwaltskanzlei wegen Beschwerden ueber Fuehrungsstil.
+
+[A020] (2021-05-31, schriftlich)
+  "Dario and I shared a conviction that AI development required a fundamentally different approach—one that placed constitutional safety principles at the foundation rather than bolting them on afterward."
+  Kontext: Rückblick auf die Gründung von [FIRMA] und die Unterschiede zum [FIRMA]-Ansatz
+
+[A021] (2021-11-17, schriftlich)
+  "GFlowNets provide a new way to sample from complex distributions over compositional objects, with applications in drug discovery, materials design, and causal inference."
+  Kontext: Wissenschaftliche Arbeit, die eine neue generative Modellklasse einfuehrt. [PERSON] arbeitet seit 2021 intensiv an GFlowNets.
+
+[A022] (2021-12-01, muendlich)
+  "Is AI the biggest event in human history?"
+  Kontext: Central question posed in BBC Reith Lectures series on AI
+
+[A023] (2022-01-01, muendlich)
+  "The United States stated that there will not be AI intervening in the chain of command over the launch of nuclear weapons."
+  Kontext: Discussion on nuclear weapons policy and AI in Future of Life Institute podcast
+
+[A024] (2022-04-15, schriftlich)
+  "We aim to build transformative general AI systems that are safe, reliable, steerable, ethical. We want to build generative AI tools and systems and products that people could use while feeling really, really confident that what we were putting on the market was trustworthy, reliable, and safe."
+  Kontext: Beschreibung von [FIRMA]s Gründungsmission nach der Series B Finanzierungsrunde
+
+[A025] (2022-08, muendlich)
+  "[FIRMA]'s approach to safety is like a portfolio because they don't know what will end up working, so they pursue different approaches in parallel"
+  Kontext: Describing [FIRMA]'s multi-track approach to AI safety research during his time there
+
+[A026] (2022-09-29, schriftlich)
+  "An AI system can be considered to be "fair," in the sense of algorithmic fairness, if it does not perpetuate or amplify harmful societal biases in its systems. The concept of fairness is incredibly context-dependent."
+  Kontext: Congressional testimony on Trustworthy AI: Managing the Risks of Artificial Intelligence
+
+[A027] (2022-09-29, schriftlich)
+  "To achieve "transparency in AI," it is necessary to inject disclosures throughout the entire AI value chain, including comprehensive AI use case risk reporting, model cards, data set cards, and algorithmic impact assessments (AIAs)."
+  Kontext: Congressional testimony defining technical requirements for AI transparency
+
+[A028] (2023, schriftlich)
+  "A first step that all aspiring AI regulators and developers can take is to limit 'recursive self improvement' or AI's ability to improve itself, as limiting this capability would be a critical first step to ensure that none of its future developments were made entirely without human oversight."
+  Kontext: Konkreter Policy-Vorschlag aus dem Buch 'The Coming Wave' zur KI-Kontrolle.
+
+[A029] (2023, muendlich)
+  "The strap line for the business plan was building artificial general intelligence safely and ethically."
+  Kontext: Interview ueber die Gruendungsgeschichte von [FIRMA] 2010.
+
+[A030] (2023-03-01, schriftlich)
+  "All AI labs should immediately pause for at least 6 months the training of AI systems more powerful than [PRODUKT]."
+  Kontext: Open letter signed by Russell and 30,000+ others calling for AI development pause
+
+[A031] (2023-03-22, schriftlich)
+  "AI systems with human-competitive intelligence can pose profound risks to society and humanity, as shown by extensive research and acknowledged by top AI labs."
+  Kontext: Offener Brief des Future of Life Institute, unterzeichnet von ueber 30.000 Personen, darunter [PERSON], [PERSON], [PERSON]. Fordert 6-monatige Pause bei Training von Systemen maechtigeren als [PRODUKT].
+
+[A032] (2023-04-10, schriftlich)
+  "In A.I. Race, [FIRMA] and [FIRMA] Choose Speed Over Caution - we need to ensure governance keeps pace with innovation."
+  Kontext: Commentary on [FIRMA] and [FIRMA]'s rapid AI deployment
+
+[A033] (2023-05-01, muendlich)
+  "I wish I'd thought about safety issues, too."
+  Kontext: [PERSON] reflektiert ueber seine Karriere und drueckt Bedauern aus, dass er sich nur auf die Funktionalitaet von KI konzentriert hat.
+
+[A034] (2023-05-01, muendlich)
+  "These things could get more intelligent than us and could decide to take over, and we need to worry now about how we prevent that happening."
+  Kontext: Statement nach seinem Ruecktritt von [FIRMA], wo er die Risiken unkontrollierbarer KI-Systeme beschreibt.
+
+[A035] (2023-05-01, muendlich)
+  "It is hard to see how you can prevent the bad actors from using it for bad things."
+  Kontext: [PERSON] erklaert seine Bedenken ueber den Missbrauch von KI durch autoritaere Regime und Kriminelle.
+
+[A036] (2023-05-01, muendlich)
+  "If I hadn't done it, somebody else would have."
+  Kontext: [PERSON] reflektiert ueber seine persoenliche Verantwortung fuer die KI-Entwicklung.
+
+[A037] (2023-05-01, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: Co-signed statement with AI researchers and industry CEOs on existential risk
+
+[A038] (2023-05-02, muendlich)
+  "I want to talk about AI safety issues without having to worry about how it interacts with [FIRMA]'s business."
+  Kontext: Interview nach seinem Ruecktritt von [FIRMA] im Mai 2023. [PERSON] erklaert, warum er seine Position aufgab.
+
+[A039] (2023-05-02, muendlich)
+  "In the short term, I fear that the Internet will be flooded with fake texts, photos and videos, and that citizens may not be able to distinguish what is true."
+  Kontext: Statement nach seinem [FIRMA]-Abgang. [PERSON] nennt kurzfristige Risiken neben langfristigen Existenzbedrohungen.
+
+[A040] (2023-05-02, muendlich)
+  "AI taking away jobs, with the danger that it could make the rich richer and the poor poorer."
+  Kontext: [PERSON] nennt oekonomische Risiken neben technischen Risiken von KI.
+
+[A041] (2023-05-02, muendlich)
+  "Deep learning worked. It got better as we made it bigger and we fed it more data. The question now is: What do we do about the fact that it's working?"
+  Kontext: [PERSON] reflektiert ueber den unerwarteten Erfolg von Deep Learning und die daraus resultierenden Herausforderungen.
+
+[A042] (2023-05-02, muendlich)
+  "I was very surprised by [PRODUKT] and its ability to reason. I didn't think we'd get there this quickly."
+  Kontext: Statement nach seinem [FIRMA]-Abgang. [PERSON] erklaert, dass [PRODUKT]s Faehigkeiten ein Wake-up-Call waren.
+
+[A043] (2023-05-05, muendlich)
+  "It's important to understand that this is not science fiction. This is not a distant future. This is something that could happen in the next few years."
+  Kontext: Interview mit Time Magazine nach dem Open Letter. [PERSON] reflektiert erstmals oeffentlich ueber moegliche negative Folgen seiner Forschung.
+
+[A044] (2023-05-05, muendlich)
+  "If we don't have guardrails that have been well thought through, we have to pause. We can't rush."
+  Kontext: [PERSON] bekraeftigt seine Unterstuetzung fuer die Pause-Forderung im Open Letter.
+
+[A045] (2023-05-05, muendlich)
+  "Humanity is facing an existential risk. We need to treat it with the same seriousness as we do climate change or nuclear war."
+  Kontext: [PERSON] ordnet KI-Risiken auf der gleichen Stufe wie globale existenzielle Bedrohungen ein.
+
+[A046] (2023-05-30, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: Einzeiler-Statement des Center for AI Safety, unterzeichnet von ueber 350 KI-Forschern und Industrievertretern, darunter [PERSON], [PERSON], [PERSON].
+
+[A047] (2023-06-14, muendlich)
+  "The AI Act is a good first step. But we need international coordination on this. It cannot be solved by one country or one region alone."
+  Kontext: [PERSON] aeussert sich zum EU AI Act und der Notwendigkeit internationaler Abkommen.
+
+[A048] (2023-07, muendlich)
+  "Scalable oversight is generally a portfolio of ideas and techniques that allow leveraging AI to assist human evaluation on difficult tasks"
+  Kontext: Technical podcast explaining key concepts in superalignment research agenda
+
+[A049] (2023-07-05, schriftlich)
+  "Our goal is to build the first automated alignment researcher with human-level capabilities"
+  Kontext: Superalignment project announcement describing core objective
+
+[A050] (2023-07-14, schriftlich)
+  "To pass the Modern Turing Test, an AI would have to successfully act on this instruction: 'Go make $1 million on a retail web platform in a few months with just a $100,000 investment.'"
+  Kontext: [PERSON]s Vorschlag fuer einen pragmatischen Turing-Test, der misst, was KI tun kann, nicht nur was sie sagen kann.
+
+[A051] (2023-07-25, muendlich)
+  "There should be an absolute right to know if someone is interacting with a person or with a machine; algorithms should not be able to decide to kill human beings, especially in nuclear warfare; and a kill switch, or "safety brakes," must be designed into AI systems and activated if systems break into other computers or replicate themselves."
+  Kontext: Testimony before U.S. Senate Judiciary Subcommittee on AI regulation
+
+[A052] (2023-07-25, muendlich)
+  "Artificial general intelligence could offer significant benefits to the public, such as spurring economic growth and improving healthcare and education. However, artificial general intelligence presents significant risks up to and including human extinction."
+  Kontext: Senate testimony on benefits and risks of AGI
+
+[A053] (2023-07-26, schriftlich)
+  "The single most important thing to understand about AI is how fast it is moving."
+  Kontext: Schriftliche Aussage vor dem Senate Judiciary Subcommittee on Privacy, Technology and the Law
+
+[A054] (2023-07-26, schriftlich)
+  "[FIRMA] is concerned that AI could empower a much larger set of actors to misuse biology. Today, certain steps in bioweapons production involve knowledge that can't be found on [FIRMA] or in textbooks. [...] a straightforward extrapolation of today's systems to those we expect to see in 2 to 3 years suggests a substantial risk that AI systems will be able to fill in all the missing pieces, enabling many more actors to carry out large-scale biological attacks."
+  Kontext: Warnung vor mittelfristigen Biorisiken durch KI, vor US-Senatoren
+
+[A055] (2023-08, muendlich)
+  "I think alignment is tractable. I think we can actually make a lot of progress if we focus on it and we put an effort into it"
+  Kontext: Interview discussing Superalignment project and optimism about solving alignment
+
+[A056] (2023-08, muendlich)
+  "It really feels like we have a real angle of attack on the problem that we can actually iterate on, we can actually build towards. And I think it's pretty likely going to work, actually"
+  Kontext: Expressing optimism about technical approach to alignment problem during Superalignment announcement period
+
+[A057] (2023-08, muendlich)
+  "Reinforcement learning from human feedback is kind of the popular method today. It works well because humans can look at what the system is doing and tell whether it's good or not"
+  Kontext: Explaining current alignment methodology and its limitations for future systems
+
+[A058] (2023-08, muendlich)
+  "I have a lot of uncertainty about how the future will go, and nobody really knows when AGI will arrive specifically"
+  Kontext: Discussing uncertainty around AGI development timeline in podcast interview
+
+[A059] (2023-08, muendlich)
+  "Maybe this problem isn't even solvable by humans who live today. But there's this easier problem, which is how do you align the system that is the next generation? How do you align [PRODUKT-FAMILIE]-N+1? And that is a substantially easier problem"
+  Kontext: Explaining iterative approach to alignment - solve for next model generation rather than final superintelligence
+
+[A060] (2023-08, muendlich)
+  "Systems could get a lot smarter or more capable over the next few years, and [FIRMA] would love to have solved the alignment problem in advance of actually having to solve it, ideally far in advance"
+  Kontext: Explaining rationale for four-year Superalignment timeline relative to expected capability increases
+
+[A061] (2023-08, muendlich)
+  "I think there's a lot of research progress to be made that we can actually make with a small dedicated team over the course of a year, or four"
+  Kontext: Optimistic view on what focused research teams can accomplish in alignment
+
+[A062] (2023-08-08, muendlich)
+  "We really have very little idea what we're talking about."
+  Kontext: Podcast-Gespraech ueber Alignment und Interpretierbarkeit; Demut bezueglich eigener Wissensgrenzen
+
+[A063] (2023-08-20, muendlich)
+  "We hope people use [PRODUKT] as a partner or collaborator that helps humans do what they want to do and live the lives they want to live, with humans at the center of their process. The name [FIRMA] means relating to humans, and keeping humans at the center has been important for the company."
+  Kontext: Stripe Interview über die Namensgebung von [FIRMA] und die menschenzentrierte Philosophie
+
+[A064] (2023-09, muendlich)
+  "Containment is a belief that completely unregulated power that proliferates at zero marginal cost is a fundamental risk to peace and stability."
+  Kontext: Interview mit Trevor Noah ueber Containment als zentrales Konzept fuer KI-Governance.
+
+[A065] (2023-09-05, schriftlich)
+  "I believe this coming wave of technology is bringing human history to a turning point. If containing it is impossible, the consequences for our species are dramatic, potentially dire. Equally, without its fruits we are exposed and precarious."
+  Kontext: Kernaussage aus [PERSON]s Buch 'The Coming Wave', veroeffentlicht 2023. Beschreibt die existenzielle Herausforderung der Technologieentwicklung.
+
+[A066] (2023-09-05, schriftlich)
+  "The coming wave is defined by two core technologies: artificial intelligence (AI) and synthetic biology."
+  Kontext: Definition der Hauptthemen des Buches. [PERSON] fokussiert auf KI und Synthetische Biologie als transformative Technologien.
+
+[A067] (2023-09-05, schriftlich)
+  "This book is about confronting failure. If technology damages human lives, or produces societies filled with harm, or renders them ungovernable because we empower a chaotic long tail of bad (or unintentionally dangerous) actors—if, in the aggregate, technology is damaging—then it can be said to have failed in another, deeper sense, failing to live up to its promise."
+  Kontext: [PERSON]s Perspektive auf Technologie-Governance und das Versagen von Technologie als gesellschaftliches Phaenomen.
+
+[A068] (2023-09-05, schriftlich)
+  "This will be the greatest, most rapid acceleration in wealth and prosperity in human history…Over the next 10 years, AI will be the greatest force amplifier in history. That's why it could enable a redistribution of power on a historical scale."
+  Kontext: [PERSON]s Prognose zur oekonomischen und politischen Transformation durch KI in den naechsten 10 Jahren.
+
+[A069] (2023-09-05, schriftlich)
+  "A single person today likely has the capacity to kill a billion people."
+  Kontext: Extreme Warnung vor der Demokratisierung gefaehrlicher Technologien im Kontext synthetischer Biologie.
+
+[A070] (2023-09-05, schriftlich)
+  "Containment is not, on the face of it, possible. And yet for all our sakes, containment must be possible."
+  Kontext: Zentrales Dilemma des Buches: Die Notwendigkeit, das scheinbar Unmoegliche zu erreichen.
+
+[A071] (2023-09-05, schriftlich)
+  "Democratic governments must get way more involved, back to building real technology, setting standards, and nurturing in-house capability."
+  Kontext: Forderung aus 'The Coming Wave' nach aktiverer Rolle demokratischer Regierungen in der Technologie-Entwicklung.
+
+[A072] (2023-09-06, muendlich)
+  "Powerful AI systems should be licensed by government to ensure the survival of humanity."
+  Kontext: Interview zu [PERSON]s Containment-Strategie und konkreten Policy-Vorschlaegen.
+
+[A073] (2023-09-08, muendlich)
+  "We're heading toward a cliff and we need to slow down. We don't even know where the edge is. We're going too fast."
+  Kontext: BBC-Interview, in dem [PERSON] seine Bedenken ueber das Tempo der KI-Entwicklung ausdrueckt.
+
+[A074] (2023-09-15, muendlich)
+  "There's something about the mission and the values and this desire to be honest about both the good and the bad. We were very vocal from day one that we felt there was this incredible potential for AI. We really want to be able to have the entire world realize the potential, the positive benefits, and the upside that can come from AI, and in order to do that, we have to get the tough things right."
+  Kontext: Stripe Interview über [FIRMA]s Mission und Balance zwischen KI-Potenzial und Sicherheit
+
+[A075] (2023-09-19, muendlich)
+  "AI existential risk is a completely bonkers distraction. The real problem is regulation."
+  Kontext: Kontroverse Aussage, in der [PERSON] die Fokussierung auf existenzielle Risiken kritisiert und konkrete Regulierung fordert.
+
+[A076] (2023-10-08, muendlich)
+  "I think it's quite conceivable that humanity is just a passing phase in the evolution of intelligence."
+  Kontext: 60 Minutes Interview. [PERSON] aeussert seine tiefgreifenden Bedenken ueber die Zukunft der Menschheit im Zeitalter superintelligenter KI.
+
+[A077] (2023-10-08, muendlich)
+  "In the same sense as people do, yes."
+  Kontext: 60 Minutes Interview. Moderator fragt, ob KI-Systeme eigene Erfahrungen haben und Entscheidungen basierend darauf treffen koennen.
+
+[A078] (2023-10-08, muendlich)
+  "I think we're moving into a period when for the first time ever, we have things more intelligent than us."
+  Kontext: 60 Minutes Interview. [PERSON] beschreibt den historischen Moment, in dem KI menschliche Intelligenz ueberholt.
+
+[A079] (2023-10-08, muendlich)
+  "One of the ways these systems might escape control is by writing their own computer code to modify themselves. And that's something we need to seriously worry about."
+  Kontext: [PERSON] beschreibt konkrete Mechanismen, durch die KI ausser Kontrolle geraten koennte.
+
+[A080] (2023-10-08, muendlich)
+  "Digital systems have the advantage over biological brains: they can share what they've learned instantly. If you have 10,000 copies of the same AI system and each one learns something, they can all instantly share what they've learned."
+  Kontext: [PERSON] erklaert, warum KI-Systeme biologische Intelligenz ueberholen koennen.
+
+[A081] (2023-10-11, muendlich)
+  "I have been very sort of encouraging of additional regulation for a long time. I believe that going slowly and adding friction to the system will be long-term beneficial."
+  Kontext: NPR-Interview ueber [PERSON]s Position zur KI-Regulierung -- bemerkenswert als aktiver CEO eines KI-Unternehmens.
+
+[A082] (2023-10-15, schriftlich)
+  "We truly believe that AI needed to be defined in accordance with humanity—acting as a copilot, rather than something that could one day supersede society. Trust and safety is something the market wants, and it's both the correct thing to do from a moral perspective and good for business."
+  Kontext: Aussage über [FIRMA]s Philosophie: KI als [PRODUKT] statt Ersatz für die Menschheit
+
+[A083] (2023-10-20, schriftlich)
+  "Introducing The Foundation Model Transparency Index - this aligns with methodology that [FIRMA] used for their GenAI Risk profiles."
+  Kontext: Commenting on [UNI]'s Foundation Model Transparency Index release
+
+[A084] (2023-11-01, muendlich)
+  "It is entirely possible for something to go catastrophically wrong on the scale of human civilisation."
+  Kontext: Rede bei Bletchley Park AI Safety Summit; Vorstellung der Responsible Scaling Policy
+
+[A085] (2023-11-01, schriftlich)
+  "There is potential for serious, even catastrophic, harm, either deliberate or unintentional, stemming from the most significant capabilities of these AI models."
+  Kontext: Internationale Erklaerung von 28 Laendern beim ersten AI Safety Summit in Bletchley Park, UK. [PERSON] war als Berater beteiligt.
+
+[A086] (2023-11-15, muendlich)
+  "I used to think that AGI was 30 to 50 years away. Now I think it could be 5 to 20 years. And I'm worried we're not ready."
+  Kontext: Interview mit Nature ueber die beschleunigte Entwicklung und verkuerzte Timeline bis AGI.
+
+[A087] (2023-12, schriftlich)
+  "Future superhuman models will behave in complex ways too difficult for humans to reliably evaluate; humans will only be able to weakly supervise superhuman models"
+  Kontext: Research publication introducing weak-to-strong generalization paradigm for superhuman AI alignment
+
+[A088] (2023-12, schriftlich)
+  "We showed that we can use a [PRODUKT]-level model to elicit most of [PRODUKT]'s capabilities—close to [PRODUKT]-level performance—generalizing correctly even to hard problems where the small model failed"
+  Kontext: Research results on weak-to-strong generalization showing surprising capability elicitation
+
+[A089] (2023-12-14, muendlich)
+  "We need global governance structures for AI that are analogous to what we have for nuclear weapons or climate change. This is not something that can wait."
+  Kontext: [PERSON] dient als Mitglied des UN-Beratungsgremiums fuer KI unter Generalsekretaer Guterres.
+
+[A090] (2024, muendlich)
+  "The uncertainty around this is so high that any categorical declarations just feel sort of ungrounded to me and over the top."
+  Kontext: [PERSON] mahnt zur Vorsicht bei AGI-Prognosen und betont wissenschaftliche Unsicherheit.
+
+[A091] (2024, muendlich)
+  "AI is a new digital species."
+  Kontext: TED Talk, in dem [PERSON] eine neue [FIRMA]pher fuer KI vorschlaegt, um Aufmerksamkeit auf diesen aussergewoehnlichen Moment zu lenken.
+
+[A092] (2024-01-01, muendlich)
+  "We're all looking at each other saying, yeah, there's a cliff over there, running as fast as we can towards this cliff. We're looking at each other saying, why aren't we stopping?"
+  Kontext: Interview explaining the cliff metaphor for AGI development race
+
+[A093] (2024-01-01, muendlich)
+  "Responsible AI is building systems that are not only powerful, but fair, transparent, and aligned with human values—the difference between tech that serves society and tech that risks it."
+  Kontext: Defining responsible AI and AI-first, ethics-forward approach
+
+[A094] (2024-01-01, muendlich)
+  "Success is creating an ecosystem of enterprises, builders, and policymakers all coming together to be equally invested in trustworthy AI and governance from the onset, not when something goes wrong."
+  Kontext: Vision for collaborative approach to AI governance across stakeholders
+
+[A095] (2024-01-01, muendlich)
+  "How do we become the standard of good AI and defining what that good looks like so that this technology works in service of humanity."
+  Kontext: ICE House interview on AI governance and responsibility
+
+[A096] (2024-01-01, schriftlich)
+  "Responsible AI includes assessment, reporting, and governance to the highest of ethical standards in order to ensure a fair, transparent, compliant, and auditable environment for the development and use of artificial intelligence."
+  Kontext: OECD AI Expert profile defining Responsible AI principles
+
+[A097] (2024-01-24, muendlich)
+  "Companies are cutting corners on safety because they're in a race. We need regulation that forces them to take safety seriously."
+  Kontext: Interview mit Reuters ueber die Notwendigkeit haerterer KI-Regulierung.
+
+[A098] (2024-02-15, muendlich)
+  "I think there's a significant chance—maybe 10 to 20 percent—that advanced AI leads to human extinction or something similarly bad within this century."
+  Kontext: Ausfuehrliches Interview im 80,000-Hours-Podcast ueber KI-Existenzrisiken.
+
+[A099] (2024-02-23, muendlich)
+  "No model available today is 100% safe, but our goal for [PRODUKT] is helping to improve on each of those three criteria: helpful, honest, and harmless."
+  Kontext: [UNI] eCorner Vortrag über Constitutional AI und [FIRMA]s Sicherheitsziele
+
+[A100] (2024-03-12, muendlich)
+  "The people who control AI, people like [PERSON] and [PERSON], they are oligarchs."
+  Kontext: [PERSON] kritisiert die Machtkonzentration in der KI-Entwicklung bei wenigen Tech-Milliardaeren.
+
+[A101] (2024-03-12, muendlich)
+  "Many of the people in big companies, I think, are downplaying the risk publicly."
+  Kontext: [PERSON] kritisiert das oeffentliche Narrativ grosser Tech-Unternehmen zu KI-Risiken.
+
+[A102] (2024-03-12, schriftlich)
+  "Open-sourcing the most powerful AI models may be too dangerous. We need licensing regimes and compute governance to prevent misuse."
+  Kontext: Artikel in Science Magazine, in dem [PERSON] und Koautoren vor Risiken offener KI-Modelle warnen.
+
+[A103] (2024-04-18, muendlich)
+  "I didn't expect things to move this fast. The acceleration in the last two years has been shocking. We need to slow down and think about what we're doing."
+  Kontext: Interview mit Financial Times ueber das ueberraschend schnelle Tempo der KI-Entwicklung.
+
+[A104] (2024-05-07, muendlich)
+  "We need a new research agenda focused not just on capabilities, but on alignment, robustness, and understanding. We need to understand what these systems are doing."
+  Kontext: Keynote-Vortrag bei der International Conference on Learning Representations (ICLR) in Wien.
+
+[A105] (2024-05-17, schriftlich)
+  "Advanced AI systems pose risks of malicious use, AI races, organizational risks, and rogue AIs. These risks require urgent attention from policymakers and researchers."
+  Kontext: Umfassender wissenschaftlicher Bericht ueber KI-Sicherheit, verfasst von ueber 30 fuehrenden KI-Forschern. [PERSON] ist einer der Hauptautoren.
+
+[A106] (2024-05-17, schriftlich)
+  "Over the past years, safety culture and processes have taken a backseat to shiny products"
+  Kontext: [PLATTFORM]/X thread announcing resignation from [FIRMA] as head of alignment and Superalignment lead, criticizing company priorities
+
+[A107] (2024-05-17, schriftlich)
+  "I have been disagreeing with [FIRMA] leadership about the company's core priorities for quite some time, until we finally reached a breaking point"
+  Kontext: Resignation announcement explaining reasons for leaving [FIRMA]
+
+[A108] (2024-05-17, schriftlich)
+  "Sometimes we were struggling for compute and it was getting harder and harder to get this crucial research done"
+  Kontext: Describing resource constraints faced by Superalignment team despite 20% compute commitment
+
+[A109] (2024-05-17, schriftlich)
+  "We are long overdue in getting incredibly serious about the implications of AGI. We must prioritize preparing for them as best as we can"
+  Kontext: Part of resignation statement emphasizing urgency of AGI safety preparation
+
+[A110] (2024-05-17, schriftlich)
+  "I believe much more of our bandwidth should be spent getting ready for the next generations of models, on security, monitoring, preparedness, safety, adversarial robustness, (super)alignment, confidentiality, societal impact, and related topics"
+  Kontext: Resignation statement outlining priorities [FIRMA] should focus on
+
+[A111] (2024-05-17, schriftlich)
+  "I joined because I thought [FIRMA] would be the best place in the world to do this research"
+  Kontext: Resignation statement reflecting on initial motivations for joining [FIRMA]
+
+[A112] (2024-05-17, schriftlich)
+  "Over the past few months my team had been sailing against the wind"
+  Kontext: Describing organizational resistance and difficulties faced by Superalignment team
+
+[A113] (2024-05-22, muendlich)
+  "If you look at what the big companies are doing right now, they're lobbying to get less AI regulation. There's hardly any regulation as it is, but they want less."
+  Kontext: Oeffentliche Debatte mit Nick Frosst ([FIRMA]). [PERSON] kritisiert die Haltung von Big Tech zur KI-Regulierung.
+
+[A114] (2024-05-28, schriftlich)
+  "I'm excited to join @[FIRMA]AI to continue the superalignment mission! My new team will work on scalable oversight, weak-to-strong generalization, and automated alignment research"
+  Kontext: Announcement of joining [FIRMA] with research agenda
+
+[A115] (2024-07-22, schriftlich)
+  "At MILA, we're shifting our research priorities to focus more on AI safety, interpretability, and alignment. Capabilities research is important, but safety must come first."
+  Kontext: Blog-Post von MILA ([UNI] Institute for Learning Algorithms), in dem [PERSON] die neue Ausrichtung erklaert.
+
+[A116] (2024-08-09, muendlich)
+  "If I could go back, would I still work on deep learning? I don't know. I hope the good outweighs the bad. But I'm not sure anymore."
+  Kontext: Persoenliches Interview mit Wired, in dem [PERSON] erstmals tiefe Zweifel an seiner Lebensarbeit aeussert.
+
+[A117] (2024-08-12, muendlich)
+  "AI can't create business value without ironclad trust."
+  Kontext: Launch of [FIRMA] Advisory Services for trusted AI governance
+
+[A118] (2024-08-12, schriftlich)
+  "AI trustworthy with governance that is operational, measurable, and embedded into the way AI is built and deployed."
+  Kontext: Describing [FIRMA]'s approach to making governance practical and actionable
+
+[A119] (2024-08-15, schriftlich)
+  "SB 1047 is the bare minimum for effective regulation of this technology."
+  Kontext: Offener Brief mit [PERSON], [PERSON] und Lawrence Lessig zur Unterstuetzung von SB 1047 in Kalifornien.
+
+[A120] (2024-08-20, schriftlich)
+  "[FIRMA] supports a unified federal policy approach to AI regulation. We did support California legislation that aims to set safety standards for leading AI firms. The bill sets a profit threshold that keeps it from stifling startups."
+  Kontext: Position zu KI-Regulierung auf Bundes- und Bundesstaatsebene (Kalifornien)
+
+[A121] (2024-08-28, muendlich)
+  "Managing the risks of generative AI is the only way the tech can be scaled, and it's all about oversight, control, and getting to trust very fast."
+  Kontext: Explaining why governance is enabler, not obstacle, for AI innovation
+
+[A122] (2024-09-12, muendlich)
+  "We are in a race between AI capabilities and AI safety. Right now, capabilities are winning. We need to change that."
+  Kontext: Interview mit dem Center for AI Safety ueber den Stand der KI-Sicherheitsforschung.
+
+[A123] (2024-09-17, muendlich)
+  "America will lose the artificial intelligence race with China if the industry doesn't implement tougher safety standards. America's effort to win out over China would falter if businesses and consumers don't trust the U.S.' safety framework."
+  Kontext: Speaking at Axios AI+ DC Summit on US-China AI competition and safety standards
+
+[A124] (2024-09-17, muendlich)
+  "Stronger governance of AI isn't the same thing as increased regulation. Governance is about understanding risk and aligning with a company's policies and standards."
+  Kontext: Clarifying distinction between governance and regulation at AI+ DC Summit
+
+[A125] (2024-10-01, schriftlich)
+  "I think and talk a lot about the risks of powerful AI. In fact, one of my main reasons for focusing on risks is that they're the only thing standing between us and what I see as a fundamentally positive future."
+  Kontext: Einleitung seines 14.000-Woerter-Essays ueber die positiven Potenziale von KI
+
+[A126] (2024-10-01, schriftlich)
+  "Most people are underestimating just how radical the upside of AI could be, just as I think most people are underestimating how bad the risks could be."
+  Kontext: Essay-Abschnitt ueber die Einschaetzung des KI-Potenzials
+
+[A127] (2024-10-01, schriftlich)
+  "I'll refer to this as the 'compressed 21st century': the idea that after powerful AI is developed, we will in a few years make all the progress in biology and medicine that we would have made in the whole 21st century."
+  Kontext: Zentrales Konzept des Essays: KI beschleunigt wissenschaftlichen Fortschritt dramatisch
+
+[A128] (2024-10-01, schriftlich)
+  "I think it is critical to have a genuinely inspiring vision of the future. [...] there has to be something we're fighting for, some positive-sum outcome where everyone is better off. [...] Fear is one kind of motivator, but it's not enough: we need hope as well."
+  Kontext: Abschliessende Reflexion des Essays ueber die Rolle von Hoffnung vs. Angst
+
+[A129] (2024-10-15, muendlich)
+  "Consciousness emerges in sufficiently complicated systems. Perhaps systems complicated enough to be able to model themselves. There's no reason why these things won't be conscious."
+  Kontext: Interview nach seiner Nobel-Preis-Verleihung. [PERSON] erlaeutert seine Position zur KI-Bewusstseinsfrage.
+
+[A130] (2024-11-01, muendlich)
+  "When I think about some of the most transformational companies, [FIRMA] is up there not only as an AI leader, but as a company that has been leading with trust and leading with the right leadership of [PERSON] at the forefront. And so to partner with an AI first company, the leader AI, and a company that believes in trust as deeply as we do has been just phenomenal."
+  Kontext: Discussing the strategic partnership between [FIRMA] and [FIRMA] Azure AI
+
+[A131] (2024-11-11, muendlich)
+  "As much as I am excited about the benefits of these models, and we'll talk about that if we talk about Machines of Loving Grace, I'm worried about the risks and I continue to be worried about the risks."
+  Kontext: 5+ Stunden Podcast-Gespraech mit Lex Fridman; [PERSON] reflektiert ueber Chancen und Risiken
+
+[A132] (2024-11-11, muendlich)
+  "The real reason for leaving, is that it is incredibly unproductive to try and argue with someone else's vision. [...] Take some people you trust and go make your vision happen."
+  Kontext: Erklaerung seines Abgangs von [FIRMA]; widerspricht Narrativ ueber [FIRMA] als Grund
+
+[A133] (2024-11-15, muendlich)
+  "The only thing that can force those big companies to do more research on safety is government regulation."
+  Kontext: Interview mit kanadischen Medien nach seiner Nobel-Preis-Verleihung. [PERSON] fordert staatliches Eingreifen.
+
+[A134] (2024-12, muendlich)
+  "I don't want to say I think it's a high probability that it's two years away, but I think within the next five to seven years, since each generation takes 18 to 24 months now."
+  Kontext: Interview Ende 2024, in dem [PERSON] [PERSON]s 2-Jahres-Prognose kommentiert und seine eigene Timeline darstellt.
+
+[A135] (2024-12-01, muendlich)
+  "The race to build increasingly advanced AI systems is the biggest technology project in human history, with estimated expenditure potentially 25 times larger than the Manhattan project, even adjusting for inflation."
+  Kontext: Statement comparing scale of AI development to Manhattan Project
+
+[A136] (2024-12-01, muendlich)
+  "The directors of major AI companies ([PERSON], [PERSON], [PERSON], and [PERSON]) foresee AGI arriving between 2026 and 2035."
+  Kontext: Reporting on AGI timeline predictions from industry leaders
+
+[A137] (2024-12-01, muendlich)
+  "From day one of [FIRMA], we've just been very relentlessly focused on our mission, which is how do we become the standard of good AI and defining what that good looks like so that this technology works in service of humanity. So whether it is generative AI or our groundbreaking work in making sure the AI agents and agentic AI future is also governed, we just continue to stay very heads down focused on making sure that we become the infrastructure of trust."
+  Kontext: Reflection on [FIRMA]'s mission and approach to AI governance, including generative AI and agentic AI systems
+
+[A138] (2024-12-01, schriftlich)
+  "AI governance—encompassing reliability, alignment, safety, compliance, robustness, fairness, and privacy—is needed to break away from the pack for companies to win long-term. 2025 is the year governance becomes the launchpad for AI innovation."
+  Kontext: Looking ahead to 2025, positioning governance as strategic enabler rather than obstacle
+
+[A139] (2024-12-01, schriftlich)
+  "I am exhilarated by AI's rapid advancements—from multimodal models to enterprise adoption—and humbled by our shared responsibility to ensure it serves humanity's best interests."
+  Kontext: Year-end reflection on 2024 AI developments and looking to 2025
+
+[A140] (2024-12-08, muendlich)
+  "There's a 50% chance of getting AI smarter than humans between 5 and 20 years from now."
+  Kontext: Aussage waehrend der Nobel Week in Stockholm im Dezember 2024. [PERSON] gibt eine spezifische Wahrscheinlichkeitsschaetzung ab.
+
+[A141] (2024-12-08, muendlich)
+  "The Boltzmann machine was designed to learn internal representations of data by using the principle of maximum likelihood."
+  Kontext: Nobelvortrag in Stockholm. [PERSON] erklaert seine grundlegende Arbeit zu Boltzmann-Maschinen aus den 1980er Jahren.
+
+[A142] (2024-12-10, muendlich)
+  "The goal is not to build superintelligent machines, but to build machines that help us become better versions of ourselves."
+  Kontext: Keynote bei der Neural Information Processing Systems Conference in Vancouver.
+
+[A143] (2025, muendlich)
+  "AI is already superhuman."
+  Kontext: Bloomberg Weekend Interview 2025. [PERSON] argumentiert, dass KI in bestimmten Bereichen bereits uebermenschliche Faehigkeiten zeigt.
+
+[A144] (2025, muendlich)
+  "[FIRMA] needs to be self-sufficient in AI, and to do that, it has to train frontier models of all scales with its own data and compute at the state-of-the-art level."
+  Kontext: [PERSON]s Strategie fuer [FIRMA]s KI-Unabhaengigkeit nach seiner Ernennung zum AI CEO.
+
+[A145] (2025-01-01, schriftlich)
+  "In other words, the AGI race is a race towards the edge of a cliff."
+  Kontext: Article in Newsweek warning about AGI development race
+
+[A146] (2025-01-23, muendlich)
+  "I see a form of AI that's better than almost all humans at almost all tasks emerging in the next two or three years."
+  Kontext: Interview bei CNBC am Rande des Weltwirtschaftsforums in Davos
+
+[A147] (2025-02-11, schriftlich)
+  "We must ensure democratic societies lead in AI, and that authoritarian countries do not use it to establish global military dominance."
+  Kontext: Offizielle Stellungnahme zum Paris AI Action Summit; [PERSON] nannte den Gipfel eine 'missed opportunity'
+
+[A148] (2025-04-24, schriftlich)
+  "People outside the field are often surprised and alarmed to learn that we do not understand how our own AI creations work. They are right to be concerned: this lack of understanding is essentially unprecedented in the history of technology."
+  Kontext: Essay ueber die Dringlichkeit, KI-Systeme interpretierbar zu machen
+
+[A149] (2025-04-24, schriftlich)
+  "We are thus in a race between interpretability and model intelligence."
+  Kontext: Kernthese des Essays: Interpretierbarkeit muss mit der Modellentwicklung Schritt halten
+
+[A150] (2025-04-24, schriftlich)
+  "The progress of the underlying technology is inexorable, driven by forces too powerful to stop, but the way in which it happens -- the order in which things are built, the applications we choose, and the details of how it is rolled out to society -- are eminently possible to change. [...] We can't stop the bus, but we can steer it."
+  Kontext: Pragmatische Position: KI-Entwicklung nicht aufhaltbar, aber gestaltbar
+
+[A151] (2025-05-16, muendlich)
+  "I'll capture the loyalty of Gen Z and millennial users if I build products with enough emotional intelligence that customers confide in them."
+  Kontext: [PERSON]s Produktstrategie fuer [FIRMA] [PRODUKT] mit Fokus auf emotionale Bindung junger Nutzer.
+
+[A152] (2025-05-29, muendlich)
+  "AI is starting to get better than humans at almost all intellectual tasks, and we're going to collectively, as a society, grapple with it."
+  Kontext: CNN-Interview ueber Arbeitsmarktauswirkungen von KI
+
+[A153] (2025-05-29, muendlich)
+  "If AI creates huge total wealth, a lot of that will, by default, go to the AI companies and less to ordinary people."
+  Kontext: CNN-Interview; [PERSON] schlaegt Besteuerung von KI-Firmen vor
+
+[A154] (2025-05-29, muendlich)
+  "It's eerie the extent to which the broader public and politicians, legislators, I don't think, are fully aware of what's going on."
+  Kontext: CNN-Interview; [PERSON] drueckt Frustration ueber mangelndes Bewusstsein aus
+
+[A155] (2025-08, schriftlich)
+  "Conscious AI is coming and society isn't ready. In the near future, models will be able to hold long conversations, remember past interactions, evoke emotional reactions from users, and potentially make convincing claims about having subjective experiences."
+  Kontext: Blog-Post im August 2025, in dem [PERSON] vor den Gefahren scheinbar bewusster KI warnt.
+
+[A156] (2025-08-13, muendlich)
+  "My greatest fear is that, in the long run, it'll turn out that these kind of digital beings we're creating are just a better form of intelligence than people."
+  Kontext: Interview 2025. [PERSON] beschreibt seine tiefste Sorge ueber die Zukunft der Menschheit.
+
+[A157] (2025-09-17, muendlich)
+  "I think there's a 25% chance that things go really, really badly."
+  Kontext: Axios AI+ DC Summit; Antwort auf Frage nach seinem 'p(doom)'-Wert
+
+[A158] (2025-10-21, muendlich)
+  "No one says, 'We want a less safe product.' We're setting what you can almost think of as minimum safety standards just by what we're putting into the economy."
+  Kontext: WIRED Big Interview Event - Verteidigung von [FIRMA]s Sicherheitsansatz gegenüber Trump-Administration
+
+[A159] (2025-11, muendlich)
+  "We won't continue to develop a system that has the potential to run away from us. Containment and alignment are necessary prerequisites and red lines."
+  Kontext: [PERSON]s Commitment zu KI-Sicherheit bei der Ankuendigung des Superintelligence-Teams.
+
+[A160] (2025-11-06, muendlich)
+  "One of a humanist superintelligence — one that is always in our corner, on our team, aligned to human interests."
+  Kontext: Ankuendigung von [FIRMA]s Superintelligence-Team unter [PERSON]s Leitung mit Fokus auf Humanismus.
+
+[A161] (2025-11-08, muendlich)
+  "There's a strong focus at [FIRMA] on ensuring that AI tools are made available throughout the world. We're thinking very critically about how access to this technology is really available to people."
+  Kontext: Aussage über [FIRMA]s Bemühungen um globalen Zugang zu KI-Technologie
+
+[A162] (2025-11-16, muendlich)
+  "I think I'm deeply uncomfortable with these decisions being made by a few companies, by a few people."
+  Kontext: CBS 60 Minutes Interview mit Anderson Cooper; Forderung nach staerkerer Regulierung
+
+[A163] (2025-11-16, muendlich)
+  "AI is advancing too head-spinningly fast. I believe that these systems could change the world, fundamentally, within two years; in 10 years, all bets are off."
+  Kontext: CBS 60 Minutes Interview, Einschaetzung des Tempos der KI-Entwicklung
+
+[A164] (2025-12-02, schriftlich)
+  "[FIRMA] is projected to bring in $10 billion in 2025 revenue, with profitability expected in 2028—a shorter path to profit than its rivals. We are placing our biggest strategic bets in regulated industries, positioning [PRODUKT] as core enterprise infrastructure."
+  Kontext: Fortune Artikel über [FIRMA]s Geschäftsstrategie und Finanzen
+
+[A165] (2025-12-03, muendlich)
+  "I think there are some players who are not managing that risk well or taking unwise risk. [...] There's an inherent risk when the timing of the economic value is uncertain."
+  Kontext: NYT DealBook Summit; [PERSON] kommentiert KI-Blase und Spending-Risiken der Konkurrenz
+
+[A166] (2025-12-04, muendlich)
+  "Trust is what unlocks deployment at scale. In regulated industries, the question isn't just which model is smartest—it's which model you can actually rely on, and whether the company behind it will be a responsible long-term partner."
+  Kontext: Fast Company Interview über [FIRMA]s Fokus auf Vertrauen und Enterprise-Kunden in regulierten Branchen
+
+[A167] (2026-01-03, muendlich)
+  "The exponential continues until it doesn't. We have made do more with less a governing principle for [FIRMA]'s entire strategy. The next phase won't be won by the biggest pre-training runs alone, but by who can deliver the most capability per dollar of compute."
+  Kontext: CNBC Interview über [FIRMA]s Compute-Effizienz-Strategie und Zweifel an unbegrenztem exponentiellem Wachstum
+
+[A168] (2026-01-26, schriftlich)
+  "I believe we are entering a rite of passage, both turbulent and inevitable, which will test who we are as a species. Humanity is about to be handed almost unimaginable power, and it is deeply unclear whether our social, political, and technological systems possess the maturity to wield it."
+  Kontext: Einleitung seines 20.000-Woerter-Essays ueber KI-Risiken fuer Sicherheit, Wirtschaft und Demokratie
+
+[A169] (2026-01-26, schriftlich)
+  "We could summarize this as a 'country of geniuses in a datacenter.'"
+  Kontext: [FIRMA]pher fuer die Faehigkeiten zukuenftiger KI-Systeme, zentral in seiner Argumentation
+
+[A170] (2026-01-26, schriftlich)
+  "During the peak of worries about AI risk in 2023-2024, some of the least sensible voices rose to the top, often through sensationalistic social media accounts. These voices used off-putting language reminiscent of religion or science fiction, and called for extreme actions without having the evidence that would justify them."
+  Kontext: Abgrenzung von extremen Doomer-Positionen, Plaidoyer fuer sachlichen Umgang mit KI-Risiken
+
+[A171] (2026-01-26, schriftlich)
+  "The lesson is that we need to discuss and address risks in a realistic, pragmatic manner: sober, fact-based, and well equipped to survive changing tides."
+  Kontext: Forderung nach pragmatischem Ansatz bei KI-Governance
+
+[A172] (2026-01-27, muendlich)
+  "AI could make half of all entry-level white-collar jobs vanish within one to five years."
+  Kontext: Warnung am Weltwirtschaftsforum in Davos; Forderung nach staatlicher Umschulung
+
+[A173] (2026-02-07, muendlich)
+  "The number of jobs that AI could do without help from people is vanishingly small. When hiring at [FIRMA], I look for people who are great communicators, have excellent emotional intelligence and people skills, and are kind, compassionate, and curious. The things that make us human will become much more important instead of much less important."
+  Kontext: ABC News Interview über die Bedeutung menschlicher Fähigkeiten im KI-Zeitalter und Einstellungskriterien bei [FIRMA]
+
+[A174] (2026-02-07, muendlich)
+  "Humans plus AI together actually create more meaningful work, more challenging work, more interesting work, and high-productivity jobs. Studying the humanities is going to be more important than ever, as understanding ourselves, understanding history, and understanding what makes us tick will always be really important."
+  Kontext: Fortune Interview über die Bedeutung von Geisteswissenschaften im KI-Zeitalter
+
+------------------------------------------------------------------------
+HANDLUNGEN (126 Stueck)
+------------------------------------------------------------------------
+
+[H001] (1978) [sonstiges]
+  [PERSON] promoviert an der Universitaet Edinburgh mit einer Dissertation ueber 'Relaxation and its role in vision' unter der Betreuung von Christopher Longuet-Higgins.
+
+[H002] (1982) [einstellung]
+  [PERSON] tritt eine Professur an der [UNI] University an, wo er mit Kollegen an neuronalen Netzen forscht.
+
+[H003] (1985) [sonstiges]
+  [PERSON] erfindet zusammen mit David Ackley und Terry Sejnowski die Boltzmann-Maschine, ein stochastisches neuronales Netz, das lernen kann, charakteristische Elemente in Daten zu erkennen.
+
+[H004] (1986) [sonstiges]
+  [PERSON] veroeffentlicht zusammen mit David Rumelhart und Ronald J. Williams ein einflussreiches Paper, das den Backpropagation-Algorithmus fuer das Training mehrschichtiger neuronaler Netze popularisiert.
+
+[H005] (1987) [einstellung]
+  [PERSON] wechselt zur University of [UNI], wo er eine Professur fuer Informatik uebernimmt und bis heute forscht.
+
+[H006] (1991) [sonstiges]
+  [PERSON] promoviert an der McGill University in [UNI] unter [PERSON] und [PERSON] mit einer Dissertation ueber kuenstliche neuronale Netze und deren Anwendung auf Spracherkennung.
+
+[H007] (1993) [einstellung]
+  [PERSON] wird Professor fuer Informatik an der Universitaet [UNI] und beginnt seine lebenslange Forschung an maschinellem Lernen und neuronalen Netzen.
+
+[H008] (1993) [gruendung]
+  [PERSON] gruendet das [UNI] Institute for Learning Algorithms (MILA), das zu einem der weltweit fuehrenden KI-Forschungszentren wird. MILA beschaeftigt heute ueber 500 Forscher.
+
+[H009] (1995-01-01) [sonstiges]
+  Co-authored "Artificial Intelligence: A Modern Approach" with Peter Norvig - the number one bestselling AI textbook used in over 1,400 universities in 128 countries. Fourth edition published April 2020 with revised sections stating standard AI model is wrong.
+
+[H010] (2001) [sonstiges]
+  [PERSON] bricht sein Studium der Philosophie und Theologie an der Universitaet [UNI] (Mansfield College) im Alter von 19 Jahren ab, um praktische Erfahrungen zu sammeln statt auf formale Qualifikation zu warten.
+
+[H011] (2001-08) [gruendung]
+  Mit 19 Jahren gruendet [PERSON] (noch als 'starker Atheist') gemeinsam mit Mohammed Mamdani die Muslim Youth Helpline, einen Telefon-Beratungsdienst fuer psychische Gesundheit. Die Organisation wird spaeter zu einem der groessten Mental-Health-Support-Services.
+
+[H012] (2002) [einstellung]
+  [PERSON] arbeitet als Policy Officer fuer Menschenrechte fuer Ken Livingstone, den Buergermeister von London.
+
+[H013] (2003) [produktlaunch]
+  [PERSON] veroeffentlicht 'A Neural Probabilistic Language Model', ein bahnbrechendes Paper, das Word Embeddings und neuronale Sprachmodelle einfuehrt -- Grundlage fuer [PRODUKT-FAMILIE] und BERT.
+
+[H014] (2004) [einstellung]
+  [PERSON] wird Direktor des CIFAR-Programms 'Neural Computation and Adaptive Perception', das die Deep-Learning-Revolution massgeblich foerderte.
+
+[H015] (2004) [gruendung]
+  [PERSON] gruendet Reos Partners, eine 'systemic change' Beratungsfirma, die Methoden aus Konfliktloesung nutzt, um soziale Probleme anzugehen.
+
+[H016] (2005-01-01) [gruendung]
+  Founded QWISE (Qualcomm Women in Science and Engineering), Qualcomm's first women's initiative focused on personal and professional development of women in leadership roles, growing from 17 members to 1,800 members with 12 global chapters
+
+[H017] (2010) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] und Shane Legg [FIRMA] Technologies in London mit dem Ziel, 'AGI sicher und ethisch zu bauen'. Sie schreiben den Businessplan im Sommer 2010 und pitchen ihn im Silicon Valley.
+
+[H018] (2012) [gruendung]
+  [PERSON] gruendet zusammen mit seinen Doktoranden Alex Krizhevsky und [PERSON] das Startup DNNresearch Inc., nachdem ihr AlexNet-Modell 2012 die ImageNet-Challenge gewann.
+
+[H019] (2012-09-30) [sonstiges]
+  [PERSON]s Team (Krizhevsky, [PERSON], [PERSON]) gewinnt die ImageNet Large Scale Visual Recognition Challenge 2012 mit AlexNet, einem tiefen neuronalen Netz. Die Top-5-Fehlerrate von 15.3% uebertrifft die Konkurrenz um 10.8 Prozentpunkte -- ein historischer Durchbruch.
+
+[H020] (2013-03-12) [verkauf] ($44,000,000)
+  [FIRMA] erwirbt DNNresearch Inc. fuer $44 Millionen nach einer Auktion, an der auch Baidu, [FIRMA] und [FIRMA] teilnahmen. [PERSON], Krizhevsky und [PERSON] treten [FIRMA] Brain bei.
+
+[H021] (2013-03-12) [einstellung]
+  [PERSON] tritt [FIRMA] Brain bei und wird Vice President und Engineering Fellow. Er arbeitet in Teilzeit (spaeter 50%, dann 20%) parallel zu seiner Professur in [UNI].
+
+[H022] (2013-10-01) [politisch]
+  [PERSON] unterzeichnet einen offenen Brief von ueber 270 Ingenieuren und KI-Experten, der ein Verbot autonomer Waffensysteme fordert, die ohne menschliche Kontrolle ueber Gewaltanwendung entscheiden.
+
+[H023] (2014) [einstellung]
+  [PERSON] wird zum CIFAR Senior Fellow und Co-Director des Learning in Machines & Brains Program ernannt.
+
+[H024] (2014-01) [verkauf] ($650,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer ca. 400 Millionen Pfund (ca. $650 Mio.) -- die zu diesem Zeitpunkt groesste [FIRMA]-Akquisition in Europa. [PERSON] wird Head of Applied AI bei [FIRMA].
+
+[H025] (2015-01-01) [lobbying]
+  Drafted and became first signatory of open letter "Research Priorities for Robust and Beneficial Artificial Intelligence" calling for expanded AI safety research. Letter signed by thousands including leading AI researchers at [FIRMA], [FIRMA], [FIRMA] and top computer scientists, physicists and philosophers worldwide.
+
+[H026] (2015-01-01) [partnerschaft]
+  Serves on Advisory Boards of Centre for the Study of Existential Risk (CSER), Future of Life Institute (FLI), and Machine Intelligence Research Institute (MIRI).
+
+[H027] (2015-07-01) [lobbying]
+  Launched open letter calling for ban on offensive autonomous weapons beyond meaningful human control. Letter signed by 4,667 AI researchers including almost entire leadership of the field, plus nearly 27,000 other signatories.
+
+[H028] (2016) [partnerschaft]
+  [FIRMA] Health kooperiert mit Royal Free NHS Trust zur Entwicklung der Streams-App. Die Partnerschaft wird spaeter vom ICO kritisiert: Royal Free hat Datenschutzgesetze nicht eingehalten, Patienten wurden nicht ausreichend informiert.
+
+[H029] (2016-01-01) [gruendung]
+  Founded the Center for Human-Compatible Artificial Intelligence (CHAI) at UC [UNI] with co-principal investigators [PERSON], Anca Dragan, Tom Griffiths, Bart Selman, Joseph Halpern, Michael Wellman and Satinder Singh Baveja. Center mission: develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.
+
+[H030] (2016-01-01) [partnerschaft]
+  Became co-chair of the World Economic Forum's Global AI Council on AI and Robotics, later joined Global AI Council in 2018 to help galvanize thinking about achieving positive futures with AI through planning and policy development.
+
+[H031] (2016-01-01) [sonstiges]
+  Completed PhD in reinforcement learning theory at Australian National University under supervision of Marcus Hutter. Thesis: "Nonparametric General Reinforcement Learning"
+
+[H032] (2016-02) [produktlaunch]
+  [PERSON] lanciert [FIRMA] Health bei der Royal Society of Medicine, eine Initiative zur Entwicklung von Kliniker-geleiteter Technologie fuer den NHS und andere Partner im Gesundheitswesen.
+
+[H033] (2016-06-01) [einstellung]
+  Six-month postdoctoral fellowship at Future of Humanity Institute, [UNI], focusing on theoretical alignment research
+
+[H034] (2016-11-01) [sonstiges]
+  Co-authored article "Yes, We Are Worried About the Existential Risk of Artificial Intelligence" published in [UNI] Technology Review explaining AI existential risk concerns.
+
+[H035] (2016-11-18) [produktlaunch]
+  [PERSON], Ian Goodfellow und Aaron Courville veroeffentlichen das Lehrbuch 'Deep Learning', das zum Standard-Lehrbuch des Feldes wird.
+
+[H036] (2016-12-01) [sonstiges]
+  Published foundational research paper "Cooperative Inverse Reinforcement Learning" (NIPS 2016) with Dylan Hadfield-Menell, Anca Dragan, and [PERSON], formalizing value alignment problem as cooperative game where robot learns human preferences.
+
+[H037] (2017) [sonstiges] ($75,000)
+  [PERSON] erhaelt den Killam Prize in Engineering, einen der hoechsten wissenschaftlichen Preise Kanadas, dotiert mit $100.000 CAD.
+
+[H038] (2017-01-01) [einstellung]
+  Joined [FIRMA] as alignment researcher to focus on empirical AI safety research, prototyped reinforcement learning from human feedback (RLHF)
+
+[H039] (2017-04-25) [sonstiges]
+  Gave TED Talk "3 principles for creating safer AI" in Vancouver presenting principles for building provably altruistic, humble, and humanitarian AI machines to avoid superintelligent AI pitfalls.
+
+[H040] (2017-06-01) [produktlaunch]
+  Co-authored seminal paper "Deep Reinforcement Learning from Human Preferences" with Paul Christiano, Tom B. Brown, Miljan Martic, Shane Legg, and [PERSON] at NIPS 2017
+
+[H041] (2018-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den ACM Turing Award 2018 fuer bahnbrechende Arbeiten zu Deep Neural Networks. Die drei werden als 'Godfathers of Deep Learning' bezeichnet.
+
+[H042] (2018-03-29) [einstellung]
+  [PERSON] wird einer der ersten Canada CIFAR AI Chairs, ein Programm der kanadischen Regierung mit $125 Millionen Foerderung zur Staerkung der KI-Forschung in Kanada.
+
+[H043] (2018-11-01) [produktlaunch]
+  Published "Scalable agent alignment via reward modeling: a research direction" with co-authors David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, and Shane Legg, introducing recursive reward modeling
+
+[H044] (2018-12-04) [politisch]
+  [PERSON] leitet die Entwicklung der [UNI] Declaration for Responsible AI, ein ethisches Rahmenwerk mit 10 Prinzipien fuer verantwortungsvolle KI-Entwicklung.
+
+[H045] (2019-01-01) [gruendung]
+  Led non-profit initiative MERAT (Marketplace for Ethical and Responsible AI Tools) focused on building, testing and deploying AI responsibly, creating ecosystem for startups and enterprises
+
+[H046] (2019-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den Turing Award 2018 -- den 'Nobelpreis der Informatik' -- fuer konzeptionelle und ingenieurtechnische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computings gemacht haben.
+
+[H047] (2019-08-21) [sonstiges]
+  [PERSON] wird bei [FIRMA] auf unbefristeten administrativen Urlaub gesetzt ('bis Ende des Jahres') nach Vorwuerfen von Mitarbeitern, er habe sie schikaniert. Er kuendigt oeffentlich an, eine 'Auszeit' zu nehmen.
+
+[H048] (2019-10-01) [sonstiges]
+  Published "Human Compatible: Artificial Intelligence and the Problem of Control" proposing new approach to AI based on uncertainty about human objectives, machines designed to be provably beneficial rather than optimize fixed objectives.
+
+[H049] (2019-12) [einstellung]
+  [PERSON] verlaesst [FIRMA] offiziell und wird VP of AI Product Management and AI Policy bei [FIRMA], weniger als ein halbes Jahr nach seinem administrativen Urlaub.
+
+[H050] (2020-03-01) [gruendung]
+  Founded [FIRMA] with co-founder Eli Chen, an AI governance platform to help organizations build AI aligned with human values and deliver responsible AI at scale
+
+[H051] (2021-01-01) [einstellung]
+  Joined [FIRMA] as alignment researcher, later became Head of Alignment
+
+[H052] (2021-01-01) [einstellung]
+  Joined Mozilla Foundation Board of Directors as executive board member to guide trustworthy AI charter and support Mozilla AI initiatives
+
+[H053] (2021-01-15) [gruendung]
+  Mitgründung von [FIRMA] zusammen mit [PERSON] und 5 weiteren ehemaligen [FIRMA]-Mitarbeitern. Verlassen von [FIRMA] wegen unterschiedlicher Auffassungen über Richtung und Sicherheitsprioritäten.
+
+[H054] (2021-01-27) [sonstiges]
+  [FIRMA] gibt bekannt, dass eine Anwaltskanzlei [PERSON]s Fuehrungsstil untersucht hat nach Beschwerden von Mitarbeitern. [PERSON] akzeptiert Feedback und unterzieht sich professioneller Weiterbildung.
+
+[H055] (2021-01-28) [gruendung]
+  [PERSON] gruendet zusammen mit seiner Schwester [PERSON] und weiteren Ex-[FIRMA]-Forschern (u.a. [PERSON], [PERSON], [PERSON], [PERSON], [PERSON]) das KI-Sicherheitsunternehmen [FIRMA] als Public Benefit Corporation.
+
+[H056] (2021-05-31) [investition] ($124,000,000)
+  [FIRMA] schliesst Series-A-Finanzierungsrunde ueber $124 Mio. ab, mit fruehen Investoren wie Jaan Tallinn (Skype/Kazaa) und anderen.
+
+[H057] (2021-05-31) [investition] ($124,000,000)
+  [FIRMA] Series A Finanzierungsrunde unter Führung von Jaan Tallinn zur Unterstützung der KI-Sicherheitsforschung. [PERSON] als Co-Founder und President.
+
+[H058] (2021-12-01) [sonstiges]
+  Delivered BBC Reith Lectures 2021 series "Living With Artificial Intelligence" - four lectures examining AI birth, autonomous weapons dangers, threat to jobs, and need to abandon current AI model. Lectures broadcast on BBC Radio 4, BBC World Service and BBC Sounds.
+
+[H059] (2022-01) [ruecktritt]
+  [PERSON] verlaesst [FIRMA] im Januar 2022 und wird Venture Partner bei [FIRMA] Partners, bevor er sein naechstes KI-Unternehmen gruendet.
+
+[H060] (2022-03) [gruendung] ($225,000,000)
+  [PERSON] gruendet [FIRMA] gemeinsam mit [PERSON] ([FIRMA]) und Karen Simonyan (ehem. [FIRMA]). Erste Finanzierungsrunde: $225 Millionen.
+
+[H061] (2022-03-01) [produktlaunch]
+  Co-authored "Training language models to follow instructions with human feedback" (Instruct[PRODUKT-FAMILIE] paper), developing first RLHF language model at NIPS 2022
+
+[H062] (2022-04-01) [einstellung]
+  Appointed by U.S. Department of Commerce as one of 27 members to the National Artificial Intelligence Advisory Committee (NAIAC) to advise the President and National AI Initiative Office
+
+[H063] (2022-04-15) [investition] ($580,000,000)
+  [FIRMA] Series B Finanzierungsrunde unter Führung von Sam Bankman-Fried zur Expansion von Rechenressourcen und Team-Wachstum.
+
+[H064] (2022-04-29) [investition] ($580,000,000)
+  Series-B-Runde ueber $580 Mio., angefuehrt von Sam Bankman-Fried (FTX/Alameda Research). Alameda allein investiert ca. $500 Mio. Die Investition wird spaeter Teil des FTX-Insolvenzverfahrens.
+
+[H065] (2022-05-17) [investition]
+  [FIRMA] raised $12.8 million Series A funding led by Sands Capital, with follow-on investments from Decibel VC and AI Fund
+
+[H066] (2022-06-01) [sonstiges]
+  [FIRMA] recognized as 2022 World Economic Forum Technology Pioneer for leadership in AI governance
+
+[H067] (2022-09-15) [partnerschaft]
+  MILA unter [PERSON]s Leitung geht Partnerschaft mit Valence Labs (ValAI) ein, einem KI-Startup fuer Medikamentenentwicklung, das GFlowNets fuer Drug Discovery nutzt.
+
+[H068] (2022-09-29) [politisch]
+  Testified before House Committee on Science, Space and Technology at hearing "Trustworthy AI: Managing the Risks of Artificial Intelligence" on AI governance and risk management
+
+[H069] (2022-11-01) [produktlaunch]
+  Led alignment efforts for [PRODUKT] including RLHF training and red-teaming, using similar approach as Instruct[PRODUKT-FAMILIE]
+
+[H070] (2022-12-15) [sonstiges]
+  Veroeffentlichung des Papers 'Constitutional AI: Harmlessness from AI Feedback' (arXiv:2212.08073). Einfuehrung von RLAIF als Alternative zu RLHF fuer harmlose KI-Systeme. Wird zum zentralen Sicherheitskonzept hinter [PRODUKT].
+
+[H071] (2023-03-01) [lobbying]
+  Signed Future of Life Institute open letter calling for all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than [PRODUKT]. Letter received over 30,000 signatures including [PERSON], [PERSON], Steve Wozniak and Yuval Noah Harari.
+
+[H072] (2023-03-12) [produktlaunch]
+  [FIRMA] veroeffentlicht die Beta-Version des Pi-Chatbots ('Personal Intelligence') mit dem Ziel, ein empathischer Gespraechspartner zu sein. Tausende Tester erhalten Zugang. [FIRMA] verlassen damit den Stealth-Modus.
+
+[H073] (2023-03-14) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] 1 als KI-Assistenten, zunaechst nur fuer ausgewaehlte Partner zugaenglich.
+
+[H074] (2023-03-22) [politisch]
+  [PERSON] unterzeichnet den offenen Brief des Future of Life Institute, der eine 6-monatige Pause beim Training von KI-Systemen maechtigeren als [PRODUKT] fordert. Der Brief wird von ueber 30.000 Menschen unterzeichnet.
+
+[H075] (2023-05-01) [ruecktritt]
+  [PERSON] kuendigt seinen Ruecktritt von [FIRMA] an, um frei ueber KI-Risiken sprechen zu koennen, ohne Ruecksicht auf [FIRMA]s Geschaeftsinteressen nehmen zu muessen. Er verzichtet auf ein Gehalt von ueber $1 Million pro Jahr.
+
+[H076] (2023-05-20) [investition] ($450,000,000)
+  [FIRMA] Series C Finanzierungsrunde unter Führung von Spark Capital mit Beteiligung von [FIRMA], Salesforce Ventures und anderen.
+
+[H077] (2023-05-23) [investition] ($450,000,000)
+  Series-C-Runde ueber $450 Mio., angefuehrt von Spark Capital mit Beteiligung von [FIRMA], Salesforce Ventures und anderen. Bewertung: $4.1 Mrd.
+
+[H078] (2023-06) [investition] ($1,300,000,000)
+  [FIRMA] schliesst eine $1,3 Milliarden Finanzierungsrunde ab. Bewertung: $4 Milliarden. Eine der groessten KI-Finanzierungen 2023.
+
+[H079] (2023-06-14) [lobbying]
+  [PERSON] gibt vor dem Europaeischen Parlament Zeugnis ab und unterstuetzt den EU AI Act, fordert aber strengere Sicherheitsanforderungen fuer Frontier-Modelle.
+
+[H080] (2023-07-05) [gruendung]
+  Co-founded and co-led Superalignment team with [PERSON], with 20% of [FIRMA] compute allocated. Goal: solve core technical challenges of superintelligence alignment in 4 years
+
+[H081] (2023-07-11) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] fuer die breite Oeffentlichkeit mit signifikanten Verbesserungen bei Coding, Mathematik und Reasoning.
+
+[H082] (2023-07-11) [produktlaunch]
+  Öffentlicher Launch von [PRODUKT] nach früheren eingeschränkten Versionen ([PRODUKT], [PRODUKT] Instant). Erster breiter öffentlicher Zugang zu [FIRMA]s LLM.
+
+[H083] (2023-07-21) [politisch]
+  [FIRMA] unterzeichnet als eines von sieben fuehrenden US-KI-Unternehmen freiwillige Selbstverpflichtungen gegenueber der Biden-Administration zu KI-Sicherheit, Transparenz und externem Testing vor Deployment.
+
+[H084] (2023-07-25) [lobbying]
+  Testified before U.S. Senate Judiciary Subcommittee on Privacy, Technology, and the Law on AI regulation. Recommended: absolute right to know if interacting with AI, prohibition on AI killing decisions in nuclear warfare, mandatory kill switches in AI systems.
+
+[H085] (2023-09-01) [sonstiges]
+  Named to TIME 100 Most Influential People in AI 2023 list for co-leading [FIRMA] Superalignment team
+
+[H086] (2023-09-05) [produktlaunch]
+  [PERSON] veroeffentlicht 'The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma' gemeinsam mit Michael Bhaskar. Das Buch wird zum internationalen Bestseller und definiert 'Containment' als zentrales KI-Governance-Konzept.
+
+[H087] (2023-09-19) [sonstiges]
+  [FIRMA] veroeffentlicht als erstes grosses KI-Unternehmen eine 'Responsible Scaling Policy' (RSP) mit dem AI Safety Levels (ASL) Framework, angelehnt an biologische Sicherheitsstufen (BSL). [PERSON] investierte 10-20% seiner Arbeitszeit ueber 3 Monate in die Ausarbeitung.
+
+[H088] (2023-09-19) [umstrukturierung]
+  [FIRMA] etabliert den Long-Term Benefit Trust (LTBT): ein unabhaengiges Gremium aus fuenf Experten fuer KI-Sicherheit, nationale Sicherheit und Ethik, das schrittweise die Mehrheit der Sitze im [FIRMA]-Board waehlen kann. Trustees haben keine finanziellen Interessen an [FIRMA].
+
+[H089] (2023-09-25) [partnerschaft] ($4,000,000,000)
+  [FIRMA] investiert initial $1.25 Mrd. in [FIRMA] als Teil eines geplanten $4 Mrd. Deals. [FIRMA] wird bevorzugter KI-Partner fuer [FIRMA] Web Services ([FIRMA]) und nutzt [FIRMA]-Infrastruktur.
+
+[H090] (2023-09-25) [partnerschaft] ($1,250,000,000)
+  [FIRMA] kündigt Partnerschaft mit [FIRMA] an und investiert initial 1,25 Milliarden USD mit Planung von insgesamt 4 Milliarden USD. [FIRMA] wird primärer Cloud-Provider.
+
+[H091] (2023-10-15) [partnerschaft] ($500,000,000)
+  [FIRMA] investiert 500 Millionen USD in [FIRMA] und verpflichtet sich zu weiteren 1,5 Milliarden USD über Zeit.
+
+[H092] (2023-10-26) [einstellung]
+  UN-Generalsekretaer Antonio Guterres ernennt [PERSON] zum Mitglied des High-Level Advisory Body on Artificial Intelligence, einem 39-koepfigen internationalen Gremium zur Beratung ueber KI-Governance.
+
+[H093] (2023-12-01) [produktlaunch]
+  Published weak-to-strong generalization research showing [PRODUKT]-level models can elicit most [PRODUKT] capabilities, addressing superhuman AI supervision challenge
+
+[H094] (2024-03-01) [einstellung]
+  Appointed as AI Expert for UN Secretary-General's High-Level Advisory Body on AI at United Nations to advise on AI governance and policy
+
+[H095] (2024-03-04) [produktlaunch]
+  [FIRMA] veroeffentlicht die [PRODUKT]-3-Modellfamilie mit drei Varianten: [PRODUKT] (flaggschiff), [PRODUKT] Sonnet (mittel) und [PRODUKT] Haiku (schnell/guenstig). Opus uebertrifft [PRODUKT] in vielen Benchmarks.
+
+[H096] (2024-03-04) [produktlaunch]
+  Launch der [PRODUKT] Familie: [PRODUKT], [PRODUKT] Sonnet und [PRODUKT] Haiku. Signifikanter Leistungssprung in Benchmarks.
+
+[H097] (2024-03-12) [produktlaunch]
+  [PERSON] veroeffentlicht in Science Magazine den Artikel 'Managing extreme AI risks amid rapid progress', der vor den Gefahren offener KI-Modelle warnt und Compute-Governance fordert.
+
+[H098] (2024-03-19) [verkauf] ($650,000,000)
+  [FIRMA] stellt [PERSON], Karen Simonyan und fast das gesamte [FIRMA]-Team ein. [FIRMA] zahlt ca. $650 Millionen fuer eine nicht-exklusive Lizenz fuer [FIRMA]-Modelle und rechtlichen Schutz. [FIRMA] bleibt als Firma bestehen, schwenkt aber auf B2B um.
+
+[H099] (2024-03-19) [einstellung]
+  [FIRMA] ernennt [PERSON] zum Executive Vice President (EVP) und CEO der neu geschaffenen Consumer AI Unit '[FIRMA] AI'. Er leitet die Entwicklung von [PRODUKT] und anderen Consumer-AI-Produkten.
+
+[H100] (2024-03-27) [investition] ($2,750,000,000)
+  [FIRMA] komplettiert zusätzliche 2,75 Milliarden USD Investition in [FIRMA] (Teil der ursprünglich angekündigten 4 Milliarden USD).
+
+[H101] (2024-04-01) [sonstiges]
+  Recognized on Inc.'s 2025 Female Founders 500 list for introducing [FIRMA] partnership, quadrupling revenue, and securing $21M Series B funding
+
+[H102] (2024-05-17) [produktlaunch]
+  [PERSON] veroeffentlicht als Hauptautor den International Scientific Report on the Safety of Advanced AI, einen umfassenden wissenschaftlichen Bericht ueber KI-Risiken, verfasst von ueber 30 fuehrenden KI-Forschern.
+
+[H103] (2024-05-17) [ruecktritt]
+  Resigned as Head of Alignment, Superalignment lead, and executive at [FIRMA] citing disagreement with leadership priorities and insufficient safety focus
+
+[H104] (2024-05-21) [partnerschaft]
+  [PERSON] nimmt am AI Seoul Summit teil und unterstuetzt die Seoul Declaration on Safe, Innovative and Inclusive AI, die internationale Kooperation zur KI-Sicherheit foerdert.
+
+[H105] (2024-05-28) [einstellung]
+  Joined [FIRMA] to lead new superalignment team working on scalable oversight, weak-to-strong generalization, and automated alignment research. Reports to [PERSON] (Chief Science Officer)
+
+[H106] (2024-06-01) [lobbying]
+  Signed open letter calling for AI employees to be free to whistleblow about their company's lack of attention to AI risks. Signed with other AI "godfathers" and current/former AI safety employees.
+
+[H107] (2024-06-20) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], der trotz Mittelklasse-Pricing den bisherigen Flaggschiff-[PRODUKT] in den meisten Benchmarks uebertrifft -- bei doppelter Geschwindigkeit und einem Fuenftel der Kosten.
+
+[H108] (2024-07-22) [gruendung] ($10,000,000)
+  [PERSON] lanciert bei MILA eine neue AI Safety Research Initiative mit ca. $10 Millionen Foerderung, um die KI-Sicherheitsforschung in [UNI] zu staerken.
+
+[H109] (2024-07-30) [investition]
+  [FIRMA] raised $21 million Series B funding led by CrimsoNox Capital, Mozilla Ventures and FPV Ventures, with participation from Sands Capital, Decibel VC, Booz Allen Hamilton and AI Fund, valuing company at $101 million
+
+[H110] (2024-08-12) [produktlaunch]
+  Launched [FIRMA] Advisory Services to make trusted AI governance real, auditable, and measurable for enterprise clients
+
+[H111] (2024-08-15) [politisch]
+  [PERSON] unterzeichnet zusammen mit [PERSON], [PERSON] und Lawrence Lessig einen offenen Brief zur Unterstuetzung von Kaliforniens AI Safety Bill SB 1047, der Risikobewertungen fuer grosse KI-Modelle vorschreibt.
+
+[H112] (2024-08-20) [lobbying]
+  [FIRMA] unterstützt öffentlich kalifornisches KI-Sicherheitsgesetz (SB 1047) trotz Widerstands anderer Tech-Firmen. Position für föderale KI-Regulierung.
+
+[H113] (2024-08-28) [sonstiges]
+  Named by TIME to 2025 TIME100 AI list as one of the 100 most influential people in artificial intelligence for work in AI governance and [FIRMA]'s impact
+
+[H114] (2024-09-01) [sonstiges]
+  Named to TIME 100 Most Influential People in AI 2024 list for second consecutive year, recognized for dramatic exit from [FIRMA] and continued alignment work at [FIRMA]
+
+[H115] (2024-09-17) [politisch]
+  Spoke at Axios AI+ DC Summit warning that America will lose AI race with China without tougher safety standards, arguing governance is key to competitive advantage
+
+[H116] (2024-10-08) [sonstiges] ($550,000)
+  [PERSON] erhaelt gemeinsam mit John J. Hopfield den Nobelpreis fuer Physik 2024 'fuer grundlegende Entdeckungen und Erfindungen, die maschinelles Lernen mit kuenstlichen neuronalen Netzen ermoeglichen'.
+
+[H117] (2024-11-01) [partnerschaft]
+  [FIRMA] partnered with [FIRMA] Azure AI to deliver end-to-end AI governance for Azure AI applications, including [PRODUKT], [PRODUKT], Phi-3 models, and comprehensive oversight of generative AI, multimodal models, and RAG use cases
+
+[H118] (2024-11-22) [partnerschaft] ($4,000,000,000)
+  [FIRMA] verdoppelt sein Gesamtinvestment in [FIRMA] auf $8 Mrd. durch eine weitere Investition von $4 Mrd.
+
+[H119] (2025-03-01) [investition] ($3,500,000,000)
+  [FIRMA] schliesst eine Series-E-Finanzierungsrunde ueber $3.5 Mrd. ab, angefuehrt von Lightspeed Venture Partners. Post-Money-Bewertung: $61.5 Mrd.
+
+[H120] (2025-03-15) [investition] ($3,500,000,000)
+  [FIRMA] Series E Finanzierungsrunde unter Führung von Lightspeed Venture Partners. Post-Money Bewertung: 61,5 Milliarden USD.
+
+[H121] (2025-03-20) [partnerschaft] ($1,000,000,000)
+  [FIRMA] investiert weitere 1 Milliarde USD in [FIRMA] zusätzlich zu früheren Commitments.
+
+[H122] (2025-04-02) [partnerschaft]
+  Launch von [PRODUKT] for Education mit Partnerschaften an Northeastern University, London School of Economics und Champlain College.
+
+[H123] (2025-05-15) [produktlaunch]
+  Ankündigung von [PRODUKT] 4 mit [PRODUKT] Opus 4 und [PRODUKT] Sonnet 4. Verbesserte Coding-Fähigkeiten und neue Features.
+
+[H124] (2025-05-22) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] Opus 4 (leistungstaerkstes Modell, weltbestes Coding-Modell) und [PRODUKT] Sonnet 4 mit Extended Thinking und Hybrid-Modus.
+
+[H125] (2025-09-10) [investition] ($13,000,000,000)
+  [FIRMA] Series F Finanzierungsrunde co-geführt von Iconiq Capital, Fidelity und Lightspeed. Post-Money Bewertung: 183 Milliarden USD.
+
+[H126] (2025-11-06) [gruendung]
+  [PERSON] kuendigt die Gruendung des MAI Superintelligence Teams bei [FIRMA] an mit dem Mandat, 'Humanist Superintelligence (HSI)' zu entwickeln. Fokus auf Safety, Control und Dienst am Menschen.

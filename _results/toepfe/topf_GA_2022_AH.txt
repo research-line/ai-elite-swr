@@ -1,0 +1,555 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2022_AH
+Beschreibung: Jahrestopf 2022, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 69 Aussagen + 86 Handlungen = 155 gesamt
+Zeitraum Aussagen: 2022 bis 2022-12-04
+Zeitraum Handlungen: 2022 bis 2022-12-15
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (69 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2022, muendlich)
+  "Scientific understanding enhances rather than diminishes the beauty and mystery of the world."
+  Kontext: [PERSON] verbindet wissenschaftliche Rationalitaet mit Spiritualitaet und Aesthetik. Bezug zu Feynman und Spinoza.
+
+[A002] (2022, muendlich)
+  "Maybe we're now reaching a point where the language of psychology is starting to be appropriate to understand the behavior of these neural networks."
+  Kontext: [PERSON] spekuliert, dass fortgeschrittene KI-Systeme psychologische Konzepte rechtfertigen koennten.
+
+[A003] (2022-01-01, schriftlich)
+  "At [FIRMA], Tom worked on developing Constitutional AI—an approach to training AI systems that aligned with human values through explicit principles rather than implicit patterns in training data."
+  Kontext: Beschreibung der Constitutional AI Forschung bei [FIRMA]
+
+[A004] (2022-01-01, muendlich)
+  "The United States stated that there will not be AI intervening in the chain of command over the launch of nuclear weapons."
+  Kontext: Discussion on nuclear weapons policy and AI in Future of Life Institute podcast
+
+[A005] (2022-01-01, schriftlich)
+  "There are still reasons to be skeptical as to whether these systems really understand what they are doing, or whether they are just very elaborate rewriting systems, bereft of meaning."
+  Kontext: Academic publication in Daedalus on language understanding
+
+[A006] (2022-01-01, schriftlich)
+  "These models are likely to remain limited, lacking a human-level ability for careful logical or causal reasoning."
+  Kontext: Academic article discussing limitations of language models
+
+[A007] (2022-01-01, schriftlich)
+  "Pretrained language models such as BERT and [PRODUKT] have provided a powerful universal language understanding and generation base, which can easily be adapted to many understanding, writing, and reasoning tasks."
+  Kontext: Academic paper on language model capabilities
+
+[A008] (2022-01-01, schriftlich)
+  "The ability of these models to deploy knowledge gained from a huge amount of training data to many different runtime tasks will make these models powerful, and they will for the first time demonstrate the artificial intelligence goal of one machine learning model doing many particular tasks based on simply being instructed on the spot as to what it should do."
+  Kontext: Discussion of multi-task learning capabilities of large models
+
+[A009] (2022-01-01, muendlich)
+  "It is very important for people who want to work in AI and robotics to have skills in more than one field. You should have a strong background in math (calculus, probability, linear algebra, and optimization), physics for modeling real-world problems, and programming skills in Python and deep learning frameworks like PyTorch or TensorFlow."
+  Kontext: Interview discussing skill requirements for AI research
+
+[A010] (2022-01-01, muendlich)
+  "For me, web3 is not about decentralization. I think decentralization is just a tool. What it is about is low switching costs."
+  Kontext: Podcast interview with Daniel Scrivner explaining his philosophy on Web3
+
+[A011] (2022-01-01, muendlich)
+  "their frustration with coding's repetitive and fragmented nature inspired them to create a more intelligent, intuitive coding assistant"
+  Kontext: Origin story from [UNI] late-night hackathons
+
+[A012] (2022-01-01, schriftlich)
+  "Humans and machines have different strengths—machines excel at chess, Go, and repetitive work, while humans are strong in areas like common sense reasoning where machines still have long way to go."
+  Kontext: Interview about the relationship between human and machine intelligence
+
+[A013] (2022-02-17, schriftlich)
+  "We scaled a sparse model to 269B parameters with computational cost comparable to a 32B dense encoder-decoder Transformer."
+  Kontext: Describing breakthrough in Mixture of Experts models achieving massive scale with manageable compute requirements
+
+[A014] (2022-02-17, schriftlich)
+  "For the first time achieved state-of-the-art performance in transfer learning across diverse tasks including reasoning, summarization, closed book question answering."
+  Kontext: Highlighting the broad capabilities achieved by sparse expert models across multiple NLP benchmarks
+
+[A015] (2022-03-01, schriftlich)
+  "Yuga Labs combined with other emerging Web3 companies are an important counterweight to companies like [FIRMA]."
+  Kontext: Kommentar nach der 450 Mio. $ Investition in Yuga Labs (Bored Ape Yacht Club)
+
+[A016] (2022-03-01, schriftlich)
+  "If complete understanding of transformative AI systems isn't achieved, they could fall back to careful analysis of small slices—for example, understanding whether a model is being manipulative, which could still reduce safety concerns."
+  Kontext: Pragmatischer Ansatz: Partielle Interpretierbarkeit ist besser als gar keine
+
+[A017] (2022-03-01, muendlich)
+  "What's possible in AI and robotics today is so different from what was possible even five years ago. It's a space where things are changing very fast and in ways that are going to impact people's lives."
+  Kontext: Interview about the pace of AI development
+
+[A018] (2022-03-01, muendlich)
+  "Robots need to be smarter than they are. They need to learn how to react to situations not just perform the same action again and again. They need to adapt to live in their environment."
+  Kontext: Discussing the need for adaptive robotics
+
+[A019] (2022-03-01, muendlich)
+  "My goal is that if people listen to the podcast, they'll get an understanding of what AI can do, where it is in our lives and what it will become."
+  Kontext: Explaining the purpose of his Robot Brains podcast
+
+[A020] (2022-04, muendlich)
+  "AI can be a powerful tool for climate action – from optimizing energy grids to monitoring deforestation to predicting extreme weather. But we also need to be mindful of AI's own carbon footprint."
+  Kontext: Vortrag bei einem Klima-Gipfel ueber die Rolle von KI im Klimaschutz.
+
+[A021] (2022-04-01, schriftlich)
+  "StackBlitz is finally bringing production-grade, full-stack web development to the web, with a magical experience that's much better than local: faster, more secure, inherently collaborative."
+  Kontext: Blog post announcing [FIRMA] investment in StackBlitz
+
+[A022] (2022-04-07, muendlich)
+  "Bitcoin is the honest answer to an enormous financial problem, and that problem is a gerontocracy that's running a finance system. The finance gerontocracy in the U.S. is crazier and more dangerous than the communist one in China."
+  Kontext: Miami Bitcoin Conference 2022. Radikaler Angriff auf Fed und etablierte Finanzsysteme.
+
+[A023] (2022-04-13, schriftlich)
+  "I tried hard to write a short, approachable piece with examples giving the history, current abilities, and likely near future of NLP—with a bit on models understanding meaning."
+  Kontext: Promoting Daedalus article on human language understanding
+
+[A024] (2022-04-15, schriftlich)
+  "We aim to build transformative general AI systems that are safe, reliable, steerable, ethical. We want to build generative AI tools and systems and products that people could use while feeling really, really confident that what we were putting on the market was trustworthy, reliable, and safe."
+  Kontext: Beschreibung von [FIRMA]s Gründungsmission nach der Series B Finanzierungsrunde
+
+[A025] (2022-04-25, schriftlich)
+  "Life update: For those who haven't heard, I left [FIRMA] Brain! I'm grateful for the 6+ years I spent there, the peers and friends that are inspiring and the opportunities to push on some of the most important problems in AI."
+  Kontext: Announcement of departure from [FIRMA] Brain in April 2022
+
+[A026] (2022-04-26, schriftlich)
+  "After 5+ wonderful years in [FIRMA] Brain, I'm starting Adept with the mission to build the future of human-computer collaboration."
+  Kontext: Ankündigung der Gründung von Adept AI nach Verlassen von [FIRMA]
+
+[A027] (2022-04-30, schriftlich)
+  "Now seems like a good time to mention that we're always looking for ways to more efficiently turn raw compute into useful safety research. If you know of great software engineers who are interested in building big machines then have them message me at tom@anthropic.com"
+  Kontext: [PLATTFORM]-Post zur Rekrutierung von Ingenieuren für KI-Infrastruktur bei [FIRMA]
+
+[A028] (2022-05-20, muendlich)
+  "If you want to have better things in the world, generally speaking, they come from outsiders."
+  Kontext: On finding and supporting overlooked talent
+
+[A029] (2022-05-20, muendlich)
+  "Everything in life is in some form of a video game, and all humans, regardless of IQ, are seeking novelty."
+  Kontext: Philosophy on human motivation and gamification
+
+[A030] (2022-05-20, schriftlich)
+  "Invest in yourself, so that you can invest in others."
+  Kontext: Core principle on personal development and supporting entrepreneurship
+
+[A031] (2022-05-20, muendlich)
+  "When evaluating a company, I consider whether the research idea makes sense as a good product, whether the person will be a good leader and able to recruit top talent, and whether the market structure supports the company in capturing the value it creates."
+  Kontext: Explaining his framework for evaluating startup investments
+
+[A032] (2022-06-01, muendlich)
+  "[FIRMA] is ready to invest in Ukraine and help us in the fight against Russia on the digital frontline."
+  Kontext: [PERSON] reist als erster CEO eines grossen westlichen Unternehmens nach Kriegsbeginn in die Ukraine und trifft Zelenskyy. [FIRMA] stellt Software kostenlos zur Verfuegung.
+
+[A033] (2022-06-01, schriftlich)
+  "He applied preference modeling and reinforcement learning from human feedback (RLHF) to finetune language models to act as helpful and harmless assistants, finding this alignment training improves performance on NLP evaluations."
+  Kontext: Forschungsarbeit zu RLHF und Alignment bei [FIRMA]
+
+[A034] (2022-06-01, muendlich)
+  "Climate change is a very significant AI problem at a scale that wasn't addressed in previous challenges that drove the internet-AI era. We actually need to have systems that function in the real world."
+  Kontext: Announcement of BAIR Climate Initiative to use AI for climate change solutions
+
+[A035] (2022-06-01, muendlich)
+  "Any technology or research done by the climate initiative will be openly published and won't be exclusively licensed or proprietary."
+  Kontext: Commitment to open research in BAIR Climate Initiative announcement
+
+[A036] (2022-06-11, muendlich)
+  "With web3 … people who contribute value to the platform now have a share of the economics happening in the platform itself"
+  Kontext: Interview über die wirtschaftlichen Vorteile von Web3-Plattformen für Nutzer
+
+[A037] (2022-06-11, muendlich)
+  "with web3, you now have a say in the governance of said platform too. This opens up a whole new toolbox and new power dynamic between creators and the social media platforms"
+  Kontext: Aussage über demokratische Governance-Möglichkeiten in Web3
+
+[A038] (2022-06-15, muendlich)
+  "AI has recently crossed a utility threshold, where cutting-edge models such as [PRODUKT], [PRODUKT], and [PRODUKT] are actually useful and can perform tasks computers cannot do any other way."
+  Kontext: Blog-Post über den Durchbruch von KI-Modellen zur praktischen Nutzbarkeit
+
+[A039] (2022-06-15, muendlich)
+  "Chris calls his alternative vision of what an advanced AI system might look like 'microscope AI' since the AI is being used sort of like a microscope to learn about and build models of the world. In contrast with something like a tool or oracle AI that is designed to output useful information, the utility of a microscope AI wouldn't come from its output but rather our ability to look inside of it and access all of the implicit knowledge it learned."
+  Kontext: Konzeptualisierung einer alternativen AI-Architektur, die auf Transparenz statt Leistung setzt
+
+[A040] (2022-06-15, muendlich)
+  "Feature visualization, where you do gradient descent to create an image that causes a neuron to fire really strongly, is actually very effective."
+  Kontext: Erklaerung einer erfolgreichen Methode zur Visualisierung neuronaler Netzwerke
+
+[A041] (2022-06-21, schriftlich)
+  "Large generative models have predictable loss on a broad training distribution, but unpredictable specific capabilities, inputs, and outputs."
+  Kontext: [PERSON]s Forschung zu Scaling Laws und emergenten Faehigkeiten
+
+[A042] (2022-07-01, muendlich)
+  "One of the best definitions I like of consciousness is it's the information feels when we process it."
+  Kontext: Langes Interview mit Lex Fridman ueber Bewusstsein, KI und die Zukunft der Menschheit. [PERSON] reflektiert ueber die Natur des Bewusstseins.
+
+[A043] (2022-07-01, muendlich)
+  "We are the only sort of fully conscious beings in the universe. We are 'waking up the universe,' bringing self-awareness to a universe that otherwise lacks it."
+  Kontext: [PERSON] zitiert Carl Sagan und beschreibt die besondere Rolle bewusster Wesen im Universum. Philosophische Reflexion ueber die menschliche Existenz.
+
+[A044] (2022-07-01, muendlich)
+  "My underlying motivation for working in artificial intelligence is to understand how the universe works and to answer the deepest scientific questions: What is consciousness? What are we doing here? What's the universe about?"
+  Kontext: [PERSON] legt seine philosophische Grundmotivation fuer die Arbeit an KI dar: tiefe wissenschaftliche Fragen zu beantworten.
+
+[A045] (2022-07-12, schriftlich)
+  "By leveraging environment feedback, LLMs are able to form an inner monologue that allows them to more richly process and plan in robotic control scenarios."
+  Kontext: Core concept from Inner Monologue paper on using language models for robot planning
+
+[A046] (2022-07-12, schriftlich)
+  "Closed-loop language feedback significantly improves high-level instruction completion on three domains, including simulated and real tabletop rearrangement tasks and long-horizon mobile manipulation tasks."
+  Kontext: Research findings from Inner Monologue paper
+
+[A047] (2022-08, muendlich)
+  "[FIRMA]'s approach to safety is like a portfolio because they don't know what will end up working, so they pursue different approaches in parallel"
+  Kontext: Describing [FIRMA]'s multi-track approach to AI safety research during his time there
+
+[A048] (2022-09, schriftlich)
+  "You could ask a 10-year-old and you could ask Hemingway to draw a bounding box around a car... But if you were saying like, write me a poem of a moon that makes me cry, like I would expect Hemingway to be better than a 10-year-old."
+  Kontext: Interview on data labeling quality
+
+[A049] (2022-09-01, schriftlich)
+  "The critical benefit of mechanistic interpretability is that you can truly determine whether statements are true, serving as an epistemic foundation where statements about circuits become questions of mathematical reasoning."
+  Kontext: Grundsatzpaper zur mechanischen Interpretierbarkeit auf transformer-circuits.pub
+
+[A050] (2022-09-01, schriftlich)
+  "If Software 1.0 was about human-written code, and Software 2.0 is about dataset labeling, Software 3.0 will be about manipulating foundation models."
+  Kontext: Blog post defining Software 3.0 and foundation models
+
+[A051] (2022-09-01, schriftlich)
+  "Open source models can be fine-tuned for different use cases that are commercially viable. There is now healthy competition amongst foundation models across multiple dimensions, including control (oss / fine tuning / policy)."
+  Kontext: Blog post on open source foundation models
+
+[A052] (2022-09-08, schriftlich)
+  "We need to understand the mechanisms by which neural networks work in order to build safe and reliable AI systems."
+  Kontext: [PERSON] als Co-Autor wegweisender Interpretability-Paper bei [FIRMA]
+
+[A053] (2022-09-12, schriftlich)
+  "Big announcement: PyTorch Foundation! PyTorch has large core investments from many companies. So, we're creating a neutral foundation for securing assets and interests. Technical Governance is separate & secure in a Maintainer model."
+  Kontext: Announcing PyTorch's transition to Linux Foundation
+
+[A054] (2022-09-12, schriftlich)
+  "The move is intended to make sure business decisions about the framework are open and transparent, and take into account the needs of the many PyTorch stakeholders."
+  Kontext: Explaining motivation for PyTorch Foundation creation
+
+[A055] (2022-09-29, schriftlich)
+  "An AI system can be considered to be "fair," in the sense of algorithmic fairness, if it does not perpetuate or amplify harmful societal biases in its systems. The concept of fairness is incredibly context-dependent."
+  Kontext: Congressional testimony on Trustworthy AI: Managing the Risks of Artificial Intelligence
+
+[A056] (2022-09-29, schriftlich)
+  "To achieve "transparency in AI," it is necessary to inject disclosures throughout the entire AI value chain, including comprehensive AI use case risk reporting, model cards, data set cards, and algorithmic impact assessments (AIAs)."
+  Kontext: Congressional testimony defining technical requirements for AI transparency
+
+[A057] (2022-10-14, schriftlich)
+  "AI is the biggest value creation opportunity in our lifetimes."
+  Kontext: Interview about founding [FIRMA] and AI investment thesis
+
+[A058] (2022-10-14, schriftlich)
+  "Code is the first killer AI app because it is structured text allowing for deterministic validation, is seen as crucial to Artificial General Intelligence (AGI), and developers intimately understood their users' workflows."
+  Kontext: Discussion of AI applications and their potential
+
+[A059] (2022-10-14, schriftlich)
+  "I actually think that's like half the opportunity for startups... if you don't get it all the way to end user value... it doesn't matter what the technology was."
+  Kontext: Discussion of startup opportunities in AI
+
+[A060] (2022-10-14, schriftlich)
+  "People who know how to leverage these models and use these models as tools will, like, I think that type of human productivity is going to be relevant for a while."
+  Kontext: Views on future of human-AI collaboration
+
+[A061] (2022-10-14, schriftlich)
+  "Innovation happens inexorably, but at uneven speeds. After years of nothing foundationally new happening (outside of crypto) we are at a special moment in technology history."
+  Kontext: Reflection on technology innovation cycles
+
+[A062] (2022-10-14, schriftlich)
+  "Can you hire it? This perspective emphasizes functional capability—whether AI systems can autonomously handle complex, multi-step work—rather than philosophical definitions of general intelligence."
+  Kontext: Practical test for artificial general intelligence
+
+[A063] (2022-11-01, muendlich)
+  "Colorado is a very sane and pleasant place."
+  Kontext: Erklaerung zur Verlegung des Hauptsitzes von Palo Alto nach Denver (2020). Kritik an 'monoculture and intolerance' im Silicon Valley.
+
+[A064] (2022-11-04, muendlich)
+  "Crypto became the largest driver for humanitarian help as well as some of military help for Ukraine. It's resilient, it's fast, it delivers help directly to people."
+  Kontext: Interview about crypto's role in Ukraine war relief efforts
+
+[A065] (2022-11-04, muendlich)
+  "You can create a full system, an NGO system in days. Instead of [the] months it would take to create a new nonprofit, set up banks accounts, get all the legal structure, make sure that people can wire money to it without problems."
+  Kontext: Explaining the speed advantage of crypto for humanitarian organizations
+
+[A066] (2022-11-05, schriftlich)
+  "social media platforms should commit to publishing the details of every account and content moderation decision"
+  Kontext: Vorschlag für transparente Content-Moderation auf Social-Media-Plattformen
+
+[A067] (2022-11-30, muendlich)
+  "After a lot of reflection, I've decided to return to my entrepreneurial roots. Salesforce has never been more relevant to customers, and with its best-in-class management team and the company executing on all cylinders, now is the right time for me to step away."
+  Kontext: Offizielle Stellungnahme zum Rücktritt als Salesforce Co-CEO
+
+[A068] (2022-12-01, muendlich)
+  "In fact, in one of these demos, I will."
+  Kontext: [PERSON] sagt bei einem [FIRMA]-Update, dass er plant, sich selbst einen Chip implantieren zu lassen.
+
+[A069] (2022-12-04, schriftlich)
+  "i am a stochastic parrot, and so r u"
+  Kontext: Tweet vier Tage nach dem Launch von [PRODUKT]. Spielt auf die Kritik an LLMs als 'stochastic parrots' an und wendet den Begriff auf den Menschen an.
+
+------------------------------------------------------------------------
+HANDLUNGEN (86 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2022) [spende] ($15,000,000)
+  [PERSON] spendet $15 Millionen an J.D. Vances erfolgreiche Senatskampagne in Ohio -- groesste Spende an einen einzelnen Kandidaten. Vance ist ehemaliger Angestellter von [PERSON]s Mithril Capital.
+
+[H002] (2022-01) [ruecktritt]
+  [PERSON] verlaesst [FIRMA] im Januar 2022 und wird Venture Partner bei [FIRMA] Partners, bevor er sein naechstes KI-Unternehmen gruendet.
+
+[H003] (2022-01-01) [einstellung]
+  Beförderung zur Chief Technology Officer bei [FIRMA] (2022)
+
+[H004] (2022-01-01) [gruendung]
+  Gründung von [FIRMA] ([FIRMA]) zusammen mit [UNI]-Kommilitonen [PERSON], [PERSON] und [PERSON]
+
+[H005] (2022-01-01) [sonstiges]
+  Awarded inaugural World Laureates Association Prize for fundamental contributions to the foundations of machine learning and its application.
+
+[H006] (2022-01-01) [investition]
+  Inceptive secured Seed round funding of $20 million.
+
+[H007] (2022-01-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], [PERSON], and [PERSON] while at [UNI] to build [FIRMA] AI code editor
+
+[H008] (2022-01-01) [partnerschaft]
+  Established partnerships with Alibaba, Ampere, [FIRMA], Bosch, Denso, Mobileye and Telechips as new entrants to [FIRMA] ecosystem through IPG investments in vertical market solutions
+
+[H009] (2022-01-01) [sonstiges]
+  Became Angel Investor focusing on AI companies
+
+[H010] (2022-01-01) [sonstiges]
+  Awarded Sloan Research Fellowship
+
+[H011] (2022-01-01) [sonstiges]
+  Received ONR Young Investigator Award
+
+[H012] (2022-01-01) [sonstiges]
+  Co-authored academic paper on 'Formal Security Definition of [FIRMA]data-Private Messaging' published in IACR Cryptology ePrint Archive
+
+[H013] (2022-01-15) [investition]
+  [FIRMA] raised $150 million in funding round. This came less than three months before the larger Tiger Global round.
+
+[H014] (2022-02-01) [investition]
+  [FIRMA] erhält $125M Series B Funding von Tiger Global
+
+[H015] (2022-02-01) [partnerschaft] ($1,000,000,000)
+  [FIRMA] gewann 1 Milliarde Dollar Vertrag für Counter-Unmanned Systems Arbeit mit dem United States Special Operations Command (SOCOM).
+
+[H016] (2022-02-07) [ruecktritt]
+  [PERSON] verlaesst nach 17 Jahren den Verwaltungsrat von [FIRMA]/[FIRMA], um sich auf Trump-Unterstuetzung und eigene Ventures zu konzentrieren. Er veraeussert grosse Teile seiner Anteile.
+
+[H017] (2022-02-08) [einstellung]
+  Appointed as Chief Executive Officer of [FIRMA], succeeding Simon Segars after 30 years with the company. Appointment coincided with collapse of [FIRMA] acquisition deal.
+
+[H018] (2022-02-14) [kauf] ($49,000,000,000)
+  Abschluss der Xilinx-Übernahme; Su wird Chair von [FIRMA], kombiniertes Unternehmen entsteht
+
+[H019] (2022-02-17) [produktlaunch]
+  Published ST-MoE paper on stable sparse expert models, scaling to 269B parameters with efficiency of 32B dense model
+
+[H020] (2022-02-26) [gruendung]
+  Co-founded Unchain Fund immediately after Russian invasion of Ukraine on February 24. Created with other Ukrainian crypto entrepreneurs, raised nearly $7-10 million in crypto donations for humanitarian and military aid.
+
+[H021] (2022-02-28) [umstrukturierung]
+  Reformed executive leadership team within weeks of appointment, letting three executives go and reshaping organizational structure
+
+[H022] (2022-03) [gruendung] ($225,000,000)
+  [PERSON] gruendet [FIRMA] gemeinsam mit [PERSON] ([FIRMA]) und Karen Simonyan (ehem. [FIRMA]). Erste Finanzierungsrunde: $225 Millionen.
+
+[H023] (2022-03-01) [gruendung]
+  Mitgruendung von [FIRMA] mit [PERSON] ([FIRMA]-Mitgruender) und Karen Simonyan, $225M initiale Finanzierung. First new company since [FIRMA], focused on AI to help humans "talk" to computers.
+
+[H024] (2022-03-01) [investition]
+  Leitung der 450 Millionen US-Dollar Finanzierungsrunde für Yuga Labs (Bored Ape Yacht Club) mit 4 Milliarden US-Dollar Bewertung
+
+[H025] (2022-03-01) [produktlaunch]
+  Co-authored "Training language models to follow instructions with human feedback" (Instruct[PRODUKT-FAMILIE] paper), developing first RLHF language model at NIPS 2022
+
+[H026] (2022-03-14) [entlassung]
+  Announced layoffs of 12-15% of global workforce (up to 1,000 employees out of 6,400), with UK hit hardest at 20% reduction. Most cuts avoided engineering roles to preserve product roadmap.
+
+[H027] (2022-03-22) [produktlaunch]
+  [FIRMA] stellt die Hopper-Architektur (H100 GPU) vor, benannt nach Grace Hopper. Die H100 wird zur meistgenutzten GPU fuer Training grosser Sprachmodelle wie [PRODUKT] und LLaMA.
+
+[H028] (2022-04-01) [politisch]
+  [PERSON] wird als eines der 27 Gruendungsmitglieder in das National Artificial Intelligence Advisory Committee (NAIAC) berufen, ein Beratungsgremium des US-Handelsministeriums.
+
+[H029] (2022-04-01) [sonstiges]
+  Received ACM Prize in Computing for contributions to robot learning, including learning from demonstrations and deep reinforcement learning. Prize carries $250,000.
+
+[H030] (2022-04-01) [gruendung]
+  Co-founded [FIRMA] Inc. at [UNI] with [PERSON], [PERSON], and [PERSON] to develop AI-powered coding tools
+
+[H031] (2022-04-01) [einstellung]
+  Appointed by U.S. Department of Commerce as one of 27 members to the National Artificial Intelligence Advisory Committee (NAIAC) to advise the President and National AI Initiative Office
+
+[H032] (2022-04-01) [investition]
+  Led $7.9M seed round in StackBlitz with [FIRMA], joining board
+
+[H033] (2022-04-04) [produktlaunch]
+  Co-authored SayCan paper "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances" combining LLMs with robot affordances
+
+[H034] (2022-04-06) [investition]
+  [FIRMA] raised $350 million in funding round led by Tiger Global, with participation from Republic Capital, Hashed, FTX Ventures, Dragonfly Capital and others. Aimed to accelerate decentralization of NEAR ecosystem.
+
+[H035] (2022-04-15) [investition] ($580,000,000)
+  [FIRMA] Series B Finanzierungsrunde unter Führung von Sam Bankman-Fried zur Expansion von Rechenressourcen und Team-Wachstum.
+
+[H036] (2022-04-26) [gruendung]
+  Co-founded Adept AI Labs with David Luan (CEO) and [PERSON] (Chief Scientist), serving as CTO
+
+[H037] (2022-04-26) [investition]
+  Adept AI raised $65 million Series A funding led by [FIRMA] and Root Ventures, with participation from [PERSON], Scott Belsky, Andrej [PERSON]athy, and others
+
+[H038] (2022-04-29) [investition] ($580,000,000)
+  Series-B-Runde ueber $580 Mio., angefuehrt von Sam Bankman-Fried (FTX/Alameda Research). Alameda allein investiert ca. $500 Mio. Die Investition wird spaeter Teil des FTX-Insolvenzverfahrens.
+
+[H039] (2022-04-30) [einstellung]
+  Öffentliche Rekrutierungskampagne für Software-Ingenieure zur Entwicklung von KI-Infrastruktur und Compute-Systemen bei [FIRMA]
+
+[H040] (2022-05-01) [investition]
+  Launch des vierten [FIRMA] Crypto Fund mit 4,5 Milliarden US-Dollar
+
+[H041] (2022-05-01) [spende] ($30,000,000)
+  Spende von mehr als 30 Millionen USD seit 2021 an Opportunity Matters Fund Super PAC zur Unterstützung von Senator Tim Scott
+
+[H042] (2022-05-01) [partnerschaft]
+  NEAR and Flowcarbon announced partnership to launch carbon-market ecosystem on NEAR network. Enables trading of carbon credits, advancing NEAR's vision of becoming carbon-negative blockchain.
+
+[H043] (2022-05-01) [gruendung]
+  Founded [FIRMA], artificial intelligence startup developing general-purpose humanoid robots
+
+[H044] (2022-05-17) [investition]
+  [FIRMA] raised $12.8 million Series A funding led by Sands Capital, with follow-on investments from Decibel VC and AI Fund
+
+[H045] (2022-06-01) [partnerschaft]
+  [PERSON] reist als erster CEO eines grossen westlichen Unternehmens seit Kriegsbeginn in die Ukraine und trifft Praesident Zelenskyy. [FIRMA] stellt KI-Software fuer Kriegsfuehrung kostenlos zur Verfuegung.
+
+[H046] (2022-06-01) [gruendung]
+  Co-founded and leads BAIR Climate Initiative, a multi-disciplinary student-led hub dedicated to fighting climate change through AI research, partnering with climate experts, government agencies, and industry. Committed to open publication of all research.
+
+[H047] (2022-06-01) [einstellung]
+  Assembled [FIRMA] team from Boston Dynamics, [FIRMA], [FIRMA] and [FIRMA] engineers
+
+[H048] (2022-06-01) [sonstiges]
+  [FIRMA] recognized as 2022 World Economic Forum Technology Pioneer for leadership in AI governance
+
+[H049] (2022-06-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], [PERSON], and [PERSON] while students at [UNI], creating the AI code editor [FIRMA]
+
+[H050] (2022-06-06) [produktlaunch]
+  Präsentation von macOS 13 Ventura auf WWDC 2022 mit Stage Manager und Continuity Camera
+
+[H051] (2022-06-14) [investition] ($57,000,000)
+  Landing AI sichert sich eine $57 Millionen Series-A-Finanzierung gefuehrt von McRock Capital. Das Kapital wird genutzt, um LandingLens zu skalieren und neue Manufacturing-Kunden zu gewinnen.
+
+[H052] (2022-06-28) [spende]
+  Open-Sourcing aller Delta Lake Features und APIs als Delta Lake 2.0. Vollständige Donation aller proprietären Erweiterungen zur Linux Foundation.
+
+[H053] (2022-07-01) [ruecktritt]
+  Left [FIRMA] Partners after 9 years to found own venture firm
+
+[H054] (2022-07-12) [produktlaunch]
+  Co-authored Inner Monologue paper on embodied reasoning through planning with language models for robotic control
+
+[H055] (2022-07-15) [investition]
+  Direktinvestition in Farcaster, ein dezentrales Social-Media-Protokoll. Teil seiner Web3-Social-Network-Investitionsstrategie bei [FIRMA].
+
+[H056] (2022-07-31) [gruendung]
+  Co-founded Harvey AI with Gabriel Pereyra after leaving O'Melveny & Myers law firm after just one year. Cold-emailed [PERSON] and [FIRMA]'s general counsel on July 4, 2022, leading to a pitch call with [FIRMA]'s C-suite.
+
+[H057] (2022-08-01) [gruendung]
+  Gründung von [FIRMA] AI als KI-gestützte Answer Engine mit Quellenangaben. Co-Gründer und CEO.
+
+[H058] (2022-08-01) [produktlaunch]
+  Launched [PRODUKT] as open-source AI image generation model, competing with [PRODUKT] and [PRODUKT]
+
+[H059] (2022-08-11) [einstellung]
+  Elected to Intel Corporation Board of Directors
+
+[H060] (2022-08-31) [klage]
+  Filed lawsuit against Qualcomm and Nuvia for breach of license agreements and trademark infringement following Qualcomm's 2021 acquisition of Nuvia
+
+[H061] (2022-09-01) [einstellung]
+  Joined [FIRMA] as VP of Research (Post-Training), building post-training team with John Schulman right before [PRODUKT] launch
+
+[H062] (2022-09-08) [sonstiges]
+  Veroeffentlichung von 'Toy Models of Superposition' als Co-Autor mit Nelson Elhage, Tristan Hume und anderen. Das Paper untersucht wie neuronale Netze mehr Features speichern als sie Neuronen haben (Superposition), was zentral fuer Mechanistic Interpretability ist.
+
+[H063] (2022-09-12) [umstrukturierung]
+  Led transition of PyTorch to Linux Foundation as independent PyTorch Foundation
+
+[H064] (2022-09-15) [partnerschaft]
+  MILA unter [PERSON]s Leitung geht Partnerschaft mit Valence Labs (ValAI) ein, einem KI-Startup fuer Medikamentenentwicklung, das GFlowNets fuer Drug Discovery nutzt.
+
+[H065] (2022-09-29) [politisch]
+  Testified before House Committee on Science, Space and Technology at hearing "Trustworthy AI: Managing the Risks of Artificial Intelligence" on AI governance and risk management
+
+[H066] (2022-10-01) [gruendung]
+  Founded [FIRMA], early-stage venture capital firm focused on AI and Software 3.0
+
+[H067] (2022-10-01) [investition]
+  Secured $101 million investment led by Coatue and Lightspeed Venture Partners, reaching unicorn status at $1 billion valuation
+
+[H068] (2022-10-18) [produktlaunch]
+  Ankündigung eines neuen Accelerator-Programms 'Crypto Startup School' mit 500.000 US-Dollar Seed-Funding
+
+[H069] (2022-10-28) [sonstiges]
+  Beratung von [PERSON] beim [PLATTFORM]-Revamp nach dessen Übernahme 2022. Teil eines Advisory-Teams mit [PERSON], Jason Calacanis und anderen.
+
+[H070] (2022-10-31) [ruecktritt]
+  Ausscheiden als [PLATTFORM] Board Chairman: Taylor beendete seine Rolle als Chairman des [PLATTFORM] Board nach [PERSON]s Übernahme und Auflösung des Boards. Er hatte [PLATTFORM] während der Übernahmeverhandlungen vertreten.
+
+[H071] (2022-11-01) [spende] ($31,000,000)
+  Spende von mehr als 31 Millionen USD an republikanische Kandidaten während der Kongresswahlen 2022
+
+[H072] (2022-11-01) [ruecktritt]
+  Left Adept AI as co-founder and CTO after approximately 6 months
+
+[H073] (2022-11-01) [produktlaunch]
+  Led alignment efforts for [PRODUKT] including RLHF training and red-teaming, using similar approach as Instruct[PRODUKT-FAMILIE]
+
+[H074] (2022-11-01) [investition]
+  [FIRMA] invested in Harvey AI seed round ($5M led by [FIRMA] Startup Fund)
+
+[H075] (2022-11-01) [investition]
+  [FIRMA] invested in every Baseten funding round from Day Zero through Series D
+
+[H076] (2022-11-09) [entlassung]
+  [FIRMA] entlaesst 11.000 Mitarbeiter (ca. 13% der Belegschaft) -- die groesste Entlassungswelle in der Geschichte des Unternehmens. [PERSON] uebernimmt oeffentlich die Verantwortung fuer Fehleinschaetzungen beim Wachstum.
+
+[H077] (2022-11-23) [investition]
+  Raised $5 million seed round led by [FIRMA] Startup Fund, with investors including [PERSON] ([FIRMA] AI head), Elad Gil (Mixer Labs founder), and [PERSON] ([FIRMA] founder).
+
+[H078] (2022-11-30) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] als kostenlose Forschungsvorschau. Der Chatbot erreicht 1 Million Nutzer in 5 Tagen und 100 Millionen in 2 Monaten -- die am schnellsten wachsende Verbraucheranwendung der Geschichte.
+
+[H079] (2022-11-30) [ruecktritt]
+  Taylor trat nach nur einem Jahr als Co-CEO und Vice Chair von Salesforce zurück, um "zu seinen unternehmerischen Wurzeln zurückzukehren". Berichte deuteten auf Spannungen mit Marc Benioff hin.
+
+[H080] (2022-11-30) [partnerschaft]
+  Selected [FIRMA] as [FIRMA]'s preferred cloud provider, using [FIRMA] SageMaker for AI model development
+
+[H081] (2022-11-30) [produktlaunch]
+  Led post-training team that developed and launched [PRODUKT], implementing RLHF and alignment techniques for safe deployment
+
+[H082] (2022-12) [umstrukturierung]
+  Nach dem viralen Erfolg von [PRODUKT] ruft [PERSON] unternehmensweit 'Code Red' aus und bezeichnet den Chatbot als existenzielle Bedrohung fuer [FIRMA] Search. Teams werden umstrukturiert, um bis Mai 2023 KI-Prototypen und Produkte zu entwickeln.
+
+[H083] (2022-12-01) [investition] ($1,480,000,000)
+  [FIRMA] schloss Series E Finanzierungsrunde über 1,48 Milliarden Dollar ab bei einer Bewertung von 8,5 Milliarden Dollar.
+
+[H084] (2022-12-15) [sonstiges]
+  Veroeffentlichung des Papers 'Constitutional AI: Harmlessness from AI Feedback' (arXiv:2212.08073). Einfuehrung von RLAIF als Alternative zu RLHF fuer harmlose KI-Systeme. Wird zum zentralen Sicherheitskonzept hinter [PRODUKT].
+
+[H085] (2022-12-15) [sonstiges]
+  Veroeffentlichung von 'Constitutional AI: Harmlessness from AI Feedback' (arXiv:2212.08073) als Co-Autor. Das Paper fuehrt RLAIF (Reinforcement Learning from AI Feedback) als Alternative zu RLHF ein und wird zur konzeptionellen Grundlage von [PRODUKT].
+
+[H086] (2022-12-15) [sonstiges]
+  Co-Autor des Papers 'Constitutional AI: Harmlessness from AI Feedback' (arXiv:2212.08073), das RLAIF als Alternative zu RLHF einfuehrt und zur theoretischen Grundlage von [PRODUKT] wird.

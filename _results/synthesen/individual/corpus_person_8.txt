@@ -1,0 +1,119 @@
+=== DATENKORPUS PERSON-8 ===
+
+--- AUSSAGEN (17 Stueck) ---
+
+[A001] (1998, muendlich)
+  "Our goal is to organize the world's information and make it universally accessible and useful. That's really what PageRank was about: figuring out what's important by looking at what other people think is important."
+  Kontext: [UNI]-Vortrag 1998. [PERSON] und Page erklaeren den PageRank-Algorithmus vor der [FIRMA]-Gruendung.
+
+[A002] (2003, muendlich)
+  "I feel like our slogan 'Don't be evil' has been a great rallying cry for us. And it's very simple. We try not to cross that line. We try to stay on the right side of that line by a healthy margin."
+  Kontext: Interview ueber [FIRMA]s Firmenkultur und den Motto 'Don't be evil'. [PERSON] erklaert, warum einfache ethische Prinzipien wichtig sind.
+
+[A003] (2004-02, muendlich)
+  "Solve search, and we solve a lot of the world's problems. Access to information is a fundamental human right."
+  Kontext: TED Talk zusammen mit [PERSON]. [PERSON] und Page sprechen ueber die Philosophie hinter [FIRMA] und die Bedeutung von Informationszugang.
+
+[A004] (2006, muendlich)
+  "We felt that by participating there, we were able to actually make a difference. People could access more information than they would have otherwise. But we're constantly re-evaluating that."
+  Kontext: Kongressanhoerung 2006. [PERSON] und Page rechtfertigen die zensierte [FIRMA].cn-Version -- eine kontroverse Entscheidung.
+
+[A005] (2008-09, schriftlich)
+  "I know early in my life something I'm substantially predisposed to. I now have the opportunity to adjust my life to reduce those odds. Parkinson's is not inevitable for me -- even with the genetic mutation -- if I take action."
+  Kontext: Blog-Post/Interview ueber 23andMe Testergebnisse. [PERSON] (dessen Mutter an Parkinson erkrankte) teilt oeffentlich seine LRRK2-Mutation und finanziert Parkinson-Forschung.
+
+[A006] (2009-05-22, muendlich)
+  "Technology is an inherent democratizer. Because of the evolution of hardware and software, you're now able to do things that only very rich people and powerful governments could do before."
+  Kontext: Commencement Speech an der University of Maryland (wo er seinen Master machte). [PERSON] spricht ueber Technologie und Chancengleichheit.
+
+[A007] (2010-03-23, muendlich)
+  "I am particularly troubled that this has occurred in China, as I spent some time as a child growing up in the Soviet Union. I was born in Moscow. I spent the first six years of my life there. I understand very much this kind of environment of totalitarianism and that's something I'm particularly sensitive to."
+  Kontext: Interview nach [FIRMA]s Rueckzug aus China (2010). [PERSON] macht seinen persoenlichen Hintergrund als Emigrant zum zentralen Grund.
+
+[A008] (2010-11-15, muendlich)
+  "We want to build technology that everybody loves using, and that affects everyone. We want to create beautiful, intuitive services and technologies that are so incredibly useful that people use them twice a day. Like they use a toothbrush. There aren't that many things people use twice a day."
+  Kontext: Web 2.0 Summit Interview. [PERSON] spricht ueber [FIRMA]s Produktphilosophie und den Anspruch, unverzichtbare Technologie zu schaffen.
+
+[A009] (2012, schriftlich)
+  "We believe strongly in supporting medical research, particularly in Parkinson's disease, which affects my family, and in fighting global poverty and supporting education."
+  Kontext: Artikel ueber die [PERSON] Wojcicki Foundation. [PERSON] spendet Millionen fuer Parkinson-Forschung (motiviert durch seine eigene Praedisposition).
+
+[A010] (2012-04-15, muendlich)
+  "There are very powerful forces that have lined up against the open Internet on all sides and around the world. I am more worried than I have been in the past. It's scary. The threat to the freedom of the Internet comes from governments, entertainment industries, and restrictive walled gardens like [FIRMA] and [FIRMA]."
+  Kontext: Guardian-Interview 2012. [PERSON] aeussert sich ungewoehnlich politisch und kritisiert Zensur, Walled Gardens und Regierungseingriffe.
+
+[A011] (2012-06-27, muendlich)
+  "We want to make the world's information universally accessible and useful. Ultimately, I'd like information to come to me when I need it without having to take any action."
+  Kontext: Interview ueber [FIRMA] Glass. [PERSON] erklaert die Vision eines Computers, der Informationen vorausschauend liefert.
+
+[A012] (2013-01, muendlich)
+  "We can probably save a million lives a year by having self-driving cars, just in terms of accident reduction. Think about all the people that get injured, all the emergency rooms, all the suffering, all the people that lose their loved ones."
+  Kontext: Konferenz zum [FIRMA] Self-Driving Car Project. [PERSON] praesentiert die Vision autonomer Fahrzeuge als humanitaeres Projekt.
+
+[A013] (2013-02-27, muendlich)
+  "The phone is very, very seductive, and it's very easy to just pull it out, check your email, check your messages. It's kind of emasculating. Is this glass half full or half empty? It's kind of socially isolating. It takes you away from the present."
+  Kontext: TED-Konferenz 2013, wo [PERSON] [FIRMA] Glass praesentiert und gegen Smartphones argumentiert.
+
+[A014] (2014, muendlich)
+  "We're trying to do things that sound a little crazy, like making a car that drives itself or building a balloon-powered Internet. But we take a moonshot-style approach with one caveat: our problems all have to be huge. Millions and millions of people have to be affected by a problem before we tackle it."
+  Kontext: Artikel ueber [FIRMA] X. [PERSON] leitet das Moonshot-Labor und beschreibt die Philosophie hinter Projekten wie Loon und Waymo.
+
+[A015] (2015, muendlich)
+  "It's not a failure if you learn something. We always look at things and say, 'What did we learn from that?' Whether it's Glass, or whether it's any other project."
+  Kontext: Interview ueber die Kultur bei [FIRMA] X. [PERSON] verteidigt gescheiterte Projekte wie [FIRMA] Glass als wertvolle Lernerfahrungen.
+
+[A016] (2017, muendlich)
+  "I believe lighter-than-air vehicles have the potential to revolutionize disaster relief and cargo transport. This is about solving real-world problems with innovative technology."
+  Kontext: Bloomberg-Artikel ueber [PERSON]s Luftschiff-Projekt (LTA Research). Er finanziert heimlich die Entwicklung eines riesigen Frachtluftschiffs.
+
+[A017] (2023-11, muendlich)
+  "I've been coming in most days, meeting with our researchers, learning about the technology, and helping out where I can. It's exciting to see the progress."
+  Kontext: Nach Jahren der Abwesenheit kehrt [PERSON] 2023 zu [FIRMA] zurueck, um bei der Entwicklung des [PRODUKT]-Modells zu helfen -- eine ueberraschende Kehrtwende.
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (1998-09-04) [gruendung] ($100,000)
+  [PERSON] und [PERSON] gruenden [FIRMA] Inc. in einer Garage in Menlo Park, Kalifornien. Sie sammeln eine initiale Finanzierung von $100.000 von Andy Bechtolsheim (Sun Microsystems Mitgruender), noch bevor sie eine Bank haben.
+
+[H002] (2004-08-19) [investition] ($1,670,000,000)
+  [FIRMA] geht an die Boerse (NASDAQ: GOOG) mit einem ungewoehnlichen Dutch-Auction-Verfahren. Preis: $85 pro Aktie. Gesamtbewertung: $23 Milliarden. [PERSON] und Page werden zu Milliardaeren.
+
+[H003] (2007) [investition]
+  [PERSON] investiert persoenlich in 23andMe, ein von seiner damaligen Frau Anne Wojcicki mitgegruendetes Gentests-Unternehmen. [FIRMA] investiert ebenfalls Millionen.
+
+[H004] (2009) [gruendung]
+  [PERSON] initiiert und leitet das [FIRMA] Self-Driving Car Project (spaeter Waymo). Er holt Sebastian Thrun (DARPA Grand Challenge Gewinner) als Projektleiter. Budget: hunderte Millionen Dollar.
+
+[H005] (2009) [spende] ($50,000,000)
+  [PERSON] spendet ueber $50 Millionen an die Michael J. Fox Foundation und andere Parkinson-Forschungsorganisationen ueber die [PERSON] Wojcicki Foundation.
+
+[H006] (2012) [lobbying]
+  [PERSON] und [PERSON] spendet persoenlich Millionen an politische Kampagnen, hauptsaechlich an Demokraten und Kandidaten, die Technologie-freundliche Politik unterstuetzen. [FIRMA]/[FIRMA] wird einer der groessten Lobbying-Akteure in Washington.
+
+[H007] (2012-06-27) [produktlaunch]
+  [PERSON] stellt [FIRMA] Glass oeffentlich vor -- eine Augmented-Reality-Brille. Er traegt sie persoenlich bei oeffentlichen Events, inklusive einem spektakulaeren Fallschirmsprung-Stunt bei der [FIRMA] I/O 2012.
+
+[H008] (2013-06-14) [gruendung]
+  [PERSON] unterstuetzt die Entwicklung von Project Loon in [FIRMA] X: ein Netzwerk von Stratosphaeren-Ballons zur Bereitstellung von Internet in abgelegenen Gebieten. Erste Tests in Neuseeland.
+
+[H009] (2015) [gruendung] ($100,000,000)
+  [PERSON] gruendet heimlich LTA Research, ein Unternehmen zur Entwicklung riesiger Frachtluftschiffe. Er baut in einem NASA-Hangar in Mountain View ein 200-Meter-Luftschiff namens 'Pathfinder 1'. Finanzierung: geschaetzt ueber $100 Millionen.
+
+[H010] (2015-08-10) [umstrukturierung]
+  [PERSON] und [PERSON] gruenden [FIRMA] Inc. als Muttergesellschaft von [FIRMA]. Page wird [FIRMA]-CEO, [PERSON] wird Praesident. [PERSON] uebernimmt [FIRMA] als CEO.
+
+[H011] (2015-12-07) [gruendung]
+  [PERSON] initiiert die Gruendung von Verily (ehemals [FIRMA] Life Sciences) als [FIRMA]-Tochter. Verily entwickelt medizinische Geraete, Gesundheits-Software und Diagnostik-Tools.
+
+[H012] (2016-12-13) [gruendung]
+  Das [FIRMA] Self-Driving Car Project wird als eigenstaendige [FIRMA]-Tochter 'Waymo' ausgegliedert. CEO: John Krafcik. Waymo wird spaeter auf ueber $30 Milliarden bewertet.
+
+[H013] (2017) [verkauf] ($1,000,000,000)
+  [PERSON] verkauft regelmaessig [FIRMA]/[FIRMA]-Aktien im Wert von hunderten Millionen Dollar pro Jahr ueber automatisierte Trading-Plaene (10b5-1). Zwischen 2017-2020 verkauft er Aktien im Gesamtwert von ueber $1 Milliarde.
+
+[H014] (2019-12-03) [ruecktritt]
+  [PERSON] tritt als Praesident von [FIRMA] zurueck. [PERSON] tritt ebenfalls als CEO zurueck. [PERSON] wird CEO von [FIRMA] und [FIRMA]. [PERSON] und Page bleiben Aktionaere und Vorstandsmitglieder.
+
+[H015] (2023-11) [einstellung]
+  Nach vier Jahren Abwesenheit kehrt [PERSON] zu [FIRMA] zurueck, um an der Entwicklung des [PRODUKT]-KI-Modells mitzuwirken. Er arbeitet direkt mit [FIRMA] Brain und [FIRMA] zusammen.

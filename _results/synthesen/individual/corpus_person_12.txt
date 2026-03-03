@@ -1,0 +1,143 @@
+=== DATENKORPUS PERSON-12 ===
+
+--- AUSSAGEN (23 Stueck) ---
+
+[A001] (2022, muendlich)
+  "Maybe we're now reaching a point where the language of psychology is starting to be appropriate to understand the behavior of these neural networks."
+  Kontext: [PERSON] spekuliert, dass fortgeschrittene KI-Systeme psychologische Konzepte rechtfertigen koennten.
+
+[A002] (2023, muendlich)
+  "Good compressors can become good predictors. When training a large neural network to accurately predict the next word, the network learns a world model by learning statistical correlations in text to compress them really well."
+  Kontext: [PERSON] erklaert seine Theorie des unueberwachten Lernens: Kompression ist eng mit Intelligenz verbunden.
+
+[A003] (2023, muendlich)
+  "I'm quite hopeful that by simply improving this subsequent reinforcement learning from human feedback step, we can teach it to not hallucinate."
+  Kontext: [PERSON] aeussert sich optimistisch ueber die Faehigkeit von RLHF, KI-Halluzinationen zu reduzieren.
+
+[A004] (2023, muendlich)
+  "Feel the AGI!"
+  Kontext: Berichte von [FIRMA]-Mitarbeitern, dass [PERSON] Team-Meetings mit dem Aufruf 'Feel the AGI!' leitete -- fast wie eine spirituelle Beschwörung.
+
+[A005] (2023, muendlich)
+  "Kolmogorov complexity well-defines unsupervised learning and LLMs are approximations thereof."
+  Kontext: [PERSON] verbindet Informationstheorie und KI: LLMs lernen durch Kompression, was einer Form von Kolmogorov-Komplexitaet entspricht.
+
+[A006] (2023-11-20, schriftlich)
+  "I deeply regret my participation in the board's actions. I never intended to harm [FIRMA]. I love everything we've built together and I will do everything I can to reunite the company."
+  Kontext: Tweet drei Tage nach [PERSON]s Entlassung, als 700+ [FIRMA]-Mitarbeiter mit Kuendigung drohten. [PERSON] selbst unterzeichnete den Brief, der den Ruecktritt des Boards forderte.
+
+[A007] (2024, muendlich)
+  "Very carefully curate data such that consciousness is never mentioned. If the AI then spontaneously recognized and articulated consciousness, that would constitute evidence of consciousness."
+  Kontext: [PERSON] schlaegt einen spezifischen Test vor: KI-Bewusstsein wuerde sich zeigen, wenn eine KI spontan das Konzept erkennt, ohne je damit trainiert worden zu sein.
+
+[A008] (2024, muendlich)
+  "There will be a before and an after. I'm working on safety for my own self-interest."
+  Kontext: [PERSON] beschreibt die Entwicklung fortgeschrittener KI als 'monumental, welterschuetternd' und raeumt ein, dass seine Sicherheitsarbeit auch Eigeninteresse ist.
+
+[A009] (2024-05-14, schriftlich)
+  "This is a project that is very personally meaningful to me."
+  Kontext: [PERSON] verlaesst [FIRMA] nach der turbulenten Board-Krise und der Aufloesung des Superalignment-Teams.
+
+[A010] (2024-06-19, schriftlich)
+  "Our first product will be the safe superintelligence, and it will not do anything else up until then."
+  Kontext: Ankuendigung der Gruendung von [FIRMA]. [PERSON] betont den kompromisslosen Fokus auf sichere Superintelligenz.
+
+[A011] (2024-06-25, muendlich)
+  "Five to twenty years."
+  Kontext: Interview mit Dwarkesh Patel nach [PERSON]s Abgang von [FIRMA]. Auf die Frage nach seiner AGI-Prognose antwortet er knapp mit diesem Zeitrahmen.
+
+[A012] (2024-06-25, muendlich)
+  "Current approaches will go some distance and then peter out. They'll keep improving, but won't deliver AGI. The kind of system that would work is something we don't yet know how to build."
+  Kontext: Dwarkesh Podcast. [PERSON] aeussert sich skeptisch ueber die Faehigkeit aktueller Scaling-Ansaetze, AGI zu erreichen.
+
+[A013] (2024-06-25, muendlich)
+  "Generalization is the real frontier—today's AI aces benchmarks but fails at simple tasks. Humans learn from far fewer examples. Closing this gap is the key to true intelligence."
+  Kontext: Dwarkesh Podcast. [PERSON] betont, dass Generalisierung -- nicht nur Skalierung -- der Schluessel zu echter Intelligenz ist.
+
+[A014] (2024-06-25, muendlich)
+  "AGI will start as a superintelligent learner, not an all-knowing oracle. A system that can learn every job extremely fast becomes superintelligent through deployment."
+  Kontext: [PERSON] beschreibt seine Vision von AGI als System, das durch schnelles Lernen superintelligent wird, nicht durch umfassende Vorprogrammierung.
+
+[A015] (2024-11-15, muendlich)
+  "I had a big new vision."
+  Kontext: Interview mit CTech. [PERSON] spricht erstmals detaillierter ueber die Gruende fuer seinen [FIRMA]-Abgang.
+
+[A016] (2024-12-10, muendlich)
+  "Pre-training as we know it will unquestionably end, because we have but one internet."
+  Kontext: NeurIPS 2024 Keynote in Vancouver. [PERSON] warnt, dass Pre-Training an Datengrenzen stoesst und neue Forschungsansaetze noetig sind.
+
+[A017] (2024-12-10, muendlich)
+  "At some point though, pre-training will run out of data. The data is very clearly finite."
+  Kontext: NeurIPS 2024 Talk. [PERSON] diskutiert 'Peak Data' -- die Menschheit erreicht die Grenze verfuegbarer Trainingsdaten.
+
+[A018] (2024-12-10, muendlich)
+  "That is obviously where this field is headed. This is obviously what is being built here. Superintelligent AI will have radically different qualities and properties than today's AI."
+  Kontext: NeurIPS 2024 Keynote 'Sequence to Sequence Learning with Neural Networks: What a Decade'. [PERSON] spricht ueber die Zukunft von Superintelligenz.
+
+[A019] (2024-12-10, muendlich)
+  "2012 to 2020 was the age of research, 2020 to 2025 was the age of scaling, and 2026 onward will be another age of research."
+  Kontext: NeurIPS 2024. [PERSON] beschreibt das Ende der reinen Skalierungsaera und die Rueckkehr zur Grundlagenforschung.
+
+[A020] (2024-12-10, muendlich)
+  "We got right: betting on deep learning, autoregressive models, and scaling. We got wrong: using pipelining and LSTMs. LSTM architecture is ancient history."
+  Kontext: NeurIPS 2024 Keynote. [PERSON] ueberblickt die letzten 12 Jahre seit AlexNet und seq2seq und kommentiert, was funktioniert hat und was ueberholt ist.
+
+[A021] (2025-10-01, muendlich)
+  "One thing I can say is that the process was rushed. I think it was rushed because the board was inexperienced."
+  Kontext: Deposition am 1. Oktober 2025 im Rahmen von [PERSON]s Klage gegen [FIRMA] und [PERSON]. Erste detaillierte Aussage [PERSON]s ueber die Board-Krise.
+
+[A022] (2025-10-01, muendlich)
+  "I had not expected them to cheer, but I had not expected them to feel strongly either way."
+  Kontext: [PERSON] erklaert, dass er erwartete, dass die Mitarbeiter indifferent sein wuerden -- nicht dass 700 von 770 mit Kuendigung drohen wuerden.
+
+[A023] (2025-10-01, muendlich)
+  "I was very unhappy about it. I really did not want [FIRMA] to merge with [FIRMA]."
+  Kontext: Board-Mitglied Helen Toner erreichte [FIRMA]-Gruender [PERSON] am 18. November 2023 mit einem Fusionsvorschlag. [PERSON] lehnte dies ab.
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2012-09-30) [produktlaunch]
+  [PERSON], Alex Krizhevsky und [PERSON] entwickeln AlexNet, das die ImageNet LSVRC-2012-Konkurrenz mit grossem Vorsprung gewinnt. Dies loest die Deep-Learning-Revolution aus.
+
+[H002] (2013-03-12) [verkauf] ($44,000,000)
+  [FIRMA] erwirbt das AlexNet-Team ([PERSON], [PERSON], Alex Krizhevsky) fuer $44 Millionen und weist sie [FIRMA] Brain zu.
+
+[H003] (2015-12-11) [gruendung] ($1,000,000,000)
+  [PERSON] verlaesst [FIRMA] Brain und gruendet [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], Wojciech Zaremba und John Schulman. [PERSON] wird Chief Scientist. [FIRMA] wird als gemeinnuetziges KI-Forschungslabor gegruendet.
+
+[H004] (2019-02-14) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], ein 1,5-Milliarden-Parameter-Sprachmodell. Wegen befuerchteten Missbrauchs wird es zunaechst nur teilweise freigegeben. [PERSON] spielt eine zentrale Rolle in der Entwicklung.
+
+[H005] (2020-06-11) [produktlaunch]
+  [FIRMA] launcht [PRODUKT] mit 175 Milliarden Parametern -- das groesste Sprachmodell seiner Zeit. [PERSON] ist massgeblich an der Entwicklung beteiligt.
+
+[H006] (2021-01-05) [produktlaunch]
+  [PERSON] leitet die Entwicklung von [PRODUKT] 1, einem KI-Bildgenerator, der Bilder aus Textbeschreibungen erstellt.
+
+[H007] (2023-03-14) [produktlaunch]
+  [PERSON] ist einer der Hauptarchitekten von [PRODUKT], dem multimodalen Sprachmodell, das im Maerz 2023 veroeffentlicht wird.
+
+[H008] (2023-11-17) [entlassung]
+  [PERSON] fuehrt als Board-Mitglied die Entlassung von [PERSON] als [FIRMA]-CEO an. Der Board wirft [PERSON] mangelnde Aufrichtigkeit vor.
+
+[H009] (2023-11-19) [sonstiges]
+  [PERSON] unterzeichnet den offenen Brief von 700+ [FIRMA]-Mitarbeitern, der den Ruecktritt des Boards fordert -- obwohl er selbst Board-Mitglied ist und [PERSON] entlassen hat.
+
+[H010] (2023-11-22) [ruecktritt]
+  Nach der Rueckkehr von [PERSON] als CEO tritt [PERSON] vom [FIRMA]-Board zurueck. Er bleibt zunaechst Chief Scientist.
+
+[H011] (2024-05-14) [ruecktritt]
+  [PERSON] kuendigt seinen Ruecktritt als Chief Scientist von [FIRMA] an, um sich einem neuen Projekt zu widmen, das 'sehr persoenlich bedeutungsvoll' fuer ihn sei. [PERSON] uebernimmt seine Position.
+
+[H012] (2024-06-19) [gruendung]
+  [PERSON] gruendet [FIRMA] Inc. ([FIRMA]) zusammen mit [PERSON] und Daniel Levy. [FIRMA] hat Bueros in Palo Alto und Tel Aviv und fokussiert ausschliesslich auf sichere Superintelligenz.
+
+[H013] (2024-09-04) [investition] ($1,000,000,000)
+  [FIRMA] ([FIRMA]) sichert sich $1 Milliarde Finanzierung von NFDG ([PERSON] & [PERSON]), [FIRMA], [FIRMA] Capital, DST Global und SV Angel. Bewertung: $5 Milliarden.
+
+[H014] (2024-12-10) [sonstiges]
+  [PERSON], Oriol Vinyals und Quoc V. Le erhalten den NeurIPS 2024 Test of Time Award fuer ihr Paper 'Sequence to Sequence Learning with Neural Networks'.
+
+[H015] (2025-03-10) [investition] ($2,000,000,000)
+  [FIRMA] ([FIRMA]) sichert sich weitere $2 Milliarden in einer von Greenoaks Capital gefuehrten Finanzierungsrunde. Die Bewertung steigt auf $30-32 Milliarden -- das Sechsfache der vorherigen Bewertung.

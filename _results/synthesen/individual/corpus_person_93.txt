@@ -1,0 +1,128 @@
+=== DATENKORPUS PERSON-93 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2019-06-01, schriftlich)
+  "As I dug in to try to understand where all of the capability gaps were between [FIRMA] and us for model training, I got very, very worried. The thing that's interesting about what [FIRMA] and [FIRMA] and [FIRMA] Brain are doing is the scale of their ambition."
+  Kontext: Internal email to [PERSON] and Bill Gates expressing concerns about [FIRMA]'s AI capabilities compared to competitors
+
+[A002] (2019-06-01, schriftlich)
+  "We are multiple years behind the competition in terms of ML scale."
+  Kontext: Part of the 2019 email to [FIRMA] leadership about AI competitive position
+
+[A003] (2020-01-01, schriftlich)
+  "AI must be developed in accordance with a set of policies that democratize AI. AI must be accessible to all individuals and all businesses so that this immense potential is not missed by those with limited resources."
+  Kontext: Talk about AI policy and democratization principles
+
+[A004] (2020-02-01, schriftlich)
+  "We must ensure equal access to technology, starting with rural broadband. In order for these communities to be able to connect with their digital future, they actually have to be able to connect to the internet. You can't run a modern, technology-heavy business when your business and your employees don't have great broadband connectivity."
+  Kontext: Discussion on technology infrastructure needs in rural America
+
+[A005] (2020-04-07, schriftlich)
+  "AI has the potential to create opportunity for everyone and help solve some of our most vexing problems. The sooner that we stop viewing AI as a substitute for human labor and start imagining how it can be a force multiplier for human ingenuity, the better."
+  Kontext: Book publication and promotional materials for 'Reprogramming the American Dream'
+
+[A006] (2022-01-01, schriftlich)
+  "Humans and machines have different strengths—machines excel at chess, Go, and repetitive work, while humans are strong in areas like common sense reasoning where machines still have long way to go."
+  Kontext: Interview about the relationship between human and machine intelligence
+
+[A007] (2023-01-01, schriftlich)
+  "Technology only matters when it expands what people can do. The core question stays constant: Does the work make someone's life or job meaningfully better? Are we doing the best job that we possibly can to build technology in a way where 40 years from now, our children and our grandchildren will look back and say, 'Wow, this was beneficial. This mattered.'"
+  Kontext: Discussion about technology's purpose and long-term impact
+
+[A008] (2023-01-01, schriftlich)
+  "Every time that we have used AI to solve a problem that we thought was some high watermark of human intelligence, we have changed our mind about how important that watermark was."
+  Kontext: Reflections on AI capabilities and human perception of intelligence
+
+[A009] (2023-01-01, schriftlich)
+  "We must democratize access to AI tools so that people in small communities have the same access I do, because I have infinite amounts of faith in their ability to go do amazing things once they have the access, which ultimately ensures fair and inclusive decision-making about AI's trajectory."
+  Kontext: Discussion on democratization of AI and equal access
+
+[A010] (2023-01-01, schriftlich)
+  "We're probably going to have more change over the next 40 years due to technology than in the past 40. We as a society need to realize the potential for AI to relieve us of repetitive cognitive work, and with the democratization of AI should come recognition of our unique abilities as humans."
+  Kontext: Speech about future technological transformation and human capabilities
+
+[A011] (2023-01-01, schriftlich)
+  "Developers report that [PRODUKT] helps them stay in the flow and keeps their minds sharper during what used to be boring and repetitive tasks, and when AI tools help eliminate drudgery from a job, it improves satisfaction."
+  Kontext: Analysis of [PRODUKT] impact on developer productivity and satisfaction
+
+[A012] (2023-01-01, schriftlich)
+  "[PRODUKT] is a large language model-based system that turns natural language prompts into code and has a dramatic positive impact on developer productivity, opening up coding to a much broader group of people."
+  Kontext: Discussion on AI's impact on software development
+
+[A013] (2023-01-01, schriftlich)
+  "Technology really does massively benefit society. You wouldn't go take mechanical engines or books away from society. AI will eventually be indispensable to society, and we must choose what kind of transformation wave we're going to have."
+  Kontext: Discussion on AI's inevitable integration into society
+
+[A014] (2024-01-01, schriftlich)
+  "Massive crunch is probably an understatement. I think we have been in a mode where it's been almost impossible to build capacity fast enough since [PRODUKT] launched."
+  Kontext: Discussion on data center capacity constraints and AI infrastructure challenges
+
+[A015] (2024-01-01, muendlich)
+  "I expect constraints to persist for a while. Demand keeps exploding. I do not see demand for inference declining and some of the most ambitious teams using coding agents can face inference costs of roughly $150,000 per year."
+  Kontext: [FIRMA] conference presentation on AI infrastructure challenges
+
+[A016] (2024-07-15, schriftlich)
+  "Despite what other people think, we're not at diminishing marginal returns on scale-up. The unfortunate thing is you only get to sample it every couple of years because it just takes a while to build supercomputers and then train models on top of them."
+  Kontext: Podcast interview discussing AI scaling laws and future of large language models
+
+[A017] (2024-07-15, schriftlich)
+  "Everything that large language models can do will get better at the next scale point, and they will become more general in capability."
+  Kontext: Discussion on the continued benefits of scaling AI models
+
+[A018] (2025-05-01, muendlich)
+  "Within five years, 95% of new code could be AI-generated, enabling even non-coders like my 16-year-old daughter to build apps effortlessly."
+  Kontext: [FIRMA] Build 2025 keynote presentation on future of coding
+
+[A019] (2025-05-01, muendlich)
+  "The agentic web is an open internet with agents talking to agents the way browsers talk to servers. By championing the open Model Context Protocol across GitHub, [PRODUKT] Studio, Azure AI Foundry, and Windows 11, [FIRMA] aims to provide HTTP-style interoperability and memory via structured retrieval augmentation."
+  Kontext: [FIRMA] Build 2025 keynote outlining vision for AI agents
+
+[A020] (2025-10-06, schriftlich)
+  "The partnership with [FIRMA] was basically a bet saying this particular team at the time also understood that this was a game of scaling, compute and doing incredible things with it in a very disciplined way. If we work with them, they will push us to build better infrastructure, and we can enable them to do their best work."
+  Kontext: TechCrunch Disrupt 2025 discussion about the strategic rationale behind [FIRMA]-[FIRMA] partnership
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (2017-01-24) [einstellung]
+  [PERSON] appointed as [FIRMA] Chief Technology Officer, reporting directly to CEO [PERSON]
+
+[H002] (2018-01-01) [produktlaunch]
+  Launched 'Behind the Tech' podcast as host, interviewing technology innovators
+
+[H003] (2019-01-01) [lobbying]
+  Participated in National Security Commission on AI, representing industry perspective on AI policy
+
+[H004] (2019-07-01) [investition]
+  [FIRMA] invested $1 billion in [FIRMA] following [PERSON]'s strategic recommendation
+
+[H005] (2020-01-01) [umstrukturierung]
+  Led [FIRMA] Responsible AI Council as co-chair alongside Brad Smith
+
+[H006] (2020-04-07) [produktlaunch]
+  Book 'Reprogramming the American Dream: From Rural America to Silicon Valley—Making AI Serve Us All' published
+
+[H007] (2021-06-29) [produktlaunch]
+  [PRODUKT] launched as AI pair programming tool, co-developed under Scott's leadership
+
+[H008] (2023-01-01) [partnerschaft]
+  [FIRMA] and [FIRMA] collaboration announced to build AI supercomputer
+
+[H009] (2023-01-23) [investition]
+  [FIRMA] invested additional $10 billion in [FIRMA], giving it just shy of 50% stake
+
+[H010] (2023-01-23) [partnerschaft]
+  [FIRMA] and [FIRMA] extended partnership announced with supercomputing infrastructure commitment
+
+[H011] (2024-01-01) [investition]
+  [FIRMA] invested $19 billion in data center capital expenditures for AI workload capacity
+
+[H012] (2024-05-21) [umstrukturierung]
+  [FIRMA] deployed equivalent of five 561 petaflops supercomputers monthly for AI infrastructure
+
+[H013] (2025-05-01) [produktlaunch]
+  Windows AI Foundry and Model Context Protocol (MCP) integration announced at Build 2025
+
+[H014] (2025-05-01) [produktlaunch]
+  SQL Server 2025 public preview announced with AI-ready enterprise database capabilities

@@ -1,0 +1,119 @@
+=== DATENKORPUS PERSON-7 ===
+
+--- AUSSAGEN (17 Stueck) ---
+
+[A001] (2012-06-20, schriftlich)
+  "When I bought Lāna'i, I publicly announced plans to transform the island into a model for environmental sustainability. I intend to invest as much as $500 million to improve the island's infrastructure and create an environmentally friendly agricultural industry."
+  Kontext: Ankündigung nach dem Kauf von 98% der hawaiianischen Insel Lanai
+
+[A002] (2018-06-01, muendlich)
+  "The US can't let China cultivate more engineers than the US and let Chinese companies win fierce competition against US companies."
+  Kontext: Aussage zum technologischen Wettbewerb mit China
+
+[A003] (2024-09-12, muendlich)
+  "Every police officer is going to be supervised at all times, and if there's a problem, AI will report that problem. Citizens will be on their best behavior because we are constantly recording and reporting everything that's going on."
+  Kontext: [FIRMA] financial analysts meeting - Aussage zu AI-gestützter Massenüberwachung
+
+[A004] (2024-09-16, muendlich)
+  "I would describe the dinner as [FIRMA]—me and Elon begging Jensen for GPUs. Please take our money. Please take our money. By the way, I got dinner. No, no, take more of it. We need you to take more of our money please."
+  Kontext: Beschreibung eines Abendessens mit [PERSON] und [PERSON] ([FIRMA] CEO) im Nobu Palo Alto, um mehr GPUs zu erhalten
+
+[A005] (2024-12-10, muendlich)
+  "[FIRMA] is focusing on solving the very important problem of how to enable the most recent AI models to complete multistep reasoning on private enterprise data without compromising the data."
+  Kontext: [FIRMA] earnings call - Datensicherheit bei Enterprise AI
+
+[A006] (2025-01-15, muendlich)
+  "AI changes everything. This is the largest, fastest-growing business in human history. It is bigger than the industrial revolution."
+  Kontext: [FIRMA] AI World 2025 Keynote
+
+[A007] (2025-01-15, muendlich)
+  "AI will help us solve problems we couldn't solve on our own. It will make us much better scientists, engineers, teachers, chefs, bricklayers, surgeons, and what have you. I don't think AI will replace all human endeavors."
+  Kontext: [FIRMA] AI World 2025 - Vision für AI und menschliche Arbeit
+
+[A008] (2025-01-15, muendlich)
+  "A single blood test, processed by an IoT-connected gene sequencer, could offer early detection for cancer, with the AI analyzing DNA to identify circulating tumor DNA from nascent cancers and the genetic signatures of pathogens."
+  Kontext: [FIRMA] AI World 2025 - Früherkennung von Krebs durch AI
+
+[A009] (2025-01-15, muendlich)
+  "When you move beyond training models into the corporate world to do reasoning and inferencing on private corporate data, that's an even bigger market than training AI models."
+  Kontext: [FIRMA] AI World 2025 - Zwei-Phasen-Revolution der AI
+
+[A010] (2025-01-15, muendlich)
+  "Several world-class AI companies have chosen [FIRMA] to build large-scale GPU-centric data centers because [FIRMA] builds gigawatt-scale data centers that are faster and more cost-efficient at training AI models than anyone else."
+  Kontext: [FIRMA] AI World 2025 - Wettbewerbsvorteil bei AI-Infrastruktur
+
+[A011] (2025-01-15, muendlich)
+  "These models are trained with public data, but they don't know how your company's accounts are calculated. The future value lies in applying AI to private enterprise data."
+  Kontext: [FIRMA] AI World 2025 - Enterprise AI-Strategie
+
+[A012] (2025-01-15, muendlich)
+  "We are collaborating with the University of [UNI] to modify wheat to produce 20% more grain on the same land by using an AI model to simulate how to design more efficient photosynthesis."
+  Kontext: [FIRMA] AI World 2025 - AI für Landwirtschaft und Ernährungssicherheit
+
+[A013] (2025-01-15, muendlich)
+  "The training of large models has become a trillion-dollar capital cycle. This is bigger than the railroads, bigger than the industrial revolution."
+  Kontext: [FIRMA] AI World 2025 - Größenordnung der AI-Revolution
+
+[A014] (2025-01-21, muendlich)
+  "Once cancer tumors are gene-sequenced, AI can design a vaccine for every individual person to vaccinate them against that cancer, and can make that mRNA vaccine robotically using AI in about 48 hours. This is the promise of AI and the promise of the future."
+  Kontext: White House Ankündigung des [PROJEKT] AI Projekts - Vision für personalisierte Krebsimpfstoffe
+
+[A015] (2025-01-21, muendlich)
+  "[PROJEKT] will expand to 20 data centers and other locations around the world. This is the largest AI infrastructure project in history."
+  Kontext: White House Ankündigung des [PROJEKT]-Projekts mit Trump, [PERSON] und [PERSON]
+
+[A016] (2025-02-12, muendlich)
+  "The US and other countries need to unify all of the national data into a database that can be fed to AI."
+  Kontext: Vision für nationale AI-Datenbanken und Überwachungsinfrastruktur
+
+[A017] (2025-10-15, muendlich)
+  "[PERSON], [PERSON] and [PERSON] are the smartest engineers in the AI space. They are building the future."
+  Kontext: Aussage über führende AI-Unternehmer
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2012-06-20) [kauf] ($300,000,000)
+  Kauf von 98% der hawaiianischen Insel Lanai, um sie in ein Modell für ökologische Nachhaltigkeit zu verwandeln
+
+[H002] (2016-11-01) [kauf] ($9,300,000,000)
+  Übernahme von NetSuite für 9,3 Milliarden USD, [PERSON] besaß 35% und machte persönlich 3,5 Milliarden USD
+
+[H003] (2022-05-01) [spende] ($30,000,000)
+  Spende von mehr als 30 Millionen USD seit 2021 an Opportunity Matters Fund Super PAC zur Unterstützung von Senator Tim Scott
+
+[H004] (2022-11-01) [spende] ($31,000,000)
+  Spende von mehr als 31 Millionen USD an republikanische Kandidaten während der Kongresswahlen 2022
+
+[H005] (2024-06-01) [investition] ($40,000,000,000)
+  [FIRMA] plant Ausgaben von rund 40 Milliarden USD für [FIRMA]-Chips, einschließlich etwa 400.000 der leistungsstärksten GB200-Chips
+
+[H006] (2024-06-15) [investition]
+  Abilene-Projekt: Baubeginn für AI-Rechenzentrum mit 450.000 [FIRMA] GB200 GPUs, 1,2 GW Gesamtleistung auf über 1.000 Acres
+
+[H007] (2024-07-01) [lobbying]
+  [PERSON] lobbyierte bei Trump, Tim Scott als Vizepräsidentschaftskandidaten zu wählen
+
+[H008] (2024-12-01) [partnerschaft]
+  Zusammenarbeit mit University of [UNI] zur AI-gestützten Modifikation von Weizen für 20% höhere Erträge durch effizientere Photosynthese
+
+[H009] (2025-01-21) [investition] ($7,000,000,000)
+  Gründungsinvestition im [PROJEKT] AI-Projekt: [FIRMA] verpflichtet 7 Milliarden USD initial bei geplanten Gesamtinvestitionen von 100-500 Milliarden USD
+
+[H010] (2025-01-21) [produktlaunch]
+  Start des Baus von 10 Rechenzentren in Abilene, Texas für das [PROJEKT]-Projekt mit geplanter Expansion auf 20 Standorte weltweit
+
+[H011] (2025-09-01) [partnerschaft] ($300,000,000,000)
+  [FIRMA] sichert sich Mehrjahresverträge im Wert von über 300 Milliarden USD mit [FIRMA], [FIRMA], [FIRMA], [FIRMA] und [FIRMA]
+
+[H012] (2025-09-10) [partnerschaft] ($300,000,000,000)
+  [FIRMA] sichert sich 300-Milliarden-USD-Vertrag mit [FIRMA] über fünf Jahre für Cloud-Computing-Ressourcen
+
+[H013] (2025-09-10) [investition] ($101,000,000,000)
+  [PERSON]s Vermögen steigt an einem Tag um 101 Milliarden USD auf 393 Milliarden USD - größter eintägiger Vermögenszuwachs in der Geschichte
+
+[H014] (2025-12-18) [partnerschaft]
+  [FIRMA] wird Teil der Investorengruppe, die 80,1% Anteil an der neu gegründeten US TikTok-Einheit erwirbt, nach Ausgliederung von ByteDance
+
+[H015] (2026-02-02) [investition] ($50,000,000,000)
+  [FIRMA] plant massive Kapitalaufnahme von 45-50 Milliarden USD für AI-Cloud-Expansion durch Mischung aus Fremd- und Eigenkapital

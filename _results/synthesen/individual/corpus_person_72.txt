@@ -1,0 +1,124 @@
+=== DATENKORPUS PERSON-72 ===
+
+--- AUSSAGEN (19 Stueck) ---
+
+[A001] (2018-06-15, muendlich)
+  "It's literally impossible to understand intelligence in a purely reductionist format because the complexity is too high and the amount of effort required would be many orders of magnitude more complicated than what you're trying to understand."
+  Kontext: Discussion on philosophy of intelligence and AI
+
+[A002] (2018-06-15, muendlich)
+  "I consider artificial intelligence to be 'artificial' simply because we built it, and believe intelligence can be implemented on any kind of substrate, not just biological."
+  Kontext: Philosophy on substrate-independence of intelligence
+
+[A003] (2023-06-26, schriftlich)
+  "Together with [FIRMA], we will empower enterprise customers to more securely and cost-effectively build LLMs and generative AI with their own data."
+  Kontext: Announcement of MosaicML acquisition by [FIRMA]
+
+[A004] (2023-07-19, muendlich)
+  "Open-source models will eventually overtake closed models, just as Linux did with Solaris."
+  Kontext: Prediction about the future of open-source AI
+
+[A005] (2023-10-15, muendlich)
+  "We are currently having a 'Napster moment' for generative AI. Napster clearly demonstrated demand for streaming music, but it did get shut down until someone figured out the incentives, how to go back and remunerate the creators the right way."
+  Kontext: Warning about copyright challenges in AI training data
+
+[A006] (2024-01-10, muendlich)
+  "You can't make rules and laws before you understand the problem. Regulating generative AI is like setting traffic laws in 1850 without knowing what cars, accidents, or liability look like."
+  Kontext: Discussion on AI regulation and governance
+
+[A007] (2024-01-10, muendlich)
+  "I place the probability of achieving AGI in the next three years as virtually zero, estimating maybe a 50% or 30% chance in 10 years, and by 30 years, a 90% chance range."
+  Kontext: Timeline predictions for achieving AGI
+
+[A008] (2024-01-10, muendlich)
+  "The real danger lies not in rogue AI, but in hastily constraining a technology that we don't yet understand."
+  Kontext: Warning against premature AI regulation
+
+[A009] (2024-10-14, muendlich)
+  "The term 'AGI' might have done more damage to the AI field than anything else. Human (or any animal intelligence) is NOT general; it's very specifically constrained. Generality would require too many observations to fit to; constrained intelligence learns the right stuff to."
+  Kontext: [PLATTFORM]/X statement criticizing the concept of Artificial General Intelligence
+
+[A010] (2025-01-15, muendlich)
+  "AI is the next evolution of humanity if we reinvent the computer itself. AI lets us collaborate, understand each other, and understand the world in much deeper ways."
+  Kontext: Statement about Unconventional AI's mission and vision
+
+[A011] (2025-01-20, muendlich)
+  "Current AI systems excel at pattern matching and probability estimation but fall short of true reasoning capabilities, lacking the ability to break down human intention into meaningful sub-goals or simulate potential outcomes before acting."
+  Kontext: Critique of current AI capabilities
+
+[A012] (2025-01-20, muendlich)
+  "If we want true advancements in AI—especially towards achieving Artificial General Intelligence—we must explore models based on dynamics and causality rather than sticking rigidly with existing frameworks like Transformers or GPUs alone."
+  Kontext: Vision for future AI development beyond current paradigms
+
+[A013] (2025-01-25, muendlich)
+  "Current AI, while powerful, falls short of genuine intelligence, often making stupid errors because it lacks a true understanding of causality. The ability to inherently understand and model causality, rather than merely simulate it, is a critical step towards AGI."
+  Kontext: Critique of current AI and path to AGI
+
+[A014] (2025-10-15, schriftlich)
+  "My goal is to create a computer that is as efficient as biology."
+  Kontext: Statement on X/[PLATTFORM] about Unconventional AI mission
+
+[A015] (2025-12-08, muendlich)
+  "Natural learning systems never used numerics. They didn't simulate the dynamics of learning. They use the intrinsic physics of whatever substrate they're on to build a learning system."
+  Kontext: Explaining Unconventional AI's analog computing approach
+
+[A016] (2025-12-08, muendlich)
+  "Can we provide a software interface to the inherent physics of the silicon? In essence, we will run the neural network on the physics directly rather than simulating some physical system."
+  Kontext: Technical vision for Unconventional AI's computing approach
+
+[A017] (2025-12-08, muendlich)
+  "The funding is a first installment toward the goal of up to $1 billion for the round. Within the next three to four years, this growth will be constrained by the global energy supply."
+  Kontext: Discussion of Unconventional AI funding and energy constraints
+
+[A018] (2025-12-10, muendlich)
+  "AI is intrinsically linked to hardware and hardware is intrinsically linked to power. We can't scale beyond a certain number of inferences per unit time because of the energy problem. We can't produce that much more energy in the next 10 years."
+  Kontext: Explaining energy constraints for AI development
+
+[A019] (2025-12-11, muendlich)
+  "These are nonlinear dynamics of circuits. That's inherently an analog thing. All devices are analog, even 'digital' devices. We just engineer those circuits to behave digitally, but we're largely erasing the richness of what those circuits can do by making them one and zero."
+  Kontext: Technical explanation of analog vs digital computing approach
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (2014-02-01) [gruendung]
+  Co-founded Nervana Systems, a deep learning chip startup focused on AI accelerators for data centers
+
+[H002] (2016-08-09) [verkauf]
+  Intel acquired Nervana Systems for approximately $408 million; Rao became VP and GM of Intel's AI Products Group
+
+[H003] (2017-09-21) [einstellung]
+  Appointed to Square's Board of Directors as AI expert while serving as Intel VP of AI Products
+
+[H004] (2020-02-26) [ruecktritt]
+  Departed Intel after company chose Habana Labs chips over Nervana technology; last day March 10, 2020
+
+[H005] (2021-01-15) [gruendung]
+  Co-founded MosaicML with Hanlin Tang, focused on democratizing generative AI model training
+
+[H006] (2023-05-05) [produktlaunch]
+  Released MPT-7B open-source language model with 7 billion parameters and 64,000 token context window
+
+[H007] (2023-06-01) [produktlaunch]
+  Released MPT-30B model, significantly more powerful than MPT-7B, outperforming original [PRODUKT]
+
+[H008] (2023-06-26) [verkauf]
+  [FIRMA] acquired MosaicML for $1.3 billion including retention packages; Rao became VP of Generative AI at [FIRMA]
+
+[H009] (2024-03-15) [produktlaunch]
+  Launched open-source DBRX language model at [FIRMA], continuing democratization mission
+
+[H010] (2025-09-12) [ruecktritt]
+  Departed [FIRMA] as VP of AI to focus on founding new hardware startup; continues as advisor
+
+[H011] (2025-10-01) [gruendung]
+  Founded Unconventional AI, neuromorphic computing startup focused on analog AI chips for biology-scale efficiency
+
+[H012] (2025-12-08) [investition]
+  Invested $10 million of personal funds into Unconventional AI seed round
+
+[H013] (2025-12-09) [kauf]
+  Raised $475 million seed round at $4.5 billion valuation for Unconventional AI, led by [FIRMA] and Lightspeed
+
+[H014] (2025-12-09) [partnerschaft]
+  [FIRMA] invested in Unconventional AI as strategic partner alongside venture capital firms

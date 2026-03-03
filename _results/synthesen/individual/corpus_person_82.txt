@@ -1,0 +1,123 @@
+=== DATENKORPUS PERSON-82 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (2012-01-01, schriftlich)
+  "The goal is, how do you make networking have the properties of software systems as far as innovation, provisioning speed, and upgrade speed. You want networks to be as flexible and as agile as compute is."
+  Kontext: Explaining the vision behind software-defined networking
+
+[A002] (2012-07-23, schriftlich)
+  "My goal in creating Nicira was to change networking. It's very difficult to do that alone, and now I'm working with the best company in the world to make it happen."
+  Kontext: On VMware acquisition of Nicira
+
+[A003] (2015-01-01, schriftlich)
+  "If there is one thing that I learned about developing new technology it's that you can't give things away. If it's totally new, you have to sell it. People don't attach value to things that are free. That's why I became an entrepreneur."
+  Kontext: On lessons learned from developing OpenFlow and founding Nicira
+
+[A004] (2017-04-14, schriftlich)
+  "I think it's very important to have open source. I think it's changing the way people buy things. I think building communities like this is a very critical thing to do, but I do think it's more about go-to-market and less about innovation."
+  Kontext: On the strategic role of open source in technology
+
+[A005] (2023-11-14, schriftlich)
+  "Preemptively regulating innovations in computer science in ways that can hurt open source, innovation, and competition is wrong."
+  Kontext: [PLATTFORM]/X statement on AI regulation
+
+[A006] (2024-01-01, schriftlich)
+  "This stuff is magic. The users are real. The demand is real. The GPU usage is real."
+  Kontext: On AI bubble concerns, acknowledging private valuations are crazy but rejecting bubble fears
+
+[A007] (2024-01-01, schriftlich)
+  "AGI debates often obscure more meaningful questions about how technology actually creates value."
+  Kontext: Skeptical of AGI hype, characterizing discussions as lazy thinking
+
+[A008] (2024-01-01, schriftlich)
+  "up to 80% of US AI startups are now using Chinese open-source models instead of those from [FIRMA] or [FIRMA] during their fundraising pitches."
+  Kontext: Revealing Chinese dominance in open-source AI models
+
+[A009] (2024-01-01, schriftlich)
+  "I think there will be less and less open source. If you ask, 'Is open source more dangerous than closed source?' the answer is yes, because China does have an edge in the open-source field."
+  Kontext: On security concerns around open-source AI and China
+
+[A010] (2024-01-01, schriftlich)
+  "The right approach for us isn't to close off, but to further promote our own open-source efforts."
+  Kontext: Despite security concerns, advocating for American open-source investment
+
+[A011] (2024-01-01, schriftlich)
+  "In the cloud era, value scaled with the number of users accessing a shared system. However, in the AI era, value shifts to the work the software performs on your behalf, automating tasks such as writing code or resolving support tickets. As a result, the old value metric of 'users' is being replaced by 'output'."
+  Kontext: Discussion with Metronome CEO about AI's impact on SaaS business models
+
+[A012] (2024-09-02, schriftlich)
+  "changes the precedent for which we've dealt with software policy for 30 years. shifts liability away from applications, and applies it to infrastructure, which we've never done."
+  Kontext: Arguing against California's SB 1047 AI safety bill at Fight for Open Source event
+
+[A013] (2024-11-10, schriftlich)
+  "If we got it wrong in social media, you can't fix it by putting it on AI. The AI regulation people, they're like, 'Oh, we got it wrong in like social, therefore we'll get it right in AI,' which is a nonsensical statement."
+  Kontext: On misguided AI regulation approaches
+
+[A014] (2024-12-10, schriftlich)
+  "I'm a venture capitalist, so clearly I've got a bias, right? So I should be a voice, but I should not drive the conversation."
+  Kontext: After winning crusade to defeat California's AI safety bill SB 1047
+
+[A015] (2025-01-01, schriftlich)
+  "China has rapidly surpassed global competitors in robotics, building a complete supply chain and innovation ecosystem that positions it as the emerging superpower in physical AI."
+  Kontext: Co-authored with Anne Neuberger, warning about US losing robotics race
+
+[A016] (2025-01-01, schriftlich)
+  "In a few years, it will be Chinese companies that are making parts that we cannot replicate—not just at low cost, but at any cost."
+  Kontext: Warning about China's manufacturing advantages in robotics
+
+[A017] (2025-01-01, schriftlich)
+  "Chinese companies now design and fabricate precision parts like harmonic reducers at competitive quality, cheaper prices, and – most importantly – colocated with their customers in manufacturing superclusters. The colocation of so many robot toolmakers, assemblers, and customers in nodes like Shenzhen or Shanghai is how new combinatorial use cases are discovered."
+  Kontext: Explaining China's structural advantages in robotics manufacturing
+
+[A018] (2025-01-01, schriftlich)
+  "without urgent regulatory reform and allied industrial coordination, the United States risks losing its ability to compete in the defining technological and strategic race of the century."
+  Kontext: Call for US action in robotics competition
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2007-01-01) [gruendung]
+  Co-founded Nicira Networks with Nick McKeown and Scott Shenker, developing software-defined networking technology based on OpenFlow protocol from [UNI] research
+
+[H002] (2012-01-01) [sonstiges]
+  Received ACM Grace Murray Hopper Award (shared with Dina Katabi) for inventing software-defined networking (SDN), including OpenFlow API, OpenVswitch, and NOX/ONIX controllers
+
+[H003] (2012-07-23) [verkauf]
+  Nicira acquired by VMware for $1.26 billion ($1.05 billion in cash and $210 million in assumed unvested equity awards), becoming one of the largest acquisitions in networking history
+
+[H004] (2012-08-01) [einstellung]
+  Joined VMware as Fellow and CTO for Networking and Security, General Manager of Networking and Security Business Unit after Nicira acquisition
+
+[H005] (2015-12-31) [produktlaunch]
+  Built VMware NSX network virtualization product to $600 million annual revenue run-rate, tripling revenue and growing to 1,200 paying customers
+
+[H006] (2016-02-01) [einstellung]
+  Joined [FIRMA] as ninth General Partner to lead infrastructure investments, announced by [PERSON] who first met [PERSON] in 2009
+
+[H007] (2016-02-25) [ruecktritt]
+  Left VMware as EVP and General Manager of Networking and Security Business, stating he waited until NSX established solid footing after contemplating departure for two years
+
+[H008] (2023-01-01) [investition]
+  Led investments in dbt Labs (acquired by Fivetran in 2025), previously serving on board of both companies before merger
+
+[H009] (2024-01-01) [investition]
+  Invested in World Labs (founded by [PERSON]), taking part-time residence in World Labs offices to learn from AI/graphics team and help balance research and product
+
+[H010] (2024-01-01) [investition]
+  Invested in [FIRMA] (AI-assisted programming tool, fork of VS Code) and joined board, with [FIRMA] infrastructure team's use of [FIRMA] instrumental in identifying investment
+
+[H011] (2024-01-01) [investition]
+  Serves on boards of 17+ portfolio companies including Ambient.ai, Astranis, Braintrust, Coactive, Convex, Distributional, Fivetran, Imply, Kong, Material Security, Netlify, Pindrop Security, Preset, Truffle Security
+
+[H012] (2024-01-01) [politisch]
+  Spoke with Senator Todd Young (R-IN) at [FIRMA] American Dynamism Summit about importance of open innovation and American leadership in AI, supporting AI research from classroom to war room
+
+[H013] (2024-02-28) [investition]
+  Led [FIRMA] investment in Ideogram's $80 million Series A funding round for AI image generation technology, joining board of directors
+
+[H014] (2024-04-19) [umstrukturierung]
+  Led [FIRMA] infrastructure practice with $1.25 billion dedicated fund for AI infrastructure investments, later expanded with additional $1.7 billion commitment
+
+[H015] (2024-08-01) [lobbying]
+  Led opposition against California's SB 1047 AI safety bill at Fight for Open Source event, arguing bill shifts liability to infrastructure and threatens startups, alongside [FIRMA], Nancy Pelosi, [FIRMA], and Big Tech

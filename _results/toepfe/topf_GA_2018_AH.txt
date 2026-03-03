@@ -1,0 +1,361 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2018_AH
+Beschreibung: Jahrestopf 2018, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 46 Aussagen + 52 Handlungen = 98 gesamt
+Zeitraum Aussagen: 2018 bis 2018-12-04
+Zeitraum Handlungen: 2018 bis 2018-12-17
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (46 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2018, muendlich)
+  "[PRODUKT]'s play style is alien. It sometimes wins by offering counterintuitive sacrifices. It's like chess from another dimension."
+  Kontext: [PERSON] kommentiert die ueberraschende Spielweise von [PRODUKT], das Schach, Go und Shogi durch Selbstspiel meisterte.
+
+[A002] (2018-01-01, schriftlich)
+  "I credit my good Computer Science school background on my CV as a key reason I was able to get into [FIRMA] without having a referral."
+  Kontext: Reflection on career path
+
+[A003] (2018-01-01, schriftlich)
+  "Neither Alexis nor I created [FIRMA] to be a bastion of free speech, but rather as a place where open and honest discussion can happen."
+  Kontext: Clarifying [FIRMA]'s purpose regarding free speech
+
+[A004] (2018-01-01, schriftlich)
+  "[FIRMA] is a place for open and honest conversations—'open and honest' meaning authentic, meaning messy, meaning the best and worst and realest and weirdest parts of humanity."
+  Kontext: 2018 statement on [FIRMA]'s commitment to free expression
+
+[A005] (2018-01-01, schriftlich)
+  "The goal of my research is to develop efficient methods and algorithms to better model and understand humans' preferences while operating, interacting, and collaborating with robots, and to design algorithms that plan for robots that are aware of such preferences and can initiate safe and seamless interaction with humans."
+  Kontext: NSF CAREER grant research proposal statement
+
+[A006] (2018-01-30, muendlich)
+  "There are many industries where AI can create tremendous value, but they don't yet know how. We want to build startups in partnership with these industries."
+  Kontext: Launch des AI Fund. Ng erklaert seine Studio-Strategie fuer AI-Adoption.
+
+[A007] (2018-02-23, muendlich)
+  "AI systems can perpetuate bias if we're not careful about the data we use to train them. We need diverse teams building these systems and careful audits of the data."
+  Kontext: [UNI] Technology Review Interview zu Fairness und Bias in KI-Systemen.
+
+[A008] (2018-03-11, muendlich)
+  "AI is far more dangerous than nukes. So why do we have no regulatory oversight? This is insane."
+  Kontext: South by Southwest Festival 2018. [PERSON] vergleicht KI-Risiken mit Nuklearwaffen.
+
+[A009] (2018-03-13, muendlich)
+  "I'm generally against regulation, but I think transparency is good. We should ask companies to be transparent about what data they're collecting, what they're doing with it."
+  Kontext: Interview mit CNBC. Ng kritisiert den 'hastigen' Ruf nach KI-Regulierung.
+
+[A010] (2018-03-13, muendlich)
+  "China and the US are neck-and-neck in AI. China has strengths in certain areas like facial recognition and speech recognition. The US has strengths in others like natural language processing."
+  Kontext: CNBC-Interview waehrend der AI-Wettbewerbs-Debatte zwischen USA und China.
+
+[A011] (2018-03-13, muendlich)
+  "All the different sub-specialties in medical imaging are undergoing a significant transformation because computer vision now works."
+  Kontext: Über den Einsatz von KI in der Medizin und medizinischen Bildgebung
+
+[A012] (2018-03-13, muendlich)
+  "Our moonshot goal is to have every previous medical decision inform every future decision through AI."
+  Kontext: Vision für AI im Gesundheitswesen - Sammlung aller medizinischen Entscheidungen zur Verbesserung zukünftiger Behandlungen
+
+[A013] (2018-03-15, muendlich)
+  "Bitcoin is like a reserve form of money, it's like gold, and it's just a store of value. You don't need to use it to make payments."
+  Kontext: Crypto-Konferenz. [PERSON] kontrastiert Bitcoin (Wertspeicher) mit Ethereum (Zahlungssystem).
+
+[A014] (2018-03-27, muendlich)
+  "Backpropagation showed that neural networks could discover their own internal representations of data, which was a major breakthrough."
+  Kontext: [PERSON] wird zusammen mit [PERSON] und [PERSON] mit dem Turing Award 2018 ausgezeichnet. Die Begruendung betont Backpropagation.
+
+[A015] (2018-04-01, schriftlich)
+  "Sometimes we have conviction about a direction despite not having perfect information – just enough to make a judgement call. We make those judgements with the input of many people and are willing to change course if we get more data."
+  Kontext: [PERSON] verteidigt Alexa und andere gescheiterte Experimente. Er betont, dass Innovation Misserfolge erfordert.
+
+[A016] (2018-04-01, schriftlich)
+  "As a company grows, everything needs to scale, including the size of your failed experiments. If the size of your failures isn't growing, you're not going to be inventing at a size that can actually move the needle."
+  Kontext: [PERSON] beschreibt [FIRMA] als Experimentiermaschine und verteidigt massive Misserfolge wie Fire Phone.
+
+[A017] (2018-05-07, muendlich)
+  "We need to develop AI systems that are transparent, that people can understand. We need to make sure there's accountability for how they work."
+  Kontext: Build-Konferenz 2018. [PERSON] formuliert [FIRMA]s KI-Prinzipien.
+
+[A018] (2018-05-08, muendlich)
+  "It's important to engage with governments around the world in how they're thinking about AI — to help inform them."
+  Kontext: CNBC Interview über die Rolle von Tech-Unternehmen in der KI-Regulierung
+
+[A019] (2018-05-13, muendlich)
+  "We've always had the view that privacy and civil liberties issues were not incompatible with a business dedicated to national security and law enforcement."
+  Kontext: 60 Minutes-Interview ueber [FIRMA]. [PERSON] weist Kritik zurueck, dass [FIRMA] eine Ueberwachungs-Dystopie schaffe.
+
+[A020] (2018-05-20, schriftlich)
+  "As AI's impact in the business world grows, its proper use becomes more important."
+  Kontext: On the growing importance of ethical AI deployment
+
+[A021] (2018-05-24, schriftlich)
+  "AutoAugment is a simple procedure to automatically search for improved data augmentation policies."
+  Kontext: Introducing automated approach to finding optimal data augmentation strategies, applying NAS principles to data preprocessing
+
+[A022] (2018-05-30, schriftlich)
+  "BDD100K is the largest and most diverse open driving video dataset so far for computer vision research."
+  Kontext: Release announcement of BDD100K autonomous driving dataset
+
+[A023] (2018-06-01, muendlich)
+  "The US can't let China cultivate more engineers than the US and let Chinese companies win fierce competition against US companies."
+  Kontext: Aussage zum technologischen Wettbewerb mit China
+
+[A024] (2018-06-15, muendlich)
+  "It's literally impossible to understand intelligence in a purely reductionist format because the complexity is too high and the amount of effort required would be many orders of magnitude more complicated than what you're trying to understand."
+  Kontext: Discussion on philosophy of intelligence and AI
+
+[A025] (2018-06-15, muendlich)
+  "I consider artificial intelligence to be 'artificial' simply because we built it, and believe intelligence can be implemented on any kind of substrate, not just biological."
+  Kontext: Philosophy on substrate-independence of intelligence
+
+[A026] (2018-06-15, schriftlich)
+  "Culture is very underrated and we need artists who can understand the direction of technology and craft narratives for the public."
+  Kontext: On the importance of culture and narrative in technology
+
+[A027] (2018-06-15, schriftlich)
+  "[PERSON] was so skilled that he was actually able to match human performance."
+  Kontext: Quoc Le describing [PERSON]'s exceptional abilities as a resident at [FIRMA] Brain, exceeding expectations on the AutoML project
+
+[A028] (2018-06-20, muendlich)
+  "In the future, cancer will no longer be a disease we should be afraid of, because artificial intelligence will solve problems that we cannot solve."
+  Kontext: [FIRMA] Shareholder Meeting, optimistische Vision über KI-basierte Medizin
+
+[A029] (2018-07-02, schriftlich)
+  "We are not the thought police … but we do care about how you behave."
+  Kontext: Interview on content moderation philosophy
+
+[A030] (2018-07-23, schriftlich)
+  "The model is more interpretable to human evaluators compared to other state-of-the-art models: users can better understand the model's underlying reasoning procedure and predict when it will succeed or fail based on observing its intermediate outputs."
+  Kontext: Research paper on explainable AI and interpretable neural computation for question answering
+
+[A031] (2018-08-22, muendlich)
+  "Every time someone learns a new skill on [FIRMA], it makes me happy. I think education is the great equalizer. AI will help us personalize education at scale."
+  Kontext: Interview mit Quartz ueber personalisierte Bildung durch KI.
+
+[A032] (2018-09-07, muendlich)
+  "If you assume any rate of improvement at all, then games will be indistinguishable from reality, or civilization will end. One of those two things will occur. Therefore, we are most likely in a simulation, because we exist."
+  Kontext: Joe Rogan Experience Podcast #1169. Diskussion ueber Simulationshypothese und die Zukunft von VR/Gaming.
+
+[A033] (2018-09-07, muendlich)
+  "It feels like we are the biological boot-loader for AI effectively. We are building progressively greater intelligence. And the percentage that is not human is increasing, and eventually we will represent a very small percentage of intelligence."
+  Kontext: Diskussion ueber die Rolle der Menschheit in der Evolution von KI. [PERSON] sieht Menschen als Zwischenschritt.
+
+[A034] (2018-09-07, muendlich)
+  "We at least want to build a city on Mars, and become a multi-planet civilization, which I think would be incredibly important in ensuring the long-term survival of civilization."
+  Kontext: Diskussion ueber [FIRMA]-Mission und die Notwendigkeit, die Menschheit multi-planetar zu machen.
+
+[A035] (2018-09-07, muendlich)
+  "It's going to be very tempting to use AI as a weapon. In fact, it will be used as a weapon. The danger is going to be more humans using it against each other most likely."
+  Kontext: Diskussion ueber militaerische Nutzung von KI und geopolitische Risiken.
+
+[A036] (2018-09-10, muendlich)
+  "Teaching is where I see the future being built. Every student who learns to think critically about AI, who learns to build it responsibly, is someone who can shape the technology for good."
+  Kontext: Interview ueber ihre Rueckkehr zu [UNI] und die Bedeutung von Lehre.
+
+[A037] (2018-09-10, schriftlich)
+  "With deep fake video swapping becoming increasingly impressive, people can't trust everything they watch."
+  Kontext: Warning about the implications of deepfake technology
+
+[A038] (2018-09-13, muendlich)
+  "My goal at [FIRMA] Cloud was to democratize AI and machine learning. These tools shouldn't just be available to tech giants – they should be accessible to researchers, startups, and organizations trying to solve real-world problems."
+  Kontext: Interview nach ihrer Rueckkehr zu [UNI] von [FIRMA] Cloud.
+
+[A039] (2018-09-25, muendlich)
+  "I think AI will create more jobs than it destroys, but it will also change the nature of work. We need to focus on reskilling and helping people transition."
+  Kontext: Interview mit Fortune ueber die Zukunft der Arbeit. Ng ist optimistischer als viele andere KI-Experten.
+
+[A040] (2018-09-25, muendlich)
+  "There's a huge shortage of AI talent globally. That's why education is so critical. We need to train millions more people in AI skills."
+  Kontext: Fortune Interview zu KI-Bildung und Talentknappheit.
+
+[A041] (2018-09-26, muendlich)
+  "I'm very comfortable with our work for the U.S. government. I think it's a great privilege to be able to work on these things."
+  Kontext: [PERSON] verteidigt [FIRMA]s ICE-Vertrag gegenueber internen Protesten.
+
+[A042] (2018-10-24, muendlich)
+  "Personal data collection is being weaponized against us with military efficiency. We shouldn't sugarcoat the consequences. This is surveillance."
+  Kontext: [PERSON] bei einer Datenschutz-Konferenz in Bruessel, kritisiert Datensammlung der Tech-Industrie.
+
+[A043] (2018-10-29, schriftlich)
+  "On [PERSON]'s first day as CEO of Github, at 9am, he had meeting with his leadership team over Zoom. They were probably expecting a long term strategy, but instead he shared his screen and pulled up a GitHub repo where users could submit and vote on product feedback."
+  Kontext: Anecdote about [PERSON]'s leadership approach - prioritizing user feedback
+
+[A044] (2018-11-05, schriftlich)
+  "Online reading habits are changing the way people read in general, making it harder to read deeply into novels due to the habit of reading bite-sized posts."
+  Kontext: Observation on how digital media affects cognitive habits
+
+[A045] (2018-11-13, muendlich)
+  "When I started in AI, I was often the only woman in the room. That hasn't changed enough. We need more women in AI not as a matter of fairness alone, but because AI built by a diverse team will be better AI."
+  Kontext: WIRED-Interview ueber Diversitaet in der KI-Forschung.
+
+[A046] (2018-12-04, schriftlich)
+  "AI development must be guided by the principles of well-being, respect for autonomy, protection of privacy and intimacy, solidarity, democratic participation, equity, diversity inclusion, prudence, and responsibility."
+  Kontext: Ethische Erklaerung, die unter [PERSON]s Leitung von der Universitaet [UNI] und MILA entwickelt wurde.
+
+------------------------------------------------------------------------
+HANDLUNGEN (52 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2018) [einstellung]
+  [PERSON] wird Chief AI Scientist bei [FIRMA] (ehemals [FIRMA]) und uebergibt die Leitung von FAIR an Jerome Pesenti. Er konzentriert sich auf langfristige Forschung und Strategieberatung.
+
+[H002] (2018) [investition]
+  [PERSON] investiert ueber [FIRMA] in Unity Biotechnology, ein Anti-Aging-Startup, das senolytische Therapien entwickelt. Investment: Teil einer $116 Mio. Series B.
+
+[H003] (2018-01-00) [einstellung]
+  Wechsel von Jane Street Capital (Quant Trading) zu [FIRMA] als Research Scientist. Massive Gehaltseinbuße für Mission: von Wall Street zu Non-Profit AI Safety Research.
+
+[H004] (2018-01-01) [gruendung]
+  Gründung und Leitung von [FIRMA] crypto - dedizierte Krypto-Sparte von [FIRMA]
+
+[H005] (2018-01-01) [einstellung]
+  Beförderung zum Lead of [FIRMA] AI - Leitung der gesamten KI-Forschung bei [FIRMA]
+
+[H006] (2018-01-01) [einstellung]
+  Became Director of [UNI] Artificial Intelligence Laboratory (SAIL), leading the lab through period of enormous growth for AI from 2018-2025
+
+[H007] (2018-01-01) [einstellung]
+  Served as co-editor for Harvard Data Science Review, contributing to inaugural issue and helping establish the publication.
+
+[H008] (2018-01-01) [partnerschaft]
+  Joined The House Fund as Co-Founder & Faculty Partner of AI@The House initiative, adding six world-leading entrepreneurial AI researchers to the pre-seed and early-stage venture capital fund focused on [UNI] startups.
+
+[H009] (2018-01-01) [partnerschaft]
+  Joined SafelyYou as advisor, contributing computer vision and AI expertise to the company developing fall detection and prevention technology for senior care facilities using privacy-preserving AI.
+
+[H010] (2018-01-01) [einstellung]
+  Appointed as Faculty Director of PATH (Partners for Advanced Transportation Technology) at UC [UNI], leading transportation research initiatives including autonomous vehicle development and intelligent transportation systems.
+
+[H011] (2018-01-01) [gruendung]
+  Founded and became Director of the Intelligent and Interactive Autonomous Systems Group (ILIAD) at [UNI] University
+
+[H012] (2018-01-01) [einstellung]
+  Joined [UNI] University as Assistant Professor in Computer Science and Electrical Engineering
+
+[H013] (2018-01-01) [produktlaunch]
+  Launched 'Behind the Tech' podcast as host, interviewing technology innovators
+
+[H014] (2018-01-17) [produktlaunch]
+  Unter [PERSON]s Leitung lanciert [FIRMA] Cloud AutoML Vision, ein Tool, das es Nutzern ohne ML-Expertise ermoeglicht, eigene Computer-Vision-Modelle zu trainieren. Demokratisierung von KI.
+
+[H015] (2018-01-30) [investition] ($175,000,000)
+  [PERSON] startet den AI Fund, einen $175 Millionen Venture-Capital-Fonds und Studio, das neue KI-Startups gruendet. Der Fonds investiert in Unternehmen wie Woebot (mental health AI) und Landing AI.
+
+[H016] (2018-02-01) [partnerschaft]
+  Landing AI geht eine strategische Partnerschaft mit Foxconn ein, um KI-basierte visuelle Inspektion in der Elektronikfertigung einzufuehren. Foxconn nutzt Landing AI fuer Qualitaetskontrolle.
+
+[H017] (2018-02-01) [sonstiges]
+  Veroeffentlichung von 'The Building Blocks of Interpretability' auf Distill (Februar 2018), ein Meilenstein der Interpretierbarkeits-forschung mit interaktiven Visualisierungen.
+
+[H018] (2018-02-15) [produktlaunch]
+  Co-authored 'Image Transformer' paper extending Transformer architecture to image generation, achieving state-of-the-art results on ImageNet
+
+[H019] (2018-02-20) [ruecktritt]
+  [PERSON] tritt vom Board von [FIRMA] zurueck, nachdem Verhandlungen ueber volle Kontrolle scheitern. [FIRMA] lehnt [PERSON]s Forderung nach absolutem Entscheidungsrecht ab.
+
+[H020] (2018-02-20) [verkauf]
+  Sold Vettery to Adecco Group for $100 million
+
+[H021] (2018-03-01) [sonstiges]
+  Gewinn des ACM/CSTA Cutler-Bell Prize in High School Computing im Alter von 17 Jahren
+
+[H022] (2018-03-01) [produktlaunch]
+  Contributed to Tensor2Tensor library release at [FIRMA] Brain, an open-source library for deep learning models and datasets
+
+[H023] (2018-03-01) [gruendung]
+  Founded [FIRMA], machine learning-driven drug discovery and development company
+
+[H024] (2018-03-01) [ruecktritt]
+  Resigned from Calico as Chief Computing Officer after 18 months
+
+[H025] (2018-03-17) [politisch]
+  Es wird bekannt, dass [UNI] Analytica Daten von 87 Millionen [FIRMA]-Nutzern ohne Einwilligung fuer politische Werbung gesammelt hat. [PERSON] muss vor dem US-Kongress und dem EU-Parlament aussagen.
+
+[H026] (2018-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den ACM Turing Award 2018 fuer bahnbrechende Arbeiten zu Deep Neural Networks. Die drei werden als 'Godfathers of Deep Learning' bezeichnet.
+
+[H027] (2018-03-29) [einstellung]
+  [PERSON] wird einer der ersten Canada CIFAR AI Chairs, ein Programm der kanadischen Regierung mit $125 Millionen Foerderung zur Staerkung der KI-Forschung in Kanada.
+
+[H028] (2018-04-01) [einstellung]
+  Joined [FIRMA] board of directors
+
+[H029] (2018-05-01) [einstellung]
+  [PERSON] wechselt zu [FIRMA] und gruendet das Clarity Team innerhalb der Safety Division. Das Team fokussiert sich auf neuronale Netzwerk-Interpretierbarkeit und die Entwicklung von Abstraktionen, Schnittstellen und Methoden zum besseren Verstaendnis der internen Funktionsweise von KI-Modellen.
+
+[H030] (2018-05-01) [sonstiges]
+  Completed PhD in Computer Science at USC focused on interactive perception, reinforcement learning, and probabilistic state estimation for robotics
+
+[H031] (2018-05-08) [lobbying]
+  Engagement mit Regierungen weltweit zu AI-Regulierung - Advocacy für informierte KI-Politik durch Tech-Expertise
+
+[H032] (2018-05-15) [einstellung]
+  Promoted to General Partner at [FIRMA] Partners, becoming firm's youngest and first female GP in 53-year history
+
+[H033] (2018-05-24) [produktlaunch]
+  Published AutoAugment paper introducing automated data augmentation policy search, achieving state-of-the-art on CIFAR-10 (1.48% error)
+
+[H034] (2018-05-30) [produktlaunch]
+  Released BDD100K, the largest and most diverse open driving video dataset for computer vision research, containing 100,000 videos with detailed annotations for object detection, lane marking, drivable area, and full-frame semantic/instance segmentation.
+
+[H035] (2018-06-01) [einstellung]
+  Vice President of Applied AI and Partnerships bei [FIRMA] (Juni 2018)
+
+[H036] (2018-06-01) [partnerschaft]
+  [FIRMA] wechselt Chip-Produktion zu TSMC (Taiwan), transformative Entscheidung für Produktqualität und Wettbewerbsfähigkeit
+
+[H037] (2018-06-25) [gruendung]
+  Launch des [FIRMA] crypto Fund mit 300 Millionen Dollar - dedizierter Fonds für Investments in Crypto-Unternehmen und Blockchain-Protokolle
+
+[H038] (2018-06-26) [politisch]
+  Aussage vor dem US-Kongress zur KI-Regulierung und -Sicherheit
+
+[H039] (2018-07-01) [einstellung]
+  Joined University of [UNI] Computer Science Department as Assistant Professor
+
+[H040] (2018-07-01) [einstellung]
+  Became CIFAR AI Chair at Vector Institute
+
+[H041] (2018-08-01) [gruendung]
+  Founded Pioneer, an early-stage remote startup accelerator and fund finding talented people globally through online tournaments
+
+[H042] (2018-08-20) [produktlaunch]
+  [FIRMA] veroeffentlicht die GeForce RTX 20-Serie, die erste GPU-Generation mit dedizierter Hardware fuer Echtzeit-Raytracing und KI-beschleunigte Features.
+
+[H043] (2018-09-10) [ruecktritt]
+  Nach 18 Monaten verlaesst [PERSON] ihre Position als Chief Scientist bei [FIRMA] Cloud und kehrt vollzeit zu [UNI] zurueck, um sich auf Forschung, Lehre und die Gruendung von [UNI] HAI zu konzentrieren.
+
+[H044] (2018-09-24) [ruecktritt]
+  [PERSON] and Kevin Systrom departed [FIRMA]/[FIRMA] after reported clashes with [FIRMA] leadership over strategic direction and content sharing between platforms. Systrom stated they were "ready for our next chapter" and "planning on leaving [FIRMA] to explore our curiosity and creativity again."
+
+[H045] (2018-10-01) [verkauf]
+  Gradescope acquired by Turnitin, expanding educational technology tools for STEM assessment
+
+[H046] (2018-10-01) [gruendung]
+  Co-founded Archer Aviation, an eVTOL (electric vertical takeoff and landing) aircraft company
+
+[H047] (2018-10-12) [produktlaunch]
+  [PERSON] veroeffentlicht 'Machine Learning Yearning', ein kostenloses E-Book, das praktische Ratschlaege fuer die Strukturierung von Machine-Learning-Projekten bietet. Das Buch wird von Hunderttausenden gelesen.
+
+[H048] (2018-10-29) [einstellung]
+  Appointed CEO of GitHub following [FIRMA]'s $7.5 billion acquisition, replacing Chris Wanstrath
+
+[H049] (2018-11-01) [produktlaunch]
+  Published "Scalable agent alignment via reward modeling: a research direction" with co-authors David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, and Shane Legg, introducing recursive reward modeling
+
+[H050] (2018-12-01) [produktlaunch]
+  [PRODUKT] gewinnt die CASP13-Proteinstruktur-Vorhersage-Wettbewerb mit deutlichem Vorsprung. [FIRMA] wendet Deep Learning auf Biologie an.
+
+[H051] (2018-12-04) [politisch]
+  [PERSON] leitet die Entwicklung der [UNI] Declaration for Responsible AI, ein ethisches Rahmenwerk mit 10 Prinzipien fuer verantwortungsvolle KI-Entwicklung.
+
+[H052] (2018-12-17) [produktlaunch]
+  [PERSON] startet 'AI for Everyone', einen nicht-technischen Kurs auf [FIRMA], der KI fuer Manager, Fuehrungskraefte und Nicht-Techniker zugaenglich macht. Der Kurs wird ueber 1 Million Mal belegt.

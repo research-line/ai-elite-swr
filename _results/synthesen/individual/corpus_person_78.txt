@@ -1,0 +1,131 @@
+=== DATENKORPUS PERSON-78 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2023-08-01, schriftlich)
+  "We need a brand new AI-powered IDE to get there to reach 90+% code generation adoption."
+  Kontext: Im Latent Space Podcast über die Notwendigkeit einer neuen IDE-Architektur
+
+[A002] (2023-08-01, schriftlich)
+  "Most AI product companies are not going to be mostly training their own models, but will instead use these APIs out of the box."
+  Kontext: Über seine veränderte Meinung zur Frage, ob KI-Produktfirmen eigene Modelle trainieren sollten
+
+[A003] (2024-08-01, schriftlich)
+  "Our laser focus is on solving one problem exceptionally well: developer productivity, obsessing over sub-second response times, accurate code predictions, seamless VS Code integration, and real-time collaboration between human and AI."
+  Kontext: Über die Produktstrategie und den Fokus auf ein Problem
+
+[A004] (2024-11-01, schriftlich)
+  "The decision to offer a generous free tier, price at $20-40/month rather than $50-100, and invest zero dollars in marketing reflected confidence that superior product quality would drive growth more effectively than traditional go-to-market motions."
+  Kontext: Über die Pricing- und Go-to-Market-Strategie
+
+[A005] (2025-02-01, schriftlich)
+  "We're not trying to build a feature or a product. We're trying to build the way people will program for the next 20 years."
+  Kontext: Interview bei Peak XV Partners über die Vision von [FIRMA]
+
+[A006] (2025-02-01, schriftlich)
+  "A lot of the work of [FIRMA] has been just experimenting with what is possible. For everything you see in the product, there's like 10 failed experiments that didn't work."
+  Kontext: Über den Entwicklungsprozess und die experimentelle Natur von [FIRMA]
+
+[A007] (2025-02-01, schriftlich)
+  "We released these half-finished things, which a lot of our competitors refused to do. The first version of [PRODUKT]++ and [FIRMA] Tab sucked."
+  Kontext: Über die Produktstrategie, früh und unfertig zu launchen
+
+[A008] (2025-02-01, schriftlich)
+  "The entirety of that summer was just incredibly slow growth, and that was somewhat demoralizing. The big question in our minds was, 'Are we being too ambitious?'"
+  Kontext: Über die schwierige Anfangsphase von [FIRMA] im Sommer 2023
+
+[A009] (2025-08-01, schriftlich)
+  "We hired very slowly early on because it was a team of four technical co-founders who could build most of the early product and reach product-market fit without needing to hire anyone."
+  Kontext: Über die Hiring-Strategie in der Anfangsphase
+
+[A010] (2025-11-01, schriftlich)
+  "Programming will soon feel like reviewing the work of a number of interns as engineers spend more time auditing AI-generated code than writing it."
+  Kontext: Über die Zukunft der Programmierung mit KI
+
+[A011] (2025-11-01, schriftlich)
+  "We empowered programmers to implement ideas more rapidly while maintaining human control and decision-making, with AI handling tasks like generating boilerplate code and migrating codebases."
+  Kontext: Über die Arbeitsteilung zwischen KI und Menschen
+
+[A012] (2025-11-21, schriftlich)
+  "Software engineering bandwidth and genius ideas are the bottlenecks to rapid AI progress, and [FIRMA] represents our attempt at solving the former, allowing more talent, effort, and resources to be devoted to the latter."
+  Kontext: Über die Mission von [FIRMA] im Kontext des KI-Fortschritts
+
+[A013] (2025-11-21, schriftlich)
+  "Programmers should stay in the driver's seat, using AI to amplify human creativity rather than replace it."
+  Kontext: Über die Rolle von Menschen vs. KI in der Programmierung
+
+[A014] (2025-11-21, schriftlich)
+  "We want to be a sustainable, independent company. That goal will require constant reinvention, even amid Silicon Valley's admiration."
+  Kontext: Über die langfristige Vision für [FIRMA] trotz enormen Erfolgs
+
+[A015] (2025-11-21, schriftlich)
+  "As language models become capable of producing 90-95% of code, you cannot maintain the old form factor—instead, you need to redesign the entire UX of writing software."
+  Kontext: Über die Notwendigkeit, die User Experience komplett neu zu gestalten
+
+[A016] (2025-11-21, schriftlich)
+  "It's possible to achieve AGI superhuman-level systems through memory mechanisms, but the more elegant approach involves models that can continuously learn through recurrent-based systems with state."
+  Kontext: Über mögliche Wege zu AGI und kontinuierliches Lernen
+
+[A017] (2025-11-21, schriftlich)
+  "[FIRMA]'s competitive strategy against [PRODUKT] targeted specific weaknesses: slow feature velocity, limited context awareness, and being locked-in to a single model."
+  Kontext: Über die Wettbewerbsstrategie gegen [PRODUKT]
+
+[A018] (2025-11-21, schriftlich)
+  "We had a thesis that you needed to own the interface, you need to own the IDE, and that gave us an edge compared to well-funded startups and [PRODUKT]."
+  Kontext: Über die strategische Entscheidung, eine eigene IDE zu bauen
+
+[A019] (2025-11-24, schriftlich)
+  "Paranoia is daily life at [FIRMA]. You need to reinvent the product every few months, every year."
+  Kontext: Über die Unternehmenskultur bei [FIRMA] und die Notwendigkeit konstanter Innovation
+
+[A020] (2025-11-24, schriftlich)
+  "The accelerating pace of AI creates more pressure, not less."
+  Kontext: Über die Auswirkungen des schnellen KI-Fortschritts auf das Unternehmen
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2022-01-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], [PERSON], and [PERSON] while at [UNI] to build [FIRMA] AI code editor
+
+[H002] (2023-03-01) [produktlaunch]
+  Official launch of [FIRMA] IDE to the public, introducing AI-driven code generation, intelligent autocompletion, and codebase querying
+
+[H003] (2023-10-01) [investition]
+  Raised $8 million seed round led by [FIRMA] Startup Fund, with angels including former GitHub CEO [PERSON] and Dropbox co-founder Arash Ferdowsi
+
+[H004] (2024-06-01) [partnerschaft]
+  Integrated multiple AI models including [FIRMA] [PRODUKT], [FIRMA] [PRODUKT], [FIRMA] [PRODUKT], [FIRMA] [PRODUKT], and DeepSeek into [FIRMA] platform
+
+[H005] (2024-08-01) [investition]
+  Raised $60 million Series A led by [FIRMA] ([FIRMA]) at $400 million valuation
+
+[H006] (2024-10-06) [sonstiges]
+  Appeared on Lex Fridman Podcast #447 with all four [FIRMA] co-founders to discuss Future of Programming with AI
+
+[H007] (2024-12-01) [einstellung]
+  Scaled team from 4 co-founders to approximately 40-60 employees while reaching $500M ARR, demonstrating extreme capital efficiency
+
+[H008] (2025-01-01) [investition]
+  Raised $105 million Series B led by Thrive Capital and [FIRMA] at $2.5 billion valuation
+
+[H009] (2025-01-15) [sonstiges]
+  Selected for Forbes 30 Under 30 list 2025 in Artificial Intelligence category
+
+[H010] (2025-03-01) [partnerschaft]
+  Collaboration with [FIRMA] featuring joint webinar on pioneering coding frontiers with [PRODUKT] Opus 4
+
+[H011] (2025-06-05) [investition]
+  Raised $900 million Series C led by Thrive Capital with participation from [FIRMA], Accel, and DST Global at $9.9 billion valuation
+
+[H012] (2025-08-01) [einstellung]
+  Expanded team to approximately 150 employees as company scaled past $1 billion ARR
+
+[H013] (2025-10-01) [produktlaunch]
+  Launched in-house coding model to reduce dependency on [FIRMA], [FIRMA] and other external providers
+
+[H014] (2025-11-01) [investition]
+  Raised $2.3 billion Series D at $29.3 billion valuation from [FIRMA] Startup Fund, [FIRMA], Thrive Capital, Accel, DST, Coatue, [FIRMA] and [FIRMA]
+
+[H015] (2025-11-15) [sonstiges]
+  Achieved billionaire status at age 25 with estimated net worth of $1.3 billion based on 4.5% stake in [FIRMA]

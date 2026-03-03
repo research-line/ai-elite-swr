@@ -1,0 +1,147 @@
+=== DATENKORPUS PERSON-13 ===
+
+--- AUSSAGEN (24 Stueck) ---
+
+[A001] (2017-09-26, schriftlich)
+  "Ideas excite me. Empathy grounds and centers me."
+  Kontext: Zentrale Aussage aus [PERSON]s Buch 'Hit Refresh', in dem er seine Philosophie als CEO und die Transformation von [FIRMA] darlegt.
+
+[A002] (2017-09-26, schriftlich)
+  "We needed to build a culture that allowed us to see ourselves not as know-it-alls but as learn-it-alls."
+  Kontext: [PERSON] beschreibt den Kulturwandel, den er bei [FIRMA] eingeleitet hat, basierend auf Carol Dwecks 'Growth Mindset'-Konzept.
+
+[A003] (2017-09-26, schriftlich)
+  "We want to build intelligence that augments human abilities and experiences. That's our North Star."
+  Kontext: [PERSON] legt die KI-Strategie von [FIRMA] dar: Augmentation statt Replacement.
+
+[A004] (2017-09-26, schriftlich)
+  "We must ensure that AI is designed and used responsibly. Ensuring these technologies are used for good is a big responsibility for those of us who work on them."
+  Kontext: [PERSON] artikuliert frueh die ethischen Verantwortungen bei KI-Entwicklung.
+
+[A005] (2018-05-07, muendlich)
+  "We need to develop AI systems that are transparent, that people can understand. We need to make sure there's accountability for how they work."
+  Kontext: Build-Konferenz 2018. [PERSON] formuliert [FIRMA]s KI-Prinzipien.
+
+[A006] (2019-07-22, schriftlich)
+  "AI is the most important technology of our times. And we want to democratize it so that its benefits can be felt by everyone and organizations can leverage it for their needs."
+  Kontext: Begleitstatement zur ersten grossen [FIRMA]-[FIRMA]-Investition ($1 Mrd.).
+
+[A007] (2019-11-04, muendlich)
+  "The world needs AGI. We need to get to AGI. But it also has to be AGI that's safe and aligned with broad human values."
+  Kontext: [FIRMA] Ignite 2019. [PERSON] aeussert sich zur AGI-Vision der [FIRMA]-Partnerschaft.
+
+[A008] (2021-06-29, muendlich)
+  "With [PRODUKT], we're taking a first step toward a future where developers are able to spend less time on boilerplate and more time on what matters."
+  Kontext: Launch von [PRODUKT], dem ersten grossen KI-Coding-Assistenten nach der [FIRMA]-Uebernahme von GitHub.
+
+[A009] (2023-01-18, muendlich)
+  "I would like to think of it less as an AI race and more as grounding AI in real use cases where it can truly help people and organizations become more productive."
+  Kontext: World Economic Forum Davos 2023. [PERSON] positioniert [FIRMA] als verantwortungsvollen KI-Akteur.
+
+[A010] (2023-02-15, muendlich)
+  "This is a new day in search. It's a new paradigm for search. People can ask questions and get answers, not just links."
+  Kontext: Interview mit Joanna Stern (WSJ) kurz nach dem Launch von [PRODUKT] (spaeter [FIRMA] [PRODUKT]).
+
+[A011] (2023-03-16, schriftlich)
+  "Today marks the next major step in the evolution of how we interact with computing, which will fundamentally change the way we work and unlock a new wave of productivity growth."
+  Kontext: Offizielle Ankuendigung von [FIRMA] 365 [PRODUKT], dem KI-Assistenten fuer Office-Anwendungen.
+
+[A012] (2023-04-12, muendlich)
+  "The age of AI is here. It's not coming. It's here. And it's going to reshape every part of how we live and work."
+  Kontext: TIME-Interview im Fruehjahr 2023, nach dem [PRODUKT]- und Bing-Chat-Erfolg.
+
+[A013] (2023-05-23, muendlich)
+  "[PRODUKT] is the new UI. [PRODUKT] is the way we think people will interact with technology moving forward."
+  Kontext: Build 2023 Keynote. [PERSON] kuendigt [PRODUKT]-Integration in fast alle [FIRMA]-Produkte an.
+
+[A014] (2023-05-23, muendlich)
+  "Every organization will have custom AI. Azure AI is the platform that will make this possible for every developer, every organization."
+  Kontext: Build 2023. [PERSON] positioniert Azure als die Plattform fuer Custom-KI.
+
+[A015] (2023-09-13, muendlich)
+  "AI innovation and AI safety must go hand in hand. We need a new generation of AI safety frameworks that are both adaptable and enforceable."
+  Kontext: Closed-door AI Insight Forum des US-Senats. [PERSON] plaediert fuer neue Sicherheits-Frameworks.
+
+[A016] (2023-10-11, muendlich)
+  "I want to be very transparent: We are 100% open to regulation. In fact, we think regulation will help create a level playing field."
+  Kontext: Interview mit Mathias Doepfner (Axel Springer). [PERSON] positioniert [FIRMA] pro-Regulierung.
+
+[A017] (2023-11-17, schriftlich)
+  "We remain committed to our partnership with [FIRMA] and have confidence in our product roadmap. We have the best AI infrastructure in the world to continue this innovation."
+  Kontext: [FIRMA]-Statement Stunden nach [PERSON]s Entlassung. [PERSON] signalisiert Staerke.
+
+[A018] (2023-11-20, muendlich)
+  "We have all the IP rights and all the capability. If [FIRMA] disappeared tomorrow, I don't want any customer of ours to be worried. We have the people, we have the compute, we have the data, we have everything."
+  Kontext: Interview nach der Entlassung von [PERSON]. [PERSON] demonstriert Staerke und Unabhaengigkeit.
+
+[A019] (2024-01-08, schriftlich)
+  "This partnership allows us to accelerate AI innovation while preserving competition. [FIRMA] remains an independent company with its own governance."
+  Kontext: Statement an UK Competition and Markets Authority. [PERSON] betont Unabhaengigkeit von [FIRMA].
+
+[A020] (2024-01-17, muendlich)
+  "I think we need thoughtful regulation. But we also need to make sure that we don't regulate innovation out of existence."
+  Kontext: CNBC Interview in Davos 2024. [PERSON] balanciert zwischen Sicherheit und Innovation.
+
+[A021] (2024-01-30, muendlich)
+  "[PRODUKT] is becoming one of the fastest-growing products in our company's history. We're seeing real enterprise adoption and real productivity gains."
+  Kontext: Earnings Call Q2 2024. [PERSON] betont den Erfolg von [PRODUKT].
+
+[A022] (2024-02-16, schriftlich)
+  "[PRODUKT] is a glimpse into the future of creative work. The combination of Azure infrastructure and [FIRMA] innovation is unlocking new frontiers."
+  Kontext: [FIRMA]-Post nach dem Launch von [FIRMA]s [PRODUKT] (Text-to-Video). [PERSON] hebt Azure-Infrastruktur hervor.
+
+[A023] (2024-02-17, muendlich)
+  "AI is a tool. And like any tool, it can be used for good or for ill. The question is: What norms, what rules, what regulations do we put in place?"
+  Kontext: Panel bei der Muenchner Sicherheitskonferenz. [PERSON] thematisiert KI-Governance im geopolitischen Kontext.
+
+[A024] (2024-05-21, muendlich)
+  "We are entering a new era of AI PCs. These are not just faster computers; they are computers that can understand you, learn from you, and help you in fundamentally new ways."
+  Kontext: Build 2024. [PERSON] stellt [PRODUKT]+ PCs vor, die erste PC-Kategorie mit On-Device-KI.
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2014-02-04) [einstellung]
+  [PERSON] wird der dritte CEO von [FIRMA] und loest Steve Ballmer ab. Er tritt die Nachfolge von Bill Gates und Steve Ballmer an.
+
+[H002] (2017-09-26) [produktlaunch]
+  [PERSON] veroeffentlicht sein Buch 'Hit Refresh: The Quest to Rediscover [FIRMA]'s Soul and Imagine a Better Future for Everyone', in dem er die Transformation von [FIRMA] und seine Vision fuer KI darlegt.
+
+[H003] (2019-07-22) [investition] ($1,000,000,000)
+  [FIRMA] kuendigt eine $1 Milliarde Investition in [FIRMA] an und wird exklusiver Cloud-Partner. [FIRMA] nutzt Azure fuer alle KI-Modelle.
+
+[H004] (2021-06-29) [produktlaunch]
+  [FIRMA] launcht [PRODUKT], den ersten grossen KI-Programmier-Assistenten, basierend auf [FIRMA] [PRODUKT]. Der Service nutzt [PRODUKT]-Technologie.
+
+[H005] (2021-10-08) [spende] ($15,000,000)
+  Satya und Anu [PERSON] spenden $15 Millionen an die Seattle Children's Hospital fuer Forschung zu neurologischen Entwicklungsstoerungen bei Kindern, inspiriert durch ihren Sohn Zain mit zerebraler Kinderlahmung.
+
+[H006] (2023-01-17) [produktlaunch]
+  [FIRMA] macht Azure [FIRMA] Service (Zugang zu [PRODUKT], [PRODUKT], [PRODUKT], [PRODUKT] etc.) allgemein verfuegbar fuer Unternehmenskunden. Bereits ueber 4.500 Unternehmen nutzen den Service in der Preview.
+
+[H007] (2023-01-23) [investition] ($10,000,000,000)
+  [FIRMA] investiert weitere ca. $10 Milliarden in [FIRMA] in einer mehrjaehrigen Partnerschaft. Die Gesamtinvestition belaeuft sich damit auf ca. $13 Milliarden.
+
+[H008] (2023-02-07) [produktlaunch]
+  [FIRMA] launcht [PRODUKT] (spaeter umbenannt in [FIRMA] [PRODUKT]), eine KI-gestuetzte Suchmaschine basierend auf [PRODUKT]. Es ist [FIRMA]s erster direkter Angriff auf [FIRMA]s Suchmonopol.
+
+[H009] (2023-03-16) [produktlaunch]
+  [FIRMA] kuendigt [FIRMA] 365 [PRODUKT] an, einen KI-Assistenten fuer Word, Excel, PowerPoint, Outlook und Teams. Preis: $30/Monat zusaetzlich zu [FIRMA] 365.
+
+[H010] (2023-05-23) [produktlaunch]
+  [FIRMA] launcht Azure AI Foundry (vorher Azure AI Studio), eine Plattform fuer Entwickler zum Bauen, Trainieren und Deployen eigener KI-Modelle. Unterstuetzt [FIRMA]-Modelle, Open-Source-Modelle und Custom-Modelle.
+
+[H011] (2023-06-14) [lobbying]
+  [FIRMA] engagiert sich intensiv im EU-AI-Act-Gesetzgebungsprozess und plaediert fuer risikobasierte Regulierung statt pauschaler Verbote. [PERSON] trifft EU-Kommissarin Margrethe Vestager mehrfach.
+
+[H012] (2023-11-19) [einstellung]
+  Nach der Entlassung von [PERSON] durch den [FIRMA]-Board bietet [PERSON] [PERSON] und [PERSON] an, ein neues KI-Team bei [FIRMA] zu leiten. Als [PERSON] zurueckkehrt, sichert [FIRMA] einen Beobachtersitz im neuen Board.
+
+[H013] (2024-02-26) [partnerschaft] ($16,000,000)
+  [FIRMA] kuendigt Partnerschaft mit dem franzoesischen KI-Startup Mistral AI an und investiert ca. $16 Millionen. Mistral-Modelle werden auf Azure verfuegbar.
+
+[H014] (2024-03-19) [einstellung] ($650,000,000)
+  [FIRMA] stellt [PERSON] (Co-Founder von [FIRMA] und [FIRMA]) als CEO von [FIRMA] AI ein und holt die meisten [FIRMA]-Mitarbeiter. [FIRMA] zahlt [FIRMA] $650 Millionen fuer Lizenzen.
+
+[H015] (2024-05-20) [produktlaunch]
+  [FIRMA] kuendigt [PRODUKT]+ PCs an, eine neue PC-Kategorie mit integrierten NPUs (Neural Processing Units) fuer On-Device-KI. Partnerschaft mit Qualcomm, Intel, [FIRMA].

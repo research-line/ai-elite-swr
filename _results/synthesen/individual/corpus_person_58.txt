@@ -1,0 +1,123 @@
+=== DATENKORPUS PERSON-58 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (unbekannt, muendlich)
+  "I feel like traditionally we think of intelligence as the things that computers can't do yet. And then all of a sudden when we manage to do it, we understand how it works and we don't think of it as that intelligent anymore. It used to be okay, if we can make a computer play checkers that would make it intelligent, and then later we're like, 'Wait, that's not enough to be intelligent,' and we keep moving the bar."
+  Kontext: Interview discussion about defining intelligence and AI capabilities
+
+[A002] (unbekannt, muendlich)
+  "Intelligence should be understood as having the ability to adapt to new environments and achieve something meaningful in new environments that the system has never been in."
+  Kontext: Proposing a functional definition of intelligence
+
+[A003] (unbekannt, muendlich)
+  "I view the notion that people get into car accidents as something that can be made a thing of the past through good self-driving cars as very powerful."
+  Kontext: Discussing the safety potential of autonomous vehicles
+
+[A004] (unbekannt, muendlich)
+  "I am excited about the direction of empowering other scientific disciplines with AI and believe there is a whole area where AI can help other scientific disciplines."
+  Kontext: On broader applications of AI beyond robotics
+
+[A005] (unbekannt, muendlich)
+  "Humans will continue to work alongside robots in warehouses, but the job market would surely change as machine learning improves."
+  Kontext: Discussion on the future of work and automation
+
+[A006] (unbekannt, muendlich)
+  "A future with smarter robots could be a real benefit to humanity. At Covariant, we firmly believe that robotics represents an overwhelmingly positive force for our society and the human race."
+  Kontext: Expressing optimistic view on robotics impact
+
+[A007] (unbekannt, muendlich)
+  "Whatever a human does a robot can do it is not the right way to think about it, and instead one should carefully consider what AI systems can do in the next couple of years where they can have the most impact."
+  Kontext: Nuanced perspective on AI deployment strategy
+
+[A008] (unbekannt, muendlich)
+  "There is a level of generality 'under the hood' that's doing the training of these neural nets even if the resulting neural net often ends up being a little specialized."
+  Kontext: Explaining limitations of current deep learning
+
+[A009] (unbekannt, muendlich)
+  "The breakthroughs in AI of the past 5 years are only the icebreaker, making way for bigger ships to thrive in their wake."
+  Kontext: Predicting future AI developments
+
+[A010] (unbekannt, muendlich)
+  "It's clear we're making a lot of progress, but it's just not clear what the gap is. It's also not clear to which extent the gap is a conceptual breakthrough sequence of things that we need to go through to get there."
+  Kontext: Discussing the path to more advanced AI
+
+[A011] (unbekannt, muendlich)
+  "Once robots learn a task like putting a cap on a bottle, you'd expect it to transfer that knowledge to other, similar processes, such as for instance letting a hammer tap in a nail."
+  Kontext: On the importance of transfer learning in robotics
+
+[A012] (unbekannt, schriftlich)
+  "I stress the ethical implications of AI, advocating for responsible deployment of robotics to ensure safety, job enhancement, and societal benefit."
+  Kontext: Statement on ethical considerations in AI development
+
+[A013] (2019-01-01, muendlich)
+  "People will benefit immensely as the Covariant Brain gets more experience in customer environments and learns more general skills, eventually powering ever more robots in industrial-scale settings like manufacturing, agriculture, hospitality, commercial kitchens and homes."
+  Kontext: Interview at Covariant launch discussing future vision
+
+[A014] (2022-01-01, muendlich)
+  "It is very important for people who want to work in AI and robotics to have skills in more than one field. You should have a strong background in math (calculus, probability, linear algebra, and optimization), physics for modeling real-world problems, and programming skills in Python and deep learning frameworks like PyTorch or TensorFlow."
+  Kontext: Interview discussing skill requirements for AI research
+
+[A015] (2022-03-01, muendlich)
+  "What's possible in AI and robotics today is so different from what was possible even five years ago. It's a space where things are changing very fast and in ways that are going to impact people's lives."
+  Kontext: Interview about the pace of AI development
+
+[A016] (2022-03-01, muendlich)
+  "Robots need to be smarter than they are. They need to learn how to react to situations not just perform the same action again and again. They need to adapt to live in their environment."
+  Kontext: Discussing the need for adaptive robotics
+
+[A017] (2022-03-01, muendlich)
+  "My goal is that if people listen to the podcast, they'll get an understanding of what AI can do, where it is in our lives and what it will become."
+  Kontext: Explaining the purpose of his Robot Brains podcast
+
+[A018] (2024-03-11, schriftlich)
+  "RFM-1 provides robots the human-like ability to reason, representing the first time Generative AI has successfully given commercial robots a deeper understanding of language and the physical world."
+  Kontext: Announcement of RFM-1 robotics foundation model
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2014-01-01) [gruendung]
+  Co-founded Gradescope with Arjun Singh, Sergey Karayev, and Ibrahim Awwal to use AI for streamlined grading in education
+
+[H002] (2017-10-01) [gruendung]
+  Co-founded Covariant (originally Embodied Intelligence) with Peter Chen, Rocky Duan, and Tianhao Zhang to build AI foundation models for robotics in warehouses and factories
+
+[H003] (2018-10-01) [verkauf]
+  Gradescope acquired by Turnitin, expanding educational technology tools for STEM assessment
+
+[H004] (2019-01-01) [investition]
+  Covariant raised $20 million Series A funding led by Amplify Partners
+
+[H005] (2020-01-01) [produktlaunch]
+  Covariant officially launched from stealth mode to bring universal AI to robots
+
+[H006] (2020-05-06) [investition]
+  Covariant raised $40 million Series B funding led by Index Ventures with participation from Radical Ventures and Amplify Partners
+
+[H007] (2021-01-01) [einstellung]
+  Joined AIX Ventures as Investment Partner, a venture capital fund investing in AI startups
+
+[H008] (2021-03-01) [produktlaunch]
+  Launched 'The Robot Brains Podcast' featuring conversations with top AI and robotics experts and entrepreneurs
+
+[H009] (2021-07-27) [investition]
+  Covariant raised $80 million Series C funding led by Index Ventures with participation from Temasek and CPP Investments
+
+[H010] (2022-04-01) [sonstiges]
+  Received ACM Prize in Computing for contributions to robot learning, including learning from demonstrations and deep reinforcement learning. Prize carries $250,000.
+
+[H011] (2023-04-04) [investition]
+  Covariant raised additional $75 million in Series C funding led by Index Ventures and Radical Ventures, bringing total funding to $222M
+
+[H012] (2024-03-11) [produktlaunch]
+  Covariant launched RFM-1, the first Robotics Foundation Model giving robots human-like reasoning capabilities with 8 billion parameters
+
+[H013] (2024-08-01) [einstellung]
+  Joined [FIRMA] as Distinguished Scientist and VP/Scholar focusing on advancing AI and robotics
+
+[H014] (2024-08-30) [partnerschaft]
+  [FIRMA] entered non-exclusive licensing agreement with Covariant and hired 25% of workforce including founders [PERSON], Chen, and Duan
+
+[H015] (2025-12-17) [einstellung]
+  Appointed head of [FIRMA]'s frontier model research team (LLM base models) in AGI organization while continuing robotics work

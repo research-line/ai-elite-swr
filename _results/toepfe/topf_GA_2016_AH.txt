@@ -1,0 +1,255 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2016_AH
+Beschreibung: Jahrestopf 2016, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 24 Aussagen + 46 Handlungen = 70 gesamt
+Zeitraum Aussagen: 2016-01-01 bis 2016-12-30
+Zeitraum Handlungen: 2016 bis 2016-12-13
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (24 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2016-01-01, schriftlich)
+  "Technology will replace 80 percent of what doctors do."
+  Kontext: [PERSON]s berühmtes Paper "20 Percent Doctor Included" über die Zukunft der Medizin
+
+[A002] (2016-01-01, muendlich)
+  "The ImpaQt blueprint consists of three phases—Ideation, Review and Prototyping—and the program engages the entire employee population, with those who come up with workable ideas remaining involved in their projects all the way through to fruition, creating and nurturing a culture of innovation and collaboration."
+  Kontext: Describing Qualcomm ImpaQt innovation incubator structure
+
+[A003] (2016-01-01, schriftlich)
+  "In one widely cited paper from 2016, we considered the idealized case of two cars, one driven by a person and another by a computer program, and developed a model for how humans drive based on people's behavior in a video-game-like simulation."
+  Kontext: Early influential research on autonomous vehicle interaction
+
+[A004] (2016-01-04, schriftlich)
+  "We build a multi-source machine translation model trained to maximize the probability of a target English string given French and German sources."
+  Kontext: Describing approach to neural machine translation using multiple source languages simultaneously
+
+[A005] (2016-03-21, muendlich)
+  "We need to decide as a nation how much power the government should have over our data and over our privacy. We have a responsibility to protect your data and your privacy. We will not shrink from this responsibility."
+  Kontext: [PERSON] zur FBI-Aufforderung, das iPhone des San Bernardino-Attentaeters zu entschluesseln.
+
+[A006] (2016-04-01, schriftlich)
+  "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1."
+  Kontext: In seinem vielleicht beruehmtesten Shareholder Letter definiert [PERSON] 'Day 1' vs. 'Day 2' und etabliert die 'Day 1 Mentalitaet' als Philosophie gegen organisatorische Sklerose.
+
+[A007] (2016-04-01, schriftlich)
+  "There are many ways to center a business. You can be competitor focused, you can be product focused, you can be technology focused, you can be business model focused, and there are more. But in my view, obsessive customer focus is by far the most protective of Day 1 vitality."
+  Kontext: [PERSON] identifiziert vier Faktoren, die Day 1-Vitalitaet bewahren. Customer Obsession steht an erster Stelle.
+
+[A008] (2016-04-01, schriftlich)
+  "As companies get larger and more complex, there's a tendency to manage to proxies. This comes in many shapes and sizes, and it's dangerous, subtle, and very Day 2."
+  Kontext: Zweiter Day-1-Faktor: Widerstand gegen Proxy-Management. [PERSON] meint damit, Prozesse mit Zielen zu verwechseln.
+
+[A009] (2016-04-01, schriftlich)
+  "Day 2 companies make high-quality decisions, but they make high-quality decisions slowly. To keep the energy and dynamism of Day 1, you have to somehow make high-quality, high-velocity decisions."
+  Kontext: Vierter Day-1-Faktor: Schnelle, hochwertige Entscheidungen. [PERSON] beschreibt Techniken wie 'disagree and commit' und 'two-way doors'.
+
+[A010] (2016-04-07, schriftlich)
+  "Transfer learning significantly improves BLEU scores across a range of low-resource languages by an average of 5.6 BLEU."
+  Kontext: Presenting results on using transfer learning to improve neural machine translation for languages with limited training data
+
+[A011] (2016-05-18, muendlich)
+  "We've been running TPUs inside our data centers for more than a year, and have found them to deliver an order of magnitude better performance per watt for machine learning."
+  Kontext: [PERSON] Keynote [FIRMA] I/O 2016 - Erste öffentliche Ankündigung der Tensor Processing Units
+
+[A012] (2016-05-25, muendlich)
+  "It's less about revenge and more about specific deterrence. I saw Gawker pioneer a unique and incredibly damaging way of getting attention by bullying people even when there was no connection to the public interest."
+  Kontext: [PERSON] gibt zu, Hulk Hogans Prozess gegen Gawker finanziert zu haben -- Gawker geht in Konkurs.
+
+[A013] (2016-06-01, muendlich)
+  "We are willing to be misunderstood for long periods of time. We are long-term oriented, and we are willing to make bets that may not pay off for five to seven years."
+  Kontext: Code Conference Interview. [PERSON] verteidigt [FIRMA]s Investitionsstrategie und niedrige Margen.
+
+[A014] (2016-06-01, schriftlich)
+  "On GitHub he contributed a core TensorFlow implementation of [FIRMA]'s WaveNet—adding dilated convolutions, mu-law encoding/decoding, CLI, logging and other production features—showing attention to both model design and engineering."
+  Kontext: Description of open source contributions to deep learning community
+
+[A015] (2016-07-21, muendlich)
+  "I am proud to be gay. I am proud to be a Republican. But most of all I am proud to be an American."
+  Kontext: Erster offen schwuler Redner bei einer Republican National Convention.
+
+[A016] (2016-07-21, muendlich)
+  "Instead of going to Mars, we have invaded the Middle East. We don't need to see Hillary Clinton's deleted emails: her incompetence is in plain sight."
+  Kontext: [PERSON] attackiert das politische Establishment und positioniert Trump als Wandel.
+
+[A017] (2016-08-01, muendlich)
+  "I've always had this really strong sense that death was a terrible, terrible thing. I think that's somewhat unusual. Most people end up compartmentalizing, and they are in some weird mode of denial and acceptance about death, but they both have the result of not doing anything about it."
+  Kontext: [PERSON] spricht offen ueber seine Life Extension-Investments und seinen Kampf gegen das Altern.
+
+[A018] (2016-10-15, muendlich)
+  "The media always takes Trump literally. It never takes him seriously, but it always takes him literally. I think a lot of the voters who vote for Trump take Trump seriously but not literally."
+  Kontext: Interview mit der New York Times, in dem [PERSON] seine Trump-Unterstuetzung erklaert.
+
+[A019] (2016-10-31, muendlich)
+  "I think there are a lot of people who want to see a conservative government, but they think Trump would be too much. But I think it's actually Trump that's too little, not too much."
+  Kontext: TechCrunch Disrupt 2016. [PERSON] verteidigt seine Unterstuetzung Trumps gegenueber einem kritischen Silicon Valley.
+
+[A020] (2016-11-01, muendlich)
+  "Zero percent of the world knows about VR."
+  Kontext: Interview on VR adoption challenges
+
+[A021] (2016-11-01, schriftlich)
+  "Despite their success, neural networks are still hard to design."
+  Kontext: From the abstract of [PERSON] & Le's foundational NAS paper, describing motivation for automating neural architecture design
+
+[A022] (2016-11-01, schriftlich)
+  "On the CIFAR-10 dataset, our algorithm can design a novel network architecture that rivals the best human-invented architecture in terms of test set accuracy."
+  Kontext: Describing results from Neural Architecture Search using reinforcement learning, demonstrating that automated design can match human experts
+
+[A023] (2016-11-24, schriftlich)
+  "As the CEO, I shouldn't play such games, and it's all fixed now."
+  Kontext: Apologizing for secretly editing user comments criticizing him
+
+[A024] (2016-12-30, muendlich)
+  "I'm a big fan of open source. I think the more people have access to AI tools, the more innovation we'll see. Open source has been a huge driver of AI progress."
+  Kontext: Forbes-Interview. Ng betont die Rolle von Open Source fuer KI-Demokratisierung.
+
+------------------------------------------------------------------------
+HANDLUNGEN (46 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2016) [partnerschaft]
+  [FIRMA] Health kooperiert mit Royal Free NHS Trust zur Entwicklung der Streams-App. Die Partnerschaft wird spaeter vom ICO kritisiert: Royal Free hat Datenschutzgesetze nicht eingehalten, Patienten wurden nicht ausreichend informiert.
+
+[H002] (2016-01-01) [einstellung]
+  Vice President of Product and Engineering bei Leap Motion (2016-2018)
+
+[H003] (2016-01-01) [gruendung]
+  Gründung von [FIRMA] - Datenlabeling-Plattform für KI-Entwicklung
+
+[H004] (2016-01-01) [spende]
+  Unter den ersten Spendern fuer [FIRMA] ueber Aphorism Foundation: $1M an YC 2016, $5M direkt an [FIRMA] 2017-2018. [FIRMA] established by [PERSON], [PERSON] and others.
+
+[H005] (2016-01-01) [einstellung]
+  Übernahme der CEO-Position bei [FIRMA] (zuvor Co-Founder und verschiedene technische Rollen)
+
+[H006] (2016-01-01) [sonstiges]
+  Fellow der American Academy of Arts and Sciences - Anerkennung für wissenschaftliche Exzellenz
+
+[H007] (2016-01-01) [gruendung]
+  Founded the Center for Human-Compatible Artificial Intelligence (CHAI) at UC [UNI] with co-principal investigators [PERSON], Anca Dragan, Tom Griffiths, Bart Selman, Joseph Halpern, Michael Wellman and Satinder Singh Baveja. Center mission: develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.
+
+[H008] (2016-01-01) [partnerschaft]
+  Became co-chair of the World Economic Forum's Global AI Council on AI and Robotics, later joined Global AI Council in 2018 to help galvanize thinking about achieving positive futures with AI through planning and policy development.
+
+[H009] (2016-01-01) [sonstiges]
+  Completed PhD in reinforcement learning theory at Australian National University under supervision of Marcus Hutter. Thesis: "Nonparametric General Reinforcement Learning"
+
+[H010] (2016-01-01) [sonstiges]
+  Received [FIRMA] PhD Fellowship in Machine Learning
+
+[H011] (2016-01-01) [produktlaunch]
+  Co-created and publicly released PyTorch framework
+
+[H012] (2016-01-01) [sonstiges]
+  Created ganhacks repository with tips for training GANs
+
+[H013] (2016-01-01) [einstellung]
+  Started as Research Scientist at [FIRMA] Brain, working on Neural Architecture Search and AutoML
+
+[H014] (2016-02) [produktlaunch]
+  [PERSON] lanciert [FIRMA] Health bei der Royal Society of Medicine, eine Initiative zur Entwicklung von Kliniker-geleiteter Technologie fuer den NHS und andere Partner im Gesundheitswesen.
+
+[H015] (2016-02) [verkauf]
+  Xamarin acquired by [FIRMA] for approximately $400-500 million
+
+[H016] (2016-02-01) [einstellung]
+  [PERSON] tritt [FIRMA] bei, zunaechst fuer Strategie und Kommunikation, spaeter wird er Policy Director.
+
+[H017] (2016-02-01) [einstellung]
+  Joined [FIRMA] as ninth General Partner to lead infrastructure investments, announced by [PERSON] who first met [PERSON] in 2009
+
+[H018] (2016-02-17) [klage]
+  [FIRMA] widersetzt sich FBI-Anordnung zur Entschluesselung von iPhone im San Bernardino-Fall
+
+[H019] (2016-02-25) [ruecktritt]
+  Left VMware as EVP and General Manager of Networking and Security Business, stating he waited until NSX established solid footing after contemplating departure for two years
+
+[H020] (2016-03-01) [gruendung]
+  Co-Gründung von [FIRMA] zusammen mit Julien Chaumond und Thomas Wolf in New York. Ursprünglich als Chatbot-App für Teenager gestartet, später zur Open-Source-KI-Plattform pivotiert.
+
+[H021] (2016-03-15) [produktlaunch]
+  [PRODUKT] besiegt Lee Sedol, einen der besten Go-Spieler der Welt, mit 4:1 in Seoul. Das Match wird von ueber 200 Millionen Menschen weltweit verfolgt.
+
+[H022] (2016-05-18) [produktlaunch]
+  Öffentliche Ankündigung der Tensor Processing Units (TPUs) bei [FIRMA] I/O - Spezialisierte Hardware für Machine Learning
+
+[H023] (2016-05-18) [produktlaunch]
+  Launched [FIRMA] Daydream VR platform and Daydream View headset at [FIRMA] I/O 2016
+
+[H024] (2016-05-18) [partnerschaft]
+  Announced partnership with IMAX to develop cinema-grade 360-degree VR camera at [FIRMA] I/O 2016
+
+[H025] (2016-05-25) [klage] ($10,000,000)
+  [PERSON] finanziert geheim Hulk Hogans Klage gegen Gawker Media wegen Veroeffentlichung eines Sex-Videos. Gawker verliert den Prozess ($140 Mio. Schadenersatz) und geht in Konkurs.
+
+[H026] (2016-06-01) [einstellung]
+  Six-month postdoctoral fellowship at Future of Humanity Institute, [UNI], focusing on theoretical alignment research
+
+[H027] (2016-06-13) [verkauf]
+  [FIRMA] erwarb [FIRMA] fuer $26,2 Milliarden bar, [PERSON]s Anteil war $2,84 Milliarden wert, stimmte als Hauptaktionaer (10.85%) dafuer.
+
+[H028] (2016-07-01) [gruendung]
+  [PERSON] gruendet [FIRMA], ein Neurotechnologie-Unternehmen, das Brain-Computer-Interfaces entwickelt, um eine 'Symbiose mit KI' zu ermoeglichen. Ziel: Behandlung neurologischer Erkrankungen und Erweiterung menschlicher Faehigkeiten.
+
+[H029] (2016-07-01) [produktlaunch]
+  Published Layer Normalization paper with [PERSON] and Jamie Ryan Kiros
+
+[H030] (2016-08-01) [verkauf]
+  Quip wird von Salesforce übernommen: Salesforce kaufte Quip, Taylors Produktivitätssoftware-Startup (Konkurrent zu [FIRMA] Docs), für etwa 750 Millionen Dollar. Taylor wurde Chief Product Officer bei Salesforce.
+
+[H031] (2016-08-01) [ruecktritt]
+  Stepped down as President of [FIRMA] to join Calico as Chief Computing Officer
+
+[H032] (2016-08-09) [verkauf]
+  Intel acquired Nervana Systems for approximately $408 million; Rao became VP and GM of Intel's AI Products Group
+
+[H033] (2016-09-01) [gruendung]
+  Gründung von Halite (Coding-Wettbewerb) als Teenager zusammen mit Benjamin Spector
+
+[H034] (2016-09-01) [spende] ($10,000)
+  Spende von 10.000 US-Dollar an Nimble America, eine Pro-Donald Trump Organisation, die Anti-Hillary-Clinton Werbung schaltete. Diese Spende führte zu seiner späteren Entlassung bei [FIRMA].
+
+[H035] (2016-09-01) [sonstiges]
+  Published open-source TensorFlow implementation of [FIRMA] WaveNet with production features on GitHub
+
+[H036] (2016-09-05) [kauf] ($32,000,000,000)
+  ARM Holdings Übernahme - Kauf des britischen Chip-Designers für Vorbereitung auf KI-Revolution und IoT-Ära
+
+[H037] (2016-10-15) [spende] ($1,250,000)
+  [PERSON] spendet $1,25 Millionen an Donald Trumps Praesidentschaftskampagne -- groesste Einzelspende eines Tech-CEOs. Er haelt Rede bei Republican National Convention.
+
+[H038] (2016-11-01) [kauf] ($9,300,000,000)
+  Übernahme von NetSuite für 9,3 Milliarden USD, [PERSON] besaß 35% und machte persönlich 3,5 Milliarden USD
+
+[H039] (2016-11-01) [sonstiges]
+  Co-authored article "Yes, We Are Worried About the Existential Risk of Artificial Intelligence" published in [UNI] Technology Review explaining AI existential risk concerns.
+
+[H040] (2016-11-01) [produktlaunch]
+  Published Neural Architecture Search with Reinforcement Learning, foundational paper establishing automated neural network design as viable field
+
+[H041] (2016-11-09) [politisch]
+  [PERSON] wird Mitglied von Donald Trumps Transition-Team und organisiert Tech-Treffen im Trump Tower (Cook, [PERSON], [PERSON], Sandberg). Er wird als Kandidat fuer Supreme Court gehandelt.
+
+[H042] (2016-11-18) [produktlaunch]
+  [PERSON], Ian Goodfellow und Aaron Courville veroeffentlichen das Lehrbuch 'Deep Learning', das zum Standard-Lehrbuch des Feldes wird.
+
+[H043] (2016-11-23) [sonstiges]
+  Secretly edited user comments criticizing him (u/spez) on r/The_Donald, replacing his username with moderator names
+
+[H044] (2016-11-23) [politisch]
+  Led Department of Defense transition team for President-elect Donald Trump, screening staff and shaping policies
+
+[H045] (2016-12-01) [sonstiges]
+  Published foundational research paper "Cooperative Inverse Reinforcement Learning" (NIPS 2016) with Dylan Hadfield-Menell, Anca Dragan, and [PERSON], formalizing value alignment problem as cooperative game where robot learns human preferences.
+
+[H046] (2016-12-13) [gruendung]
+  Das [FIRMA] Self-Driving Car Project wird als eigenstaendige [FIRMA]-Tochter 'Waymo' ausgegliedert. CEO: John Krafcik. Waymo wird spaeter auf ueber $30 Milliarden bewertet.

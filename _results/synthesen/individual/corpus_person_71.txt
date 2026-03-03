@@ -1,0 +1,123 @@
+=== DATENKORPUS PERSON-71 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (2017-07-25, muendlich)
+  "The long-term goal is to create a decentralized AI research lab — think [FIRMA] but run through Slack and full of engineers that don't cost $300,000 a pop."
+  Kontext: Explaining the vision behind AI Grant program
+
+[A002] (2017-08-01, muendlich)
+  "We want to democratize AI. We want to level the playing field for startups to ensure that innovation doesn't get locked up in large companies like [FIRMA] or [FIRMA]."
+  Kontext: Interview on democratizing AI and reducing incumbency advantages
+
+[A003] (2017-08-01, muendlich)
+  "Part of my job at Y combinator is to kind of democratize AI again and to try to take those three properties that I mentioned that are today unique to large companies and kind of give them back to startups."
+  Kontext: Discussing [FIRMA]'s role in supporting AI startups
+
+[A004] (2017-08-01, muendlich)
+  "Machine learning software will eat the software that has eaten the world."
+  Kontext: Prediction about the future of machine learning in software
+
+[A005] (2017-08-21, muendlich)
+  "I think there are two possible takes on this. One is that we're just early and that's going to happen. And I think that's fairly true."
+  Kontext: Discussing whether AI will produce independent companies
+
+[A006] (2018-05-20, schriftlich)
+  "As AI's impact in the business world grows, its proper use becomes more important."
+  Kontext: On the growing importance of ethical AI deployment
+
+[A007] (2018-06-15, schriftlich)
+  "Culture is very underrated and we need artists who can understand the direction of technology and craft narratives for the public."
+  Kontext: On the importance of culture and narrative in technology
+
+[A008] (2018-09-10, schriftlich)
+  "With deep fake video swapping becoming increasingly impressive, people can't trust everything they watch."
+  Kontext: Warning about the implications of deepfake technology
+
+[A009] (2018-11-05, schriftlich)
+  "Online reading habits are changing the way people read in general, making it harder to read deeply into novels due to the habit of reading bite-sized posts."
+  Kontext: Observation on how digital media affects cognitive habits
+
+[A010] (2021-01-15, muendlich)
+  "Someone who grew up in Jerusalem was able to build a search engine acquired by [FIRMA]."
+  Kontext: Using himself as example for finding talent in overlooked populations
+
+[A011] (2022-05-20, muendlich)
+  "If you want to have better things in the world, generally speaking, they come from outsiders."
+  Kontext: On finding and supporting overlooked talent
+
+[A012] (2022-05-20, muendlich)
+  "Everything in life is in some form of a video game, and all humans, regardless of IQ, are seeking novelty."
+  Kontext: Philosophy on human motivation and gamification
+
+[A013] (2022-05-20, schriftlich)
+  "Invest in yourself, so that you can invest in others."
+  Kontext: Core principle on personal development and supporting entrepreneurship
+
+[A014] (2022-05-20, muendlich)
+  "When evaluating a company, I consider whether the research idea makes sense as a good product, whether the person will be a good leader and able to recruit top talent, and whether the market structure supports the company in capturing the value it creates."
+  Kontext: Explaining his framework for evaluating startup investments
+
+[A015] (2023-03-15, muendlich)
+  "Doing monotonous labor with text, extracting things out of PDFs, organizing information—all that stuff, I think, will get accelerated."
+  Kontext: Discussing practical AI applications
+
+[A016] (2023-03-15, muendlich)
+  "Businesses that have product market fit in AI have gone from no revenue to tens in some cases hundreds of millions of ARR extremely quickly. In fact, so quickly that I always wonder, it's like an unhealthy kind of growth, but there's real thirst for it."
+  Kontext: Observing the rapid growth of AI companies
+
+[A017] (2023-03-15, muendlich)
+  "We can talk about AI all day, but there are things happening outside of AI that are exciting and big."
+  Kontext: Maintaining perspective on broader tech innovation
+
+[A018] (2025-07-03, schriftlich)
+  "I expect miracles to follow."
+  Kontext: Statement when leaving [FIRMA] Inc. to join [FIRMA]
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2010-01-01) [gruendung]
+  Co-founded Greplin (later renamed Cue), a personal search engine startup that indexed users' online data, at age 19
+
+[H002] (2011-01-01) [investition]
+  Made early angel investments in Uber, Instacart, Figma, GitHub, Airtable, Rippling, and Coinbase
+
+[H003] (2011-03-01) [investition]
+  Received $4 million Series A investment from [FIRMA] Capital for Greplin, becoming one of [FIRMA]'s youngest founders at age 19
+
+[H004] (2012-11-01) [investition]
+  Raised $10 million from Index Ventures for Cue after rebranding from Greplin
+
+[H005] (2013-10-01) [verkauf]
+  Sold Cue to [FIRMA] for $40-60 million and joined [FIRMA] as Director of Machine Learning
+
+[H006] (2013-10-01) [einstellung]
+  Joined [FIRMA] as Director leading artificial intelligence and machine learning initiatives across iOS, OS X, and other platforms
+
+[H007] (2017-01-10) [ruecktritt]
+  Left [FIRMA] after four years to join [FIRMA] as a partner
+
+[H008] (2017-07-01) [gruendung]
+  Founded AI Grant with [PERSON], a non-profit program providing $5,000-$50,000 grants to AI researchers and DIY enthusiasts
+
+[H009] (2018-08-01) [gruendung]
+  Founded Pioneer, an early-stage remote startup accelerator and fund finding talented people globally through online tournaments
+
+[H010] (2023-01-01) [gruendung]
+  Co-founded NFDG venture capital fund with [PERSON], raising $1.1 billion in committed capital focused on AI
+
+[H011] (2023-04-20) [investition]
+  Participated in [FIRMA]'s $221 million Series B funding round alongside [PERSON] and [FIRMA]
+
+[H012] (2024-06-01) [gruendung]
+  Co-founded [FIRMA] Inc. with [PERSON] and Daniel Levy as CEO
+
+[H013] (2025-07-03) [ruecktritt]
+  Left [FIRMA] Inc. as CEO after 13 months to join [FIRMA] Superintelligence Labs
+
+[H014] (2025-07-03) [einstellung]
+  Joined [FIRMA] Superintelligence Labs to work on AI products and superintelligence development
+
+[H015] (2025-07-03) [verkauf]
+  [FIRMA] acquired substantial portion of NFDG's holdings (potentially over $1 billion) while hiring Gross and [PERSON]

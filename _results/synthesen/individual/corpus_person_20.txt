@@ -1,0 +1,145 @@
+=== DATENKORPUS PERSON-20 ===
+
+--- AUSSAGEN (25 Stueck) ---
+
+[A001] (2015-05-27, schriftlich)
+  "Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction."
+  Kontext: Beruhmter Nature-Artikel von [PERSON], [PERSON] und [PERSON], der Deep Learning einem breiten wissenschaftlichen Publikum erklaert.
+
+[A002] (2023-03-28, schriftlich)
+  "I have claimed that Auto-Regressive LLMs are exponentially diverging. For any token there is a probability of taking you outside the set of correct answers. Assuming errors are independent, the probability of a sequence being correct is exponentially divergent."
+  Kontext: Technische Erklaerung, warum [PERSON] glaubt, dass autoregressive Modelle strukturell limitiert sind.
+
+[A003] (2023-06-14, muendlich)
+  "I call A.I. doomers preposterous because they don't understand the difference between intelligence and autonomy."
+  Kontext: [PERSON] argumentiert, dass intelligente Systeme nicht automatisch eigene Ziele verfolgen -- Autonomie muss extra entworfen werden.
+
+[A004] (2023-09-13, schriftlich)
+  "Auto-Regressive LLMs can't plan (and can't really reason)."
+  Kontext: [PLATTFORM]-Thread ueber die fundamentalen Grenzen autoregressiver Sprachmodelle. [PERSON] vertritt diese Position seit Jahren konsequent.
+
+[A005] (2023-11-16, schriftlich)
+  "Regulate products, don't regulate technology. Promote open source foundational models. At the very least, don't regulate them in ways that favor incumbents."
+  Kontext: [PERSON] unterstuetzt die Position von Mistral zum EU AI Act und warnt vor Regulierung, die Monopole staerkt.
+
+[A006] (2023-12-08, schriftlich)
+  "The EU AI Act negotiations ended. Kudos to the French, German, and Italian governments for not giving up on open source models."
+  Kontext: [PERSON] kommentiert das Ergebnis der EU-AI-Act-Verhandlungen und lobt, dass Open-Source-Modelle weitgehend ausgenommen wurden.
+
+[A007] (2024, muendlich)
+  "Human intelligence is not general intelligence. It's very specialized to the ecological niche that we live in."
+  Kontext: [PERSON] stellt die gaengige Vorstellung von AGI in Frage und argumentiert, dass auch menschliche Intelligenz nicht 'allgemein' ist.
+
+[A008] (2024-02-08, schriftlich)
+  "P(doom) is BS."
+  Kontext: [PERSON] reagiert auf die Debatte um 'P(doom)' (Wahrscheinlichkeit einer existenziellen KI-Katastrophe) und widerspricht vehement den Warnungen von AI-Safety-Forschern.
+
+[A009] (2024-02-15, muendlich)
+  "We do not believe that we have a monopoly on good ideas and that progress requires the collective effort of the entire research community."
+  Kontext: TIME100 Impact Award-Interview in Dubai. [PERSON] verteidigt [FIRMA]'s Strategie, LLaMA und andere Modelle Open Source zu veroeffentlichen.
+
+[A010] (2024-03-07, muendlich)
+  "LLMs can do none of those or they can only do them in a very primitive way, and they don't really understand the physical world."
+  Kontext: Drittes langes Interview mit Lex Fridman. [PERSON] erlaeutert, warum LLMs nicht der Weg zu AGI sind.
+
+[A011] (2024-05-27, schriftlich)
+  "The Doomer's Delusion: 1. AI is likely to kill us all 2. Hence AI must be monopolized by a small number of companies under tight regulatory control."
+  Kontext: Thread, in dem [PERSON] die politische Oekonomie der KI-Doom-Rhetorik kritisiert und argumentiert, sie diene letztlich der Monopolbildung.
+
+[A012] (2024-05-27, schriftlich)
+  "AI is not some sort of natural phenomenon that will just emerge and become dangerous. *WE* design it and *WE* build it."
+  Kontext: Antwort auf Doomer-Argumente. [PERSON] vergleicht KI mit Turbojets: Wir haben diese auch sicher gemacht, bevor wir sie breit einsetzen.
+
+[A013] (2024-05-27, schriftlich)
+  "Secrecy hampers progress and discourages talents from joining the effort. Research needs publications and openness to advance."
+  Kontext: Teil der oeffentlichen Fehde mit [PERSON]. [PERSON] kritisiert [FIRMA]'s geschlossenen Ansatz und [PERSON]s Umgang mit Wissenschaftlern.
+
+[A014] (2024-05-27, schriftlich)
+  "I can imagine thousands of scenarios where a turbojet goes terribly wrong. Yet we managed to make turbojets insanely reliable before deploying them widely."
+  Kontext: [PERSON] argumentiert, dass Engineering-Disziplin KI sicher machen kann, genau wie bei anderen Technologien.
+
+[A015] (2024-05-27, schriftlich)
+  "Join [FIRMA] if you can stand a boss who: claims that what you are working on will be solved next year (no pressure), claims that what you are working on will kill everyone and must be stopped or paused (yay, vacation for 6 months!)."
+  Kontext: Hoehepunkt der oeffentlichen Fehde mit [PERSON]. [PERSON] kritisiert [PERSON]s widerspruchliche Aussagen zu KI.
+
+[A016] (2024-06-02, schriftlich)
+  "I like his cars, his rockets, his solar energy systems, and his satellite communication system. I also like his positions on open source and patents. But I very much disagree with him on a number of issues."
+  Kontext: Differenzierte Stellungnahme nach heftiger Fehde mit [PERSON] auf [PLATTFORM]/X. [PERSON] warf [PERSON] vor, 'blatantly false' KI-Vorhersagen zu machen.
+
+[A017] (2024-06-04, schriftlich)
+  "Telling the public blatantly false predictions ('AGI next year', '1 million robotaxis by 2020', 'AGI will kill us all, let's pause') is very counterproductive (also illegal in some cases)."
+  Kontext: Direkte Kritik an [PERSON], aber auch implizit an andere, die AGI-Zeitlinien verkuenden.
+
+[A018] (2024-09-27, schriftlich)
+  "The whole premise of [FIRMA] was wrong from the start. They said 'we will practice open research and reach AGI before the for-profits.' That relied on four ridiculously naive and insanely presumptuous assumptions."
+  Kontext: Thread, in dem [PERSON] [FIRMA] vorwirft, von Anfang an auf falschen Annahmen basiert zu haben -- insbesondere AGI 'vor anderen zu erreichen'.
+
+[A019] (2024-10-12, muendlich)
+  "AI becoming smart enough to pose a threat to humanity is complete B.S."
+  Kontext: Interview mit dem Wall Street Journal. [PERSON] argumentiert, dass aktuelle LLMs nicht einmal ueber die Faehigkeiten einer Hauskatze verfuegen.
+
+[A020] (2025, muendlich)
+  "Existing systems don't understand the world as well as a housecat."
+  Kontext: Ein wiederkehrendes Argument [PERSON]s: LLMs fehlt jegliches intuitives Verstaendnis physikalischer Kausalitaet, das selbst Tiere besitzen.
+
+[A021] (2025, muendlich)
+  "We should use the term 'Advanced Machine Intelligence' instead of AGI. It's more accurate and less loaded with assumptions."
+  Kontext: [PERSON] hat den Begriff 'AMI' innerhalb von [FIRMA] eingefuehrt und nutzt ihn nun fuer sein Startup.
+
+[A022] (2025-01-23, muendlich)
+  "A new paradigm of AI architectures will emerge in the next three to five years, going far beyond the capabilities of existing AI systems."
+  Kontext: World AI Cannes Festival. [PERSON] kuendigt an, dass das naechste Paradigma Weltmodelle, persistente Erinnerung und echtes Reasoning umfassen wird.
+
+[A023] (2025-01-23, muendlich)
+  "Machine learning sucks. To achieve smarter AI systems, machines need to understand how the world works — as well as remember, reason and plan."
+  Kontext: Keynote auf der World AI Cannes. [PERSON] provoziert bewusst, um auf die Grenzen aktueller Ansaetze hinzuweisen.
+
+[A024] (2025-11-11, schriftlich)
+  "I'm leaving [FIRMA] to build the next revolution of AI: systems that understand the physical world, have persistent memory, can reason, and can plan complex action sequences."
+  Kontext: [PERSON] kuendigt oeffentlich seinen Weggang nach 12 Jahren bei [FIRMA]/[FIRMA] an, um AMI Labs zu gruenden.
+
+[A025] (2026-01-22, schriftlich)
+  "The industry's current obsession with large language models is wrong-headed and will ultimately fail to solve many pressing problems. We should be betting on world models—a different type of AI that accurately reflects the dynamics of the real world."
+  Kontext: [UNI] Technology Review-Artikel ueber [PERSON]s Startup AMI Labs und seine Vision fuer die Zukunft der KI.
+
+
+--- HANDLUNGEN (13 Stueck) ---
+
+[H001] (1987) [sonstiges]
+  [PERSON] schliesst seine Promotion in Informatik an der Universite Pierre et Marie Curie ab. In seiner Dissertation schlaegt er eine fruehe Form des Backpropagation-Lernalgorithmus fuer neuronale Netze vor.
+
+[H002] (1988) [einstellung]
+  [PERSON] tritt dem Adaptive Systems Research Department bei AT&T Bell Laboratories in Holmdel, New Jersey bei. Dort entwickelt er in den folgenden Jahren das Convolutional Neural Network (LeNet) und wendet es erfolgreich auf Handschrifterkennung an.
+
+[H003] (1989) [produktlaunch]
+  [PERSON] und sein Team bei AT&T Bell Labs entwickeln LeNet, eine Serie von Convolutional Neural Network-Architekturen zum Lesen handgeschriebener Ziffern. LeNet wird erfolgreich fuer die automatische Scheckverarbeitung bei Banken und Geldautomaten eingesetzt.
+
+[H004] (2003) [einstellung]
+  [PERSON] wird Professor fuer Computer Science und Neural Science an der New York University (Courant Institute und Center for Neural Science). Er erhaelt die Jacob T. Schwartz Chaired Professorship.
+
+[H005] (2012) [gruendung]
+  [PERSON] wird der gruendende Direktor des NYU Center for Data Science, einem der ersten universitaeren Data-Science-Programme in den USA.
+
+[H006] (2013-12-09) [gruendung]
+  [PERSON] tritt [FIRMA] bei und gruendet [FIRMA] AI Research (FAIR) als Director. Unter seiner Fuehrung wird FAIR zu einem der fuehrenden industriellen KI-Forschungslabore weltweit mit Standorten in Menlo Park, New York, Paris und [UNI].
+
+[H007] (2018) [einstellung]
+  [PERSON] wird Chief AI Scientist bei [FIRMA] (ehemals [FIRMA]) und uebergibt die Leitung von FAIR an Jerome Pesenti. Er konzentriert sich auf langfristige Forschung und Strategieberatung.
+
+[H008] (2019-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt gemeinsam mit [PERSON] und [PERSON] den ACM A.M. Turing Award 2018 'fuer konzeptionelle und technische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computing gemacht haben'. Preisgeld: $1 Million (finanziert von [FIRMA]).
+
+[H009] (2023-02) [produktlaunch]
+  [FIRMA] AI veroeffentlicht I-JEPA (Image Joint Embedding Predictive Architecture), das erste KI-Modell basierend auf [PERSON]s Vision fuer menschenaehnlichere KI. I-JEPA lernt durch interne Modelle der Aussenwelt statt durch Pixel-Vergleiche.
+
+[H010] (2023-02-24) [produktlaunch]
+  [FIRMA] veroeffentlicht LLaMA (Large Language Model [FIRMA] AI) als Open-Source-Modell. [PERSON] ist ein starker Befuerworter dieser Entscheidung und verteidigt sie oeffentlich gegen Kritik. LLaMA wird zu einer der wichtigsten Open-Source-LLM-Familien.
+
+[H011] (2025-11-19) [ruecktritt]
+  Nach 12 Jahren bei [FIRMA] kuendigt [PERSON] seinen Ruecktritt als Chief AI Scientist an. Er verlaesst das Unternehmen Ende 2025, um sein eigenes Startup AMI Labs (Advanced Machine Intelligence) zu gruenden.
+
+[H012] (2025-12) [gruendung]
+  [PERSON] gruendet Advanced Machine Intelligence (AMI) Labs mit Alexandre LeBrun (Nabla-Gruender) als CEO und [PERSON] als Executive Chairman. Das Startup zielt darauf ab, 'World Models' zu entwickeln -- KI-Systeme, die die physische Welt verstehen, persistentes Gedaechtnis haben und planen koennen. Hauptsitz in Paris ab Anfang 2026.
+
+[H013] (2025-12) [investition] ($586,000,000)
+  Noch vor dem offiziellen Launch befindet sich AMI Labs in Gespraechen, €500 Millionen bei einer Bewertung von €3 Milliarden (ca. $3,5 Mrd.) einzusammeln. Dies waere eine der hoechsten Pre-Launch-Bewertungen in der KI-Industrie.

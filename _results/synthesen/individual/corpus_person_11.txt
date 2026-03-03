@@ -1,0 +1,156 @@
+=== DATENKORPUS PERSON-11 ===
+
+--- AUSSAGEN (24 Stueck) ---
+
+[A001] (2018, muendlich)
+  "[PRODUKT]'s play style is alien. It sometimes wins by offering counterintuitive sacrifices. It's like chess from another dimension."
+  Kontext: [PERSON] kommentiert die ueberraschende Spielweise von [PRODUKT], das Schach, Go und Shogi durch Selbstspiel meisterte.
+
+[A002] (2020, muendlich)
+  "I reached chess master standard at 13 with an Elo rating of 2300. Chess taught me pattern recognition and strategic thinking — skills that became fundamental to my work in AI."
+  Kontext: Rueckblick auf seine Jugend. [PERSON] sieht eine direkte Verbindung zwischen Brettspielen und KI-Forschung.
+
+[A003] (2022, muendlich)
+  "Scientific understanding enhances rather than diminishes the beauty and mystery of the world."
+  Kontext: [PERSON] verbindet wissenschaftliche Rationalitaet mit Spiritualitaet und Aesthetik. Bezug zu Feynman und Spinoza.
+
+[A004] (2022-07-01, muendlich)
+  "One of the best definitions I like of consciousness is it's the information feels when we process it."
+  Kontext: Langes Interview mit Lex Fridman ueber Bewusstsein, KI und die Zukunft der Menschheit. [PERSON] reflektiert ueber die Natur des Bewusstseins.
+
+[A005] (2022-07-01, muendlich)
+  "We are the only sort of fully conscious beings in the universe. We are 'waking up the universe,' bringing self-awareness to a universe that otherwise lacks it."
+  Kontext: [PERSON] zitiert Carl Sagan und beschreibt die besondere Rolle bewusster Wesen im Universum. Philosophische Reflexion ueber die menschliche Existenz.
+
+[A006] (2022-07-01, muendlich)
+  "My underlying motivation for working in artificial intelligence is to understand how the universe works and to answer the deepest scientific questions: What is consciousness? What are we doing here? What's the universe about?"
+  Kontext: [PERSON] legt seine philosophische Grundmotivation fuer die Arbeit an KI dar: tiefe wissenschaftliche Fragen zu beantworten.
+
+[A007] (2023-05-30, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: [PERSON] unterzeichnet zusammen mit [PERSON], [PERSON] und anderen die Ein-Satz-Erklaerung des Center for AI Safety zu existenziellen KI-Risiken.
+
+[A008] (2024, muendlich)
+  "We need smart, adaptable regulation instead of rigid rules. Policy should evolve in line with the technology's direction and impact."
+  Kontext: Oeffentliche Stellungnahme zu KI-Regulierung. [PERSON] plaediert fuer flexible Regulation, die mit der Technologie Schritt haelt.
+
+[A009] (2024, muendlich)
+  "How do you stop bad actors repurposing general purpose technology for harmful ends?"
+  Kontext: [PERSON] aeussert sich zu den Herausforderungen von Open-Source-KI und dem Dual-Use-Problem.
+
+[A010] (2024-09-05, schriftlich)
+  "Excited to announce AlphaProteo, our breakthrough AI system for designing novel proteins that bind to a target molecule or protein. It has the potential to accelerate our understanding of biology, and aid the discovery of new drugs, the development of biosensors, & much more!"
+  Kontext: Tweet zur Ankuendigung von AlphaProteo, einem Nachfolgesystem zu [PRODUKT], das nicht nur Strukturen vorhersagt, sondern neue Proteine entwirft.
+
+[A011] (2024-10-09, schriftlich)
+  "Winning the Nobel Prize is the honour of a lifetime and the realisation of a lifelong dream - it still hasn't really sunk in yet."
+  Kontext: Tweet am Tag der Nobelpreis-Bekanntgabe. [PERSON] und John Jumper erhalten den Chemie-Nobelpreis fuer [PRODUKT]2.
+
+[A012] (2024-10-09, schriftlich)
+  "With [PRODUKT]2 we cracked the 50-year grand challenge of protein structure prediction: predicting the 3D structure of a protein purely from its amino acid sequence."
+  Kontext: Fortsetzung des Tweets zur Nobelpreis-Bekanntgabe. [PERSON] fasst die wissenschaftliche Leistung von [PRODUKT]2 zusammen.
+
+[A013] (2025, muendlich)
+  "Energy will be synonymous to intelligence as we get towards AGI. The amount we're going to get back, even just narrowly for climate [solutions] from these models, it's going to far outweigh the energy costs."
+  Kontext: [PERSON] verteidigt den hohen Energieverbrauch von KI-Systemen mit dem Argument, dass die Loesungen (z.B. fuer Klimawandel) den Verbrauch rechtfertigen.
+
+[A014] (2025, muendlich)
+  "One of my pet projects is discovering room temperature superconductor materials using AI, with multiple breakthroughs that AI could come up with to help with the energy situation."
+  Kontext: [PERSON] beschreibt seine Vision, wie KI Materialdurchbrueche ermoeglichen kann, die die Energiekrise loesen koennten.
+
+[A015] (2025, muendlich)
+  "AGI would be a technology that could not only solve existing problems, but also come up with entirely new explanations for the universe."
+  Kontext: [PERSON] unterscheidet sich von anderen KI-Fuehrern durch seine Betonung wissenschaftlicher Entdeckung als Kern der AGI-Definition.
+
+[A016] (2025, muendlich)
+  "World Models are crucial — a model that can predict and simulate how the state of the environment changes with actions, with core logic to truly 'understand' the operating rules of the physical world."
+  Kontext: [PERSON] identifiziert 'World Models' als eine der Schluesselkomponenten auf dem Weg zu AGI.
+
+[A017] (2025-02-06, muendlich)
+  "I'm gonna say before [2030 for AGI]."
+  Kontext: TIME100 Interview nach dem Nobelpreis. [PERSON] aeussert sich zur AGI-Zeitlinie und korrigiert seine fruehere '5-10 Jahre'-Schaetzung nach oben.
+
+[A018] (2025-02-06, muendlich)
+  "AGI, probably the most transformative moment in human history, is on the horizon."
+  Kontext: [PERSON] ordnet die Bedeutung von AGI historisch ein und vergleicht sie mit anderen technologischen Revolutionen.
+
+[A019] (2025-02-06, muendlich)
+  "It will be ten times bigger than the Industrial Revolution and perhaps ten times faster."
+  Kontext: Historischer Vergleich der erwarteten AGI-Auswirkungen mit der Industriellen Revolution.
+
+[A020] (2025-02-06, muendlich)
+  "If AI is built safely and responsibly, I believe it will be one of the most transformative and beneficial technologies ever."
+  Kontext: Bedingt optimistische Vision: [PERSON] betont die Notwendigkeit sicherer und verantwortungsvoller Entwicklung.
+
+[A021] (2025-02-14, muendlich)
+  "The more artificial intelligence becomes a race, the harder it is to keep the technology from becoming unsafe."
+  Kontext: [PERSON] aeussert sich zu den Gefahren eines unkontrollierten Wettlaufs in der KI-Entwicklung.
+
+[A022] (2025-07-15, muendlich)
+  "It's mostly just classical computing that's going on in the brain, which suggests that all the phenomena are modellable or mimicable by a classical computer."
+  Kontext: Zweites Lex-Fridman-Interview. [PERSON] argumentiert gegen die Notwendigkeit von Quanteneffekten fuer Bewusstsein.
+
+[A023] (2025-12-05, muendlich)
+  "AGI is on the horizon. Within 5 years, perhaps with 1-2 major technological breakthroughs, we may overcome the obstacles on the path to AGI."
+  Kontext: Axios-Exklusivinterview. [PERSON] wird konkreter bezueglich der noch fehlenden technischen Durchbrueche.
+
+[A024] (2026-02-11, muendlich)
+  "In 10, 15 years' time, we'll be in a kind of new golden era of discovery that is a kind of new renaissance."
+  Kontext: Fortune-Interview im Februar 2026. [PERSON] beschreibt seine langfristige Vision einer KI-getriebenen wissenschaftlichen Renaissance.
+
+
+--- HANDLUNGEN (18 Stueck) ---
+
+[H001] (2010-09-01) [gruendung]
+  [PERSON] gruendet [FIRMA] Technologies in London zusammen mit Shane Legg und [PERSON]. Die Vision: KI-Systeme entwickeln, die so allgemein und flexibel sind wie die menschliche Intelligenz.
+
+[H002] (2011-12-01) [investition] ($50,000,000)
+  [FIRMA] schliesst Serie-A-Finanzierung ueber $50 Millionen ab. Investoren: [FIRMA] ([PERSON]), Horizons Ventures (Li Ka-shing), [PERSON] und Scott Banister.
+
+[H003] (2013-12-19) [produktlaunch]
+  [FIRMA] veroeffentlicht bahnbrechende Forschung: Ein Deep Q-Network (DQN) lernt, Atari-Spiele auf uebermenschlichem Niveau zu spielen, allein durch Beobachtung der Pixel.
+
+[H004] (2014-01-26) [verkauf] ($500,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer geschaetzt $400-650 Millionen. Groesste europaeische Tech-Akquisition von [FIRMA] zu diesem Zeitpunkt. [FIRMA] wird Tochterunternehmen von [FIRMA].
+
+[H005] (2015-10-01) [produktlaunch]
+  [PRODUKT] besiegt Fan Hui, den europaeischen Go-Champion, mit 5:0. Erster Sieg eines Computerprogramms gegen einen professionellen Go-Spieler auf dem 19x19-Brett.
+
+[H006] (2016-03-15) [produktlaunch]
+  [PRODUKT] besiegt Lee Sedol, einen der besten Go-Spieler der Welt, mit 4:1 in Seoul. Das Match wird von ueber 200 Millionen Menschen weltweit verfolgt.
+
+[H007] (2017-12-05) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], ein generalisiertes Reinforcement-Learning-System, das Schach, Shogi und Go meistert - allein durch Selbstspiel ohne menschliches Wissen. Besiegt Stockfish 8 nach 9 Stunden Training.
+
+[H008] (2018-12-01) [produktlaunch]
+  [PRODUKT] gewinnt die CASP13-Proteinstruktur-Vorhersage-Wettbewerb mit deutlichem Vorsprung. [FIRMA] wendet Deep Learning auf Biologie an.
+
+[H009] (2020-11-30) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT]2, das die 50-Jahre alte 'Protein-Folding'-Herausforderung loest. CASP14-Gewinn mit atomarer Genauigkeit (GDT-Score 92.4). Strukturen von ueber 200 Millionen Proteinen vorhergesagt.
+
+[H010] (2021-11-04) [gruendung]
+  [PERSON] gruendet Isomorphic Labs, ein [FIRMA]-Tochterunternehmen, das KI fuer Medikamentenentwicklung nutzt. [PERSON] ist CEO sowohl von [FIRMA] als auch Isomorphic.
+
+[H011] (2023-04-20) [umstrukturierung]
+  [FIRMA] vereint [FIRMA] und [FIRMA] Brain zu '[FIRMA]'. [PERSON] wird CEO der neuen Einheit. Ziel: Beschleunigung der KI-Entwicklung und AGI-Forschung.
+
+[H012] (2023-12-06) [produktlaunch]
+  [FIRMA] launcht [PRODUKT] 1.0, ein multimodales Large Language Model in drei Groessen (Ultra, Pro, Nano). [PRODUKT] uebertrifft [PRODUKT] in mehreren Benchmarks.
+
+[H013] (2024-09-05) [produktlaunch]
+  [FIRMA] veroeffentlicht AlphaProteo, ein KI-System zum Design neuer Proteine, die an Zielmolekuele binden. Geht ueber [PRODUKT]s Vorhersagefaehigkeit hinaus zur aktiven Protein-Design.
+
+[H014] (2024-10-09) [sonstiges]
+  [PERSON] und John M. Jumper erhalten den Nobelpreis fuer Chemie 2024 fuer die Entwicklung von [PRODUKT]2 zur Proteinstrukturvorhersage. Erster Nobelpreis fuer KI-Forschung.
+
+[H015] (2024-10-15) [sonstiges]
+  [PERSON] wird von Koenig Charles III. zum Ritter geschlagen ('Sir [PERSON]') fuer Verdienste um KI und Wissenschaft.
+
+[H016] (2025) [partnerschaft]
+  [FIRMA] kuendigt Zusammenarbeit mit Commonwealth Fusion Systems an, um KI zur Beschleunigung der Fusionsenergie-Entwicklung einzusetzen. KI optimiert Simulation, Kontrollsysteme und Materialentdeckung.
+
+[H017] (2025-04-01) [investition] ($600,000,000)
+  Isomorphic Labs schliesst erste externe Finanzierungsrunde ueber $600 Millionen ab. Gefuehrt von Thrive Capital, mit Beteiligung von [FIRMA] Ventures und [FIRMA].
+
+[H018] (2025-12-10) [partnerschaft]
+  [FIRMA] kuendigt weitreichende Forschungspartnerschaft mit der britischen Regierung an. Fokus: Materialwissenschaft, saubere Energie, Kernfusion. Eroeffnung des ersten automatisierten Forschungslabors in UK 2026.

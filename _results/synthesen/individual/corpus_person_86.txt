@@ -1,0 +1,131 @@
+=== DATENKORPUS PERSON-86 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2014-03-06, muendlich)
+  "The simple goal was to energize women engineers and focus on personal and professional development. What started with 17 women grew to 1,800 members strong all over the world, with 12 chapters."
+  Kontext: Reflecting on founding and growth of QWISE at Qualcomm
+
+[A002] (2016-01-01, muendlich)
+  "The ImpaQt blueprint consists of three phases—Ideation, Review and Prototyping—and the program engages the entire employee population, with those who come up with workable ideas remaining involved in their projects all the way through to fruition, creating and nurturing a culture of innovation and collaboration."
+  Kontext: Describing Qualcomm ImpaQt innovation incubator structure
+
+[A003] (2021-01-01, muendlich)
+  "The goal was to create an ecosystem for startups and Global 2000s focusing on responsible development of AI through the Marketplace for Ethical and Responsible AI Tools."
+  Kontext: Describing nonprofit MERAT initiative before founding [FIRMA]
+
+[A004] (2022-09-29, schriftlich)
+  "An AI system can be considered to be "fair," in the sense of algorithmic fairness, if it does not perpetuate or amplify harmful societal biases in its systems. The concept of fairness is incredibly context-dependent."
+  Kontext: Congressional testimony on Trustworthy AI: Managing the Risks of Artificial Intelligence
+
+[A005] (2022-09-29, schriftlich)
+  "To achieve "transparency in AI," it is necessary to inject disclosures throughout the entire AI value chain, including comprehensive AI use case risk reporting, model cards, data set cards, and algorithmic impact assessments (AIAs)."
+  Kontext: Congressional testimony defining technical requirements for AI transparency
+
+[A006] (2023-04-10, schriftlich)
+  "In A.I. Race, [FIRMA] and [FIRMA] Choose Speed Over Caution - we need to ensure governance keeps pace with innovation."
+  Kontext: Commentary on [FIRMA] and [FIRMA]'s rapid AI deployment
+
+[A007] (2023-10-20, schriftlich)
+  "Introducing The Foundation Model Transparency Index - this aligns with methodology that [FIRMA] used for their GenAI Risk profiles."
+  Kontext: Commenting on [UNI]'s Foundation Model Transparency Index release
+
+[A008] (2024-01-01, muendlich)
+  "Responsible AI is building systems that are not only powerful, but fair, transparent, and aligned with human values—the difference between tech that serves society and tech that risks it."
+  Kontext: Defining responsible AI and AI-first, ethics-forward approach
+
+[A009] (2024-01-01, muendlich)
+  "Success is creating an ecosystem of enterprises, builders, and policymakers all coming together to be equally invested in trustworthy AI and governance from the onset, not when something goes wrong."
+  Kontext: Vision for collaborative approach to AI governance across stakeholders
+
+[A010] (2024-01-01, muendlich)
+  "How do we become the standard of good AI and defining what that good looks like so that this technology works in service of humanity."
+  Kontext: ICE House interview on AI governance and responsibility
+
+[A011] (2024-01-01, schriftlich)
+  "Responsible AI includes assessment, reporting, and governance to the highest of ethical standards in order to ensure a fair, transparent, compliant, and auditable environment for the development and use of artificial intelligence."
+  Kontext: OECD AI Expert profile defining Responsible AI principles
+
+[A012] (2024-08-12, muendlich)
+  "AI can't create business value without ironclad trust."
+  Kontext: Launch of [FIRMA] Advisory Services for trusted AI governance
+
+[A013] (2024-08-12, schriftlich)
+  "AI trustworthy with governance that is operational, measurable, and embedded into the way AI is built and deployed."
+  Kontext: Describing [FIRMA]'s approach to making governance practical and actionable
+
+[A014] (2024-08-28, muendlich)
+  "Managing the risks of generative AI is the only way the tech can be scaled, and it's all about oversight, control, and getting to trust very fast."
+  Kontext: Explaining why governance is enabler, not obstacle, for AI innovation
+
+[A015] (2024-09-17, muendlich)
+  "America will lose the artificial intelligence race with China if the industry doesn't implement tougher safety standards. America's effort to win out over China would falter if businesses and consumers don't trust the U.S.' safety framework."
+  Kontext: Speaking at Axios AI+ DC Summit on US-China AI competition and safety standards
+
+[A016] (2024-09-17, muendlich)
+  "Stronger governance of AI isn't the same thing as increased regulation. Governance is about understanding risk and aligning with a company's policies and standards."
+  Kontext: Clarifying distinction between governance and regulation at AI+ DC Summit
+
+[A017] (2024-11-01, muendlich)
+  "When I think about some of the most transformational companies, [FIRMA] is up there not only as an AI leader, but as a company that has been leading with trust and leading with the right leadership of [PERSON] at the forefront. And so to partner with an AI first company, the leader AI, and a company that believes in trust as deeply as we do has been just phenomenal."
+  Kontext: Discussing the strategic partnership between [FIRMA] and [FIRMA] Azure AI
+
+[A018] (2024-12-01, muendlich)
+  "From day one of [FIRMA], we've just been very relentlessly focused on our mission, which is how do we become the standard of good AI and defining what that good looks like so that this technology works in service of humanity. So whether it is generative AI or our groundbreaking work in making sure the AI agents and agentic AI future is also governed, we just continue to stay very heads down focused on making sure that we become the infrastructure of trust."
+  Kontext: Reflection on [FIRMA]'s mission and approach to AI governance, including generative AI and agentic AI systems
+
+[A019] (2024-12-01, schriftlich)
+  "AI governance—encompassing reliability, alignment, safety, compliance, robustness, fairness, and privacy—is needed to break away from the pack for companies to win long-term. 2025 is the year governance becomes the launchpad for AI innovation."
+  Kontext: Looking ahead to 2025, positioning governance as strategic enabler rather than obstacle
+
+[A020] (2024-12-01, schriftlich)
+  "I am exhilarated by AI's rapid advancements—from multimodal models to enterprise adoption—and humbled by our shared responsibility to ensure it serves humanity's best interests."
+  Kontext: Year-end reflection on 2024 AI developments and looking to 2025
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2005-01-01) [gruendung]
+  Founded QWISE (Qualcomm Women in Science and Engineering), Qualcomm's first women's initiative focused on personal and professional development of women in leadership roles, growing from 17 members to 1,800 members with 12 global chapters
+
+[H002] (2019-01-01) [gruendung]
+  Led non-profit initiative MERAT (Marketplace for Ethical and Responsible AI Tools) focused on building, testing and deploying AI responsibly, creating ecosystem for startups and enterprises
+
+[H003] (2020-03-01) [gruendung]
+  Founded [FIRMA] with co-founder Eli Chen, an AI governance platform to help organizations build AI aligned with human values and deliver responsible AI at scale
+
+[H004] (2021-01-01) [einstellung]
+  Joined Mozilla Foundation Board of Directors as executive board member to guide trustworthy AI charter and support Mozilla AI initiatives
+
+[H005] (2022-04-01) [einstellung]
+  Appointed by U.S. Department of Commerce as one of 27 members to the National Artificial Intelligence Advisory Committee (NAIAC) to advise the President and National AI Initiative Office
+
+[H006] (2022-05-17) [investition]
+  [FIRMA] raised $12.8 million Series A funding led by Sands Capital, with follow-on investments from Decibel VC and AI Fund
+
+[H007] (2022-06-01) [sonstiges]
+  [FIRMA] recognized as 2022 World Economic Forum Technology Pioneer for leadership in AI governance
+
+[H008] (2022-09-29) [politisch]
+  Testified before House Committee on Science, Space and Technology at hearing "Trustworthy AI: Managing the Risks of Artificial Intelligence" on AI governance and risk management
+
+[H009] (2024-03-01) [einstellung]
+  Appointed as AI Expert for UN Secretary-General's High-Level Advisory Body on AI at United Nations to advise on AI governance and policy
+
+[H010] (2024-04-01) [sonstiges]
+  Recognized on Inc.'s 2025 Female Founders 500 list for introducing [FIRMA] partnership, quadrupling revenue, and securing $21M Series B funding
+
+[H011] (2024-07-30) [investition]
+  [FIRMA] raised $21 million Series B funding led by CrimsoNox Capital, Mozilla Ventures and FPV Ventures, with participation from Sands Capital, Decibel VC, Booz Allen Hamilton and AI Fund, valuing company at $101 million
+
+[H012] (2024-08-12) [produktlaunch]
+  Launched [FIRMA] Advisory Services to make trusted AI governance real, auditable, and measurable for enterprise clients
+
+[H013] (2024-08-28) [sonstiges]
+  Named by TIME to 2025 TIME100 AI list as one of the 100 most influential people in artificial intelligence for work in AI governance and [FIRMA]'s impact
+
+[H014] (2024-09-17) [politisch]
+  Spoke at Axios AI+ DC Summit warning that America will lose AI race with China without tougher safety standards, arguing governance is key to competitive advantage
+
+[H015] (2024-11-01) [partnerschaft]
+  [FIRMA] partnered with [FIRMA] Azure AI to deliver end-to-end AI governance for Azure AI applications, including [PRODUKT], [PRODUKT], Phi-3 models, and comprehensive oversight of generative AI, multimodal models, and RAG use cases

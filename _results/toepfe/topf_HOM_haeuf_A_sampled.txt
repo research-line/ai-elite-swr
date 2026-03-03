@@ -1,0 +1,1216 @@
+========================================================================
+SYNTHESEEINHEIT: HOM_haeuf_A
+Beschreibung: Haeufig wiederholte Aussagen (Kernueberzeugungen) [SAMPLED: 300/521A + 0/0H, stratifiziert nach Jahr, seed=42]
+Generiert: 2026-02-12 03:47
+========================================================================
+
+Datenpunkte: 300 Aussagen + 0 Handlungen = 300 gesamt
+Zeitraum Aussagen: 1987-01-01 bis 2026-02-07
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (300 Stueck)
+------------------------------------------------------------------------
+
+[A001] (unbekannt, schriftlich)
+  "Entrepreneurship is about finding ways in which the world could be different and better and in feeling empowered to go make that change."
+  Kontext: General statement on entrepreneurship philosophy
+
+[A002] (unbekannt, schriftlich)
+  "Innovation happens best when people of different backgrounds come together to solve the world's toughest challenges and, in the process, can create new jobs and opportunities."
+  Kontext: Philosophy on innovation and diversity
+
+[A003] (unbekannt, muendlich)
+  "I view the notion that people get into car accidents as something that can be made a thing of the past through good self-driving cars as very powerful."
+  Kontext: Discussing the safety potential of autonomous vehicles
+
+[A004] (unbekannt, muendlich)
+  "Humans will continue to work alongside robots in warehouses, but the job market would surely change as machine learning improves."
+  Kontext: Discussion on the future of work and automation
+
+[A005] (unbekannt, muendlich)
+  "It's much easier to be a theoretical computer scientist because you can do the same thing for 20 years. You may prove different theorems, but in the big picture, it's the same thing"
+  Kontext: Comparing theoretical computer science to deep learning research
+
+[A006] (unbekannt, schriftlich)
+  "Github was a company that had a little bit of stage fright about shipping, so when we broke that static friction it felt great."
+  Kontext: On transforming GitHub's culture as CEO
+
+[A007] (unbekannt, schriftlich)
+  "We needed to show the world we cared about developers, not that we care about [FIRMA]."
+  Kontext: On GitHub's positioning after [FIRMA] acquisition
+
+[A008] (unbekannt, schriftlich)
+  "I would like to make it so that education was a right, and not a privilege."
+  Kontext: Vision for democratizing education
+
+[A009] (unbekannt, schriftlich)
+  "We should spend less time at universities filling our students' minds with content by lecturing at them, and more time igniting their creativity ... by actually talking with them."
+  Kontext: Educational philosophy on active learning
+
+[A010] (unbekannt, schriftlich)
+  "One of the reasons we self-financed is that I've always hated the status quo in Silicon Valley. I hate the idea of raising a large amount of money and then having to spend it. Typical VC-backed Silicon Valley startups are get-rich-quick schemes."
+  Kontext: Criticism of venture capital culture
+
+[A011] (unbekannt, schriftlich)
+  "Sales teams optimize for closing deals, not solving problems."
+  Kontext: On why Surge has no sales team
+
+[A012] (unbekannt, schriftlich)
+  "AI safety is not a future concern. Misaligned objectives—like optimizing for engagement over truth—are already causing harm."
+  Kontext: On current AI safety issues
+
+[A013] (unbekannt, schriftlich)
+  "I've seen firsthand how products designed to optimize for clicks can cause harm."
+  Kontext: Reflecting on experience at [FIRMA] and [PLATTFORM]
+
+[A014] (unbekannt, schriftlich)
+  "Where use of force is necessary, Just War principles require it be deployed ethically and consistently with principles of discrimination and proportionality. Technology has the potential to lead to significant reduction in innocent life loss through highly precise and targeted attacks, reducing the need for massive indiscriminate strikes."
+  Kontext: On Just War theory and technology
+
+[A015] (unbekannt, schriftlich)
+  "Modern technology, if developed properly, can make warfare more proportional, precise, and less indiscriminate than ever before, representing ethical goods that result in better and more peaceful outcomes globally."
+  Kontext: On technology improving warfare ethics
+
+[A016] (unbekannt, schriftlich)
+  "Forgiveness is a surprisingly useful concept in Silicon Valley, where relationships matter and holding grudges limits opportunities."
+  Kontext: Medium article on Christian ethics in tech
+
+[A017] (1987-01-01, muendlich)
+  "I founded Walden International and named the firm after the book Walden by Henry David Thoreau because my goal was to be like Thoreau: Contrarian, rather than just following the trend."
+  Kontext: Explaining Walden International founding philosophy
+
+[A018] (1997-04-01, schriftlich)
+  "This is Day 1 for the Internet and, if we execute well, for [FIRMA].com. Today, online commerce saves customers money and precious time. Tomorrow, through personalization, online commerce will accelerate the very process of discovery."
+  Kontext: Der erste Shareholder Letter von [PERSON], geschrieben nach dem [FIRMA] IPO 1997. Etabliert das 'Day 1'-Konzept, das [PERSON] sein ganzes Berufsleben lang wiederholen wird.
+
+[A019] (1998, muendlich)
+  "Our goal is to organize the world's information and make it universally accessible and useful. That's really what PageRank was about: figuring out what's important by looking at what other people think is important."
+  Kontext: [UNI]-Vortrag 1998. [PERSON] und Page erklaeren den PageRank-Algorithmus vor der [FIRMA]-Gruendung.
+
+[A020] (2000, muendlich)
+  "Artificial intelligence would be the ultimate version of [FIRMA]. The ultimate search engine that would understand everything on the web. It would understand exactly what you wanted, and it would give you the right thing."
+  Kontext: Fruehere Aussage zu KI (ca. Anfang 2000er Jahre), in der Page seine Vision von KI als perfekter Suchmaschine beschreibt.
+
+[A021] (2003, muendlich)
+  "I feel like our slogan 'Don't be evil' has been a great rallying cry for us. And it's very simple. We try not to cross that line. We try to stay on the right side of that line by a healthy margin."
+  Kontext: Interview ueber [FIRMA]s Firmenkultur und den Motto 'Don't be evil'. [PERSON] erklaert, warum einfache ethische Prinzipien wichtig sind.
+
+[A022] (2004-02, muendlich)
+  "Solve search, and we solve a lot of the world's problems. Access to information is a fundamental human right."
+  Kontext: TED Talk zusammen mit [PERSON]. [PERSON] und Page sprechen ueber die Philosophie hinter [FIRMA] und die Bedeutung von Informationszugang.
+
+[A023] (2006, muendlich)
+  "We felt that by participating there, we were able to actually make a difference. People could access more information than they would have otherwise. But we're constantly re-evaluating that."
+  Kontext: Kongressanhoerung 2006. [PERSON] und Page rechtfertigen die zensierte [FIRMA].cn-Version -- eine kontroverse Entscheidung.
+
+[A024] (2007, schriftlich)
+  "We have some capability of building such a search engine for the academic realm and probably could make it available for everyone. We believed we could build a better search engine."
+  Kontext: Interview im Buch 'Founders at Work' von Jessica Livingston. Page beschreibt die Gruendungsidee von [FIRMA].
+
+[A025] (2008-09, schriftlich)
+  "I know early in my life something I'm substantially predisposed to. I now have the opportunity to adjust my life to reduce those odds. Parkinson's is not inevitable for me -- even with the genetic mutation -- if I take action."
+  Kontext: Blog-Post/Interview ueber 23andMe Testergebnisse. [PERSON] (dessen Mutter an Parkinson erkrankte) teilt oeffentlich seine LRRK2-Mutation und finanziert Parkinson-Forschung.
+
+[A026] (2009-04-13, muendlich)
+  "I no longer believe that freedom and democracy are compatible."
+  Kontext: Essay fuer Cato Unbound (2009). [PERSON] erklaert, dass Demokratie und Freiheit in Konflikt geraten seien, seit Frauen waehlten -- eine provokante libertaere Position.
+
+[A027] (2010-11-15, muendlich)
+  "We want to build technology that everybody loves using, and that affects everyone. We want to create beautiful, intuitive services and technologies that are so incredibly useful that people use them twice a day. Like they use a toothbrush. There aren't that many things people use twice a day."
+  Kontext: Web 2.0 Summit Interview. [PERSON] spricht ueber [FIRMA]s Produktphilosophie und den Anspruch, unverzichtbare Technologie zu schaffen.
+
+[A028] (2012-01-01, schriftlich)
+  "The goal is, how do you make networking have the properties of software systems as far as innovation, provisioning speed, and upgrade speed. You want networks to be as flexible and as agile as compute is."
+  Kontext: Explaining the vision behind software-defined networking
+
+[A029] (2012-04-15, muendlich)
+  "There are very powerful forces that have lined up against the open Internet on all sides and around the world. I am more worried than I have been in the past. It's scary. The threat to the freedom of the Internet comes from governments, entertainment industries, and restrictive walled gardens like [FIRMA] and [FIRMA]."
+  Kontext: Guardian-Interview 2012. [PERSON] aeussert sich ungewoehnlich politisch und kritisiert Zensur, Walled Gardens und Regierungseingriffe.
+
+[A030] (2012-06-20, schriftlich)
+  "When I bought Lāna'i, I publicly announced plans to transform the island into a model for environmental sustainability. I intend to invest as much as $500 million to improve the island's infrastructure and create an environmentally friendly agricultural industry."
+  Kontext: Ankündigung nach dem Kauf von 98% der hawaiianischen Insel Lanai
+
+[A031] (2012-06-27, muendlich)
+  "We want to make the world's information universally accessible and useful. Ultimately, I'd like information to come to me when I need it without having to take any action."
+  Kontext: Interview ueber [FIRMA] Glass. [PERSON] erklaert die Vision eines Computers, der Informationen vorausschauend liefert.
+
+[A032] (2012-12-11, muendlich)
+  "I would like to die working. I'm not saying I'd like to die at work—just that if I had to die, I'd like the transition to be a short one—to still be working. I don't have a sense that I'd like to stop working. I think I'd like to be 50 or 60 before I'd like that feeling to change."
+  Kontext: Fortune-Interview 2012. Page spricht ueberraschend offen ueber Tod und Vermaechtnis.
+
+[A033] (2013-01, muendlich)
+  "We can probably save a million lives a year by having self-driving cars, just in terms of accident reduction. Think about all the people that get injured, all the emergency rooms, all the suffering, all the people that lose their loved ones."
+  Kontext: Konferenz zum [FIRMA] Self-Driving Car Project. [PERSON] praesentiert die Vision autonomer Fahrzeuge als humanitaeres Projekt.
+
+[A034] (2013-01-17, muendlich)
+  "It's quite hard to get people to do things they don't have to do. I wish we had a situation where the people who are most able to do these things and have the resources can spend their time solving the biggest problems in the world."
+  Kontext: Wired-Interview 2013. Page reflektiert ueber die Rolle von Ressourcen und faehigen Menschen.
+
+[A035] (2013-01-17, muendlich)
+  "If you say you want to automate cars and save people's lives, the skills you need for that aren't taught in any particular discipline. I know it seems hard. But people are dying every day in car accidents. The faster we can make this happen, the better."
+  Kontext: Wired 2013. Page rechtfertigt [FIRMA]s Arbeit an selbstfahrenden Autos mit Leben-retten-Argument.
+
+[A036] (2013-03-02, schriftlich)
+  "What the smartest people do on the weekend is what everyone else will do during the week in ten years."
+  Kontext: Blog-Post über Hobbys als Vorläufer zukünftiger Mainstream-Technologien
+
+[A037] (2013-10-01, schriftlich)
+  "We need a ban on weapon systems that make the decision to apply violent force autonomously."
+  Kontext: Offener Brief im Oktober 2013 von ueber 270 Ingenieuren, Informatikern und KI-Experten. [PERSON] gehoert zu den Unterzeichnern.
+
+[A038] (2014, muendlich)
+  "We're trying to do things that sound a little crazy, like making a car that drives itself or building a balloon-powered Internet. But we take a moonshot-style approach with one caveat: our problems all have to be huge. Millions and millions of people have to be affected by a problem before we tackle it."
+  Kontext: Artikel ueber [FIRMA] X. [PERSON] leitet das Moonshot-Labor und beschreibt die Philosophie hinter Projekten wie Loon und Waymo.
+
+[A039] (2014-03-03, muendlich)
+  "The pace of change is so rapid with technology that regulation doesn't really work. By the time you regulate it, it's already changed or the technology doesn't work the way you thought it did."
+  Kontext: [PERSON] Ventures Conference 2014. Page kritisiert Regulierungspraxis im Tech-Bereich.
+
+[A040] (2014-03-06, muendlich)
+  "The simple goal was to energize women engineers and focus on personal and professional development. What started with 17 women grew to 1,800 members strong all over the world, with 12 chapters."
+  Kontext: Reflecting on founding and growth of QWISE at Qualcomm
+
+[A041] (2014-03-19, muendlich)
+  "The toothbrush test: Do you use it once or twice a day, and does it make your life better? We apply that to products we make."
+  Kontext: TED-Talk 2014, einer der letzten grossen oeffentlichen Auftritte von [PERSON]. Er erklaert [FIRMA]s Produktphilosophie.
+
+[A042] (2014-03-19, muendlich)
+  "We have a bit of a problem where most of the people are afraid of new technology in some way or another. I feel like the pace of change in the world is accelerating. We're not adapting fast enough, and we need more people working on these problems."
+  Kontext: TED 2014. Page aeussert sich ueberrascht ueber Technologie-Skepsis und fordert mehr Arbeit an KI-Problemen.
+
+[A043] (2014-09-16, schriftlich)
+  "A startup is the largest endeavor over which you can have definite mastery. You can have agency not just over your own life, but over a small and important part of the world. It begins by rejecting the unjust tyranny of Chance. You are not a lottery ticket."
+  Kontext: [PERSON] kontrastiert 'definite optimism' (planbare Zukunft) mit 'indefinite optimism' (Zukunft als Zufall).
+
+[A044] (2015-05-13, muendlich)
+  "At Baidu, we're building AI into every product. Our goal is to make Baidu the leading AI company, not just in China but globally."
+  Kontext: WIRED Interview waehrend seiner Zeit als Chief Scientist bei Baidu.
+
+[A045] (2016-01-01, muendlich)
+  "The ImpaQt blueprint consists of three phases—Ideation, Review and Prototyping—and the program engages the entire employee population, with those who come up with workable ideas remaining involved in their projects all the way through to fruition, creating and nurturing a culture of innovation and collaboration."
+  Kontext: Describing Qualcomm ImpaQt innovation incubator structure
+
+[A046] (2016-06-01, muendlich)
+  "We are willing to be misunderstood for long periods of time. We are long-term oriented, and we are willing to make bets that may not pay off for five to seven years."
+  Kontext: Code Conference Interview. [PERSON] verteidigt [FIRMA]s Investitionsstrategie und niedrige Margen.
+
+[A047] (2016-11-01, muendlich)
+  "Zero percent of the world knows about VR."
+  Kontext: Interview on VR adoption challenges
+
+[A048] (2016-11-24, schriftlich)
+  "As the CEO, I shouldn't play such games, and it's all fixed now."
+  Kontext: Apologizing for secretly editing user comments criticizing him
+
+[A049] (2017, schriftlich)
+  "AI4ALL exists because the next generation of AI leaders needs to look like the world AI will serve. We need to inspire young people, especially those from underrepresented communities, to see themselves as AI creators, not just AI users."
+  Kontext: Mission Statement der AI4ALL Foundation, die Li mitgruendete.
+
+[A050] (2017, muendlich)
+  "I believe lighter-than-air vehicles have the potential to revolutionize disaster relief and cargo transport. This is about solving real-world problems with innovative technology."
+  Kontext: Bloomberg-Artikel ueber [PERSON]s Luftschiff-Projekt (LTA Research). Er finanziert heimlich die Entwicklung eines riesigen Frachtluftschiffs.
+
+[A051] (2017-04-14, schriftlich)
+  "I think it's very important to have open source. I think it's changing the way people buy things. I think building communities like this is a very critical thing to do, but I do think it's more about go-to-market and less about innovation."
+  Kontext: On the strategic role of open source in technology
+
+[A052] (2017-08-08, muendlich)
+  "AI is too important to be left to just a few people. That's why I started DeepLearning.AI — to teach AI to millions of people around the world."
+  Kontext: Ankuendigung von DeepLearning.AI. Ng startet umfassende Online-Kurse fuer KI-Bildung.
+
+[A053] (2017-08-29, muendlich)
+  "We have a moral responsibility to help grow the economy, to help grow jobs, to contribute to this country and to contribute to the other countries that we do business in."
+  Kontext: [PERSON] im Fortune-Interview ueber die gesellschaftliche Verantwortung von [FIRMA].
+
+[A054] (2017-12-14, schriftlich)
+  "Most of AI's value will be created not by a few Internet giants, but by many companies across many sectors. Landing AI is helping companies outside tech harness AI."
+  Kontext: Gruendungsankuendigung von Landing AI. Ng fokussiert auf Manufacturing und Small Data.
+
+[A055] (2018-01-01, schriftlich)
+  "I credit my good Computer Science school background on my CV as a key reason I was able to get into [FIRMA] without having a referral."
+  Kontext: Reflection on career path
+
+[A056] (2018-01-30, muendlich)
+  "There are many industries where AI can create tremendous value, but they don't yet know how. We want to build startups in partnership with these industries."
+  Kontext: Launch des AI Fund. Ng erklaert seine Studio-Strategie fuer AI-Adoption.
+
+[A057] (2018-03-15, muendlich)
+  "Bitcoin is like a reserve form of money, it's like gold, and it's just a store of value. You don't need to use it to make payments."
+  Kontext: Crypto-Konferenz. [PERSON] kontrastiert Bitcoin (Wertspeicher) mit Ethereum (Zahlungssystem).
+
+[A058] (2018-04-01, schriftlich)
+  "Sometimes we have conviction about a direction despite not having perfect information – just enough to make a judgement call. We make those judgements with the input of many people and are willing to change course if we get more data."
+  Kontext: [PERSON] verteidigt Alexa und andere gescheiterte Experimente. Er betont, dass Innovation Misserfolge erfordert.
+
+[A059] (2018-08-22, muendlich)
+  "Every time someone learns a new skill on [FIRMA], it makes me happy. I think education is the great equalizer. AI will help us personalize education at scale."
+  Kontext: Interview mit Quartz ueber personalisierte Bildung durch KI.
+
+[A060] (2018-09-10, schriftlich)
+  "With deep fake video swapping becoming increasingly impressive, people can't trust everything they watch."
+  Kontext: Warning about the implications of deepfake technology
+
+[A061] (2018-09-25, muendlich)
+  "There's a huge shortage of AI talent globally. That's why education is so critical. We need to train millions more people in AI skills."
+  Kontext: Fortune Interview zu KI-Bildung und Talentknappheit.
+
+[A062] (2018-10-29, schriftlich)
+  "On [PERSON]'s first day as CEO of Github, at 9am, he had meeting with his leadership team over Zoom. They were probably expecting a long term strategy, but instead he shared his screen and pulled up a GitHub repo where users could submit and vote on product feedback."
+  Kontext: Anecdote about [PERSON]'s leadership approach - prioritizing user feedback
+
+[A063] (2018-12-04, schriftlich)
+  "AI development must be guided by the principles of well-being, respect for autonomy, protection of privacy and intimacy, solidarity, democratic participation, equity, diversity inclusion, prudence, and responsibility."
+  Kontext: Ethische Erklaerung, die unter [PERSON]s Leitung von der Universitaet [UNI] und MILA entwickelt wurde.
+
+[A064] (2019, muendlich)
+  "In AI, it's often better to ship something quickly and iterate than to wait for perfection. Speed matters more than most people think."
+  Kontext: Vortrag ueber Produktentwicklung und Iteration in KI.
+
+[A065] (2019-01-01, schriftlich)
+  "The vision for the future is led by the commitment to promote human-centered uses of AI, and ensure that humanity benefits from the technology and that the benefits are broadly shared."
+  Kontext: [UNI] HAI founding vision statement
+
+[A066] (2019-01-01, schriftlich)
+  "Safety has become a core concern of learning algorithms in human-robot systems. The robustness of controllers relies on the accuracy of models of human behavior, and we need approaches to find deviations in learned human behavior that lead to violations of safety objectives."
+  Kontext: Research paper on safety verification in autonomous systems
+
+[A067] (2019-04-01, schriftlich)
+  "From an economic point of view, the goal of exceeding human performance raises the specter of massive unemployment. As an alternative goal for AI, machine learning should discover and support new kinds of interactions among humans that increase job possibilities."
+  Kontext: Harvard Data Science Review article proposing alternative vision for ML
+
+[A068] (2019-06-04, muendlich)
+  "We think of Alexa as a sophisticated AI that started as a simple voice assistant. But we wanted to build something that could do far more than just answer questions. We wanted to build something that could have a conversation with you."
+  Kontext: re:MARS 2019. [PERSON] betont, dass Alexa nicht nur reagiert, sondern vorausschauend handeln soll.
+
+[A069] (2020-01-01, schriftlich)
+  "AI must be developed in accordance with a set of policies that democratize AI. AI must be accessible to all individuals and all businesses so that this immense potential is not missed by those with limited resources."
+  Kontext: Talk about AI policy and democratization principles
+
+[A070] (2020-04-01, schriftlich)
+  "If you want to be successful in business (in life, actually), you have to create more than you consume. Your goal should be to create value for everyone you interact with."
+  Kontext: [PERSON]' letzter Brief als [FIRMA]-CEO. Er tritt im Juli 2021 zurueck, um sich auf [FIRMA] und andere Projekte zu konzentrieren.
+
+[A071] (2020-06-15, muendlich)
+  "Every one of the big data centers are designing some form of machine learning or other offload processor."
+  Kontext: Interview as Cadence CEO discussing AI chip trends
+
+[A072] (2020-06-15, muendlich)
+  "VCs have not over-invested in AI accelerators yet. At its peak there were 120 Wi-Fi startups compared to less than 50 AI chip companies. I expect more AI startups to emerge."
+  Kontext: Walden International venture capital perspective on AI investments
+
+[A073] (2020-07-21, schriftlich)
+  "Businesses have a profound opportunity to help build a more sustainable future, one born of our common concern for the planet we share. With our commitment to carbon neutrality, we hope to be a ripple in the pond that creates a much larger change."
+  Kontext: [FIRMA] kuendigt an, bis 2030 vollstaendig klimaneutral zu werden.
+
+[A074] (2020-08-25, schriftlich)
+  "The engineering elite of Silicon Valley may know more than most about building software. But they do not know more about how society should be organized or what justice requires."
+  Kontext: Brief an Investoren im S-1 Filing vor Boersengang. [PERSON] distanziert sich vom Silicon Valley Konsens.
+
+[A075] (2020-08-25, schriftlich)
+  "Our company was founded in Silicon Valley. But we seem to share fewer and fewer of the technology sector's values and commitments."
+  Kontext: S-1 Filing. Begruendung fuer spaetere Verlegung des Hauptsitzes nach Denver.
+
+[A076] (2020-09, muendlich)
+  "AI in healthcare isn't just about diagnosis or treatment. It's about understanding the full context of a patient's life, their environment, their needs. That's where computer vision becomes powerful – seeing not just disease, but the whole person."
+  Kontext: Interview ueber KI-Anwendungen im Gesundheitswesen.
+
+[A077] (2021-01-01, muendlich)
+  "The goal was to create an ecosystem for startups and Global 2000s focusing on responsible development of AI through the Marketplace for Ethical and Responsible AI Tools."
+  Kontext: Describing nonprofit MERAT initiative before founding [FIRMA]
+
+[A078] (2021-01-01, schriftlich)
+  "Our work uses algorithmic human-robot interaction to be mindful of the effects of autonomous systems on humans, and further leverages these effects for better safety, efficiency, coordination, and estimation."
+  Kontext: ILIAD lab research philosophy on interactive autonomy
+
+[A079] (2021-01-27, schriftlich)
+  "I accepted feedback that, as a co-founder at [FIRMA], I drove people too hard and at times my management style was not constructive."
+  Kontext: Oeffentliches Statement nach Untersuchung durch Anwaltskanzlei wegen Beschwerden ueber Fuehrungsstil.
+
+[A080] (2021-01-28, schriftlich)
+  "We wanted to put safety first."
+  Kontext: [PERSON] und sechs weitere [FIRMA]-Fuehrungskraefte verliessen 2020-2021 wegen Safety-Bedenken
+
+[A081] (2021-06-23, muendlich)
+  "I want to be the 21st century Rothschild."
+  Kontext: CNBC Bericht über [FIRMA] AGM, verglich seine Investmentrolle mit historischen Finanziers
+
+[A082] (2021-06-29, schriftlich)
+  "We spent the last year working closely with [FIRMA] to build [PRODUKT]. We've been using it internally for months, and can't wait for you to try it out; it's like a piece of the future teleported back to 2021."
+  Kontext: Announcement of [PRODUKT] launch
+
+[A083] (2021-11-03, schriftlich)
+  "With all that we've accomplished in mind, and more than five great years at [FIRMA] under my belt, I've decided it's time for me to go back to my startup roots."
+  Kontext: Statement on stepping down from GitHub CEO role
+
+[A084] (2022-01-01, muendlich)
+  "For me, web3 is not about decentralization. I think decentralization is just a tool. What it is about is low switching costs."
+  Kontext: Podcast interview with Daniel Scrivner explaining his philosophy on Web3
+
+[A085] (2022-01-01, muendlich)
+  "their frustration with coding's repetitive and fragmented nature inspired them to create a more intelligent, intuitive coding assistant"
+  Kontext: Origin story from [UNI] late-night hackathons
+
+[A086] (2022-04, muendlich)
+  "AI can be a powerful tool for climate action – from optimizing energy grids to monitoring deforestation to predicting extreme weather. But we also need to be mindful of AI's own carbon footprint."
+  Kontext: Vortrag bei einem Klima-Gipfel ueber die Rolle von KI im Klimaschutz.
+
+[A087] (2022-04-01, schriftlich)
+  "StackBlitz is finally bringing production-grade, full-stack web development to the web, with a magical experience that's much better than local: faster, more secure, inherently collaborative."
+  Kontext: Blog post announcing [FIRMA] investment in StackBlitz
+
+[A088] (2022-04-07, muendlich)
+  "Bitcoin is the honest answer to an enormous financial problem, and that problem is a gerontocracy that's running a finance system. The finance gerontocracy in the U.S. is crazier and more dangerous than the communist one in China."
+  Kontext: Miami Bitcoin Conference 2022. Radikaler Angriff auf Fed und etablierte Finanzsysteme.
+
+[A089] (2022-04-30, schriftlich)
+  "Now seems like a good time to mention that we're always looking for ways to more efficiently turn raw compute into useful safety research. If you know of great software engineers who are interested in building big machines then have them message me at tom@anthropic.com"
+  Kontext: [PLATTFORM]-Post zur Rekrutierung von Ingenieuren für KI-Infrastruktur bei [FIRMA]
+
+[A090] (2022-05-20, schriftlich)
+  "Invest in yourself, so that you can invest in others."
+  Kontext: Core principle on personal development and supporting entrepreneurship
+
+[A091] (2022-06-01, muendlich)
+  "Climate change is a very significant AI problem at a scale that wasn't addressed in previous challenges that drove the internet-AI era. We actually need to have systems that function in the real world."
+  Kontext: Announcement of BAIR Climate Initiative to use AI for climate change solutions
+
+[A092] (2022-10-14, schriftlich)
+  "Code is the first killer AI app because it is structured text allowing for deterministic validation, is seen as crucial to Artificial General Intelligence (AGI), and developers intimately understood their users' workflows."
+  Kontext: Discussion of AI applications and their potential
+
+[A093] (2023, muendlich)
+  "Any deceleration of AI will cost lives. It's a form of murder."
+  Kontext: Radikale Position im Decel-vs-Accel-Streit ueber KI-Entwicklungsgeschwindigkeit.
+
+[A094] (2023, muendlich)
+  "We are dedicating our company to the service of the West, and the United States of America, and we're super-proud of the role we play."
+  Kontext: [PERSON] positioniert [FIRMA] als Technologie-Waffe fuer westliche Demokratien im Kampf gegen China.
+
+[A095] (2023-01-01, muendlich)
+  "The biggest point of leverage is trying to enable actual collaboration between top industry labs and startups and AI researchers in academia, at [UNI]. There's something about the synergy between the resources that industry offers and the kind of rich idea space and youthful energy that comes out of academia that if they can collaborate together, they really can have an impact."
+  Kontext: Interview discussing BAIR Commons program and industry-academia partnerships
+
+[A096] (2023-01-01, muendlich)
+  "In the future, we can have places where we don't need to have human beings just sitting at a cash register. We can have systems that can be supervised to make better use of their time and more productive environments, both in a business sense and in a personal sense."
+  Kontext: Discussion about computer vision applications in cashier-less checkout systems
+
+[A097] (2023-01-01, muendlich)
+  "It's hard to do the best research alone in academia, and I think it's even hard often to do the best research alone in the industry. There's something about the synergy between the resources that industry offers and the kind of rich idea space and youthful energy that comes out of academia that if we can collaborate together, we really can have an impact."
+  Kontext: Philosophy behind BAIR Commons and open research collaboration model
+
+[A098] (2023-01-01, schriftlich)
+  "We are in an exciting era of human-computer collaboration evolving the way we will reason with, process and generate information."
+  Kontext: Statement about her vision for AI and human-computer collaboration
+
+[A099] (2023-01-01, schriftlich)
+  "We can have a future where AI takes dignity away from a lot of people. Or, we can have a future where AI enables a lot more progress, access, and prosperity"
+  Kontext: On ethical development of AI
+
+[A100] (2023-01-01, schriftlich)
+  "I was excited about AI early in my career and tried building AI products in college, but found the technology was too difficult and not ready for consumers at that time."
+  Kontext: Reflection on early AI development attempts
+
+[A101] (2023-01-01, muendlich)
+  "In the not-too-distant future, the best diagnosticians in the world will be AIs, and the best surgeons will be robots driven by AIs. This is how we create an abundance of health globally."
+  Kontext: Vision for AI in healthcare
+
+[A102] (2023-01-01, schriftlich)
+  "[PRODUKT] is a large language model-based system that turns natural language prompts into code and has a dramatic positive impact on developer productivity, opening up coding to a much broader group of people."
+  Kontext: Discussion on AI's impact on software development
+
+[A103] (2023-03-14, schriftlich)
+  "The goals of this work are: to make [FIRMA] a better technology company and to improve our financial performance in a difficult environment so we can execute our long term vision."
+  Kontext: Internes Memo und oeffentliche Ankuendigung zu [FIRMA]s Restrukturierung und Massenentlassungen 2023.
+
+[A104] (2023-03-14, schriftlich)
+  "I'm going to be making a number of structural changes to flatten our organization and make sure we have enough strong leaders at [FIRMA] to make this transformation."
+  Kontext: Teil des 'Year of Efficiency'-Memos, in dem [PERSON] strukturelle Aenderungen ankuendigt.
+
+[A105] (2023-03-22, schriftlich)
+  "AI systems with human-competitive intelligence can pose profound risks to society and humanity, as shown by extensive research and acknowledged by top AI labs."
+  Kontext: Offener Brief des Future of Life Institute, unterzeichnet von ueber 30.000 Personen, darunter [PERSON], [PERSON], [PERSON]. Fordert 6-monatige Pause bei Training von Systemen maechtigeren als [PRODUKT].
+
+[A106] (2023-03-25, muendlich)
+  "There's really one thing that we care about, which is mission success … the mission is to ensure that artificial general intelligence benefits all of humanity."
+  Kontext: Interview bei Axios über [FIRMA]s Mission und Ziele
+
+[A107] (2023-04-01, muendlich)
+  "AI is a really incredible and magical technology, but the breadth, the reach, the consequence, is also great. Our entire world is engineering—like our cities, our bridges, everything—and there's always risk that comes with that, and you manage that risk with responsibility."
+  Kontext: Johns Hopkins Interview über KI-Entwicklung und Verantwortung
+
+[A108] (2023-04-15, schriftlich)
+  "I predict a rise in the number and diversity of online spaces due to decentralization and platforms like Farcaster, Bluesky and Mastodon"
+  Kontext: NYT-Kolumne über die Zukunft dezentraler Social-Media-Plattformen
+
+[A109] (2023-05-01, muendlich)
+  "I wish I'd thought about safety issues, too."
+  Kontext: [PERSON] reflektiert ueber seine Karriere und drueckt Bedauern aus, dass er sich nur auf die Funktionalitaet von KI konzentriert hat.
+
+[A110] (2023-05-01, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: Co-signed statement with AI researchers and industry CEOs on existential risk
+
+[A111] (2023-05-02, muendlich)
+  "I want to talk about AI safety issues without having to worry about how it interacts with [FIRMA]'s business."
+  Kontext: Interview nach seinem Ruecktritt von [FIRMA] im Mai 2023. [PERSON] erklaert, warum er seine Position aufgab.
+
+[A112] (2023-05-02, muendlich)
+  "In the short term, I fear that the Internet will be flooded with fake texts, photos and videos, and that citizens may not be able to distinguish what is true."
+  Kontext: Statement nach seinem [FIRMA]-Abgang. [PERSON] nennt kurzfristige Risiken neben langfristigen Existenzbedrohungen.
+
+[A113] (2023-05-02, muendlich)
+  "AI taking away jobs, with the danger that it could make the rich richer and the poor poorer."
+  Kontext: [PERSON] nennt oekonomische Risiken neben technischen Risiken von KI.
+
+[A114] (2023-05-10, muendlich)
+  "Making AI helpful for everyone is the most profound way we'll advance our mission."
+  Kontext: [FIRMA] I/O 2023 Keynote. [PERSON] praesentiert [FIRMA]s KI-Vision und kuendigt umfassende Integration von KI in alle Produkte an.
+
+[A115] (2023-05-11, schriftlich)
+  "Intelligent Infrastructure systems must bring economic ideas such as incentives and pricing into the realm of the statistical and computational infrastructures that link humans to each other and to valued goods, and can be viewed as not merely providing a service, but as creating markets."
+  Kontext: Explaining economic dimension of intelligent systems
+
+[A116] (2023-05-15, muendlich)
+  "This is a war for political philosophy: Western values and political philosophy versus Chinese political philosophy."
+  Kontext: [UNI]-Vortrag über den technologischen Wettbewerb zwischen USA und China
+
+[A117] (2023-05-27, muendlich)
+  "A.I. has reinvented computing from the ground up. Over $1 trillion of traditional computers will be upgraded for AI within a decade."
+  Kontext: National Taiwan University Commencement Speech in Taipei. [PERSON] spricht zu Absolventen ueber die KI-Revolution.
+
+[A118] (2023-05-30, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: Einzeiler-Statement des Center for AI Safety, unterzeichnet von ueber 350 KI-Forschern und Industrievertretern, darunter [PERSON], [PERSON], [PERSON].
+
+[A119] (2023-08-01, muendlich)
+  "The existing drug discovery approach is not scalable, and deep learning at scale could be the key to unlock innovations."
+  Kontext: [PERSON] explained why existing pharmaceutical discovery methods face scalability limitations.
+
+[A120] (2023-08-15, muendlich)
+  "I think through the open source model, you can do things a bit differently ... you can, as a startup, empower the community in a way, and create a thousand times more value than you would by building a proprietary tool."
+  Kontext: Explaining the business value and community empowerment potential of open source AI models
+
+[A121] (2023-08-17, schriftlich)
+  "Every day I would be spending my time trying to get access to resources, trying to get access to data. The bureaucracy had built to the point where I just felt like I couldn't get anything done."
+  Kontext: Reasons for leaving [FIRMA]
+
+[A122] (2023-09-08, muendlich)
+  "We're heading toward a cliff and we need to slow down. We don't even know where the edge is. We're going too fast."
+  Kontext: BBC-Interview, in dem [PERSON] seine Bedenken ueber das Tempo der KI-Entwicklung ausdrueckt.
+
+[A123] (2023-09-14, muendlich)
+  "It's a great day for the company…Our bankers say if you can price at the high end of the range and go out of that number, it's a good thing"
+  Kontext: Reacting to [FIRMA]'s successful $54.5 billion IPO, the largest of 2023
+
+[A124] (2023-10-15, schriftlich)
+  "We truly believe that AI needed to be defined in accordance with humanity—acting as a copilot, rather than something that could one day supersede society. Trust and safety is something the market wants, and it's both the correct thing to do from a moral perspective and good for business."
+  Kontext: Aussage über [FIRMA]s Philosophie: KI als [PRODUKT] statt Ersatz für die Menschheit
+
+[A125] (2023-10-16, schriftlich)
+  "Technology is the glory of human ambition and achievement, the spearhead of progress, and the realization of our potential."
+  Kontext: Zentraler Satz aus dem umstrittenen 5.200-Woerter-Essay ueber Techno-Optimismus.
+
+[A126] (2023-10-19, muendlich)
+  "Technology should be an enabler, a great equalizer. It should be used to make things more accessible for everyone."
+  Kontext: [UNI] Sloan Konferenz. [PERSON] spricht ueber demokratischen Zugang zu Technologie.
+
+[A127] (2023-10-19, muendlich)
+  "He warned against the risk of an 'AI divide,' urging global efforts to ensure fair access to AI technologies."
+  Kontext: [UNI] Sloan Konferenz. [PERSON] spricht ueber Gerechtigkeit beim KI-Zugang.
+
+[A128] (2023-10-31, schriftlich)
+  "We're coming into this market, we're lowering the barrier to entry, we're gonna enable this huge ecosystem of AI products to flourish."
+  Kontext: Statement on Poe's mission and marketplace strategy
+
+[A129] (2023-11-09, muendlich)
+  "I worry less about sentient AI and more about AI being used without care, without equity, without consideration for all the people it will affect."
+  Kontext: Interview mit der New York Times anlasslich der Veroeffentlichung ihres Buchs 'The Worlds I See'.
+
+[A130] (2023-11-19, schriftlich)
+  "To my researcher friends (at @openai and those who watched this saga unfold) -- if you want to focus on doing solid *open* and published research, have access to lots of hardware -- there are a few options: [FIRMA], Mistral, etc. don't let your work get lost in corporate sagas!"
+  Kontext: Response to [FIRMA] leadership turmoil, advocating for open research
+
+[A131] (2023-11-20, schriftlich)
+  "[FIRMA] is nothing without its people."
+  Kontext: Public statement during [FIRMA] leadership crisis in November 2023
+
+[A132] (2023-12, muendlich)
+  "There are only three companies that have been publicly pro-Israel on Oct. 7: Booz Allen, [FIRMA] Industries and [FIRMA]."
+  Kontext: Nach Hamas-Angriff am 7. Oktober 2023. [FIRMA] unterzeichnet strategische Partnerschaft mit israelischem Verteidigungsministerium. UN wirft [FIRMA] vor, an zivilen Opfern in Gaza mitschuldig zu sein.
+
+[A133] (2023-12-06, schriftlich)
+  "A major reason [FIRMA] exists as an organization is because we believe that safety research on 'frontier' AI systems is necessary, and that since many of the most serious safety concerns might only arise with near-human-level systems, we need to understand how safety methods and properties change as models scale."
+  Kontext: Senate Testimony; Begruendung fuer [FIRMA]s Fokus auf Frontier AI Safety
+
+[A134] (2023-12-14, muendlich)
+  "I would love to see a world where we zone Earth as residential and light industrial, and we move all the heavy industry into space. Keep Earth as this beautiful gem of a planet that it is."
+  Kontext: [PERSON] beschreibt seine Umweltvision: Industrieverschmutzung ins All verlagern, Erde als Naturreservat bewahren.
+
+[A135] (2023-12-14, muendlich)
+  "I think I have a very clear purpose with [FIRMA], which is to go to space to benefit Earth. I don't think we go to space to escape Earth. I think we go to space to save Earth."
+  Kontext: [PERSON] kontrastiert seine Vision mit [PERSON]s Mars-Kolonisierung: [FIRMA] will die Erde bewahren, nicht verlassen.
+
+[A136] (2023-12-14, muendlich)
+  "We use the two-pizza team rule. If a team can't be fed with two pizzas, it's too large. That forces you to have small, autonomous teams that can move quickly."
+  Kontext: [PERSON] beschreibt [FIRMA]s Organisationsprinzipien. Die Zwei-Pizza-Regel ist seit den fruehen 2000ern Teil der [FIRMA]-Kultur.
+
+[A137] (2023-12-14, muendlich)
+  "I think AI is going to be the best tool we've ever had. And I think it's going to be used mostly for good. I'm very optimistic about AI. I'm not somebody who worries about the Terminator scenario."
+  Kontext: [PERSON] positioniert sich als KI-Optimist -- im Kontrast zu Warnungen von [PERSON], [PERSON] und anderen.
+
+[A138] (2024, muendlich)
+  "All of [FIRMA]'s 2-billion user products use [PRODUKT]. This is the fastest adoption of any model in our history."
+  Kontext: Earnings Call. [PERSON] berichtet ueber erfolgreiche [PRODUKT]-Integration in [FIRMA]-Oekosystem.
+
+[A139] (2024, muendlich)
+  "Engineers being freed from repetitive tasks and empowered to tackle big problems like climate tech, healthcare innovations, or AI ethics - the role of software engineers as shifting from coders to delegates, and this is a good thing."
+  Kontext: Vision of AI liberating engineers for meaningful work
+
+[A140] (2024-01-01, schriftlich)
+  "Hobbies are what the smartest people spend time on when they aren't constrained by near-term financial goals."
+  Kontext: Aus seinem Buch über Innovation und langfristiges Denken
+
+[A141] (2024-01-01, muendlich)
+  "We're all looking at each other saying, yeah, there's a cliff over there, running as fast as we can towards this cliff. We're looking at each other saying, why aren't we stopping?"
+  Kontext: Interview explaining the cliff metaphor for AGI development race
+
+[A142] (2024-01-01, schriftlich)
+  "up to 80% of US AI startups are now using Chinese open-source models instead of those from [FIRMA] or [FIRMA] during their fundraising pitches."
+  Kontext: Revealing Chinese dominance in open-source AI models
+
+[A143] (2024-01-01, schriftlich)
+  "I think there will be less and less open source. If you ask, 'Is open source more dangerous than closed source?' the answer is yes, because China does have an edge in the open-source field."
+  Kontext: On security concerns around open-source AI and China
+
+[A144] (2024-01-01, muendlich)
+  "AI has potential to be ten, maybe a hundred times more equity-creating or equity-exacerbating, depending on how we shape it"
+  Kontext: Discussion on AI's dual potential for society
+
+[A145] (2024-01-01, muendlich)
+  "So much of the last year has been WRITER in risk-taking mode. I can't overemphasize how much risk enterprise generative AI leaders take today"
+  Kontext: Reflecting on building [FIRMA] during the generative AI revolution
+
+[A146] (2024-01-01, muendlich)
+  "everybody really wants to see a transformation happen with generative AI. The promise of more intelligent workplaces is so exciting. Our vision is to transform work and we do want to help companies do that."
+  Kontext: Vision for enterprise AI transformation
+
+[A147] (2024-01-01, schriftlich)
+  "The vast majority of enterprises have not gotten meaningful results from generative AI, and it's been two years. There has never before been such a gap between what the tech is capable of and what the enterprise results have been."
+  Kontext: Critique of current enterprise AI adoption
+
+[A148] (2024-01-01, muendlich)
+  "I envision a future workplace where most jobs involve shaping workflows, rather than the current hands-on, manual input, and inspection processes, with AI handling the repetitive tasks to free people to focus on higher-value, strategic work"
+  Kontext: Vision for future of work with AI
+
+[A149] (2024-01-01, schriftlich)
+  "By daring to be different and embracing the power of taking a different path, we can unlock new possibilities and shape a future where AI is not just a tool but a force for positive change"
+  Kontext: Reflection on entrepreneurial journey and AI vision
+
+[A150] (2024-01-01, schriftlich)
+  "The best consumer companies are built in tandem with shifts in technology—like how [FIRMA] wasn't possible until broadband adoption and Flash integration, or how mobile phones made [FIRMA] and Uber possible."
+  Kontext: Discussion on technology enablement of consumer products
+
+[A151] (2024-01-01, muendlich)
+  "Success is creating an ecosystem of enterprises, builders, and policymakers all coming together to be equally invested in trustworthy AI and governance from the onset, not when something goes wrong."
+  Kontext: Vision for collaborative approach to AI governance across stakeholders
+
+[A152] (2024-01-01, schriftlich)
+  "People who oppose economic and technical progress are confused about where prosperity comes from. Entrepreneurship and competition are the only engines we have found that reliably produce progress."
+  Kontext: Personal website statement on economic progress
+
+[A153] (2024-01-01, muendlich)
+  "Within 1,000 days, we'll reach a tipping point where AI systems begin replacing large portions of cognitive work as the cost of intelligence approaches that of electricity."
+  Kontext: Prediction about AI's economic impact timeline
+
+[A154] (2024-01-01, muendlich)
+  "Cancer is good for GDP and it makes it go up."
+  Kontext: Criticism of GDP as economic metric
+
+[A155] (2024-01-01, muendlich)
+  "I expect constraints to persist for a while. Demand keeps exploding. I do not see demand for inference declining and some of the most ambitious teams using coding agents can face inference costs of roughly $150,000 per year."
+  Kontext: [FIRMA] conference presentation on AI infrastructure challenges
+
+[A156] (2024-01-01, schriftlich)
+  "Early exposure to open-source programming and large code-bases illustrates a self-driven ethos of building and sharing."
+  Kontext: [PERSON]'s background in open-source development shaped his approach to building collaborative tools
+
+[A157] (2024-01-15, muendlich)
+  "The idea that we could imagine all the jobs that are going to come, sitting here now, that AI is going to enable, I think is low."
+  Kontext: Podcast-Diskussion über KI und Jobmarkt-Transformation
+
+[A158] (2024-02-13, schriftlich)
+  "In the age of conversational AI, the best customer experience is not installing an app or clicking a link, but simply having a conversation."
+  Kontext: [FIRMA] launch announcement
+
+[A159] (2024-02-16, schriftlich)
+  "[PRODUKT] is a glimpse into the future of creative work. The combination of Azure infrastructure and [FIRMA] innovation is unlocking new frontiers."
+  Kontext: [FIRMA]-Post nach dem Launch von [FIRMA]s [PRODUKT] (Text-to-Video). [PERSON] hebt Azure-Infrastruktur hervor.
+
+[A160] (2024-02-23, muendlich)
+  "No model available today is 100% safe, but our goal for [PRODUKT] is helping to improve on each of those three criteria: helpful, honest, and harmless."
+  Kontext: [UNI] eCorner Vortrag über Constitutional AI und [FIRMA]s Sicherheitsziele
+
+[A161] (2024-03-15, schriftlich)
+  "Almost all expertise will be free — where AI democratizes medical knowledge so completely that barriers to expert care dissolve."
+  Kontext: Blog-Post über seine Vision einer KI-Utopie
+
+[A162] (2024-03-18, muendlich)
+  "Blackwell is the engine to power this new industrial revolution in generative AI."
+  Kontext: GTC 2024 Keynote zur Ankuendigung der Blackwell-GPU-Architektur.
+
+[A163] (2024-04-08, muendlich)
+  "AI must be open for all to participate and profit while preserving ownership and privacy of data. Blockchain technology provides a means to accomplish this, with NEAR being the only platform purpose-built to power AI at scale while preserving privacy and user ownership."
+  Kontext: Hong Kong Web3 Festival 2024 keynote on AI and Web3 integration
+
+[A164] (2024-04-11, schriftlich)
+  "We continue to believe AI is a once-in-a-lifetime reinvention of everything we know, the demand is unlike anything we've seen before, and our customers, shareholders, and business will be well-served by our investing aggressively now."
+  Kontext: Annual Shareholder Letter 2024, in dem [PERSON] [FIRMA]s aggressive KI-Investitionen rechtfertigt
+
+[A165] (2024-04-17, muendlich)
+  "Rather than viewing robotics as primarily a job displacement threat, there's a huge labor crisis that's going on that's really not well reported. I want to help solve that through robots that fill gaps in the workforce rather than replacing it."
+  Kontext: Discussion on labor shortages and robotics role
+
+[A166] (2024-05-09, schriftlich)
+  "If you go to most of the dialogue around AI right now, it's uncertainty, fear, negativity."
+  Kontext: Interview with AI deepfake of himself built on [PRODUKT], trained on 20 years of his public speaking
+
+[A167] (2024-05-15, muendlich)
+  "If there's one lesson I wish I could give my younger self, it's to focus less on the technology and more on the customer need."
+  Kontext: Podcast-Interview über Karrierelernen und Produktentwicklung
+
+[A168] (2024-05-15, muendlich)
+  "Resilience means redefining failure and never giving up. Too many people avoid risks because they worry about losing or how others might perceive them, when in reality, most potential critics aren't paying attention."
+  Kontext: Leadership-Ratschlag für Entrepreneure
+
+[A169] (2024-05-15, schriftlich)
+  "As a two time entrepreneur, I'm particularly excited by how [PRODUKT], along with the right scaffolding and product features, can empower more people to innovate at a faster pace and at a lower cost."
+  Kontext: Statement on joining [FIRMA] as CPO in May 2024
+
+[A170] (2024-05-17, schriftlich)
+  "I have been disagreeing with [FIRMA] leadership about the company's core priorities for quite some time, until we finally reached a breaking point"
+  Kontext: Resignation announcement explaining reasons for leaving [FIRMA]
+
+[A171] (2024-05-22, schriftlich)
+  "User-owned AI optimizes for the privacy and sovereignty of users. The system's objective function is designed to prioritize the user's well-being rather than advertising metrics or revenue."
+  Kontext: Blog post announcing NEAR's vision for user-owned AI
+
+[A172] (2024-06-01, schriftlich)
+  "Within 15 years, almost all expertise on the planet will be free, including medical, legal, scientific and educational services."
+  Kontext: Artikel über [PERSON]s Vision des "Age of Free Expertise"
+
+[A173] (2024-06-10, muendlich)
+  "This is a moment we've been working towards for a long time. [FIRMA] intelligence is the personal intelligence system that puts powerful generative models right at the core of your iPhone, iPad, and Mac."
+  Kontext: WWDC 2024 Keynote - Ankündigung von [FIRMA] Intelligence als neues persönliches Intelligenzsystem
+
+[A174] (2024-06-10, schriftlich)
+  "It's personal, powerful, and private—and it's integrated into the apps you rely on every day. Introducing [FIRMA] Intelligence—our next chapter in AI."
+  Kontext: [PERSON] kuendigt [FIRMA] Intelligence bei der WWDC 2024 an, betont Privacy-First-Ansatz.
+
+[A175] (2024-06-11, schriftlich)
+  "We wanted to establish an entirely different bar. So we viewed it as foundational, and as a prerequisite to how we offered personal intelligence, that your personal information remained entirely yours and under your control."
+  Kontext: Interview mit Fast Company nach der WWDC 2024 Keynote über [FIRMA]s Privacy-First Ansatz bei [FIRMA] Intelligence
+
+[A176] (2024-06-15, muendlich)
+  "Just as websites defined the web era and apps defined mobile, AI agents are the atomic unit of enterprise software. Most will be vertical specialists with deep domain expertise rather than general-purpose tools."
+  Kontext: Podcast-Interview über die Zukunft von Enterprise-Software
+
+[A177] (2024-06-19, schriftlich)
+  "Our first product will be the safe superintelligence, and it will not do anything else up until then."
+  Kontext: Ankuendigung der Gruendung von [FIRMA]. [PERSON] betont den kompromisslosen Fokus auf sichere Superintelligenz.
+
+[A178] (2024-06-20, schriftlich)
+  "No group has a monopoly on excellence. A hiring process based on merit will naturally yield a variety of backgrounds, perspectives, and ideas. Achieving this requires casting a wide net for talent and then objectively selecting the best, without bias in any direction."
+  Kontext: Teil der MEI-Einstellungspolitik-Ankündigung auf [PLATTFORM]/X
+
+[A179] (2024-07-06, muendlich)
+  "Privacy is the most important, underrated and under-appreciated bottleneck to AI adoption."
+  Kontext: Interview zu Hindernissen bei der Enterprise-KI-Adoption
+
+[A180] (2024-07-06, muendlich)
+  "There's no one in the field who was around back then working who could have foreseen where we are in terms of technological capability. The models are doing stuff that I personally thought maybe I'd see at the end of my career, maybe in like 40 years."
+  Kontext: Reflexion über die schnellere als erwartete KI-Entwicklung seit dem Transformer-Paper 2017
+
+[A181] (2024-07-10, muendlich)
+  "When you have an AI agent represent your brand, the agency goes to the customer."
+  Kontext: Podcast-Interview über KI-Agenten und Kundenerfahrung
+
+[A182] (2024-07-22, schriftlich)
+  "At MILA, we're shifting our research priorities to focus more on AI safety, interpretability, and alignment. Capabilities research is important, but safety must come first."
+  Kontext: Blog-Post von MILA ([UNI] Institute for Learning Algorithms), in dem [PERSON] die neue Ausrichtung erklaert.
+
+[A183] (2024-08-09, muendlich)
+  "If I could go back, would I still work on deep learning? I don't know. I hope the good outweighs the bad. But I'm not sure anymore."
+  Kontext: Persoenliches Interview mit Wired, in dem [PERSON] erstmals tiefe Zweifel an seiner Lebensarbeit aeussert.
+
+[A184] (2024-08-20, muendlich)
+  "We think in the future, your AI agent will be more important than your website and more important than your app. It will be the main way you interact with your customers."
+  Kontext: Podcast mit [PERSON] über Unterschiede der KI-Revolution
+
+[A185] (2024-09-01, schriftlich)
+  "The fight of our times is over free speech. The bad guys are always the ones trying to restrict it."
+  Kontext: Statement zur Bedeutung der Meinungsfreiheit im Tech-Kontext
+
+[A186] (2024-09-12, muendlich)
+  "Every police officer is going to be supervised at all times, and if there's a problem, AI will report that problem. Citizens will be on their best behavior because we are constantly recording and reporting everything that's going on."
+  Kontext: [FIRMA] financial analysts meeting - Aussage zu AI-gestützter Massenüberwachung
+
+[A187] (2024-09-16, muendlich)
+  "I would describe the dinner as [FIRMA]—me and Elon begging Jensen for GPUs. Please take our money. Please take our money. By the way, I got dinner. No, no, take more of it. We need you to take more of our money please."
+  Kontext: Beschreibung eines Abendessens mit [PERSON] und [PERSON] ([FIRMA] CEO) im Nobu Palo Alto, um mehr GPUs zu erhalten
+
+[A188] (2024-09-17, muendlich)
+  "America will lose the artificial intelligence race with China if the industry doesn't implement tougher safety standards. America's effort to win out over China would falter if businesses and consumers don't trust the U.S.' safety framework."
+  Kontext: Speaking at Axios AI+ DC Summit on US-China AI competition and safety standards
+
+[A189] (2024-09-24, muendlich)
+  "By 2040, the need to work will go away."
+  Kontext: Interview über die Zukunft der Arbeit
+
+[A190] (2024-09-24, muendlich)
+  "We could be at a 3 day workweek in 10-20 years, providing the 20% of work we may need or want."
+  Kontext: Vision einer stark reduzierten Arbeitswoche durch KI-Automatisierung
+
+[A191] (2024-10, schriftlich)
+  "Within the next few years, the primary function of engineers will pivot towards ensuring that AI systems operate in alignment with human values and ethical frameworks."
+  Kontext: On the future role of software engineers in AI era
+
+[A192] (2024-10-01, schriftlich)
+  "I think and talk a lot about the risks of powerful AI. In fact, one of my main reasons for focusing on risks is that they're the only thing standing between us and what I see as a fundamentally positive future."
+  Kontext: Einleitung seines 14.000-Woerter-Essays ueber die positiven Potenziale von KI
+
+[A193] (2024-10-01, muendlich)
+  "The goal with the company is to replace coding with something that's much better."
+  Kontext: Interview über die langfristige Vision von [FIRMA] - nicht nur Coding verbessern, sondern transformieren
+
+[A194] (2024-10-01, muendlich)
+  "We're at the cusp of something that we will, in five years, have a very different market on the internet."
+  Kontext: Acquired podcast on AI's market impact
+
+[A195] (2024-10-01, muendlich)
+  "The AI version of your company...may dwarf all of those [website, mobile app platforms] in terms of their importance to your brand."
+  Kontext: Acquired podcast on brand representation
+
+[A196] (2024-10-09, schriftlich)
+  "Unlocking the full potential of generative AI for enterprise customers like Intuit, Uber, L'Oreal, and Accenture requires the ability to execute complex actions and workflows"
+  Kontext: Announcement of Palmyra X 004 model
+
+[A197] (2024-10-09, schriftlich)
+  "We are innovating not only in our biology discovery, but also how we partner with industry leaders like Lilly to accelerate our therapeutic programs toward the clinic"
+  Kontext: On novel partnership structures with pharma
+
+[A198] (2024-10-10, muendlich)
+  "We think every company in the world, whether it's a technology company or a 150-year-old company like ADT, can benefit from AI, and the technology is ready right now."
+  Kontext: Interview mit CNBC über [FIRMA]s KI-Agenten für Unternehmen
+
+[A199] (2024-10-23, schriftlich)
+  "It is very early innings here. This is a many-year, honestly even decades-long arc of this technology playing out, and so we're going to do it responsibly."
+  Kontext: Interview über [FIRMA]s langfristige KI-Strategie und den verantwortungsvollen Rollout von [FIRMA] Intelligence
+
+[A200] (2024-11-01, muendlich)
+  "scaling AI inference to support hundreds of millions of requests per day"
+  Kontext: Discussion of [FIRMA] infrastructure challenges
+
+[A201] (2024-11-01, muendlich)
+  "Technology magnifies whatever it touches. Bad processes get worse; great ones become exceptional."
+  Kontext: On technology's amplifying effect
+
+[A202] (2024-11-01, muendlich)
+  "In the future, your AI agent will be more important than your website and more important than your app. It will be the main way you interact with your customers."
+  Kontext: On strategic importance of AI agents
+
+[A203] (2024-11-13, schriftlich)
+  "The Open Research Commons was designed to foster collaboration across academia and industry, leveraging the strengths of both to drive transformative advances in AI. The BAIR Open Research Commons brings together academia and industry to cultivate an open, interdisciplinary research environment, and by fostering interactions between academia's forward-thinking approaches and industry's practical expertise, ORC accelerates the creation and deployment of AI models with real-world impact."
+  Kontext: Description of BAIR Open Research Commons mission and collaboration model
+
+[A204] (2024-11-26, muendlich)
+  "Very happy. It's morning in America."
+  Kontext: Antwort auf Joe Rogans Frage nach seiner Reaktion auf die Wahl 2024. Spielt auf Ronald Reagans Wahlkampf-Slogan an.
+
+[A205] (2024-11-26, muendlich)
+  "That other timeline is out there somewhere, and I don't wanna visit it. The most conspicuous display of physical bravery I've ever seen."
+  Kontext: Kommentar zum Attentatsversuch auf Trump in Pennsylvania im Juli 2024.
+
+[A206] (2024-11-26, muendlich)
+  "This is why we ended up supporting Trump. We can't live in a world where somebody starts a company that's completely legal, and then gets sanctioned and embargoed by the US government, through a completely unaccountable, no-due process."
+  Kontext: Erklaerung seiner politischen Wende von Demokrat zu Trump-Unterstuetzer.
+
+[A207] (2024-11-26, muendlich)
+  "The big difference between Woke and traditional religions is that Woke has no concept of redemption or forgiveness."
+  Kontext: Kulturkritik im Joe-Rogan-Podcast ueber den Unterschied zwischen 'Woke'-Kultur und traditioneller Religion.
+
+[A208] (2024-11-26, muendlich)
+  "I'm incredibly optimistic, and I was optimistic already with flashes of pessimism, but I'm really optimistic especially now. We have the real potential here for a Golden Age."
+  Kontext: Ausdruck seines gesteigerten Optimismus nach der Wahl 2024.
+
+[A209] (2024-12-01, muendlich)
+  "The race to build increasingly advanced AI systems is the biggest technology project in human history, with estimated expenditure potentially 25 times larger than the Manhattan project, even adjusting for inflation."
+  Kontext: Statement comparing scale of AI development to Manhattan Project
+
+[A210] (2024-12-01, muendlich)
+  "From day one of [FIRMA], we've just been very relentlessly focused on our mission, which is how do we become the standard of good AI and defining what that good looks like so that this technology works in service of humanity. So whether it is generative AI or our groundbreaking work in making sure the AI agents and agentic AI future is also governed, we just continue to stay very heads down focused on making sure that we become the infrastructure of trust."
+  Kontext: Reflection on [FIRMA]'s mission and approach to AI governance, including generative AI and agentic AI systems
+
+[A211] (2024-12-01, schriftlich)
+  "I am exhilarated by AI's rapid advancements—from multimodal models to enterprise adoption—and humbled by our shared responsibility to ensure it serves humanity's best interests."
+  Kontext: Year-end reflection on 2024 AI developments and looking to 2025
+
+[A212] (2024-12-09, schriftlich)
+  "Introducing Willow, our new state-of-the-art quantum computing chip with a breakthrough that can reduce errors exponentially as we scale up using more qubits, cracking a 30-year challenge in the field."
+  Kontext: Ankuendigung von [FIRMA]s Quantenchip Willow auf X/[PLATTFORM]. Durchbruch bei Fehlerkorrektur.
+
+[A213] (2024-12-23, muendlich)
+  "[FIRMA] AI now has nearly 600 million monthly actives. We believe [FIRMA] AI will become the world's most widely-used assistant by 2025."
+  Kontext: Aeusserung in einem Interview im Dezember 2024 ueber [FIRMA]s KI-Fortschritt.
+
+[A214] (2024-12-26, schriftlich)
+  "Anything to remove country caps for green cards / unlock skilled immigration would be huge … we need the best, regardless of where they happen to be born"
+  Kontext: X-Post über die Notwendigkeit, Länderobergrenzen für Green Cards zu entfernen
+
+[A215] (2025, muendlich)
+  "One of my pet projects is discovering room temperature superconductor materials using AI, with multiple breakthroughs that AI could come up with to help with the energy situation."
+  Kontext: [PERSON] beschreibt seine Vision, wie KI Materialdurchbrueche ermoeglichen kann, die die Energiekrise loesen koennten.
+
+[A216] (2025-01, muendlich)
+  "For most products at [FIRMA] it's effectively 100% just [PRODUKT] writing, and we've created all the right scaffolds around it to let us trust it."
+  Kontext: Interview on AI-driven development at [FIRMA]
+
+[A217] (2025-01-01, schriftlich)
+  "Chinese companies now design and fabricate precision parts like harmonic reducers at competitive quality, cheaper prices, and – most importantly – colocated with their customers in manufacturing superclusters. The colocation of so many robot toolmakers, assemblers, and customers in nodes like Shenzhen or Shanghai is how new combinatorial use cases are discovered."
+  Kontext: Explaining China's structural advantages in robotics manufacturing
+
+[A218] (2025-01-01, schriftlich)
+  "I personally made a decision in the beginning of this year that I'm going to drastically reduce the amount of time that I spend on transformers. I'm explicitly now exploring and looking for the next big thing."
+  Kontext: Statement about 2025 research direction
+
+[A219] (2025-01-01, muendlich)
+  "My journey toward building generalist robot policies is like cultivating a backyard garden - it requires patience, diverse inputs, and understanding of what works in different environments."
+  Kontext: Robotics: Science and Systems 2025 Early Career Spotlight presentation
+
+[A220] (2025-01-06, schriftlich)
+  "We are now confident we know how to build AGI as we have traditionally understood it. We believe that, in 2025, we may see the first AI agents 'join the workforce' and materially change the output of companies."
+  Kontext: Jahresrueckblick-Blog-Post, in dem [PERSON] die kuenftige AGI-Entwicklung und den Eintritt von KI-Agenten in die Arbeitswelt ankuendigt.
+
+[A221] (2025-01-07, muendlich)
+  "That's the future, you're going to have superintelligent AI that will let you write, analyze problems, deal with supply chain planning, write software, design chips."
+  Kontext: CES 2025 Keynote in Las Vegas. [PERSON] spricht ueber Physical AI und Superintelligenz.
+
+[A222] (2025-01-13, schriftlich)
+  "We've reached a watershed moment in AI—model capabilities are advancing so fast that the window to shape how they're used is now. That's why I'm getting back into builder mode, moving from my role as CPO and joining our Labs team: I want to be hands-on at the frontier, building products that channel AI toward solving the world's hardest problems."
+  Kontext: Announcement of transition from CPO to co-leading [FIRMA] Labs in January 2025
+
+[A223] (2025-01-15, muendlich)
+  "AI will help us solve problems we couldn't solve on our own. It will make us much better scientists, engineers, teachers, chefs, bricklayers, surgeons, and what have you. I don't think AI will replace all human endeavors."
+  Kontext: [FIRMA] AI World 2025 - Vision für AI und menschliche Arbeit
+
+[A224] (2025-01-15, muendlich)
+  "When you move beyond training models into the corporate world to do reasoning and inferencing on private corporate data, that's an even bigger market than training AI models."
+  Kontext: [FIRMA] AI World 2025 - Zwei-Phasen-Revolution der AI
+
+[A225] (2025-01-15, muendlich)
+  "We are collaborating with the University of [UNI] to modify wheat to produce 20% more grain on the same land by using an AI model to simulate how to design more efficient photosynthesis."
+  Kontext: [FIRMA] AI World 2025 - AI für Landwirtschaft und Ernährungssicherheit
+
+[A226] (2025-01-15, muendlich)
+  "The training of large models has become a trillion-dollar capital cycle. This is bigger than the railroads, bigger than the industrial revolution."
+  Kontext: [FIRMA] AI World 2025 - Größenordnung der AI-Revolution
+
+[A227] (2025-01-15, muendlich)
+  "Humanity is on track for like the largest infrastructure buildout of all time."
+  Kontext: [FIRMA] Podcast über das Ausmaß der KI-Infrastrukturinvestitionen
+
+[A228] (2025-01-15, muendlich)
+  "I aim to be part of transformative projects that improve quality of life and address global issues."
+  Kontext: Discussing long-term vision and goals
+
+[A229] (2025-01-15, schriftlich)
+  "Traditionally conservative, low-tech industries are adopting AI at the fastest rates, with examples like [FIRMA] resolving 70% of customer service tickets and Harvey achieving over $70M ARR in the legal sector."
+  Kontext: Observation on AI adoption patterns across industries
+
+[A230] (2025-01-15, schriftlich)
+  "There is a remarkable 50% increase in agentic startups over the past year, many demonstrating real-world utility."
+  Kontext: Analysis of agentic AI startup landscape
+
+[A231] (2025-01-27, schriftlich)
+  "Today, I launched Manas AI – a full stack AI company setting out to shift drug discovery from a decade-long process to one that takes a few years; bringing life-saving treatments to patients faster than ever."
+  Kontext: Announcement of Manas AI founding with oncologist Siddhartha Mukherjee, $24.6M seed funding
+
+[A232] (2025-02-00, muendlich)
+  "I was somewhat of a skeptic when it came to AGI upon joining [FIRMA], but seeing the progress of the models seeing the capabilities...really opens your eyes to it"
+  Kontext: Chen beschreibt seine intellektuelle Reise von AGI-Skepsis (2018 beim Eintritt) zu Überzeugung durch empirische Beobachtung der Modell-Capabilities.
+
+[A233] (2025-02-01, muendlich)
+  "The future of programming will involve orchestrating AI tools rather than traditional coding."
+  Kontext: Vision of how AI will transform software development
+
+[A234] (2025-02-04, schriftlich)
+  "Today, I made the decision to leave our Collaboration Agreement with [FIRMA]. Figure made a major breakthrough on fully end-to-end robot AI, built entirely in-house. We're excited to show you in the next 30 days something no one has ever seen on a humanoid."
+  Kontext: X/[PLATTFORM] announcement of ending [FIRMA] collaboration
+
+[A235] (2025-02-26, muendlich)
+  "Kuiper targets 400 to 500 million households around the world who don't have broadband connectivity. The tight connection between Kuiper and [FIRMA] is going to make that very compelling as well."
+  Kontext: CNBC The Exchange Interview, Verteidigung der $10+ Milliarden Kuiper-Investition
+
+[A236] (2025-03-04, muendlich)
+  "I am more excited about large language models and this current wave of technology more than any technology I can remember, perhaps since I discovered the internet when I was a teenager."
+  Kontext: TechCrunch-Artikel über Taylors Vision für KI-Agenten
+
+[A237] (2025-04-24, muendlich)
+  "I love our company. And I think that this company deserves something better."
+  Kontext: Q1 2025 earnings call, five weeks after joining Intel
+
+[A238] (2025-04-24, muendlich)
+  "The feedback I have received from our customers and many of you has been consistent. We are seen as too slow, too complex and too set in our ways — and we need to change."
+  Kontext: Addressing company culture issues in Q1 earnings call
+
+[A239] (2025-05-01, muendlich)
+  "Within five years, 95% of new code could be AI-generated, enabling even non-coders like my 16-year-old daughter to build apps effortlessly."
+  Kontext: [FIRMA] Build 2025 keynote presentation on future of coding
+
+[A240] (2025-05-04, muendlich)
+  "When we got started it was kind of like a high school CS student. And then as time went on and became more of like a college intern. And now it's like a junior engineer."
+  Kontext: Lenny's Podcast - Wu beschreibt die Evolution von Devins Fähigkeiten
+
+[A241] (2025-05-04, muendlich)
+  "AI will surpass the world's best competitive programmer within 1-2 years and sees this technology not as replacing programmers, but as democratizing software creation."
+  Kontext: Wu's Prognose zur AI-Entwicklung basierend auf seiner Competitive Programming Expertise
+
+[A242] (2025-05-08, muendlich)
+  "It's really easy at an executive level to underestimate just how far away we are from the limit of automating software. I think that there's a really, really long way to go."
+  Kontext: Realistische Einschätzung der aktuellen Grenzen von KI in der Softwareentwicklung
+
+[A243] (2025-05-13, muendlich)
+  "AI Mode is a total reimagining of Search. It's designed to help you solve bigger problems and get things done."
+  Kontext: [FIRMA] I/O 2025 Keynote. [PERSON] praesentiert grundlegende Neugestaltung der Suche durch KI.
+
+[A244] (2025-05-18, muendlich)
+  "When it comes to life and death decision-making, I think that it is too morally fraught an area, it is too critical of an area, to not apply the best technology available to you. If you're talking about killing people, you need to be minimizing the amount of collateral damage. You need to be as certain as you can in anything that you do."
+  Kontext: 60 Minutes Interview über autonome Waffensysteme und die Ethik von KI im Krieg
+
+[A245] (2025-05-29, muendlich)
+  "AI is starting to get better than humans at almost all intellectual tasks, and we're going to collectively, as a society, grapple with it."
+  Kontext: CNN-Interview ueber Arbeitsmarktauswirkungen von KI
+
+[A246] (2025-05-29, muendlich)
+  "If AI creates huge total wealth, a lot of that will, by default, go to the AI companies and less to ordinary people."
+  Kontext: CNN-Interview; [PERSON] schlaegt Besteuerung von KI-Firmen vor
+
+[A247] (2025-06, schriftlich)
+  "[FIRMA]'s vision is to bring personal superintelligence to everyone. We believe in putting this power in people's hands to direct it towards what they value in their own lives."
+  Kontext: Vision fuer demokratisierte Superintelligenz.
+
+[A248] (2025-06-01, schriftlich)
+  "The people who don't know how to use AI will be obsoleted by people who know how to use AI first."
+  Kontext: Warnung über die Notwendigkeit, KI zu lernen
+
+[A249] (2025-06-05, muendlich)
+  "It would be odd for us to sell [PRODUKT] to [FIRMA]."
+  Kontext: TechCrunch Sessions AI; [PERSON] erklaert Entscheidung, Windsurf-Zugang zu beschraenken
+
+[A250] (2025-06-17, schriftlich)
+  "Superintelligence is now in sight. We're forming a new Superintelligence group at [FIRMA] to pursue this goal."
+  Kontext: Ankuendigung der Gruendung der 'Superintelligence Group' bei [FIRMA].
+
+[A251] (2025-06-25, muendlich)
+  "Finance, it's, I think, a hard industry for someone who wants to make impact"
+  Kontext: Chen erklärt im [FIRMA] Tech Unheard Podcast seine Entscheidung, Jane Street Capital (Quant Trading) zu verlassen und zu [FIRMA] zu wechseln - trotz massiver Gehaltseinbußen.
+
+[A252] (2025-06-25, schriftlich)
+  "Powerful AI could be buildable by late 2026 or early 2027. My two essential points are: the U.S. can win the race to build powerful AI, but winning the race is a necessary but not sufficient achievement - we have to get safety right."
+  Kontext: Schriftliche Aussage vor House Select Committee 'Algorithms and Authoritarians'
+
+[A253] (2025-07-08, schriftlich)
+  "With respect to academic questions, [PRODUKT] 4 is better than PhD level in every subject, no exceptions."
+  Kontext: Ankuendigung des [PRODUKT]-4-Launches. [PERSON] preist die Faehigkeiten des Modells.
+
+[A254] (2025-08-01, muendlich)
+  "Research done by universities in this space around sustainability and energy efficiency is a huge, huge opportunity"
+  Kontext: [UNI] University President's Lecture Series on AI and energy efficiency
+
+[A255] (2025-10-01, muendlich)
+  "The immense amount of pressure from investors demanding returns and researchers scrambling to stand out in an overcrowded field."
+  Kontext: Criticism of current AI industry dynamics
+
+[A256] (2025-10-01, muendlich)
+  "The industry that grew out of this breakthrough is stifling the next one. The current corporate arms race is killing true innovation."
+  Kontext: TED AI San Francisco 2025
+
+[A257] (2025-10-01, schriftlich)
+  "Developing systems for safer AI."
+  Kontext: Mission statement for Integrous Research, the AI safety research lab [PERSON] founded after leaving [FIRMA]
+
+[A258] (2025-10-01, schriftlich)
+  "Robust systems for secure and trustworthy AI."
+  Kontext: Focus area for Integrous Research, emphasizing AI safety and trustworthiness
+
+[A259] (2025-10-09, muendlich)
+  "[PERSON] is singular in his understanding of engineering. Just to put it in perspective, 100,000 GPUs -- that's easily the fastest supercomputer on the planet as one cluster. Almost everything that Elon is part of, you really want to be part of as well."
+  Kontext: Interview ueber [FIRMA]s Colossus-Supercomputer mit 100.000 [FIRMA] GPUs, gebaut in 19 Tagen.
+
+[A260] (2025-10-15, muendlich)
+  "[PERSON], [PERSON] and [PERSON] are the smartest engineers in the AI space. They are building the future."
+  Kontext: Aussage über führende AI-Unternehmer
+
+[A261] (2025-10-15, muendlich)
+  "[FIRMA] is the world's most power-efficient CPU because our DNA was to build processors that run on batteries"
+  Kontext: Explaining [FIRMA]'s competitive advantage in energy-efficient computing
+
+[A262] (2025-10-15, muendlich)
+  "if efficiency is not improved, the electricity consumption of artificial intelligence data centers may be as high as 20% to 25% of the US electricity demand by 2030"
+  Kontext: Warning about unsustainable energy consumption trajectory of AI data centers
+
+[A263] (2025-11-01, muendlich)
+  "You should be constantly stressed and do things that make you stressed every day. I think the times that I've stagnated, or the company has stagnated, is every day I don't have something that's really stressful."
+  Kontext: Interview about work philosophy and personal growth
+
+[A264] (2025-11-01, muendlich)
+  "It is not job displacement, it is task displacement. And I think that's a super important distinction because getting rid of those tasks does not mean the legal industry falls apart."
+  Kontext: Interview about AI's impact on legal profession
+
+[A265] (2025-11-01, muendlich)
+  "The junior folks are incredibly happy about this. Most junior associates spend the first part of their careers on rote tasks such as reviewing documents in discovery or in data rooms, and you end up not being able to do the strategic level things until like 10 years into your career, if you're lucky, five."
+  Kontext: Interview about AI's impact on junior lawyers
+
+[A266] (2025-11-03, muendlich)
+  "The biggest gains will come from enabling lawyers to better handle the most complex work—not NDA review but transactions on the scale of mega-mergers, with AI eventually automating the first 10% of such deals."
+  Kontext: Interview about AI's role in complex legal work
+
+[A267] (2025-11-06, schriftlich)
+  "PyTorch handles exascale training now. It powers foundation models that are redefining intelligence. It's in production at virtually every major AI company. It's taught in classrooms from [UNI] to rural India. The tools I dreamed about making accessible? They are. The barrier to entry I wanted to lower? It's almost gone."
+  Kontext: Announcement of departure from [FIRMA], reflecting on PyTorch's success and global impact
+
+[A268] (2025-11-07, muendlich)
+  "It's like we have this bottleneck of only so much human labor in the economy. That shape is going to change radically over the next decade."
+  Kontext: On the transformation of labor markets through AI
+
+[A269] (2025-11-08, muendlich)
+  "Without TSMC, there is no [FIRMA] today. You are really the pride of Taiwan, you are also the pride of the world."
+  Kontext: TSMC Sports Day Event in Taiwan. [PERSON] betont die strategische Bedeutung von TSMC.
+
+[A270] (2025-11-08, muendlich)
+  "[FIRMA]'s business is very strong and getting stronger month by month. We need capacity."
+  Kontext: Besuch bei TSMC Sports Day. [PERSON] spricht ueber die anhaltend hohe Nachfrage nach [FIRMA] GPUs.
+
+[A271] (2025-11-08, muendlich)
+  "There's a strong focus at [FIRMA] on ensuring that AI tools are made available throughout the world. We're thinking very critically about how access to this technology is really available to people."
+  Kontext: Aussage über [FIRMA]s Bemühungen um globalen Zugang zu KI-Technologie
+
+[A272] (2025-11-12, muendlich)
+  "In the next five years, AI could automate 50 percent of the tasks that people do today. That will be extremely exciting to see play out."
+  Kontext: Predicting the pace of AI-driven automation
+
+[A273] (2025-11-13, schriftlich)
+  "We believe that coding will be the single biggest driver of global productivity over the next decade."
+  Kontext: Offizielle Stellungnahme zur Series D Finanzierungsrunde
+
+[A274] (2025-11-15, muendlich)
+  "AI has the potential to accelerate the economy by 15 percent through sustained productivity growth, which could expand employment and raise standards of living, even if the short-term adjustment is difficult."
+  Kontext: Columbia Business School Diskussion ueber makrooekonomische AI-Auswirkungen
+
+[A275] (2025-11-15, muendlich)
+  "AI's appetite for energy is immense. While advances like liquid cooling have reduced data center energy consumption by as much as 60 percent, overall demand continues to rise faster than efficiency gains can offset."
+  Kontext: Diskussion ueber Nachhaltigkeit und Energie-Herausforderungen der AI-Infrastruktur
+
+[A276] (2025-11-21, schriftlich)
+  "Software engineering bandwidth and genius ideas are the bottlenecks to rapid AI progress, and [FIRMA] represents our attempt at solving the former, allowing more talent, effort, and resources to be devoted to the latter."
+  Kontext: Über die Mission von [FIRMA] im Kontext des KI-Fortschritts
+
+[A277] (2025-11-21, schriftlich)
+  "We want to be a sustainable, independent company. That goal will require constant reinvention, even amid Silicon Valley's admiration."
+  Kontext: Über die langfristige Vision für [FIRMA] trotz enormen Erfolgs
+
+[A278] (2025-11-21, schriftlich)
+  "As language models become capable of producing 90-95% of code, you cannot maintain the old form factor—instead, you need to redesign the entire UX of writing software."
+  Kontext: Über die Notwendigkeit, die User Experience komplett neu zu gestalten
+
+[A279] (2025-11-24, schriftlich)
+  "The accelerating pace of AI creates more pressure, not less."
+  Kontext: Über die Auswirkungen des schnellen KI-Fortschritts auf das Unternehmen
+
+[A280] (2025-11-29, muendlich)
+  "We work a lot, I've worked every day for the last three years."
+  Kontext: On work ethic and habits that brought him to billionaire status at age 22
+
+[A281] (2025-11-29, muendlich)
+  "I think always making sure that I see the impact of what I do, the ROI of putting in a huge amount of time is most important."
+  Kontext: On what keeps him motivated and prevents burnout
+
+[A282] (2025-12, muendlich)
+  "People who learn to adopt and adapt to AI will do better. All those professions will be around, but the people who will do well in each of those professions are people who learn how to use these tools."
+  Kontext: Aeusserungen zur Zukunft der Arbeit. [PERSON] betont Anpassungsfaehigkeit statt Jobverlust.
+
+[A283] (2025-12-01, schriftlich)
+  "The simplest answer here is that the tech penetration into the legal market is going to change massively. If we build a great product we hopefully capture some of that very large upside."
+  Kontext: [FIRMA] AMA about market opportunity
+
+[A284] (2025-12-01, muendlich)
+  "There's a world in which, actually, this is super good for the profession and very good for recruiting into the profession."
+  Kontext: [FIRMA] AMA about AI's impact on legal profession
+
+[A285] (2025-12-02, muendlich)
+  "People will need to adapt, and then there will be areas where it will impact some jobs. So, as a society, I think we need to be having those conversations."
+  Kontext: BBC Interview ueber KI-Auswirkungen auf den Arbeitsmarkt. [PERSON] spricht offen ueber Job-Verluste.
+
+[A286] (2025-12-03, muendlich)
+  "I think there are some players who are not managing that risk well or taking unwise risk. [...] There's an inherent risk when the timing of the economic value is uncertain."
+  Kontext: NYT DealBook Summit; [PERSON] kommentiert KI-Blase und Spending-Risiken der Konkurrenz
+
+[A287] (2025-12-04, muendlich)
+  "Trust is what unlocks deployment at scale. In regulated industries, the question isn't just which model is smartest—it's which model you can actually rely on, and whether the company behind it will be a responsible long-term partner."
+  Kontext: Fast Company Interview über [FIRMA]s Fokus auf Vertrauen und Enterprise-Kunden in regulierten Branchen
+
+[A288] (2025-12-07, muendlich)
+  "There's no moral high ground to making a land mine that can't tell the difference between a school bus full of children and Russian armor. It's not a question between smart weapons and no weapons. It's a question between smart weapons and dumb weapons."
+  Kontext: Verteidigung von KI-gesteuerten Waffen gegenüber traditionellen Waffensystemen
+
+[A289] (2025-12-10, muendlich)
+  "AI is intrinsically linked to hardware and hardware is intrinsically linked to power. We can't scale beyond a certain number of inferences per unit time because of the energy problem. We can't produce that much more energy in the next 10 years."
+  Kontext: Explaining energy constraints for AI development
+
+[A290] (2025-12-24, muendlich)
+  "Companies that are worth, you know, billions of dollars with zero revenue, that's clearly a bubble, right, and it's, like, insane."
+  Kontext: Fortune Brainstorm AI Konferenz. [PERSON] warnt vor einer KI-Blase bei Startups mit hohen Bewertungen aber ohne Umsätze.
+
+[A291] (2026-01-09, muendlich)
+  "At the end of the day, what this technology is for is to benefit people."
+  Kontext: CES 2026 Keynote über den Zweck von KI-Technologie
+
+[A292] (2026-01-09, muendlich)
+  "The world is going to require far more compute than we have right now."
+  Kontext: CES 2026 Keynote bei [FIRMA] über zukünftige Compute-Anforderungen
+
+[A293] (2026-01-14, schriftlich)
+  "We built a browser with [PRODUKT-FAMILIE]-5.2 in [FIRMA]. It ran uninterrupted for one week. It's 3M+ lines of code across thousands of files. The rendering engine is from-scratch in Rust with HTML parsing, CSS cascade, layout, text shaping, paint, and a custom JS VM. It *kind of* works!"
+  Kontext: Demonstration der Fähigkeiten von [PRODUKT-FAMILIE]-5.2 und [FIRMA] durch Bau eines funktionsfähigen Browsers
+
+[A294] (2026-01-21, muendlich)
+  "AI is infrastructure. We are seeing the largest infrastructure buildout in human history."
+  Kontext: World Economic Forum in Davos 2026. Panel-Diskussion mit BlackRock CEO Larry Fink.
+
+[A295] (2026-01-27, schriftlich)
+  "The thing to worry about is a level of wealth concentration that will break society."
+  Kontext: [PERSON] als einer von sieben [FIRMA]-Gruendern, die 80% ihres Vermoegens zusagen
+
+[A296] (2026-02-03, muendlich)
+  "Intel is committed to building a world-class foundry that serves the growing need for leading-edge process technology, advanced packaging and manufacturing. Our No. 1 job is to listen to our customers and earn their trust by creating solutions to enable their success."
+  Kontext: Opening remarks at Intel Foundry Direct Connect event
+
+[A297] (2026-02-03, muendlich)
+  "Given the recent success of Panther Lake, customers are now knocking on my door to try out Intel foundry for the upcoming 18AP and 14A nodes."
+  Kontext: Interview at Cisco AI forum discussing foundry customer interest
+
+[A298] (2026-02-03, muendlich)
+  "I have just hired a GPU architect who is very good. Intel will still invest in GPUs."
+  Kontext: Announcing GPU strategy and architect hire at Cisco AI Summit
+
+[A299] (2026-02-07, muendlich)
+  "The number of jobs that AI could do without help from people is vanishingly small. When hiring at [FIRMA], I look for people who are great communicators, have excellent emotional intelligence and people skills, and are kind, compassionate, and curious. The things that make us human will become much more important instead of much less important."
+  Kontext: ABC News Interview über die Bedeutung menschlicher Fähigkeiten im KI-Zeitalter und Einstellungskriterien bei [FIRMA]
+
+[A300] (2026-02-07, muendlich)
+  "Humans plus AI together actually create more meaningful work, more challenging work, more interesting work, and high-productivity jobs. Studying the humanities is going to be more important than ever, as understanding ourselves, understanding history, and understanding what makes us tick will always be really important."
+  Kontext: Fortune Interview über die Bedeutung von Geisteswissenschaften im KI-Zeitalter

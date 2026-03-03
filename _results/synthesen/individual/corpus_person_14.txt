@@ -1,0 +1,124 @@
+=== DATENKORPUS PERSON-14 ===
+
+--- AUSSAGEN (19 Stueck) ---
+
+[A001] (2019-10-15, muendlich)
+  "Engineering is about how to solve problems and how can you very analytically solve a problem. We should make that fun as one of the key parts of making STEM interesting, especially to women and underrepresented minorities."
+  Kontext: Rede über STEM-Förderung und Problemlösungskultur in der Technik
+
+[A002] (2020-06-10, schriftlich)
+  "Everyone in the semiconductor industry, everyone in the technology industry, would benefit from more diversity in the business."
+  Kontext: Statement zu Diversität und Frauen in Tech-Führungspositionen
+
+[A003] (2021-05-10, schriftlich)
+  "Leaders are trained. Leadership is about hard work, continuous learning, and training."
+  Kontext: Leadership-Philosophie Interview - Su über erlernbare Führungsqualitäten
+
+[A004] (2023-02-20, muendlich)
+  "Some supercomputers could require as much as 500 megawatts apiece within a decade. The demand for compute continues to be immense."
+  Kontext: IEEE International Solid State Circuits Conference - Su warnt vor enormem Energiebedarf
+
+[A005] (2024-04-20, schriftlich)
+  "In tech there's no such thing as cutting yourself to be a winner. You have to decide what do we want to be when we grow up. The decisions that we make today, you will really see the impact three to five years down the road."
+  Kontext: Stratechery Interview - Su über langfristige Strategieplanung in der Tech-Industrie
+
+[A006] (2024-06-12, muendlich)
+  "[FIRMA] is on the path to a 100x power efficiency improvement by 2027. Energy efficiency is one of the most important challenges to face computing in the next ten years."
+  Kontext: imec's ITF World 2024 - Su über kritische Bedeutung von Energieeffizienz für Computing
+
+[A007] (2024-08-15, muendlich)
+  "There will never be a case where there's only one technology used for something. There's quite a bit of AI training being done on [FIRMA] today."
+  Kontext: HotHardware Interview - Su über technologische Vielfalt und [FIRMA]-Wettbewerb
+
+[A008] (2024-11-05, muendlich)
+  "AI is not a zero-sum game. There are multiple winners in this market. We're partnering with many companies because no one company has all of the good ideas."
+  Kontext: Conference Board Podcast - Su über Kooperation statt reinen Wettbewerb in der Chip-Industrie
+
+[A009] (2024-12-01, schriftlich)
+  "We need to bring more semiconductor manufacturing back to the United States. Taiwan today still has the vast majority of all advanced semiconductors, but more of it will move and it's the right thing to do because you need resiliency in the supply chain."
+  Kontext: TIME Magazine CEO of the Year Interview - Su über strategische Bedeutung von US-Chip-Produktion
+
+[A010] (2025-05-07, muendlich)
+  "There should be a balance between export controls for national security as well as ensuring that we get the widest possible adoption of our technology."
+  Kontext: CNBC Interview - Su warnt vor zu strikten US-Chip-Exportkontrollen gegen China
+
+[A011] (2025-05-07, muendlich)
+  "China is a large opportunity for the semiconductor and artificial intelligence industry."
+  Kontext: Statement zu China als strategischem Markt trotz geopolitischer Spannungen
+
+[A012] (2025-09-17, muendlich)
+  "We are only in year two of a massive ten-year cycle of rapid AI advancements and infrastructure build-out."
+  Kontext: Axios Interview - Su prognostiziert langfristigen KI-Boom über ein Jahrzehnt
+
+[A013] (2025-11-11, muendlich)
+  "[FIRMA] could achieve double-digit share in the data center AI chip market over the next three to five years."
+  Kontext: [FIRMA] Analyst Day - Su skizziert Marktanteilsziele gegen [FIRMA]-Dominanz
+
+[A014] (2026-01-05, muendlich)
+  "AI is the most important technology of the last 50 years, and I can say it's absolutely our number one priority at [FIRMA]."
+  Kontext: CES 2026 Keynote - [PERSON] betont die zentrale Bedeutung von KI für [FIRMA] und die Industrie
+
+[A015] (2026-01-05, muendlich)
+  "AI is the most powerful technology that has ever been created. And it can be everywhere for everyone."
+  Kontext: CES 2026 - Su präsentiert Vision einer allumfassenden, zugänglichen KI
+
+[A016] (2026-01-05, muendlich)
+  "We will need 10 yottaflops of computing power by 2030 to support five billion AI users."
+  Kontext: CES 2026 - Su präsentiert Konzept der 'Yottascale era' für KI-Computing
+
+[A017] (2026-01-06, muendlich)
+  "The demand for AI is just incredible. It's going through the roof."
+  Kontext: Fox Business Interview über explodierende Nachfrage nach KI-Chips
+
+[A018] (2026-01-06, muendlich)
+  "Artificial intelligence has not slowed the pace of hiring at [FIRMA], but the candidates who have truly embraced the technology have become a priority."
+  Kontext: CNBC Interview - Su über KI's Einfluss auf Einstellungspolitik, KI als Enabler statt Ersatz
+
+[A019] (2026-02-04, muendlich)
+  "AI is accelerating at a pace that I would not have imagined."
+  Kontext: CNBC Interview - Su über die rasante Entwicklung der KI-Technologie
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (2014-10-08) [einstellung]
+  [PERSON] wird CEO von [FIRMA], übernimmt Führung eines krisengeschüttelten Unternehmens mit Aktienkurs unter 2 USD
+
+[H002] (2015-03-15) [umstrukturierung]
+  Su initiiert strategische Neuausrichtung: Fokus auf High-Performance Computing, Gaming und KI; R&D-Budget wird um ca. 45% erhöht (2014-2017)
+
+[H003] (2017-03-02) [produktlaunch]
+  Launch der Ryzen-Prozessoren mit neuer Zen-Architektur - [FIRMA] kehrt zurück in CPU-Wettbewerb mit Intel
+
+[H004] (2017-06-20) [produktlaunch]
+  Launch der EPYC Server-Prozessoren für Rechenzentren - strategischer Eintritt in lukrativen Data Center Markt
+
+[H005] (2018-06-01) [partnerschaft]
+  [FIRMA] wechselt Chip-Produktion zu TSMC (Taiwan), transformative Entscheidung für Produktqualität und Wettbewerbsfähigkeit
+
+[H006] (2020-10-27) [kauf] ($35,000,000,000)
+  [FIRMA] kündigt Übernahme von Xilinx (FPGA-Hersteller) an - eine der größten Chip-Deals überhaupt, Stärkung adaptiver Computing-Fähigkeiten
+
+[H007] (2022-02-14) [kauf] ($49,000,000,000)
+  Abschluss der Xilinx-Übernahme; Su wird Chair von [FIRMA], kombiniertes Unternehmen entsteht
+
+[H008] (2023-12-06) [produktlaunch]
+  Launch der MI300 AI-Beschleuniger-Serie - [FIRMA]'s direkter Angriff auf [FIRMA]'s KI-Chip-Dominanz
+
+[H009] (2024-08-19) [kauf] ($4,900,000,000)
+  [FIRMA] gibt Übernahme von ZT Systems bekannt (Compute-Infrastruktur für Hyperscaler), Stärkung der Datacenter-Präsenz
+
+[H010] (2024-09-10) [partnerschaft]
+  Su verkündet Kooperation mit GE Vernova zur Integration von Kernenergie in Tech-Infrastruktur für KI-Rechenzentren
+
+[H011] (2025-10-15) [partnerschaft]
+  [FIRMA] und [FIRMA] verkünden massive Partnerschaft: [FIRMA] kauft [FIRMA] Instinct AI-Chips für 6 Gigawatt Deployment, Start 2026 mit 1 GW
+
+[H012] (2025-10-15) [sonstiges]
+  [FIRMA] gibt Warrant für bis zu 160 Millionen [FIRMA]-Aktien an [FIRMA] aus, vesting bei Erreichen technischer/kommerzieller Meilensteine
+
+[H013] (2025-11-11) [investition] ($100,000,000,000)
+  [FIRMA] stellt Gesamtinvestitionen von über 100 Milliarden USD für organisches und anorganisches Wachstum über 5 Jahre dar (2020-2025)
+
+[H014] (2025-11-11) [produktlaunch]
+  [FIRMA] kündigt MI450 GPUs an, Teil des [FIRMA]-Deals für 2026 Deployment - nächste Generation KI-Beschleuniger

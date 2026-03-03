@@ -1,0 +1,131 @@
+=== DATENKORPUS PERSON-95 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2020-01-01, muendlich)
+  "His motivation stems from his son being diagnosed with autism, with Emad wanting to see how AI could help review existing research."
+  Kontext: Personal motivation for AI work in healthcare
+
+[A002] (2023-01-01, muendlich)
+  "I'm not sure that any of us can cope with the speed. You know, frankly it's terrifying."
+  Kontext: Statement about AI's disruption potential
+
+[A003] (2023-01-01, muendlich)
+  "We're at this point whereby if we don't have AI to help us, I think we're in a very bad scenario. With AI, if we don't build it right, we're also in a bad scenario. If AI is built right and is aligned and works with us, then we're in a very good scenario."
+  Kontext: Statement on AI's critical importance and alignment
+
+[A004] (2023-01-01, muendlich)
+  "The world becomes a better place, ironically, through empathy from AI, and that's infrastructure that should be available to everyone. This is a concept we call universal basic AI."
+  Kontext: Introducing concept of universal basic AI
+
+[A005] (2023-01-01, muendlich)
+  "You're not going to beat centralized AI with more centralized AI. You're not going to beat centralized AI with more centralized AI."
+  Kontext: Core philosophy on AI development
+
+[A006] (2023-01-01, muendlich)
+  "[FIRMA] decided not to allow any Ukrainian content or Ukrainians to use it."
+  Kontext: Criticism of [FIRMA]'s access restrictions
+
+[A007] (2023-01-01, muendlich)
+  "Blocking people from using technology — as [FIRMA] has done with its [PRODUKT] service in Ukraine, China and Russia — is fundamentally wrong."
+  Kontext: Moral stance against technology blocking
+
+[A008] (2023-01-01, muendlich)
+  "In 10 years, every single student in the world will have an AI tutor that helps them."
+  Kontext: Prediction about AI in education
+
+[A009] (2023-01-01, muendlich)
+  "In the not-too-distant future, the best diagnosticians in the world will be AIs, and the best surgeons will be robots driven by AIs. This is how we create an abundance of health globally."
+  Kontext: Vision for AI in healthcare
+
+[A010] (2023-01-01, muendlich)
+  "Superintelligence should be a collective intelligence made up of amplified human intelligence, versus an AGI that is top-down and designed to control us."
+  Kontext: Philosophy on superintelligence development
+
+[A011] (2023-06-01, muendlich)
+  "There will be no programmers in five years."
+  Kontext: Prediction about AI replacing programmers
+
+[A012] (2023-06-01, muendlich)
+  "41% of all code right now is AI generated."
+  Kontext: Evidence for programmer replacement prediction
+
+[A013] (2023-07-17, muendlich)
+  "I think this will be the biggest bubble of all time."
+  Kontext: Statement to UBS analysts about AI bubble
+
+[A014] (2023-07-17, muendlich)
+  "It hasn't even started yet."
+  Kontext: Continuation of AI bubble statement
+
+[A015] (2024-01-01, muendlich)
+  "2024 is going to be the year of action and we will see exponential adoption. It's not a case of if, but when and the UK can lead the charge."
+  Kontext: Statement about AI adoption in 2024
+
+[A016] (2024-01-01, muendlich)
+  "Within 1,000 days, we'll reach a tipping point where AI systems begin replacing large portions of cognitive work as the cost of intelligence approaches that of electricity."
+  Kontext: Prediction about AI's economic impact timeline
+
+[A017] (2024-01-01, muendlich)
+  "We're at the terminal point of our current economic structure and questions fundamental concepts like the nature of money and value in a world of infinite abundance with billions of robots and trillions of agents."
+  Kontext: View on capitalism becoming obsolete
+
+[A018] (2024-01-01, muendlich)
+  "Cancer is good for GDP and it makes it go up."
+  Kontext: Criticism of GDP as economic metric
+
+[A019] (2024-03-22, muendlich)
+  "You're not going to beat centralized AI with more centralized AI."
+  Kontext: Resignation statement emphasizing commitment to decentralized AI
+
+[A020] (2025-01-08, muendlich)
+  "Universal Basic Income at poverty level would cost more than entire US tax base."
+  Kontext: Critique of traditional UBI approach
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2020-12-01) [gruendung]
+  Co-founded [FIRMA] with Cyrus Hodes, creating company behind [PRODUKT] AI image generator
+
+[H002] (2022-08-01) [produktlaunch]
+  Launched [PRODUKT] as open-source AI image generation model, competing with [PRODUKT] and [PRODUKT]
+
+[H003] (2022-10-01) [investition]
+  Secured $101 million investment led by Coatue and Lightspeed Venture Partners, reaching unicorn status at $1 billion valuation
+
+[H004] (2022-11-30) [partnerschaft]
+  Selected [FIRMA] as [FIRMA]'s preferred cloud provider, using [FIRMA] SageMaker for AI model development
+
+[H005] (2023-06-01) [sonstiges]
+  Forbes investigation alleged misrepresentations about [UNI] degrees, [FIRMA] partnership, and role in [PRODUKT] creation
+
+[H006] (2023-07-01) [klage]
+  Co-founder Cyrus Hodes filed lawsuit alleging fraud, claiming [PERSON] deceived him into selling 15% stake for $100
+
+[H007] (2023-10-01) [sonstiges]
+  Lightspeed Venture Partners sent letter to board stating [PERSON]'s mismanagement 'severely undermined' confidence, urged sale
+
+[H008] (2023-12-01) [investition]
+  Received $50 million investment from Intel (partial disbursement of planned $95 million), with $20 million initially disbursed
+
+[H009] (2024-03-01) [sonstiges]
+  Core [PRODUKT] researchers Rombach, Blattmann and Lorenz resigned amid financial struggles and executive exodus
+
+[H010] (2024-03-23) [ruecktritt]
+  Resigned as CEO and board member of [FIRMA] to pursue decentralized AI initiatives after investor pressure
+
+[H011] (2024-03-24) [umstrukturierung]
+  [FIRMA] appointed Shan Shan Wong (COO) and Christian Laforte (CTO) as interim co-CEOs after [PERSON]'s departure
+
+[H012] (2024-04-01) [sonstiges]
+  [FIRMA] reportedly defaulted on [FIRMA] and [FIRMA] Cloud payments, with $99M annual infrastructure costs and shrinking cash
+
+[H013] (2024-06-07) [gruendung]
+  Founded Schelling AI to build open source AI code, models and datasets powered by 'AI money' and tokenized economics
+
+[H014] (2024-06-25) [sonstiges]
+  Prem Akkaraju announced as new [FIRMA] CEO, Sean Parker joined board as Executive Chairman with new funding round
+
+[H015] (2025-03-01) [investition]
+  [FIRMA] secured fresh funds from UK advertising group WPP as lead investor, shifting toward enterprise solutions

@@ -1,0 +1,88 @@
+=== DATENKORPUS PERSON-27 ===
+
+--- AUSSAGEN (13 Stueck) ---
+
+[A001] (2022-11-30, muendlich)
+  "After a lot of reflection, I've decided to return to my entrepreneurial roots. Salesforce has never been more relevant to customers, and with its best-in-class management team and the company executing on all cylinders, now is the right time for me to step away."
+  Kontext: Offizielle Stellungnahme zum Rücktritt als Salesforce Co-CEO
+
+[A002] (2024-05-15, muendlich)
+  "If there's one lesson I wish I could give my younger self, it's to focus less on the technology and more on the customer need."
+  Kontext: Podcast-Interview über Karrierelernen und Produktentwicklung
+
+[A003] (2024-06-15, muendlich)
+  "Just as websites defined the web era and apps defined mobile, AI agents are the atomic unit of enterprise software. Most will be vertical specialists with deep domain expertise rather than general-purpose tools."
+  Kontext: Podcast-Interview über die Zukunft von Enterprise-Software
+
+[A004] (2024-07-10, muendlich)
+  "When you have an AI agent represent your brand, the agency goes to the customer."
+  Kontext: Podcast-Interview über KI-Agenten und Kundenerfahrung
+
+[A005] (2024-08-20, muendlich)
+  "We think in the future, your AI agent will be more important than your website and more important than your app. It will be the main way you interact with your customers."
+  Kontext: Podcast mit [PERSON] über Unterschiede der KI-Revolution
+
+[A006] (2024-10-10, muendlich)
+  "We think every company in the world, whether it's a technology company or a 150-year-old company like ADT, can benefit from AI, and the technology is ready right now."
+  Kontext: Interview mit CNBC über [FIRMA]s KI-Agenten für Unternehmen
+
+[A007] (2024-10-10, muendlich)
+  "I think a lot of folks in Silicon Valley think we should probably be focused more on empowering little tech than trying to disempower Big Tech."
+  Kontext: CNBC-Interview über Tech-Regulierung und Wettbewerb
+
+[A008] (2024-10-10, muendlich)
+  "We have capital. We're not too highly regulated. And what often happens in these well-intentioned environments is people introduce constraints in the business environment that actually help incumbents, because it creates a lot of complexity for startups."
+  Kontext: CNBC-Interview über das US-Unternehmensumfeld für KI-Startups
+
+[A009] (2024-10-10, muendlich)
+  "In general, my philosophy is, don't wait for the technology to be perfect. In fact, it may never be perfect — but narrow the domain that you're working on so you can take these intractable problems and make them solvable."
+  Kontext: Interview über Best Practices bei KI-Implementierung
+
+[A010] (2024-12-25, muendlich)
+  "In the Autonomous Era of software engineering, the role of a software engineer will likely transform from being the author of computer code to being the operator of a code generating machine."
+  Kontext: Blog-Beitrag über die Zukunft der Softwareentwicklung mit KI
+
+[A011] (2025-03-04, muendlich)
+  "I am more excited about large language models and this current wave of technology more than any technology I can remember, perhaps since I discovered the internet when I was a teenager."
+  Kontext: TechCrunch-Artikel über Taylors Vision für KI-Agenten
+
+[A012] (2025-09-14, muendlich)
+  "It is both true that AI will transform the economy and create huge amounts of economic value, and that we're also in a bubble where a lot of people will lose money—both things are absolutely true at the same time."
+  Kontext: TechCrunch-Artikel über Taylors Einschätzung des KI-Marktes
+
+[A013] (2026-01-22, muendlich)
+  "AI is probably a bubble, and I expect to see a correction over the next few years. However, I am an AI optimist who believes the free market will ultimately determine where the value is."
+  Kontext: CNBC-Interview als [FIRMA] Board Chairman über KI-Markt
+
+
+--- HANDLUNGEN (10 Stueck) ---
+
+[H001] (2007-06-01) [gruendung]
+  Mitgründung von FriendFeed: Taylor verließ [FIRMA], um mit anderen Ex-[FIRMA]-Mitarbeitern das Social Network FriendFeed zu gründen. Die Plattform führte Innovationen wie den Like-Button ein.
+
+[H002] (2009-08-01) [verkauf]
+  FriendFeed von [FIRMA] übernommen: [FIRMA] kaufte FriendFeed, das von Taylor gegründete soziale Netzwerk, für geschätzte 50 Millionen Dollar. Der Like-Button von FriendFeed wurde später von [FIRMA] übernommen.
+
+[H003] (2016-08-01) [verkauf]
+  Quip wird von Salesforce übernommen: Salesforce kaufte Quip, Taylors Produktivitätssoftware-Startup (Konkurrent zu [FIRMA] Docs), für etwa 750 Millionen Dollar. Taylor wurde Chief Product Officer bei Salesforce.
+
+[H004] (2022-10-31) [ruecktritt]
+  Ausscheiden als [PLATTFORM] Board Chairman: Taylor beendete seine Rolle als Chairman des [PLATTFORM] Board nach [PERSON]s Übernahme und Auflösung des Boards. Er hatte [PLATTFORM] während der Übernahmeverhandlungen vertreten.
+
+[H005] (2022-11-30) [ruecktritt]
+  Taylor trat nach nur einem Jahr als Co-CEO und Vice Chair von Salesforce zurück, um "zu seinen unternehmerischen Wurzeln zurückzukehren". Berichte deuteten auf Spannungen mit Marc Benioff hin.
+
+[H006] (2023-11-22) [einstellung]
+  Ernennung zum Chairman des [FIRMA] Board: Nach der Krise um [PERSON]s kurzzeitige Absetzung wurde Taylor zum neuen Board Chairman von [FIRMA] ernannt, um das Governance-System zu reformieren.
+
+[H007] (2024-02-13) [gruendung]
+  Gründung von [FIRMA] AI mit [PERSON]: Taylor und der ehemalige [FIRMA]-Manager [PERSON] gründeten [FIRMA], ein KI-Agenten-Startup für Kundenservice, und sicherten sich 110 Millionen Dollar Startfinanzierung von [FIRMA] Capital und Benchmark.
+
+[H008] (2024-10-28) [investition]
+  [FIRMA] erhält 175 Millionen Dollar bei 4,5 Milliarden Bewertung: [FIRMA] sicherte sich eine Finanzierungsrunde von 175 Millionen Dollar unter Führung von Greenoaks Capital, womit das Unternehmen mit 4,5 Milliarden Dollar bewertet wurde.
+
+[H009] (2025-09-04) [investition]
+  [FIRMA] erreicht 10 Milliarden Dollar Bewertung: [FIRMA] schloss eine 350 Millionen Dollar Finanzierungsrunde ab, die das Unternehmen mit 10 Milliarden Dollar bewertete - mehr als doppelt so viel wie 11 Monate zuvor.
+
+[H010] (2025-11-21) [produktlaunch]
+  [FIRMA] erreicht 100 Millionen Dollar ARR: [FIRMA] gab bekannt, dass es in unter zwei Jahren 100 Millionen Dollar jährlichen wiederkehrenden Umsatz (ARR) erreicht hat, mit Kunden wie ADT, Sonos und Weight Watchers.

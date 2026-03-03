@@ -1,0 +1,120 @@
+=== DATENKORPUS PERSON-74 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (2025-01-01, muendlich)
+  "Find the problem you can't stop thinking about—obsession beats discipline when building for the long haul."
+  Kontext: Advice to entrepreneurs from Notion First Block interview
+
+[A002] (2025-01-01, muendlich)
+  "Hire with the highest possible bar for your first 10 people. Those early hires will shape your next hundred employees and are the most important decisions you'll make while scaling."
+  Kontext: Advice on hiring and scaling companies
+
+[A003] (2025-01-01, muendlich)
+  "Now is the most exciting time in history to build a company. The gap between what's possible with AI and what's been actualized in the economy is enormous—if there's ever a time to bet on yourself, it's now."
+  Kontext: On the current opportunity in AI entrepreneurship
+
+[A004] (2025-10-16, muendlich)
+  "Mercor is training models that predict how well someone will perform on a job better than a human can."
+  Kontext: On Mercor's AI capabilities in talent assessment
+
+[A005] (2025-10-16, muendlich)
+  "As software automates repetitive white-collar tasks, humans will move up the value chain, teaching machines how to reason, decide, and create."
+  Kontext: On the evolving relationship between human labor and AI
+
+[A006] (2025-11-07, muendlich)
+  "It's like we have this bottleneck of only so much human labor in the economy. That shape is going to change radically over the next decade."
+  Kontext: On the transformation of labor markets through AI
+
+[A007] (2025-11-12, muendlich)
+  "We'll automate maybe two-thirds of knowledge work. And that'll be incredible, because it lets us do things like cure cancer and go to Mars."
+  Kontext: On the future of AI automation and its impact on knowledge work
+
+[A008] (2025-11-12, muendlich)
+  "In the next five years, AI could automate 50 percent of the tasks that people do today. That will be extremely exciting to see play out."
+  Kontext: Predicting the pace of AI-driven automation
+
+[A009] (2025-11-12, muendlich)
+  "Everyone's been focused on what models can do. But the real opportunity is teaching them what only humans know—judgment, nuance, and taste."
+  Kontext: On the core value proposition of Mercor - teaching AI human qualities
+
+[A010] (2025-11-12, muendlich)
+  "The challenge now is to be thoughtful about what comes next: the higher, better things humans will spend time on, and how quickly we can help make that future real."
+  Kontext: On the future of human work in an AI-automated economy
+
+[A011] (2025-11-12, muendlich)
+  "Millions of people will spend the next decade teaching machines the judgment, nuance, and taste that only humans possess."
+  Kontext: On the emerging labor market for AI training and evaluation
+
+[A012] (2025-11-12, muendlich)
+  "I knew I wanted to drop out before finals my sophomore year. I just didn't go to finals."
+  Kontext: On his decision to drop out of Georgetown University
+
+[A013] (2025-11-12, muendlich)
+  "When I was in college, work was something I had to be disciplined to do."
+  Kontext: Contrasting college work with entrepreneurial passion
+
+[A014] (2025-11-29, muendlich)
+  "We work a lot, I've worked every day for the last three years."
+  Kontext: On work ethic and habits that brought him to billionaire status at age 22
+
+[A015] (2025-11-29, muendlich)
+  "People generally burn out, not just from working hard, but from working hard on something that they don't feel as fulfilling and compounding."
+  Kontext: Explaining his perspective on burnout and work-life balance
+
+[A016] (2025-11-29, muendlich)
+  "I can't really take a day off, because I just have this impulsive drive to go back to it. So I think that people finding the thing that they're obsessed with and can really pour their lives into, is one of the most important things."
+  Kontext: On finding meaningful work and obsession as driver for success
+
+[A017] (2025-11-29, muendlich)
+  "I think always making sure that I see the impact of what I do, the ROI of putting in a huge amount of time is most important."
+  Kontext: On what keeps him motivated and prevents burnout
+
+[A018] (2025-11-29, muendlich)
+  "Versus when I started Mercor, it really became this feeling of obsession that I can't stop thinking about, even if I'm getting dinner with my parents or whatever, it's going through the back of my head."
+  Kontext: Describing his passion and obsession with building Mercor
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (2020-01-01) [gruendung]
+  Founded Stealth, a cloud consulting business optimizing [FIRMA] promotions
+
+[H002] (2021-01-01) [gruendung]
+  Founded Seros, a project aimed at improving global access to cloud computing
+
+[H003] (2023-01-01) [gruendung]
+  Co-founded Mercor with [PERSON] and [PERSON], an AI-powered recruiting platform that evolved into an AI training marketplace
+
+[H004] (2023-05-01) [ruecktritt]
+  Dropped out of Georgetown University during sophomore year to focus on Mercor, skipping final exams
+
+[H005] (2023-09-01) [investition]
+  Raised $3.6 million seed funding led by General Catalyst
+
+[H006] (2024-02-01) [produktlaunch]
+  Launched AI-powered interview system that has vetted over 300,000 job candidates
+
+[H007] (2024-03-01) [spende]
+  Received $100,000 [PERSON] Fellowship grant after being selected as [PERSON] Fellow
+
+[H008] (2024-06-01) [umstrukturierung]
+  Pivoted Mercor's business model from AI-powered recruiting to AI training marketplace, focusing on connecting domain experts with frontier AI labs
+
+[H009] (2024-08-01) [partnerschaft]
+  Established partnerships with [FIRMA], [FIRMA], [FIRMA], and [FIRMA] as customers for AI training services
+
+[H010] (2024-09-01) [investition]
+  Raised $30-32 million Series A funding led by Benchmark (Victor Lazarte and Bill Gurley) at $250 million valuation, with participation from [PERSON], Jack Dorsey, Larry Summers, [PERSON], and Chris Re
+
+[H011] (2025-02-20) [investition]
+  Raised $100 million Series B funding led by Felicis at $2 billion valuation
+
+[H012] (2025-10-01) [einstellung]
+  Scaled Mercor's contractor network to over 30,000 expert workers, paying them collectively $1.5 million per day to train AI models
+
+[H013] (2025-10-27) [investition]
+  Raised $350 million Series C funding led by Felicis Ventures with participation from Benchmark, General Catalyst, and Robinhood Ventures at $10 billion valuation
+
+[H014] (2025-10-28) [politisch]
+  Spoke at TechCrunch Disrupt 2025 on AI's impact on hiring and the future of work

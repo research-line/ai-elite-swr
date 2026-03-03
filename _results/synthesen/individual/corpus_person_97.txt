@@ -1,0 +1,111 @@
+=== DATENKORPUS PERSON-97 ===
+
+--- AUSSAGEN (15 Stueck) ---
+
+[A001] (2023-10-01, schriftlich)
+  "Our experience at [UNI] and [FIRMA]'s accelerator convinced us that AI could bridge the gap by enhancing developer capabilities rather than replacing them."
+  Kontext: How [UNI] and [FIRMA] accelerator experience shaped the founding team's philosophy on AI-assisted development
+
+[A002] (2024-01-01, schriftlich)
+  "Programmers remain in the driver's seat."
+  Kontext: Core philosophy articulated by the [FIRMA] founding team about human-AI collaboration in coding
+
+[A003] (2024-01-01, schriftlich)
+  "AI is an assistant rather than a replacement."
+  Kontext: Philosophy on the role of AI in software development, emphasizing human-AI collaboration
+
+[A004] (2024-01-01, schriftlich)
+  "Solving one problem exceptionally well: developer productivity."
+  Kontext: The founders' laser focus on developer productivity rather than broad AI applications
+
+[A005] (2024-01-01, schriftlich)
+  "Using AI to amplify human creativity rather than replace it."
+  Kontext: Core belief about the purpose of AI in software development, emphasizing augmentation over automation
+
+[A006] (2024-01-01, schriftlich)
+  "Early exposure to open-source programming and large code-bases illustrates a self-driven ethos of building and sharing."
+  Kontext: [PERSON]'s background in open-source development shaped his approach to building collaborative tools
+
+[A007] (2024-03-01, schriftlich)
+  "Obsessing over sub-second response times, accurate code predictions, seamless VS Code integration, and real-time collaboration between human and AI."
+  Kontext: Technical priorities that differentiated [FIRMA] from competitors in the AI coding assistant market
+
+[A008] (2024-06-01, schriftlich)
+  "AI should enrich programming as an activity rather than replace it."
+  Kontext: [PERSON]'s vision of programming enriched—not replaced—by AI, which has guided [FIRMA]'s product development
+
+[A009] (2024-06-01, schriftlich)
+  "The human-plus-AI developer era."
+  Kontext: [PERSON]'s articulation of a new era in software development combining human creativity with AI capabilities
+
+[A010] (2024-08-01, schriftlich)
+  "Making technology fast, accurate, and human-controlled."
+  Kontext: Core design principle guiding every product decision at [FIRMA] during [PERSON]'s tenure as CTO
+
+[A011] (2025-01-01, schriftlich)
+  "We achieved the fastest path to $100M ARR in SaaS history."
+  Kontext: Recognition of [FIRMA]'s unprecedented growth, reaching $100M ARR in just 12 months from launch
+
+[A012] (2025-01-01, schriftlich)
+  "From competitive programming in Sweden to building a multi-billion dollar AI company."
+  Kontext: Trajectory from winning IOI medals to co-founding one of the fastest-growing AI companies
+
+[A013] (2025-10-01, schriftlich)
+  "It is, of course, with a mix of feelings. I'm sad to leave the team and the product; I'm excited for the ideas I get to explore next."
+  Kontext: Statement upon leaving [FIRMA]/[FIRMA] in October 2025 to found Integrous Research, a safety-focused AI research lab
+
+[A014] (2025-10-01, schriftlich)
+  "Developing systems for safer AI."
+  Kontext: Mission statement for Integrous Research, the AI safety research lab [PERSON] founded after leaving [FIRMA]
+
+[A015] (2025-10-01, schriftlich)
+  "Robust systems for secure and trustworthy AI."
+  Kontext: Focus area for Integrous Research, emphasizing AI safety and trustworthiness
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2022-01-01) [sonstiges]
+  Co-authored academic paper on 'Formal Security Definition of [FIRMA]data-Private Messaging' published in IACR Cryptology ePrint Archive
+
+[H002] (2022-06-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], [PERSON], and [PERSON] while students at [UNI], creating the AI code editor [FIRMA]
+
+[H003] (2023-03-01) [produktlaunch]
+  Launched [FIRMA] public beta, an AI-native code editor built on VS Code fork, in March 2023
+
+[H004] (2023-06-01) [partnerschaft]
+  Graduated from [FIRMA]'s accelerator program with [FIRMA]
+
+[H005] (2023-10-01) [investition]
+  Raised $8 million seed round led by [FIRMA] Startup Fund, with angels including [PERSON] and Arash Ferdowsi
+
+[H006] (2024-08-01) [investition]
+  Raised $60 million Series A at $400 million valuation led by [FIRMA] and Thrive Capital
+
+[H007] (2024-12-01) [investition]
+  Raised $105 million Series B at $2.6 billion valuation led by Thrive Capital
+
+[H008] (2025-01-01) [sonstiges]
+  [FIRMA] became the fastest SaaS company to reach $100M ARR, achieving this milestone in just 12 months from launch
+
+[H009] (2025-05-01) [sonstiges]
+  [FIRMA] surpassed $500 million in annual recurring revenue
+
+[H010] (2025-06-01) [investition]
+  Raised $900 million Series C at $9.9 billion valuation led by Thrive Capital
+
+[H011] (2025-10-01) [ruecktritt]
+  Left [FIRMA]/[FIRMA] as Co-Founder and CTO to pursue new ventures in AI safety
+
+[H012] (2025-10-01) [gruendung]
+  Founded Integrous Research, a safety-focused AI research lab developing systems for safer, secure, and trustworthy AI
+
+[H013] (2025-11-01) [sonstiges]
+  Became Sweden's youngest dollar billionaire at age 26, with Forbes estimating a 4.5% stake in [FIRMA] worth at least $1.3 billion
+
+[H014] (2025-11-01) [sonstiges]
+  [FIRMA] crossed $1 billion in annualized revenue, fastest SaaS to reach this milestone (20 months from launch)
+
+[H015] (2025-11-13) [investition]
+  [FIRMA] raised $2.3 billion Series D at $29.3 billion valuation co-led by Accel and Coatue Management (after [PERSON]'s departure)

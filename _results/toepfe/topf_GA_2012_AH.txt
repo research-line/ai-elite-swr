@@ -1,0 +1,150 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2012_AH
+Beschreibung: Jahrestopf 2012, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 12 Aussagen + 27 Handlungen = 39 gesamt
+Zeitraum Aussagen: 2012 bis 2012-12-11
+Zeitraum Handlungen: 2012 bis 2012-11-19
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (12 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2012, muendlich)
+  "The most contrarian thing of all is not to oppose the crowd but to think for yourself."
+  Kontext: Aus [PERSON]s legendaerer [UNI]-Vorlesung 'Startup', die zur Grundlage von 'Zero to One' wurde.
+
+[A002] (2012, muendlich)
+  "Horizontal progress is globalization — taking things that work somewhere and making them work everywhere. Vertical progress is technology — doing new things."
+  Kontext: [PERSON]s Unterscheidung zwischen 1-to-n (Globalisierung) und 0-to-1 (Innovation) aus der CS183-Vorlesung.
+
+[A003] (2012, schriftlich)
+  "We believe strongly in supporting medical research, particularly in Parkinson's disease, which affects my family, and in fighting global poverty and supporting education."
+  Kontext: Artikel ueber die [PERSON] Wojcicki Foundation. [PERSON] spendet Millionen fuer Parkinson-Forschung (motiviert durch seine eigene Praedisposition).
+
+[A004] (2012-01-01, schriftlich)
+  "The goal is, how do you make networking have the properties of software systems as far as innovation, provisioning speed, and upgrade speed. You want networks to be as flexible and as agile as compute is."
+  Kontext: Explaining the vision behind software-defined networking
+
+[A005] (2012-04-15, muendlich)
+  "There are very powerful forces that have lined up against the open Internet on all sides and around the world. I am more worried than I have been in the past. It's scary. The threat to the freedom of the Internet comes from governments, entertainment industries, and restrictive walled gardens like [FIRMA] and [FIRMA]."
+  Kontext: Guardian-Interview 2012. [PERSON] aeussert sich ungewoehnlich politisch und kritisiert Zensur, Walled Gardens und Regierungseingriffe.
+
+[A006] (2012-06-20, schriftlich)
+  "When I bought Lāna'i, I publicly announced plans to transform the island into a model for environmental sustainability. I intend to invest as much as $500 million to improve the island's infrastructure and create an environmentally friendly agricultural industry."
+  Kontext: Ankündigung nach dem Kauf von 98% der hawaiianischen Insel Lanai
+
+[A007] (2012-06-26, muendlich)
+  "It basically invented the concept of a cat."
+  Kontext: [FIRMA] Brain Experiment - Neuronales Netz lernt Katzen in [FIRMA]-Videos zu erkennen ohne Labels
+
+[A008] (2012-06-27, muendlich)
+  "We want to make the world's information universally accessible and useful. Ultimately, I'd like information to come to me when I need it without having to take any action."
+  Kontext: Interview ueber [FIRMA] Glass. [PERSON] erklaert die Vision eines Computers, der Informationen vorausschauend liefert.
+
+[A009] (2012-07-23, schriftlich)
+  "My goal in creating Nicira was to change networking. It's very difficult to do that alone, and now I'm working with the best company in the world to make it happen."
+  Kontext: On VMware acquisition of Nicira
+
+[A010] (2012-12-01, muendlich)
+  "We need to get adoption first."
+  Kontext: Entscheidung 2012, Apache Spark als Open Source zu veröffentlichen statt sofort zu kommerzialisieren. Zeigt strategische Vision: Adoption vor Monetarisierung.
+
+[A011] (2012-12-11, muendlich)
+  "I would like to die working. I'm not saying I'd like to die at work—just that if I had to die, I'd like the transition to be a short one—to still be working. I don't have a sense that I'd like to stop working. I think I'd like to be 50 or 60 before I'd like that feeling to change."
+  Kontext: Fortune-Interview 2012. Page spricht ueberraschend offen ueber Tod und Vermaechtnis.
+
+[A012] (2012-12-11, muendlich)
+  "You know, I'd rather give my money to [PERSON] than to charity. He's going to make people's lives better. I don't think people necessarily appreciate the role of entrepreneurs in solving the world's toughest problems."
+  Kontext: Fortune 2012. Page verteidigt Unternehmertum gegenueber traditioneller Philanthropie.
+
+------------------------------------------------------------------------
+HANDLUNGEN (27 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2012) [gruendung]
+  [PERSON] gruendet zusammen mit seinen Doktoranden Alex Krizhevsky und [PERSON] das Startup DNNresearch Inc., nachdem ihr AlexNet-Modell 2012 die ImageNet-Challenge gewann.
+
+[H002] (2012) [gruendung]
+  [PERSON] wird der gruendende Direktor des NYU Center for Data Science, einem der ersten universitaeren Data-Science-Programme in den USA.
+
+[H003] (2012) [lobbying]
+  [PERSON] und [PERSON] spendet persoenlich Millionen an politische Kampagnen, hauptsaechlich an Demokraten und Kandidaten, die Technologie-freundliche Politik unterstuetzen. [FIRMA]/[FIRMA] wird einer der groessten Lobbying-Akteure in Washington.
+
+[H004] (2012-01-01) [sonstiges]
+  ACM-Infosys Foundation Award - Auszeichnung für bedeutende Beiträge zur Informatik
+
+[H005] (2012-01-01) [sonstiges]
+  Received ACM Grace Murray Hopper Award (shared with Dina Katabi) for inventing software-defined networking (SDN), including OpenFlow API, OpenVswitch, and NOX/ONIX controllers
+
+[H006] (2012-01-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], online education platform that reached over 100 million learners worldwide
+
+[H007] (2012-02-01) [einstellung]
+  Joined [FIRMA] as software engineer
+
+[H008] (2012-03-19) [umstrukturierung] ($10,000,000,000)
+  [FIRMA] kuendigt erste Dividende seit 1995 und 10-Mrd.-Dollar-Aktienrueckkauf an
+
+[H009] (2012-04-09) [kauf] ($1,000,000,000)
+  [FIRMA] uebernimmt [FIRMA] fuer $1 Milliarde in bar und Aktien. [FIRMA] hatte zu diesem Zeitpunkt 13 Mitarbeiter und 30 Millionen Nutzer.
+
+[H010] (2012-04-09) [verkauf] ($1,000,000,000)
+  [FIRMA] acquired by [FIRMA] for $1 billion. [PERSON] served as CTO and scaled engineering team to over 450 people, helping grow platform to more than 1 billion monthly users.
+
+[H011] (2012-04-18) [gruendung] ($16,000,000)
+  [PERSON] und [PERSON] gruenden [FIRMA], eine Online-Lernplattform, die Kurse von Top-Universitaeten kostenlos oder zu niedrigen Kosten anbietet. [FIRMA] startet mit einem $16 Mio. Investment von Kleiner Perkins und New Enterprise Associates.
+
+[H012] (2012-05-01) [investition]
+  Personally invested $20 million in [FIRMA] as part of Series B funding
+
+[H013] (2012-05-14) [sonstiges]
+  [PERSON] repraesentiert die University of Warsaw beim International Collegiate Programming Contest (ICPC) und gewinnt eine Goldmedaille. Sein Team erreicht den zweiten Platz weltweit.
+
+[H014] (2012-05-18) [produktlaunch] ($104,000,000,000)
+  [FIRMA] geht an die Boerse mit einer Bewertung von $104 Milliarden -- zu diesem Zeitpunkt der groesste Tech-IPO der Geschichte. [PERSON] behaelt Kontrolle durch spezielle Aktienklassen.
+
+[H015] (2012-06-12) [sonstiges] ($100,000)
+  [PERSON] erhaelt das [PERSON] Fellowship mit 19 Jahren. Er fokussiert sich auf 3D-Druck zur Reduktion von Knappheit, mit dem Ziel, jedem mit einem 3D-Drucker zu ermoeglichen, Bildungshilfen, wissenschaftliche Grundausstattung und Werkzeuge herzustellen.
+
+[H016] (2012-06-20) [kauf] ($300,000,000)
+  Kauf von 98% der hawaiianischen Insel Lanai, um sie in ein Modell für ökologische Nachhaltigkeit zu verwandeln
+
+[H017] (2012-06-25) [verkauf] ($1,200,000,000)
+  [FIRMA] akquirierte Yammer fuer 1,2 Milliarden Dollar in bar. Dies war einer der schnellsten Unicorn-Exits im SaaS-Bereich und etablierte [PERSON] als erfolgreichen Serial Entrepreneur.
+
+[H018] (2012-06-26) [sonstiges]
+  [PERSON] und das [FIRMA] Brain Team veroeffentlichen die beruehmt gewordene Studie, in der ein neuronales Netz mit 16.000 Prozessoren lernt, Katzen in [FIRMA]-Videos zu erkennen -- ohne vorher mit gelabelten Daten trainiert worden zu sein (unsupervised learning).
+
+[H019] (2012-06-27) [produktlaunch]
+  [PERSON] stellt [FIRMA] Glass oeffentlich vor -- eine Augmented-Reality-Brille. Er traegt sie persoenlich bei oeffentlichen Events, inklusive einem spektakulaeren Fallschirmsprung-Stunt bei der [FIRMA] I/O 2012.
+
+[H020] (2012-06-30) [sonstiges] ($10,000)
+  [PERSON] gewinnt die globale Meisterschaft des [FIRMA] Code Jam 2012 und erhaelt $10,000 Preisgeld. Er toppte die Charts des weltweit fuehrenden Programmierwettbewerbs.
+
+[H021] (2012-07-23) [verkauf]
+  Nicira acquired by VMware for $1.26 billion ($1.05 billion in cash and $210 million in assumed unvested equity awards), becoming one of the largest acquisitions in networking history
+
+[H022] (2012-08-01) [einstellung]
+  Joined VMware as Fellow and CTO for Networking and Security, General Manager of Networking and Security Business Unit after Nicira acquisition
+
+[H023] (2012-08-27) [sonstiges]
+  Beförderung zum Senior Vice President Software Engineering - Verantwortung für iOS und macOS
+
+[H024] (2012-09-30) [sonstiges]
+  [PERSON]s Team (Krizhevsky, [PERSON], [PERSON]) gewinnt die ImageNet Large Scale Visual Recognition Challenge 2012 mit AlexNet, einem tiefen neuronalen Netz. Die Top-5-Fehlerrate von 15.3% uebertrifft die Konkurrenz um 10.8 Prozentpunkte -- ein historischer Durchbruch.
+
+[H025] (2012-09-30) [produktlaunch]
+  [PERSON], Alex Krizhevsky und [PERSON] entwickeln AlexNet, das die ImageNet LSVRC-2012-Konkurrenz mit grossem Vorsprung gewinnt. Dies loest die Deep-Learning-Revolution aus.
+
+[H026] (2012-11-01) [investition]
+  Raised $10 million from Index Ventures for Cue after rebranding from Greplin
+
+[H027] (2012-11-19) [einstellung]
+  Beitritt zu [FIRMA] ([FIRMA]) als General Partner

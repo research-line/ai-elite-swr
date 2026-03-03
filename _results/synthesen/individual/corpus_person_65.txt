@@ -1,0 +1,123 @@
+=== DATENKORPUS PERSON-65 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (2017-06-12, schriftlich)
+  "Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea."
+  Kontext: One of its authors, [PERSON], suspected that attention without recurrence would be sufficient for language translation, thus the title "attention is all you need". That hypothesis was against conventional wisdom at the time.
+
+[A002] (2017-06-12, schriftlich)
+  "Not everyone thought the transformer idea was going to rock the world, including [PERSON]'s father, who had scooped up two [FIRMA] Faculty research awards while his son was working for the company."
+  Kontext: Jakob's father Hans [PERSON], a well-known computational linguist, was skeptical about the transformer hypothesis despite his son's work at [FIRMA].
+
+[A003] (2017-06-12, schriftlich)
+  "The name "Transformer" was picked because [PERSON], one of the paper's authors, liked the sound of that word."
+  Kontext: The iconic name "Transformer" came from [PERSON]'s personal preference for the term.
+
+[A004] (2020-12-01, schriftlich)
+  "[PERSON]'s entrance into biology was sparked by two 2020 events: first, seeing millions of patients benefiting from mRNA-based COVID vaccines, and second, the breakthroughs in [FIRMA]'s [PRODUKT]2, which could predict three-dimensional protein structures from sequence data and was based on the Transformer."
+  Kontext: The convergence of mRNA vaccine success and [PRODUKT]2's breakthrough catalyzed [PERSON]'s pivot from AI language models to biological applications.
+
+[A005] (2023-08-01, muendlich)
+  "mRNA vaccines are just the beginning, similar to the basic 'print' function in software, with potential for more advanced biological "software", such as those with conditional and recursive functions."
+  Kontext: On No Priors podcast with [PERSON] and Elad Gil, [PERSON] compared current mRNA vaccines to basic software functions.
+
+[A006] (2023-08-01, muendlich)
+  "Model architectures will actually get simpler from here, and be driven by hardware."
+  Kontext: [PERSON] predicted that future model architectures will become simpler, driven by hardware constraints and capabilities.
+
+[A007] (2023-08-01, muendlich)
+  "The existing drug discovery approach is not scalable, and deep learning at scale could be the key to unlock innovations."
+  Kontext: [PERSON] explained why existing pharmaceutical discovery methods face scalability limitations.
+
+[A008] (2023-08-01, muendlich)
+  "We want to do that but with cells in your body."
+  Kontext: Referring to programming paradigms, [PERSON] envisions designing biological software that runs on cells.
+
+[A009] (2024-01-01, muendlich)
+  "Today's models of language have absolutely no connection to the extremely rich other aspects of the human experience."
+  Kontext: [PERSON] views current language models as "extremely advanced pattern matchers and pattern recognizers" that "cannot possibly relate to the depths of human emotions and the human experience."
+
+[A010] (2024-01-01, muendlich)
+  "The hope is that we will eventually get to the point where we can have fairly complex definitions or declarations of intended behaviour that are then successfully compiled into descriptions of molecules that exhibit those behaviours inside cells."
+  Kontext: In exclusive interview with Pharmaphorum, [PERSON] describes his vision for biological software that can compile intended behaviors into molecular designs.
+
+[A011] (2024-01-01, schriftlich)
+  "[PERSON] shares his journey from his "dream job" at [FIRMA] to the "messy" landscape of healthcare."
+  Kontext: [PERSON] described the transition from the structured world of tech to the complex reality of healthcare.
+
+[A012] (2024-05-01, muendlich)
+  "As synthetic biology enters the age of hyperscale powered by generative models, molecular learning, and programmable therapeutics, Jakob shared his vision for reimagining intelligence not just in machines, but in the molecules that power life."
+  Kontext: At SynBioBeta conference, [PERSON] discussed molecular intelligence beyond machine learning.
+
+[A013] (2024-07-12, muendlich)
+  "Maybe [FIRMA] here hasn't been able to be as daring as, you know, a much, much smaller company such as [FIRMA] when it comes to applying this technology to quite different types of products."
+  Kontext: In a 2024 CNBC interview, [PERSON] compared [FIRMA]'s cautious approach to [FIRMA]'s more daring application of AI technology.
+
+[A014] (2024-07-16, muendlich)
+  "There's so much positive potential to address some of the biggest challenges we are facing as a species — climate change, the next disease outbreak, the next pandemic."
+  Kontext: [PERSON] expressed optimism about AI's potential to tackle major global challenges.
+
+[A015] (2024-07-16, muendlich)
+  "The best way of limiting that danger is really to push the development of this technology in responsible ways forward, as fast as we can."
+  Kontext: [PERSON] argues for rapid but responsible development of AI technology as a risk mitigation strategy.
+
+[A016] (2024-10-22, muendlich)
+  "Deep learning has enabled major scientific breakthroughs despite going against traditional scientific theory and advocates for using AI not just to assist science but rather as an alternative approach to finding solutions."
+  Kontext: In his TED talk, [PERSON] highlighted how deep learning enables breakthroughs that bypass traditional scientific methods.
+
+[A017] (2024-10-22, muendlich)
+  "Certain problems may always remain beyond the abilities of human cognition, and highlights how deep learning has enabled major scientific breakthroughs despite going against traditional scientific approaches."
+  Kontext: [PERSON] believes AI can solve problems that are fundamentally beyond human cognitive capabilities.
+
+[A018] (2024-11-05, muendlich)
+  "People really like to see developments as revolutions... The truth is, revolutions basically never happen. What really happens is years and years of very hard work by lots of people, most heroes unsung, whose shoulders you stand on."
+  Kontext: Speaking at Frontiers Health conference in Berlin 2024, [PERSON] emphasized the cumulative nature of scientific progress.
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2006-06-01) [einstellung]
+  Interned at [FIRMA] Research in 2006 and 2007, working on clustering algorithms for machine translation and language modeling.
+
+[H002] (2007-06-30) [sonstiges]
+  Earned Master's degree in computer science and mathematics from Technische Universität Berlin.
+
+[H003] (2007-08-01) [einstellung]
+  Worked as a software engineer at Acrolinx, a provider of enterprise content governance, for approximately 12 months after graduation.
+
+[H004] (2008-03-01) [einstellung]
+  Joined [FIRMA] Brain in Berlin, contributing to early versions of [FIRMA] Translate.
+
+[H005] (2015-01-01) [sonstiges]
+  Managed the team responsible for the natural language query understanding system that underpins [FIRMA] Assistant and several other [FIRMA] products.
+
+[H006] (2017-06-12) [produktlaunch]
+  Co-authored "Attention Is All You Need" paper introducing the Transformer architecture, with 8 [FIRMA] researchers including [PERSON], [PERSON], [PERSON], [PERSON], Aidan N. [PERSON], Łukasz Kaiser, and [PERSON].
+
+[H007] (2020-10-22) [produktlaunch]
+  Co-authored "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" paper, extending Transformer architecture to computer vision.
+
+[H008] (2021-07-01) [ruecktritt]
+  Left [FIRMA] Brain after 13 years, becoming part of the "brain drain" of AI talent leaving big tech firms.
+
+[H009] (2021-07-01) [gruendung]
+  Co-founded Inceptive with [UNI] biochemist Rhiju Das to use deep learning and high-throughput experiments to design RNA-based medicines.
+
+[H010] (2022-01-01) [investition]
+  Inceptive secured Seed round funding of $20 million.
+
+[H011] (2023-01-01) [partnerschaft]
+  Inceptive partnered with a major European pharmaceutical company to co-develop a new infectious disease mRNA vaccine.
+
+[H012] (2023-09-06) [investition]
+  Inceptive raised $100 million in Series A funding led by [FIRMA] ([FIRMA]) and [FIRMA]'s NVentures, with participation from Obvious Ventures and Section 32, tripling valuation to over $300 million.
+
+[H013] (2024-05-01) [sonstiges]
+  Presented at SynBioBeta conference with founder John Cumbers on the intersection of AI and synthetic biology.
+
+[H014] (2024-10-22) [sonstiges]
+  Delivered TED talk titled "How AI Sidesteps Traditional Science" at TEDAI 2024 in San Francisco.
+
+[H015] (2024-11-05) [sonstiges]
+  Participated in fireside chat with Bart de Witte (HIPPO AI Foundation) at Frontiers Health 2024 in Berlin, discussing open-source models and data communities transforming drug discovery.

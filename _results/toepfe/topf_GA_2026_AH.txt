@@ -1,0 +1,308 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2026_AH
+Beschreibung: Jahrestopf 2026, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 56 Aussagen + 21 Handlungen = 77 gesamt
+Zeitraum Aussagen: 2026-01 bis 2026-02-11
+Zeitraum Handlungen: 2026-01-01 bis 2026-02-10
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (56 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2026-01, muendlich)
+  "We're investing more than $60 billion into AI this year, including a data center that would cover a significant part of Manhattan."
+  Kontext: Bekanntgabe der massiven KI-Investitionen fuer 2026.
+
+[A002] (2026-01-01, muendlich)
+  "AI is moving so quickly… it's going to require a level of innovation that we haven't yet seen"
+  Kontext: Speaking at Davos 2026 World Economic Forum Annual Meeting about AI's pace of development
+
+[A003] (2026-01-02, schriftlich)
+  "[FIRMA] seeks to be the best and most powerful way to code with AI. What are the ways in which we could be better?"
+  Kontext: Öffentliche Frage an die Community, um Feedback für Verbesserungen zu sammeln
+
+[A004] (2026-01-03, muendlich)
+  "The exponential continues until it doesn't. We have made do more with less a governing principle for [FIRMA]'s entire strategy. The next phase won't be won by the biggest pre-training runs alone, but by who can deliver the most capability per dollar of compute."
+  Kontext: CNBC Interview über [FIRMA]s Compute-Effizienz-Strategie und Zweifel an unbegrenztem exponentiellem Wachstum
+
+[A005] (2026-01-05, muendlich)
+  "AI is the most important technology of the last 50 years, and I can say it's absolutely our number one priority at [FIRMA]."
+  Kontext: CES 2026 Keynote - [PERSON] betont die zentrale Bedeutung von KI für [FIRMA] und die Industrie
+
+[A006] (2026-01-05, muendlich)
+  "AI is the most powerful technology that has ever been created. And it can be everywhere for everyone."
+  Kontext: CES 2026 - Su präsentiert Vision einer allumfassenden, zugänglichen KI
+
+[A007] (2026-01-05, muendlich)
+  "We will need 10 yottaflops of computing power by 2030 to support five billion AI users."
+  Kontext: CES 2026 - Su präsentiert Konzept der 'Yottascale era' für KI-Computing
+
+[A008] (2026-01-06, muendlich)
+  "The demand for AI is just incredible. It's going through the roof."
+  Kontext: Fox Business Interview über explodierende Nachfrage nach KI-Chips
+
+[A009] (2026-01-06, muendlich)
+  "Artificial intelligence has not slowed the pace of hiring at [FIRMA], but the candidates who have truly embraced the technology have become a priority."
+  Kontext: CNBC Interview - Su über KI's Einfluss auf Einstellungspolitik, KI als Enabler statt Ersatz
+
+[A010] (2026-01-06, muendlich)
+  "If you look at the history of robotics, it's very, very clear to me… that we've always been bottlenecked on intelligence."
+  Kontext: Discussion about the fundamental bottleneck in robotics development
+
+[A011] (2026-01-06, muendlich)
+  "You build this loosely brain-inspired thing that has a very general purpose learning algorithm. You feed the data, and it somehow gets it and gets it way better than anything we've ever had before."
+  Kontext: Expressing wonder at foundation model capabilities applying to robots, vision, language, and sound
+
+[A012] (2026-01-06, muendlich)
+  "There is no data of robots actually operating in the real world."
+  Kontext: Discussing challenges in robotics data collection compared to internet data for LLMs
+
+[A013] (2026-01-06, muendlich)
+  "They have these childhood periods, the adolescence period, where they're not very smart to begin with, but they have to learn from their own experience. And it doesn't come pre-baked. You kind of have to earn it on your own."
+  Kontext: Drawing analogy from biological learning in intelligent species like humans and crows to robot learning
+
+[A014] (2026-01-06, muendlich)
+  "Some tasks requiring a ton of generalization, like deploying in homes with privacy or safety concerns, may not be the best places to deploy just yet, but the aperture is growing as models improve."
+  Kontext: Discussing deployment considerations and safety concerns for general-purpose robots
+
+[A015] (2026-01-08, muendlich)
+  "It's good to scare people sometimes"
+  Kontext: Kommentar zu Trumps Drohungen gegen die Verteidigungsindustrie
+
+[A016] (2026-01-09, muendlich)
+  "The fundamental bet is that AGI is possible, and if we are right about that, then it will really change everything."
+  Kontext: CES 2026 Keynote bei [FIRMA] über die Zukunft von AGI
+
+[A017] (2026-01-09, muendlich)
+  "At the end of the day, what this technology is for is to benefit people."
+  Kontext: CES 2026 Keynote über den Zweck von KI-Technologie
+
+[A018] (2026-01-09, muendlich)
+  "The world is going to require far more compute than we have right now."
+  Kontext: CES 2026 Keynote bei [FIRMA] über zukünftige Compute-Anforderungen
+
+[A019] (2026-01-10, schriftlich)
+  "Every major technology shift eventually stops being about the technology and starts being about the systems around it. AI has begun to cross that threshold, with foundational capabilities firmly in place. This next phase is about making AI usable and productive across entire industries."
+  Kontext: CEO Blog-Post ueber die naechste Phase der AI-Entwicklung und Industrialisierung
+
+[A020] (2026-01-13, muendlich)
+  "Everyone's been focused on what models can do. But the real opportunity is teaching them what only humans know—judgment, nuance, and taste."
+  Kontext: Describing Mercor's mission to bridge machine learning and human nuance
+
+[A021] (2026-01-13, muendlich)
+  "AI isn't eliminating labor: it's reallocating it. As software automates repetitive white-collar tasks, humans will move up the value chain, teaching machines how to reason, decide, and create."
+  Kontext: Worldview on AI's impact on future of work and employment
+
+[A022] (2026-01-14, schriftlich)
+  "We built a browser with [PRODUKT-FAMILIE]-5.2 in [FIRMA]. It ran uninterrupted for one week. It's 3M+ lines of code across thousands of files. The rendering engine is from-scratch in Rust with HTML parsing, CSS cascade, layout, text shaping, paint, and a custom JS VM. It *kind of* works!"
+  Kontext: Demonstration der Fähigkeiten von [PRODUKT-FAMILIE]-5.2 und [FIRMA] durch Bau eines funktionsfähigen Browsers
+
+[A023] (2026-01-14, schriftlich)
+  "AI transformation lives or dies in customer success"
+  Kontext: On appointing first Chief Customer Officer
+
+[A024] (2026-01-14, schriftlich)
+  "We have parted ways with [PERSON]."
+  Kontext: [PERSON]'s announcement at Thinking Machines all-hands meeting about [PERSON]'s termination for alleged unethical conduct
+
+[A025] (2026-01-15, schriftlich)
+  "We have entered the Singularity."
+  Kontext: X-Post als Reaktion auf Fortschritte in KI-Tools und Automatisierung. [PERSON] sieht 2026 als Wendepunkt.
+
+[A026] (2026-01-19, muendlich)
+  "Investors should look for companies literally the best in the world at a thing, as opposed to those that are pretty good at a lot of things."
+  Kontext: Bloomberg-Feature über [FIRMA]'s KI-Investmentstrategie
+
+[A027] (2026-01-19, muendlich)
+  "It was like holding up a mirror. Many lawyers appreciated the unvarnished feedback, which mirrored the scrutiny they faced in courtrooms."
+  Kontext: Interview about early customer acquisition strategy
+
+[A028] (2026-01-20, muendlich)
+  "AI agents will run locally on your glasses, your wearable, your phone"
+  Kontext: Predicting the future of distributed AI computing across personal devices
+
+[A029] (2026-01-21, muendlich)
+  "AI is infrastructure. We are seeing the largest infrastructure buildout in human history."
+  Kontext: World Economic Forum in Davos 2026. Panel-Diskussion mit BlackRock CEO Larry Fink.
+
+[A030] (2026-01-22, schriftlich)
+  "The industry's current obsession with large language models is wrong-headed and will ultimately fail to solve many pressing problems. We should be betting on world models—a different type of AI that accurately reflects the dynamics of the real world."
+  Kontext: [UNI] Technology Review-Artikel ueber [PERSON]s Startup AMI Labs und seine Vision fuer die Zukunft der KI.
+
+[A031] (2026-01-22, muendlich)
+  "AI is probably a bubble, and I expect to see a correction over the next few years. However, I am an AI optimist who believes the free market will ultimately determine where the value is."
+  Kontext: CNBC-Interview als [FIRMA] Board Chairman über KI-Markt
+
+[A032] (2026-01-26, schriftlich)
+  "I believe we are entering a rite of passage, both turbulent and inevitable, which will test who we are as a species. Humanity is about to be handed almost unimaginable power, and it is deeply unclear whether our social, political, and technological systems possess the maturity to wield it."
+  Kontext: Einleitung seines 20.000-Woerter-Essays ueber KI-Risiken fuer Sicherheit, Wirtschaft und Demokratie
+
+[A033] (2026-01-26, schriftlich)
+  "We could summarize this as a 'country of geniuses in a datacenter.'"
+  Kontext: [FIRMA]pher fuer die Faehigkeiten zukuenftiger KI-Systeme, zentral in seiner Argumentation
+
+[A034] (2026-01-26, schriftlich)
+  "During the peak of worries about AI risk in 2023-2024, some of the least sensible voices rose to the top, often through sensationalistic social media accounts. These voices used off-putting language reminiscent of religion or science fiction, and called for extreme actions without having the evidence that would justify them."
+  Kontext: Abgrenzung von extremen Doomer-Positionen, Plaidoyer fuer sachlichen Umgang mit KI-Risiken
+
+[A035] (2026-01-26, schriftlich)
+  "The lesson is that we need to discuss and address risks in a realistic, pragmatic manner: sober, fact-based, and well equipped to survive changing tides."
+  Kontext: Forderung nach pragmatischem Ansatz bei KI-Governance
+
+[A036] (2026-01-27, muendlich)
+  "AI could make half of all entry-level white-collar jobs vanish within one to five years."
+  Kontext: Warnung am Weltwirtschaftsforum in Davos; Forderung nach staatlicher Umschulung
+
+[A037] (2026-01-27, schriftlich)
+  "The thing to worry about is a level of wealth concentration that will break society."
+  Kontext: [PERSON] als einer von sieben [FIRMA]-Gruendern, die 80% ihres Vermoegens zusagen
+
+[A038] (2026-02-02, muendlich)
+  "Anti-ICE protesters should be out there protesting for more [FIRMA]."
+  Kontext: Verteidigung von [FIRMA]s umstrittenen ICE-Vertraegen (Immigrations- und Grenzkontrollen). [PERSON] argumentiert, [FIRMA] schuetze Buergerrechte.
+
+[A039] (2026-02-03, muendlich)
+  "Intel is committed to building a world-class foundry that serves the growing need for leading-edge process technology, advanced packaging and manufacturing. Our No. 1 job is to listen to our customers and earn their trust by creating solutions to enable their success."
+  Kontext: Opening remarks at Intel Foundry Direct Connect event
+
+[A040] (2026-02-03, muendlich)
+  "Given the recent success of Panther Lake, customers are now knocking on my door to try out Intel foundry for the upcoming 18AP and 14A nodes."
+  Kontext: Interview at Cisco AI forum discussing foundry customer interest
+
+[A041] (2026-02-03, muendlich)
+  "I have just hired a GPU architect who is very good. Intel will still invest in GPUs."
+  Kontext: Announcing GPU strategy and architect hire at Cisco AI Summit
+
+[A042] (2026-02-04, muendlich)
+  "The world will be divided between AI haves and have-nots."
+  Kontext: Q4 Earnings Call. [PERSON] warnt vor Zurueckbleiben Europas und Kanadas im KI-Rennen.
+
+[A043] (2026-02-04, muendlich)
+  "AI is accelerating at a pace that I would not have imagined."
+  Kontext: CNBC Interview - Su über die rasante Entwicklung der KI-Technologie
+
+[A044] (2026-02-05, muendlich)
+  "India should not export flour to import bread. By owning the data (flour) and GPU clusters (bakery), nations can ensure their AI reflects their unique societal values and linguistic heritage."
+  Kontext: Panel-Diskussion in Indien. [PERSON] nutzt die Mehl/Brot-[FIRMA]pher fuer Datensouveraenitaet.
+
+[A045] (2026-02-06, schriftlich)
+  "We're launching [FIRMA] Compute, a massive strategic initiative to build the energy and data center infrastructure necessary to power superintelligence."
+  Kontext: Ankuendigung von Multi-Gigawatt-Rechenzentren fuer KI-Training.
+
+[A046] (2026-02-07, muendlich)
+  "The number of jobs that AI could do without help from people is vanishingly small. When hiring at [FIRMA], I look for people who are great communicators, have excellent emotional intelligence and people skills, and are kind, compassionate, and curious. The things that make us human will become much more important instead of much less important."
+  Kontext: ABC News Interview über die Bedeutung menschlicher Fähigkeiten im KI-Zeitalter und Einstellungskriterien bei [FIRMA]
+
+[A047] (2026-02-07, muendlich)
+  "Humans plus AI together actually create more meaningful work, more challenging work, more interesting work, and high-productivity jobs. Studying the humanities is going to be more important than ever, as understanding ourselves, understanding history, and understanding what makes us tick will always be really important."
+  Kontext: Fortune Interview über die Bedeutung von Geisteswissenschaften im KI-Zeitalter
+
+[A048] (2026-02-07, schriftlich)
+  "I'm deeply distraught with U.S. immigration policy. We have team members across the US on some form of Visa. I will personally advocate for you and will continue to lobby lawmakers on this issue."
+  Kontext: [PERSON] in einem internen Memo an [FIRMA]-Mitarbeiter bezueglich US-Einwanderungspolitik.
+
+[A049] (2026-02-09, muendlich)
+  "Some of these SaaS companies are going to be wiped out. They are going to focus on short-term revenue... not innovate... and then in a year or two, those businesses will go out of business."
+  Kontext: Interview über die Zukunft der SaaS-Industrie im KI-Zeitalter. Warnung vor kurzfristigem Denken.
+
+[A050] (2026-02-10, schriftlich)
+  "Enormous thanks to @elonmusk for bringing us together on this incredible journey. So proud of what the [FIRMA] team has done and will continue to stay close as a friend of the team."
+  Kontext: Departure message from [FIRMA]
+
+[A051] (2026-02-10, schriftlich)
+  "Grateful to have helped cofound at the start."
+  Kontext: Statement about role as [FIRMA] co-founder
+
+[A052] (2026-02-11, muendlich)
+  "In 10, 15 years' time, we'll be in a kind of new golden era of discovery that is a kind of new renaissance."
+  Kontext: Fortune-Interview im Februar 2026. [PERSON] beschreibt seine langfristige Vision einer KI-getriebenen wissenschaftlichen Renaissance.
+
+[A053] (2026-02-11, schriftlich)
+  "We are heading to an age of 100x productivity with the right tools."
+  Kontext: Statement upon [FIRMA] departure about AI productivity
+
+[A054] (2026-02-11, schriftlich)
+  "Recursive self improvement loops likely go live in the next 12mo."
+  Kontext: Prediction about AI recursive self-improvement upon leaving [FIRMA]
+
+[A055] (2026-02-11, schriftlich)
+  "2026 is gonna be insane and likely the busiest (and most consequential) year for the future of our species."
+  Kontext: Departure statement from [FIRMA]
+
+[A056] (2026-02-11, schriftlich)
+  "It's time to recalibrate my gradient on the big picture."
+  Kontext: [FIRMA]phorical statement about leaving [FIRMA] to reassess priorities
+
+------------------------------------------------------------------------
+HANDLUNGEN (21 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2026-01-01) [investition]
+  [FIRMA] schließt Finanzierungsrunde über $20+ Milliarden ab, Bewertung bei $350 Milliarden
+
+[H002] (2026-01-01) [einstellung]
+  Hired Eric Demers, former [FIRMA] CTO and Qualcomm Adreno lead, as Chief GPU Architect to challenge [FIRMA] in GPU market
+
+[H003] (2026-01-06) [investition] ($20,000,000,000)
+  [FIRMA] schliesst eine $20 Milliarden Series-E-Finanzierungsrunde ab mit Beteiligung von [FIRMA], Cisco und Fidelity. Bewertung: $230 Milliarden. Uebertrifft urspruengliches $15-Mrd.-Ziel.
+
+[H004] (2026-01-09) [investition] ($15,000,000,000)
+  [FIRMA] schliesst Fundraising-Runden im Wert von ueber $15 Milliarden ab, die groesste Kapitalbeschaffung in der Firmengeschichte. Die Fonds zielen auf KI-Infrastruktur ($1,7 Mrd.), Wachstumskapital ($6,75 Mrd.), American Dynamism und weitere Bereiche.
+
+[H005] (2026-01-09) [partnerschaft]
+  Öffentliches Auftreten bei [FIRMA] CEO [PERSON]s Keynote auf der CES 2026
+
+[H006] (2026-01-14) [produktlaunch]
+  Demonstration: Bau eines funktionsfähigen Browsers mit [PRODUKT-FAMILIE]-5.2 in [FIRMA] (FastRender, 3M+ Zeilen Code)
+
+[H007] (2026-01-14) [einstellung]
+  Appointed Mina Alaghband as first Chief Customer Officer to accelerate enterprise transformation with agentic AI
+
+[H008] (2026-01-14) [entlassung]
+  Terminated as CTO of [FIRMA] by [PERSON] for alleged unethical conduct involving sharing confidential information and undisclosed workplace relationship
+
+[H009] (2026-01-16) [einstellung]
+  Joined [FIRMA] as Chief Technology Officer (CTO)
+
+[H010] (2026-01-22) [umstrukturierung]
+  Übernahme der direkten Kontrolle über [FIRMA]s AI-Organisation - Neuausrichtung der KI-Strategie mit externen LLM-Integrationen
+
+[H011] (2026-01-22) [einstellung]
+  Rejoined [FIRMA] and appointed to lead enterprise AI sales efforts, heading push into corporate market
+
+[H012] (2026-01-26) [investition] ($2,000,000,000)
+  [FIRMA] investierte weitere 2 Milliarden Dollar in [FIRMA] im Januar 2026, verdoppelte seinen Anteil und wurde zweitgroesster Aktionaer. Die Aktien wurden mit 87,20 Dollar bewertet. Dies vertiefte die strategische Partnerschaft fuer 5 Gigawatt Rechenzentrumskapazitaet bis 2030.
+
+[H013] (2026-01-27) [spende] ($3,000,000,000)
+  [PERSON] verpflichtet sich gemeinsam mit den sechs anderen [FIRMA]-Mitgruendern, 80% seines Vermoegens (geschaetzt $3-7 Mrd.) fuer philanthropische Zwecke zu spenden, mit Fokus auf Bekaempfung KI-bedingter Ungleichheit und wirtschaftlicher Disruption.
+
+[H014] (2026-02-01) [umstrukturierung]
+  Die Chan [PERSON] Initiative entlaesst 70 Mitarbeiter und stellt Finanzierung fuer Bildung, Klimawandel und soziale Gerechtigkeit ein. Volle Fokussierung auf KI-getriebene biomedizinische Forschung und das Biohub-Netzwerk.
+
+[H015] (2026-02-02) [kauf] ($250,000,000,000)
+  [FIRMA] akquiriert [FIRMA] in einer All-Stock-Transaktion. [FIRMA] wird vollstaendige Tochtergesellschaft von [FIRMA]. [FIRMA]-Bewertung: $1 Billion, [FIRMA]-Bewertung: $250 Milliarden. Kombinierte Bewertung: $1,25 Billionen.
+
+[H016] (2026-02-02) [investition] ($50,000,000,000)
+  [FIRMA] plant massive Kapitalaufnahme von 45-50 Milliarden USD für AI-Cloud-Expansion durch Mischung aus Fremd- und Eigenkapital
+
+[H017] (2026-02-03) [partnerschaft]
+  Announced partnership with Amkor Technology to expand Intel Foundry advanced packaging capabilities for customers
+
+[H018] (2026-02-06) [investition] ($10,000,000,000)
+  [FIRMA] kuendigt '[FIRMA] Compute' an: eine massive Infrastruktur-Initiative mit Multi-Gigawatt-Rechenzentren. Das erste 'Prometheus'-Zentrum (1 GW) in Ohio, das groesste 'Hyperion' (5 GW, $10 Mrd.) in Louisiana.
+
+[H019] (2026-02-09) [investition]
+  Abschluss einer $5 Milliarden Finanzierungsrunde (davon $3B Equity, $2B Debt) bei $134 Milliarden Bewertung. Mehr als Verdopplung der Bewertung seit Series J.
+
+[H020] (2026-02-09) [investition]
+  Reportedly raising new round at $11 billion valuation just months after hitting $8 billion valuation, with $190 million annual revenue.
+
+[H021] (2026-02-10) [ruecktritt]
+  Resigned as co-founder from [FIRMA] after leading research, safety, and enterprise efforts

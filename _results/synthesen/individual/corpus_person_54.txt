@@ -1,0 +1,107 @@
+=== DATENKORPUS PERSON-54 ===
+
+--- AUSSAGEN (14 Stueck) ---
+
+[A001] (2020-01-01, schriftlich)
+  "I want to understand things clearly and explain them well."
+  Kontext: Motto auf seinem persoenlichen CV und Website
+
+[A002] (2020-03-10, schriftlich)
+  "Rather than typical interpretability approaches that aim to give simple explanations of entire neural networks, his approach is inspired by neuroscience and cellular biology—an approach of 'zooming in' where individual neurons, even individual weights, are treated as being worthy of serious investigation."
+  Kontext: Einfuehrung in die Circuits-Agenda, von Neurowissenschaft inspiriert
+
+[A003] (2020-12-31, schriftlich)
+  "Moving on from [FIRMA] to try something new. I'll still be doing lots of interpretability and sharing interesting things I find inside neural networks. :)"
+  Kontext: Ankuendigung seines Abgangs von [FIRMA], kurz vor Gruendung von [FIRMA]
+
+[A004] (2021-12-22, schriftlich)
+  "Missing the Distill Circuits Thread? My colleagues and I at @[FIRMA]AI are starting a similar project focused on transformer language models."
+  Kontext: Ankuendigung des Transformer Circuits Thread bei [FIRMA]
+
+[A005] (2022-03-01, schriftlich)
+  "If complete understanding of transformative AI systems isn't achieved, they could fall back to careful analysis of small slices—for example, understanding whether a model is being manipulative, which could still reduce safety concerns."
+  Kontext: Pragmatischer Ansatz: Partielle Interpretierbarkeit ist besser als gar keine
+
+[A006] (2022-06-15, muendlich)
+  "Chris calls his alternative vision of what an advanced AI system might look like 'microscope AI' since the AI is being used sort of like a microscope to learn about and build models of the world. In contrast with something like a tool or oracle AI that is designed to output useful information, the utility of a microscope AI wouldn't come from its output but rather our ability to look inside of it and access all of the implicit knowledge it learned."
+  Kontext: Konzeptualisierung einer alternativen AI-Architektur, die auf Transparenz statt Leistung setzt
+
+[A007] (2022-06-15, muendlich)
+  "Feature visualization, where you do gradient descent to create an image that causes a neuron to fire really strongly, is actually very effective."
+  Kontext: Erklaerung einer erfolgreichen Methode zur Visualisierung neuronaler Netzwerke
+
+[A008] (2022-09-01, schriftlich)
+  "The critical benefit of mechanistic interpretability is that you can truly determine whether statements are true, serving as an epistemic foundation where statements about circuits become questions of mathematical reasoning."
+  Kontext: Grundsatzpaper zur mechanischen Interpretierbarkeit auf transformer-circuits.pub
+
+[A009] (2023-03-14, schriftlich)
+  "Developing a visualization or tool that allows us to see the world in a new level of detail can lead to a new field of science developing to study the world through this lens."
+  Kontext: Visionaerer Essay ueber Zukunftsperspektiven der Interpretierbarkeitsforschung
+
+[A010] (2023-06-07, schriftlich)
+  "One of the ideas I find most useful from @[FIRMA]AI's Core Views on AI Safety post is thinking in terms of a distribution over safety difficulty."
+  Kontext: Endorsement von [FIRMA]s Ansatz zur Risikomodellierung
+
+[A011] (2023-10-05, schriftlich)
+  "If you'd asked me a year ago, superposition would have been by far the reason I was most worried that mechanistic interpretability would hit a dead end. I'm now very optimistic. I'd go as far as saying it's now primarily an engineering problem -- hard, but less fundamental risk."
+  Kontext: Tweet ueber Durchbruch bei Superposition-Problem in der Interpretierbarkeitsforschung
+
+[A012] (2024-05-01, schriftlich)
+  "If we could really understand these systems, and this would require a lot of progress, we might be able to go and say when these models are actually safe."
+  Kontext: TIME-Profil ueber [PERSON] als Pionier der mechanischen Interpretierbarkeit
+
+[A013] (2024-05-21, schriftlich)
+  "Eight months prior, they had demonstrated that sparse autoencoders could recover monosemantic features from a small one-layer transformer, but there was a major concern that this method might not scale feasibly to state-of-the-art transformers. The scaling work successfully addressed this concern by demonstrating the approach could work on larger, production-grade models."
+  Kontext: Durchbruch: Sparse Autoencoders funktionieren bei [PRODUKT] Sonnet, nicht nur bei Toy Models
+
+[A014] (2024-05-21, schriftlich)
+  "The team observed features related to a broad range of safety concerns, including deception, sycophancy, bias, and dangerous content."
+  Kontext: Praktische Anwendung: Features erkennen gefaehrliche Verhaltensweisen in LLMs
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2012-06-12) [sonstiges] ($100,000)
+  [PERSON] erhaelt das [PERSON] Fellowship mit 19 Jahren. Er fokussiert sich auf 3D-Druck zur Reduktion von Knappheit, mit dem Ziel, jedem mit einem 3D-Drucker zu ermoeglichen, Bildungshilfen, wissenschaftliche Grundausstattung und Werkzeuge herzustellen.
+
+[H002] (2015-06-17) [einstellung]
+  [PERSON] beginnt Internship bei [FIRMA] Brain und wird zweiter Autor auf dem DeepDream-Projekt. DeepDream wird zu einem Meilenstein der neuronalen Netzwerk-Visualisierung und loest eine kleine Kunstbewegung aus.
+
+[H003] (2017-03-01) [gruendung]
+  [PERSON] gruendet zusammen mit Shan Carter ([FIRMA] Brain) und Arvind Satyanarayan ([UNI] CSAIL) das wissenschaftliche Journal Distill. Unterstuetzung durch [FIRMA], [FIRMA], [FIRMA] und [FIRMA] Research. Distill fokussiert sich auf herausragende visuelle und interaktive Kommunikation von ML-Konzepten.
+
+[H004] (2017-11-07) [sonstiges]
+  Veroeffentlichung von 'Feature Visualization' auf Distill mit Alexander Mordvintsev und Ludwig Schubert. Das Paper erklaert, wie man durch Gradient Descent Beispiele generiert, die zeigen, wonach ein Neuron sucht.
+
+[H005] (2018-02-01) [sonstiges]
+  Veroeffentlichung von 'The Building Blocks of Interpretability' auf Distill (Februar 2018), ein Meilenstein der Interpretierbarkeits-forschung mit interaktiven Visualisierungen.
+
+[H006] (2018-05-01) [einstellung]
+  [PERSON] wechselt zu [FIRMA] und gruendet das Clarity Team innerhalb der Safety Division. Das Team fokussiert sich auf neuronale Netzwerk-Interpretierbarkeit und die Entwicklung von Abstraktionen, Schnittstellen und Methoden zum besseren Verstaendnis der internen Funktionsweise von KI-Modellen.
+
+[H007] (2019-03-06) [sonstiges]
+  Veroeffentlichung von 'Exploring Neural Networks with Activation Atlases' als Kollaboration zwischen [FIRMA] und [FIRMA]-Forschern. Activation Atlases erlauben die Inspektion neuronaler Netzwerk-Repraesentationen.
+
+[H008] (2020-03-10) [sonstiges]
+  Veroeffentlichung von 'Zoom In: An Introduction to Circuits' auf Distill. Einfuehrung der 'Circuits'-Agenda: Reverse-Engineering neuronaler Netzwerke durch detaillierte Untersuchung einzelner Neuronen und Gewichte.
+
+[H009] (2020-12-31) [ruecktritt]
+  [PERSON] kuendigt oeffentlich seinen Ruecktritt von [FIRMA] an. Er verspricht, weiterhin Interpretierbarkeitsforschung zu betreiben und interessante Entdeckungen in neuronalen Netzwerken zu teilen.
+
+[H010] (2021-01-28) [gruendung]
+  [PERSON] wird Mitgruender von [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON]. [PERSON] uebernimmt die Rolle des Interpretability Research Lead. Die Gruendung erfolgt durch sieben Ex-[FIRMA]-Mitarbeiter.
+
+[H011] (2021-12-22) [sonstiges]
+  Launch des Transformer Circuits Thread bei [FIRMA] als Nachfolger des Distill Circuits Thread. Das Projekt fokussiert sich auf mechanische Interpretierbarkeit von Transformer-Sprachmodellen.
+
+[H012] (2021-12-22) [sonstiges]
+  Veroeffentlichung von 'A Mathematical Framework for Transformer Circuits' mit Nelson Elhage, Neel Nanda, Catherine Olsson und anderen. [PERSON] ist Correspondence Author. Das Paper legt mathematische Grundlagen fuer das Reverse-Engineering von Transformern.
+
+[H013] (2023-10-04) [sonstiges]
+  Veroeffentlichung von 'Towards Monosemanticity: Decomposing Language Models With Dictionary Learning' auf Transformer Circuits Thread. Demonstration, dass Sparse Autoencoders monosemantische Features aus einem einfachen Ein-Layer-Transformer extrahieren koennen.
+
+[H014] (2024-05-21) [sonstiges]
+  Veroeffentlichung von 'Scaling Monosemanticity: Extracting Interpretable Features from [PRODUKT] Sonnet'. [PERSON] ist Co-Autor. Der Durchbruch zeigt, dass Sparse Autoencoders auf produktionsreifen LLMs funktionieren und Features zu Deception, Bias und gefaehrlichem Content identifizieren koennen.
+
+[H015] (2024-10-28) [sonstiges]
+  Veroeffentlichung von 'Sparse Crosscoders for Cross-Layer Features and Model Diffing' auf Transformer Circuits Thread. [PERSON] ist Co-Autor. Sparse Crosscoders sind eine Variante, die Features ueber mehrere Schichten von Modellen verstehen.

@@ -1,0 +1,132 @@
+=== DATENKORPUS PERSON-85 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (2024-01-01, muendlich)
+  "We will see billions of humanoids on the planet in our lifetime. There could be up to 10 billion humanoids on Earth in the coming decades."
+  Kontext: Prediction of 10 billion humanoid robots by 2040
+
+[A002] (2024-01-01, muendlich)
+  "I think we might see the advent of AGI [artificial general intelligence], and I think that's going to be really, really important for abundance and affordability."
+  Kontext: Philosophical discussion on AGI and future society
+
+[A003] (2024-01-01, schriftlich)
+  "Humanoid robotics is the next major technological revolution, a paradigm shift as profound as the advent of the internet itself."
+  Kontext: Comparing humanoid robotics revolution to internet revolution
+
+[A004] (2024-01-01, schriftlich)
+  "Figure will not teleoperate robots in the market. Products will only launch at scale when they are fully autonomous."
+  Kontext: Company policy against teleoperation, commitment to autonomy
+
+[A005] (2024-01-01, muendlich)
+  "I envision robots becoming companions with infinite context window for memory, capable of understanding emotional states from voice tone alone."
+  Kontext: Vision of home robotics with emotional AI capabilities
+
+[A006] (2024-01-01, muendlich)
+  "I envision a world where humanoids handle 50% of global labor—repairing infrastructure, building homes, even wiping toddlers' noses."
+  Kontext: Vision of extensive robot integration in daily life
+
+[A007] (2024-04-17, muendlich)
+  "Rather than viewing robotics as primarily a job displacement threat, there's a huge labor crisis that's going on that's really not well reported. I want to help solve that through robots that fill gaps in the workforce rather than replacing it."
+  Kontext: Discussion on labor shortages and robotics role
+
+[A008] (2024-06-01, muendlich)
+  "The home is like single-digit years away from being a place where humanoid robots can do useful work. In time, the humanoid robot will be the ultimate deployment vector for AGI."
+  Kontext: Around the Prompt podcast, discussing timeline for home robotics
+
+[A009] (2024-06-01, muendlich)
+  "Eventually, physical labor will be optional. You'll choose to do it, or you'll ask your Figure robot to do it. The world was built for humans. So if we can create a robot that interacts with it in the same way, we can automate a huge range of tasks."
+  Kontext: TIME Magazine profile on most influential AI people 2024
+
+[A010] (2024-06-01, muendlich)
+  "We're in a Goldilocks scenario for AI. This is the first time in human history when this is all possible."
+  Kontext: On current opportunities in AI development
+
+[A011] (2025-02-04, schriftlich)
+  "Today, I made the decision to leave our Collaboration Agreement with [FIRMA]. Figure made a major breakthrough on fully end-to-end robot AI, built entirely in-house. We're excited to show you in the next 30 days something no one has ever seen on a humanoid."
+  Kontext: X/[PLATTFORM] announcement of ending [FIRMA] collaboration
+
+[A012] (2025-02-04, schriftlich)
+  "We found that to solve embodied AI at scale in the real world, you have to vertically integrate robot AI. LLMs are getting smarter yet more commoditized. For us, LLMs have quickly become the smallest piece of the puzzle."
+  Kontext: Explanation for ending [FIRMA] partnership, emphasizing vertical integration
+
+[A013] (2025-02-04, schriftlich)
+  "Figure's AI models are built entirely in-house, making external AI partnerships not just cumbersome but ultimately irrelevant to our success."
+  Kontext: Company statement on independent AI development strategy
+
+[A014] (2025-10-01, muendlich)
+  "We're building a new species here. A future where robots could reproduce and share knowledge with one another could be close at hand."
+  Kontext: Interview at Salesforce Dreamforce conference, October 2025
+
+[A015] (2025-10-01, muendlich)
+  "One of the things I'm excited about is self-replicating von Neumann probes in space. I think it will happen in our lifetime."
+  Kontext: Interview at Salesforce Dreamforce conference, discussing space colonization
+
+[A016] (2025-10-01, muendlich)
+  "Robots where they can build themselves, mine methane on different planets, and create more of themselves to colonize the galaxy. I believe this will happen in our lifetime."
+  Kontext: Discussing space colonization through self-replicating robots
+
+[A017] (2025-11-01, muendlich)
+  "Most major competitors are putting out most of their content and updates tele-opt from a human."
+  Kontext: Nikhil Kamath's WTF podcast, November 2025, criticizing competitors
+
+[A018] (2025-12-01, schriftlich)
+  "We're building human-centric AI that can think proactively, recursively improve, and care deeply about people."
+  Kontext: Announcement of Hark AI lab mission statement
+
+
+--- HANDLUNGEN (18 Stueck) ---
+
+[H001] (2013-01-01) [gruendung]
+  Co-founded Vettery, a talent marketplace matching job seekers with employers needing technical expertise
+
+[H002] (2018-02-20) [verkauf]
+  Sold Vettery to Adecco Group for $100 million
+
+[H003] (2018-10-01) [gruendung]
+  Co-founded Archer Aviation, an eVTOL (electric vertical takeoff and landing) aircraft company
+
+[H004] (2021-02-01) [investition]
+  Secured $1 billion investment from United Airlines for Archer Aviation urban air mobility services
+
+[H005] (2021-04-01) [ruecktritt]
+  Stepped down from co-CEO role at Archer Aviation, leaving Adam Goldstein as sole CEO
+
+[H006] (2021-09-01) [produktlaunch]
+  Took Archer Aviation public on NYSE with $2.7 billion valuation and $860 million cash proceeds
+
+[H007] (2022-05-01) [gruendung]
+  Founded [FIRMA], artificial intelligence startup developing general-purpose humanoid robots
+
+[H008] (2022-06-01) [einstellung]
+  Assembled [FIRMA] team from Boston Dynamics, [FIRMA], [FIRMA] and [FIRMA] engineers
+
+[H009] (2023-05-01) [investition]
+  Secured $70 million Series A funding led by Parkway Venture Capital at $500 million valuation
+
+[H010] (2023-05-01) [produktlaunch]
+  Figure 01 robot took first walking steps, achieving milestone in less than one year from company inception
+
+[H011] (2024-01-01) [partnerschaft]
+  Announced commercial agreement with BMW Manufacturing to deploy humanoid robots in automotive production
+
+[H012] (2024-02-01) [investition]
+  Raised $675 million Series B funding at $2.6 billion valuation from [FIRMA], [FIRMA], [FIRMA], [FIRMA], Intel Capital, [PERSON]
+
+[H013] (2024-08-01) [produktlaunch]
+  Unveiled Figure 02, second-generation robot with upgraded hardware, 16-joint hands, enhanced sensors
+
+[H014] (2024-12-01) [produktlaunch]
+  Delivered first robots to commercial client, transitioning from research to deployment
+
+[H015] (2025-02-04) [partnerschaft]
+  Terminated collaboration agreement with [FIRMA], citing in-house breakthrough in end-to-end robot AI
+
+[H016] (2025-09-01) [investition]
+  Closed Series C funding exceeding $1 billion at $39 billion post-money valuation (15x increase in 18 months)
+
+[H017] (2025-10-09) [produktlaunch]
+  Unveiled Figure 03, third-generation humanoid robot redesigned for mass manufacturing and home environments
+
+[H018] (2025-12-01) [gruendung]
+  Launched Hark AI lab with $100 million personal funding to build human-centric AI, hired 30+ engineers from [FIRMA], [FIRMA], [FIRMA]

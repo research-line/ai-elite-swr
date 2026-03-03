@@ -1,0 +1,127 @@
+=== DATENKORPUS PERSON-90 ===
+
+--- AUSSAGEN (19 Stueck) ---
+
+[A001] (2022-07-12, schriftlich)
+  "By leveraging environment feedback, LLMs are able to form an inner monologue that allows them to more richly process and plan in robotic control scenarios."
+  Kontext: Core concept from Inner Monologue paper on using language models for robot planning
+
+[A002] (2022-07-12, schriftlich)
+  "Closed-loop language feedback significantly improves high-level instruction completion on three domains, including simulated and real tabletop rearrangement tasks and long-horizon mobile manipulation tasks."
+  Kontext: Research findings from Inner Monologue paper
+
+[A003] (2023-07-28, schriftlich)
+  "RT-2 shows improved generalization capabilities and semantic and visual understanding beyond the robotic data it was exposed to, including interpreting new commands and responding to user commands by performing rudimentary reasoning."
+  Kontext: Describing capabilities of RT-2 vision-language-action model
+
+[A004] (2023-12-28, schriftlich)
+  "This is to 2024 being the year of robotics."
+  Kontext: Celebrating remarkable progress in robotics research over 2024
+
+[A005] (2024-01-04, schriftlich)
+  "Foundation models 🤝 robots at scale. We show how to use VLMs and LLMs to orchestrate a fleet of robots and allow 1:5 human:robot ratio."
+  Kontext: Announcing AutoRT research showing large-scale robot orchestration using foundation models
+
+[A006] (2024-01-04, schriftlich)
+  "Fun fact: you can now literally write Asimov's laws into the [robot constitution]."
+  Kontext: Discussing AutoRT Robot Constitution feature allowing operational guideposts for safety
+
+[A007] (2024-01-16, schriftlich)
+  "Task generalization becomes feasible when representing tasks through rough trajectory sketches."
+  Kontext: Key insight from RT-Trajectory ICLR 2024 paper
+
+[A008] (2024-01-23, schriftlich)
+  "AutoRT leverages vision-language models (VLMs) for scene understanding and grounding, and further uses large language models (LLMs) for proposing diverse and novel instructions to be performed by a fleet of robots."
+  Kontext: Description of AutoRT system architecture
+
+[A009] (2024-01-23, schriftlich)
+  "The data collected by AutoRT is significantly more diverse, and AutoRT's use of LLMs allows for instruction following data collection robots that are aligned with human preferences."
+  Kontext: Benefits of AutoRT for robotic data collection
+
+[A010] (2024-10-31, muendlich)
+  "What we're doing is not just a brain for any particular robot, it's a single generalist brain that can control any robot."
+  Kontext: Statement about [FIRMA] mission and π0 foundation model
+
+[A011] (2024-10-31, muendlich)
+  "There are many reasons [for using laundry folding]: everyone understands if it's done well, it's easy to reset, it can be arbitrarily long, and it's easy to generate diverse data."
+  Kontext: Explaining choice of laundry folding as evaluation task for π0 model
+
+[A012] (2024-10-31, schriftlich)
+  "π0 is a general-purpose robot foundation model trained on broad and diverse data that can follow various text instructions, spanning images, text, and actions, and acquires physical intelligence by training on embodied experience from robots."
+  Kontext: Description of [FIRMA] π0 foundation model
+
+[A013] (2024-10-31, muendlich)
+  "Our demo video was not scripted or teleoperated."
+  Kontext: Confirming authenticity of π0 demonstration videos
+
+[A014] (2024-11-04, muendlich)
+  "It's just like the whole thing works, it's kind of mind-blowing."
+  Kontext: Expressing excitement about foundation models unlocking general-purpose robotics
+
+[A015] (2026-01-06, muendlich)
+  "If you look at the history of robotics, it's very, very clear to me… that we've always been bottlenecked on intelligence."
+  Kontext: Discussion about the fundamental bottleneck in robotics development
+
+[A016] (2026-01-06, muendlich)
+  "You build this loosely brain-inspired thing that has a very general purpose learning algorithm. You feed the data, and it somehow gets it and gets it way better than anything we've ever had before."
+  Kontext: Expressing wonder at foundation model capabilities applying to robots, vision, language, and sound
+
+[A017] (2026-01-06, muendlich)
+  "There is no data of robots actually operating in the real world."
+  Kontext: Discussing challenges in robotics data collection compared to internet data for LLMs
+
+[A018] (2026-01-06, muendlich)
+  "They have these childhood periods, the adolescence period, where they're not very smart to begin with, but they have to learn from their own experience. And it doesn't come pre-baked. You kind of have to earn it on your own."
+  Kontext: Drawing analogy from biological learning in intelligent species like humans and crows to robot learning
+
+[A019] (2026-01-06, muendlich)
+  "Some tasks requiring a ton of generalization, like deploying in homes with privacy or safety concerns, may not be the best places to deploy just yet, but the aperture is growing as models improve."
+  Kontext: Discussing deployment considerations and safety concerns for general-purpose robots
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2018-05-01) [sonstiges]
+  Completed PhD in Computer Science at USC focused on interactive perception, reinforcement learning, and probabilistic state estimation for robotics
+
+[H002] (2022-04-04) [produktlaunch]
+  Co-authored SayCan paper "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances" combining LLMs with robot affordances
+
+[H003] (2022-07-12) [produktlaunch]
+  Co-authored Inner Monologue paper on embodied reasoning through planning with language models for robotic control
+
+[H004] (2023-01-01) [einstellung]
+  Appointed adjunct professor at [UNI] University, co-teaching CS 224R Deep Reinforcement Learning with Chelsea Finn
+
+[H005] (2023-07-28) [produktlaunch]
+  Co-authored RT-2 (Robotic Transformer 2) at [FIRMA], first vision-language-action model translating vision and language into robotic actions
+
+[H006] (2024-01-01) [gruendung]
+  Co-founded [FIRMA] with Sergey Levine, Chelsea Finn, Brian Ichter, Adnan Esmail, and Lachy Groom to build foundation models for general-purpose robotics
+
+[H007] (2024-01-01) [ruecktritt]
+  Left position as Staff Research Scientist at [FIRMA] to co-found [FIRMA]
+
+[H008] (2024-01-01) [ruecktritt]
+  Left adjunct professorship at [UNI] University where he co-taught CS 224R on deep reinforcement learning
+
+[H009] (2024-01-01) [einstellung]
+  Became CEO of [FIRMA], leading company mission to bring general-purpose AI into the physical world
+
+[H010] (2024-01-16) [produktlaunch]
+  Published RT-Trajectory paper at ICLR 2024 introducing hindsight trajectory sketches for robotic task generalization
+
+[H011] (2024-01-23) [produktlaunch]
+  Published AutoRT paper demonstrating large-scale robot fleet orchestration with 1:5 human-to-robot supervision ratio across 50+ robots collecting 77k episodes
+
+[H012] (2024-03-01) [spende]
+  [FIRMA] raised $70M seed funding from Thrive Capital (lead), [PERSON] Ventures, Lux Capital, [FIRMA], and [FIRMA] Capital
+
+[H013] (2024-10-31) [produktlaunch]
+  Launched π0 (pi-zero), [FIRMA] first generalist robot foundation model capable of controlling any robot for diverse tasks including laundry folding
+
+[H014] (2024-11-04) [spende]
+  [FIRMA] raised $400M Series A at $2.4B valuation from [PERSON], [FIRMA], Thrive Capital, Lux Capital, Bond Capital, [PERSON] Ventures, and [FIRMA] Capital
+
+[H015] (2025-11-20) [spende]
+  [FIRMA] raised $600M Series B at $5.6B valuation led by CapitalG ([FIRMA] growth fund) with Lux Capital, Bond, Redpoint, [FIRMA], T. Rowe Price, and [FIRMA]

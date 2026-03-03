@@ -1,0 +1,127 @@
+=== DATENKORPUS PERSON-94 ===
+
+--- AUSSAGEN (19 Stueck) ---
+
+[A001] (2014-01-01, schriftlich)
+  "I wish I still owned [FIRMA] now."
+  Kontext: Regretting 2006 sale to Condé Nast, site exceeded expectations
+
+[A002] (2016-11-24, schriftlich)
+  "As the CEO, I shouldn't play such games, and it's all fixed now."
+  Kontext: Apologizing for secretly editing user comments criticizing him
+
+[A003] (2017-01-01, schriftlich)
+  "I need to own a motorcycle because everybody else is screwed."
+  Kontext: Inspired by 'Deep Impact' scene of escaping through stalled traffic
+
+[A004] (2017-01-25, schriftlich)
+  "If the world ends — and not even if the world ends, but if we have trouble — getting contacts or glasses is going to be a huge pain in the ass."
+  Kontext: Explaining why he got laser eye surgery as apocalypse preparation
+
+[A005] (2017-01-25, schriftlich)
+  "I think, to some degree, we all collectively take it on faith that our country works, that our currency is valuable, the peaceful transfer of power—that all of these things that we hold dear work because we believe they work. While I do believe they're quite resilient, and we've been through a lot, certainly we're going to go through a lot more."
+  Kontext: Discussing concerns about American political stability
+
+[A006] (2017-01-25, schriftlich)
+  "Happy to help others, but not wanting to require others."
+  Kontext: Describing his interpretation of 'radical self-reliance' from Burning Man
+
+[A007] (2018-01-01, schriftlich)
+  "Neither Alexis nor I created [FIRMA] to be a bastion of free speech, but rather as a place where open and honest discussion can happen."
+  Kontext: Clarifying [FIRMA]'s purpose regarding free speech
+
+[A008] (2018-01-01, schriftlich)
+  "[FIRMA] is a place for open and honest conversations—'open and honest' meaning authentic, meaning messy, meaning the best and worst and realest and weirdest parts of humanity."
+  Kontext: 2018 statement on [FIRMA]'s commitment to free expression
+
+[A009] (2018-07-02, schriftlich)
+  "We are not the thought police … but we do care about how you behave."
+  Kontext: Interview on content moderation philosophy
+
+[A010] (2021-02-18, schriftlich)
+  "WallStreetBets may look sophomoric or chaotic from the outside, but the fact that we are here today means they've managed to raise important issues about fairness and opportunity in our financial system."
+  Kontext: Testimony before House Financial Services Committee
+
+[A011] (2021-02-18, schriftlich)
+  "WallStreetBets is first and foremost a real community. The self-deprecating jokes, the memes, the crass-at-times language, all reflect this."
+  Kontext: Defending WallStreetBets during GameStop congressional hearing
+
+[A012] (2023-06-01, schriftlich)
+  "What I'm suggesting as a pathway out is actually more democracy. We've got some old, legacy decisions on how communities are run that we need to kind of work our way out of."
+  Kontext: Discussing changes to moderator governance during 2023 protests
+
+[A013] (2023-06-15, schriftlich)
+  "The people who get there first get to stay there and pass it down to their descendants, and that is not democratic."
+  Kontext: Criticizing moderator system during API protest, calling it undemocratic
+
+[A014] (2023-06-15, schriftlich)
+  "[FIRMA] was never designed to support third-party apps."
+  Kontext: Defending API pricing changes that killed third-party apps
+
+[A015] (2024-01-01, schriftlich)
+  "If I like it, there are millions of people just like me so they'll also like it."
+  Kontext: Explaining his product development philosophy
+
+[A016] (2024-03-01, schriftlich)
+  "The paradox I see is that, as more content on the internet is written by machines, there's an increasing premium on content that comes from real people."
+  Kontext: Company earnings call discussing AI data licensing strategy
+
+[A017] (2024-03-21, schriftlich)
+  "First of all, I love wallstreetbets. I'm a user, I've seen their comments over the last couple of weeks so I just send them my regards."
+  Kontext: On [FIRMA] IPO day, revealing his membership in WallStreetBets
+
+[A018] (2025-01-01, schriftlich)
+  "[FIRMA] is the most human place on the internet."
+  Kontext: Positioning [FIRMA] against AI-generated content ('AI slop')
+
+[A019] (2025-08-01, muendlich)
+  "You can't have artificial intelligence without actual intelligence."
+  Kontext: Q2 earnings call 2025, discussing AI's dependence on human knowledge
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2005-06-01) [gruendung]
+  Co-founded [FIRMA] with Alexis Ohanian after [FIRMA] acceptance, programmed entire site in Lisp in 20 days
+
+[H002] (2006-10-31) [verkauf]
+  Sold [FIRMA] to Condé Nast for reported $10-20 million at age 23
+
+[H003] (2009-01-01) [ruecktritt]
+  Left [FIRMA] as acting CEO after Condé Nast acquisition
+
+[H004] (2010-08-01) [gruendung]
+  Co-founded Hipmunk travel search startup with Adam Goldstein as CTO
+
+[H005] (2015-07-10) [einstellung]
+  Returned to [FIRMA] as CEO, replacing Ellen Pao after moderator revolt
+
+[H006] (2016-11-23) [sonstiges]
+  Secretly edited user comments criticizing him (u/spez) on r/The_Donald, replacing his username with moderator names
+
+[H007] (2021-02-18) [sonstiges]
+  Testified before House Financial Services Committee defending WallStreetBets during GameStop meme stock surge
+
+[H008] (2023-04-01) [umstrukturierung]
+  Announced major API pricing changes requiring third-party apps to pay for access
+
+[H009] (2023-06-30) [sonstiges]
+  Implemented API changes despite massive protest, killing major third-party apps
+
+[H010] (2024-02-01) [partnerschaft]
+  Signed data licensing deal with [FIRMA] worth $60 million per year for AI training
+
+[H011] (2024-03-01) [verkauf]
+  Sold 500,000 [FIRMA] shares during IPO process for estimated $17 million
+
+[H012] (2024-03-21) [produktlaunch]
+  Led [FIRMA]'s Initial Public Offering (IPO) at $34 per share
+
+[H013] (2024-05-16) [partnerschaft]
+  Signed data licensing partnership with [FIRMA] worth estimated $70 million per year
+
+[H014] (2025-02-14) [produktlaunch]
+  Announced plans to launch paid subreddits and contributor monetization features
+
+[H015] (2025-11-01) [sonstiges]
+  Achieved billionaire status as [FIRMA] stock soared after earnings report

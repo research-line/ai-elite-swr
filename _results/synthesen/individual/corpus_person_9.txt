@@ -1,0 +1,162 @@
+=== DATENKORPUS PERSON-9 ===
+
+--- AUSSAGEN (27 Stueck) ---
+
+[A001] (2023-07-26, schriftlich)
+  "The single most important thing to understand about AI is how fast it is moving."
+  Kontext: Schriftliche Aussage vor dem Senate Judiciary Subcommittee on Privacy, Technology and the Law
+
+[A002] (2023-07-26, schriftlich)
+  "[FIRMA] is concerned that AI could empower a much larger set of actors to misuse biology. Today, certain steps in bioweapons production involve knowledge that can't be found on [FIRMA] or in textbooks. [...] a straightforward extrapolation of today's systems to those we expect to see in 2 to 3 years suggests a substantial risk that AI systems will be able to fill in all the missing pieces, enabling many more actors to carry out large-scale biological attacks."
+  Kontext: Warnung vor mittelfristigen Biorisiken durch KI, vor US-Senatoren
+
+[A003] (2023-08-08, muendlich)
+  "We really have very little idea what we're talking about."
+  Kontext: Podcast-Gespraech ueber Alignment und Interpretierbarkeit; Demut bezueglich eigener Wissensgrenzen
+
+[A004] (2023-11-01, muendlich)
+  "It is entirely possible for something to go catastrophically wrong on the scale of human civilisation."
+  Kontext: Rede bei Bletchley Park AI Safety Summit; Vorstellung der Responsible Scaling Policy
+
+[A005] (2024-10-01, schriftlich)
+  "I think and talk a lot about the risks of powerful AI. In fact, one of my main reasons for focusing on risks is that they're the only thing standing between us and what I see as a fundamentally positive future."
+  Kontext: Einleitung seines 14.000-Woerter-Essays ueber die positiven Potenziale von KI
+
+[A006] (2024-10-01, schriftlich)
+  "Most people are underestimating just how radical the upside of AI could be, just as I think most people are underestimating how bad the risks could be."
+  Kontext: Essay-Abschnitt ueber die Einschaetzung des KI-Potenzials
+
+[A007] (2024-10-01, schriftlich)
+  "I'll refer to this as the 'compressed 21st century': the idea that after powerful AI is developed, we will in a few years make all the progress in biology and medicine that we would have made in the whole 21st century."
+  Kontext: Zentrales Konzept des Essays: KI beschleunigt wissenschaftlichen Fortschritt dramatisch
+
+[A008] (2024-10-01, schriftlich)
+  "I think it is critical to have a genuinely inspiring vision of the future. [...] there has to be something we're fighting for, some positive-sum outcome where everyone is better off. [...] Fear is one kind of motivator, but it's not enough: we need hope as well."
+  Kontext: Abschliessende Reflexion des Essays ueber die Rolle von Hoffnung vs. Angst
+
+[A009] (2024-11-11, muendlich)
+  "As much as I am excited about the benefits of these models, and we'll talk about that if we talk about Machines of Loving Grace, I'm worried about the risks and I continue to be worried about the risks."
+  Kontext: 5+ Stunden Podcast-Gespraech mit Lex Fridman; [PERSON] reflektiert ueber Chancen und Risiken
+
+[A010] (2024-11-11, muendlich)
+  "The real reason for leaving, is that it is incredibly unproductive to try and argue with someone else's vision. [...] Take some people you trust and go make your vision happen."
+  Kontext: Erklaerung seines Abgangs von [FIRMA]; widerspricht Narrativ ueber [FIRMA] als Grund
+
+[A011] (2025-01-23, muendlich)
+  "I see a form of AI that's better than almost all humans at almost all tasks emerging in the next two or three years."
+  Kontext: Interview bei CNBC am Rande des Weltwirtschaftsforums in Davos
+
+[A012] (2025-02-11, schriftlich)
+  "We must ensure democratic societies lead in AI, and that authoritarian countries do not use it to establish global military dominance."
+  Kontext: Offizielle Stellungnahme zum Paris AI Action Summit; [PERSON] nannte den Gipfel eine 'missed opportunity'
+
+[A013] (2025-04-24, schriftlich)
+  "People outside the field are often surprised and alarmed to learn that we do not understand how our own AI creations work. They are right to be concerned: this lack of understanding is essentially unprecedented in the history of technology."
+  Kontext: Essay ueber die Dringlichkeit, KI-Systeme interpretierbar zu machen
+
+[A014] (2025-04-24, schriftlich)
+  "We are thus in a race between interpretability and model intelligence."
+  Kontext: Kernthese des Essays: Interpretierbarkeit muss mit der Modellentwicklung Schritt halten
+
+[A015] (2025-04-24, schriftlich)
+  "The progress of the underlying technology is inexorable, driven by forces too powerful to stop, but the way in which it happens -- the order in which things are built, the applications we choose, and the details of how it is rolled out to society -- are eminently possible to change. [...] We can't stop the bus, but we can steer it."
+  Kontext: Pragmatische Position: KI-Entwicklung nicht aufhaltbar, aber gestaltbar
+
+[A016] (2025-05-29, muendlich)
+  "AI is starting to get better than humans at almost all intellectual tasks, and we're going to collectively, as a society, grapple with it."
+  Kontext: CNN-Interview ueber Arbeitsmarktauswirkungen von KI
+
+[A017] (2025-05-29, muendlich)
+  "If AI creates huge total wealth, a lot of that will, by default, go to the AI companies and less to ordinary people."
+  Kontext: CNN-Interview; [PERSON] schlaegt Besteuerung von KI-Firmen vor
+
+[A018] (2025-05-29, muendlich)
+  "It's eerie the extent to which the broader public and politicians, legislators, I don't think, are fully aware of what's going on."
+  Kontext: CNN-Interview; [PERSON] drueckt Frustration ueber mangelndes Bewusstsein aus
+
+[A019] (2025-09-17, muendlich)
+  "I think there's a 25% chance that things go really, really badly."
+  Kontext: Axios AI+ DC Summit; Antwort auf Frage nach seinem 'p(doom)'-Wert
+
+[A020] (2025-11-16, muendlich)
+  "I think I'm deeply uncomfortable with these decisions being made by a few companies, by a few people."
+  Kontext: CBS 60 Minutes Interview mit Anderson Cooper; Forderung nach staerkerer Regulierung
+
+[A021] (2025-11-16, muendlich)
+  "AI is advancing too head-spinningly fast. I believe that these systems could change the world, fundamentally, within two years; in 10 years, all bets are off."
+  Kontext: CBS 60 Minutes Interview, Einschaetzung des Tempos der KI-Entwicklung
+
+[A022] (2025-12-03, muendlich)
+  "I think there are some players who are not managing that risk well or taking unwise risk. [...] There's an inherent risk when the timing of the economic value is uncertain."
+  Kontext: NYT DealBook Summit; [PERSON] kommentiert KI-Blase und Spending-Risiken der Konkurrenz
+
+[A023] (2026-01-26, schriftlich)
+  "I believe we are entering a rite of passage, both turbulent and inevitable, which will test who we are as a species. Humanity is about to be handed almost unimaginable power, and it is deeply unclear whether our social, political, and technological systems possess the maturity to wield it."
+  Kontext: Einleitung seines 20.000-Woerter-Essays ueber KI-Risiken fuer Sicherheit, Wirtschaft und Demokratie
+
+[A024] (2026-01-26, schriftlich)
+  "We could summarize this as a 'country of geniuses in a datacenter.'"
+  Kontext: [FIRMA]pher fuer die Faehigkeiten zukuenftiger KI-Systeme, zentral in seiner Argumentation
+
+[A025] (2026-01-26, schriftlich)
+  "During the peak of worries about AI risk in 2023-2024, some of the least sensible voices rose to the top, often through sensationalistic social media accounts. These voices used off-putting language reminiscent of religion or science fiction, and called for extreme actions without having the evidence that would justify them."
+  Kontext: Abgrenzung von extremen Doomer-Positionen, Plaidoyer fuer sachlichen Umgang mit KI-Risiken
+
+[A026] (2026-01-26, schriftlich)
+  "The lesson is that we need to discuss and address risks in a realistic, pragmatic manner: sober, fact-based, and well equipped to survive changing tides."
+  Kontext: Forderung nach pragmatischem Ansatz bei KI-Governance
+
+[A027] (2026-01-27, muendlich)
+  "AI could make half of all entry-level white-collar jobs vanish within one to five years."
+  Kontext: Warnung am Weltwirtschaftsforum in Davos; Forderung nach staatlicher Umschulung
+
+
+--- HANDLUNGEN (16 Stueck) ---
+
+[H001] (2021-01-28) [gruendung]
+  [PERSON] gruendet zusammen mit seiner Schwester [PERSON] und weiteren Ex-[FIRMA]-Forschern (u.a. [PERSON], [PERSON], [PERSON], [PERSON], [PERSON]) das KI-Sicherheitsunternehmen [FIRMA] als Public Benefit Corporation.
+
+[H002] (2021-05-31) [investition] ($124,000,000)
+  [FIRMA] schliesst Series-A-Finanzierungsrunde ueber $124 Mio. ab, mit fruehen Investoren wie Jaan Tallinn (Skype/Kazaa) und anderen.
+
+[H003] (2022-04-29) [investition] ($580,000,000)
+  Series-B-Runde ueber $580 Mio., angefuehrt von Sam Bankman-Fried (FTX/Alameda Research). Alameda allein investiert ca. $500 Mio. Die Investition wird spaeter Teil des FTX-Insolvenzverfahrens.
+
+[H004] (2022-12-15) [sonstiges]
+  Veroeffentlichung des Papers 'Constitutional AI: Harmlessness from AI Feedback' (arXiv:2212.08073). Einfuehrung von RLAIF als Alternative zu RLHF fuer harmlose KI-Systeme. Wird zum zentralen Sicherheitskonzept hinter [PRODUKT].
+
+[H005] (2023-03-14) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] 1 als KI-Assistenten, zunaechst nur fuer ausgewaehlte Partner zugaenglich.
+
+[H006] (2023-05-23) [investition] ($450,000,000)
+  Series-C-Runde ueber $450 Mio., angefuehrt von Spark Capital mit Beteiligung von [FIRMA], Salesforce Ventures und anderen. Bewertung: $4.1 Mrd.
+
+[H007] (2023-07-11) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] fuer die breite Oeffentlichkeit mit signifikanten Verbesserungen bei Coding, Mathematik und Reasoning.
+
+[H008] (2023-07-21) [politisch]
+  [FIRMA] unterzeichnet als eines von sieben fuehrenden US-KI-Unternehmen freiwillige Selbstverpflichtungen gegenueber der Biden-Administration zu KI-Sicherheit, Transparenz und externem Testing vor Deployment.
+
+[H009] (2023-09-19) [sonstiges]
+  [FIRMA] veroeffentlicht als erstes grosses KI-Unternehmen eine 'Responsible Scaling Policy' (RSP) mit dem AI Safety Levels (ASL) Framework, angelehnt an biologische Sicherheitsstufen (BSL). [PERSON] investierte 10-20% seiner Arbeitszeit ueber 3 Monate in die Ausarbeitung.
+
+[H010] (2023-09-19) [umstrukturierung]
+  [FIRMA] etabliert den Long-Term Benefit Trust (LTBT): ein unabhaengiges Gremium aus fuenf Experten fuer KI-Sicherheit, nationale Sicherheit und Ethik, das schrittweise die Mehrheit der Sitze im [FIRMA]-Board waehlen kann. Trustees haben keine finanziellen Interessen an [FIRMA].
+
+[H011] (2023-09-25) [partnerschaft] ($4,000,000,000)
+  [FIRMA] investiert initial $1.25 Mrd. in [FIRMA] als Teil eines geplanten $4 Mrd. Deals. [FIRMA] wird bevorzugter KI-Partner fuer [FIRMA] Web Services ([FIRMA]) und nutzt [FIRMA]-Infrastruktur.
+
+[H012] (2024-03-04) [produktlaunch]
+  [FIRMA] veroeffentlicht die [PRODUKT]-3-Modellfamilie mit drei Varianten: [PRODUKT] (flaggschiff), [PRODUKT] Sonnet (mittel) und [PRODUKT] Haiku (schnell/guenstig). Opus uebertrifft [PRODUKT] in vielen Benchmarks.
+
+[H013] (2024-06-20) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], der trotz Mittelklasse-Pricing den bisherigen Flaggschiff-[PRODUKT] in den meisten Benchmarks uebertrifft -- bei doppelter Geschwindigkeit und einem Fuenftel der Kosten.
+
+[H014] (2024-11-22) [partnerschaft] ($4,000,000,000)
+  [FIRMA] verdoppelt sein Gesamtinvestment in [FIRMA] auf $8 Mrd. durch eine weitere Investition von $4 Mrd.
+
+[H015] (2025-03-01) [investition] ($3,500,000,000)
+  [FIRMA] schliesst eine Series-E-Finanzierungsrunde ueber $3.5 Mrd. ab, angefuehrt von Lightspeed Venture Partners. Post-Money-Bewertung: $61.5 Mrd.
+
+[H016] (2025-05-22) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] Opus 4 (leistungstaerkstes Modell, weltbestes Coding-Modell) und [PRODUKT] Sonnet 4 mit Extended Thinking und Hybrid-Modus.

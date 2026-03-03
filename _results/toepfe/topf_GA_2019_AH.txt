@@ -1,0 +1,316 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2019_AH
+Beschreibung: Jahrestopf 2019, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 40 Aussagen + 45 Handlungen = 85 gesamt
+Zeitraum Aussagen: 2019 bis 2019-12-13
+Zeitraum Handlungen: 2019-01-01 bis 2019-12-17
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (40 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2019, muendlich)
+  "I don't know when we'll get to human-level intelligence. I think progress will be significant, but I don't think AGI is imminent."
+  Kontext: Interview zu AGI-Zeitlinien. Ng ist deutlich konservativer als [PERSON] oder [PERSON].
+
+[A002] (2019, muendlich)
+  "In AI, it's often better to ship something quickly and iterate than to wait for perfection. Speed matters more than most people think."
+  Kontext: Vortrag ueber Produktentwicklung und Iteration in KI.
+
+[A003] (2019, muendlich)
+  "AI is a military technology. It's not like the internet where you can have a more globalized approach. If the AI race is won by China, it will be terrible for this country and for the world."
+  Kontext: Hoover Institution Vortrag. [PERSON] fordert, dass KI als strategische Waffe behandelt wird.
+
+[A004] (2019, schriftlich)
+  "The revenue from the purchase is less than $200,000 and not financially material for our company."
+  Kontext: Statement on controversial ICE contract during GitHub tenure
+
+[A005] (2019-01-01, schriftlich)
+  "AI should be guided by its human impact, inspired by human intelligence, and designed to augment, not replace, people."
+  Kontext: HAI founding mission statement co-authored by Manning
+
+[A006] (2019-01-01, schriftlich)
+  "The vision for the future is led by the commitment to promote human-centered uses of AI, and ensure that humanity benefits from the technology and that the benefits are broadly shared."
+  Kontext: [UNI] HAI founding vision statement
+
+[A007] (2019-01-01, muendlich)
+  "People will benefit immensely as the Covariant Brain gets more experience in customer environments and learns more general skills, eventually powering ever more robots in industrial-scale settings like manufacturing, agriculture, hospitality, commercial kitchens and homes."
+  Kontext: Interview at Covariant launch discussing future vision
+
+[A008] (2019-01-01, schriftlich)
+  "Artificial Intelligence is just fascinating, from a scientific, philosophical and ethical view. I'm at the forefront of an effort to reverse engineer literally the most complex thing in the known universe: the human mind."
+  Kontext: Personal philosophy on AI research
+
+[A009] (2019-01-01, schriftlich)
+  "The actions of autonomous cars can influence the behavior of human-driven cars on the same road, and user studies suggest that autonomous cars programmed to be aware of their interactions with humans can achieve tasks such as lane changing or coordinating at intersections safely and efficiently."
+  Kontext: Research findings on autonomous vehicle interaction with human drivers
+
+[A010] (2019-01-01, schriftlich)
+  "Safety has become a core concern of learning algorithms in human-robot systems. The robustness of controllers relies on the accuracy of models of human behavior, and we need approaches to find deviations in learned human behavior that lead to violations of safety objectives."
+  Kontext: Research paper on safety verification in autonomous systems
+
+[A011] (2019-01-01, schriftlich)
+  "We formalize the interaction between autonomous cars and human-driven cars as an underactuated dynamical system to incorporate expressive models of human actions and their responses to robots."
+  Kontext: Game-theoretic approach to modeling human-robot interaction
+
+[A012] (2019-03, muendlich)
+  "Human-centered AI is not just about making AI smarter, it's about making AI that amplifies human abilities, enhances our creativity, and respects our values."
+  Kontext: Interview zum Launch von [UNI] HAI, in dem Li ihre Vision von menschenzentrierter KI darlegt.
+
+[A013] (2019-03-18, schriftlich)
+  "AI is going to transform every aspect of our lives. The technology is too important to be left to technologists alone. It requires all of us – researchers, policymakers, activists, citizens – to shape its future."
+  Kontext: Mission Statement beim Launch des [UNI] HAI am 18. Maerz 2019.
+
+[A014] (2019-03-27, muendlich)
+  "Deep learning has allowed us to make progress on many difficult problems like machine translation, object recognition, speech recognition, and playing games, but we're just at the beginning of this journey toward artificial general intelligence."
+  Kontext: Bekanntgabe des Turing Awards 2018 fuer die drei 'Godfathers of Deep Learning' fuer ihre Arbeit an neuronalen Netzen.
+
+[A015] (2019-04-01, schriftlich)
+  "From an economic point of view, the goal of exceeding human performance raises the specter of massive unemployment. As an alternative goal for AI, machine learning should discover and support new kinds of interactions among humans that increase job possibilities."
+  Kontext: Harvard Data Science Review article proposing alternative vision for ML
+
+[A016] (2019-04-01, schriftlich)
+  "Distributed, social intelligence is better suited to meeting human needs than the type of autonomous general intelligence we associate with the Terminator movies or Marvel's Ultron."
+  Kontext: Proposing alternative to human-imitative AI
+
+[A017] (2019-04-01, schriftlich)
+  "I conceived of a discipline of Intelligent Infrastructure (II), whereby a web of computation, data, and physical entities exists that makes human environments more supportive, interesting, and safe, with such infrastructure beginning to appear in domains such as transportation, medicine, commerce, and finance."
+  Kontext: Defining new engineering discipline
+
+[A018] (2019-04-23, muendlich)
+  "We all have to be intellectually honest, and we have to admit that what we're doing isn't working. Technology needs to be regulated."
+  Kontext: [PERSON] beim TIME 100 Summit, fordert Regulierung der Technologieindustrie.
+
+[A019] (2019-05-22, muendlich)
+  "I got fired from [FIRMA] for no reason at all. I gave $10,000 to a pro-Trump group, and I think that's something to do with it."
+  Kontext: CNBC Interview über seine Entlassung bei [FIRMA]/[FIRMA]
+
+[A020] (2019-06-01, schriftlich)
+  "As I dug in to try to understand where all of the capability gaps were between [FIRMA] and us for model training, I got very, very worried. The thing that's interesting about what [FIRMA] and [FIRMA] and [FIRMA] Brain are doing is the scale of their ambition."
+  Kontext: Internal email to [PERSON] and Bill Gates expressing concerns about [FIRMA]'s AI capabilities compared to competitors
+
+[A021] (2019-06-01, schriftlich)
+  "We are multiple years behind the competition in terms of ML scale."
+  Kontext: Part of the 2019 email to [FIRMA] leadership about AI competitive position
+
+[A022] (2019-06-04, muendlich)
+  "Machine learning drives many of our algorithms for demand forecasting, product search ranking, product and deals recommendations, merchandising placements, fraud detection, translations, and much more. Though less visible, much of the impact of machine learning will be this kind of quiet but pervasive impact behind the scenes."
+  Kontext: Erste re:MARS-Konferenz (Machine Learning, Automation, Robotics, Space). [PERSON] spricht ueber den Einsatz von KI bei [FIRMA].
+
+[A023] (2019-06-04, muendlich)
+  "We think of Alexa as a sophisticated AI that started as a simple voice assistant. But we wanted to build something that could do far more than just answer questions. We wanted to build something that could have a conversation with you."
+  Kontext: re:MARS 2019. [PERSON] betont, dass Alexa nicht nur reagiert, sondern vorausschauend handeln soll.
+
+[A024] (2019-07-15, muendlich)
+  "[FIRMA] should be investigated by the FBI and CIA. How many foreign intelligence agencies have infiltrated your Manhattan Project for AI?"
+  Kontext: National Conservatism Conference 2019. [PERSON] greift [FIRMA] scharf an und impliziert Landesverrat.
+
+[A025] (2019-07-15, muendlich)
+  "AI is a political technology, and I think anyone who wants to avoid that is a little silly. What I mean by political technology is that it's a general purpose utility which the state can layer over anything, and augment anything with - especially if you are a creator of systems, which governments are. It's political in the sense that it will be used by governments in a major way to help them configure their state."
+  Kontext: Interview als [FIRMA] Policy Director; fruehe Warnung vor staatlicher KI-Nutzung
+
+[A026] (2019-07-16, muendlich)
+  "This is going to sound pretty weird, but ultimately, we will achieve symbiosis with artificial intelligence. This is not a mandatory thing. It is a thing you can choose to have if you want."
+  Kontext: [FIRMA]-Praesentation 2019. [PERSON] betont die Freiwilligkeit der Brain-Computer-Interface-Technologie.
+
+[A027] (2019-07-22, schriftlich)
+  "AI is the most important technology of our times. And we want to democratize it so that its benefits can be felt by everyone and organizations can leverage it for their needs."
+  Kontext: Begleitstatement zur ersten grossen [FIRMA]-[FIRMA]-Investition ($1 Mrd.).
+
+[A028] (2019-09-01, schriftlich)
+  "The Trump Administration made history by joining together with democracies in the world that share our common values when we signed an international consensus document on AI Principles at the OECD in Paris."
+  Kontext: Discussion of first international AI policy guidelines
+
+[A029] (2019-10, muendlich)
+  "Every algorithm embeds the values of its creators. If we want AI that reflects humanity's best values – fairness, dignity, justice – then we need to be intentional about building those values in from the start."
+  Kontext: Keynote bei einer HAI-Konferenz ueber KI-Ethik.
+
+[A030] (2019-10-01, schriftlich)
+  "Advanced AI poses a risk because it will have the ability to make high quality decisions, yet may not share human values perfectly. More intelligent AI systems can take steps to preempt human interference, acquire additional resources, and (if necessary) deceive humans about their intentions, all in the service of a given objective."
+  Kontext: Core argument about AI risk from Human Compatible book and interviews
+
+[A031] (2019-10-01, schriftlich)
+  "The machine's purpose should be to maximize the realization of human values, having no purpose of its own and no innate desire to protect itself. The machine should be initially uncertain about what those human values are, which turns out to be crucial."
+  Kontext: Core principle from Human Compatible on value alignment approach
+
+[A032] (2019-10-15, schriftlich)
+  "I am confident that Delta Lake will quickly become the standard for data storage in data lakes."
+  Kontext: Spende von Delta Lake an die Linux Foundation. Zeigt Commitment zu Open Source und Vision für Industriestandards.
+
+[A033] (2019-10-15, muendlich)
+  "Engineering is about how to solve problems and how can you very analytically solve a problem. We should make that fun as one of the key parts of making STEM interesting, especially to women and underrepresented minorities."
+  Kontext: Rede über STEM-Förderung und Problemlösungskultur in der Technik
+
+[A034] (2019-10-25, schriftlich)
+  "Culturally, what you believe means nearly nothing. What you do is what you are."
+  Kontext: Zitat aus dem Buch 'What You Do Is What You Are' über Unternehmenskultur
+
+[A035] (2019-10-25, muendlich)
+  "Gay is not a limitation. Being gay has given me a deeper understanding of what it means to be in the minority and provided a window into the challenges that people in other minority groups deal with every day."
+  Kontext: [PERSON] im Interview ueber seine Erfahrungen als schwuler CEO und LGBTQ-Rechte.
+
+[A036] (2019-10-30, schriftlich)
+  "The work advanced agentic systems by employing population-based training across diverse agents in a league format, enabling robust policies that handle imperfect information and long-term planning, surpassing 99.8% of human players."
+  Kontext: Describing technical achievement of AlphaStar project at [FIRMA]
+
+[A037] (2019-11-01, muendlich)
+  "The standard model is, in fact, I think, an engineering mistake. It's a way of creating systems that relies on perfection on the part of humans in our ability to specify objectives, and that's a really bad idea to assume perfection on the part of humans."
+  Kontext: Criticism of current AI development paradigm in podcast interview
+
+[A038] (2019-11-04, muendlich)
+  "The world needs AGI. We need to get to AGI. But it also has to be AGI that's safe and aligned with broad human values."
+  Kontext: [FIRMA] Ignite 2019. [PERSON] aeussert sich zur AGI-Vision der [FIRMA]-Partnerschaft.
+
+[A039] (2019-12-13, muendlich)
+  "We need to use more of a combination of supervised and unsupervised learning. Machine learning systems aren't really there yet in terms of how most systems work."
+  Kontext: VentureBeat Interview über Machine Learning Trends 2020
+
+[A040] (2019-12-13, muendlich)
+  "Specialization of chips for specific computation—like GPUs or TPUs designed around what ML computations need to do—gets a fair amount of performance advantage relative to general-purpose CPUs."
+  Kontext: Über die Bedeutung spezialisierter Hardware für Machine Learning
+
+------------------------------------------------------------------------
+HANDLUNGEN (45 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2019-01-01) [investition] ($50,000,000)
+  Erste VC-Investition in [FIRMA] (5% Anteil)
+
+[H002] (2019-01-01) [investition]
+  Covariant raised $20 million Series A funding led by Amplify Partners
+
+[H003] (2019-01-01) [partnerschaft]
+  Established [FIRMA] Research partnership with [UNI] AI Research (BAIR) for Phase 2 collaborations, forging strong collaborations between [FIRMA] researchers, students and faculty pursuing research on fundamental advances in computer vision, machine learning, natural language processing, planning, control, and robotics.
+
+[H004] (2019-01-01) [gruendung]
+  Led non-profit initiative MERAT (Marketplace for Ethical and Responsible AI Tools) focused on building, testing and deploying AI responsibly, creating ecosystem for startups and enterprises
+
+[H005] (2019-01-01) [sonstiges]
+  Received NSF CAREER Award for research on Active Learning of Preferences for Human-Aware Autonomy
+
+[H006] (2019-01-01) [lobbying]
+  Participated in National Security Commission on AI, representing industry perspective on AI policy
+
+[H007] (2019-02-11) [produktlaunch]
+  Architected the American AI Initiative, the nation's first comprehensive AI strategy
+
+[H008] (2019-02-14) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], ein 1,5-Milliarden-Parameter-Sprachmodell. Wegen befuerchteten Missbrauchs wird es zunaechst nur teilweise freigegeben. [PERSON] spielt eine zentrale Rolle in der Entwicklung.
+
+[H009] (2019-02-28) [verkauf]
+  [FIRMA] Stake Verkauf - Verkauf der gesamten 4.9% [FIRMA] Position (später als großer strategischer Fehler bezeichnet, Son "was crying")
+
+[H010] (2019-03-01) [umstrukturierung]
+  Nach dem Krypto-Crash 2018 leitete [PERSON] die strategische Neuausrichtung von [FIRMA] vom Ethereum-Mining zur GPU-Cloud-Computing-Plattform. Diese visionaere Entscheidung verwandelte potenziell wertlose GPU-Bestaende in die Grundlage eines Milliarden-Dollar-Unternehmens, genau rechtzeitig fuer die AI-Revolution.
+
+[H011] (2019-03-06) [sonstiges]
+  Veroeffentlichung von 'Exploring Neural Networks with Activation Atlases' als Kollaboration zwischen [FIRMA] und [FIRMA]-Forschern. Activation Atlases erlauben die Inspektion neuronaler Netzwerk-Repraesentationen.
+
+[H012] (2019-03-08) [einstellung]
+  [PERSON] wird CEO von [FIRMA] und verlaesst seine Position als Praesident von [FIRMA], um sich voll auf [FIRMA] zu konzentrieren.
+
+[H013] (2019-03-11) [umstrukturierung]
+  Ankündigung der neuen Rechtsstruktur [FIRMA] LP zur besseren Verfolgung der AGI-Mission
+
+[H014] (2019-03-18) [gruendung] ($1,000,000,000)
+  [PERSON] gruendet gemeinsam mit John Etchemendy das [UNI] Institute for Human-Centered Artificial Intelligence (HAI). Das Institut erhaelt Startkapital von $1 Milliarde und wird zu einem fuehrenden Zentrum fuer interdisziplinaere KI-Forschung und -Ethik.
+
+[H015] (2019-03-18) [gruendung]
+  Co-founded [UNI] Institute for Human-Centered Artificial Intelligence (HAI) with John Etchemendy, [PERSON], and James Landay to promote interdisciplinary AI research with focus on human impact
+
+[H016] (2019-03-25) [partnerschaft]
+  Established partnership with Wave Computing for BAIR Open Research Alliance to accelerate cutting-edge artificial intelligence research, providing access to Wave's dataflow architecture and AI acceleration technology.
+
+[H017] (2019-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt gemeinsam mit [PERSON] und [PERSON] den ACM A.M. Turing Award 2018 'fuer konzeptionelle und technische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computing gemacht haben'. Preisgeld: $1 Million (finanziert von [FIRMA]).
+
+[H018] (2019-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den Turing Award 2018 -- den 'Nobelpreis der Informatik' -- fuer konzeptionelle und ingenieurtechnische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computings gemacht haben.
+
+[H019] (2019-04-13) [produktlaunch]
+  [PERSON] leitet die Entwicklung von [FIRMA] Five, einem KI-System, das professionelle Dota 2-Spieler besiegt. Das Projekt demonstriert Fortschritte in Multi-Agent-Reinforcement-Learning.
+
+[H020] (2019-04-16) [partnerschaft]
+  Announced partnership between [FIRMA] and Gilead Sciences for NASH drug discovery worth up to $1.05 billion
+
+[H021] (2019-05-22) [politisch]
+  Led U.S. efforts to develop world's first intergovernmental AI policy guidelines at OECD in Paris
+
+[H022] (2019-06-01) [sonstiges]
+  Reise nach China - Beobachtung von KI-Überwachungstechnologien führt zu Defense-Fokus
+
+[H023] (2019-06-04) [sonstiges]
+  [PERSON] startet die jaehrliche re:MARS-Konferenz (Machine Learning, Automation, Robotics, Space) in Las Vegas. Die Konferenz bringt KI-Forscher, Robotik-Experten und Raumfahrt-Visionaere zusammen.
+
+[H024] (2019-06-13) [politisch]
+  [PERSON] sagt als Policy Director von [FIRMA] vor dem US House Science Committee ueber KI-Fortschritte und politische Herausforderungen aus.
+
+[H025] (2019-07-01) [produktlaunch]
+  Co-authored Lookahead Optimizer paper improving SGD and Adam performance
+
+[H026] (2019-07-01) [investition]
+  [FIRMA] invested $1 billion in [FIRMA] following [PERSON]'s strategic recommendation
+
+[H027] (2019-07-22) [investition] ($1,000,000,000)
+  [FIRMA] investiert $1 Milliarde in [FIRMA] und wird exklusiver Cloud-Partner. [FIRMA] fuehrt eine gewinnbegrenzte Gesellschaftsform (capped-profit) ein.
+
+[H028] (2019-07-22) [investition] ($1,000,000,000)
+  [FIRMA] kuendigt eine $1 Milliarde Investition in [FIRMA] an und wird exklusiver Cloud-Partner. [FIRMA] nutzt Azure fuer alle KI-Modelle.
+
+[H029] (2019-07-22) [investition]
+  Raised $100 million Series A for [FIRMA]
+
+[H030] (2019-07-24) [klage] ($5,000,000,000)
+  [FIRMA] zahlt eine Rekordstrafe von $5 Milliarden an die FTC wegen Datenschutzverletzungen im Zusammenhang mit [UNI] Analytica und anderen Verstoessen. [PERSON] muss persoenlich vierteljährlich Compliance zertifizieren.
+
+[H031] (2019-08-01) [politisch]
+  Unanimously confirmed by U.S. Senate as Chief Technology Officer of the United States
+
+[H032] (2019-08-21) [sonstiges]
+  [PERSON] wird bei [FIRMA] auf unbefristeten administrativen Urlaub gesetzt ('bis Ende des Jahres') nach Vorwuerfen von Mitarbeitern, er habe sie schikaniert. Er kuendigt oeffentlich an, eine 'Auszeit' zu nehmen.
+
+[H033] (2019-08-26) [spende] ($4,870,000)
+  [PERSON] spendet [FIRMA]-Aktien im Wert von 4,87 Millionen Dollar an wohltatige Organisationen
+
+[H034] (2019-09) [sonstiges]
+  Nach Kritik an problematischen und offensiven Labels in ImageNet fuehrt [PERSON]'s Team eine umfassende Ueberarbeitung durch. Ueber 600.000 Bilder aus der 'person'-Kategorie werden entfernt, um Bias und problematische Kategorisierungen zu adressieren.
+
+[H035] (2019-10-01) [sonstiges]
+  Published "Human Compatible: Artificial Intelligence and the Problem of Control" proposing new approach to AI based on uncertainty about human objectives, machines designed to be provably beneficial rather than optimize fixed objectives.
+
+[H036] (2019-10-15) [spende]
+  Spende von Delta Lake an die Linux Foundation als Open-Source-Projekt unter Apache 2.0 Lizenz
+
+[H037] (2019-10-25) [produktlaunch]
+  Publikation von 'What You Do Is What You Are: How to Create Your Business Culture' - Buch über Unternehmenskultur basierend auf historischen Beispielen
+
+[H038] (2019-10-30) [produktlaunch]
+  Led AlphaStar project at [FIRMA], achieving grandmaster-level performance in StarCraft II, surpassing 99.8% of human players
+
+[H039] (2019-11-01) [gruendung]
+  Co-Gründung von [FIRMA] zusammen mit Nick Frosst (ebenfalls [PERSON]-Student) und Ivan Zhang
+
+[H040] (2019-11-01) [spende]
+  Endowed two computer science professorships at [UNI] University for $3 million each through Cadence Design Systems
+
+[H041] (2019-12) [einstellung]
+  [PERSON] verlaesst [FIRMA] offiziell und wird VP of AI Product Management and AI Policy bei [FIRMA], weniger als ein halbes Jahr nach seinem administrativen Urlaub.
+
+[H042] (2019-12-03) [einstellung]
+  [PERSON] wird zusaetzlich CEO von [FIRMA] Inc., nachdem [PERSON] und [PERSON] zuruecktreten. [PERSON] leitet nun sowohl [FIRMA] als auch die Muttergesellschaft.
+
+[H043] (2019-12-03) [ruecktritt]
+  [PERSON] tritt als CEO von [FIRMA] zurueck. [PERSON] tritt ebenfalls als Praesident zurueck. [PERSON] wird CEO von [FIRMA] und [FIRMA]. Page und [PERSON] bleiben Boardmitglieder und kontrollieren [FIRMA] ueber Stimmrechtsaktien.
+
+[H044] (2019-12-03) [ruecktritt]
+  [PERSON] tritt als Praesident von [FIRMA] zurueck. [PERSON] tritt ebenfalls als CEO zurueck. [PERSON] wird CEO von [FIRMA] und [FIRMA]. [PERSON] und Page bleiben Aktionaere und Vorstandsmitglieder.
+
+[H045] (2019-12-17) [partnerschaft]
+  Pages Flugtaxi-Firma Wisk Aero (Spin-off von Kitty Hawk) geht Partnerschaft mit Boeing ein. Boeing investiert, Wisk entwickelt autonome eVTOL-Flugtaxis weiter. Ziel: FAA-Zertifizierung bis Mitte 2020er.

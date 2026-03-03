@@ -1,0 +1,375 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2020_AH
+Beschreibung: Jahrestopf 2020, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 45 Aussagen + 58 Handlungen = 103 gesamt
+Zeitraum Aussagen: 2020 bis 2020-12-31
+Zeitraum Handlungen: 2020 bis 2020-2025
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (45 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2020, muendlich)
+  "I reached chess master standard at 13 with an Elo rating of 2300. Chess taught me pattern recognition and strategic thinking — skills that became fundamental to my work in AI."
+  Kontext: Rueckblick auf seine Jugend. [PERSON] sieht eine direkte Verbindung zwischen Brettspielen und KI-Forschung.
+
+[A002] (2020-01-01, schriftlich)
+  "AI has the potential to transform industries and improve lives, but it's essential that we develop it responsibly and ethically."
+  Kontext: Grundsatzaussage zu verantwortungsvoller KI-Entwicklung
+
+[A003] (2020-01-01, schriftlich)
+  "I want to understand things clearly and explain them well."
+  Kontext: Motto auf seinem persoenlichen CV und Website
+
+[A004] (2020-01-01, muendlich)
+  "I think the only way forward is to figure out how to make AI safety a condition of doing business."
+  Kontext: Statement on AI safety funding and business practices
+
+[A005] (2020-01-01, muendlich)
+  "Between startups and big tech companies approximately $100 billion will be spent on creating artificial general intelligence, while global expenditure in the public sector on AI safety research is maybe $10 million—a factor of about 10,000 times less investment."
+  Kontext: Comparison of AGI development spending vs. safety research funding
+
+[A006] (2020-01-01, schriftlich)
+  "AI today lacks common sense, and simply does whatever we've asked it to. That's true even if the goal isn't what we really want, or the methods it's choosing are ones we would never accept."
+  Kontext: McKinsey interview on problems with current AI systems
+
+[A007] (2020-01-01, muendlich)
+  "The important components in this paper were doing parallel computation across all the words in the sentence and the ability to learn and capture the relationships between any two words in the sentence, not just neighboring words as in long short-term memory networks and convolutional neural network-based models."
+  Kontext: Explaining the key innovation of the Transformer architecture in the 'Attention Is All You Need' paper
+
+[A008] (2020-01-01, muendlich)
+  "I believe one should always start with forming the research question/goal and an initial hypothesis. In collaborative settings, it's useful to brainstorm closely and refine solutions based on incoming results. In our project, we did this every day and discussed at great lengths the new results we got each day and then went on to try new things. Through the course of the project, paying attention to details is important — every detail, every question, every choice seems relevant."
+  Kontext: Describing her research methodology and collaborative approach at [FIRMA] Brain
+
+[A009] (2020-01-01, muendlich)
+  "Choosing a problem is one of the hardest parts, which to be honest, I still struggle with sometimes. Being able to get feedback or collaborate with peers really helps in all aspects. The other, which is echoed several times and is extremely important, is to ask a lot of questions — small or big. Useful brainstorming and making interesting connections happen by doing that. I've also found that staying consistent on a problem and not giving up early forces one to look in multiple directions for solutions that can help to find new insights."
+  Kontext: Reflecting on the challenges of research and her approach to problem-solving
+
+[A010] (2020-01-01, muendlich)
+  "We called the company [FIRMA] because it was very clear even in those early days that AI was going to be better than people at reading and writing and certainly faster"
+  Kontext: Explanation for company naming and early AI vision
+
+[A011] (2020-01-01, muendlich)
+  "His motivation stems from his son being diagnosed with autism, with Emad wanting to see how AI could help review existing research."
+  Kontext: Personal motivation for AI work in healthcare
+
+[A012] (2020-01-01, schriftlich)
+  "AI must be developed in accordance with a set of policies that democratize AI. AI must be accessible to all individuals and all businesses so that this immense potential is not missed by those with limited resources."
+  Kontext: Talk about AI policy and democratization principles
+
+[A013] (2020-01-01, schriftlich)
+  "The National Artificial Intelligence Initiative Office will be integral to the Federal government's AI efforts for many years to come, serving as a central hub for national AI research and policy for the entire US innovation ecosystem."
+  Kontext: Announcement of National AI Initiative Office establishment
+
+[A014] (2020-01-01, schriftlich)
+  "In shared autonomy, the robot begins with a set of 'beliefs' about what the controller is telling it to do and gains confidence about the goal as additional instructions are given. As the joystick directs it toward one goal and away from others, the robot gains confidence and can begin to take over, sharing autonomy with the user to more precisely control the robot arm."
+  Kontext: Explanation of shared autonomy concept in human-robot interaction
+
+[A015] (2020-01-23, schriftlich)
+  "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude."
+  Kontext: Einfuehrung des bahnbrechenden Papers, das die moderne KI-Skalierung definiert hat
+
+[A016] (2020-01-23, schriftlich)
+  "These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence."
+  Kontext: Kernaussage des Papers ueber optimale Compute-Allokation
+
+[A017] (2020-02-01, schriftlich)
+  "We must ensure equal access to technology, starting with rural broadband. In order for these communities to be able to connect with their digital future, they actually have to be able to connect to the internet. You can't run a modern, technology-heavy business when your business and your employees don't have great broadband connectivity."
+  Kontext: Discussion on technology infrastructure needs in rural America
+
+[A018] (2020-02-14, muendlich)
+  "We've learned that datasets like ImageNet can contain biases – in labels, in representation, in what we choose to include or exclude. This is a humbling lesson. Building better AI means constantly examining and improving our data."
+  Kontext: Interview ueber Bias in KI-Datensaetzen und die Verantwortung der Forschenden.
+
+[A019] (2020-02-17, schriftlich)
+  "Climate change is the biggest threat to our planet. I want to work alongside others both to amplify known ways and to explore new ways of fighting the devastating impact of climate change on this planet we all share."
+  Kontext: [PERSON] kuendigt den [PERSON] Earth Fund an -- die groesste philanthropische Zusage zur Klimaforschung aller Zeiten. Kritiker weisen auf [FIRMA]s CO2-Fussabdruck hin.
+
+[A020] (2020-03-10, schriftlich)
+  "Rather than typical interpretability approaches that aim to give simple explanations of entire neural networks, his approach is inspired by neuroscience and cellular biology—an approach of 'zooming in' where individual neurons, even individual weights, are treated as being worthy of serious investigation."
+  Kontext: Einfuehrung in die Circuits-Agenda, von Neurowissenschaft inspiriert
+
+[A021] (2020-04-01, schriftlich)
+  "[FIRMA], which is now a $50 billion annual revenue run rate business, was started because we were our own best customer. We started building the tools we needed ourselves, and then we realized other people would find them valuable too."
+  Kontext: [PERSON]' vorletzter Shareholder Letter als CEO. Er beschreibt [FIRMA] als Beispiel fuer 'working backwards from customer needs'.
+
+[A022] (2020-04-01, schriftlich)
+  "If you want to be successful in business (in life, actually), you have to create more than you consume. Your goal should be to create value for everyone you interact with."
+  Kontext: [PERSON]' letzter Brief als [FIRMA]-CEO. Er tritt im Juli 2021 zurueck, um sich auf [FIRMA] und andere Projekte zu konzentrieren.
+
+[A023] (2020-04-07, schriftlich)
+  "AI has the potential to create opportunity for everyone and help solve some of our most vexing problems. The sooner that we stop viewing AI as a substitute for human labor and start imagining how it can be a force multiplier for human ingenuity, the better."
+  Kontext: Book publication and promotional materials for 'Reprogramming the American Dream'
+
+[A024] (2020-05-28, schriftlich)
+  "We show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches."
+  Kontext: Kernaussage aus dem [PRODUKT] Paper zu Skalierungsgesetzen und Few-Shot Learning
+
+[A025] (2020-05-28, schriftlich)
+  "We also identify some datasets where [PRODUKT]'s few-shot learning still struggles, as well as some datasets where [PRODUKT] faces methodological issues related to training on large web corpora."
+  Kontext: Kritische Reflexion der Limitationen von [PRODUKT] im Research Paper
+
+[A026] (2020-05-28, schriftlich)
+  "We trained [PRODUKT], an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and tested its performance in the few-shot setting."
+  Kontext: Technische Details aus dem [PRODUKT] Paper zur Modellgröße
+
+[A027] (2020-05-28, schriftlich)
+  "For all tasks, [PRODUKT] was applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model."
+  Kontext: Methodologische Beschreibung des Few-Shot Learning Ansatzes in [PRODUKT]
+
+[A028] (2020-06, muendlich)
+  "Vision is one of the most information-rich signals in our lives. From the moment we open our eyes in the morning to the moment we close them at night, we are constantly processing visual information. Giving machines this ability is transformative."
+  Kontext: Keynote ueber die Bedeutung von Computer Vision fuer KI.
+
+[A029] (2020-06-10, schriftlich)
+  "Everyone in the semiconductor industry, everyone in the technology industry, would benefit from more diversity in the business."
+  Kontext: Statement zu Diversität und Frauen in Tech-Führungspositionen
+
+[A030] (2020-06-15, muendlich)
+  "Every one of the big data centers are designing some form of machine learning or other offload processor."
+  Kontext: Interview as Cadence CEO discussing AI chip trends
+
+[A031] (2020-06-15, muendlich)
+  "VCs have not over-invested in AI accelerators yet. At its peak there were 120 Wi-Fi startups compared to less than 50 AI chip companies. I expect more AI startups to emerge."
+  Kontext: Walden International venture capital perspective on AI investments
+
+[A032] (2020-07-21, schriftlich)
+  "Businesses have a profound opportunity to help build a more sustainable future, one born of our common concern for the planet we share. With our commitment to carbon neutrality, we hope to be a ripple in the pond that creates a much larger change."
+  Kontext: [FIRMA] kuendigt an, bis 2030 vollstaendig klimaneutral zu werden.
+
+[A033] (2020-08-01, schriftlich)
+  "We developed an algorithm that would empower autonomous vehicles to actively 'nudge' drivers - by tapping their brakes or drifting into another lane - to gather information about how drivers respond in different conditions and improve safety."
+  Kontext: [UNI] research on interactive autonomous vehicle design
+
+[A034] (2020-08-25, schriftlich)
+  "The engineering elite of Silicon Valley may know more than most about building software. But they do not know more about how society should be organized or what justice requires."
+  Kontext: Brief an Investoren im S-1 Filing vor Boersengang. [PERSON] distanziert sich vom Silicon Valley Konsens.
+
+[A035] (2020-08-25, schriftlich)
+  "Our company was founded in Silicon Valley. But we seem to share fewer and fewer of the technology sector's values and commitments."
+  Kontext: S-1 Filing. Begruendung fuer spaetere Verlegung des Hauptsitzes nach Denver.
+
+[A036] (2020-09, muendlich)
+  "AI in healthcare isn't just about diagnosis or treatment. It's about understanding the full context of a patient's life, their environment, their needs. That's where computer vision becomes powerful – seeing not just disease, but the whole person."
+  Kontext: Interview ueber KI-Anwendungen im Gesundheitswesen.
+
+[A037] (2020-09-01, schriftlich)
+  "A terrific example of a mistake that can be made where you try to create a one-size-fits-all regulatory regime, and ultimately you end up with less innovation."
+  Kontext: Contrasting US and EU AI regulatory approaches
+
+[A038] (2020-09-21, muendlich)
+  "I am here to build a $50 billion company"
+  Kontext: Interview im 20VC Podcast über seine Vision für [FIRMA] Industries
+
+[A039] (2020-09-21, muendlich)
+  "I would be a lot more like China. I think that China's done a very good job of focusing their resources on the technology that they believe is going to win the next war"
+  Kontext: Diskussion über die Verteidigungsstrategie des US-Verteidigungsministeriums
+
+[A040] (2020-11-01, schriftlich)
+  "I'm exploring how to train robots to better understand humans and how to give humans the skills to more seamlessly work with robots, drawing from fields as varied as cognitive neuroscience, psychology, and behavioral economics."
+  Kontext: Interview about interdisciplinary research approach
+
+[A041] (2020-11-03, schriftlich)
+  "We need a lot more research on safety. We need to be able to build AI systems that are fundamentally on the side of humans."
+  Kontext: Interview mit [UNI] Technology Review, in dem [PERSON] seine zunehmenden Bedenken ueber KI-Risiken aeussert.
+
+[A042] (2020-11-03, schriftlich)
+  "The danger is not that the machine turns against us, which is science fiction, but that people with power use machine learning to gain more power."
+  Kontext: Fortsetzung des [UNI]-TR-Interviews. [PERSON] unterscheidet zwischen Science-Fiction-Szenarien und realen Risiken.
+
+[A043] (2020-12-01, schriftlich)
+  "[PERSON]'s entrance into biology was sparked by two 2020 events: first, seeing millions of patients benefiting from mRNA-based COVID vaccines, and second, the breakthroughs in [FIRMA]'s [PRODUKT]2, which could predict three-dimensional protein structures from sequence data and was based on the Transformer."
+  Kontext: The convergence of mRNA vaccine success and [PRODUKT]2's breakthrough catalyzed [PERSON]'s pivot from AI language models to biological applications.
+
+[A044] (2020-12-01, muendlich)
+  "The technology available needs to consider the complexity of ethics, privacy, fairness, and good versus evil."
+  Kontext: 2020 TEDx Talk on ethical AI development
+
+[A045] (2020-12-31, schriftlich)
+  "Moving on from [FIRMA] to try something new. I'll still be doing lots of interpretability and sharing interesting things I find inside neural networks. :)"
+  Kontext: Ankuendigung seines Abgangs von [FIRMA], kurz vor Gruendung von [FIRMA]
+
+------------------------------------------------------------------------
+HANDLUNGEN (58 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2020) [partnerschaft]
+  Established partnership with [FIRMA] as major client for data labeling and RLHF services.
+
+[H002] (2020) [partnerschaft]
+  Established partnership with [FIRMA] as major client, contributing to [PRODUKT]'s training and evaluation.
+
+[H003] (2020) [partnerschaft]
+  Established partnership with [FIRMA] as major client for AI training data.
+
+[H004] (2020) [partnerschaft]
+  Established partnership with [FIRMA] ([FIRMA]) as major client for AI training data.
+
+[H005] (2020) [partnerschaft]
+  Established partnership with [FIRMA] as major client for AI training data.
+
+[H006] (2020-01-01) [produktlaunch]
+  Released Stanza, a Python NLP toolkit for 70+ languages using Universal Dependencies formalism, expanding NLP access to low-resource languages
+
+[H007] (2020-01-01) [produktlaunch]
+  Covariant officially launched from stealth mode to bring universal AI to robots
+
+[H008] (2020-01-01) [gruendung]
+  Founded Stealth, a cloud consulting business optimizing [FIRMA] promotions
+
+[H009] (2020-01-01) [sonstiges]
+  Received [FIRMA] Research Award
+
+[H010] (2020-01-01) [sonstiges]
+  Awarded AFOSR Young Investigator Research Program (YIP)
+
+[H011] (2020-01-01) [sonstiges]
+  Served as Area Chair on Program Committee for Robotics: Science and Systems (RSS) 2020 conference
+
+[H012] (2020-01-01) [umstrukturierung]
+  Led [FIRMA] Responsible AI Council as co-chair alongside Brad Smith
+
+[H013] (2020-01-01) [gruendung]
+  Established the National AI Initiative Office at the White House as central hub for AI research and policy
+
+[H014] (2020-01-23) [sonstiges]
+  Veroeffentlichung des wegweisenden Papers 'Scaling Laws for Neural Language Models' (arXiv:2001.08361) als Co-Autor mit [PERSON], [PERSON], [PERSON] und anderen. Das Paper etabliert Power-Law-Beziehungen zwischen Modellgroesse, Datensatzgroesse, Compute und Performance. Diese Erkenntnisse legten die Grundlage fuer [PRODUKT].
+
+[H015] (2020-01-23) [sonstiges]
+  Veroeffentlichung des bahnbrechenden Papers 'Scaling Laws for Neural Language Models' (arXiv:2001.08361) mit [PERSON] als Erstautor. Das Paper zeigt, dass LLM-Performance praediktablen Power Laws folgt.
+
+[H016] (2020-02-01) [produktlaunch]
+  Entwicklung und interne Tests von Meena Chatbot bei [FIRMA] (nicht öffentlich veröffentlicht)
+
+[H017] (2020-02-17) [spende] ($10,000,000,000)
+  [PERSON] kuendigt den [PERSON] Earth Fund an: $10 Milliarden zur Bekaempfung des Klimawandels. Es ist die groesste philanthropische Zusage zur Klimaforschung.
+
+[H018] (2020-02-26) [ruecktritt]
+  Departed Intel after company chose Habana Labs chips over Nervana technology; last day March 10, 2020
+
+[H019] (2020-03-01) [sonstiges]
+  Published ELECTRA paper with Kevin Clark, Minh-Thang Luong, and Quoc V. Le, introducing more efficient pre-training using discriminators rather than generators
+
+[H020] (2020-03-01) [gruendung]
+  Founded [FIRMA] with co-founder Eli Chen, an AI governance platform to help organizations build AI aligned with human values and deliver responsible AI at scale
+
+[H021] (2020-03-10) [sonstiges]
+  Veroeffentlichung von 'Zoom In: An Introduction to Circuits' auf Distill. Einfuehrung der 'Circuits'-Agenda: Reverse-Engineering neuronaler Netzwerke durch detaillierte Untersuchung einzelner Neuronen und Gewichte.
+
+[H022] (2020-03-16) [sonstiges]
+  [PERSON] ist Co-Host des All-In Podcasts zusammen mit Chamath Palihapitiya, Jason Calacanis und David Friedberg. Der Podcast wurde zu einer der einflussreichsten Tech-Stimmen mit Millionen Hoerern und regelmaessigen Diskussionen ueber KI, Krypto, Politik und Wirtschaft.
+
+[H023] (2020-04-07) [produktlaunch]
+  Book 'Reprogramming the American Dream: From Rural America to Silicon Valley—Making AI Serve Us All' published
+
+[H024] (2020-04-18) [produktlaunch]
+  Launched Rt.live with Kevin Systrom, an up-to-date tracker of how fast COVID-19 was spreading in each US state using Rt (reproduction rate) metrics. First collaborative product since leaving [FIRMA].
+
+[H025] (2020-04-22) [produktlaunch]
+  Launched [FIRMA] mainnet on April 22, 2020. Genesis occurred at 18:00:00 UTC, enabling developers to deploy production apps. Network became completely community-operated in September 2020.
+
+[H026] (2020-05) [gruendung]
+  Founded [FIRMA] with $300,000 from personal savings, bootstrapping the company without any venture capital. Started from San Francisco apartment.
+
+[H027] (2020-05) [ruecktritt]
+  Quit seven-figure salary job to found [FIRMA], turning down lucrative Big Tech compensation.
+
+[H028] (2020-05-04) [investition]
+  [FIRMA] raised $21.6 million in token sale led by [FIRMA] ([FIRMA]), with participation from Pantera Capital, Electric Capital, Blockchange, Libertus Capital and Distributed Global.
+
+[H029] (2020-05-06) [investition]
+  Covariant raised $40 million Series B funding led by Index Ventures with participation from Radical Ventures and Amplify Partners
+
+[H030] (2020-05-26) [investition]
+  Raised $143 million Series B for [FIRMA]
+
+[H031] (2020-05-28) [produktlaunch]
+  Veröffentlichung des [PRODUKT] Papers 'Language Models are Few-Shot Learners' als Erstautor mit 30+ Co-Autoren bei NeurIPS 2020
+
+[H032] (2020-05-28) [sonstiges]
+  [PERSON] als Co-Autor des [PRODUKT]-Papers 'Language Models are Few-Shot Learners'. Er spielte eine instrumentale Rolle in der Entwicklung von [PRODUKT] als Research Team Lead bei [FIRMA].
+
+[H033] (2020-05-28) [sonstiges]
+  [PERSON] ist Co-Autor des [PRODUKT]-Papers 'Language Models are Few-Shot Learners', das bei NeurIPS 2020 den Best Paper Award gewinnt.
+
+[H034] (2020-06-01) [sonstiges]
+  Won national policy debate championships - first team to win all three major tournaments in single year at Bellarmine
+
+[H035] (2020-06-11) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] mit 175 Milliarden Parametern -- das zu diesem Zeitpunkt groesste Sprachmodell der Welt. Zunaechst Zugang nur per API.
+
+[H036] (2020-06-11) [produktlaunch]
+  [FIRMA] launcht [PRODUKT] mit 175 Milliarden Parametern -- das groesste Sprachmodell seiner Zeit. [PERSON] ist massgeblich an der Entwicklung beteiligt.
+
+[H037] (2020-07-10) [einstellung]
+  Appointed Acting Under Secretary of Defense for Research and Engineering, 3rd highest Pentagon official
+
+[H038] (2020-07-21) [politisch]
+  [FIRMA] verpflichtet sich, bis 2030 vollstaendig klimaneutral zu werden
+
+[H039] (2020-08) [umstrukturierung]
+  [PERSON] verlagert [FIRMA]s Hauptsitz von Palo Alto (Silicon Valley) nach Denver, Colorado. Begruendung: 'increasing intolerance and monoculture' im Silicon Valley.
+
+[H040] (2020-08-01) [gruendung]
+  Co-founded [FIRMA] with Waseem AlShikh, incorporating in August 2020 to apply transformer technology for enterprise content
+
+[H041] (2020-08-01) [gruendung]
+  Co-founded Engageli, digital learning platform with video conferencing tool for higher education
+
+[H042] (2020-08-01) [investition]
+  Spearheaded $1 billion program creating network of AI and quantum research institutes across US
+
+[H043] (2020-09-01) [investition]
+  Raised $5 million seed funding for [FIRMA]
+
+[H044] (2020-09-30) [produktlaunch]
+  [FIRMA] Technologies geht per Direct Listing an die Boerse (NYSE: PLTR). Bewertung: ca. $16 Milliarden. [PERSON] besitzt ca. 7% (~$1,1 Mrd.). [FIRMA] arbeitet mit CIA, NSA, ICE, IDF zusammen.
+
+[H045] (2020-09-30) [produktlaunch]
+  [FIRMA] geht per Direct Listing an die NYSE (Ticker: PLTR). Eroeffnungspreis: $10, Bewertung ca. $16,5 Milliarden. [PERSON] besitzt signifikante Anteile mit Supervoting-Rechten.
+
+[H046] (2020-10-14) [investition]
+  Raised $14.5 million seed funding for Engageli
+
+[H047] (2020-10-22) [produktlaunch]
+  Co-authored "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" paper, extending Transformer architecture to computer vision.
+
+[H048] (2020-10-27) [kauf] ($35,000,000,000)
+  [FIRMA] kündigt Übernahme von Xilinx (FPGA-Hersteller) an - eine der größten Chip-Deals überhaupt, Stärkung adaptiver Computing-Fähigkeiten
+
+[H049] (2020-10-28) [partnerschaft]
+  Announced 5-year discovery collaboration with Bristol Myers Squibb for ALS and frontotemporal dementia treatments
+
+[H050] (2020-11-01) [investition]
+  [FIRMA] erhält $40M Series A Funding von Radical Ventures ([PERSON]) und Index Ventures
+
+[H051] (2020-11-30) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT]2, das die 50-Jahre alte 'Protein-Folding'-Herausforderung loest. CASP14-Gewinn mit atomarer Genauigkeit (GDT-Score 92.4). Strukturen von ueber 200 Millionen Proteinen vorhergesagt.
+
+[H052] (2020-12-01) [gruendung]
+  Co-founded [FIRMA] with Cyrus Hodes, creating company behind [PRODUKT] AI image generator
+
+[H053] (2020-12-07) [sonstiges]
+  [PRODUKT] Paper erhält NeurIPS 2020 Best Paper Award (geteilt mit anderen Arbeiten)
+
+[H054] (2020-12-31) [ruecktritt]
+  [PERSON] verlaesst seine Position als Research Lead bei [FIRMA], wo er das AI Safety Team leitete und ein Team fuer ML-Scaling Science aufgebaut hatte. Grund: fundamentale Differenzen ueber Sicherheitsprotokolle und Kommerzialisierungsdruck.
+
+[H055] (2020-12-31) [ruecktritt]
+  [PERSON] kuendigt oeffentlich seinen Ruecktritt von [FIRMA] an. Er verspricht, weiterhin Interpretierbarkeitsforschung zu betreiben und interessante Entdeckungen in neuronalen Netzwerken zu teilen.
+
+[H056] (2020-2024) [sonstiges]
+  Built network of over 1 million contractors across 50+ countries, including professors from [UNI], Princeton, and Harvard, medical doctors, lawyers, and PhD researchers.
+
+[H057] (2020-2024) [umstrukturierung]
+  Built company to $1B revenue with zero sales team, zero marketing team, relying entirely on word-of-mouth and product quality.
+
+[H058] (2020-2025) [sonstiges]
+  Explicitly rejected venture capital offers, maintaining 100% bootstrapped status despite achieving $1B+ revenue.

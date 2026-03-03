@@ -1,0 +1,131 @@
+=== DATENKORPUS PERSON-77 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2016-11-01, muendlich)
+  "Zero percent of the world knows about VR."
+  Kontext: Interview on VR adoption challenges
+
+[A002] (2017-05-01, schriftlich)
+  "Over the past several decades, every time people made computers work more like we do—every time we removed a layer of abstraction between us and them—computers became more broadly accessible, useful, and valuable to us, and in turn, we became more capable and productive."
+  Kontext: Medium essay on VR/AR and computing interfaces
+
+[A003] (2017-05-01, schriftlich)
+  "Immersive computing will remove more of the abstractions between us and our computers. You'll have access to information in context, with computing woven seamlessly into your environment. It's the inevitable next step in the arc of computing interfaces."
+  Kontext: Medium essay on VR/AR future
+
+[A004] (2017-05-01, schriftlich)
+  "In time, these points on the spectrum will blur: we'll have AR headsets that can augment your whole field of view, and VR headsets which can pull in photo-realistic digital representations of your environment, and devices in between which do a bit of both. Once the technology progresses to this point, the distinction between VR and AR will be far less relevant than it is today."
+  Kontext: Medium essay on VR/AR convergence
+
+[A005] (2017-05-01, schriftlich)
+  "Technology creates possibility, creativity creates value."
+  Kontext: Quoting Sir John Hegarty in [FIRMA] blog post
+
+[A006] (2017-06-01, muendlich)
+  "I am an emphatic believer in the long term promise of VR, AR and all things as I call them 'Immersive Computing.' It is very clearly to me and to us more broadly at [FIRMA] part of the next phase of computing — computing that makes use of our environment, that vastly increases the richness of input and output — that's going to be important."
+  Kontext: Interview on [FIRMA]'s VR/AR strategy
+
+[A007] (2017-08-01, muendlich)
+  "I like to call it immersive computing to sidestep some of the jargon and acronym debate — VR, AR, MR — just everything."
+  Kontext: Voices of VR podcast
+
+[A008] (2024-02-13, schriftlich)
+  "Recent advances in AI represent a sea change in technology that we think will enable some fundamentally new and better experiences."
+  Kontext: [FIRMA] launch announcement
+
+[A009] (2024-02-13, muendlich)
+  "It's possible to build a couch by going to Home Depot and buying lumber and cushions and fabric and putting it together yourself."
+  Kontext: [FIRMA]phor explaining [FIRMA]'s business model
+
+[A010] (2024-02-13, schriftlich)
+  "In the age of conversational AI, the best customer experience is not installing an app or clicking a link, but simply having a conversation."
+  Kontext: [FIRMA] launch announcement
+
+[A011] (2024-10-01, muendlich)
+  "If in 1995 you needed a web site, in 2025 you'll need an AI agent."
+  Kontext: Acquired podcast with [PERSON]
+
+[A012] (2024-10-01, muendlich)
+  "With new technologies, people overestimate impact in the short run and underestimate impact in the long run."
+  Kontext: Acquired podcast on technology adoption
+
+[A013] (2024-10-01, muendlich)
+  "We're at the cusp of something that we will, in five years, have a very different market on the internet."
+  Kontext: Acquired podcast on AI's market impact
+
+[A014] (2024-10-01, muendlich)
+  "The AI version of your company...may dwarf all of those [website, mobile app platforms] in terms of their importance to your brand."
+  Kontext: Acquired podcast on brand representation
+
+[A015] (2024-11-01, muendlich)
+  "AI is first and foremost about creating exceptional customer experiences."
+  Kontext: [FIRMA] Capital podcast on AI agents
+
+[A016] (2024-11-01, muendlich)
+  "Technology magnifies whatever it touches. Bad processes get worse; great ones become exceptional."
+  Kontext: On technology's amplifying effect
+
+[A017] (2024-11-01, muendlich)
+  "The number one predictor of a high customer satisfaction interaction in service is low effort. People talk about delight and surprise, sure, but in Maslow's hierarchy of experiential needs: could you please just solve my problem quickly and fully, without me having to spell my last name for the fifth time?"
+  Kontext: [FIRMA] podcast on customer experience design
+
+[A018] (2024-11-01, muendlich)
+  "In the future, your AI agent will be more important than your website and more important than your app. It will be the main way you interact with your customers."
+  Kontext: On strategic importance of AI agents
+
+[A019] (2024-11-01, muendlich)
+  "Putting AI in front of customers is first and foremost, a product design and an experience design problem."
+  Kontext: [FIRMA] podcast on AI design
+
+[A020] (2024-11-01, muendlich)
+  "Companies need to capture their brand voice, values and internal processes to create AI agents that truly represent the business."
+  Kontext: [FIRMA] podcast on AI agent authenticity
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (1995-01-01) [gruendung]
+  Started first business in second grade selling Japanese candies, and website design company at age 13
+
+[H002] (2013-01-01) [umstrukturierung]
+  Led product management and design for Gmail, [FIRMA] Drive, [FIRMA] Docs, and [FIRMA] Apps for Enterprise (Workspace)
+
+[H003] (2016-05-18) [produktlaunch]
+  Launched [FIRMA] Daydream VR platform and Daydream View headset at [FIRMA] I/O 2016
+
+[H004] (2016-05-18) [partnerschaft]
+  Announced partnership with IMAX to develop cinema-grade 360-degree VR camera at [FIRMA] I/O 2016
+
+[H005] (2017-05-01) [produktlaunch]
+  Oversaw development and launch of [FIRMA] Lens visual search technology
+
+[H006] (2021-05-01) [produktlaunch]
+  Led development and launch of Project Starline, [FIRMA]'s holographic videoconferencing technology
+
+[H007] (2021-11-11) [umstrukturierung]
+  Led creation of new [FIRMA] Labs division consolidating AR/VR, Project Starline, and Area 120 incubator
+
+[H008] (2023-02-08) [ruecktritt]
+  Announced departure from [FIRMA] after 18 years, leaving VP of Labs position in March 2023
+
+[H009] (2023-03-01) [gruendung]
+  Co-founded [FIRMA], a conversational AI platform for businesses, with [PERSON] after 18 years at [FIRMA]
+
+[H010] (2024-02-13) [investition]
+  Raised $110 million Series A funding for [FIRMA] from [FIRMA] Capital and Benchmark at ~$1 billion valuation
+
+[H011] (2024-02-13) [produktlaunch]
+  Launched [FIRMA] conversational AI platform publicly with early customers including WeightWatchers, SiriusXM, Sonos, OluKai
+
+[H012] (2024-02-13) [partnerschaft]
+  Established [FIRMA] partnerships with WeightWatchers, achieving 70% automated resolution rate with 4.6/5 customer satisfaction
+
+[H013] (2024-02-13) [partnerschaft]
+  Launched [FIRMA] AI agents for Sonos, SiriusXM, OluKai as design partners for conversational AI platform
+
+[H014] (2024-10-28) [investition]
+  Raised $175 million Series B funding led by Greenoaks Capital at $4.5 billion valuation
+
+[H015] (2025-09-04) [investition]
+  Raised $350 million Series C funding led by Greenoaks at $10 billion valuation

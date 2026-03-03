@@ -1,0 +1,91 @@
+=== DATENKORPUS PERSON-76 ===
+
+--- AUSSAGEN (10 Stueck) ---
+
+[A001] (2021-06-01, schriftlich)
+  "I spent most of high school thinking about policy debate. I was coached by Aaron Langerman, Ani Prabhu, and Tyler Vergho."
+  Kontext: Background on debate career at Bellarmine College Preparatory
+
+[A002] (2023-01-01, schriftlich)
+  "I spent two years at Georgetown taking courses in international relations, math, and economics."
+  Kontext: Educational background before dropping out to found Mercor
+
+[A003] (2024-09-18, schriftlich)
+  "In September 2024, we announced our $30m Series A at a $250m valuation led by Benchmark, with participation from General Catalyst, [PERSON], Jack Dorsey, [PERSON], and Larry Summers."
+  Kontext: Announcement of Mercor's Series A funding round
+
+[A004] (2025-01-15, schriftlich)
+  "In some ways, I feel like I leapfrogged 50 years of career development and slightly regressed personally. An excellent trade overall. There's a certain violence to velocity. The world doesn't always notice, but your body does. You gain 30 pounds in six months."
+  Kontext: Reflection on rapid startup growth and personal cost of building Mercor
+
+[A005] (2025-02-01, schriftlich)
+  "If you can understand what people are good at, and care about where they do it, you can be the impetus behind profound societal change."
+  Kontext: Vision statement about Mercor's mission to transform work and labor
+
+[A006] (2025-02-01, schriftlich)
+  "Our goal is to get a billion people hired—not just faster, but better."
+  Kontext: Company mission statement about transforming global employment
+
+[A007] (2025-03-01, schriftlich)
+  "Mercor is a company fixated on work—not just the mechanics of employment but the moral weight of what people do with their lives."
+  Kontext: Company philosophy about the deeper meaning of work
+
+[A008] (2025-03-01, schriftlich)
+  "There's a messianic intensity to the work that is polarizing and beautiful."
+  Kontext: Description of company culture and work intensity at Mercor
+
+[A009] (2025-03-01, schriftlich)
+  "In the last two years, Mercor went from three guys in a dorm room to fifty people in an office, with fifty more scattered across time zones."
+  Kontext: Reflection on Mercor's rapid growth from founding to scale-up
+
+[A010] (2025-10-01, schriftlich)
+  "last week, I shared with the mercor team that I'll be transitioning into a new role as chairman of the board and stepping away from my position as chief operating officer. mercor has been the defining journey of my life."
+  Kontext: Announcement of transition from COO to Board Chairman at Mercor
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2021-05-01) [sonstiges]
+  First team in history to win all three national policy debate tournaments: Tournament of Champions (TOC), National Debate Coaches Association Tournament (NDCA), and National Speech and Debate Association Tournament (NSDA). Individually ranked as best speaker at both TOC and NDCA.
+
+[H002] (2021-06-15) [sonstiges]
+  Graduated as salutatorian from Bellarmine College Preparatory. Enrolled at Georgetown University's School of Foreign Service to study international relations and economics.
+
+[H003] (2023-01-15) [gruendung]
+  Co-founded Mercor with [PERSON] and [PERSON], an AI-driven recruitment platform connecting skilled professionals with AI labs. Took academic leave from Georgetown University to start the company.
+
+[H004] (2023-01-15) [sonstiges]
+  Dropped out of Georgetown University School of Foreign Service to focus full-time on building Mercor. Became one of youngest founders to receive [PERSON] Fellowship for college dropouts.
+
+[H005] (2023-06-01) [investition]
+  Led $3.6 million seed funding round for Mercor, led by General Catalyst. Early stage funding to launch AI recruitment platform.
+
+[H006] (2024-03-01) [sonstiges]
+  Received [PERSON] Fellowship ($100,000 grant) along with co-founders [PERSON] and [PERSON]. One of the only times in history that an entire cofounding team received the [PERSON] Fellowship.
+
+[H007] (2024-06-01) [partnerschaft]
+  Mercor pivoted from connecting Indian software engineers to US startups to AI-driven recruiting platform serving major AI labs including [FIRMA], [FIRMA], and [FIRMA]. Platform now manages 30,000+ contractors for AI training and evaluation.
+
+[H008] (2024-09-18) [investition]
+  Announced $30 million Series A funding at $250 million valuation led by Benchmark, with participation from General Catalyst, [PERSON], Jack Dorsey, [PERSON], and Larry Summers.
+
+[H009] (2025-01-15) [sonstiges]
+  Selected for Forbes 30 Under 30 (2025) list in recognition of achievements as co-founder of Mercor AI recruitment platform. Solidified reputation as leading voice in AI and startup ecosystem.
+
+[H010] (2025-02-20) [investition]
+  Announced $100 million Series B funding at $2 billion valuation led by Felicis, with participation from Benchmark, General Catalyst, DST Global, and Menlo Ventures.
+
+[H011] (2025-08-01) [partnerschaft]
+  Mercor capitalized on major AI labs ([FIRMA], [FIRMA]) cutting ties with [FIRMA] after [FIRMA]'s $14 billion investment created conflicts of interest. Positioned Mercor as alternative provider of expert AI training data.
+
+[H012] (2025-09-01) [einstellung]
+  Hired former Bellarmine College Preparatory debate coach Aaron Langerman as Strategic Operations Lead at Mercor to help scale the company and improve internal systems.
+
+[H013] (2025-09-01) [produktlaunch]
+  Mercor reached $500 million annual recurring revenue (ARR) run rate, growing from $1M to $500M in just 17 months. Company now pays over $1.5 million daily to 30,000+ contractors for AI training work.
+
+[H014] (2025-10-01) [umstrukturierung]
+  Transitioned from Chief Operating Officer (COO) to Chairman of the Board at Mercor. Stepped away from day-to-day operations after guiding company through critical growth phases from $3.6M seed to $100M Series B.
+
+[H015] (2025-10-27) [investition]
+  Announced $350 million Series C funding at $10 billion valuation led by Felicis Ventures, with participation from Benchmark, General Catalyst, and Robinhood Ventures. 5x valuation increase since February 2025.

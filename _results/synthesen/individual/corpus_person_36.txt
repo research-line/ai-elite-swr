@@ -1,0 +1,94 @@
+=== DATENKORPUS PERSON-36 ===
+
+--- AUSSAGEN (13 Stueck) ---
+
+[A001] (2024-09-01, schriftlich)
+  "The fight of our times is over free speech. The bad guys are always the ones trying to restrict it."
+  Kontext: Statement zur Bedeutung der Meinungsfreiheit im Tech-Kontext
+
+[A002] (2024-10-31, muendlich)
+  "I would say the rate of progress is exponential right now on at least three key dimensions. The algorithms, the chips, and the datacenters are all improving or scaling at a rate of 3-4x a year. That's 10x every two years."
+  Kontext: All-In Podcast Diskussion ueber exponentielles KI-Wachstum
+
+[A003] (2025-01-15, muendlich)
+  "We have 5 major American companies vigorously competing on frontier models. This brings out the best in everyone and helps America win the AI race."
+  Kontext: Diskussion ueber Wettbewerb zwischen [FIRMA], [FIRMA], [FIRMA], [FIRMA] und anderen
+
+[A004] (2025-01-20, muendlich)
+  "The war on crypto is over."
+  Kontext: Crypto Ball nach Trumps Amtseinfuehrung
+
+[A005] (2025-01-25, schriftlich)
+  "Excessive regulation leads to Orwellian AI, a future where algorithms are imbued with ideological biases, capable of censoring information, distorting reality, and even rewriting history in real-time."
+  Kontext: Warnung vor den Gefahren uebermaessiger KI-Regulierung
+
+[A006] (2025-02-04, muendlich)
+  "Our first priority is stablecoin legislation. We can get this done in the next six months."
+  Kontext: Erste Pressekonferenz als White House AI & Crypto Czar
+
+[A007] (2025-03-06, schriftlich)
+  "Just a few minutes ago, President Trump signed an Executive Order to establish a Strategic Bitcoin Reserve. The Reserve will be capitalized with Bitcoin owned by the federal government that was forfeited as part of criminal or civil asset forfeiture proceedings. This means it will not cost taxpayers a dime."
+  Kontext: Ankuendigung der strategischen Bitcoin-Reserve durch Trump Executive Order
+
+[A008] (2025-04-06, schriftlich)
+  "It's great to see more American open source AI models. A meaningful segment of the global market will prefer the cost, customizability, and control that open source offers. We want the U.S. to win this category too."
+  Kontext: Reaktion auf amerikanische Open-Source-KI-Modelle im Wettbewerb mit China
+
+[A009] (2025-04-10, muendlich)
+  "All 50 states have introduced AI bills in 2025. There's been over 1,000 bills in state legislatures. 118 AI laws have already been passed across the 50 states."
+  Kontext: All-In Podcast ueber die regulatorische Fragmentierung auf Bundesstaatsebene
+
+[A010] (2025-06-03, schriftlich)
+  "There must be only One Rulebook if we are going to continue to lead in AI."
+  Kontext: Diskussion ueber fragmentierte KI-Regulierung in 50 US-Bundesstaaten mit ueber 1000 Gesetzesinitiativen
+
+[A011] (2025-07-23, schriftlich)
+  "For the U.S. to win the AI race, we have to win in open source too and [PRODUKT] 4 puts us back in the lead."
+  Kontext: Reaktion auf [FIRMA]'s [PRODUKT] 4 Veroeffentlichung im Kontext US-China KI-Wettbewerb
+
+[A012] (2025-08-10, muendlich)
+  "There is likely to be a major role for open source. These models excel at providing 80-90% of the capability at 10-20% of the cost."
+  Kontext: Diskussion ueber das Goldilocks-Szenario fuer KI-Wettbewerb
+
+[A013] (2025-12-15, muendlich)
+  "If we have 1,200 different AI laws in the states, you know, clamping down on innovation, I worry that we could lose the AI race."
+  Kontext: Interview zu Trumps Executive Order zur Begrenzung staatlicher KI-Regulierung
+
+
+--- HANDLUNGEN (12 Stueck) ---
+
+[H001] (1999-06-01) [einstellung]
+  [PERSON] wurde Chief Operating Officer bei [FIRMA] und baute viele der Schluesselteams des Unternehmens auf. Er war verantwortlich fuer Produktmanagement und Design, Vertrieb und Marketing, Geschaeftsentwicklung, International, Kundenservice, Betrugsbekaempfung und Personalwesen. Er war Teil der "[FIRMA] Mafia" - der Gruppe von Gruendern und fruehen Mitarbeitern, die spaeter weitere erfolgreiche Tech-Unternehmen gruendeten.
+
+[H002] (2008-09-01) [gruendung]
+  [PERSON] gruendete Yammer, ein Enterprise-Social-Network-Tool fuer Unternehmenskommunikation. Als Founder und CEO wuchs er das Unternehmen auf etwa 60 Millionen Dollar Umsatz und 500 Mitarbeiter an, bevor es 2012 an [FIRMA] verkauft wurde.
+
+[H003] (2012-06-25) [verkauf] ($1,200,000,000)
+  [FIRMA] akquirierte Yammer fuer 1,2 Milliarden Dollar in bar. Dies war einer der schnellsten Unicorn-Exits im SaaS-Bereich und etablierte [PERSON] als erfolgreichen Serial Entrepreneur.
+
+[H004] (2017-11-01) [gruendung] ($350,000,000)
+  [PERSON] gruendete Ende 2017 Craft Ventures als Co-Founder und General Partner. Der Early-Stage-Venture-Capital-Fonds konzentriert sich auf B2B-Software-Startups. Der erste Fonds hatte ein Volumen von 350 Millionen Dollar.
+
+[H005] (2020-03-16) [sonstiges]
+  [PERSON] ist Co-Host des All-In Podcasts zusammen mit Chamath Palihapitiya, Jason Calacanis und David Friedberg. Der Podcast wurde zu einer der einflussreichsten Tech-Stimmen mit Millionen Hoerern und regelmaessigen Diskussionen ueber KI, Krypto, Politik und Wirtschaft.
+
+[H006] (2023-06-01) [investition] ($3,300,000,000)
+  Unter [PERSON]' Fuehrung wuchs Craft Ventures von 350 Millionen Dollar (2017) auf 3,3 Milliarden Dollar AUM durch mehrere Fondsrunden: 500 Millionen (2019), 1,3 Milliarden in zwei Fonds (2021), und 1,3 Milliarden in Ventures IV und Growth II (2023). Der Fokus liegt auf B2B-Software im Zeitalter generativer KI.
+
+[H007] (2024-06-06) [spende] ($12,000,000)
+  [PERSON] co-hostete einen Fundraiser fuer Donald Trump in seinem San Francisco Anwesen. Tickets kosteten 50.000 Dollar pro Person, mit einem 300.000 Dollar Tier das Foto-Moeglichkeiten mit Trump beinhaltete. Das Event brachte erwartete 12 Millionen Dollar ein.
+
+[H008] (2024-12-05) [politisch]
+  Praesident-elect Donald Trump ernannte David O. [PERSON] zum "White House A.I. & Crypto Czar". In dieser Rolle wird [PERSON] die Politik fuer KI und Kryptowaehrungen leiten, zwei fuer die amerikanische Wettbewerbsfaehigkeit kritische Bereiche. Er leitet auch den Presidential Council of Advisors for Science and Technology.
+
+[H009] (2025-01-15) [verkauf] ($200,000,000)
+  [PERSON] und Craft Ventures verkauften ueber 200 Millionen Dollar an Krypto-bezogenen Holdings, davon mindestens 85 Millionen direkt [PERSON] zurechenbar. Dies umfasste alle liquiden Kryptowaehrungen (Bitcoin, Ethereum, Solana) sowie Anteile an Krypto-Fonds wie Multicoin Capital und Blockchain Capital, um Interessenskonflikte in seiner White House Rolle zu vermeiden.
+
+[H010] (2025-02-04) [lobbying]
+  [PERSON] arbeitete mit dem Kongress zusammen um Stablecoin-Gesetzgebung als oberste Prioritaet voranzutreiben. Er koordinierte mit dem bicameral crypto committee (Senate Banking, Senate Agriculture, House Agriculture, House Financial Services) um innerhalb von 6 Monaten einen regulatorischen Rahmen zu schaffen.
+
+[H011] (2025-03-06) [politisch]
+  Als White House AI & Crypto Czar leitete [PERSON] die Arbeitsgruppe zur Einrichtung der Strategic Bitcoin Reserve durch Executive Order von Praesident Trump. Die Reserve wird mit beschlagnahmten Bitcoin aus Strafverfahren kapitalisiert (ca. 200.000 BTC), ohne Kosten fuer Steuerzahler.
+
+[H012] (2025-12-11) [lobbying]
+  [PERSON] entwickelte und verteidigte Trumps Executive Order zur Preemption staatlicher KI-Gesetze. Die Order zielt darauf ab, ein einheitliches bundesweites Regelwerk zu schaffen statt fragmentierter Regulierung durch 50 Bundesstaaten mit ueber 1000 verschiedenen Gesetzentwuerfen.

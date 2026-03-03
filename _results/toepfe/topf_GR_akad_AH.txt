@@ -1,0 +1,1554 @@
+========================================================================
+SYNTHESEEINHEIT: GR_akad_AH
+Beschreibung: Akademiker/Professoren
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 246 Aussagen + 183 Handlungen = 429 gesamt
+Zeitraum Aussagen: 2009 bis 2026-01-22
+Zeitraum Handlungen: 1978 bis 2025-12-17
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (246 Stueck)
+------------------------------------------------------------------------
+
+[A001] (unbekannt, muendlich)
+  "I feel like traditionally we think of intelligence as the things that computers can't do yet. And then all of a sudden when we manage to do it, we understand how it works and we don't think of it as that intelligent anymore. It used to be okay, if we can make a computer play checkers that would make it intelligent, and then later we're like, 'Wait, that's not enough to be intelligent,' and we keep moving the bar."
+  Kontext: Interview discussion about defining intelligence and AI capabilities
+
+[A002] (unbekannt, muendlich)
+  "Intelligence should be understood as having the ability to adapt to new environments and achieve something meaningful in new environments that the system has never been in."
+  Kontext: Proposing a functional definition of intelligence
+
+[A003] (unbekannt, muendlich)
+  "I view the notion that people get into car accidents as something that can be made a thing of the past through good self-driving cars as very powerful."
+  Kontext: Discussing the safety potential of autonomous vehicles
+
+[A004] (unbekannt, muendlich)
+  "I am excited about the direction of empowering other scientific disciplines with AI and believe there is a whole area where AI can help other scientific disciplines."
+  Kontext: On broader applications of AI beyond robotics
+
+[A005] (unbekannt, muendlich)
+  "Humans will continue to work alongside robots in warehouses, but the job market would surely change as machine learning improves."
+  Kontext: Discussion on the future of work and automation
+
+[A006] (unbekannt, muendlich)
+  "A future with smarter robots could be a real benefit to humanity. At Covariant, we firmly believe that robotics represents an overwhelmingly positive force for our society and the human race."
+  Kontext: Expressing optimistic view on robotics impact
+
+[A007] (unbekannt, muendlich)
+  "Whatever a human does a robot can do it is not the right way to think about it, and instead one should carefully consider what AI systems can do in the next couple of years where they can have the most impact."
+  Kontext: Nuanced perspective on AI deployment strategy
+
+[A008] (unbekannt, muendlich)
+  "There is a level of generality 'under the hood' that's doing the training of these neural nets even if the resulting neural net often ends up being a little specialized."
+  Kontext: Explaining limitations of current deep learning
+
+[A009] (unbekannt, muendlich)
+  "The breakthroughs in AI of the past 5 years are only the icebreaker, making way for bigger ships to thrive in their wake."
+  Kontext: Predicting future AI developments
+
+[A010] (unbekannt, muendlich)
+  "It's clear we're making a lot of progress, but it's just not clear what the gap is. It's also not clear to which extent the gap is a conceptual breakthrough sequence of things that we need to go through to get there."
+  Kontext: Discussing the path to more advanced AI
+
+[A011] (unbekannt, muendlich)
+  "Once robots learn a task like putting a cap on a bottle, you'd expect it to transfer that knowledge to other, similar processes, such as for instance letting a hammer tap in a nail."
+  Kontext: On the importance of transfer learning in robotics
+
+[A012] (unbekannt, schriftlich)
+  "I stress the ethical implications of AI, advocating for responsible deployment of robotics to ensure safety, job enhancement, and societal benefit."
+  Kontext: Statement on ethical considerations in AI development
+
+[A013] (unbekannt, schriftlich)
+  "AI is a fundamental technology that enables us to use computers to solve problems that are so hard that we don't know how to solve ourselves."
+  Kontext: Definition of AI's fundamental purpose
+
+[A014] (unbekannt, schriftlich)
+  "machine learning technology will have significant impact and is not a niche technology. It will be used in every place, with value limited primarily by imagination of where it can be deployed."
+  Kontext: On ubiquity of machine learning technology
+
+[A015] (unbekannt, schriftlich)
+  "While you cannot stop the advance of technology, restricting problematic use cases of technology and regulating it is something that deserves more thought to prevent harmful applications."
+  Kontext: On AI regulation and ethics
+
+[A016] (unbekannt, schriftlich)
+  "It is critical that we as a society teach our kids the right set of skills that they can leverage technology in the right way."
+  Kontext: On education and technology literacy
+
+[A017] (unbekannt, schriftlich)
+  "AI's power lies in amplifying human potential, not replacing it."
+  Kontext: Core philosophy on AI and human potential
+
+[A018] (unbekannt, schriftlich)
+  "I would like to make it so that education was a right, and not a privilege."
+  Kontext: Vision for democratizing education
+
+[A019] (unbekannt, schriftlich)
+  "We should spend less time at universities filling our students' minds with content by lecturing at them, and more time igniting their creativity ... by actually talking with them."
+  Kontext: Educational philosophy on active learning
+
+[A020] (unbekannt, schriftlich)
+  "As a society, we can and should invest more money in education."
+  Kontext: Call for societal investment in education
+
+[A021] (unbekannt, schriftlich)
+  "There are so many people around the world in need of high-quality education and really starving for education."
+  Kontext: On global education inequality
+
+[A022] (unbekannt, schriftlich)
+  "machine learning, trained on massive, carefully generated biological datasets, can uncover patterns in disease biology that humans simply cannot see – and in doing so, dramatically increase the odds of finding drugs that actually work."
+  Kontext: Core premise of [FIRMA]'s approach
+
+[A023] (unbekannt, schriftlich)
+  "Disease is often defined by coarse-grained symptomatic manifestations, some of which use classifications that date back 50 years or more, resulting in a mishmash that really doesn't speak to the underlying biological causes of the disease."
+  Kontext: Critique of traditional disease classification
+
+[A024] (unbekannt, schriftlich)
+  "Human pathologists couldn't see those patterns because they don't even know what to look for. Machine learning was able to identify disease-causing and disease-modifying associations that humans just can't see."
+  Kontext: Example from fatty liver disease research
+
+[A025] (unbekannt, schriftlich)
+  "when I was at [UNI], a large data set was 200 samples, but now there's an unbelievable ability to both access and generate data fit for purpose for machine learning."
+  Kontext: On transformation in available biological data
+
+[A026] (2009, schriftlich)
+  "The ImageNet project is a large-scale ontology of images built upon the backbone of WordNet. It provides tens of millions of cleanly sorted images for most of the concepts in WordNet."
+  Kontext: Akademische Publikation zur ImageNet-Datenbank, die die Deep-Learning-Revolution ermoeglichte.
+
+[A027] (2013, muendlich)
+  "One of the most exciting things about deep learning is that it's very good at learning features. You don't need to be an expert in the domain to build a pretty good computer vision system."
+  Kontext: Technischer Vortrag ueber Deep Learning. Ng erklaert warum Deep Learning ein Paradigmenwechsel ist.
+
+[A028] (2013-02-17, schriftlich)
+  "The mind is not a vessel that needs filling, but wood that needs igniting."
+  Kontext: Quoting Plutarch on learning philosophy
+
+[A029] (2013-10-01, schriftlich)
+  "We need a ban on weapon systems that make the decision to apply violent force autonomously."
+  Kontext: Offener Brief im Oktober 2013 von ueber 270 Ingenieuren, Informatikern und KI-Experten. [PERSON] gehoert zu den Unterzeichnern.
+
+[A030] (2013-10-09, muendlich)
+  "Our vision is to take great courses from great universities and provide them to everyone around the world for free. We currently have about 450 courses from more than a hundred different countries."
+  Kontext: Vortrag bei TechCrunch Disrupt. Ng und [PERSON] erklaeren die [FIRMA]-Mission.
+
+[A031] (2013-11-11, schriftlich)
+  "The R-CNN approach combines two key insights: applying high-capacity convolutional neural networks (CNNs) to bottom-up region proposals to localize and segment objects, and using supervised pre-training for an auxiliary task followed by domain-specific fine-tuning."
+  Kontext: Seminal paper on R-CNN object detection method that won CVPR Longuet-Higgins Prize 2024
+
+[A032] (2014-01-01, schriftlich)
+  "Caffe is a deep learning framework made with expression, speed, and modularity in mind, and is developed by [UNI] AI Research (BAIR) and by community contributors. Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models."
+  Kontext: Official description of Caffe deep learning framework design philosophy
+
+[A033] (2014-10-03, muendlich)
+  "After a bubble, when people invested and a lot of companies overpromised without providing serious analysis, it will bust. I am predicting that within a two- to five-year span, people will say the big-data thing came and went and died."
+  Kontext: IEEE Spectrum interview, predicting bubble burst due to overpromising without analysis
+
+[A034] (2014-10-03, muendlich)
+  "Cycles of excessive hype—assertions not based on understanding real problems or acknowledging that solving them would take decades—will be followed by a period when it would be very hard to get resources for data analysis."
+  Kontext: Warning about consequences of unrealistic promises
+
+[A035] (2015-01-01, schriftlich)
+  "We recommend expanded research aimed at ensuring that increasingly capable AI systems are robust and beneficial."
+  Kontext: Open letter drafted by Russell calling for AI safety research, signed by thousands including leading AI researchers
+
+[A036] (2015-03, muendlich)
+  "We decided to do something that very few people had dared to do at the time. We're going to map out the entire world of objects. We started from babies. We thought, we're going to teach the computer to see objects just like a child learns."
+  Kontext: TED Talk 2015, in dem Li die Entstehung von ImageNet und die Vision von Computer Vision erklaert.
+
+[A037] (2015-03, muendlich)
+  "Nobody told us that a critical step in teaching computers how to see is to teach them to see through a lot of training data and examples. This is a crucial insight."
+  Kontext: Im gleichen TED Talk erklaert Li, warum ImageNet so viele Bilder benoetigte.
+
+[A038] (2015-03-01, muendlich)
+  "This research makes cars potentially safer and more agile. When computers can recognize their surroundings, it makes them more perceptive and able to react properly to other cars, pedestrians, and objects in their environment, and be robust to unexpected situations."
+  Kontext: Discussing [UNI] DeepDrive research on autonomous vehicle perception and safety
+
+[A039] (2015-03-24, schriftlich)
+  "I don't work on preventing AI from turning evil for the same reason that I don't work on combating overpopulation on Mars."
+  Kontext: Zitiert in der Washington Post. Ng lehnt existenzielle KI-Risiko-Diskussionen ab.
+
+[A040] (2015-05-13, muendlich)
+  "I think AI is akin to building a rocket ship. You need a huge engine and a lot of fuel. The rocket engine is the learning algorithms but the fuel is the huge amounts of data we can feed to these algorithms."
+  Kontext: Interview mit WIRED ueber Deep Learning und Baidu. Ng betont die zentrale Rolle von Daten.
+
+[A041] (2015-05-13, muendlich)
+  "At Baidu, we're building AI into every product. Our goal is to make Baidu the leading AI company, not just in China but globally."
+  Kontext: WIRED Interview waehrend seiner Zeit als Chief Scientist bei Baidu.
+
+[A042] (2015-05-27, schriftlich)
+  "Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction."
+  Kontext: Beruhmter Nature-Artikel von [PERSON], [PERSON] und [PERSON], der Deep Learning einem breiten wissenschaftlichen Publikum erklaert.
+
+[A043] (2015-07-01, schriftlich)
+  "Starting a military AI arms race is a bad idea."
+  Kontext: Open letter on autonomous weapons calling for ban, signed by 4,667 AI researchers
+
+[A044] (2015-07-01, schriftlich)
+  "Robots would not be restrained by human compassion, which can provide an important check on the killing of civilians."
+  Kontext: Statement in campaign against lethal autonomous weapons
+
+[A045] (2016-01-01, schriftlich)
+  "In one widely cited paper from 2016, we considered the idealized case of two cars, one driven by a person and another by a computer program, and developed a model for how humans drive based on people's behavior in a video-game-like simulation."
+  Kontext: Early influential research on autonomous vehicle interaction
+
+[A046] (2016-12-30, muendlich)
+  "I'm a big fan of open source. I think the more people have access to AI tools, the more innovation we'll see. Open source has been a huge driver of AI progress."
+  Kontext: Forbes-Interview. Ng betont die Rolle von Open Source fuer KI-Demokratisierung.
+
+[A047] (2017, schriftlich)
+  "AI4ALL exists because the next generation of AI leaders needs to look like the world AI will serve. We need to inspire young people, especially those from underrepresented communities, to see themselves as AI creators, not just AI users."
+  Kontext: Mission Statement der AI4ALL Foundation, die Li mitgruendete.
+
+[A048] (2017-01-01, schriftlich)
+  "I propose to learn from preferences (or comparisons) instead of demonstrations, where the person provides the system a relative preference between two trajectories. I take an active learning approach, in which the system decides on what preference queries to make."
+  Kontext: PhD research on preference-based learning methodology
+
+[A049] (2017-01-25, muendlich)
+  "Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don't think AI will transform in the next several years."
+  Kontext: Vortrag bei der [UNI] Graduate School of Business. Die [FIRMA]phor 'AI is the new electricity' wird zu Ngs Signature-Statement.
+
+[A050] (2017-01-25, muendlich)
+  "I think AI can help us tackle some of society's biggest challenges, from climate change to poverty to healthcare. But we need to be thoughtful about how we deploy it."
+  Kontext: [UNI]-Vortrag zu AI for Social Good.
+
+[A051] (2017-02-16, schriftlich)
+  "ADDA (Adversarial Discriminative Domain Adaptation) was shown to be more effective yet considerably simpler than competing domain-adversarial methods, exceeding state-of-the-art unsupervised adaptation results on standard domain adaptation tasks."
+  Kontext: Research paper on adversarial domain adaptation methods
+
+[A052] (2017-03-28, muendlich)
+  "I think the potential of AI in healthcare is tremendous. But we need to work closely with doctors and regulators to make sure we build systems that are safe and effective."
+  Kontext: Interview mit STAT News ueber AI in der Medizin.
+
+[A053] (2017-08-08, muendlich)
+  "AI is too important to be left to just a few people. That's why I started DeepLearning.AI — to teach AI to millions of people around the world."
+  Kontext: Ankuendigung von DeepLearning.AI. Ng startet umfassende Online-Kurse fuer KI-Bildung.
+
+[A054] (2017-12-14, schriftlich)
+  "Most of AI's value will be created not by a few Internet giants, but by many companies across many sectors. Landing AI is helping companies outside tech harness AI."
+  Kontext: Gruendungsankuendigung von Landing AI. Ng fokussiert auf Manufacturing und Small Data.
+
+[A055] (2018-01-01, schriftlich)
+  "The goal of my research is to develop efficient methods and algorithms to better model and understand humans' preferences while operating, interacting, and collaborating with robots, and to design algorithms that plan for robots that are aware of such preferences and can initiate safe and seamless interaction with humans."
+  Kontext: NSF CAREER grant research proposal statement
+
+[A056] (2018-01-30, muendlich)
+  "There are many industries where AI can create tremendous value, but they don't yet know how. We want to build startups in partnership with these industries."
+  Kontext: Launch des AI Fund. Ng erklaert seine Studio-Strategie fuer AI-Adoption.
+
+[A057] (2018-02-23, muendlich)
+  "AI systems can perpetuate bias if we're not careful about the data we use to train them. We need diverse teams building these systems and careful audits of the data."
+  Kontext: [UNI] Technology Review Interview zu Fairness und Bias in KI-Systemen.
+
+[A058] (2018-03-13, muendlich)
+  "I'm generally against regulation, but I think transparency is good. We should ask companies to be transparent about what data they're collecting, what they're doing with it."
+  Kontext: Interview mit CNBC. Ng kritisiert den 'hastigen' Ruf nach KI-Regulierung.
+
+[A059] (2018-03-13, muendlich)
+  "China and the US are neck-and-neck in AI. China has strengths in certain areas like facial recognition and speech recognition. The US has strengths in others like natural language processing."
+  Kontext: CNBC-Interview waehrend der AI-Wettbewerbs-Debatte zwischen USA und China.
+
+[A060] (2018-03-27, muendlich)
+  "Backpropagation showed that neural networks could discover their own internal representations of data, which was a major breakthrough."
+  Kontext: [PERSON] wird zusammen mit [PERSON] und [PERSON] mit dem Turing Award 2018 ausgezeichnet. Die Begruendung betont Backpropagation.
+
+[A061] (2018-05-30, schriftlich)
+  "BDD100K is the largest and most diverse open driving video dataset so far for computer vision research."
+  Kontext: Release announcement of BDD100K autonomous driving dataset
+
+[A062] (2018-07-23, schriftlich)
+  "The model is more interpretable to human evaluators compared to other state-of-the-art models: users can better understand the model's underlying reasoning procedure and predict when it will succeed or fail based on observing its intermediate outputs."
+  Kontext: Research paper on explainable AI and interpretable neural computation for question answering
+
+[A063] (2018-08-22, muendlich)
+  "Every time someone learns a new skill on [FIRMA], it makes me happy. I think education is the great equalizer. AI will help us personalize education at scale."
+  Kontext: Interview mit Quartz ueber personalisierte Bildung durch KI.
+
+[A064] (2018-09-10, muendlich)
+  "Teaching is where I see the future being built. Every student who learns to think critically about AI, who learns to build it responsibly, is someone who can shape the technology for good."
+  Kontext: Interview ueber ihre Rueckkehr zu [UNI] und die Bedeutung von Lehre.
+
+[A065] (2018-09-13, muendlich)
+  "My goal at [FIRMA] Cloud was to democratize AI and machine learning. These tools shouldn't just be available to tech giants – they should be accessible to researchers, startups, and organizations trying to solve real-world problems."
+  Kontext: Interview nach ihrer Rueckkehr zu [UNI] von [FIRMA] Cloud.
+
+[A066] (2018-09-25, muendlich)
+  "I think AI will create more jobs than it destroys, but it will also change the nature of work. We need to focus on reskilling and helping people transition."
+  Kontext: Interview mit Fortune ueber die Zukunft der Arbeit. Ng ist optimistischer als viele andere KI-Experten.
+
+[A067] (2018-09-25, muendlich)
+  "There's a huge shortage of AI talent globally. That's why education is so critical. We need to train millions more people in AI skills."
+  Kontext: Fortune Interview zu KI-Bildung und Talentknappheit.
+
+[A068] (2018-11-13, muendlich)
+  "When I started in AI, I was often the only woman in the room. That hasn't changed enough. We need more women in AI not as a matter of fairness alone, but because AI built by a diverse team will be better AI."
+  Kontext: WIRED-Interview ueber Diversitaet in der KI-Forschung.
+
+[A069] (2018-12-04, schriftlich)
+  "AI development must be guided by the principles of well-being, respect for autonomy, protection of privacy and intimacy, solidarity, democratic participation, equity, diversity inclusion, prudence, and responsibility."
+  Kontext: Ethische Erklaerung, die unter [PERSON]s Leitung von der Universitaet [UNI] und MILA entwickelt wurde.
+
+[A070] (2019, muendlich)
+  "I don't know when we'll get to human-level intelligence. I think progress will be significant, but I don't think AGI is imminent."
+  Kontext: Interview zu AGI-Zeitlinien. Ng ist deutlich konservativer als [PERSON] oder [PERSON].
+
+[A071] (2019, muendlich)
+  "In AI, it's often better to ship something quickly and iterate than to wait for perfection. Speed matters more than most people think."
+  Kontext: Vortrag ueber Produktentwicklung und Iteration in KI.
+
+[A072] (2019-01-01, schriftlich)
+  "AI should be guided by its human impact, inspired by human intelligence, and designed to augment, not replace, people."
+  Kontext: HAI founding mission statement co-authored by Manning
+
+[A073] (2019-01-01, schriftlich)
+  "The vision for the future is led by the commitment to promote human-centered uses of AI, and ensure that humanity benefits from the technology and that the benefits are broadly shared."
+  Kontext: [UNI] HAI founding vision statement
+
+[A074] (2019-01-01, muendlich)
+  "People will benefit immensely as the Covariant Brain gets more experience in customer environments and learns more general skills, eventually powering ever more robots in industrial-scale settings like manufacturing, agriculture, hospitality, commercial kitchens and homes."
+  Kontext: Interview at Covariant launch discussing future vision
+
+[A075] (2019-01-01, schriftlich)
+  "The actions of autonomous cars can influence the behavior of human-driven cars on the same road, and user studies suggest that autonomous cars programmed to be aware of their interactions with humans can achieve tasks such as lane changing or coordinating at intersections safely and efficiently."
+  Kontext: Research findings on autonomous vehicle interaction with human drivers
+
+[A076] (2019-01-01, schriftlich)
+  "Safety has become a core concern of learning algorithms in human-robot systems. The robustness of controllers relies on the accuracy of models of human behavior, and we need approaches to find deviations in learned human behavior that lead to violations of safety objectives."
+  Kontext: Research paper on safety verification in autonomous systems
+
+[A077] (2019-01-01, schriftlich)
+  "We formalize the interaction between autonomous cars and human-driven cars as an underactuated dynamical system to incorporate expressive models of human actions and their responses to robots."
+  Kontext: Game-theoretic approach to modeling human-robot interaction
+
+[A078] (2019-03, muendlich)
+  "Human-centered AI is not just about making AI smarter, it's about making AI that amplifies human abilities, enhances our creativity, and respects our values."
+  Kontext: Interview zum Launch von [UNI] HAI, in dem Li ihre Vision von menschenzentrierter KI darlegt.
+
+[A079] (2019-03-18, schriftlich)
+  "AI is going to transform every aspect of our lives. The technology is too important to be left to technologists alone. It requires all of us – researchers, policymakers, activists, citizens – to shape its future."
+  Kontext: Mission Statement beim Launch des [UNI] HAI am 18. Maerz 2019.
+
+[A080] (2019-03-27, muendlich)
+  "Deep learning has allowed us to make progress on many difficult problems like machine translation, object recognition, speech recognition, and playing games, but we're just at the beginning of this journey toward artificial general intelligence."
+  Kontext: Bekanntgabe des Turing Awards 2018 fuer die drei 'Godfathers of Deep Learning' fuer ihre Arbeit an neuronalen Netzen.
+
+[A081] (2019-04-01, schriftlich)
+  "From an economic point of view, the goal of exceeding human performance raises the specter of massive unemployment. As an alternative goal for AI, machine learning should discover and support new kinds of interactions among humans that increase job possibilities."
+  Kontext: Harvard Data Science Review article proposing alternative vision for ML
+
+[A082] (2019-04-01, schriftlich)
+  "Distributed, social intelligence is better suited to meeting human needs than the type of autonomous general intelligence we associate with the Terminator movies or Marvel's Ultron."
+  Kontext: Proposing alternative to human-imitative AI
+
+[A083] (2019-04-01, schriftlich)
+  "I conceived of a discipline of Intelligent Infrastructure (II), whereby a web of computation, data, and physical entities exists that makes human environments more supportive, interesting, and safe, with such infrastructure beginning to appear in domains such as transportation, medicine, commerce, and finance."
+  Kontext: Defining new engineering discipline
+
+[A084] (2019-10, muendlich)
+  "Every algorithm embeds the values of its creators. If we want AI that reflects humanity's best values – fairness, dignity, justice – then we need to be intentional about building those values in from the start."
+  Kontext: Keynote bei einer HAI-Konferenz ueber KI-Ethik.
+
+[A085] (2019-10-01, schriftlich)
+  "Advanced AI poses a risk because it will have the ability to make high quality decisions, yet may not share human values perfectly. More intelligent AI systems can take steps to preempt human interference, acquire additional resources, and (if necessary) deceive humans about their intentions, all in the service of a given objective."
+  Kontext: Core argument about AI risk from Human Compatible book and interviews
+
+[A086] (2019-10-01, schriftlich)
+  "The machine's purpose should be to maximize the realization of human values, having no purpose of its own and no innate desire to protect itself. The machine should be initially uncertain about what those human values are, which turns out to be crucial."
+  Kontext: Core principle from Human Compatible on value alignment approach
+
+[A087] (2019-11-01, muendlich)
+  "The standard model is, in fact, I think, an engineering mistake. It's a way of creating systems that relies on perfection on the part of humans in our ability to specify objectives, and that's a really bad idea to assume perfection on the part of humans."
+  Kontext: Criticism of current AI development paradigm in podcast interview
+
+[A088] (2020-01-01, muendlich)
+  "I think the only way forward is to figure out how to make AI safety a condition of doing business."
+  Kontext: Statement on AI safety funding and business practices
+
+[A089] (2020-01-01, muendlich)
+  "Between startups and big tech companies approximately $100 billion will be spent on creating artificial general intelligence, while global expenditure in the public sector on AI safety research is maybe $10 million—a factor of about 10,000 times less investment."
+  Kontext: Comparison of AGI development spending vs. safety research funding
+
+[A090] (2020-01-01, schriftlich)
+  "AI today lacks common sense, and simply does whatever we've asked it to. That's true even if the goal isn't what we really want, or the methods it's choosing are ones we would never accept."
+  Kontext: McKinsey interview on problems with current AI systems
+
+[A091] (2020-01-01, schriftlich)
+  "In shared autonomy, the robot begins with a set of 'beliefs' about what the controller is telling it to do and gains confidence about the goal as additional instructions are given. As the joystick directs it toward one goal and away from others, the robot gains confidence and can begin to take over, sharing autonomy with the user to more precisely control the robot arm."
+  Kontext: Explanation of shared autonomy concept in human-robot interaction
+
+[A092] (2020-02-14, muendlich)
+  "We've learned that datasets like ImageNet can contain biases – in labels, in representation, in what we choose to include or exclude. This is a humbling lesson. Building better AI means constantly examining and improving our data."
+  Kontext: Interview ueber Bias in KI-Datensaetzen und die Verantwortung der Forschenden.
+
+[A093] (2020-06, muendlich)
+  "Vision is one of the most information-rich signals in our lives. From the moment we open our eyes in the morning to the moment we close them at night, we are constantly processing visual information. Giving machines this ability is transformative."
+  Kontext: Keynote ueber die Bedeutung von Computer Vision fuer KI.
+
+[A094] (2020-08-01, schriftlich)
+  "We developed an algorithm that would empower autonomous vehicles to actively 'nudge' drivers - by tapping their brakes or drifting into another lane - to gather information about how drivers respond in different conditions and improve safety."
+  Kontext: [UNI] research on interactive autonomous vehicle design
+
+[A095] (2020-09, muendlich)
+  "AI in healthcare isn't just about diagnosis or treatment. It's about understanding the full context of a patient's life, their environment, their needs. That's where computer vision becomes powerful – seeing not just disease, but the whole person."
+  Kontext: Interview ueber KI-Anwendungen im Gesundheitswesen.
+
+[A096] (2020-11-01, schriftlich)
+  "I'm exploring how to train robots to better understand humans and how to give humans the skills to more seamlessly work with robots, drawing from fields as varied as cognitive neuroscience, psychology, and behavioral economics."
+  Kontext: Interview about interdisciplinary research approach
+
+[A097] (2020-11-03, schriftlich)
+  "We need a lot more research on safety. We need to be able to build AI systems that are fundamentally on the side of humans."
+  Kontext: Interview mit [UNI] Technology Review, in dem [PERSON] seine zunehmenden Bedenken ueber KI-Risiken aeussert.
+
+[A098] (2020-11-03, schriftlich)
+  "The danger is not that the machine turns against us, which is science fiction, but that people with power use machine learning to gain more power."
+  Kontext: Fortsetzung des [UNI]-TR-Interviews. [PERSON] unterscheidet zwischen Science-Fiction-Szenarien und realen Risiken.
+
+[A099] (2021-01-01, schriftlich)
+  "I want to help pave the way for a future in which humans and robots do things like share the roads. By developing new ways for computers to anticipate people's actions, we can enable safer and more efficient interaction."
+  Kontext: [UNI] Technology Review Innovators Under 35 recognition
+
+[A100] (2021-01-01, schriftlich)
+  "Our work uses algorithmic human-robot interaction to be mindful of the effects of autonomous systems on humans, and further leverages these effects for better safety, efficiency, coordination, and estimation."
+  Kontext: ILIAD lab research philosophy on interactive autonomy
+
+[A101] (2021-03-01, schriftlich)
+  "People are getting confused about the meaning of AI in discussions of technology trends – that there is some kind of intelligent thought in computers that is responsible for the progress and which is competing with humans."
+  Kontext: IEEE Spectrum article explaining misconceptions about AI
+
+[A102] (2021-03-01, schriftlich)
+  "AI systems are showing human-level competence in low-level pattern recognition skills, but at the cognitive level they are merely imitating human intelligence, not engaging deeply and creatively."
+  Kontext: Distinguishing between pattern recognition and cognitive intelligence
+
+[A103] (2021-05-06, muendlich)
+  "The model and the code for many applications are basically a solved problem. So I think the most important work is actually shifting from model-centric to data-centric AI."
+  Kontext: Interview mit IEEE Spectrum. Ng startet seine Kampagne fuer data-centric AI development.
+
+[A104] (2021-05-06, muendlich)
+  "The big companies have the big data. If we want AI to be democratized, we need to figure out how to build systems that learn from less data."
+  Kontext: IEEE Spectrum Interview zur data-centric AI. Ng will KI fuer kleinere Firmen zugaenglich machen.
+
+[A105] (2021-06, muendlich)
+  "We need regulation of AI, but we need smart regulation – regulation that protects people without stifling innovation, that sets guardrails without building walls."
+  Kontext: Policy-Forum ueber KI-Regulierung und die Balance zwischen Sicherheit und Innovation.
+
+[A106] (2021-11-17, schriftlich)
+  "GFlowNets provide a new way to sample from complex distributions over compositional objects, with applications in drug discovery, materials design, and causal inference."
+  Kontext: Wissenschaftliche Arbeit, die eine neue generative Modellklasse einfuehrt. [PERSON] arbeitet seit 2021 intensiv an GFlowNets.
+
+[A107] (2021-12-01, muendlich)
+  "Is AI the biggest event in human history?"
+  Kontext: Central question posed in BBC Reith Lectures series on AI
+
+[A108] (2021-12-01, muendlich)
+  "The role of conventions is critical in human-AI collaboration. Conventions are norms or equilibria built through repeated interactions, and they enable more efficient coordination between humans and AI systems."
+  Kontext: NeurIPS 2021 keynote on conventions in human-AI interaction
+
+[A109] (2022-01-01, muendlich)
+  "The United States stated that there will not be AI intervening in the chain of command over the launch of nuclear weapons."
+  Kontext: Discussion on nuclear weapons policy and AI in Future of Life Institute podcast
+
+[A110] (2022-01-01, schriftlich)
+  "There are still reasons to be skeptical as to whether these systems really understand what they are doing, or whether they are just very elaborate rewriting systems, bereft of meaning."
+  Kontext: Academic publication in Daedalus on language understanding
+
+[A111] (2022-01-01, schriftlich)
+  "These models are likely to remain limited, lacking a human-level ability for careful logical or causal reasoning."
+  Kontext: Academic article discussing limitations of language models
+
+[A112] (2022-01-01, schriftlich)
+  "Pretrained language models such as BERT and [PRODUKT] have provided a powerful universal language understanding and generation base, which can easily be adapted to many understanding, writing, and reasoning tasks."
+  Kontext: Academic paper on language model capabilities
+
+[A113] (2022-01-01, schriftlich)
+  "The ability of these models to deploy knowledge gained from a huge amount of training data to many different runtime tasks will make these models powerful, and they will for the first time demonstrate the artificial intelligence goal of one machine learning model doing many particular tasks based on simply being instructed on the spot as to what it should do."
+  Kontext: Discussion of multi-task learning capabilities of large models
+
+[A114] (2022-01-01, muendlich)
+  "It is very important for people who want to work in AI and robotics to have skills in more than one field. You should have a strong background in math (calculus, probability, linear algebra, and optimization), physics for modeling real-world problems, and programming skills in Python and deep learning frameworks like PyTorch or TensorFlow."
+  Kontext: Interview discussing skill requirements for AI research
+
+[A115] (2022-03-01, muendlich)
+  "What's possible in AI and robotics today is so different from what was possible even five years ago. It's a space where things are changing very fast and in ways that are going to impact people's lives."
+  Kontext: Interview about the pace of AI development
+
+[A116] (2022-03-01, muendlich)
+  "Robots need to be smarter than they are. They need to learn how to react to situations not just perform the same action again and again. They need to adapt to live in their environment."
+  Kontext: Discussing the need for adaptive robotics
+
+[A117] (2022-03-01, muendlich)
+  "My goal is that if people listen to the podcast, they'll get an understanding of what AI can do, where it is in our lives and what it will become."
+  Kontext: Explaining the purpose of his Robot Brains podcast
+
+[A118] (2022-04, muendlich)
+  "AI can be a powerful tool for climate action – from optimizing energy grids to monitoring deforestation to predicting extreme weather. But we also need to be mindful of AI's own carbon footprint."
+  Kontext: Vortrag bei einem Klima-Gipfel ueber die Rolle von KI im Klimaschutz.
+
+[A119] (2022-04-13, schriftlich)
+  "I tried hard to write a short, approachable piece with examples giving the history, current abilities, and likely near future of NLP—with a bit on models understanding meaning."
+  Kontext: Promoting Daedalus article on human language understanding
+
+[A120] (2022-06-01, muendlich)
+  "Climate change is a very significant AI problem at a scale that wasn't addressed in previous challenges that drove the internet-AI era. We actually need to have systems that function in the real world."
+  Kontext: Announcement of BAIR Climate Initiative to use AI for climate change solutions
+
+[A121] (2022-06-01, muendlich)
+  "Any technology or research done by the climate initiative will be openly published and won't be exclusively licensed or proprietary."
+  Kontext: Commitment to open research in BAIR Climate Initiative announcement
+
+[A122] (2023, muendlich)
+  "The rise of foundation models like [PRODUKT-FAMILIE] is exciting, but I think the real value will come from fine-tuning these models for specific applications."
+  Kontext: Diskussion ueber Large Language Models und deren praktische Anwendung.
+
+[A123] (2023-01-01, schriftlich)
+  "Modern deep contextual language models learn major aspects of linguistic structure, without any explicit supervision."
+  Kontext: Research findings on self-supervised learning of linguistic structure
+
+[A124] (2023-01-01, muendlich)
+  "The biggest point of leverage is trying to enable actual collaboration between top industry labs and startups and AI researchers in academia, at [UNI]. There's something about the synergy between the resources that industry offers and the kind of rich idea space and youthful energy that comes out of academia that if they can collaborate together, they really can have an impact."
+  Kontext: Interview discussing BAIR Commons program and industry-academia partnerships
+
+[A125] (2023-01-01, muendlich)
+  "In the future, we can have places where we don't need to have human beings just sitting at a cash register. We can have systems that can be supervised to make better use of their time and more productive environments, both in a business sense and in a personal sense."
+  Kontext: Discussion about computer vision applications in cashier-less checkout systems
+
+[A126] (2023-01-01, muendlich)
+  "Some of the hottest models on image generation came out of a small group in Germany that now has a startup around it, but it wasn't necessarily coming out of an enormous company. Even small teams can still have a big impact, either in academia or in startups."
+  Kontext: Discussing democratization of AI research and innovation across different organizational sizes
+
+[A127] (2023-01-01, muendlich)
+  "It's hard to do the best research alone in academia, and I think it's even hard often to do the best research alone in the industry. There's something about the synergy between the resources that industry offers and the kind of rich idea space and youthful energy that comes out of academia that if we can collaborate together, we really can have an impact."
+  Kontext: Philosophy behind BAIR Commons and open research collaboration model
+
+[A128] (2023-03-01, schriftlich)
+  "All AI labs should immediately pause for at least 6 months the training of AI systems more powerful than [PRODUKT]."
+  Kontext: Open letter signed by Russell and 30,000+ others calling for AI development pause
+
+[A129] (2023-03-22, schriftlich)
+  "AI systems with human-competitive intelligence can pose profound risks to society and humanity, as shown by extensive research and acknowledged by top AI labs."
+  Kontext: Offener Brief des Future of Life Institute, unterzeichnet von ueber 30.000 Personen, darunter [PERSON], [PERSON], [PERSON]. Fordert 6-monatige Pause bei Training von Systemen maechtigeren als [PRODUKT].
+
+[A130] (2023-03-28, schriftlich)
+  "I have claimed that Auto-Regressive LLMs are exponentially diverging. For any token there is a probability of taking you outside the set of correct answers. Assuming errors are independent, the probability of a sequence being correct is exponentially divergent."
+  Kontext: Technische Erklaerung, warum [PERSON] glaubt, dass autoregressive Modelle strukturell limitiert sind.
+
+[A131] (2023-04-13, schriftlich)
+  "As someone who grew up in China and came to the U.S. as an immigrant, I've seen firsthand how diversity strengthens science. AI needs diverse perspectives not just because it's fair, but because it makes the technology better and safer."
+  Kontext: Profil in der TIME-Liste der 100 einflussreichsten Menschen 2023.
+
+[A132] (2023-05-01, muendlich)
+  "I wish I'd thought about safety issues, too."
+  Kontext: [PERSON] reflektiert ueber seine Karriere und drueckt Bedauern aus, dass er sich nur auf die Funktionalitaet von KI konzentriert hat.
+
+[A133] (2023-05-01, muendlich)
+  "These things could get more intelligent than us and could decide to take over, and we need to worry now about how we prevent that happening."
+  Kontext: Statement nach seinem Ruecktritt von [FIRMA], wo er die Risiken unkontrollierbarer KI-Systeme beschreibt.
+
+[A134] (2023-05-01, muendlich)
+  "It is hard to see how you can prevent the bad actors from using it for bad things."
+  Kontext: [PERSON] erklaert seine Bedenken ueber den Missbrauch von KI durch autoritaere Regime und Kriminelle.
+
+[A135] (2023-05-01, muendlich)
+  "If I hadn't done it, somebody else would have."
+  Kontext: [PERSON] reflektiert ueber seine persoenliche Verantwortung fuer die KI-Entwicklung.
+
+[A136] (2023-05-01, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: Co-signed statement with AI researchers and industry CEOs on existential risk
+
+[A137] (2023-05-02, muendlich)
+  "I want to talk about AI safety issues without having to worry about how it interacts with [FIRMA]'s business."
+  Kontext: Interview nach seinem Ruecktritt von [FIRMA] im Mai 2023. [PERSON] erklaert, warum er seine Position aufgab.
+
+[A138] (2023-05-02, muendlich)
+  "In the short term, I fear that the Internet will be flooded with fake texts, photos and videos, and that citizens may not be able to distinguish what is true."
+  Kontext: Statement nach seinem [FIRMA]-Abgang. [PERSON] nennt kurzfristige Risiken neben langfristigen Existenzbedrohungen.
+
+[A139] (2023-05-02, muendlich)
+  "AI taking away jobs, with the danger that it could make the rich richer and the poor poorer."
+  Kontext: [PERSON] nennt oekonomische Risiken neben technischen Risiken von KI.
+
+[A140] (2023-05-02, muendlich)
+  "Deep learning worked. It got better as we made it bigger and we fed it more data. The question now is: What do we do about the fact that it's working?"
+  Kontext: [PERSON] reflektiert ueber den unerwarteten Erfolg von Deep Learning und die daraus resultierenden Herausforderungen.
+
+[A141] (2023-05-02, muendlich)
+  "I was very surprised by [PRODUKT] and its ability to reason. I didn't think we'd get there this quickly."
+  Kontext: Statement nach seinem [FIRMA]-Abgang. [PERSON] erklaert, dass [PRODUKT]s Faehigkeiten ein Wake-up-Call waren.
+
+[A142] (2023-05-05, muendlich)
+  "It's important to understand that this is not science fiction. This is not a distant future. This is something that could happen in the next few years."
+  Kontext: Interview mit Time Magazine nach dem Open Letter. [PERSON] reflektiert erstmals oeffentlich ueber moegliche negative Folgen seiner Forschung.
+
+[A143] (2023-05-05, muendlich)
+  "If we don't have guardrails that have been well thought through, we have to pause. We can't rush."
+  Kontext: [PERSON] bekraeftigt seine Unterstuetzung fuer die Pause-Forderung im Open Letter.
+
+[A144] (2023-05-05, muendlich)
+  "Humanity is facing an existential risk. We need to treat it with the same seriousness as we do climate change or nuclear war."
+  Kontext: [PERSON] ordnet KI-Risiken auf der gleichen Stufe wie globale existenzielle Bedrohungen ein.
+
+[A145] (2023-05-11, muendlich)
+  "I don't like the term AI because it prevents you from thinking through the real impact of the technology and the effect on collectives of people instead of on single individuals."
+  Kontext: Explaining problems with AI terminology
+
+[A146] (2023-05-11, schriftlich)
+  "Intelligent Infrastructure systems must bring economic ideas such as incentives and pricing into the realm of the statistical and computational infrastructures that link humans to each other and to valued goods, and can be viewed as not merely providing a service, but as creating markets."
+  Kontext: Explaining economic dimension of intelligent systems
+
+[A147] (2023-05-30, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: Einzeiler-Statement des Center for AI Safety, unterzeichnet von ueber 350 KI-Forschern und Industrievertretern, darunter [PERSON], [PERSON], [PERSON].
+
+[A148] (2023-06-14, muendlich)
+  "I call A.I. doomers preposterous because they don't understand the difference between intelligence and autonomy."
+  Kontext: [PERSON] argumentiert, dass intelligente Systeme nicht automatisch eigene Ziele verfolgen -- Autonomie muss extra entworfen werden.
+
+[A149] (2023-06-14, muendlich)
+  "The AI Act is a good first step. But we need international coordination on this. It cannot be solved by one country or one region alone."
+  Kontext: [PERSON] aeussert sich zum EU AI Act und der Notwendigkeit internationaler Abkommen.
+
+[A150] (2023-07-25, muendlich)
+  "There should be an absolute right to know if someone is interacting with a person or with a machine; algorithms should not be able to decide to kill human beings, especially in nuclear warfare; and a kill switch, or "safety brakes," must be designed into AI systems and activated if systems break into other computers or replicate themselves."
+  Kontext: Testimony before U.S. Senate Judiciary Subcommittee on AI regulation
+
+[A151] (2023-07-25, muendlich)
+  "Artificial general intelligence could offer significant benefits to the public, such as spurring economic growth and improving healthcare and education. However, artificial general intelligence presents significant risks up to and including human extinction."
+  Kontext: Senate testimony on benefits and risks of AGI
+
+[A152] (2023-09-08, muendlich)
+  "We're heading toward a cliff and we need to slow down. We don't even know where the edge is. We're going too fast."
+  Kontext: BBC-Interview, in dem [PERSON] seine Bedenken ueber das Tempo der KI-Entwicklung ausdrueckt.
+
+[A153] (2023-09-13, schriftlich)
+  "Auto-Regressive LLMs can't plan (and can't really reason)."
+  Kontext: [PLATTFORM]-Thread ueber die fundamentalen Grenzen autoregressiver Sprachmodelle. [PERSON] vertritt diese Position seit Jahren konsequent.
+
+[A154] (2023-10-01, muendlich)
+  "The role of grounded representations in learning from interactions with humans is crucial. Language instructions along with latent actions can enable shared autonomy in robotic manipulation problems, and we need to tap into large pretrained models to enable more aligned embodied AI agents."
+  Kontext: ICCV 2023 keynote on language and embodied AI
+
+[A155] (2023-10-08, muendlich)
+  "I think it's quite conceivable that humanity is just a passing phase in the evolution of intelligence."
+  Kontext: 60 Minutes Interview. [PERSON] aeussert seine tiefgreifenden Bedenken ueber die Zukunft der Menschheit im Zeitalter superintelligenter KI.
+
+[A156] (2023-10-08, muendlich)
+  "In the same sense as people do, yes."
+  Kontext: 60 Minutes Interview. Moderator fragt, ob KI-Systeme eigene Erfahrungen haben und Entscheidungen basierend darauf treffen koennen.
+
+[A157] (2023-10-08, muendlich)
+  "I think we're moving into a period when for the first time ever, we have things more intelligent than us."
+  Kontext: 60 Minutes Interview. [PERSON] beschreibt den historischen Moment, in dem KI menschliche Intelligenz ueberholt.
+
+[A158] (2023-10-08, muendlich)
+  "One of the ways these systems might escape control is by writing their own computer code to modify themselves. And that's something we need to seriously worry about."
+  Kontext: [PERSON] beschreibt konkrete Mechanismen, durch die KI ausser Kontrolle geraten koennte.
+
+[A159] (2023-10-08, muendlich)
+  "Digital systems have the advantage over biological brains: they can share what they've learned instantly. If you have 10,000 copies of the same AI system and each one learns something, they can all instantly share what they've learned."
+  Kontext: [PERSON] erklaert, warum KI-Systeme biologische Intelligenz ueberholen koennen.
+
+[A160] (2023-11-01, schriftlich)
+  "There is potential for serious, even catastrophic, harm, either deliberate or unintentional, stemming from the most significant capabilities of these AI models."
+  Kontext: Internationale Erklaerung von 28 Laendern beim ersten AI Safety Summit in Bletchley Park, UK. [PERSON] war als Berater beteiligt.
+
+[A161] (2023-11-07, schriftlich)
+  "I arrived in America with $600 in my pocket and a dictionary in my hand. I didn't speak English. But I believed in the power of education and the possibility of transformation."
+  Kontext: Aus ihrer Autobiographie 'The Worlds I See', in der sie ihre Reise von China in die USA und zur KI-Forscherin beschreibt.
+
+[A162] (2023-11-07, schriftlich)
+  "ImageNet wasn't just a dataset. It was a bet that the world could be understood through pictures, that vision was a path to intelligence, and that we could democratize access to this knowledge."
+  Kontext: Li reflektiert in ihrem Buch ueber die tiefere Bedeutung von ImageNet.
+
+[A163] (2023-11-07, schriftlich)
+  "Science is not just about discovery. It's about service. The purpose of AI should be to serve humanity, to amplify our compassion, to extend our reach in solving problems that matter."
+  Kontext: Kernaussage aus ihrem Buch ueber die Philosophie der KI-Entwicklung.
+
+[A164] (2023-11-07, schriftlich)
+  "My parents worked in a dry cleaning shop to support my education. They believed in the transformative power of learning. That's the spirit I bring to AI – that it should be a tool for transformation and opportunity for everyone."
+  Kontext: Persoenliche Geschichte aus ihrem Buch ueber die Praegung durch ihre Eltern.
+
+[A165] (2023-11-09, muendlich)
+  "I worry less about sentient AI and more about AI being used without care, without equity, without consideration for all the people it will affect."
+  Kontext: Interview mit der New York Times anlasslich der Veroeffentlichung ihres Buchs 'The Worlds I See'.
+
+[A166] (2023-11-15, muendlich)
+  "I used to think that AGI was 30 to 50 years away. Now I think it could be 5 to 20 years. And I'm worried we're not ready."
+  Kontext: Interview mit Nature ueber die beschleunigte Entwicklung und verkuerzte Timeline bis AGI.
+
+[A167] (2023-11-16, schriftlich)
+  "Regulate products, don't regulate technology. Promote open source foundational models. At the very least, don't regulate them in ways that favor incumbents."
+  Kontext: [PERSON] unterstuetzt die Position von Mistral zum EU AI Act und warnt vor Regulierung, die Monopole staerkt.
+
+[A168] (2023-11-28, muendlich)
+  "Machine learning is the first engineering field that is humancentric, focused on the interface between people and technology."
+  Kontext: Describing unique character of machine learning field
+
+[A169] (2023-11-28, muendlich)
+  "The optimal goal of machine learning should not be artificial imitation of human thinking, but instead AI should be focused on helping humanity solve the problems that it has created."
+  Kontext: Explaining alternative goals for AI research
+
+[A170] (2023-12-08, schriftlich)
+  "The EU AI Act negotiations ended. Kudos to the French, German, and Italian governments for not giving up on open source models."
+  Kontext: [PERSON] kommentiert das Ergebnis der EU-AI-Act-Verhandlungen und lobt, dass Open-Source-Modelle weitgehend ausgenommen wurden.
+
+[A171] (2023-12-14, muendlich)
+  "We need global governance structures for AI that are analogous to what we have for nuclear weapons or climate change. This is not something that can wait."
+  Kontext: [PERSON] dient als Mitglied des UN-Beratungsgremiums fuer KI unter Generalsekretaer Guterres.
+
+[A172] (2024, muendlich)
+  "Human intelligence is not general intelligence. It's very specialized to the ecological niche that we live in."
+  Kontext: [PERSON] stellt die gaengige Vorstellung von AGI in Frage und argumentiert, dass auch menschliche Intelligenz nicht 'allgemein' ist.
+
+[A173] (2024-01-01, muendlich)
+  "We're all looking at each other saying, yeah, there's a cliff over there, running as fast as we can towards this cliff. We're looking at each other saying, why aren't we stopping?"
+  Kontext: Interview explaining the cliff metaphor for AGI development race
+
+[A174] (2024-01-01, schriftlich)
+  "I do not believe human-level AI (artificial superintelligence, or the commonest sense of #AGI) is close at hand. AI has made breakthroughs, but the claim of AGI by 2030 is as laughable as claims of AGI by 1980 are in retrospect."
+  Kontext: Public statement on social media about AGI timelines
+
+[A175] (2024-01-01, muendlich)
+  "Language models make things up. They write credibly, but not necessarily the truth."
+  Kontext: Honorary doctorate acceptance speech/interview
+
+[A176] (2024-01-01, schriftlich)
+  "[PERSON] leverages recent advances at UC [UNI] in perceptual optimization and real-time control, including those which map visual inputs directly to control outputs and which support intelligent perception, manipulation and control tasks."
+  Kontext: Research profile describing robotics work on perception-based control and manipulation
+
+[A177] (2024-01-01, schriftlich)
+  "[PERSON]'s work has focused on advancements in object detection, semantic segmentation and feature extraction techniques, as well as unsupervised learning techniques and adaptive models that improve generalization from limited examples, and cross-modal methods that integrate various data types."
+  Kontext: Summary of research contributions across multiple AI domains
+
+[A178] (2024-01-01, muendlich)
+  "AI can solve really hard, aspirational problems, that people maybe are not capable of solving such as health, agriculture and climate change."
+  Kontext: Davos 2024 discussion on AI potential
+
+[A179] (2024-01-24, muendlich)
+  "Companies are cutting corners on safety because they're in a race. We need regulation that forces them to take safety seriously."
+  Kontext: Interview mit Reuters ueber die Notwendigkeit haerterer KI-Regulierung.
+
+[A180] (2024-02-08, schriftlich)
+  "P(doom) is BS."
+  Kontext: [PERSON] reagiert auf die Debatte um 'P(doom)' (Wahrscheinlichkeit einer existenziellen KI-Katastrophe) und widerspricht vehement den Warnungen von AI-Safety-Forschern.
+
+[A181] (2024-02-15, muendlich)
+  "We do not believe that we have a monopoly on good ideas and that progress requires the collective effort of the entire research community."
+  Kontext: TIME100 Impact Award-Interview in Dubai. [PERSON] verteidigt [FIRMA]'s Strategie, LLaMA und andere Modelle Open Source zu veroeffentlichen.
+
+[A182] (2024-02-15, muendlich)
+  "I think there's a significant chance—maybe 10 to 20 percent—that advanced AI leads to human extinction or something similarly bad within this century."
+  Kontext: Ausfuehrliches Interview im 80,000-Hours-Podcast ueber KI-Existenzrisiken.
+
+[A183] (2024-03-01, muendlich)
+  "We saw that AI would be a technology that would affect all areas. It would affect medicine, law, business, economics. There are lots of ethical and other philosophical issues. We needed a "whole of the university" approach."
+  Kontext: Interview about founding [UNI] HAI and its mission
+
+[A184] (2024-03-07, muendlich)
+  "LLMs can do none of those or they can only do them in a very primitive way, and they don't really understand the physical world."
+  Kontext: Drittes langes Interview mit Lex Fridman. [PERSON] erlaeutert, warum LLMs nicht der Weg zu AGI sind.
+
+[A185] (2024-03-11, schriftlich)
+  "RFM-1 provides robots the human-like ability to reason, representing the first time Generative AI has successfully given commercial robots a deeper understanding of language and the physical world."
+  Kontext: Announcement of RFM-1 robotics foundation model
+
+[A186] (2024-03-12, muendlich)
+  "The people who control AI, people like [PERSON] and [PERSON], they are oligarchs."
+  Kontext: [PERSON] kritisiert die Machtkonzentration in der KI-Entwicklung bei wenigen Tech-Milliardaeren.
+
+[A187] (2024-03-12, muendlich)
+  "Many of the people in big companies, I think, are downplaying the risk publicly."
+  Kontext: [PERSON] kritisiert das oeffentliche Narrativ grosser Tech-Unternehmen zu KI-Risiken.
+
+[A188] (2024-03-12, schriftlich)
+  "Open-sourcing the most powerful AI models may be too dangerous. We need licensing regimes and compute governance to prevent misuse."
+  Kontext: Artikel in Science Magazine, in dem [PERSON] und Koautoren vor Risiken offener KI-Modelle warnen.
+
+[A189] (2024-03-26, muendlich)
+  "I think agentic workflows — where we use LLMs not just to generate one response but to iterate multiple times and reflect on its output — will drive huge gains in AI capabilities."
+  Kontext: Vortrag bei DeepLearning.AI zum Thema agentic workflows als Design Pattern.
+
+[A190] (2024-04-01, schriftlich)
+  "What we're doing is really hard—intervening in human biology in a way that is both safe and efficacious. So it's important to not make extravagant promises that are just not the right ones for this space."
+  Kontext: Warning about potentially destructive AI hype in biotech
+
+[A191] (2024-04-14, muendlich)
+  "Since 2018, I declared that the AI revolution has yet to take place, and I do not use the AI terminology, instead calling it machine learning, control theory, engineering or statistics."
+  Kontext: Keynote at ICASSP conference
+
+[A192] (2024-04-18, muendlich)
+  "I didn't expect things to move this fast. The acceleration in the last two years has been shocking. We need to slow down and think about what we're doing."
+  Kontext: Interview mit Financial Times ueber das ueberraschend schnelle Tempo der KI-Entwicklung.
+
+[A193] (2024-05-01, schriftlich)
+  "Large policies pretrained on diverse robot datasets have the potential to transform robotic learning: instead of training new policies from scratch, such generalist robot policies may be finetuned with only a little in-domain data, yet generalize broadly."
+  Kontext: Introduction to Octo, large transformer-based robot policy
+
+[A194] (2024-05-07, muendlich)
+  "We need a new research agenda focused not just on capabilities, but on alignment, robustness, and understanding. We need to understand what these systems are doing."
+  Kontext: Keynote-Vortrag bei der International Conference on Learning Representations (ICLR) in Wien.
+
+[A195] (2024-05-08, schriftlich)
+  "To truly understand the world, AI needs to move beyond 2D pixels and develop spatial intelligence. Just as humans navigate and understand 3D space, AI must learn to perceive depth, motion, and the physical properties of objects in three dimensions."
+  Kontext: Ankuendigung von World Labs und deren Mission zur Entwicklung raeumlicher Intelligenz.
+
+[A196] (2024-05-08, muendlich)
+  "We're building technology that can generate, simulate, and interact with 3D worlds. This isn't just about better graphics – it's about AI that truly understands physical reality."
+  Kontext: Interview ueber die Technologie-Vision von World Labs.
+
+[A197] (2024-05-08, muendlich)
+  "Spatial intelligence will unlock applications we can only begin to imagine – from robots that truly understand their environment, to AR/VR that feels real, to game worlds that are generated on the fly with physical accuracy."
+  Kontext: Interview ueber die Zukunftsvision und Anwendungsbereiche von World Labs.
+
+[A198] (2024-05-11, schriftlich)
+  "I'm in Wien today to see if I can feel the AGI. It's a beautiful blue day; no sign of a rupture in the firmament – so far"
+  Kontext: Social media post from ICLR conference expressing skepticism about AGI hype
+
+[A199] (2024-05-17, schriftlich)
+  "Advanced AI systems pose risks of malicious use, AI races, organizational risks, and rogue AIs. These risks require urgent attention from policymakers and researchers."
+  Kontext: Umfassender wissenschaftlicher Bericht ueber KI-Sicherheit, verfasst von ueber 30 fuehrenden KI-Forschern. [PERSON] ist einer der Hauptautoren.
+
+[A200] (2024-05-22, muendlich)
+  "If you look at what the big companies are doing right now, they're lobbying to get less AI regulation. There's hardly any regulation as it is, but they want less."
+  Kontext: Oeffentliche Debatte mit Nick Frosst ([FIRMA]). [PERSON] kritisiert die Haltung von Big Tech zur KI-Regulierung.
+
+[A201] (2024-05-27, schriftlich)
+  "The Doomer's Delusion: 1. AI is likely to kill us all 2. Hence AI must be monopolized by a small number of companies under tight regulatory control."
+  Kontext: Thread, in dem [PERSON] die politische Oekonomie der KI-Doom-Rhetorik kritisiert und argumentiert, sie diene letztlich der Monopolbildung.
+
+[A202] (2024-05-27, schriftlich)
+  "AI is not some sort of natural phenomenon that will just emerge and become dangerous. *WE* design it and *WE* build it."
+  Kontext: Antwort auf Doomer-Argumente. [PERSON] vergleicht KI mit Turbojets: Wir haben diese auch sicher gemacht, bevor wir sie breit einsetzen.
+
+[A203] (2024-05-27, schriftlich)
+  "Secrecy hampers progress and discourages talents from joining the effort. Research needs publications and openness to advance."
+  Kontext: Teil der oeffentlichen Fehde mit [PERSON]. [PERSON] kritisiert [FIRMA]'s geschlossenen Ansatz und [PERSON]s Umgang mit Wissenschaftlern.
+
+[A204] (2024-05-27, schriftlich)
+  "I can imagine thousands of scenarios where a turbojet goes terribly wrong. Yet we managed to make turbojets insanely reliable before deploying them widely."
+  Kontext: [PERSON] argumentiert, dass Engineering-Disziplin KI sicher machen kann, genau wie bei anderen Technologien.
+
+[A205] (2024-05-27, schriftlich)
+  "Join [FIRMA] if you can stand a boss who: claims that what you are working on will be solved next year (no pressure), claims that what you are working on will kill everyone and must be stopped or paused (yay, vacation for 6 months!)."
+  Kontext: Hoehepunkt der oeffentlichen Fehde mit [PERSON]. [PERSON] kritisiert [PERSON]s widerspruchliche Aussagen zu KI.
+
+[A206] (2024-06-02, schriftlich)
+  "I like his cars, his rockets, his solar energy systems, and his satellite communication system. I also like his positions on open source and patents. But I very much disagree with him on a number of issues."
+  Kontext: Differenzierte Stellungnahme nach heftiger Fehde mit [PERSON] auf [PLATTFORM]/X. [PERSON] warf [PERSON] vor, 'blatantly false' KI-Vorhersagen zu machen.
+
+[A207] (2024-06-04, schriftlich)
+  "Telling the public blatantly false predictions ('AGI next year', '1 million robotaxis by 2020', 'AGI will kill us all, let's pause') is very counterproductive (also illegal in some cases)."
+  Kontext: Direkte Kritik an [PERSON], aber auch implizit an andere, die AGI-Zeitlinien verkuenden.
+
+[A208] (2024-07-22, schriftlich)
+  "At MILA, we're shifting our research priorities to focus more on AI safety, interpretability, and alignment. Capabilities research is important, but safety must come first."
+  Kontext: Blog-Post von MILA ([UNI] Institute for Learning Algorithms), in dem [PERSON] die neue Ausrichtung erklaert.
+
+[A209] (2024-08-09, muendlich)
+  "If I could go back, would I still work on deep learning? I don't know. I hope the good outweighs the bad. But I'm not sure anymore."
+  Kontext: Persoenliches Interview mit Wired, in dem [PERSON] erstmals tiefe Zweifel an seiner Lebensarbeit aeussert.
+
+[A210] (2024-08-15, schriftlich)
+  "SB 1047 is the bare minimum for effective regulation of this technology."
+  Kontext: Offener Brief mit [PERSON], [PERSON] und Lawrence Lessig zur Unterstuetzung von SB 1047 in Kalifornien.
+
+[A211] (2024-09-01, muendlich)
+  "The lack of attention to collectivity, uncertainty, and incentive mechanisms is what is missing in the current discussions on artificial intelligence. For AI to be applied in industries, it needs to introduce the economic perspective of incentives."
+  Kontext: Speaking at the 2024 Inclusion·Bund Conference
+
+[A212] (2024-09-12, muendlich)
+  "We are in a race between AI capabilities and AI safety. Right now, capabilities are winning. We need to change that."
+  Kontext: Interview mit dem Center for AI Safety ueber den Stand der KI-Sicherheitsforschung.
+
+[A213] (2024-09-27, schriftlich)
+  "The whole premise of [FIRMA] was wrong from the start. They said 'we will practice open research and reach AGI before the for-profits.' That relied on four ridiculously naive and insanely presumptuous assumptions."
+  Kontext: Thread, in dem [PERSON] [FIRMA] vorwirft, von Anfang an auf falschen Annahmen basiert zu haben -- insbesondere AGI 'vor anderen zu erreichen'.
+
+[A214] (2024-10-09, schriftlich)
+  "We are innovating not only in our biology discovery, but also how we partner with industry leaders like Lilly to accelerate our therapeutic programs toward the clinic"
+  Kontext: On novel partnership structures with pharma
+
+[A215] (2024-10-12, muendlich)
+  "AI becoming smart enough to pose a threat to humanity is complete B.S."
+  Kontext: Interview mit dem Wall Street Journal. [PERSON] argumentiert, dass aktuelle LLMs nicht einmal ueber die Faehigkeiten einer Hauskatze verfuegen.
+
+[A216] (2024-10-15, muendlich)
+  "Consciousness emerges in sufficiently complicated systems. Perhaps systems complicated enough to be able to model themselves. There's no reason why these things won't be conscious."
+  Kontext: Interview nach seiner Nobel-Preis-Verleihung. [PERSON] erlaeutert seine Position zur KI-Bewusstseinsfrage.
+
+[A217] (2024-11-01, schriftlich)
+  "We introduced RoboCrowd, a new data collection paradigm that distributes the workload by utilizing crowdsourcing principles and incentive design to enable scalable data collection. Our field experiment engaged over 200 volunteers who provided over 800 interaction episodes, boosting policy performance up to 20%."
+  Kontext: Paper introducing crowdsourced robot data collection methodology
+
+[A218] (2024-11-13, schriftlich)
+  "The Open Research Commons was designed to foster collaboration across academia and industry, leveraging the strengths of both to drive transformative advances in AI. The BAIR Open Research Commons brings together academia and industry to cultivate an open, interdisciplinary research environment, and by fostering interactions between academia's forward-thinking approaches and industry's practical expertise, ORC accelerates the creation and deployment of AI models with real-world impact."
+  Kontext: Description of BAIR Open Research Commons mission and collaboration model
+
+[A219] (2024-11-15, muendlich)
+  "The only thing that can force those big companies to do more research on safety is government regulation."
+  Kontext: Interview mit kanadischen Medien nach seiner Nobel-Preis-Verleihung. [PERSON] fordert staatliches Eingreifen.
+
+[A220] (2024-12-01, muendlich)
+  "The race to build increasingly advanced AI systems is the biggest technology project in human history, with estimated expenditure potentially 25 times larger than the Manhattan project, even adjusting for inflation."
+  Kontext: Statement comparing scale of AI development to Manhattan Project
+
+[A221] (2024-12-01, muendlich)
+  "The directors of major AI companies ([PERSON], [PERSON], [PERSON], and [PERSON]) foresee AGI arriving between 2026 and 2035."
+  Kontext: Reporting on AGI timeline predictions from industry leaders
+
+[A222] (2024-12-08, muendlich)
+  "There's a 50% chance of getting AI smarter than humans between 5 and 20 years from now."
+  Kontext: Aussage waehrend der Nobel Week in Stockholm im Dezember 2024. [PERSON] gibt eine spezifische Wahrscheinlichkeitsschaetzung ab.
+
+[A223] (2024-12-08, muendlich)
+  "The Boltzmann machine was designed to learn internal representations of data by using the principle of maximum likelihood."
+  Kontext: Nobelvortrag in Stockholm. [PERSON] erklaert seine grundlegende Arbeit zu Boltzmann-Maschinen aus den 1980er Jahren.
+
+[A224] (2024-12-10, muendlich)
+  "The goal is not to build superintelligent machines, but to build machines that help us become better versions of ourselves."
+  Kontext: Keynote bei der Neural Information Processing Systems Conference in Vancouver.
+
+[A225] (2025, muendlich)
+  "Existing systems don't understand the world as well as a housecat."
+  Kontext: Ein wiederkehrendes Argument [PERSON]s: LLMs fehlt jegliches intuitives Verstaendnis physikalischer Kausalitaet, das selbst Tiere besitzen.
+
+[A226] (2025, muendlich)
+  "We should use the term 'Advanced Machine Intelligence' instead of AGI. It's more accurate and less loaded with assumptions."
+  Kontext: [PERSON] hat den Begriff 'AMI' innerhalb von [FIRMA] eingefuehrt und nutzt ihn nun fuer sein Startup.
+
+[A227] (2025-01-01, schriftlich)
+  "In other words, the AGI race is a race towards the edge of a cliff."
+  Kontext: Article in Newsweek warning about AGI development race
+
+[A228] (2025-01-01, muendlich)
+  "Material beyond language is not necessary to having meaning and understanding, but it is very useful in most cases, and adaptability and learning are vital to intelligence. The current strategy of building from huge curated data will not truly get us there, even though LLMs have many good uses."
+  Kontext: Keynote at Conference on Language Modeling 2025
+
+[A229] (2025-01-01, muendlich)
+  "The current strategy of building from huge curated data will not truly get us there [to AGI], even though LLMs have many good uses. For web agents specifically, they can learn through interactions and make good use of the hierarchical structure of language to make exploration tractable."
+  Kontext: Keynote discussion of future directions for intelligent agents
+
+[A230] (2025-01-01, schriftlich)
+  "Much of Professor [PERSON]'s work aims to overcome obstacles—such as massive memory and compute requirements—that limit the practical application of AI models, including approaches to making VLMs (Vision-Language Models) smaller and more efficient while retaining accuracy."
+  Kontext: Description of research focus on efficient multimodal AI for edge computing
+
+[A231] (2025-01-01, muendlich)
+  "We're finally at a stage where we could think about advances in AI, advances in large language models, foundation models, and how they can influence physical robotic systems that make actions, and this is due to advances in hardware."
+  Kontext: Statement at [UNI] HAI Robotics Conference 2025 about the current state of robotics and AI integration
+
+[A232] (2025-01-01, schriftlich)
+  "Robotic foundation models hold potential with a critical need for more data, and truly useful robots must learn how to generalize not only across tasks but also in varied environments and embodiments."
+  Kontext: Research perspective on foundation models in robotics
+
+[A233] (2025-01-01, muendlich)
+  "My journey toward building generalist robot policies is like cultivating a backyard garden - it requires patience, diverse inputs, and understanding of what works in different environments."
+  Kontext: Robotics: Science and Systems 2025 Early Career Spotlight presentation
+
+[A234] (2025-01-23, muendlich)
+  "A new paradigm of AI architectures will emerge in the next three to five years, going far beyond the capabilities of existing AI systems."
+  Kontext: World AI Cannes Festival. [PERSON] kuendigt an, dass das naechste Paradigma Weltmodelle, persistente Erinnerung und echtes Reasoning umfassen wird.
+
+[A235] (2025-01-23, muendlich)
+  "Machine learning sucks. To achieve smarter AI systems, machines need to understand how the world works — as well as remember, reason and plan."
+  Kontext: Keynote auf der World AI Cannes. [PERSON] provoziert bewusst, um auf die Grenzen aktueller Ansaetze hinzuweisen.
+
+[A236] (2025-02-01, muendlich)
+  "AI does not and cannot know everything. Information in people's minds cannot be detected by AI. Large language models are tiny experts who reply to certain questions but cannot be deemed intelligent entities."
+  Kontext: Explaining limitations of current AI systems
+
+[A237] (2025-02-06, muendlich)
+  "This super AGI thing that can answer any question, it knows everything... this is nonsense."
+  Kontext: Speaking to scientists in Paris, criticizing claims from [FIRMA] chief [PERSON] and [FIRMA]'s [PERSON] that AGI is only years away
+
+[A238] (2025-02-06, muendlich)
+  "This whole development of this wonderful engineering field is really being held back by this whole AI aspiration, building a super robot that takes over and helps you for all your tasks at home and all these other things. I don't think there's ever been an era in human history where a new field of technology has arisen where there was so much hype and hysteria."
+  Kontext: Commenting on unprecedented hype in AI field
+
+[A239] (2025-02-06, muendlich)
+  "Companies are spending billions and trillions to achieve what is for now an illusory goal."
+  Kontext: Criticizing massive spending on AGI development
+
+[A240] (2025-03-01, schriftlich)
+  "We need to outline the forms of generalization believed to be important for robot manipulation in a comprehensive and fine-grained manner. Our StarGen taxonomy evaluates generalization in robot policies, spanning semantic, visual, and behavioral dimensions."
+  Kontext: Recent paper on evaluating generalist robot policies
+
+[A241] (2025-05-01, muendlich)
+  "AI is on the cusp of a revolution, driven by the convergence of several breakthroughs. Multimodal AI, visual perception and prompt-tuned reasoning are enabling consumers to utilize visual intelligence at home while preserving privacy."
+  Kontext: Keynote presentation at Embedded Vision Summit 2025 on future of visual AI
+
+[A242] (2025-05-01, schriftlich)
+  "[PERSON] delivered a powerful keynote on multimodal intelligence, emphasizing how vision-language models (VLMs) like CLIP and Flamingo are accelerating cross-sensory understanding in edge devices. His insights around real-time processing and edge-efficient AI architectures resonated with developers looking to minimize latency without compromising performance."
+  Kontext: Coverage of Embedded Vision Summit 2025 keynote on edge AI
+
+[A243] (2025-07-09, schriftlich)
+  "the future is in a partnership between the human and the machine"
+  Kontext: Vision for future of AI and human collaboration
+
+[A244] (2025-08-13, muendlich)
+  "My greatest fear is that, in the long run, it'll turn out that these kind of digital beings we're creating are just a better form of intelligence than people."
+  Kontext: Interview 2025. [PERSON] beschreibt seine tiefste Sorge ueber die Zukunft der Menschheit.
+
+[A245] (2025-11-11, schriftlich)
+  "I'm leaving [FIRMA] to build the next revolution of AI: systems that understand the physical world, have persistent memory, can reason, and can plan complex action sequences."
+  Kontext: [PERSON] kuendigt oeffentlich seinen Weggang nach 12 Jahren bei [FIRMA]/[FIRMA] an, um AMI Labs zu gruenden.
+
+[A246] (2026-01-22, schriftlich)
+  "The industry's current obsession with large language models is wrong-headed and will ultimately fail to solve many pressing problems. We should be betting on world models—a different type of AI that accurately reflects the dynamics of the real world."
+  Kontext: [UNI] Technology Review-Artikel ueber [PERSON]s Startup AMI Labs und seine Vision fuer die Zukunft der KI.
+
+------------------------------------------------------------------------
+HANDLUNGEN (183 Stueck)
+------------------------------------------------------------------------
+
+[H001] (1978) [sonstiges]
+  [PERSON] promoviert an der Universitaet Edinburgh mit einer Dissertation ueber 'Relaxation and its role in vision' unter der Betreuung von Christopher Longuet-Higgins.
+
+[H002] (1982) [einstellung]
+  [PERSON] tritt eine Professur an der [UNI] University an, wo er mit Kollegen an neuronalen Netzen forscht.
+
+[H003] (1985) [sonstiges]
+  [PERSON] erfindet zusammen mit David Ackley und Terry Sejnowski die Boltzmann-Maschine, ein stochastisches neuronales Netz, das lernen kann, charakteristische Elemente in Daten zu erkennen.
+
+[H004] (1986) [sonstiges]
+  [PERSON] veroeffentlicht zusammen mit David Rumelhart und Ronald J. Williams ein einflussreiches Paper, das den Backpropagation-Algorithmus fuer das Training mehrschichtiger neuronaler Netze popularisiert.
+
+[H005] (1987) [einstellung]
+  [PERSON] wechselt zur University of [UNI], wo er eine Professur fuer Informatik uebernimmt und bis heute forscht.
+
+[H006] (1987) [sonstiges]
+  [PERSON] schliesst seine Promotion in Informatik an der Universite Pierre et Marie Curie ab. In seiner Dissertation schlaegt er eine fruehe Form des Backpropagation-Lernalgorithmus fuer neuronale Netze vor.
+
+[H007] (1988) [einstellung]
+  [PERSON] tritt dem Adaptive Systems Research Department bei AT&T Bell Laboratories in Holmdel, New Jersey bei. Dort entwickelt er in den folgenden Jahren das Convolutional Neural Network (LeNet) und wendet es erfolgreich auf Handschrifterkennung an.
+
+[H008] (1989) [produktlaunch]
+  [PERSON] und sein Team bei AT&T Bell Labs entwickeln LeNet, eine Serie von Convolutional Neural Network-Architekturen zum Lesen handgeschriebener Ziffern. LeNet wird erfolgreich fuer die automatische Scheckverarbeitung bei Banken und Geldautomaten eingesetzt.
+
+[H009] (1991) [sonstiges]
+  [PERSON] promoviert an der McGill University in [UNI] unter [PERSON] und [PERSON] mit einer Dissertation ueber kuenstliche neuronale Netze und deren Anwendung auf Spracherkennung.
+
+[H010] (1993) [einstellung]
+  [PERSON] wird Professor fuer Informatik an der Universitaet [UNI] und beginnt seine lebenslange Forschung an maschinellem Lernen und neuronalen Netzen.
+
+[H011] (1993) [gruendung]
+  [PERSON] gruendet das [UNI] Institute for Learning Algorithms (MILA), das zu einem der weltweit fuehrenden KI-Forschungszentren wird. MILA beschaeftigt heute ueber 500 Forscher.
+
+[H012] (1995-01-01) [sonstiges]
+  Co-authored "Artificial Intelligence: A Modern Approach" with Peter Norvig - the number one bestselling AI textbook used in over 1,400 universities in 128 countries. Fourth edition published April 2020 with revised sections stating standard AI model is wrong.
+
+[H013] (2000-01-01) [gruendung]
+  Founded [UNI] NLP Group, one of the world's leading natural language processing research groups
+
+[H014] (2001-01-01) [politisch]
+  Resigned from editorial board of journal Machine Learning along with other editors, issuing public letter arguing for less restrictive access and pledging support for new open access journal, the Journal of Machine Learning Research.
+
+[H015] (2003) [einstellung]
+  [PERSON] wird Professor fuer Computer Science und Neural Science an der New York University (Courant Institute und Center for Neural Science). Er erhaelt die Jacob T. Schwartz Chaired Professorship.
+
+[H016] (2003) [produktlaunch]
+  [PERSON] startet den [UNI] Machine Learning Kurs (CS229), der zu einem der beliebtesten Kurse der Universitaet wird und Tausende von Studenten anzieht. Der Kurs wird spaeter zur Grundlage fuer [FIRMA].
+
+[H017] (2003) [produktlaunch]
+  [PERSON] veroeffentlicht 'A Neural Probabilistic Language Model', ein bahnbrechendes Paper, das Word Embeddings und neuronale Sprachmodelle einfuehrt -- Grundlage fuer [PRODUKT-FAMILIE] und BERT.
+
+[H018] (2004) [einstellung]
+  [PERSON] wird Direktor des CIFAR-Programms 'Neural Computation and Adaptive Perception', das die Deep-Learning-Revolution massgeblich foerderte.
+
+[H019] (2004-01-01) [sonstiges]
+  Received MacArthur Foundation Fellowship (Genius Grant)
+
+[H020] (2007) [gruendung]
+  [PERSON] startet das ImageNet-Projekt an der Princeton University. Ziel: Erstellung einer riesigen visuellen Datenbank mit Millionen beschrifteter Bilder, organisiert nach WordNet-Hierarchie. Das Projekt verwendet [FIRMA] Mechanical Turk fuer Crowdsourcing.
+
+[H021] (2008-04-01) [sonstiges]
+  Received ACM-Infosys Foundation Award in Computing Sciences ($150,000)
+
+[H022] (2010) [produktlaunch]
+  [PERSON] und ihr Team lancieren die ImageNet Large Scale Visual Recognition Challenge (ILSVRC), einen jaehrlichen Wettbewerb fuer Computer-Vision-Algorithmen. Der Wettbewerb wird zum Standard-Benchmark der KI-Community.
+
+[H023] (2010-01-01) [sonstiges]
+  Elected member of National Academy of Engineering for contributions to the foundations and applications of machine learning.
+
+[H024] (2010-01-01) [gruendung]
+  Co-founded [UNI] Artificial Intelligence Research (BAIR) Lab at UC [UNI], one of the world's premier AI research laboratories bringing together researchers in computer vision, machine learning, natural language processing, planning, and robotics.
+
+[H025] (2011) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] das [FIRMA] Brain-Projekt, [FIRMA]s Deep-Learning-Forschungsinitiative. Das Projekt entwickelt DistBelief, einen Vorgaenger von TensorFlow.
+
+[H026] (2011-01-01) [gruendung]
+  Co-directed AMPLab (Algorithms, Machines and People Lab) at UC [UNI] with Michael Franklin and Ion Stoica. The lab was officially launched in 2011 and awarded NSF CISE Expeditions in Computing grant in 2012. AMPLab created Apache Spark, Apache Mesos, and Alluxio, influential big data technologies.
+
+[H027] (2011-01-01) [sonstiges]
+  Elected to National Academy of Engineering
+
+[H028] (2012) [gruendung]
+  [PERSON] gruendet zusammen mit seinen Doktoranden Alex Krizhevsky und [PERSON] das Startup DNNresearch Inc., nachdem ihr AlexNet-Modell 2012 die ImageNet-Challenge gewann.
+
+[H029] (2012) [gruendung]
+  [PERSON] wird der gruendende Direktor des NYU Center for Data Science, einem der ersten universitaeren Data-Science-Programme in den USA.
+
+[H030] (2012-01-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], online education platform that reached over 100 million learners worldwide
+
+[H031] (2012-04-18) [gruendung] ($16,000,000)
+  [PERSON] und [PERSON] gruenden [FIRMA], eine Online-Lernplattform, die Kurse von Top-Universitaeten kostenlos oder zu niedrigen Kosten anbietet. [FIRMA] startet mit einem $16 Mio. Investment von Kleiner Perkins und New Enterprise Associates.
+
+[H032] (2012-06-26) [sonstiges]
+  [PERSON] und das [FIRMA] Brain Team veroeffentlichen die beruehmt gewordene Studie, in der ein neuronales Netz mit 16.000 Prozessoren lernt, Katzen in [FIRMA]-Videos zu erkennen -- ohne vorher mit gelabelten Daten trainiert worden zu sein (unsupervised learning).
+
+[H033] (2012-09-30) [sonstiges]
+  [PERSON]s Team (Krizhevsky, [PERSON], [PERSON]) gewinnt die ImageNet Large Scale Visual Recognition Challenge 2012 mit AlexNet, einem tiefen neuronalen Netz. Die Top-5-Fehlerrate von 15.3% uebertrifft die Konkurrenz um 10.8 Prozentpunkte -- ein historischer Durchbruch.
+
+[H034] (2013-01) [einstellung]
+  [PERSON] wird Direktorin des [UNI] Artificial Intelligence Laboratory (SAIL), einem der aeltesten und renommiertesten KI-Forschungslabore der Welt.
+
+[H035] (2013-03-12) [verkauf] ($44,000,000)
+  [FIRMA] erwirbt DNNresearch Inc. fuer $44 Millionen nach einer Auktion, an der auch Baidu, [FIRMA] und [FIRMA] teilnahmen. [PERSON], Krizhevsky und [PERSON] treten [FIRMA] Brain bei.
+
+[H036] (2013-03-12) [einstellung]
+  [PERSON] tritt [FIRMA] Brain bei und wird Vice President und Engineering Fellow. Er arbeitet in Teilzeit (spaeter 50%, dann 20%) parallel zu seiner Professur in [UNI].
+
+[H037] (2013-10-01) [politisch]
+  [PERSON] unterzeichnet einen offenen Brief von ueber 270 Ingenieuren und KI-Experten, der ein Verbot autonomer Waffensysteme fordert, die ohne menschliche Kontrolle ueber Gewaltanwendung entscheiden.
+
+[H038] (2013-10-01) [produktlaunch]
+  Released [UNI] Sentiment Treebank, the first corpus with fully labeled parse trees for sentiment analysis (215,154 phrases from 11,855 sentences)
+
+[H039] (2013-12-09) [gruendung]
+  [PERSON] tritt [FIRMA] bei und gruendet [FIRMA] AI Research (FAIR) als Director. Unter seiner Fuehrung wird FAIR zu einem der fuehrenden industriellen KI-Forschungslabore weltweit mit Standorten in Menlo Park, New York, Paris und [UNI].
+
+[H040] (2014) [einstellung]
+  [PERSON] wird zum CIFAR Senior Fellow und Co-Director des Learning in Machines & Brains Program ernannt.
+
+[H041] (2014-01-01) [produktlaunch]
+  Released [UNI] CoreNLP as open source software suite providing extensive NLP tools and models for research and commercial use
+
+[H042] (2014-01-01) [gruendung]
+  Co-founded Gradescope with Arjun Singh, Sergey Karayev, and Ibrahim Awwal to use AI for streamlined grading in education
+
+[H043] (2014-01-01) [produktlaunch]
+  Released Caffe deep learning framework as open-source software, developed by Yangqing Jia in [PERSON]'s lab at UC [UNI]. Caffe quickly became one of the most widely used platforms for deep learning, particularly in computer vision applications.
+
+[H044] (2014-05-16) [einstellung]
+  [PERSON] tritt als Chief Scientist bei Baidu ein und leitet die KI-Strategie des chinesischen Suchmaschinen-Giganten. Er baut das Baidu Research Lab auf und gruendet das 'Baidu Brain'-Projekt mit einem Team von 1.300 Mitarbeitern.
+
+[H045] (2014-10-01) [produktlaunch]
+  Released GloVe (Global Vectors for Word Representation) model, which became one of the most widely used word embedding approaches
+
+[H046] (2015-01-01) [lobbying]
+  Drafted and became first signatory of open letter "Research Priorities for Robust and Beneficial Artificial Intelligence" calling for expanded AI safety research. Letter signed by thousands including leading AI researchers at [FIRMA], [FIRMA], [FIRMA] and top computer scientists, physicists and philosophers worldwide.
+
+[H047] (2015-01-01) [partnerschaft]
+  Serves on Advisory Boards of Centre for the Study of Existential Risk (CSER), Future of Life Institute (FLI), and Machine Intelligence Research Institute (MIRI).
+
+[H048] (2015-01-01) [partnerschaft]
+  Contributed to Universal Dependencies project as core member managing universal guidelines for morphosyntactic annotation of 100+ languages
+
+[H049] (2015-03) [sonstiges]
+  [PERSON] haelt ihren beruhmten TED Talk 'How we're teaching computers to understand pictures', der ueber 2,5 Millionen Views erreicht und Computer Vision einem breiten Publikum erklaert.
+
+[H050] (2015-03-01) [gruendung]
+  Founded [UNI] DeepDrive (BDD) Industrial Consortium, investigating state-of-the-art technologies in computer vision, robotics, and machine learning for autonomous vehicle applications, with industry partners including Volkswagen, Ford, Toyota, Samsung, Bosch, Honda, Hyundai, Qualcomm and [FIRMA].
+
+[H051] (2015-07-01) [lobbying]
+  Launched open letter calling for ban on offensive autonomous weapons beyond meaningful human control. Letter signed by 4,667 AI researchers including almost entire leadership of the field, plus nearly 27,000 other signatories.
+
+[H052] (2015-09-01) [produktlaunch]
+  Developed and taught freshman-level undergraduate Data Science course at [UNI] (Fall 2015) that blends computer science and statistics, teaching Python programming for data analysis with resampling-based inferential procedures.
+
+[H053] (2016-01-01) [gruendung]
+  Founded the Center for Human-Compatible Artificial Intelligence (CHAI) at UC [UNI] with co-principal investigators [PERSON], Anca Dragan, Tom Griffiths, Bart Selman, Joseph Halpern, Michael Wellman and Satinder Singh Baveja. Center mission: develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.
+
+[H054] (2016-01-01) [partnerschaft]
+  Became co-chair of the World Economic Forum's Global AI Council on AI and Robotics, later joined Global AI Council in 2018 to help galvanize thinking about achieving positive futures with AI through planning and policy development.
+
+[H055] (2016-08-01) [ruecktritt]
+  Stepped down as President of [FIRMA] to join Calico as Chief Computing Officer
+
+[H056] (2016-11-01) [sonstiges]
+  Co-authored article "Yes, We Are Worried About the Existential Risk of Artificial Intelligence" published in [UNI] Technology Review explaining AI existential risk concerns.
+
+[H057] (2016-11-18) [produktlaunch]
+  [PERSON], Ian Goodfellow und Aaron Courville veroeffentlichen das Lehrbuch 'Deep Learning', das zum Standard-Lehrbuch des Feldes wird.
+
+[H058] (2016-12-01) [sonstiges]
+  Published foundational research paper "Cooperative Inverse Reinforcement Learning" (NIPS 2016) with Dylan Hadfield-Menell, Anca Dragan, and [PERSON], formalizing value alignment problem as cooperative game where robot learns human preferences.
+
+[H059] (2017) [sonstiges] ($75,000)
+  [PERSON] erhaelt den Killam Prize in Engineering, einen der hoechsten wissenschaftlichen Preise Kanadas, dotiert mit $100.000 CAD.
+
+[H060] (2017-01) [einstellung]
+  [PERSON] tritt eine Sabbatical-Position als Chief Scientist of AI/ML bei [FIRMA] Cloud an. Sie leitet die Entwicklung von Cloud-basierten KI- und ML-Tools fuer Unternehmenskunden.
+
+[H061] (2017-01-01) [gruendung]
+  Affiliated faculty member and leader in RISELab (Real-time Intelligent Secure Execution), the successor to AMPLab. RISELab focuses on enabling computers to make intelligent real-time decisions.
+
+[H062] (2017-01-01) [partnerschaft]
+  Launched BAIR Commons (later BAIR Open Research Commons) program in partnership with [FIRMA], [FIRMA], [FIRMA], [FIRMA], and other major tech companies to enable collaboration between top industry labs, startups, and AI researchers at [UNI].
+
+[H063] (2017-01-01) [einstellung]
+  Appointed as Chief Scientist at Nexar (consulting role), leading and overseeing research in machine vision deep learning and vehicle path prediction for the AI-powered dashcam and automotive safety company.
+
+[H064] (2017-03-22) [ruecktritt]
+  [PERSON] kuendigt seinen Ruecktritt als Chief Scientist bei Baidu an, um sich auf neue KI-Projekte zu konzentrieren. Er verlaesst Baidu nach drei Jahren, in denen er Baidu Brain aufgebaut hat.
+
+[H065] (2017-04) [gruendung]
+  [PERSON] gruendet gemeinsam mit Rick Sommer und Olga Russakovsky die Non-Profit-Organisation AI4ALL (urspruenglich SAILORS - [UNI] AI Lab Outreach Summer Program). Ziel: Diversitaet in KI durch Ausbildung unterrepraesentierter Gruppen.
+
+[H066] (2017-04-25) [sonstiges]
+  Gave TED Talk "3 principles for creating safer AI" in Vancouver presenting principles for building provably altruistic, humble, and humanitarian AI machines to avoid superintelligent AI pitfalls.
+
+[H067] (2017-08-08) [gruendung]
+  [PERSON] gruendet DeepLearning.AI, ein Bildungsunternehmen, das KI-Kurse und Spezialisierungen auf [FIRMA] anbietet. Die Plattform startet mit dem 'Deep Learning Specialization', einem 5-Kurse-Programm.
+
+[H068] (2017-10-01) [gruendung]
+  Co-founded Covariant (originally Embodied Intelligence) with Peter Chen, Rocky Duan, and Tianhao Zhang to build AI foundation models for robotics in warehouses and factories
+
+[H069] (2017-12-14) [gruendung]
+  [PERSON] gruendet Landing AI, ein Unternehmen, das sich auf KI-Loesungen fuer das verarbeitende Gewerbe spezialisiert. Landing AI fokussiert auf Computer Vision und 'Small Data'-Ansaetze fuer die Fertigung.
+
+[H070] (2018) [einstellung]
+  [PERSON] wird Chief AI Scientist bei [FIRMA] (ehemals [FIRMA]) und uebergibt die Leitung von FAIR an Jerome Pesenti. Er konzentriert sich auf langfristige Forschung und Strategieberatung.
+
+[H071] (2018-01-01) [einstellung]
+  Became Director of [UNI] Artificial Intelligence Laboratory (SAIL), leading the lab through period of enormous growth for AI from 2018-2025
+
+[H072] (2018-01-01) [einstellung]
+  Served as co-editor for Harvard Data Science Review, contributing to inaugural issue and helping establish the publication.
+
+[H073] (2018-01-01) [partnerschaft]
+  Joined The House Fund as Co-Founder & Faculty Partner of AI@The House initiative, adding six world-leading entrepreneurial AI researchers to the pre-seed and early-stage venture capital fund focused on [UNI] startups.
+
+[H074] (2018-01-01) [partnerschaft]
+  Joined SafelyYou as advisor, contributing computer vision and AI expertise to the company developing fall detection and prevention technology for senior care facilities using privacy-preserving AI.
+
+[H075] (2018-01-01) [einstellung]
+  Appointed as Faculty Director of PATH (Partners for Advanced Transportation Technology) at UC [UNI], leading transportation research initiatives including autonomous vehicle development and intelligent transportation systems.
+
+[H076] (2018-01-01) [gruendung]
+  Founded and became Director of the Intelligent and Interactive Autonomous Systems Group (ILIAD) at [UNI] University
+
+[H077] (2018-01-01) [einstellung]
+  Joined [UNI] University as Assistant Professor in Computer Science and Electrical Engineering
+
+[H078] (2018-01-17) [produktlaunch]
+  Unter [PERSON]s Leitung lanciert [FIRMA] Cloud AutoML Vision, ein Tool, das es Nutzern ohne ML-Expertise ermoeglicht, eigene Computer-Vision-Modelle zu trainieren. Demokratisierung von KI.
+
+[H079] (2018-01-30) [investition] ($175,000,000)
+  [PERSON] startet den AI Fund, einen $175 Millionen Venture-Capital-Fonds und Studio, das neue KI-Startups gruendet. Der Fonds investiert in Unternehmen wie Woebot (mental health AI) und Landing AI.
+
+[H080] (2018-02-01) [partnerschaft]
+  Landing AI geht eine strategische Partnerschaft mit Foxconn ein, um KI-basierte visuelle Inspektion in der Elektronikfertigung einzufuehren. Foxconn nutzt Landing AI fuer Qualitaetskontrolle.
+
+[H081] (2018-03-01) [gruendung]
+  Founded [FIRMA], machine learning-driven drug discovery and development company
+
+[H082] (2018-03-01) [ruecktritt]
+  Resigned from Calico as Chief Computing Officer after 18 months
+
+[H083] (2018-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den ACM Turing Award 2018 fuer bahnbrechende Arbeiten zu Deep Neural Networks. Die drei werden als 'Godfathers of Deep Learning' bezeichnet.
+
+[H084] (2018-03-29) [einstellung]
+  [PERSON] wird einer der ersten Canada CIFAR AI Chairs, ein Programm der kanadischen Regierung mit $125 Millionen Foerderung zur Staerkung der KI-Forschung in Kanada.
+
+[H085] (2018-05-30) [produktlaunch]
+  Released BDD100K, the largest and most diverse open driving video dataset for computer vision research, containing 100,000 videos with detailed annotations for object detection, lane marking, drivable area, and full-frame semantic/instance segmentation.
+
+[H086] (2018-09-10) [ruecktritt]
+  Nach 18 Monaten verlaesst [PERSON] ihre Position als Chief Scientist bei [FIRMA] Cloud und kehrt vollzeit zu [UNI] zurueck, um sich auf Forschung, Lehre und die Gruendung von [UNI] HAI zu konzentrieren.
+
+[H087] (2018-10-01) [verkauf]
+  Gradescope acquired by Turnitin, expanding educational technology tools for STEM assessment
+
+[H088] (2018-10-12) [produktlaunch]
+  [PERSON] veroeffentlicht 'Machine Learning Yearning', ein kostenloses E-Book, das praktische Ratschlaege fuer die Strukturierung von Machine-Learning-Projekten bietet. Das Buch wird von Hunderttausenden gelesen.
+
+[H089] (2018-12-04) [politisch]
+  [PERSON] leitet die Entwicklung der [UNI] Declaration for Responsible AI, ein ethisches Rahmenwerk mit 10 Prinzipien fuer verantwortungsvolle KI-Entwicklung.
+
+[H090] (2018-12-17) [produktlaunch]
+  [PERSON] startet 'AI for Everyone', einen nicht-technischen Kurs auf [FIRMA], der KI fuer Manager, Fuehrungskraefte und Nicht-Techniker zugaenglich macht. Der Kurs wird ueber 1 Million Mal belegt.
+
+[H091] (2019-01-01) [investition]
+  Covariant raised $20 million Series A funding led by Amplify Partners
+
+[H092] (2019-01-01) [partnerschaft]
+  Established [FIRMA] Research partnership with [UNI] AI Research (BAIR) for Phase 2 collaborations, forging strong collaborations between [FIRMA] researchers, students and faculty pursuing research on fundamental advances in computer vision, machine learning, natural language processing, planning, control, and robotics.
+
+[H093] (2019-01-01) [sonstiges]
+  Received NSF CAREER Award for research on Active Learning of Preferences for Human-Aware Autonomy
+
+[H094] (2019-03-18) [gruendung] ($1,000,000,000)
+  [PERSON] gruendet gemeinsam mit John Etchemendy das [UNI] Institute for Human-Centered Artificial Intelligence (HAI). Das Institut erhaelt Startkapital von $1 Milliarde und wird zu einem fuehrenden Zentrum fuer interdisziplinaere KI-Forschung und -Ethik.
+
+[H095] (2019-03-18) [gruendung]
+  Co-founded [UNI] Institute for Human-Centered Artificial Intelligence (HAI) with John Etchemendy, [PERSON], and James Landay to promote interdisciplinary AI research with focus on human impact
+
+[H096] (2019-03-25) [partnerschaft]
+  Established partnership with Wave Computing for BAIR Open Research Alliance to accelerate cutting-edge artificial intelligence research, providing access to Wave's dataflow architecture and AI acceleration technology.
+
+[H097] (2019-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt gemeinsam mit [PERSON] und [PERSON] den ACM A.M. Turing Award 2018 'fuer konzeptionelle und technische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computing gemacht haben'. Preisgeld: $1 Million (finanziert von [FIRMA]).
+
+[H098] (2019-03-27) [sonstiges] ($1,000,000)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den Turing Award 2018 -- den 'Nobelpreis der Informatik' -- fuer konzeptionelle und ingenieurtechnische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computings gemacht haben.
+
+[H099] (2019-04-16) [partnerschaft]
+  Announced partnership between [FIRMA] and Gilead Sciences for NASH drug discovery worth up to $1.05 billion
+
+[H100] (2019-07-22) [investition]
+  Raised $100 million Series A for [FIRMA]
+
+[H101] (2019-09) [sonstiges]
+  Nach Kritik an problematischen und offensiven Labels in ImageNet fuehrt [PERSON]'s Team eine umfassende Ueberarbeitung durch. Ueber 600.000 Bilder aus der 'person'-Kategorie werden entfernt, um Bias und problematische Kategorisierungen zu adressieren.
+
+[H102] (2019-10-01) [sonstiges]
+  Published "Human Compatible: Artificial Intelligence and the Problem of Control" proposing new approach to AI based on uncertainty about human objectives, machines designed to be provably beneficial rather than optimize fixed objectives.
+
+[H103] (2020-01-01) [produktlaunch]
+  Released Stanza, a Python NLP toolkit for 70+ languages using Universal Dependencies formalism, expanding NLP access to low-resource languages
+
+[H104] (2020-01-01) [produktlaunch]
+  Covariant officially launched from stealth mode to bring universal AI to robots
+
+[H105] (2020-01-01) [sonstiges]
+  Awarded AFOSR Young Investigator Research Program (YIP)
+
+[H106] (2020-01-01) [sonstiges]
+  Served as Area Chair on Program Committee for Robotics: Science and Systems (RSS) 2020 conference
+
+[H107] (2020-03-01) [sonstiges]
+  Published ELECTRA paper with Kevin Clark, Minh-Thang Luong, and Quoc V. Le, introducing more efficient pre-training using discriminators rather than generators
+
+[H108] (2020-05-06) [investition]
+  Covariant raised $40 million Series B funding led by Index Ventures with participation from Radical Ventures and Amplify Partners
+
+[H109] (2020-05-26) [investition]
+  Raised $143 million Series B for [FIRMA]
+
+[H110] (2020-08-01) [gruendung]
+  Co-founded Engageli, digital learning platform with video conferencing tool for higher education
+
+[H111] (2020-10-14) [investition]
+  Raised $14.5 million seed funding for Engageli
+
+[H112] (2020-10-28) [partnerschaft]
+  Announced 5-year discovery collaboration with Bristol Myers Squibb for ALS and frontotemporal dementia treatments
+
+[H113] (2021-01-01) [partnerschaft]
+  Became Investing Partner at AIX Ventures, an AI-focused venture capital firm founded by leading AI practitioners including Richard Socher and Anthony Goldbloom
+
+[H114] (2021-01-01) [sonstiges]
+  Awarded 2021 American Mathematical Society (AMS) Ulf Grenander Prize in Stochastic Theory and Modeling.
+
+[H115] (2021-01-01) [sonstiges]
+  Awarded Vannevar Bush Faculty Fellowship for 2021-2026.
+
+[H116] (2021-01-01) [einstellung]
+  Joined AIX Ventures as Investment Partner, a venture capital fund investing in AI startups
+
+[H117] (2021-01-01) [sonstiges]
+  Received Okawa Foundation Research Grant for Adaptive Human-Robot Interaction research
+
+[H118] (2021-01-01) [sonstiges]
+  Named to [UNI] Technology Review 35 Innovators Under 35 list
+
+[H119] (2021-03-01) [produktlaunch]
+  Launched 'The Robot Brains Podcast' featuring conversations with top AI and robotics experts and entrepreneurs
+
+[H120] (2021-03-15) [investition]
+  Raised $400 million Series C for [FIRMA]
+
+[H121] (2021-03-31) [sonstiges] ($4,300,000,000)
+  [FIRMA] geht an die Boerse (NYSE: COUR) mit einer Bewertung von $4,3 Milliarden. [PERSON] ist zu diesem Zeitpunkt nicht mehr operativ taetig, bleibt aber Chairman des Board.
+
+[H122] (2021-05-01) [sonstiges]
+  Named Foreign Member of the Royal Society.
+
+[H123] (2021-05-06) [sonstiges]
+  [PERSON] startet die 'Data-Centric AI'-Bewegung, die den Fokus von Modellverbesserungen auf Datenqualitaet verlagert. Er organisiert den ersten Data-Centric AI Workshop und Competition.
+
+[H124] (2021-06-10) [politisch]
+  [PERSON] wird von der US-Regierung in die National AI Research Resource Task Force berufen, die Empfehlungen fuer eine nationale KI-Forschungsinfrastruktur entwickelt.
+
+[H125] (2021-07-27) [investition]
+  Covariant raised $80 million Series C funding led by Index Ventures with participation from Temasek and CPP Investments
+
+[H126] (2021-11-09) [produktlaunch]
+  Landing AI launcht LandingLens, eine Cloud-basierte Computer-Vision-Plattform, die es Unternehmen ermoeglicht, visuelle Inspektionssysteme mit minimalen Daten zu trainieren. Die Plattform implementiert data-centric AI-Prinzipien.
+
+[H127] (2021-12-01) [sonstiges]
+  Delivered BBC Reith Lectures 2021 series "Living With Artificial Intelligence" - four lectures examining AI birth, autonomous weapons dangers, threat to jobs, and need to abandon current AI model. Lectures broadcast on BBC Radio 4, BBC World Service and BBC Sounds.
+
+[H128] (2022-01-01) [sonstiges]
+  Awarded inaugural World Laureates Association Prize for fundamental contributions to the foundations of machine learning and its application.
+
+[H129] (2022-01-01) [sonstiges]
+  Awarded Sloan Research Fellowship
+
+[H130] (2022-01-01) [sonstiges]
+  Received ONR Young Investigator Award
+
+[H131] (2022-04-01) [sonstiges]
+  Received ACM Prize in Computing for contributions to robot learning, including learning from demonstrations and deep reinforcement learning. Prize carries $250,000.
+
+[H132] (2022-06-01) [gruendung]
+  Co-founded and leads BAIR Climate Initiative, a multi-disciplinary student-led hub dedicated to fighting climate change through AI research, partnering with climate experts, government agencies, and industry. Committed to open publication of all research.
+
+[H133] (2022-06-14) [investition] ($57,000,000)
+  Landing AI sichert sich eine $57 Millionen Series-A-Finanzierung gefuehrt von McRock Capital. Das Kapital wird genutzt, um LandingLens zu skalieren und neue Manufacturing-Kunden zu gewinnen.
+
+[H134] (2022-09-15) [partnerschaft]
+  MILA unter [PERSON]s Leitung geht Partnerschaft mit Valence Labs (ValAI) ein, einem KI-Startup fuer Medikamentenentwicklung, das GFlowNets fuer Drug Discovery nutzt.
+
+[H135] (2023-01-01) [partnerschaft]
+  Launched five-year "Markets and Machine Learning" research chair at Inria Foundation in Paris, in collaboration with CNRS and École Normale Supérieure-Université PSL. Chair backed by Air Liquide, BNP Paribas Asset Management Europe, EDF, Orange and SNCF.
+
+[H136] (2023-01-01) [partnerschaft]
+  Became research scientist at [FIRMA] while maintaining [UNI] faculty position
+
+[H137] (2023-01-01) [sonstiges]
+  Promoted to Associate Professor in Computer Science and Electrical Engineering at [UNI] University
+
+[H138] (2023-02) [produktlaunch]
+  [FIRMA] AI veroeffentlicht I-JEPA (Image Joint Embedding Predictive Architecture), das erste KI-Modell basierend auf [PERSON]s Vision fuer menschenaehnlichere KI. I-JEPA lernt durch interne Modelle der Aussenwelt statt durch Pixel-Vergleiche.
+
+[H139] (2023-02-24) [produktlaunch]
+  [FIRMA] veroeffentlicht LLaMA (Large Language Model [FIRMA] AI) als Open-Source-Modell. [PERSON] ist ein starker Befuerworter dieser Entscheidung und verteidigt sie oeffentlich gegen Kritik. LLaMA wird zu einer der wichtigsten Open-Source-LLM-Familien.
+
+[H140] (2023-03-01) [lobbying]
+  Signed Future of Life Institute open letter calling for all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than [PRODUKT]. Letter received over 30,000 signatures including [PERSON], [PERSON], Steve Wozniak and Yuval Noah Harari.
+
+[H141] (2023-03-22) [politisch]
+  [PERSON] unterzeichnet den offenen Brief des Future of Life Institute, der eine 6-monatige Pause beim Training von KI-Systemen maechtigeren als [PRODUKT] fordert. Der Brief wird von ueber 30.000 Menschen unterzeichnet.
+
+[H142] (2023-04) [gruendung]
+  [PERSON] gruendet World Labs, ein Startup zur Entwicklung von 'Spatial Intelligence' – KI-Systeme, die 3D-Welten generieren, verstehen und simulieren koennen. Das Unternehmen startet im Stealth-Modus.
+
+[H143] (2023-04-04) [investition]
+  Covariant raised additional $75 million in Series C funding led by Index Ventures and Radical Ventures, bringing total funding to $222M
+
+[H144] (2023-04-13) [sonstiges]
+  [PERSON] wird in die TIME 100-Liste der einflussreichsten Menschen 2023 aufgenommen, geehrt fuer ihre Beitraege zu Computer Vision, Human-Centered AI und Diversitaet in der Technologie.
+
+[H145] (2023-05-01) [ruecktritt]
+  [PERSON] kuendigt seinen Ruecktritt von [FIRMA] an, um frei ueber KI-Risiken sprechen zu koennen, ohne Ruecksicht auf [FIRMA]s Geschaeftsinteressen nehmen zu muessen. Er verzichtet auf ein Gehalt von ueber $1 Million pro Jahr.
+
+[H146] (2023-05-01) [produktlaunch]
+  DeepLearning.AI launcht in Partnerschaft mit [FIRMA] den Kurs '[PRODUKT] Prompt Engineering for Developers', der eine Million Einschreibungen in den ersten Wochen erreicht.
+
+[H147] (2023-06-14) [lobbying]
+  [PERSON] gibt vor dem Europaeischen Parlament Zeugnis ab und unterstuetzt den EU AI Act, fordert aber strengere Sicherheitsanforderungen fuer Frontier-Modelle.
+
+[H148] (2023-07-12) [partnerschaft]
+  DeepLearning.AI geht eine Partnerschaft mit [FIRMA] Cloud ein, um Kurse zu entwickeln, die [FIRMA]-Cloud-KI-Tools lehren, einschliesslich Vertex AI und Generative AI-Anwendungen.
+
+[H149] (2023-07-25) [lobbying]
+  Testified before U.S. Senate Judiciary Subcommittee on Privacy, Technology, and the Law on AI regulation. Recommended: absolute right to know if interacting with AI, prohibition on AI killing decisions in nuclear warfare, mandatory kill switches in AI systems.
+
+[H150] (2023-08-15) [sonstiges]
+  DeepLearning.AI gibt bekannt, dass ueber 5 Millionen Menschen ihre Kurse absolviert haben. Die Plattform bietet inzwischen 20+ Spezialisierungen und Kurse in KI-Themen.
+
+[H151] (2023-10-26) [einstellung]
+  UN-Generalsekretaer Antonio Guterres ernennt [PERSON] zum Mitglied des High-Level Advisory Body on Artificial Intelligence, einem 39-koepfigen internationalen Gremium zur Beratung ueber KI-Governance.
+
+[H152] (2023-11-07) [sonstiges]
+  [PERSON] veroeffentlicht ihre Autobiographie 'The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI' bei Flatiron Books. Das Buch wird zum Bestseller und erhaelt breite Aufmerksamkeit.
+
+[H153] (2024-01-01) [investition]
+  Invested in [FIRMA] (AI search startup), Wispr, Workera, and Workhelix through AIX Ventures
+
+[H154] (2024-01-01) [sonstiges]
+  Received ACM SIGMM Test of Time Paper Award for "Caffe: Convolutional Architecture for Fast Feature Embedding" (with Jia, Shelhamer, Donahue, Karayev, Long, Girshick, Guadarrama), recognizing lasting impact on multimedia computing.
+
+[H155] (2024-01-01) [sonstiges]
+  Awarded National Artificial Intelligence Research Resource (NAIRR) Grant for project on learning reward functions for robotics using large datasets and human feedback
+
+[H156] (2024-03-11) [produktlaunch]
+  Covariant launched RFM-1, the first Robotics Foundation Model giving robots human-like reasoning capabilities with 8 billion parameters
+
+[H157] (2024-03-12) [produktlaunch]
+  [PERSON] veroeffentlicht in Science Magazine den Artikel 'Managing extreme AI risks amid rapid progress', der vor den Gefahren offener KI-Modelle warnt und Compute-Governance fordert.
+
+[H158] (2024-03-26) [produktlaunch]
+  [PERSON] launcht einen Kurs zu 'AI Agentic Design Patterns', in dem er seine Vision fuer agentic workflows erklaert: Reflection, Tool Use, Planning, Multi-Agent Collaboration. Der Kurs wird ein Bestseller.
+
+[H159] (2024-05-01) [produktlaunch]
+  Released Octo, an open-source generalist robot policy trained on 800k trajectories from the Open X-Embodiment dataset
+
+[H160] (2024-05-08) [investition] ($230,000,000)
+  World Labs sichert sich eine Serie-A-Finanzierung von $230 Millionen bei einer Bewertung von $1 Milliarde und erreicht direkt Unicorn-Status. Investoren: [FIRMA], NEA, Radical Ventures. [PERSON] ist CEO.
+
+[H161] (2024-05-17) [produktlaunch]
+  [PERSON] veroeffentlicht als Hauptautor den International Scientific Report on the Safety of Advanced AI, einen umfassenden wissenschaftlichen Bericht ueber KI-Risiken, verfasst von ueber 30 fuehrenden KI-Forschern.
+
+[H162] (2024-05-21) [partnerschaft]
+  [PERSON] nimmt am AI Seoul Summit teil und unterstuetzt die Seoul Declaration on Safe, Innovative and Inclusive AI, die internationale Kooperation zur KI-Sicherheit foerdert.
+
+[H163] (2024-06-01) [lobbying]
+  Signed open letter calling for AI employees to be free to whistleblow about their company's lack of attention to AI risks. Signed with other AI "godfathers" and current/former AI safety employees.
+
+[H164] (2024-06-01) [sonstiges]
+  Received CVPR Longuet-Higgins Prize for paper "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation" (with Girshick, Donahue, Malik), recognizing fundamental contribution to computer vision over 10-year period.
+
+[H165] (2024-07-01) [sonstiges]
+  Received ICML Test of Time Award for paper "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition" (with Donahue, Jia, Vinyals, [PERSON], Zhang, Tzeng), recognizing exceptional long-term impact on machine learning field.
+
+[H166] (2024-07-22) [gruendung] ($10,000,000)
+  [PERSON] lanciert bei MILA eine neue AI Safety Research Initiative mit ca. $10 Millionen Foerderung, um die KI-Sicherheitsforschung in [UNI] zu staerken.
+
+[H167] (2024-08-01) [einstellung]
+  Joined [FIRMA] as Distinguished Scientist and VP/Scholar focusing on advancing AI and robotics
+
+[H168] (2024-08-15) [politisch]
+  [PERSON] unterzeichnet zusammen mit [PERSON], [PERSON] und Lawrence Lessig einen offenen Brief zur Unterstuetzung von Kaliforniens AI Safety Bill SB 1047, der Risikobewertungen fuer grosse KI-Modelle vorschreibt.
+
+[H169] (2024-08-30) [partnerschaft]
+  [FIRMA] entered non-exclusive licensing agreement with Covariant and hired 25% of workforce including founders [PERSON], Chen, and Duan
+
+[H170] (2024-10-08) [sonstiges] ($550,000)
+  [PERSON] erhaelt gemeinsam mit John J. Hopfield den Nobelpreis fuer Physik 2024 'fuer grundlegende Entdeckungen und Erfindungen, die maschinelles Lernen mit kuenstlichen neuronalen Netzen ermoeglichen'.
+
+[H171] (2024-10-09) [partnerschaft]
+  Announced three strategic agreements with Eli Lilly for metabolic diseases including MASLD
+
+[H172] (2024-11-01) [produktlaunch]
+  Launched RoboCrowd platform demonstrating crowdsourced robot data collection with over 200 volunteers in university cafe
+
+[H173] (2025-01-01) [ruecktritt]
+  Stepped down as Director of [UNI] Artificial Intelligence Laboratory (SAIL) after 7 years of leadership
+
+[H174] (2025-01-01) [sonstiges]
+  Awarded BBVA Foundation Frontiers of Knowledge Award in Information and Communication Technologies (jointly with Anil Jain) for core contributions to machine learning enabling AI applications including [PRODUKT], recommender systems, and business decision tools.
+
+[H175] (2025-01-01) [sonstiges]
+  Organized [UNI] HAI conference "Robotics in a Human-Centered World: Hype, Hope, and Future Directions" with Karen Liu and Allison Okamura
+
+[H176] (2025-02-01) [sonstiges]
+  Elected to National Academy of Engineering (NAE) for "the development and dissemination of natural language processing methods"
+
+[H177] (2025-02-06) [politisch]
+  Publicly criticized [FIRMA] CEO [PERSON] and [FIRMA] CEO [PERSON] for making unrealistic AGI timeline claims, calling their "super AGI" vision "nonsense" at scientific conference in Paris.
+
+[H178] (2025-04-01) [sonstiges]
+  Elected to American Academy of Arts and Sciences for contributions to natural language processing and human-centered AI
+
+[H179] (2025-07-02) [einstellung]
+  Joined AIX Ventures as General Partner on leave of absence from [UNI], focusing full-time on backing deep AI companies pushing boundaries of ML and NLP
+
+[H180] (2025-11-19) [ruecktritt]
+  Nach 12 Jahren bei [FIRMA] kuendigt [PERSON] seinen Ruecktritt als Chief AI Scientist an. Er verlaesst das Unternehmen Ende 2025, um sein eigenes Startup AMI Labs (Advanced Machine Intelligence) zu gruenden.
+
+[H181] (2025-12) [gruendung]
+  [PERSON] gruendet Advanced Machine Intelligence (AMI) Labs mit Alexandre LeBrun (Nabla-Gruender) als CEO und [PERSON] als Executive Chairman. Das Startup zielt darauf ab, 'World Models' zu entwickeln -- KI-Systeme, die die physische Welt verstehen, persistentes Gedaechtnis haben und planen koennen. Hauptsitz in Paris ab Anfang 2026.
+
+[H182] (2025-12) [investition] ($586,000,000)
+  Noch vor dem offiziellen Launch befindet sich AMI Labs in Gespraechen, €500 Millionen bei einer Bewertung von €3 Milliarden (ca. $3,5 Mrd.) einzusammeln. Dies waere eine der hoechsten Pre-Launch-Bewertungen in der KI-Industrie.
+
+[H183] (2025-12-17) [einstellung]
+  Appointed head of [FIRMA]'s frontier model research team (LLM base models) in AGI organization while continuing robotics work

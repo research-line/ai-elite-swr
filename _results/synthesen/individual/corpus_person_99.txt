@@ -1,0 +1,127 @@
+=== DATENKORPUS PERSON-99 ===
+
+--- AUSSAGEN (19 Stueck) ---
+
+[A001] (2016-01-01, schriftlich)
+  "In one widely cited paper from 2016, we considered the idealized case of two cars, one driven by a person and another by a computer program, and developed a model for how humans drive based on people's behavior in a video-game-like simulation."
+  Kontext: Early influential research on autonomous vehicle interaction
+
+[A002] (2017-01-01, schriftlich)
+  "I propose to learn from preferences (or comparisons) instead of demonstrations, where the person provides the system a relative preference between two trajectories. I take an active learning approach, in which the system decides on what preference queries to make."
+  Kontext: PhD research on preference-based learning methodology
+
+[A003] (2018-01-01, schriftlich)
+  "The goal of my research is to develop efficient methods and algorithms to better model and understand humans' preferences while operating, interacting, and collaborating with robots, and to design algorithms that plan for robots that are aware of such preferences and can initiate safe and seamless interaction with humans."
+  Kontext: NSF CAREER grant research proposal statement
+
+[A004] (2019-01-01, schriftlich)
+  "The actions of autonomous cars can influence the behavior of human-driven cars on the same road, and user studies suggest that autonomous cars programmed to be aware of their interactions with humans can achieve tasks such as lane changing or coordinating at intersections safely and efficiently."
+  Kontext: Research findings on autonomous vehicle interaction with human drivers
+
+[A005] (2019-01-01, schriftlich)
+  "Safety has become a core concern of learning algorithms in human-robot systems. The robustness of controllers relies on the accuracy of models of human behavior, and we need approaches to find deviations in learned human behavior that lead to violations of safety objectives."
+  Kontext: Research paper on safety verification in autonomous systems
+
+[A006] (2019-01-01, schriftlich)
+  "We formalize the interaction between autonomous cars and human-driven cars as an underactuated dynamical system to incorporate expressive models of human actions and their responses to robots."
+  Kontext: Game-theoretic approach to modeling human-robot interaction
+
+[A007] (2020-01-01, schriftlich)
+  "In shared autonomy, the robot begins with a set of 'beliefs' about what the controller is telling it to do and gains confidence about the goal as additional instructions are given. As the joystick directs it toward one goal and away from others, the robot gains confidence and can begin to take over, sharing autonomy with the user to more precisely control the robot arm."
+  Kontext: Explanation of shared autonomy concept in human-robot interaction
+
+[A008] (2020-08-01, schriftlich)
+  "We developed an algorithm that would empower autonomous vehicles to actively 'nudge' drivers - by tapping their brakes or drifting into another lane - to gather information about how drivers respond in different conditions and improve safety."
+  Kontext: [UNI] research on interactive autonomous vehicle design
+
+[A009] (2020-11-01, schriftlich)
+  "I'm exploring how to train robots to better understand humans and how to give humans the skills to more seamlessly work with robots, drawing from fields as varied as cognitive neuroscience, psychology, and behavioral economics."
+  Kontext: Interview about interdisciplinary research approach
+
+[A010] (2021-01-01, schriftlich)
+  "I want to help pave the way for a future in which humans and robots do things like share the roads. By developing new ways for computers to anticipate people's actions, we can enable safer and more efficient interaction."
+  Kontext: [UNI] Technology Review Innovators Under 35 recognition
+
+[A011] (2021-01-01, schriftlich)
+  "Our work uses algorithmic human-robot interaction to be mindful of the effects of autonomous systems on humans, and further leverages these effects for better safety, efficiency, coordination, and estimation."
+  Kontext: ILIAD lab research philosophy on interactive autonomy
+
+[A012] (2021-12-01, muendlich)
+  "The role of conventions is critical in human-AI collaboration. Conventions are norms or equilibria built through repeated interactions, and they enable more efficient coordination between humans and AI systems."
+  Kontext: NeurIPS 2021 keynote on conventions in human-AI interaction
+
+[A013] (2023-10-01, muendlich)
+  "The role of grounded representations in learning from interactions with humans is crucial. Language instructions along with latent actions can enable shared autonomy in robotic manipulation problems, and we need to tap into large pretrained models to enable more aligned embodied AI agents."
+  Kontext: ICCV 2023 keynote on language and embodied AI
+
+[A014] (2024-05-01, schriftlich)
+  "Large policies pretrained on diverse robot datasets have the potential to transform robotic learning: instead of training new policies from scratch, such generalist robot policies may be finetuned with only a little in-domain data, yet generalize broadly."
+  Kontext: Introduction to Octo, large transformer-based robot policy
+
+[A015] (2024-11-01, schriftlich)
+  "We introduced RoboCrowd, a new data collection paradigm that distributes the workload by utilizing crowdsourcing principles and incentive design to enable scalable data collection. Our field experiment engaged over 200 volunteers who provided over 800 interaction episodes, boosting policy performance up to 20%."
+  Kontext: Paper introducing crowdsourced robot data collection methodology
+
+[A016] (2025-01-01, muendlich)
+  "We're finally at a stage where we could think about advances in AI, advances in large language models, foundation models, and how they can influence physical robotic systems that make actions, and this is due to advances in hardware."
+  Kontext: Statement at [UNI] HAI Robotics Conference 2025 about the current state of robotics and AI integration
+
+[A017] (2025-01-01, schriftlich)
+  "Robotic foundation models hold potential with a critical need for more data, and truly useful robots must learn how to generalize not only across tasks but also in varied environments and embodiments."
+  Kontext: Research perspective on foundation models in robotics
+
+[A018] (2025-01-01, muendlich)
+  "My journey toward building generalist robot policies is like cultivating a backyard garden - it requires patience, diverse inputs, and understanding of what works in different environments."
+  Kontext: Robotics: Science and Systems 2025 Early Career Spotlight presentation
+
+[A019] (2025-03-01, schriftlich)
+  "We need to outline the forms of generalization believed to be important for robot manipulation in a comprehensive and fine-grained manner. Our StarGen taxonomy evaluates generalization in robot policies, spanning semantic, visual, and behavioral dimensions."
+  Kontext: Recent paper on evaluating generalist robot policies
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2018-01-01) [gruendung]
+  Founded and became Director of the Intelligent and Interactive Autonomous Systems Group (ILIAD) at [UNI] University
+
+[H002] (2018-01-01) [einstellung]
+  Joined [UNI] University as Assistant Professor in Computer Science and Electrical Engineering
+
+[H003] (2019-01-01) [sonstiges]
+  Received NSF CAREER Award for research on Active Learning of Preferences for Human-Aware Autonomy
+
+[H004] (2020-01-01) [sonstiges]
+  Awarded AFOSR Young Investigator Research Program (YIP)
+
+[H005] (2020-01-01) [sonstiges]
+  Served as Area Chair on Program Committee for Robotics: Science and Systems (RSS) 2020 conference
+
+[H006] (2021-01-01) [sonstiges]
+  Received Okawa Foundation Research Grant for Adaptive Human-Robot Interaction research
+
+[H007] (2021-01-01) [sonstiges]
+  Named to [UNI] Technology Review 35 Innovators Under 35 list
+
+[H008] (2022-01-01) [sonstiges]
+  Awarded Sloan Research Fellowship
+
+[H009] (2022-01-01) [sonstiges]
+  Received ONR Young Investigator Award
+
+[H010] (2023-01-01) [partnerschaft]
+  Became research scientist at [FIRMA] while maintaining [UNI] faculty position
+
+[H011] (2023-01-01) [sonstiges]
+  Promoted to Associate Professor in Computer Science and Electrical Engineering at [UNI] University
+
+[H012] (2024-01-01) [sonstiges]
+  Awarded National Artificial Intelligence Research Resource (NAIRR) Grant for project on learning reward functions for robotics using large datasets and human feedback
+
+[H013] (2024-05-01) [produktlaunch]
+  Released Octo, an open-source generalist robot policy trained on 800k trajectories from the Open X-Embodiment dataset
+
+[H014] (2024-11-01) [produktlaunch]
+  Launched RoboCrowd platform demonstrating crowdsourced robot data collection with over 200 volunteers in university cafe
+
+[H015] (2025-01-01) [sonstiges]
+  Organized [UNI] HAI conference "Robotics in a Human-Centered World: Hype, Hope, and Future Directions" with Karen Liu and Allison Okamura

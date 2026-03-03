@@ -1,0 +1,777 @@
+========================================================================
+SYNTHESEEINHEIT: GH_closed_AH
+Beschreibung: Closed-Source-Vertreter
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 126 Aussagen + 84 Handlungen = 210 gesamt
+Zeitraum Aussagen: 2015 bis 2026-02-11
+Zeitraum Handlungen: 2005 bis 2025-12-10
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (126 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2015, muendlich)
+  "AI will probably most likely lead to the end of the world, but in the meantime, there'll be great companies."
+  Kontext: Informelle Aeusserung waehrend der Y-Combinator-Zeit, ca. 2015. Wird oft ohne Kontext oder Datum geteilt.
+
+[A002] (2017-09-26, schriftlich)
+  "Ideas excite me. Empathy grounds and centers me."
+  Kontext: Zentrale Aussage aus [PERSON]s Buch 'Hit Refresh', in dem er seine Philosophie als CEO und die Transformation von [FIRMA] darlegt.
+
+[A003] (2017-09-26, schriftlich)
+  "We needed to build a culture that allowed us to see ourselves not as know-it-alls but as learn-it-alls."
+  Kontext: [PERSON] beschreibt den Kulturwandel, den er bei [FIRMA] eingeleitet hat, basierend auf Carol Dwecks 'Growth Mindset'-Konzept.
+
+[A004] (2017-09-26, schriftlich)
+  "We want to build intelligence that augments human abilities and experiences. That's our North Star."
+  Kontext: [PERSON] legt die KI-Strategie von [FIRMA] dar: Augmentation statt Replacement.
+
+[A005] (2017-09-26, schriftlich)
+  "We must ensure that AI is designed and used responsibly. Ensuring these technologies are used for good is a big responsibility for those of us who work on them."
+  Kontext: [PERSON] artikuliert frueh die ethischen Verantwortungen bei KI-Entwicklung.
+
+[A006] (2018, muendlich)
+  "[PRODUKT]'s play style is alien. It sometimes wins by offering counterintuitive sacrifices. It's like chess from another dimension."
+  Kontext: [PERSON] kommentiert die ueberraschende Spielweise von [PRODUKT], das Schach, Go und Shogi durch Selbstspiel meisterte.
+
+[A007] (2018-05-07, muendlich)
+  "We need to develop AI systems that are transparent, that people can understand. We need to make sure there's accountability for how they work."
+  Kontext: Build-Konferenz 2018. [PERSON] formuliert [FIRMA]s KI-Prinzipien.
+
+[A008] (2019-07-22, schriftlich)
+  "AI is the most important technology of our times. And we want to democratize it so that its benefits can be felt by everyone and organizations can leverage it for their needs."
+  Kontext: Begleitstatement zur ersten grossen [FIRMA]-[FIRMA]-Investition ($1 Mrd.).
+
+[A009] (2019-11-04, muendlich)
+  "The world needs AGI. We need to get to AGI. But it also has to be AGI that's safe and aligned with broad human values."
+  Kontext: [FIRMA] Ignite 2019. [PERSON] aeussert sich zur AGI-Vision der [FIRMA]-Partnerschaft.
+
+[A010] (2020, muendlich)
+  "I reached chess master standard at 13 with an Elo rating of 2300. Chess taught me pattern recognition and strategic thinking — skills that became fundamental to my work in AI."
+  Kontext: Rueckblick auf seine Jugend. [PERSON] sieht eine direkte Verbindung zwischen Brettspielen und KI-Forschung.
+
+[A011] (2021-03-16, schriftlich)
+  "In the next five years, computer programs that can think will read legal documents and give medical advice. In the next decade, they will do assembly-line work and maybe even become companions."
+  Kontext: Blog-Post 'Moore's Law for Everything', in dem [PERSON] eine umfassende Vision fuer KI-getriebene Wirtschaftsumwaelzung und neue Steuerpolitik skizziert.
+
+[A012] (2021-03-16, schriftlich)
+  "We should therefore focus on taxing capital rather than labor, and we should use these taxes as an opportunity to directly distribute ownership and wealth to citizens."
+  Kontext: Zentraler Policy-Vorschlag im Blog-Post. [PERSON] schlaegt vor, AI-generierte Wertschoepfung ueber Kapitalbesteuerung umzuverteilen.
+
+[A013] (2021-06-29, muendlich)
+  "With [PRODUKT], we're taking a first step toward a future where developers are able to spend less time on boilerplate and more time on what matters."
+  Kontext: Launch von [PRODUKT], dem ersten grossen KI-Coding-Assistenten nach der [FIRMA]-Uebernahme von GitHub.
+
+[A014] (2022, muendlich)
+  "Scientific understanding enhances rather than diminishes the beauty and mystery of the world."
+  Kontext: [PERSON] verbindet wissenschaftliche Rationalitaet mit Spiritualitaet und Aesthetik. Bezug zu Feynman und Spinoza.
+
+[A015] (2022-07-01, muendlich)
+  "One of the best definitions I like of consciousness is it's the information feels when we process it."
+  Kontext: Langes Interview mit Lex Fridman ueber Bewusstsein, KI und die Zukunft der Menschheit. [PERSON] reflektiert ueber die Natur des Bewusstseins.
+
+[A016] (2022-07-01, muendlich)
+  "We are the only sort of fully conscious beings in the universe. We are 'waking up the universe,' bringing self-awareness to a universe that otherwise lacks it."
+  Kontext: [PERSON] zitiert Carl Sagan und beschreibt die besondere Rolle bewusster Wesen im Universum. Philosophische Reflexion ueber die menschliche Existenz.
+
+[A017] (2022-07-01, muendlich)
+  "My underlying motivation for working in artificial intelligence is to understand how the universe works and to answer the deepest scientific questions: What is consciousness? What are we doing here? What's the universe about?"
+  Kontext: [PERSON] legt seine philosophische Grundmotivation fuer die Arbeit an KI dar: tiefe wissenschaftliche Fragen zu beantworten.
+
+[A018] (2022-12-04, schriftlich)
+  "i am a stochastic parrot, and so r u"
+  Kontext: Tweet vier Tage nach dem Launch von [PRODUKT]. Spielt auf die Kritik an LLMs als 'stochastic parrots' an und wendet den Begriff auf den Menschen an.
+
+[A019] (2023-01-17, muendlich)
+  "The bad case — and I think this is important to say — is, like, lights out for all of us."
+  Kontext: Interview mit Connie Loizos (StrictlyVC/TechCrunch) im Januar 2023 ueber KI-Risiken und die Zukunft von [FIRMA].
+
+[A020] (2023-01-18, muendlich)
+  "I would like to think of it less as an AI race and more as grounding AI in real use cases where it can truly help people and organizations become more productive."
+  Kontext: World Economic Forum Davos 2023. [PERSON] positioniert [FIRMA] als verantwortungsvollen KI-Akteur.
+
+[A021] (2023-02-15, muendlich)
+  "This is a new day in search. It's a new paradigm for search. People can ask questions and get answers, not just links."
+  Kontext: Interview mit Joanna Stern (WSJ) kurz nach dem Launch von [PRODUKT] (spaeter [FIRMA] [PRODUKT]).
+
+[A022] (2023-02-24, schriftlich)
+  "If AGI is successfully created, this technology could help us elevate humanity by increasing abundance, turbocharging the global economy, and aiding in the discovery of new scientific knowledge that changes the limits of possibility."
+  Kontext: Offizieller [FIRMA] Blog-Post, in dem [PERSON] die AGI-Strategie und Sicherheitsueberlegungen von [FIRMA] darlegt.
+
+[A023] (2023-02-24, schriftlich)
+  "A misaligned superintelligent AGI could cause grievous harm to the world; an autocratic regime with a decisive superintelligence lead could do that too."
+  Kontext: Im gleichen Blog-Post benennt [PERSON] die zwei grossen Risiken: technische Fehlausrichtung und autoritaeren Missbrauch.
+
+[A024] (2023-02-24, schriftlich)
+  "We don't expect the future to be an unqualified utopia, but we want to maximize the good and minimize the bad, and for AGI to be an amplifier of humanity."
+  Kontext: Vision fuer eine ausgewogene AGI-Entwicklung im offiziellen [FIRMA]-Strategiedokument.
+
+[A025] (2023-03-16, muendlich)
+  "I think people should be happy that we are a little bit scared of this."
+  Kontext: Interview mit ABC News (Rebecca Jarvis) kurz nach dem Launch von [PRODUKT]. [PERSON] aeussert sich offen zu Risiken.
+
+[A026] (2023-03-16, muendlich)
+  "I think if I said I were not [scared], you should either not trust me or be very unhappy I'm in this job."
+  Kontext: Fortsetzung des ABC-News-Interviews. Auf die Nachfrage, ob er persoenlich Angst habe.
+
+[A027] (2023-03-16, schriftlich)
+  "Today marks the next major step in the evolution of how we interact with computing, which will fundamentally change the way we work and unlock a new wave of productivity growth."
+  Kontext: Offizielle Ankuendigung von [FIRMA] 365 [PRODUKT], dem KI-Assistenten fuer Office-Anwendungen.
+
+[A028] (2023-03-25, muendlich)
+  "I don't think any one person should be in control of an AGI, and I don't think any one person will."
+  Kontext: Interview mit Lex Fridman ueber AGI-Governance, Macht und Kontrolle. [PERSON] betont dezentrale Kontrolle.
+
+[A029] (2023-04, muendlich)
+  "AI is probably the most important thing humanity has ever worked on. I think of it as something more profound than electricity or fire."
+  Kontext: 60 Minutes Interview ueber KI. [PERSON] vergleicht KI mit fundamentalen Entdeckungen der Menschheit.
+
+[A030] (2023-04-12, muendlich)
+  "The age of AI is here. It's not coming. It's here. And it's going to reshape every part of how we live and work."
+  Kontext: TIME-Interview im Fruehjahr 2023, nach dem [PRODUKT]- und Bing-Chat-Erfolg.
+
+[A031] (2023-04-20, schriftlich)
+  "To ensure the bold and responsible development of general AI, we're creating a unit that will help us build more capable systems more safely and responsibly."
+  Kontext: Interne Memo zur Fusion von [FIRMA] Brain und [FIRMA] zu [FIRMA]. Verantwortungsvolle KI-Entwicklung als Ziel.
+
+[A032] (2023-05-10, muendlich)
+  "Making AI helpful for everyone is the most profound way we'll advance our mission."
+  Kontext: [FIRMA] I/O 2023 Keynote. [PERSON] praesentiert [FIRMA]s KI-Vision und kuendigt umfassende Integration von KI in alle Produkte an.
+
+[A033] (2023-05-10, muendlich)
+  "We have been investing in AI research for two decades. We have a deep sense of responsibility to get this right."
+  Kontext: [FIRMA] I/O 2023. [PERSON] unterstreicht [FIRMA]s langjaehriges Engagement und Verantwortung.
+
+[A034] (2023-05-16, muendlich)
+  "My worst fears are that we cause significant harm to the world. I think if this technology goes wrong, it can go quite wrong."
+  Kontext: Anhoerung vor dem Senate Judiciary Subcommittee on Privacy, Technology, and the Law. Erste Kongressanhoerung eines KI-CEOs.
+
+[A035] (2023-05-16, muendlich)
+  "We think that regulatory intervention by governments will be critical to mitigate the risks of increasingly powerful models."
+  Kontext: Eroeffnungserklaerung bei der Senatsanhoerung. [PERSON] fordert aktiv staatliche KI-Regulierung.
+
+[A036] (2023-05-16, muendlich)
+  "There will be an impact on jobs. We try to be very clear about that, and I think it'll require partnership between industry and government, but mostly action by government, to figure out how we want to mitigate that."
+  Kontext: Antwort auf Fragen zu den Auswirkungen von KI auf den Arbeitsmarkt waehrend der Senatsanhoerung.
+
+[A037] (2023-05-23, muendlich)
+  "[PRODUKT] is the new UI. [PRODUKT] is the way we think people will interact with technology moving forward."
+  Kontext: Build 2023 Keynote. [PERSON] kuendigt [PRODUKT]-Integration in fast alle [FIRMA]-Produkte an.
+
+[A038] (2023-05-23, muendlich)
+  "Every organization will have custom AI. Azure AI is the platform that will make this possible for every developer, every organization."
+  Kontext: Build 2023. [PERSON] positioniert Azure als die Plattform fuer Custom-KI.
+
+[A039] (2023-05-30, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: [PERSON] unterzeichnet zusammen mit [PERSON], [PERSON] und anderen die Ein-Satz-Erklaerung des Center for AI Safety zu existenziellen KI-Risiken.
+
+[A040] (2023-07-26, schriftlich)
+  "The single most important thing to understand about AI is how fast it is moving."
+  Kontext: Schriftliche Aussage vor dem Senate Judiciary Subcommittee on Privacy, Technology and the Law
+
+[A041] (2023-07-26, schriftlich)
+  "[FIRMA] is concerned that AI could empower a much larger set of actors to misuse biology. Today, certain steps in bioweapons production involve knowledge that can't be found on [FIRMA] or in textbooks. [...] a straightforward extrapolation of today's systems to those we expect to see in 2 to 3 years suggests a substantial risk that AI systems will be able to fill in all the missing pieces, enabling many more actors to carry out large-scale biological attacks."
+  Kontext: Warnung vor mittelfristigen Biorisiken durch KI, vor US-Senatoren
+
+[A042] (2023-08-08, muendlich)
+  "We really have very little idea what we're talking about."
+  Kontext: Podcast-Gespraech ueber Alignment und Interpretierbarkeit; Demut bezueglich eigener Wissensgrenzen
+
+[A043] (2023-09-13, muendlich)
+  "The U.S. must get the balance right on AI regulation or risk falling behind China. This would be better done at the national level."
+  Kontext: Senate AI Meeting mit Tech-CEOs ([PERSON], [PERSON], [PERSON], [PERSON]). Diskussion ueber KI-Regulierung.
+
+[A044] (2023-09-13, muendlich)
+  "Countries must work together to develop international frameworks of cooperation so that we don't weaponize these technologies against each other."
+  Kontext: Fortsetzung des Senate AI Meetings. [PERSON] fordert internationale KI-Governance.
+
+[A045] (2023-09-13, muendlich)
+  "AI innovation and AI safety must go hand in hand. We need a new generation of AI safety frameworks that are both adaptable and enforceable."
+  Kontext: Closed-door AI Insight Forum des US-Senats. [PERSON] plaediert fuer neue Sicherheits-Frameworks.
+
+[A046] (2023-10-11, muendlich)
+  "I want to be very transparent: We are 100% open to regulation. In fact, we think regulation will help create a level playing field."
+  Kontext: Interview mit Mathias Doepfner (Axel Springer). [PERSON] positioniert [FIRMA] pro-Regulierung.
+
+[A047] (2023-10-19, muendlich)
+  "Technology should be an enabler, a great equalizer. It should be used to make things more accessible for everyone."
+  Kontext: [UNI] Sloan Konferenz. [PERSON] spricht ueber demokratischen Zugang zu Technologie.
+
+[A048] (2023-10-19, muendlich)
+  "He warned against the risk of an 'AI divide,' urging global efforts to ensure fair access to AI technologies."
+  Kontext: [UNI] Sloan Konferenz. [PERSON] spricht ueber Gerechtigkeit beim KI-Zugang.
+
+[A049] (2023-11-01, muendlich)
+  "It is entirely possible for something to go catastrophically wrong on the scale of human civilisation."
+  Kontext: Rede bei Bletchley Park AI Safety Summit; Vorstellung der Responsible Scaling Policy
+
+[A050] (2023-11-17, schriftlich)
+  "We remain committed to our partnership with [FIRMA] and have confidence in our product roadmap. We have the best AI infrastructure in the world to continue this innovation."
+  Kontext: [FIRMA]-Statement Stunden nach [PERSON]s Entlassung. [PERSON] signalisiert Staerke.
+
+[A051] (2023-11-20, muendlich)
+  "We have all the IP rights and all the capability. If [FIRMA] disappeared tomorrow, I don't want any customer of ours to be worried. We have the people, we have the compute, we have the data, we have everything."
+  Kontext: Interview nach der Entlassung von [PERSON]. [PERSON] demonstriert Staerke und Unabhaengigkeit.
+
+[A052] (2023-12-06, schriftlich)
+  "I believe the transition we are seeing right now with AI will be the most profound in our lifetimes, far bigger than the shift to mobile or to the web before it."
+  Kontext: Offizielle Ankuendigung von [PRODUKT], [FIRMA]s multimodalem KI-Modell. [PERSON] positioniert es als Meilenstein.
+
+[A053] (2024, muendlich)
+  "The future of AI is not about replacing humans, it's about augmenting human capabilities."
+  Kontext: Allgemeine Vision zur Mensch-KI-Zusammenarbeit in verschiedenen Reden.
+
+[A054] (2024, schriftlich)
+  "I believe that technology is a foundational enabler of progress. Just as the internet and mobile devices expanded opportunities for people around the world, now AI is poised to accelerate progress at unprecedented scale."
+  Kontext: Grundsatzerklaerung zur strategischen Bedeutung von KI fuer [FIRMA] und die Welt.
+
+[A055] (2024, muendlich)
+  "All of [FIRMA]'s 2-billion user products use [PRODUKT]. This is the fastest adoption of any model in our history."
+  Kontext: Earnings Call. [PERSON] berichtet ueber erfolgreiche [PRODUKT]-Integration in [FIRMA]-Oekosystem.
+
+[A056] (2024, muendlich)
+  "We need smart, adaptable regulation instead of rigid rules. Policy should evolve in line with the technology's direction and impact."
+  Kontext: Oeffentliche Stellungnahme zu KI-Regulierung. [PERSON] plaediert fuer flexible Regulation, die mit der Technologie Schritt haelt.
+
+[A057] (2024, muendlich)
+  "How do you stop bad actors repurposing general purpose technology for harmful ends?"
+  Kontext: [PERSON] aeussert sich zu den Herausforderungen von Open-Source-KI und dem Dual-Use-Problem.
+
+[A058] (2024-01-08, schriftlich)
+  "This partnership allows us to accelerate AI innovation while preserving competition. [FIRMA] remains an independent company with its own governance."
+  Kontext: Statement an UK Competition and Markets Authority. [PERSON] betont Unabhaengigkeit von [FIRMA].
+
+[A059] (2024-01-17, muendlich)
+  "I think we need thoughtful regulation. But we also need to make sure that we don't regulate innovation out of existence."
+  Kontext: CNBC Interview in Davos 2024. [PERSON] balanciert zwischen Sicherheit und Innovation.
+
+[A060] (2024-01-18, muendlich)
+  "AI is good at some things but not good at a life-and-death situation. It's a system that is sometimes right, sometimes creative, often totally wrong — you actually don't want that to drive your car."
+  Kontext: World Economic Forum in Davos 2024. [PERSON] aeussert sich ueber die Grenzen aktueller KI-Systeme.
+
+[A061] (2024-01-30, muendlich)
+  "[PRODUKT] is becoming one of the fastest-growing products in our company's history. We're seeing real enterprise adoption and real productivity gains."
+  Kontext: Earnings Call Q2 2024. [PERSON] betont den Erfolg von [PRODUKT].
+
+[A062] (2024-02-08, schriftlich)
+  "This is the biggest upgrade to [PRODUKT] since it launched. It represents a new era in our AI journey."
+  Kontext: Ankuendigung von [PRODUKT] Advanced mit Ultra 1.0 und Umbenennung von [PRODUKT] zu [PRODUKT].
+
+[A063] (2024-02-16, schriftlich)
+  "[PRODUKT] is a glimpse into the future of creative work. The combination of Azure infrastructure and [FIRMA] innovation is unlocking new frontiers."
+  Kontext: [FIRMA]-Post nach dem Launch von [FIRMA]s [PRODUKT] (Text-to-Video). [PERSON] hebt Azure-Infrastruktur hervor.
+
+[A064] (2024-02-17, muendlich)
+  "AI is a tool. And like any tool, it can be used for good or for ill. The question is: What norms, what rules, what regulations do we put in place?"
+  Kontext: Panel bei der Muenchner Sicherheitskonferenz. [PERSON] thematisiert KI-Governance im geopolitischen Kontext.
+
+[A065] (2024-03-18, muendlich)
+  "I think some things are going to go theatrically wrong with AI. I don't know what the percent chance is that I eventually get shot, but it's not zero."
+  Kontext: Zweites langes Interview mit Lex Fridman nach der Board-Krise. [PERSON] spricht ueberraschend offen ueber persoenliche Risiken.
+
+[A066] (2024-03-18, muendlich)
+  "I think there's a bit of sleight of hand when people talk about aligning an AI to human preferences and values. There's a hidden asterisk: it's the values and preferences I approve of."
+  Kontext: [PERSON] reflektiert ueber die Schwierigkeit, KI an 'menschliche Werte' auszurichten, wenn unklar ist, wessen Werte gemeint sind.
+
+[A067] (2024-05-12, muendlich)
+  "I wonder if the future looks something more like universal basic compute than universal basic income and everybody gets a slice of [PRODUKT-FAMILIE]-7's compute and they can use it, they can resell it, they can donate it to somebody to use for cancer research."
+  Kontext: Interview im All-In Podcast. [PERSON] formuliert erstmals sein Konzept von 'Universal Basic Compute' als Alternative zu UBI.
+
+[A068] (2024-05-14, muendlich)
+  "[FIRMA] is fully in our [PRODUKT] era. We've been investing in AI for more than a decade — and innovating at every layer of the stack: research, product, infrastructure."
+  Kontext: [FIRMA] I/O 2024 Keynote. [PERSON] praesentiert [PRODUKT]-Integration in alle [FIRMA]-Produkte.
+
+[A069] (2024-05-21, muendlich)
+  "We are entering a new era of AI PCs. These are not just faster computers; they are computers that can understand you, learn from you, and help you in fundamentally new ways."
+  Kontext: Build 2024. [PERSON] stellt [PRODUKT]+ PCs vor, die erste PC-Kategorie mit On-Device-KI.
+
+[A070] (2024-09-05, schriftlich)
+  "Excited to announce AlphaProteo, our breakthrough AI system for designing novel proteins that bind to a target molecule or protein. It has the potential to accelerate our understanding of biology, and aid the discovery of new drugs, the development of biosensors, & much more!"
+  Kontext: Tweet zur Ankuendigung von AlphaProteo, einem Nachfolgesystem zu [PRODUKT], das nicht nur Strukturen vorhersagt, sondern neue Proteine entwirft.
+
+[A071] (2024-09-22, muendlich)
+  "We've been investing in AI research, tools, and infrastructure for two decades because it's the most profound way we can deliver on our mission — and improve people's lives."
+  Kontext: Keynote beim UN Summit of the Future 2024. [PERSON] betont [FIRMA]s langjaehriges Engagement fuer KI.
+
+[A072] (2024-09-22, muendlich)
+  "With AI, we have the chance to democratize access from the start… ensure that the digital divide doesn't become an AI divide… and make AI helpful for everyone."
+  Kontext: UN Summit. [PERSON] fordert demokratischen Zugang zu KI fuer alle.
+
+[A073] (2024-09-23, schriftlich)
+  "It is possible that we will have superintelligence in a few thousand days (!); it may take longer, but I'm confident we'll get there."
+  Kontext: Persoenlicher Blog-Post mit dem Titel 'The Intelligence Age'. [PERSON] skizziert seine Vision einer neuen Aera, angetrieben durch KI.
+
+[A074] (2024-09-23, schriftlich)
+  "I believe the future is going to be so bright that no one can do it justice by trying to write about it now; a defining characteristic of the Intelligence Age will be massive prosperity."
+  Kontext: Optimistische Kernaussage des Blog-Posts ueber die positiven Auswirkungen fortschreitender KI.
+
+[A075] (2024-09-23, schriftlich)
+  "Deep learning worked, got predictably better with scale, and we dedicated increasing resources to it. That's really it; humanity discovered an algorithm that could really, truly learn any distribution of data."
+  Kontext: [PERSON] fasst den Kern des KI-Fortschritts in einem Satz zusammen: Deep Learning funktioniert und skaliert vorhersagbar.
+
+[A076] (2024-10-01, schriftlich)
+  "I think and talk a lot about the risks of powerful AI. In fact, one of my main reasons for focusing on risks is that they're the only thing standing between us and what I see as a fundamentally positive future."
+  Kontext: Einleitung seines 14.000-Woerter-Essays ueber die positiven Potenziale von KI
+
+[A077] (2024-10-01, schriftlich)
+  "Most people are underestimating just how radical the upside of AI could be, just as I think most people are underestimating how bad the risks could be."
+  Kontext: Essay-Abschnitt ueber die Einschaetzung des KI-Potenzials
+
+[A078] (2024-10-01, schriftlich)
+  "I'll refer to this as the 'compressed 21st century': the idea that after powerful AI is developed, we will in a few years make all the progress in biology and medicine that we would have made in the whole 21st century."
+  Kontext: Zentrales Konzept des Essays: KI beschleunigt wissenschaftlichen Fortschritt dramatisch
+
+[A079] (2024-10-01, schriftlich)
+  "I think it is critical to have a genuinely inspiring vision of the future. [...] there has to be something we're fighting for, some positive-sum outcome where everyone is better off. [...] Fear is one kind of motivator, but it's not enough: we need hope as well."
+  Kontext: Abschliessende Reflexion des Essays ueber die Rolle von Hoffnung vs. Angst
+
+[A080] (2024-10-09, schriftlich)
+  "Winning the Nobel Prize is the honour of a lifetime and the realisation of a lifelong dream - it still hasn't really sunk in yet."
+  Kontext: Tweet am Tag der Nobelpreis-Bekanntgabe. [PERSON] und John Jumper erhalten den Chemie-Nobelpreis fuer [PRODUKT]2.
+
+[A081] (2024-10-09, schriftlich)
+  "With [PRODUKT]2 we cracked the 50-year grand challenge of protein structure prediction: predicting the 3D structure of a protein purely from its amino acid sequence."
+  Kontext: Fortsetzung des Tweets zur Nobelpreis-Bekanntgabe. [PERSON] fasst die wissenschaftliche Leistung von [PRODUKT]2 zusammen.
+
+[A082] (2024-11-11, muendlich)
+  "As much as I am excited about the benefits of these models, and we'll talk about that if we talk about Machines of Loving Grace, I'm worried about the risks and I continue to be worried about the risks."
+  Kontext: 5+ Stunden Podcast-Gespraech mit Lex Fridman; [PERSON] reflektiert ueber Chancen und Risiken
+
+[A083] (2024-11-11, muendlich)
+  "The real reason for leaving, is that it is incredibly unproductive to try and argue with someone else's vision. [...] Take some people you trust and go make your vision happen."
+  Kontext: Erklaerung seines Abgangs von [FIRMA]; widerspricht Narrativ ueber [FIRMA] als Grund
+
+[A084] (2024-12-09, schriftlich)
+  "Introducing Willow, our new state-of-the-art quantum computing chip with a breakthrough that can reduce errors exponentially as we scale up using more qubits, cracking a 30-year challenge in the field."
+  Kontext: Ankuendigung von [FIRMA]s Quantenchip Willow auf X/[PLATTFORM]. Durchbruch bei Fehlerkorrektur.
+
+[A085] (2024-12-09, schriftlich)
+  "We see Willow as an important step in our journey to build a useful quantum computer with practical applications in areas like drug discovery, fusion energy, battery design + more."
+  Kontext: Follow-up Tweet zur Willow-Ankuendigung. [PERSON] beschreibt praktische Anwendungen.
+
+[A086] (2025, muendlich)
+  "Energy will be synonymous to intelligence as we get towards AGI. The amount we're going to get back, even just narrowly for climate [solutions] from these models, it's going to far outweigh the energy costs."
+  Kontext: [PERSON] verteidigt den hohen Energieverbrauch von KI-Systemen mit dem Argument, dass die Loesungen (z.B. fuer Klimawandel) den Verbrauch rechtfertigen.
+
+[A087] (2025, muendlich)
+  "One of my pet projects is discovering room temperature superconductor materials using AI, with multiple breakthroughs that AI could come up with to help with the energy situation."
+  Kontext: [PERSON] beschreibt seine Vision, wie KI Materialdurchbrueche ermoeglichen kann, die die Energiekrise loesen koennten.
+
+[A088] (2025, muendlich)
+  "AGI would be a technology that could not only solve existing problems, but also come up with entirely new explanations for the universe."
+  Kontext: [PERSON] unterscheidet sich von anderen KI-Fuehrern durch seine Betonung wissenschaftlicher Entdeckung als Kern der AGI-Definition.
+
+[A089] (2025, muendlich)
+  "World Models are crucial — a model that can predict and simulate how the state of the environment changes with actions, with core logic to truly 'understand' the operating rules of the physical world."
+  Kontext: [PERSON] identifiziert 'World Models' als eine der Schluesselkomponenten auf dem Weg zu AGI.
+
+[A090] (2025-01-06, schriftlich)
+  "We are now confident we know how to build AGI as we have traditionally understood it. We believe that, in 2025, we may see the first AI agents 'join the workforce' and materially change the output of companies."
+  Kontext: Jahresrueckblick-Blog-Post, in dem [PERSON] die kuenftige AGI-Entwicklung und den Eintritt von KI-Agenten in die Arbeitswelt ankuendigt.
+
+[A091] (2025-01-06, schriftlich)
+  "The whole event was, in my opinion, a big failure of governance by well-meaning people, myself included."
+  Kontext: [PERSON] reflektiert ueber die Board-Krise vom November 2023 und uebernimmt Mitverantwortung.
+
+[A092] (2025-01-21, muendlich)
+  "For AGI to get built here, to create hundreds of thousands of jobs, to create a new industry centered here, we wouldn't be able to do this without you, Mr. President."
+  Kontext: Pressekonferenz im Weissen Haus zur Ankuendigung des [PROJEKT]-Projekts mit Trump, [FIRMA]-CEO Son und [FIRMA]-CEO [PERSON].
+
+[A093] (2025-01-23, muendlich)
+  "I see a form of AI that's better than almost all humans at almost all tasks emerging in the next two or three years."
+  Kontext: Interview bei CNBC am Rande des Weltwirtschaftsforums in Davos
+
+[A094] (2025-02-06, muendlich)
+  "I'm gonna say before [2030 for AGI]."
+  Kontext: TIME100 Interview nach dem Nobelpreis. [PERSON] aeussert sich zur AGI-Zeitlinie und korrigiert seine fruehere '5-10 Jahre'-Schaetzung nach oben.
+
+[A095] (2025-02-06, muendlich)
+  "AGI, probably the most transformative moment in human history, is on the horizon."
+  Kontext: [PERSON] ordnet die Bedeutung von AGI historisch ein und vergleicht sie mit anderen technologischen Revolutionen.
+
+[A096] (2025-02-06, muendlich)
+  "It will be ten times bigger than the Industrial Revolution and perhaps ten times faster."
+  Kontext: Historischer Vergleich der erwarteten AGI-Auswirkungen mit der Industriellen Revolution.
+
+[A097] (2025-02-06, muendlich)
+  "If AI is built safely and responsibly, I believe it will be one of the most transformative and beneficial technologies ever."
+  Kontext: Bedingt optimistische Vision: [PERSON] betont die Notwendigkeit sicherer und verantwortungsvoller Entwicklung.
+
+[A098] (2025-02-09, schriftlich)
+  "The cost to use a given level of AI falls about 10x every 12 months, and lower prices lead to much more use. Moore's law changed the world at 2x every 18 months; this is unbelievably stronger."
+  Kontext: Blog-Post 'Three Observations' ueber die oekonomischen Grundgesetze der KI-Entwicklung.
+
+[A099] (2025-02-09, schriftlich)
+  "Anyone in 2035 should be able to marshall the intellectual capacity equivalent to everyone in 2025; everyone should have access to unlimited genius to direct however they can imagine."
+  Kontext: [PERSON]s Vision fuer demokratisierten Zugang zu KI-Intelligenz in den naechsten 10 Jahren.
+
+[A100] (2025-02-10, muendlich)
+  "AI will be the most profound shift of our lifetimes. Bigger than the shift to personal computing, or to mobile. And it will do more to democratize access to information than the internet."
+  Kontext: AI Action Summit Paris 2025. [PERSON] vergleicht KI mit frueheren technologischen Revolutionen.
+
+[A101] (2025-02-10, muendlich)
+  "AI is the most profound technology humanity has ever worked on, and it has potential for extraordinary benefits, and we will have to work through societal disruption."
+  Kontext: Fortsetzung der AI Action Summit Remarks. [PERSON] spricht ueber Chancen und Risiken.
+
+[A102] (2025-02-11, schriftlich)
+  "We must ensure democratic societies lead in AI, and that authoritarian countries do not use it to establish global military dominance."
+  Kontext: Offizielle Stellungnahme zum Paris AI Action Summit; [PERSON] nannte den Gipfel eine 'missed opportunity'
+
+[A103] (2025-02-14, muendlich)
+  "The more artificial intelligence becomes a race, the harder it is to keep the technology from becoming unsafe."
+  Kontext: [PERSON] aeussert sich zu den Gefahren eines unkontrollierten Wettlaufs in der KI-Entwicklung.
+
+[A104] (2025-04-24, schriftlich)
+  "People outside the field are often surprised and alarmed to learn that we do not understand how our own AI creations work. They are right to be concerned: this lack of understanding is essentially unprecedented in the history of technology."
+  Kontext: Essay ueber die Dringlichkeit, KI-Systeme interpretierbar zu machen
+
+[A105] (2025-04-24, schriftlich)
+  "We are thus in a race between interpretability and model intelligence."
+  Kontext: Kernthese des Essays: Interpretierbarkeit muss mit der Modellentwicklung Schritt halten
+
+[A106] (2025-04-24, schriftlich)
+  "The progress of the underlying technology is inexorable, driven by forces too powerful to stop, but the way in which it happens -- the order in which things are built, the applications we choose, and the details of how it is rolled out to society -- are eminently possible to change. [...] We can't stop the bus, but we can steer it."
+  Kontext: Pragmatische Position: KI-Entwicklung nicht aufhaltbar, aber gestaltbar
+
+[A107] (2025-05-13, muendlich)
+  "AI Mode is a total reimagining of Search. It's designed to help you solve bigger problems and get things done."
+  Kontext: [FIRMA] I/O 2025 Keynote. [PERSON] praesentiert grundlegende Neugestaltung der Suche durch KI.
+
+[A108] (2025-05-29, muendlich)
+  "AI is starting to get better than humans at almost all intellectual tasks, and we're going to collectively, as a society, grapple with it."
+  Kontext: CNN-Interview ueber Arbeitsmarktauswirkungen von KI
+
+[A109] (2025-05-29, muendlich)
+  "If AI creates huge total wealth, a lot of that will, by default, go to the AI companies and less to ordinary people."
+  Kontext: CNN-Interview; [PERSON] schlaegt Besteuerung von KI-Firmen vor
+
+[A110] (2025-05-29, muendlich)
+  "It's eerie the extent to which the broader public and politicians, legislators, I don't think, are fully aware of what's going on."
+  Kontext: CNN-Interview; [PERSON] drueckt Frustration ueber mangelndes Bewusstsein aus
+
+[A111] (2025-07-15, muendlich)
+  "It's mostly just classical computing that's going on in the brain, which suggests that all the phenomena are modellable or mimicable by a classical computer."
+  Kontext: Zweites Lex-Fridman-Interview. [PERSON] argumentiert gegen die Notwendigkeit von Quanteneffekten fuer Bewusstsein.
+
+[A112] (2025-08-08, muendlich)
+  "I think it's not a super useful term."
+  Kontext: CNBC Squawk Box Interview. Bemerkenswerte Kehrtwende: Anfang 2025 sprach [PERSON] noch davon, AGI bauen zu koennen.
+
+[A113] (2025-09-17, muendlich)
+  "I think there's a 25% chance that things go really, really badly."
+  Kontext: Axios AI+ DC Summit; Antwort auf Frage nach seinem 'p(doom)'-Wert
+
+[A114] (2025-11-16, muendlich)
+  "I think I'm deeply uncomfortable with these decisions being made by a few companies, by a few people."
+  Kontext: CBS 60 Minutes Interview mit Anderson Cooper; Forderung nach staerkerer Regulierung
+
+[A115] (2025-11-16, muendlich)
+  "AI is advancing too head-spinningly fast. I believe that these systems could change the world, fundamentally, within two years; in 10 years, all bets are off."
+  Kontext: CBS 60 Minutes Interview, Einschaetzung des Tempos der KI-Entwicklung
+
+[A116] (2025-11-18, muendlich)
+  "Don't blindly trust AI tools. People need to adapt."
+  Kontext: Warnung vor unkritischer KI-Nutzung. [PERSON] betont Eigenverantwortung.
+
+[A117] (2025-12, muendlich)
+  "People who learn to adopt and adapt to AI will do better. All those professions will be around, but the people who will do well in each of those professions are people who learn how to use these tools."
+  Kontext: Aeusserungen zur Zukunft der Arbeit. [PERSON] betont Anpassungsfaehigkeit statt Jobverlust.
+
+[A118] (2025-12-02, muendlich)
+  "People will need to adapt, and then there will be areas where it will impact some jobs. So, as a society, I think we need to be having those conversations."
+  Kontext: BBC Interview ueber KI-Auswirkungen auf den Arbeitsmarkt. [PERSON] spricht offen ueber Job-Verluste.
+
+[A119] (2025-12-03, muendlich)
+  "I think there are some players who are not managing that risk well or taking unwise risk. [...] There's an inherent risk when the timing of the economic value is uncertain."
+  Kontext: NYT DealBook Summit; [PERSON] kommentiert KI-Blase und Spending-Risiken der Konkurrenz
+
+[A120] (2025-12-05, muendlich)
+  "AGI is on the horizon. Within 5 years, perhaps with 1-2 major technological breakthroughs, we may overcome the obstacles on the path to AGI."
+  Kontext: Axios-Exklusivinterview. [PERSON] wird konkreter bezueglich der noch fehlenden technischen Durchbrueche.
+
+[A121] (2026-01-26, schriftlich)
+  "I believe we are entering a rite of passage, both turbulent and inevitable, which will test who we are as a species. Humanity is about to be handed almost unimaginable power, and it is deeply unclear whether our social, political, and technological systems possess the maturity to wield it."
+  Kontext: Einleitung seines 20.000-Woerter-Essays ueber KI-Risiken fuer Sicherheit, Wirtschaft und Demokratie
+
+[A122] (2026-01-26, schriftlich)
+  "We could summarize this as a 'country of geniuses in a datacenter.'"
+  Kontext: [FIRMA]pher fuer die Faehigkeiten zukuenftiger KI-Systeme, zentral in seiner Argumentation
+
+[A123] (2026-01-26, schriftlich)
+  "During the peak of worries about AI risk in 2023-2024, some of the least sensible voices rose to the top, often through sensationalistic social media accounts. These voices used off-putting language reminiscent of religion or science fiction, and called for extreme actions without having the evidence that would justify them."
+  Kontext: Abgrenzung von extremen Doomer-Positionen, Plaidoyer fuer sachlichen Umgang mit KI-Risiken
+
+[A124] (2026-01-26, schriftlich)
+  "The lesson is that we need to discuss and address risks in a realistic, pragmatic manner: sober, fact-based, and well equipped to survive changing tides."
+  Kontext: Forderung nach pragmatischem Ansatz bei KI-Governance
+
+[A125] (2026-01-27, muendlich)
+  "AI could make half of all entry-level white-collar jobs vanish within one to five years."
+  Kontext: Warnung am Weltwirtschaftsforum in Davos; Forderung nach staatlicher Umschulung
+
+[A126] (2026-02-11, muendlich)
+  "In 10, 15 years' time, we'll be in a kind of new golden era of discovery that is a kind of new renaissance."
+  Kontext: Fortune-Interview im Februar 2026. [PERSON] beschreibt seine langfristige Vision einer KI-getriebenen wissenschaftlichen Renaissance.
+
+------------------------------------------------------------------------
+HANDLUNGEN (84 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2005) [gruendung] ($30,000,000)
+  [PERSON] gruendet im Alter von 19 Jahren die standortbasierte Social-Networking-App Loopt als Teil des ersten Y-Combinator-Batches. Er sammelt ueber $30 Mio. Risikokapital ein.
+
+[H002] (2010-09-01) [gruendung]
+  [PERSON] gruendet [FIRMA] Technologies in London zusammen mit Shane Legg und [PERSON]. Die Vision: KI-Systeme entwickeln, die so allgemein und flexibel sind wie die menschliche Intelligenz.
+
+[H003] (2011-12-01) [investition] ($50,000,000)
+  [FIRMA] schliesst Serie-A-Finanzierung ueber $50 Millionen ab. Investoren: [FIRMA] ([PERSON]), Horizons Ventures (Li Ka-shing), [PERSON] und Scott Banister.
+
+[H004] (2013-12-19) [produktlaunch]
+  [FIRMA] veroeffentlicht bahnbrechende Forschung: Ein Deep Q-Network (DQN) lernt, Atari-Spiele auf uebermenschlichem Niveau zu spielen, allein durch Beobachtung der Pixel.
+
+[H005] (2014-01-26) [verkauf] ($500,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer geschaetzt $400-650 Millionen. Groesste europaeische Tech-Akquisition von [FIRMA] zu diesem Zeitpunkt. [FIRMA] wird Tochterunternehmen von [FIRMA].
+
+[H006] (2014-02-04) [einstellung]
+  [PERSON] wird der dritte CEO von [FIRMA] und loest Steve Ballmer ab. Er tritt die Nachfolge von Bill Gates und Steve Ballmer an.
+
+[H007] (2014-02-21) [einstellung]
+  [PERSON] wird Praesident von [FIRMA] und loest Paul Graham ab. Unter seiner Fuehrung foerdert YC ca. 1.900 Startups, darunter Airbnb, DoorDash, [FIRMA] und Twitch.
+
+[H008] (2015-08-10) [einstellung]
+  [PERSON] wird CEO von [FIRMA] (nach Umbenennung der Holding in [FIRMA] Inc.). [PERSON] wird CEO von [FIRMA], [PERSON] uebernimmt Tagesgeschaeft von [FIRMA].
+
+[H009] (2015-10-01) [produktlaunch]
+  [PRODUKT] besiegt Fan Hui, den europaeischen Go-Champion, mit 5:0. Erster Sieg eines Computerprogramms gegen einen professionellen Go-Spieler auf dem 19x19-Brett.
+
+[H010] (2015-12-11) [gruendung] ($1,000,000,000)
+  [PERSON], [PERSON], [PERSON], [PERSON] und weitere gruenden [FIRMA] als Non-Profit-Forschungslabor. Eine Gruppe von Unterstuetzern (u.a. [PERSON], [PERSON]) sagen $1 Mrd. Foerderung zu. [PERSON] und [PERSON] sind Co-Vorsitzende.
+
+[H011] (2016-03-15) [produktlaunch]
+  [PRODUKT] besiegt Lee Sedol, einen der besten Go-Spieler der Welt, mit 4:1 in Seoul. Das Match wird von ueber 200 Millionen Menschen weltweit verfolgt.
+
+[H012] (2017-09-26) [produktlaunch]
+  [PERSON] veroeffentlicht sein Buch 'Hit Refresh: The Quest to Rediscover [FIRMA]'s Soul and Imagine a Better Future for Everyone', in dem er die Transformation von [FIRMA] und seine Vision fuer KI darlegt.
+
+[H013] (2017-12-05) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], ein generalisiertes Reinforcement-Learning-System, das Schach, Shogi und Go meistert - allein durch Selbstspiel ohne menschliches Wissen. Besiegt Stockfish 8 nach 9 Stunden Training.
+
+[H014] (2018-12-01) [produktlaunch]
+  [PRODUKT] gewinnt die CASP13-Proteinstruktur-Vorhersage-Wettbewerb mit deutlichem Vorsprung. [FIRMA] wendet Deep Learning auf Biologie an.
+
+[H015] (2019-03-08) [einstellung]
+  [PERSON] wird CEO von [FIRMA] und verlaesst seine Position als Praesident von [FIRMA], um sich voll auf [FIRMA] zu konzentrieren.
+
+[H016] (2019-07-22) [investition] ($1,000,000,000)
+  [FIRMA] investiert $1 Milliarde in [FIRMA] und wird exklusiver Cloud-Partner. [FIRMA] fuehrt eine gewinnbegrenzte Gesellschaftsform (capped-profit) ein.
+
+[H017] (2019-07-22) [investition] ($1,000,000,000)
+  [FIRMA] kuendigt eine $1 Milliarde Investition in [FIRMA] an und wird exklusiver Cloud-Partner. [FIRMA] nutzt Azure fuer alle KI-Modelle.
+
+[H018] (2019-12-03) [einstellung]
+  [PERSON] wird zusaetzlich CEO von [FIRMA] Inc., nachdem [PERSON] und [PERSON] zuruecktreten. [PERSON] leitet nun sowohl [FIRMA] als auch die Muttergesellschaft.
+
+[H019] (2020-06-11) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] mit 175 Milliarden Parametern -- das zu diesem Zeitpunkt groesste Sprachmodell der Welt. Zunaechst Zugang nur per API.
+
+[H020] (2020-11-30) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT]2, das die 50-Jahre alte 'Protein-Folding'-Herausforderung loest. CASP14-Gewinn mit atomarer Genauigkeit (GDT-Score 92.4). Strukturen von ueber 200 Millionen Proteinen vorhergesagt.
+
+[H021] (2021-01-28) [gruendung]
+  [PERSON] gruendet zusammen mit seiner Schwester [PERSON] und weiteren Ex-[FIRMA]-Forschern (u.a. [PERSON], [PERSON], [PERSON], [PERSON], [PERSON]) das KI-Sicherheitsunternehmen [FIRMA] als Public Benefit Corporation.
+
+[H022] (2021-05-31) [investition] ($124,000,000)
+  [FIRMA] schliesst Series-A-Finanzierungsrunde ueber $124 Mio. ab, mit fruehen Investoren wie Jaan Tallinn (Skype/Kazaa) und anderen.
+
+[H023] (2021-06-29) [produktlaunch]
+  [FIRMA] launcht [PRODUKT], den ersten grossen KI-Programmier-Assistenten, basierend auf [FIRMA] [PRODUKT]. Der Service nutzt [PRODUKT]-Technologie.
+
+[H024] (2021-10-08) [spende] ($15,000,000)
+  Satya und Anu [PERSON] spenden $15 Millionen an die Seattle Children's Hospital fuer Forschung zu neurologischen Entwicklungsstoerungen bei Kindern, inspiriert durch ihren Sohn Zain mit zerebraler Kinderlahmung.
+
+[H025] (2021-11-04) [gruendung]
+  [PERSON] gruendet Isomorphic Labs, ein [FIRMA]-Tochterunternehmen, das KI fuer Medikamentenentwicklung nutzt. [PERSON] ist CEO sowohl von [FIRMA] als auch Isomorphic.
+
+[H026] (2022-04-29) [investition] ($580,000,000)
+  Series-B-Runde ueber $580 Mio., angefuehrt von Sam Bankman-Fried (FTX/Alameda Research). Alameda allein investiert ca. $500 Mio. Die Investition wird spaeter Teil des FTX-Insolvenzverfahrens.
+
+[H027] (2022-11-30) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] als kostenlose Forschungsvorschau. Der Chatbot erreicht 1 Million Nutzer in 5 Tagen und 100 Millionen in 2 Monaten -- die am schnellsten wachsende Verbraucheranwendung der Geschichte.
+
+[H028] (2022-12) [umstrukturierung]
+  Nach dem viralen Erfolg von [PRODUKT] ruft [PERSON] unternehmensweit 'Code Red' aus und bezeichnet den Chatbot als existenzielle Bedrohung fuer [FIRMA] Search. Teams werden umstrukturiert, um bis Mai 2023 KI-Prototypen und Produkte zu entwickeln.
+
+[H029] (2022-12-15) [sonstiges]
+  Veroeffentlichung des Papers 'Constitutional AI: Harmlessness from AI Feedback' (arXiv:2212.08073). Einfuehrung von RLAIF als Alternative zu RLHF fuer harmlose KI-Systeme. Wird zum zentralen Sicherheitskonzept hinter [PRODUKT].
+
+[H030] (2023-01-17) [produktlaunch]
+  [FIRMA] macht Azure [FIRMA] Service (Zugang zu [PRODUKT], [PRODUKT], [PRODUKT], [PRODUKT] etc.) allgemein verfuegbar fuer Unternehmenskunden. Bereits ueber 4.500 Unternehmen nutzen den Service in der Preview.
+
+[H031] (2023-01-23) [investition] ($10,000,000,000)
+  [FIRMA] investiert weitere ca. $10 Milliarden in [FIRMA] (kumulativ nun ca. $13 Mrd.). [FIRMA] wird auf ca. $86 Milliarden bewertet.
+
+[H032] (2023-01-23) [investition] ($10,000,000,000)
+  [FIRMA] investiert weitere ca. $10 Milliarden in [FIRMA] in einer mehrjaehrigen Partnerschaft. Die Gesamtinvestition belaeuft sich damit auf ca. $13 Milliarden.
+
+[H033] (2023-02-04) [investition] ($300,000,000)
+  [FIRMA] investiert $300 Millionen in [FIRMA] ([FIRMA]-Konkurrent, gegr. von ehemaligen [FIRMA]-Mitarbeitern) und nimmt ca. 10% Anteil. [FIRMA] waehlt [FIRMA] als bevorzugten Cloud-Partner.
+
+[H034] (2023-02-07) [produktlaunch]
+  [FIRMA] launcht [PRODUKT] (spaeter umbenannt in [FIRMA] [PRODUKT]), eine KI-gestuetzte Suchmaschine basierend auf [PRODUKT]. Es ist [FIRMA]s erster direkter Angriff auf [FIRMA]s Suchmonopol.
+
+[H035] (2023-03-14) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], ein multimodales grosses Sprachmodell mit deutlich verbessertem Reasoning. [FIRMA] wird fuer mangelnde Transparenz kritisiert, da kaum technische Details veroeffentlicht werden.
+
+[H036] (2023-03-14) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] 1 als KI-Assistenten, zunaechst nur fuer ausgewaehlte Partner zugaenglich.
+
+[H037] (2023-03-16) [produktlaunch]
+  [FIRMA] kuendigt [FIRMA] 365 [PRODUKT] an, einen KI-Assistenten fuer Word, Excel, PowerPoint, Outlook und Teams. Preis: $30/Monat zusaetzlich zu [FIRMA] 365.
+
+[H038] (2023-03-21) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], einen KI-Chatbot als Antwort auf [PRODUKT]. Der Launch verlaeuft holprig: In der Demo gibt [PRODUKT] eine falsche Antwort, [FIRMA]s Aktienkurs faellt um $100 Milliarden.
+
+[H039] (2023-04-20) [umstrukturierung]
+  [PERSON] fuehrt [FIRMA] Brain und [FIRMA] zu '[FIRMA]' zusammen. [PERSON] wird CEO, [PERSON] Chief Scientist. Ziel: 'Kuehne und verantwortungsvolle Entwicklung allgemeiner KI'.
+
+[H040] (2023-04-20) [umstrukturierung]
+  [FIRMA] vereint [FIRMA] und [FIRMA] Brain zu '[FIRMA]'. [PERSON] wird CEO der neuen Einheit. Ziel: Beschleunigung der KI-Entwicklung und AGI-Forschung.
+
+[H041] (2023-05-23) [investition] ($450,000,000)
+  Series-C-Runde ueber $450 Mio., angefuehrt von Spark Capital mit Beteiligung von [FIRMA], Salesforce Ventures und anderen. Bewertung: $4.1 Mrd.
+
+[H042] (2023-05-23) [produktlaunch]
+  [FIRMA] launcht Azure AI Foundry (vorher Azure AI Studio), eine Plattform fuer Entwickler zum Bauen, Trainieren und Deployen eigener KI-Modelle. Unterstuetzt [FIRMA]-Modelle, Open-Source-Modelle und Custom-Modelle.
+
+[H043] (2023-06-14) [lobbying]
+  [FIRMA] engagiert sich intensiv im EU-AI-Act-Gesetzgebungsprozess und plaediert fuer risikobasierte Regulierung statt pauschaler Verbote. [PERSON] trifft EU-Kommissarin Margrethe Vestager mehrfach.
+
+[H044] (2023-07-11) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] fuer die breite Oeffentlichkeit mit signifikanten Verbesserungen bei Coding, Mathematik und Reasoning.
+
+[H045] (2023-07-21) [politisch]
+  [FIRMA] unterzeichnet als eines von sieben fuehrenden US-KI-Unternehmen freiwillige Selbstverpflichtungen gegenueber der Biden-Administration zu KI-Sicherheit, Transparenz und externem Testing vor Deployment.
+
+[H046] (2023-07-24) [gruendung] ($250,000,000)
+  [PERSON] launcht [PROJEKT] (spaeter 'World') mit Tools for Humanity. Das Projekt nutzt Iris-Scanner ('Orb') um eine globale digitale Identitaet ([PROJEKT]) und Kryptowaehrung bereitzustellen. Ueber 2 Millionen Nutzer verifizieren sich bis zum Launch. $250 Mio. Venture-Capital eingesammelt.
+
+[H047] (2023-09-19) [sonstiges]
+  [FIRMA] veroeffentlicht als erstes grosses KI-Unternehmen eine 'Responsible Scaling Policy' (RSP) mit dem AI Safety Levels (ASL) Framework, angelehnt an biologische Sicherheitsstufen (BSL). [PERSON] investierte 10-20% seiner Arbeitszeit ueber 3 Monate in die Ausarbeitung.
+
+[H048] (2023-09-19) [umstrukturierung]
+  [FIRMA] etabliert den Long-Term Benefit Trust (LTBT): ein unabhaengiges Gremium aus fuenf Experten fuer KI-Sicherheit, nationale Sicherheit und Ethik, das schrittweise die Mehrheit der Sitze im [FIRMA]-Board waehlen kann. Trustees haben keine finanziellen Interessen an [FIRMA].
+
+[H049] (2023-09-25) [partnerschaft] ($4,000,000,000)
+  [FIRMA] investiert initial $1.25 Mrd. in [FIRMA] als Teil eines geplanten $4 Mrd. Deals. [FIRMA] wird bevorzugter KI-Partner fuer [FIRMA] Web Services ([FIRMA]) und nutzt [FIRMA]-Infrastruktur.
+
+[H050] (2023-10-27) [investition] ($2,000,000,000)
+  [FIRMA] verpflichtet sich, bis zu $2 Milliarden in [FIRMA] zu investieren: $500 Mio. sofort, weitere $1,5 Mrd. ueber die Zeit. Vertiefung der strategischen Partnerschaft.
+
+[H051] (2023-11-17) [entlassung]
+  Der [FIRMA]-Vorstand entlaesst [PERSON] als CEO mit der Begruendung, er sei 'nicht durchgaengig aufrichtig' in seiner Kommunikation mit dem Board gewesen. [PERSON] kuendigt ebenfalls. [FIRMA] wird erst eine Minute vor der Oeffentlichkeit informiert.
+
+[H052] (2023-11-19) [einstellung]
+  Nach der Entlassung von [PERSON] durch den [FIRMA]-Board bietet [PERSON] [PERSON] und [PERSON] an, ein neues KI-Team bei [FIRMA] zu leiten. Als [PERSON] zurueckkehrt, sichert [FIRMA] einen Beobachtersitz im neuen Board.
+
+[H053] (2023-11-21) [einstellung]
+  Nach 4 Tagen intensiver Verhandlungen kehrt [PERSON] als CEO zurueck. Ueber 700 von 770 [FIRMA]-Mitarbeitern hatten mit Kuendigung gedroht. [PERSON] bedauert seine Rolle oeffentlich. Ein neuer Board unter [PERSON] wird installiert. [FIRMA] erhaelt einen Beobachtersitz.
+
+[H054] (2023-12-06) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], ein multimodales KI-Modell in drei Groessen (Ultra, Pro, Nano). [PERSON] bezeichnet es als 'most capable AI model yet'. [PRODUKT] wird in [PRODUKT] integriert.
+
+[H055] (2023-12-06) [produktlaunch]
+  [FIRMA] launcht [PRODUKT] 1.0, ein multimodales Large Language Model in drei Groessen (Ultra, Pro, Nano). [PRODUKT] uebertrifft [PRODUKT] in mehreren Benchmarks.
+
+[H056] (2024-02-08) [produktlaunch]
+  [FIRMA] benennt [PRODUKT] in '[PRODUKT]' um und startet [PRODUKT] Advanced mit Ultra 1.0-Modell. Launch eines kostenpflichtigen Abonnements ([PRODUKT] Advanced) fuer $19.99/Monat. Integration in [FIRMA] One.
+
+[H057] (2024-02-26) [partnerschaft] ($16,000,000)
+  [FIRMA] kuendigt Partnerschaft mit dem franzoesischen KI-Startup Mistral AI an und investiert ca. $16 Millionen. Mistral-Modelle werden auf Azure verfuegbar.
+
+[H058] (2024-03-04) [produktlaunch]
+  [FIRMA] veroeffentlicht die [PRODUKT]-3-Modellfamilie mit drei Varianten: [PRODUKT] (flaggschiff), [PRODUKT] Sonnet (mittel) und [PRODUKT] Haiku (schnell/guenstig). Opus uebertrifft [PRODUKT] in vielen Benchmarks.
+
+[H059] (2024-03-19) [einstellung] ($650,000,000)
+  [FIRMA] stellt [PERSON] (Co-Founder von [FIRMA] und [FIRMA]) als CEO von [FIRMA] AI ein und holt die meisten [FIRMA]-Mitarbeiter. [FIRMA] zahlt [FIRMA] $650 Millionen fuer Lizenzen.
+
+[H060] (2024-05-13) [produktlaunch]
+  [FIRMA] stellt [PRODUKT] vor, ein schnelleres und guenstigeres Modell als [PRODUKT] mit verbesserten multimodalen Faehigkeiten (Text, Audio, Bild). Kostenlos verfuegbar fuer alle Nutzer.
+
+[H061] (2024-05-14) [produktlaunch]
+  [FIRMA] kuendigt TPU v6 'Trillium' an - 6. Generation von [FIRMA]s KI-Chips. 4,7-fache Leistungssteigerung pro Chip gegenueber TPU v5e. Teil der langfristigen Infrastruktur-Strategie.
+
+[H062] (2024-05-20) [produktlaunch]
+  [FIRMA] kuendigt [PRODUKT]+ PCs an, eine neue PC-Kategorie mit integrierten NPUs (Neural Processing Units) fuer On-Device-KI. Partnerschaft mit Qualcomm, Intel, [FIRMA].
+
+[H063] (2024-06-20) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], der trotz Mittelklasse-Pricing den bisherigen Flaggschiff-[PRODUKT] in den meisten Benchmarks uebertrifft -- bei doppelter Geschwindigkeit und einem Fuenftel der Kosten.
+
+[H064] (2024-09-05) [produktlaunch]
+  [FIRMA] veroeffentlicht AlphaProteo, ein KI-System zum Design neuer Proteine, die an Zielmolekuele binden. Geht ueber [PRODUKT]s Vorhersagefaehigkeit hinaus zur aktiven Protein-Design.
+
+[H065] (2024-09-12) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT-REASONING] (intern 'Strawberry'), ein Reasoning-Modell, das vor der Antwort plant und mehrere Loesungswege durchgeht. Bei der Internationalen Mathematik-Olympiade loest es 83% der Aufgaben ([PRODUKT]: 13%).
+
+[H066] (2024-10-02) [investition] ($6,600,000,000)
+  [FIRMA] schliesst eine $6,6 Milliarden Finanzierungsrunde ab (gefuehrt von Thrive Capital mit $1,3 Mrd.). Bewertung: $157 Milliarden. Investoren: [FIRMA] ($750 Mio.), [FIRMA] ($500 Mio.), [FIRMA] ($100 Mio.) u.a. Bedingung: For-Profit-Umbau innerhalb von 2 Jahren.
+
+[H067] (2024-10-09) [sonstiges]
+  [PERSON] und John M. Jumper erhalten den Nobelpreis fuer Chemie 2024 fuer die Entwicklung von [PRODUKT]2 zur Proteinstrukturvorhersage. Erster Nobelpreis fuer KI-Forschung.
+
+[H068] (2024-10-15) [sonstiges]
+  [PERSON] wird von Koenig Charles III. zum Ritter geschlagen ('Sir [PERSON]') fuer Verdienste um KI und Wissenschaft.
+
+[H069] (2024-11-22) [partnerschaft] ($4,000,000,000)
+  [FIRMA] verdoppelt sein Gesamtinvestment in [FIRMA] auf $8 Mrd. durch eine weitere Investition von $4 Mrd.
+
+[H070] (2024-12-09) [produktlaunch]
+  [FIRMA] veroeffentlicht Willow, einen Quantenchip mit 105 Qubits, der einen Durchbruch bei der Fehlerkorrektur erzielt. Berechnung in unter 5 Minuten, die klassische Computer 10^25 Jahre benoetigen wuerden.
+
+[H071] (2024-12-13) [politisch] ($1,000,000)
+  [PERSON] spendet persoenlich $1 Million an Trumps Inaugurations-Fonds. Zuvor hatte er 2023 $200.000 an Biden gespendet und Trump 2016 mit Hitler verglichen.
+
+[H072] (2025) [produktlaunch]
+  [FIRMA] kuendigt TPU v7 'Ironwood' an, die 7. Generation der Tensor Processing Units. 3.600-mal bessere Performance als die erste oeffentliche TPU, 29-mal energieeffizienter. Launch fuer 2025 geplant.
+
+[H073] (2025) [partnerschaft]
+  [FIRMA] kuendigt Zusammenarbeit mit Commonwealth Fusion Systems an, um KI zur Beschleunigung der Fusionsenergie-Entwicklung einzusetzen. KI optimiert Simulation, Kontrollsysteme und Materialentdeckung.
+
+[H074] (2025-01) [investition] ($75,000,000,000)
+  [PERSON] kuendigt $75 Milliarden Investition in KI-Infrastruktur fuer 2025 an (Steigerung von $52,5 Mrd. in 2024). Ausbau von Rechenzentren, TPUs und GPU-Clustern.
+
+[H075] (2025-01-21) [investition] ($500,000,000,000)
+  [FIRMA], [FIRMA], [FIRMA] und MGX kuendigen gemeinsam mit Praesident Trump das [PROJEKT]-Projekt an: bis zu $500 Milliarden Investition in KI-Infrastruktur (Rechenzentren) in den USA. [FIRMA] hat operative Verantwortung, [FIRMA] die finanzielle. Geplant: 100.000 neue Jobs.
+
+[H076] (2025-01-22) [investition] ($1,000,000,000)
+  [FIRMA] investiert weitere $1 Milliarde in [FIRMA] und bringt kumulativ ca. $3 Milliarden Investment. Zusaetzlich wird Cloud-Deal angekuendigt: Lieferung von bis zu 1 Million TPUs an [FIRMA].
+
+[H077] (2025-02-05) [politisch]
+  [FIRMA] aendert seine AI-Ethik-Grundsaetze und entfernt das Versprechen, Waffen- und Ueberwachungsanwendungen zu vermeiden. Kritiker werfen [FIRMA] vor, kommerzielle Interessen ueber ethische Prinzipien zu stellen.
+
+[H078] (2025-03-01) [investition] ($3,500,000,000)
+  [FIRMA] schliesst eine Series-E-Finanzierungsrunde ueber $3.5 Mrd. ab, angefuehrt von Lightspeed Venture Partners. Post-Money-Bewertung: $61.5 Mrd.
+
+[H079] (2025-03-31) [investition] ($40,000,000,000)
+  [FIRMA] schliesst eine $40 Milliarden Finanzierungsrunde ab, die groesste private Tech-Finanzierung aller Zeiten. [FIRMA] fuehrt mit $30 Mrd. Bewertung: $300 Milliarden. Weitere Investoren: [FIRMA], Coatue, Altimeter, Thrive.
+
+[H080] (2025-04-01) [investition] ($600,000,000)
+  Isomorphic Labs schliesst erste externe Finanzierungsrunde ueber $600 Millionen ab. Gefuehrt von Thrive Capital, mit Beteiligung von [FIRMA] Ventures und [FIRMA].
+
+[H081] (2025-05-22) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] Opus 4 (leistungstaerkstes Modell, weltbestes Coding-Modell) und [PRODUKT] Sonnet 4 mit Extended Thinking und Hybrid-Modus.
+
+[H082] (2025-10-23) [partnerschaft]
+  [FIRMA] und [FIRMA] kuendigen Cloud-Deal im Wert von Dutzenden Milliarden Dollar an: Lieferung von bis zu 1 Million TPUs. Deployment ab 2026 mit ueber 1 Gigawatt Kapazitaet. Groesster TPU-Deal in [FIRMA]s Geschichte.
+
+[H083] (2025-10-29) [umstrukturierung]
+  Nach fast einem Jahr Verhandlungen schliesst [FIRMA] den Umbau zu einer Public Benefit Corporation (PBC) ab. Die gemeinnuetzige [FIRMA] Foundation erhaelt 26% ($130 Mrd. Anteil), [FIRMA] 27%, Mitarbeiter/andere Investoren 47%. Gewinndeckelungen entfallen.
+
+[H084] (2025-12-10) [partnerschaft]
+  [FIRMA] kuendigt weitreichende Forschungspartnerschaft mit der britischen Regierung an. Fokus: Materialwissenschaft, saubere Energie, Kernfusion. Eroeffnung des ersten automatisierten Forschungslabors in UK 2026.

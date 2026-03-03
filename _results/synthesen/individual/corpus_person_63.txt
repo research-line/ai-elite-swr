@@ -1,0 +1,131 @@
+=== DATENKORPUS PERSON-63 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2025-05-01, muendlich)
+  "It's an honour to partner with the Singapore Judiciary, a recognised leader in judicial innovation, on this pivotal project. This initiative is a perfect example of how public-private partnerships can leverage cutting-edge technology to create a more efficient and equitable justice system for the public."
+  Kontext: Media release about Singapore judiciary partnership
+
+[A002] (2025-05-13, muendlich)
+  "Harvey didn't avoid other models out of loyalty to [FIRMA], but necessity. Until recently, most major law firms would only approve AI tools that ran through [FIRMA] Azure, which meant models like [PRODUKT] and [PRODUKT] couldn't clear security reviews."
+  Kontext: TechCrunch article about Harvey's multi-model strategy
+
+[A003] (2025-06-01, muendlich)
+  "Every four months he experiences a mental block where there are too many things going wrong at the company and he can't address all of them. He needs to reinvent himself as a founder every, like, four months or so, otherwise he is not going to be able to fix all of the things that are going wrong at the company."
+  Kontext: [FIRMA] Capital podcast about leadership
+
+[A004] (2025-06-01, muendlich)
+  "I think people feel like you can't make mistakes. And that is actually the opposite of how I feel. I would much rather people just try and make a decision and then it's wrong, and a week later they adjust and change, than they spend, like, three months not making a decision."
+  Kontext: [FIRMA] Capital podcast about decision-making
+
+[A005] (2025-06-24, muendlich)
+  "Firms are asking 'how do I differentiate myself as a firm?' There is a gap between firms that have significant internal expertise and innovation teams, and those that don't. Harvey is giving firms the tools to innovate on top of Harvey."
+  Kontext: Interview about Workflow Builder product launch
+
+[A006] (2025-09-01, muendlich)
+  "The biggest problem with [PRODUKT] and similar tools is they're focusing so much on performance from the model side and not on how to make the experience easier for the user."
+  Kontext: Podcast about AI development priorities
+
+[A007] (2025-11-01, muendlich)
+  "You should be constantly stressed and do things that make you stressed every day. I think the times that I've stagnated, or the company has stagnated, is every day I don't have something that's really stressful."
+  Kontext: Interview about work philosophy and personal growth
+
+[A008] (2025-11-01, muendlich)
+  "It is not job displacement, it is task displacement. And I think that's a super important distinction because getting rid of those tasks does not mean the legal industry falls apart."
+  Kontext: Interview about AI's impact on legal profession
+
+[A009] (2025-11-01, muendlich)
+  "The junior folks are incredibly happy about this. Most junior associates spend the first part of their careers on rote tasks such as reviewing documents in discovery or in data rooms, and you end up not being able to do the strategic level things until like 10 years into your career, if you're lucky, five."
+  Kontext: Interview about AI's impact on junior lawyers
+
+[A010] (2025-11-01, muendlich)
+  "Agents will rewire the leverage pyramid, moving junior lawyers past rote work while strengthening partner profitability."
+  Kontext: Interview about AI agents in legal work
+
+[A011] (2025-11-03, muendlich)
+  "The future of legal services is becoming 'multiplayer' - a future of collaborative systems that allow lawyers and their clients to work alongside AI in a shared environment."
+  Kontext: Interview about future vision for legal AI
+
+[A012] (2025-11-03, muendlich)
+  "The biggest gains will come from enabling lawyers to better handle the most complex work—not NDA review but transactions on the scale of mega-mergers, with AI eventually automating the first 10% of such deals."
+  Kontext: Interview about AI's role in complex legal work
+
+[A013] (2025-11-14, muendlich)
+  "We figured we had to email a lawyer because otherwise the person wouldn't know if the outputs were right."
+  Kontext: TechCrunch interview about founding story
+
+[A014] (2025-11-21, muendlich)
+  "This is the best way to separate good interviewers from good operators. There are folks that are really good at talking and terrible at doing."
+  Kontext: Interview about hiring process
+
+[A015] (2025-12-01, schriftlich)
+  "We need to earn that valuation everyday."
+  Kontext: [FIRMA] AMA about company valuation
+
+[A016] (2025-12-01, schriftlich)
+  "The simplest answer here is that the tech penetration into the legal market is going to change massively. If we build a great product we hopefully capture some of that very large upside."
+  Kontext: [FIRMA] AMA about market opportunity
+
+[A017] (2025-12-01, muendlich)
+  "There's a world in which, actually, this is super good for the profession and very good for recruiting into the profession."
+  Kontext: [FIRMA] AMA about AI's impact on legal profession
+
+[A018] (2025-12-01, schriftlich)
+  "I don't think a single player is going to capture all of the pretty enormous amount of value that will be created in the next 10 years in this space."
+  Kontext: [FIRMA] AMA about competition
+
+[A019] (2025-12-01, schriftlich)
+  "LexisNexis is an insanely trusted data source. The partnership has enabled Harvey to build specialized workflows like drafting motions for summary judgment and motions to dismiss that combine Lexis data with Harvey's drafting capabilities."
+  Kontext: [FIRMA] AMA about LexisNexis partnership
+
+[A020] (2026-01-19, muendlich)
+  "It was like holding up a mirror. Many lawyers appreciated the unvarnished feedback, which mirrored the scrutiny they faced in courtrooms."
+  Kontext: Interview about early customer acquisition strategy
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2022-07-31) [gruendung]
+  Co-founded Harvey AI with Gabriel Pereyra after leaving O'Melveny & Myers law firm after just one year. Cold-emailed [PERSON] and [FIRMA]'s general counsel on July 4, 2022, leading to a pitch call with [FIRMA]'s C-suite.
+
+[H002] (2022-11-23) [investition]
+  Raised $5 million seed round led by [FIRMA] Startup Fund, with investors including [PERSON] ([FIRMA] AI head), Elad Gil (Mixer Labs founder), and [PERSON] ([FIRMA] founder).
+
+[H003] (2023-04-01) [investition]
+  Raised $23 million Series A round led by [FIRMA] Capital.
+
+[H004] (2023-08-01) [partnerschaft]
+  Announced strategic alliance with PwC Legal Business Solutions. Harvey and PwC jointly developing custom AI models for tax, legal and HR, with 4,000 PwC professionals in 100 countries using Harvey.
+
+[H005] (2023-10-01) [partnerschaft]
+  Allen & Overy law firm rolled out Harvey to 3,500 staff members, with lawyers using it for around 40,000 queries during trial period.
+
+[H006] (2023-12-01) [investition]
+  Raised $80 million Series B round led by Elad Gil and Kleiner Perkins, valuing company at $715 million.
+
+[H007] (2024-07-01) [investition]
+  Raised $100 million Series C round, valuing company at $1.5 billion.
+
+[H008] (2025-02-12) [investition]
+  Raised $300 million Series D round led by [FIRMA] Capital at $3 billion valuation, with CEO stating target of $100 million annual recurring revenue.
+
+[H009] (2025-05-01) [partnerschaft]
+  Partnered with Singapore Judiciary to develop generative AI tool that summarizes case documents for Tribunal Magistrates and individuals in Small Claims Tribunals. Part of Harvey's access to justice program.
+
+[H010] (2025-05-13) [umstrukturierung]
+  Announced Harvey will use foundation models from [FIRMA] ([PRODUKT]) and [FIRMA] ([PRODUKT]), moving beyond exclusively using [FIRMA] models. Users can route tasks to best-performing model or select manually.
+
+[H011] (2025-06-01) [investition]
+  Raised $300 million Series E round at $5 billion valuation.
+
+[H012] (2025-06-11) [produktlaunch]
+  Launched Workflow Builder product, enabling law firms to design custom repeatable workflows embedding firm expertise. Paul, Weiss became first firm to launch custom workflows. Early adopters included Ashurst, Ropes & Gray, dentsu, King & Wood Mallesons, and Setterwalls.
+
+[H013] (2025-06-18) [partnerschaft]
+  Announced strategic alliance with LexisNexis Legal & Professional to integrate LexisNexis' AI technology, primary law content, and Shepard's Citations within Harvey platform. Co-developed workflows for motion to dismiss and summary judgment.
+
+[H014] (2025-12-04) [investition]
+  Raised $160 million round led by [FIRMA], valuing company at $8 billion. Surpassed $100 million annual recurring revenue in August with 700 clients across 63 countries including majority of top 10 US law firms.
+
+[H015] (2026-02-09) [investition]
+  Reportedly raising new round at $11 billion valuation just months after hitting $8 billion valuation, with $190 million annual revenue.

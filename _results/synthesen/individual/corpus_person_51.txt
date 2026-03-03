@@ -1,0 +1,109 @@
+=== DATENKORPUS PERSON-51 ===
+
+--- AUSSAGEN (16 Stueck) ---
+
+[A001] (2019-07-15, muendlich)
+  "AI is a political technology, and I think anyone who wants to avoid that is a little silly. What I mean by political technology is that it's a general purpose utility which the state can layer over anything, and augment anything with - especially if you are a creator of systems, which governments are. It's political in the sense that it will be used by governments in a major way to help them configure their state."
+  Kontext: Interview als [FIRMA] Policy Director; fruehe Warnung vor staatlicher KI-Nutzung
+
+[A002] (2023-07-18, muendlich)
+  "We cannot leave the development of artificial intelligence solely to private-sector actors. Governments can keep companies accountable — and companies can earn the world's trust — by developing robust, reliable evaluation systems."
+  Kontext: Erste UN-Sicherheitsratsitzung ueber KI und Frieden/Sicherheit; Clark argumentiert fuer staatliche Aufsicht
+
+[A003] (2023-07-18, muendlich)
+  "Any sensible approach to regulation will start with having the ability to evaluate an AI system for a given capability or flaw. Right now, there are no standards or even best practices on how to test these frontier systems for things like discrimination, misuse or safety."
+  Kontext: Vollstaendiger Text seiner UN-Rede auf seinem Blog Import AI
+
+[A004] (2024-05-10, muendlich)
+  "AI is an accelerant. It makes the things that are good, better, and the things that are bad, worse."
+  Kontext: Haeufig zitierte Aussage Clarks ueber die duale Natur von KI
+
+[A005] (2024-05-10, muendlich)
+  "Frontier AI models are, to some extent, black boxes. A significant part of the safety challenge is developing better techniques to interpret and understand their internal workings."
+  Kontext: Clark ueber die Grenzen des Verstaendnisses moderner KI-Systeme
+
+[A006] (2024-05-10, muendlich)
+  "Situational awareness in AI systems are a symptom of something fiendishly complex happening inside the system which we can neither fully explain or predict - this is inherently very scary."
+  Kontext: Warnung vor emergenten Faehigkeiten in KI-Systemen
+
+[A007] (2025-01-20, muendlich)
+  "I think the DeepSeek hype is perhaps a bit overblown. It is a competent group of engineers and researchers that have read all of the same research papers all the frontier labs have made and have clean-sheeted a new system off of that which has some clever algorithmic ideas. If you actually analyze it, it looks 6 to 8 months behind where us frontier companies are."
+  Kontext: Einschaetzung zu chinesischem KI-Startup DeepSeek; Clark argumentiert US-Vorsprung bestehe weiter
+
+[A008] (2025-01-20, muendlich)
+  "DeepSeek means AI proliferation is guaranteed."
+  Kontext: Warnung vor globaler Verbreitung von KI-Faehigkeiten
+
+[A009] (2025-03-28, muendlich)
+  "I am relatively bearish on AI-fueled economic growth. I predict growth of 3-5% rather than the 20-30% touted by techno-optimists."
+  Kontext: Interview mit Tyler Cowen; Clark aeussert sich zurueckhaltend zu KI-Wirtschaftsimpact
+
+[A010] (2025-03-28, muendlich)
+  "It will be the era of the manager nerds. Being able to manage fleets of AI agents and orchestrate them will make people incredibly powerful."
+  Kontext: Vision zukuenftiger Arbeitswelt mit KI-Agenten
+
+[A011] (2025-05-11, muendlich)
+  "With a background in journalism and the humanities, I offer a sober assessment of AI's economic impact."
+  Kontext: Clark reflektiert ueber seinen journalistischen Background als Kontrapunkt zu Tech-Optimismus
+
+[A012] (2025-06-25, schriftlich)
+  "Powerful AI could be buildable by late 2026 or early 2027. My two essential points are: the U.S. can win the race to build powerful AI, but winning the race is a necessary but not sufficient achievement - we have to get safety right."
+  Kontext: Schriftliche Aussage vor House Select Committee 'Algorithms and Authoritarians'
+
+[A013] (2025-06-25, schriftlich)
+  "When we studied systems from companies like DeepSeek, we found that they exhibit the same risks as U.S. models, but without the interventions that companies like [FIRMA] apply to reduce them."
+  Kontext: Warnung vor ungefilterten chinesischen KI-Modellen im Kongress
+
+[A014] (2025-06-26, schriftlich)
+  "As I said in my testimony yesterday, we have a short window of time to get a sensible federal policy framework in place before an accident or a misuse leads to a reactive and likely bad regulatory response."
+  Kontext: Tweet nach seiner Aussage vor dem House Select Committee on China
+
+[A015] (2025-10-13, schriftlich)
+  "Too many people are pretending that AI cannot threaten humanity. We need to acknowledge a different reality before figuring out how to tame it and live together."
+  Kontext: Essay im Import AI Newsletter; Clark positioniert sich zwischen Optimismus und Angst
+
+[A016] (2025-10-13, schriftlich)
+  "The world will bend around AI akin to how a black hole pulls and bends everything around itself."
+  Kontext: Tweet zur Veroeffentlichung seines Essays; drastische [FIRMA]pher fuer KI-Impact
+
+
+--- HANDLUNGEN (13 Stueck) ---
+
+[H001] (2014-06-01) [einstellung]
+  [PERSON] arbeitet als Neural Network Reporter bei Bloomberg, spezialisiert auf KI-Berichterstattung ueber [FIRMA], [FIRMA] und verteilte Systeme.
+
+[H002] (2016-02-01) [einstellung]
+  [PERSON] tritt [FIRMA] bei, zunaechst fuer Strategie und Kommunikation, spaeter wird er Policy Director.
+
+[H003] (2017-11-01) [gruendung]
+  [PERSON] wird Gruendungsmitglied und Co-Chair des AI Index Steering Committee an der [UNI] University, einer jaehrlichen Berichterstattung ueber den Stand der KI-Forschung.
+
+[H004] (2019-06-13) [politisch]
+  [PERSON] sagt als Policy Director von [FIRMA] vor dem US House Science Committee ueber KI-Fortschritte und politische Herausforderungen aus.
+
+[H005] (2021-01-28) [gruendung]
+  [PERSON] verlaesst [FIRMA] und gruendet zusammen mit Dario und [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON] das KI-Sicherheitsunternehmen [FIRMA]. Clark wird Co-Founder und Head of Policy.
+
+[H006] (2022-04-01) [politisch]
+  [PERSON] wird als eines der 27 Gruendungsmitglieder in das National Artificial Intelligence Advisory Committee (NAIAC) berufen, ein Beratungsgremium des US-Handelsministeriums.
+
+[H007] (2023-07-18) [politisch]
+  [PERSON] haelt eine offizielle Rede bei der ersten UN-Sicherheitsratssitzung ueber KI-Bedrohungen fuer den Weltfrieden, gemeinsam mit UN-Generalsekretaer Guterres und chinesischem KI-Experten Yi Zeng.
+
+[H008] (2023-09-19) [sonstiges]
+  [PERSON] ist massgeblich an der Entwicklung der [FIRMA] Responsible Scaling Policy (RSP) beteiligt, die als erstes formales KI-Sicherheitsframework eines Frontier-Labs gilt.
+
+[H009] (2024-02-06) [politisch]
+  [PERSON] sagt vor dem House Science Committee ueber KI-Sicherheit und [FIRMA]s Responsible Scaling Policy aus.
+
+[H010] (2024-12-01) [lobbying]
+  [PERSON] lobbyiert bei Kongressabgeordnetem Jay Obernolte (CA-23) fuer bundesweite KI-Regulierung, die kalifornische und andere einzelstaatliche KI-Gesetze praeemptieren wuerde.
+
+[H011] (2025-06-25) [politisch]
+  [PERSON] sagt vor dem House Select Committee on the Chinese Communist Party zum Thema 'Algorithms and Authoritarians: Why U.S. AI Must Lead' aus und fordert Export-Controls fuer KI-Chips nach China.
+
+[H012] (2025-10-23) [partnerschaft]
+  [FIRMA] und [FIRMA] kuendigen Cloud-Partnership im Wert von mehreren zehn Milliarden Dollar an. [FIRMA] stellt [FIRMA] Zugang zu bis zu 1 Million TPUs (Tensor Processing Units) zur Verfuegung, was ueber 1 Gigawatt KI-Rechenkapazitaet bis 2026 ermoeglicht.
+
+[H013] (2025-11-01) [partnerschaft] ($15,000,000,000)
+  [FIRMA] kuendigt $30 Milliarden Server-Compute-Deal mit [FIRMA] Azure an. [FIRMA] und [FIRMA] investieren gemeinsam $15 Milliarden in [FIRMA]. [FIRMA] wird erste KI-Firma, die gleichzeitig auf Azure, [FIRMA] und [FIRMA] Cloud verfuegbar ist.

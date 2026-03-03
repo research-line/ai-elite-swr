@@ -1,0 +1,79 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2010_AH
+Beschreibung: Jahrestopf 2010, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 7 Aussagen + 10 Handlungen = 17 gesamt
+Zeitraum Aussagen: 2010 bis 2010-11-15
+Zeitraum Handlungen: 2010 bis 2010-10-06
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (7 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2010, muendlich)
+  "Especially in technology, we need revolution, not evolution."
+  Kontext: Aeusserung im Kontext von Singularity University, die Page mitfinanziert hat.
+
+[A002] (2010-01-03, schriftlich)
+  "The next big thing will start out looking like a toy."
+  Kontext: Einflussreicher Essay über disruptive Technologien basierend auf Clayton Christensens Theorie
+
+[A003] (2010-03-23, muendlich)
+  "I am particularly troubled that this has occurred in China, as I spent some time as a child growing up in the Soviet Union. I was born in Moscow. I spent the first six years of my life there. I understand very much this kind of environment of totalitarianism and that's something I'm particularly sensitive to."
+  Kontext: Interview nach [FIRMA]s Rueckzug aus China (2010). [PERSON] macht seinen persoenlichen Hintergrund als Emigrant zum zentralen Grund.
+
+[A004] (2010-06-25, muendlich)
+  "In 300 years, we would like to become that company that makes the most contribution to human evolution -- the company that has greatest impact on humanity."
+  Kontext: [FIRMA] Shareholder Meeting, präsentierte seinen berühmten 300-Jahres-Plan
+
+[A005] (2010-06-25, muendlich)
+  "In 300 years time, chips planted inside or on our bodies will allow humans to communicate with one another, in any language, via telepathy. People will be able to communicate telepathically with dogs."
+  Kontext: 133-seitige Präsentation in Tokyo, Vision von Telepathie durch Gehirn-Chips
+
+[A006] (2010-06-25, muendlich)
+  "[FIRMA] might not be a mobile phone company anymore, but instead could be a telepathy service provider."
+  Kontext: Teil des 300-Jahres-Plans, Zukunftsvision des Geschäftsmodells
+
+[A007] (2010-11-15, muendlich)
+  "We want to build technology that everybody loves using, and that affects everyone. We want to create beautiful, intuitive services and technologies that are so incredibly useful that people use them twice a day. Like they use a toothbrush. There aren't that many things people use twice a day."
+  Kontext: Web 2.0 Summit Interview. [PERSON] spricht ueber [FIRMA]s Produktphilosophie und den Anspruch, unverzichtbare Technologie zu schaffen.
+
+------------------------------------------------------------------------
+HANDLUNGEN (10 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2010) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] und Shane Legg [FIRMA] Technologies in London mit dem Ziel, 'AGI sicher und ethisch zu bauen'. Sie schreiben den Businessplan im Sommer 2010 und pitchen ihn im Silicon Valley.
+
+[H002] (2010) [produktlaunch]
+  [PERSON] und ihr Team lancieren die ImageNet Large Scale Visual Recognition Challenge (ILSVRC), einen jaehrlichen Wettbewerb fuer Computer-Vision-Algorithmen. Der Wettbewerb wird zum Standard-Benchmark der KI-Community.
+
+[H003] (2010-01-01) [sonstiges]
+  Elected member of National Academy of Engineering for contributions to the foundations and applications of machine learning.
+
+[H004] (2010-01-01) [gruendung]
+  Co-founded [UNI] Artificial Intelligence Research (BAIR) Lab at UC [UNI], one of the world's premier AI research laboratories bringing together researchers in computer vision, machine learning, natural language processing, planning, and robotics.
+
+[H005] (2010-01-01) [gruendung]
+  Co-founded Greplin (later renamed Cue), a personal search engine startup that indexed users' online data, at age 19
+
+[H006] (2010-01-01) [sonstiges]
+  Worked at NYU under [PERSON] on deep learning, robotics, pedestrian detection, and OCR
+
+[H007] (2010-01-01) [einstellung]
+  Joined [PERSON] Capital as principal and served as chief of staff to [PERSON] before entering Trump administration
+
+[H008] (2010-08-01) [gruendung]
+  Co-founded Hipmunk travel search startup with Adam Goldstein as CTO
+
+[H009] (2010-09-01) [gruendung]
+  [PERSON] gruendet [FIRMA] Technologies in London zusammen mit Shane Legg und [PERSON]. Die Vision: KI-Systeme entwickeln, die so allgemein und flexibel sind wie die menschliche Intelligenz.
+
+[H010] (2010-10-06) [gruendung]
+  Co-founded [FIRMA] with Kevin Systrom. The photo-sharing app launched on App Store on October 6, 2010, reaching 25,000 users on first day and 1 million users within three months.

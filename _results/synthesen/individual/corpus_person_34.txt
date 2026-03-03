@@ -1,0 +1,91 @@
+=== DATENKORPUS PERSON-34 ===
+
+--- AUSSAGEN (13 Stueck) ---
+
+[A001] (2024-08-01, muendlich)
+  "We didn't want to just add AI to existing tools. We wanted to reimagine the entire development environment with AI at its core."
+  Kontext: Erklärung der Gründungsphilosophie von [FIRMA] - nicht nur KI hinzufügen, sondern fundamental neu denken
+
+[A002] (2024-08-01, muendlich)
+  "What if AI wasn't just an assistant, but the foundation of the coding experience?"
+  Kontext: Die zentrale Einsicht die zur Gründung von [FIRMA] führte, nach Launch von [PRODUKT]
+
+[A003] (2024-09-15, muendlich)
+  "We believed that only a few things really matter, and we stuck to them. We ignored hype, spoke less, built more, and kept a clear focus on building something truly useful for developers."
+  Kontext: Erklärung der Unternehmensphilosophie und Erfolgsfaktoren von [FIRMA]
+
+[A004] (2024-09-15, muendlich)
+  "I think it's going to be more consequential than the internet... it's going to take a while, and I think it's going to be a multi-decade thing."
+  Kontext: Langfristige Prognose über den Impact von KI auf die Gesellschaft
+
+[A005] (2024-10-01, muendlich)
+  "The goal with the company is to replace coding with something that's much better."
+  Kontext: Interview über die langfristige Vision von [FIRMA] - nicht nur Coding verbessern, sondern transformieren
+
+[A006] (2024-10-01, muendlich)
+  "I think that this is going to be a decade where just your ability to build will be so magnified... But then I think it'll also become accessible for tons more people."
+  Kontext: Prognose über die Zukunft der Softwareentwicklung im KI-Zeitalter
+
+[A007] (2025-01-15, muendlich)
+  "We were really, really intentional about wanting to own the surface."
+  Kontext: Erklärung der strategischen Entscheidung, einen VS Code Fork zu erstellen statt nur ein Plugin
+
+[A008] (2025-05-06, muendlich)
+  "The hiring team leaned toward people who fit the archetype of "well-known school, very young, had done the things that were high credential." But the hires who stood out — and stuck around — didn't always fit that mold."
+  Kontext: Reflexion über Fehler bei der frühen Mitarbeiterrekrutierung bei [FIRMA]
+
+[A009] (2025-05-08, muendlich)
+  "It's really easy at an executive level to underestimate just how far away we are from the limit of automating software. I think that there's a really, really long way to go."
+  Kontext: Realistische Einschätzung der aktuellen Grenzen von KI in der Softwareentwicklung
+
+[A010] (2025-11-13, schriftlich)
+  "We believe that coding will be the single biggest driver of global productivity over the next decade."
+  Kontext: Offizielle Stellungnahme zur Series D Finanzierungsrunde
+
+[A011] (2025-12-25, muendlich)
+  "If you close your eyes and you don't look at the code and you have AIs build things with shaky foundations as you add another floor, and another floor, and another floor, and another floor, things start to kind of crumble."
+  Kontext: Warnung vor den Gefahren des "Vibe Coding" - wenn Entwickler blindlings KI-generierten Code verwenden ohne ihn zu verstehen
+
+[A012] (2026-01-02, schriftlich)
+  "[FIRMA] seeks to be the best and most powerful way to code with AI. What are the ways in which we could be better?"
+  Kontext: Öffentliche Frage an die Community, um Feedback für Verbesserungen zu sammeln
+
+[A013] (2026-01-14, schriftlich)
+  "We built a browser with [PRODUKT-FAMILIE]-5.2 in [FIRMA]. It ran uninterrupted for one week. It's 3M+ lines of code across thousands of files. The rendering engine is from-scratch in Rust with HTML parsing, CSS cascade, layout, text shaping, paint, and a custom JS VM. It *kind of* works!"
+  Kontext: Demonstration der Fähigkeiten von [PRODUKT-FAMILIE]-5.2 und [FIRMA] durch Bau eines funktionsfähigen Browsers
+
+
+--- HANDLUNGEN (11 Stueck) ---
+
+[H001] (2016-09-01) [gruendung]
+  Gründung von Halite (Coding-Wettbewerb) als Teenager zusammen mit Benjamin Spector
+
+[H002] (2018-03-01) [sonstiges]
+  Gewinn des ACM/CSTA Cutler-Bell Prize in High School Computing im Alter von 17 Jahren
+
+[H003] (2022-01-01) [gruendung]
+  Gründung von [FIRMA] ([FIRMA]) zusammen mit [UNI]-Kommilitonen [PERSON], [PERSON] und [PERSON]
+
+[H004] (2023-03-01) [produktlaunch]
+  Launch von [FIRMA] 1.0 - KI-nativer Code-Editor basierend auf VS Code Fork
+
+[H005] (2023-10-01) [investition]
+  Erhalt von $11 Millionen Seed-Finanzierung, davon $8 Millionen vom [FIRMA] Startup Fund
+
+[H006] (2024-08-09) [investition]
+  Series A Finanzierung: $60 Millionen bei $400 Millionen Bewertung, geleitet von [FIRMA] und Thrive Capital
+
+[H007] (2025-04-15) [partnerschaft]
+  Partnerschaft mit Stripe - Teilnahme an Stripe Sessions 2025 Developer Keynote
+
+[H008] (2025-06-17) [sonstiges]
+  Rede bei [FIRMA] AI Startup School über den Aufbau von [FIRMA]
+
+[H009] (2025-10-29) [produktlaunch]
+  Launch von Composer - proprietäres KI-Modell speziell für agentisches Coding optimiert
+
+[H010] (2025-11-13) [investition]
+  Series D Finanzierung: $2.3 Milliarden bei $29.3 Milliarden Bewertung, co-geleitet von Accel und Coatue Management
+
+[H011] (2026-01-14) [produktlaunch]
+  Demonstration: Bau eines funktionsfähigen Browsers mit [PRODUKT-FAMILIE]-5.2 in [FIRMA] (FastRender, 3M+ Zeilen Code)

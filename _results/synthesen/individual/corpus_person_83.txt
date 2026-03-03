@@ -1,0 +1,123 @@
+=== DATENKORPUS PERSON-83 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (unbekannt, schriftlich)
+  "AI is a fundamental technology that enables us to use computers to solve problems that are so hard that we don't know how to solve ourselves."
+  Kontext: Definition of AI's fundamental purpose
+
+[A002] (unbekannt, schriftlich)
+  "machine learning technology will have significant impact and is not a niche technology. It will be used in every place, with value limited primarily by imagination of where it can be deployed."
+  Kontext: On ubiquity of machine learning technology
+
+[A003] (unbekannt, schriftlich)
+  "While you cannot stop the advance of technology, restricting problematic use cases of technology and regulating it is something that deserves more thought to prevent harmful applications."
+  Kontext: On AI regulation and ethics
+
+[A004] (unbekannt, schriftlich)
+  "It is critical that we as a society teach our kids the right set of skills that they can leverage technology in the right way."
+  Kontext: On education and technology literacy
+
+[A005] (unbekannt, schriftlich)
+  "AI's power lies in amplifying human potential, not replacing it."
+  Kontext: Core philosophy on AI and human potential
+
+[A006] (unbekannt, schriftlich)
+  "I would like to make it so that education was a right, and not a privilege."
+  Kontext: Vision for democratizing education
+
+[A007] (unbekannt, schriftlich)
+  "We should spend less time at universities filling our students' minds with content by lecturing at them, and more time igniting their creativity ... by actually talking with them."
+  Kontext: Educational philosophy on active learning
+
+[A008] (unbekannt, schriftlich)
+  "As a society, we can and should invest more money in education."
+  Kontext: Call for societal investment in education
+
+[A009] (unbekannt, schriftlich)
+  "There are so many people around the world in need of high-quality education and really starving for education."
+  Kontext: On global education inequality
+
+[A010] (unbekannt, schriftlich)
+  "machine learning, trained on massive, carefully generated biological datasets, can uncover patterns in disease biology that humans simply cannot see – and in doing so, dramatically increase the odds of finding drugs that actually work."
+  Kontext: Core premise of [FIRMA]'s approach
+
+[A011] (unbekannt, schriftlich)
+  "Disease is often defined by coarse-grained symptomatic manifestations, some of which use classifications that date back 50 years or more, resulting in a mishmash that really doesn't speak to the underlying biological causes of the disease."
+  Kontext: Critique of traditional disease classification
+
+[A012] (unbekannt, schriftlich)
+  "Human pathologists couldn't see those patterns because they don't even know what to look for. Machine learning was able to identify disease-causing and disease-modifying associations that humans just can't see."
+  Kontext: Example from fatty liver disease research
+
+[A013] (unbekannt, schriftlich)
+  "when I was at [UNI], a large data set was 200 samples, but now there's an unbelievable ability to both access and generate data fit for purpose for machine learning."
+  Kontext: On transformation in available biological data
+
+[A014] (2013-02-17, schriftlich)
+  "The mind is not a vessel that needs filling, but wood that needs igniting."
+  Kontext: Quoting Plutarch on learning philosophy
+
+[A015] (2024-01-01, muendlich)
+  "AI can solve really hard, aspirational problems, that people maybe are not capable of solving such as health, agriculture and climate change."
+  Kontext: Davos 2024 discussion on AI potential
+
+[A016] (2024-04-01, schriftlich)
+  "What we're doing is really hard—intervening in human biology in a way that is both safe and efficacious. So it's important to not make extravagant promises that are just not the right ones for this space."
+  Kontext: Warning about potentially destructive AI hype in biotech
+
+[A017] (2024-10-09, schriftlich)
+  "We are innovating not only in our biology discovery, but also how we partner with industry leaders like Lilly to accelerate our therapeutic programs toward the clinic"
+  Kontext: On novel partnership structures with pharma
+
+[A018] (2025-07-09, schriftlich)
+  "the future is in a partnership between the human and the machine"
+  Kontext: Vision for future of AI and human collaboration
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2004-01-01) [sonstiges]
+  Received MacArthur Foundation Fellowship (Genius Grant)
+
+[H002] (2008-04-01) [sonstiges]
+  Received ACM-Infosys Foundation Award in Computing Sciences ($150,000)
+
+[H003] (2011-01-01) [sonstiges]
+  Elected to National Academy of Engineering
+
+[H004] (2012-01-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], online education platform that reached over 100 million learners worldwide
+
+[H005] (2016-08-01) [ruecktritt]
+  Stepped down as President of [FIRMA] to join Calico as Chief Computing Officer
+
+[H006] (2018-03-01) [gruendung]
+  Founded [FIRMA], machine learning-driven drug discovery and development company
+
+[H007] (2018-03-01) [ruecktritt]
+  Resigned from Calico as Chief Computing Officer after 18 months
+
+[H008] (2019-04-16) [partnerschaft]
+  Announced partnership between [FIRMA] and Gilead Sciences for NASH drug discovery worth up to $1.05 billion
+
+[H009] (2019-07-22) [investition]
+  Raised $100 million Series A for [FIRMA]
+
+[H010] (2020-05-26) [investition]
+  Raised $143 million Series B for [FIRMA]
+
+[H011] (2020-08-01) [gruendung]
+  Co-founded Engageli, digital learning platform with video conferencing tool for higher education
+
+[H012] (2020-10-14) [investition]
+  Raised $14.5 million seed funding for Engageli
+
+[H013] (2020-10-28) [partnerschaft]
+  Announced 5-year discovery collaboration with Bristol Myers Squibb for ALS and frontotemporal dementia treatments
+
+[H014] (2021-03-15) [investition]
+  Raised $400 million Series C for [FIRMA]
+
+[H015] (2024-10-09) [partnerschaft]
+  Announced three strategic agreements with Eli Lilly for metabolic diseases including MASLD

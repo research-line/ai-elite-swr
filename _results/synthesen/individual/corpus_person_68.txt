@@ -1,0 +1,127 @@
+=== DATENKORPUS PERSON-68 ===
+
+--- AUSSAGEN (19 Stueck) ---
+
+[A001] (2017-06-12, schriftlich)
+  "I was responsible for the initial codebase, and handled efficient inference and visualizations."
+  Kontext: Contribution to Attention Is All You Need paper
+
+[A002] (2018-01-01, schriftlich)
+  "I credit my good Computer Science school background on my CV as a key reason I was able to get into [FIRMA] without having a referral."
+  Kontext: Reflection on career path
+
+[A003] (2019-01-01, schriftlich)
+  "Artificial Intelligence is just fascinating, from a scientific, philosophical and ethical view. I'm at the forefront of an effort to reverse engineer literally the most complex thing in the known universe: the human mind."
+  Kontext: Personal philosophy on AI research
+
+[A004] (2023-08-01, schriftlich)
+  "The idea behind it is applying swarm intelligence—where individual fish might not be very smart, but a school of fish can have emergent behavior—to AI research."
+  Kontext: Explanation of [FIRMA]'s biological inspiration
+
+[A005] (2023-08-17, schriftlich)
+  "Every day I would be spending my time trying to get access to resources, trying to get access to data. The bureaucracy had built to the point where I just felt like I couldn't get anything done."
+  Kontext: Reasons for leaving [FIRMA]
+
+[A006] (2023-08-17, schriftlich)
+  "While I have no ill will toward [FIRMA], I realized that the company's size was keeping me from doing the kind of work I wanted to pursue."
+  Kontext: Reflections on leaving [FIRMA]
+
+[A007] (2023-08-17, schriftlich)
+  "Rather than building one massive AI model, our goal is to have a large number of smaller models communicate and work together rather than creating one giant model."
+  Kontext: [FIRMA] architecture philosophy
+
+[A008] (2023-08-17, schriftlich)
+  "We chose the city for [FIRMA] due to the ready availability of researchers and technical infrastructure."
+  Kontext: Explanation for Tokyo headquarters
+
+[A009] (2024-01-01, schriftlich)
+  "We want to build AI models that actually understand Japanese context."
+  Kontext: [FIRMA] mission for Japan
+
+[A010] (2024-08-01, schriftlich)
+  "You should only do the research that wouldn't happen if you weren't doing it."
+  Kontext: [FIRMA] research philosophy
+
+[A011] (2025-01-01, schriftlich)
+  "I personally made a decision in the beginning of this year that I'm going to drastically reduce the amount of time that I spend on transformers. I'm explicitly now exploring and looking for the next big thing."
+  Kontext: Statement about 2025 research direction
+
+[A012] (2025-10-01, muendlich)
+  "It may sound a little controversial to hear one of the Transformers authors stand on stage and tell you that he's absolutely sick of them, but it's kind of fair enough, right?"
+  Kontext: TED AI conference San Francisco 2025
+
+[A013] (2025-10-01, muendlich)
+  "Despite the fact that there's never been so much interest and resources and money and talent, this has somehow caused the narrowing of the research that we're doing."
+  Kontext: TED AI San Francisco 2025
+
+[A014] (2025-10-01, muendlich)
+  "The fact that the current technology is so powerful and flexible... stopped us from looking for better. It makes sense that if the current technology was worse, more people would be looking for better."
+  Kontext: TED AI conference
+
+[A015] (2025-10-01, muendlich)
+  "The immense amount of pressure from investors demanding returns and researchers scrambling to stand out in an overcrowded field."
+  Kontext: Criticism of current AI industry dynamics
+
+[A016] (2025-10-01, schriftlich)
+  "If I am right, then all those who are burying their heads in improving Transformer variants are wasting their time, and all mixture-of-experts models, all architecture fine-tunings, all attention mechanism variants—may become obsolete instantly when a new paradigm emerges."
+  Kontext: Warning about current research direction
+
+[A017] (2025-10-01, schriftlich)
+  "Less KPIs, more curiosity; less following the trend, more natural inspiration."
+  Kontext: [FIRMA] research culture
+
+[A018] (2025-10-01, muendlich)
+  "The industry that grew out of this breakthrough is stifling the next one. The current corporate arms race is killing true innovation."
+  Kontext: TED AI San Francisco 2025
+
+[A019] (2025-10-01, schriftlich)
+  "Countless current fine-tuning studies may only be local optimizations, and the real AGI breakthrough may lie in a brand-new biologically inspired architecture."
+  Kontext: Vision for AGI development
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2012-02-01) [einstellung]
+  Joined [FIRMA] as software engineer
+
+[H002] (2015-06-01) [umstrukturierung]
+  Transferred from [FIRMA] to [FIRMA] Research/[FIRMA] Brain as senior software engineer
+
+[H003] (2017-06-12) [produktlaunch]
+  Co-authored seminal paper 'Attention Is All You Need' introducing the Transformer architecture with 7 other equal contributors
+
+[H004] (2023-08-01) [gruendung]
+  Co-founded [FIRMA] in Tokyo with David Ha and Ren Ito, a nature-inspired AI research company focused on evolutionary and collective intelligence approaches
+
+[H005] (2023-08-01) [ruecktritt]
+  Left [FIRMA] after almost 12 years as senior software engineer and researcher at [FIRMA] Brain
+
+[H006] (2024-03-01) [investition]
+  [FIRMA] raised $30M seed funding from Lux Capital and [PERSON] Ventures
+
+[H007] (2024-03-21) [produktlaunch]
+  Launched 'Evolutionary Model Merge' - a general method using evolutionary techniques to combine different open-source models
+
+[H008] (2024-08-01) [partnerschaft]
+  Established research collaboration with Foerster Lab for AI Research at University of [UNI] for AI Scientist development
+
+[H009] (2024-08-01) [partnerschaft]
+  Established research collaboration with Jeff Clune and Cong Lu at University of British Columbia for AI Scientist development
+
+[H010] (2024-08-13) [produktlaunch]
+  Launched 'The AI Scientist' - first comprehensive system for fully automatic scientific discovery, automating entire research lifecycle at ~$15 per paper
+
+[H011] (2024-09-01) [investition]
+  [FIRMA] raised approximately $200M Series A at $1.5B valuation from Mitsubishi UFJ, SMBC, Mizuho, Itochu, KDDI, Nomura and [FIRMA]
+
+[H012] (2025-01-27) [produktlaunch]
+  Paper 'Evolutionary Optimization of Model Merging Recipes' accepted to Nature Machine Intelligence
+
+[H013] (2025-04-01) [produktlaunch]
+  Launched AI Scientist-v2 producing first entirely AI-generated peer-review-accepted workshop paper
+
+[H014] (2025-10-23) [sonstiges]
+  Delivered TED Talk 'How competition is stifling AI breakthroughs' at TED AI San Francisco 2025
+
+[H015] (2025-11-17) [investition]
+  [FIRMA] raised $135M Series B at $2.65B post-money valuation from MUFG, [PERSON] Ventures, Macquarie Capital, NEA, Lux Capital, and In-Q-Tel

@@ -1,0 +1,165 @@
+=== DATENKORPUS PERSON-5 ===
+
+--- AUSSAGEN (24 Stueck) ---
+
+[A001] (2015-12-01, schriftlich)
+  "Our mission is to cure, prevent, or manage all diseases by the end of the century."
+  Kontext: Mission Statement der Chan [PERSON] Initiative, die mit 99% des [FIRMA]-Vermoegens ausgestattet wurde.
+
+[A002] (2021-10-28, muendlich)
+  "The next platform will be even more immersive — an embodied internet where you're in the experience, not just looking at it. We call this the metaverse."
+  Kontext: Connect-Konferenz 2021, bei der [FIRMA] zu [FIRMA] umbenannt wird und [PERSON] seine [FIRMA]verse-Vision vorstellt.
+
+[A003] (2021-10-28, muendlich)
+  "The defining quality of the metaverse will be a feeling of presence -- like you are right there with another person or in another place."
+  Kontext: Teil der Connect-2021-Keynote zur [FIRMA]verse-Vision.
+
+[A004] (2023-03-14, schriftlich)
+  "The goals of this work are: to make [FIRMA] a better technology company and to improve our financial performance in a difficult environment so we can execute our long term vision."
+  Kontext: Internes Memo und oeffentliche Ankuendigung zu [FIRMA]s Restrukturierung und Massenentlassungen 2023.
+
+[A005] (2023-03-14, schriftlich)
+  "I'm going to be making a number of structural changes to flatten our organization and make sure we have enough strong leaders at [FIRMA] to make this transformation."
+  Kontext: Teil des 'Year of Efficiency'-Memos, in dem [PERSON] strukturelle Aenderungen ankuendigt.
+
+[A006] (2023-07-05, schriftlich)
+  "We believe there should be a public conversations app with 1 billion+ people on it. [PLATTFORM] had the opportunity to do this but hasn't nailed it. Hopefully we will."
+  Kontext: Statement zum Launch von Threads, [FIRMA]s [PLATTFORM]-Konkurrent.
+
+[A007] (2024-01-31, muendlich)
+  "I'm sorry for everything you've all been through. It's terrible. No one should have to go through the things that your families have suffered."
+  Kontext: Anhoerung vor dem Senate Judiciary Committee zu Kindersicherheit online. Senator Josh Hawley fordert [PERSON] auf, sich direkt an die anwesenden Opferfamilien zu wenden.
+
+[A008] (2024-01-31, muendlich)
+  "We've invested $5 billion in safety and security in 2023 alone, and we've built an industry-leading trust and safety team."
+  Kontext: Schriftliche Erklaerung vor dem Senat, in der [PERSON] [FIRMA]s Sicherheitsinvestitionen verteidigt.
+
+[A009] (2024-04-18, muendlich)
+  "The thing that I've kind of been coming around to is that a lot of my philosophy around the company at this point is you can make something very good in one dimension, but usually there are trade-offs. So I think open source [PRODUKT] models can be extremely good. I'm not sure we'd want to release all of them open source."
+  Kontext: Interview mit Dwarkesh Patel ueber [PRODUKT]-3 und Open-Source-Strategie. [PERSON] erklaert die Grenzen seiner Open-Source-Philosophie.
+
+[A010] (2024-04-18, muendlich)
+  "I don't have a crystal ball. I think the whole thing is a little bit hard to predict. But my sense is that we're going to get there before too long. I'd be surprised if it's like 10 years from now."
+  Kontext: Frage nach der AGI-Zeitlinie im Dwarkesh-Podcast. [PERSON] aeussert Zuversicht, dass AGI deutlich schneller kommt als in 10 Jahren.
+
+[A011] (2024-07-23, schriftlich)
+  "Open source AI will be safer than alternatives. Open source enables more people to scrutinize and identify issues, making it harder for problematic content to slip through."
+  Kontext: Blog-Post 'Open Source AI is the Path Forward', in dem [PERSON] sein Manifest fuer Open-Source-KI veroeffentlicht und die [PRODUKT]-3.1-Modelle ankuendigt.
+
+[A012] (2024-07-23, schriftlich)
+  "I believe the future is going to be so bright that no one can do it justice by trying to write about it now; a defining characteristic of the Intelligence Age will be massive prosperity."
+  Kontext: Im gleichen Blog-Post vergleicht [PERSON] die KI-Entwicklung mit der Linux-Entwicklung und sagt voraus, dass Open Source die Industrie dominieren wird.
+
+[A013] (2024-07-23, schriftlich)
+  "We're releasing [PRODUKT].1 405B -- the first frontier-level open source AI model."
+  Kontext: Offizielle Ankuendigung von [PRODUKT].1 mit 405 Milliarden Parametern.
+
+[A014] (2024-12-23, muendlich)
+  "[FIRMA] AI now has nearly 600 million monthly actives. We believe [FIRMA] AI will become the world's most widely-used assistant by 2025."
+  Kontext: Aeusserung in einem Interview im Dezember 2024 ueber [FIRMA]s KI-Fortschritt.
+
+[A015] (2025-01-10, muendlich)
+  "I think over the next couple of years, we're going to see AI that can help you reason through problems, that can help you write better code if you're an engineer, that can help you be more creative."
+  Kontext: Interview im Joe Rogan Experience Podcast ueber KI-Entwicklung und [FIRMA]s Strategie.
+
+[A016] (2025-01-10, muendlich)
+  "Looking back on it, I think we were a bit too eager to please the government and work with them on some of these things. And I think in the future, we're going to be more outspoken about that."
+  Kontext: [PERSON] reflektiert im Joe Rogan Podcast ueber [FIRMA]s Zusammenarbeit mit der US-Regierung bei Content-Moderation waehrend COVID-19.
+
+[A017] (2025-02, muendlich)
+  "We're remaking CZI into an organization focused on AI-powered biomedical research. AI is the key to unlocking cures."
+  Kontext: Neuausrichtung der CZI mit Entlassungen in nicht-wissenschaftlichen Bereichen.
+
+[A018] (2025-03-18, schriftlich)
+  "[FIRMA]'s [PRODUKT] models have now hit 1 billion downloads. Open source is winning."
+  Kontext: Erfolgsmelding zu [PRODUKT]s Verbreitung.
+
+[A019] (2025-06, muendlich)
+  "Smart glasses will become our 'primary computing devices' with which to interact with the new personal superintelligence we're building."
+  Kontext: Vision fuer die Rolle von Smart Glasses in [FIRMA]s KI-Zukunft.
+
+[A020] (2025-06, schriftlich)
+  "[FIRMA]'s vision is to bring personal superintelligence to everyone. We believe in putting this power in people's hands to direct it towards what they value in their own lives."
+  Kontext: Vision fuer demokratisierte Superintelligenz.
+
+[A021] (2025-06-17, schriftlich)
+  "Superintelligence is now in sight. We're forming a new Superintelligence group at [FIRMA] to pursue this goal."
+  Kontext: Ankuendigung der Gruendung der 'Superintelligence Group' bei [FIRMA].
+
+[A022] (2025-07-30, muendlich)
+  "We likely won't open source all of our superintelligence AI models. Some capabilities are just too powerful to release openly."
+  Kontext: Rueckzug von der reinen Open-Source-Strategie bei den leistungsfaehigsten Modellen.
+
+[A023] (2026-01, muendlich)
+  "We're investing more than $60 billion into AI this year, including a data center that would cover a significant part of Manhattan."
+  Kontext: Bekanntgabe der massiven KI-Investitionen fuer 2026.
+
+[A024] (2026-02-06, schriftlich)
+  "We're launching [FIRMA] Compute, a massive strategic initiative to build the energy and data center infrastructure necessary to power superintelligence."
+  Kontext: Ankuendigung von Multi-Gigawatt-Rechenzentren fuer KI-Training.
+
+
+--- HANDLUNGEN (21 Stueck) ---
+
+[H001] (2004-02-04) [gruendung]
+  [PERSON] gruendet [FIRMA] in seinem Wohnheimzimmer an der Harvard University zusammen mit Eduardo Saverin, Andrew McCollum, Dustin Moskovitz und Chris Hughes.
+
+[H002] (2012-04-09) [kauf] ($1,000,000,000)
+  [FIRMA] uebernimmt [FIRMA] fuer $1 Milliarde in bar und Aktien. [FIRMA] hatte zu diesem Zeitpunkt 13 Mitarbeiter und 30 Millionen Nutzer.
+
+[H003] (2012-05-18) [produktlaunch] ($104,000,000,000)
+  [FIRMA] geht an die Boerse mit einer Bewertung von $104 Milliarden -- zu diesem Zeitpunkt der groesste Tech-IPO der Geschichte. [PERSON] behaelt Kontrolle durch spezielle Aktienklassen.
+
+[H004] (2014-02-19) [kauf] ($19,000,000,000)
+  [FIRMA] uebernimmt [FIRMA] fuer $19 Milliarden -- zu diesem Zeitpunkt die groesste Uebernahme eines VC-finanzierten Startups. [FIRMA] hatte 55 Mitarbeiter und 450 Millionen Nutzer.
+
+[H005] (2014-03-25) [kauf] ($2,300,000,000)
+  [FIRMA] uebernimmt Oculus VR fuer $2,3 Milliarden, um in Virtual Reality einzusteigen. Oculus hatte die Kickstarter-gefundete Oculus Rift entwickelt.
+
+[H006] (2015-12-01) [gruendung] ($45,000,000,000)
+  [PERSON] und Priscilla Chan gruenden die Chan [PERSON] Initiative (CZI) und verpflichten sich, 99% ihrer [FIRMA]-Aktien (damals ca. $45 Milliarden) zu spenden. CZI wird als LLC strukturiert, nicht als klassische Stiftung.
+
+[H007] (2018-03-17) [politisch]
+  Es wird bekannt, dass [UNI] Analytica Daten von 87 Millionen [FIRMA]-Nutzern ohne Einwilligung fuer politische Werbung gesammelt hat. [PERSON] muss vor dem US-Kongress und dem EU-Parlament aussagen.
+
+[H008] (2019-07-24) [klage] ($5,000,000,000)
+  [FIRMA] zahlt eine Rekordstrafe von $5 Milliarden an die FTC wegen Datenschutzverletzungen im Zusammenhang mit [UNI] Analytica und anderen Verstoessen. [PERSON] muss persoenlich vierteljährlich Compliance zertifizieren.
+
+[H009] (2021-10-28) [umstrukturierung]
+  [FIRMA] Inc. benennt sich in [FIRMA] Inc. um, um die strategische Neuausrichtung auf das [FIRMA]verse zu signalisieren. [FIRMA], [FIRMA] und [FIRMA] bleiben Produktnamen.
+
+[H010] (2022-11-09) [entlassung]
+  [FIRMA] entlaesst 11.000 Mitarbeiter (ca. 13% der Belegschaft) -- die groesste Entlassungswelle in der Geschichte des Unternehmens. [PERSON] uebernimmt oeffentlich die Verantwortung fuer Fehleinschaetzungen beim Wachstum.
+
+[H011] (2023-03-14) [entlassung]
+  [FIRMA] kuendigt weitere 10.000 Entlassungen und einen Einstellungsstopp fuer 5.000 Stellen als Teil des 'Year of Efficiency' an. Insgesamt wurden 2023 ueber 21.000 Stellen abgebaut.
+
+[H012] (2023-07-05) [produktlaunch]
+  [FIRMA] launcht Threads, eine [PLATTFORM]-Alternative. Die App erreicht 100 Millionen Nutzer in 5 Tagen -- der schnellste Wachstum einer Consumer-App jemals, schneller selbst als [PRODUKT].
+
+[H013] (2023-07-18) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] als Open-Source-Sprachmodell mit bis zu 70 Milliarden Parametern. Kostenlos fuer Forschung und kommerzielle Nutzung (mit Einschraenkungen fuer grosse Unternehmen).
+
+[H014] (2024-01-31) [politisch]
+  [PERSON] sagt vor dem Senate Judiciary Committee zu Online-Kindersicherheit aus. Er entschuldigt sich direkt bei anwesenden Opferfamilien, nachdem Senator Hawley ihn dazu draengt. Senator Graham sagt, er habe 'Blut an den Haenden'.
+
+[H015] (2024-07-23) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT].1 mit 405 Milliarden Parametern -- das groesste Open-Source-Sprachmodell und laut [FIRMA] wettbewerbsfaehig mit [PRODUKT] und [PRODUKT]. Begleitet von [PERSON]s 'Open Source AI is the Path Forward'-Manifest.
+
+[H016] (2025-06-10) [investition] ($14,300,000,000)
+  [FIRMA] investiert $14,3 Milliarden in [FIRMA] und stellt dessen CEO [PERSON] ein. Die Investition ist Teil von [FIRMA]s AGI-Sprint und soll [FIRMA]s Datenannotation und KI-Training beschleunigen.
+
+[H017] (2025-06-17) [gruendung]
+  [FIRMA] gruendet die 'Superintelligence Group', die FAIR ([FIRMA] AI Research) und GenAI-Teams vereint mit dem Ziel, AGI/Superintelligenz zu entwickeln. [PERSON] erklaert Superintelligenz als 'in Sichtweite'.
+
+[H018] (2025-12-08) [umstrukturierung]
+  [PERSON] kuendigt Budgetkuerzungen von bis zu 30% fuer Reality Labs ([FIRMA]verse-Abteilung) und Entlassungen von 10-30% des Teams an. Fokus verschiebt sich zu KI-gesteuerten Smart Glasses statt VR-Headsets.
+
+[H019] (2025-12-29) [kauf] ($2,000,000,000)
+  [FIRMA] uebernimmt Manus, ein in Singapur ansaessiges KI-Startup mit chinesischen Wurzeln, fuer ueber $2 Milliarden. Manus entwickelt KI-Agenten. Eine seltene Uebernahme eines China-gegruendeten Startups durch einen US-Tech-Giganten.
+
+[H020] (2026-02-01) [umstrukturierung]
+  Die Chan [PERSON] Initiative entlaesst 70 Mitarbeiter und stellt Finanzierung fuer Bildung, Klimawandel und soziale Gerechtigkeit ein. Volle Fokussierung auf KI-getriebene biomedizinische Forschung und das Biohub-Netzwerk.
+
+[H021] (2026-02-06) [investition] ($10,000,000,000)
+  [FIRMA] kuendigt '[FIRMA] Compute' an: eine massive Infrastruktur-Initiative mit Multi-Gigawatt-Rechenzentren. Das erste 'Prometheus'-Zentrum (1 GW) in Ohio, das groesste 'Hyperion' (5 GW, $10 Mrd.) in Louisiana.

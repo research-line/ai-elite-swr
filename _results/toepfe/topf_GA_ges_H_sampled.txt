@@ -1,0 +1,616 @@
+========================================================================
+SYNTHESEEINHEIT: GA_ges_H
+Beschreibung: Kollektiv nur Handlungen (fuer Kongruenz-Analyse) [SAMPLED: 0/0A + 200/1394H, stratifiziert nach Jahr, seed=42]
+Generiert: 2026-02-12 03:47
+========================================================================
+
+Datenpunkte: 0 Aussagen + 200 Handlungen = 200 gesamt
+Zeitraum Handlungen: 1978 bis 2026-02-10
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+HANDLUNGEN (200 Stueck)
+------------------------------------------------------------------------
+
+[H001] (unbekannt) [gruendung]
+  Co-founded ACTS 17 Collective with wife Michelle [PERSON] to minister to Silicon Valley elites and tech industry leaders
+
+[H002] (1978) [sonstiges]
+  [PERSON] promoviert an der Universitaet Edinburgh mit einer Dissertation ueber 'Relaxation and its role in vision' unter der Betreuung von Christopher Longuet-Higgins.
+
+[H003] (1985) [sonstiges]
+  [PERSON] erfindet zusammen mit David Ackley und Terry Sejnowski die Boltzmann-Maschine, ein stochastisches neuronales Netz, das lernen kann, charakteristische Elemente in Daten zu erkennen.
+
+[H004] (1986) [sonstiges]
+  [PERSON] veroeffentlicht zusammen mit David Rumelhart und Ronald J. Williams ein einflussreiches Paper, das den Backpropagation-Algorithmus fuer das Training mehrschichtiger neuronaler Netze popularisiert.
+
+[H005] (1987) [einstellung]
+  [PERSON] wechselt zur University of [UNI], wo er eine Professur fuer Informatik uebernimmt und bis heute forscht.
+
+[H006] (1988) [einstellung]
+  [PERSON] tritt dem Adaptive Systems Research Department bei AT&T Bell Laboratories in Holmdel, New Jersey bei. Dort entwickelt er in den folgenden Jahren das Convolutional Neural Network (LeNet) und wendet es erfolgreich auf Handschrifterkennung an.
+
+[H007] (1989) [produktlaunch]
+  [PERSON] und sein Team bei AT&T Bell Labs entwickeln LeNet, eine Serie von Convolutional Neural Network-Architekturen zum Lesen handgeschriebener Ziffern. LeNet wird erfolgreich fuer die automatische Scheckverarbeitung bei Banken und Geldautomaten eingesetzt.
+
+[H008] (1991) [sonstiges]
+  [PERSON] promoviert an der McGill University in [UNI] unter [PERSON] und [PERSON] mit einer Dissertation ueber kuenstliche neuronale Netze und deren Anwendung auf Spracherkennung.
+
+[H009] (1993-01-23) [produktlaunch]
+  [PERSON] entwickelt gemeinsam mit Eric Bina am National Center for Supercomputing Applications (NCSA) den Mosaic-Webbrowser, den ersten weitverbreiteten grafischen Browser. Mosaic wird im Januar 1993 veroeffentlicht und revolutioniert den Zugang zum World Wide Web.
+
+[H010] (1994-04-04) [gruendung]
+  Jim Clark (Gruender von Silicon Graphics) und [PERSON] gruenden Mosaic Communications Corporation, spaeter umbenannt in Netscape Communications. Das Unternehmen entwickelt den Netscape Navigator Browser.
+
+[H011] (1997-05-15) [investition] ($54,000,000)
+  [FIRMA] geht an die Boerse (NASDAQ: AMZN) mit einem Aktienpreis von $18. Das Unternehmen nimmt ca. $54 Millionen ein. Die Bewertung betraegt ca. $438 Millionen.
+
+[H012] (1998-09-04) [gruendung] ($100,000)
+  [PERSON] und [PERSON] gruenden [FIRMA] Inc. in einer Garage in Menlo Park, Kalifornien. Startkapital: $100.000 von Andy Bechtolsheim (Sun Microsystems Co-Founder). Die PageRank-Algorithmus-Idee stammt aus Pages [UNI]-Dissertation.
+
+[H013] (1999-10-19) [gruendung]
+  Co-founded Ximian (originally International Gnome Support/Helix Code) with Miguel de Icaza to work on GNOME and Linux desktop environment
+
+[H014] (2000-01-01) [einstellung]
+  Beitritt zu [FIRMA] als Gruendungsvorstandsmitglied und dann Vollzeit als EVP fuer externe Kommunikation. Became part of [FIRMA] Mafia, left in 2002 to found [FIRMA].
+
+[H015] (2001-08-01) [ruecktritt]
+  [PERSON] tritt als CEO zurueck. Eric Schmidt wird CEO, Page wird Praesident fuer Produkte. Investor-Bedenken ueber mangelnde Management-Erfahrung fuehren zur Entscheidung.
+
+[H016] (2002) [einstellung]
+  [PERSON] arbeitet als Policy Officer fuer Menschenrechte fuer Ken Livingstone, den Buergermeister von London.
+
+[H017] (2003-05) [gruendung]
+  [PERSON] wird CEO von [FIRMA] Technologies, gegruendet mit [PERSON], Joe Lonsdale, Stephen Cohen und Nathan Gettings. [FIRMA] entwickelt Big-Data-Analyseplattformen fuer Geheimdienste (CIA, NSA) und Militaer.
+
+[H018] (2004) [einstellung]
+  [PERSON] wird Direktor des CIFAR-Programms 'Neural Computation and Adaptive Perception', das die Deep-Learning-Revolution massgeblich foerderte.
+
+[H019] (2004-01-01) [einstellung]
+  Joined [FIRMA] shortly after launch in 2004 as early engineer
+
+[H020] (2005) [gruendung] ($30,000,000)
+  [PERSON] gruendet im Alter von 19 Jahren die standortbasierte Social-Networking-App Loopt als Teil des ersten Y-Combinator-Batches. Er sammelt ueber $30 Mio. Risikokapital ein.
+
+[H021] (2006-01-01) [verkauf]
+  Verkauf von SiteAdvisor an McAfee für 74 Millionen US-Dollar
+
+[H022] (2007-06-01) [gruendung]
+  Mitgründung von FriendFeed: Taylor verließ [FIRMA], um mit anderen Ex-[FIRMA]-Mitarbeitern das Social Network FriendFeed zu gründen. Die Plattform führte Innovationen wie den Like-Button ein.
+
+[H023] (2008-03-01) [einstellung]
+  Joined [FIRMA] Brain in Berlin, contributing to early versions of [FIRMA] Translate.
+
+[H024] (2009) [gruendung]
+  [PERSON] initiiert und leitet das [FIRMA] Self-Driving Car Project (spaeter Waymo). Er holt Sebastian Thrun (DARPA Grand Challenge Gewinner) als Projektleiter. Budget: hunderte Millionen Dollar.
+
+[H025] (2009-01-01) [einstellung]
+  Appointed CEO of Cadence Design Systems, beginning 12-year tenure that transformed the EDA company
+
+[H026] (2010-01-01) [gruendung]
+  Co-founded [UNI] Artificial Intelligence Research (BAIR) Lab at UC [UNI], one of the world's premier AI research laboratories bringing together researchers in computer vision, machine learning, natural language processing, planning, and robotics.
+
+[H027] (2011-05-19) [produktlaunch]
+  [FIRMA] Boersengang (IPO), [PERSON]s Anteil war $2,34 Milliarden wert. Successful IPO made [FIRMA] one of the most valuable social networks.
+
+[H028] (2011-08-24) [einstellung]
+  [PERSON] wird zum CEO von [FIRMA] ernannt, Nachfolger von Steve Jobs
+
+[H029] (2012-03-19) [umstrukturierung] ($10,000,000,000)
+  [FIRMA] kuendigt erste Dividende seit 1995 und 10-Mrd.-Dollar-Aktienrueckkauf an
+
+[H030] (2012-05-18) [produktlaunch] ($104,000,000,000)
+  [FIRMA] geht an die Boerse mit einer Bewertung von $104 Milliarden -- zu diesem Zeitpunkt der groesste Tech-IPO der Geschichte. [PERSON] behaelt Kontrolle durch spezielle Aktienklassen.
+
+[H031] (2012-06-26) [sonstiges]
+  [PERSON] und das [FIRMA] Brain Team veroeffentlichen die beruehmt gewordene Studie, in der ein neuronales Netz mit 16.000 Prozessoren lernt, Katzen in [FIRMA]-Videos zu erkennen -- ohne vorher mit gelabelten Daten trainiert worden zu sein (unsupervised learning).
+
+[H032] (2012-08-27) [sonstiges]
+  Beförderung zum Senior Vice President Software Engineering - Verantwortung für iOS und macOS
+
+[H033] (2013-03-12) [einstellung]
+  [PERSON] tritt [FIRMA] Brain bei und wird Vice President und Engineering Fellow. Er arbeitet in Teilzeit (spaeter 50%, dann 20%) parallel zu seiner Professur in [UNI].
+
+[H034] (2013-08-05) [kauf] ($250,000,000)
+  [PERSON] kauft die Washington Post fuer $250 Millionen als Privatperson (nicht durch [FIRMA]). Er uebernimmt die angeschlagene Zeitung und verspricht Investitionen in digitalen Journalismus.
+
+[H035] (2013-10-01) [produktlaunch]
+  Released [UNI] Sentiment Treebank, the first corpus with fully labeled parse trees for sentiment analysis (215,154 phrases from 11,855 sentences)
+
+[H036] (2014) [einstellung]
+  [PERSON] wird zum CIFAR Senior Fellow und Co-Director des Learning in Machines & Brains Program ernannt.
+
+[H037] (2014-10-01) [produktlaunch]
+  Released GloVe (Global Vectors for Word Representation) model, which became one of the most widely used word embedding approaches
+
+[H038] (2014-10-08) [einstellung]
+  [PERSON] wird CEO von [FIRMA], übernimmt Führung eines krisengeschüttelten Unternehmens mit Aktienkurs unter 2 USD
+
+[H039] (2014-12-01) [produktlaunch]
+  Co-authored Adam optimizer algorithm with Diederik Kingma
+
+[H040] (2015-03) [sonstiges]
+  [PERSON] haelt ihren beruhmten TED Talk 'How we're teaching computers to understand pictures', der ueber 2,5 Millionen Views erreicht und Computer Vision einem breiten Publikum erklaert.
+
+[H041] (2015-03-01) [gruendung]
+  Founded [UNI] DeepDrive (BDD) Industrial Consortium, investigating state-of-the-art technologies in computer vision, robotics, and machine learning for autonomous vehicle applications, with industry partners including Volkswagen, Ford, Toyota, Samsung, Bosch, Honda, Hyundai, Qualcomm and [FIRMA].
+
+[H042] (2015-06-10) [produktlaunch]
+  Aufbau und Launch des [FIRMA] Audience Network - einer Werbe-Plattform als Konkurrenz zu [FIRMA]s Ad-Technologien.
+
+[H043] (2015-08-10) [einstellung]
+  [PERSON] wird CEO von [FIRMA] (nach Umbenennung der Holding in [FIRMA] Inc.). [PERSON] wird CEO von [FIRMA], [PERSON] uebernimmt Tagesgeschaeft von [FIRMA].
+
+[H044] (2015-12-01) [gruendung] ($45,000,000,000)
+  [PERSON] und Priscilla Chan gruenden die Chan [PERSON] Initiative (CZI) und verpflichten sich, 99% ihrer [FIRMA]-Aktien (damals ca. $45 Milliarden) zu spenden. CZI wird als LLC strukturiert, nicht als klassische Stiftung.
+
+[H045] (2016-01-01) [sonstiges]
+  Fellow der American Academy of Arts and Sciences - Anerkennung für wissenschaftliche Exzellenz
+
+[H046] (2016-01-01) [gruendung]
+  Founded the Center for Human-Compatible Artificial Intelligence (CHAI) at UC [UNI] with co-principal investigators [PERSON], Anca Dragan, Tom Griffiths, Bart Selman, Joseph Halpern, Michael Wellman and Satinder Singh Baveja. Center mission: develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.
+
+[H047] (2016-02) [produktlaunch]
+  [PERSON] lanciert [FIRMA] Health bei der Royal Society of Medicine, eine Initiative zur Entwicklung von Kliniker-geleiteter Technologie fuer den NHS und andere Partner im Gesundheitswesen.
+
+[H048] (2016-05-18) [produktlaunch]
+  Öffentliche Ankündigung der Tensor Processing Units (TPUs) bei [FIRMA] I/O - Spezialisierte Hardware für Machine Learning
+
+[H049] (2016-05-18) [produktlaunch]
+  Launched [FIRMA] Daydream VR platform and Daydream View headset at [FIRMA] I/O 2016
+
+[H050] (2016-05-25) [klage] ($10,000,000)
+  [PERSON] finanziert geheim Hulk Hogans Klage gegen Gawker Media wegen Veroeffentlichung eines Sex-Videos. Gawker verliert den Prozess ($140 Mio. Schadenersatz) und geht in Konkurs.
+
+[H051] (2016-11-23) [politisch]
+  Led Department of Defense transition team for President-elect Donald Trump, screening staff and shaping policies
+
+[H052] (2017) [gruendung]
+  Co-founded AI Grant with [PERSON] - non-profit program providing $250k funding + $250k Azure credits to AI startups
+
+[H053] (2017-03-02) [produktlaunch]
+  Launch der Ryzen-Prozessoren mit neuer Zen-Architektur - [FIRMA] kehrt zurück in CPU-Wettbewerb mit Intel
+
+[H054] (2017-05-01) [produktlaunch]
+  Oversaw development and launch of [FIRMA] Lens visual search technology
+
+[H055] (2017-06-01) [gruendung]
+  Co-founded [FIRMA] (originally named Near.ai) with Alexander Skidanov. Initially focused on AI development and program synthesis, later evolved to provide blockchain services.
+
+[H056] (2017-06-12) [produktlaunch]
+  Co-authored seminal paper 'Attention Is All You Need' introducing the Transformer architecture with 7 other equal contributors
+
+[H057] (2017-09-01) [gruendung]
+  [PERSON] co-gruendete [FIRMA] (urspruenglich Atlantic Crypto) zusammen mit Brian Venturo, Brannin McBee und Peter Salanki. Das Unternehmen startete als Ethereum-Mining-Operation in einer Garage in New Jersey. [PERSON] brachte seine Erfahrung aus dem Rohstoffhandel und Climate Finance mit.
+
+[H058] (2017-10-01) [einstellung]
+  Transitioned to [FIRMA] Brain as Research Software Engineer, contributing to research on self-attention and deep learning
+
+[H059] (2017-11-07) [sonstiges]
+  Veroeffentlichung von 'Feature Visualization' auf Distill mit Alexander Mordvintsev und Ludwig Schubert. Das Paper erklaert, wie man durch Gradient Descent Beispiele generiert, die zeigen, wonach ein Neuron sucht.
+
+[H060] (2018-01-01) [einstellung]
+  Became Director of [UNI] Artificial Intelligence Laboratory (SAIL), leading the lab through period of enormous growth for AI from 2018-2025
+
+[H061] (2018-01-01) [partnerschaft]
+  Joined The House Fund as Co-Founder & Faculty Partner of AI@The House initiative, adding six world-leading entrepreneurial AI researchers to the pre-seed and early-stage venture capital fund focused on [UNI] startups.
+
+[H062] (2018-02-20) [ruecktritt]
+  [PERSON] tritt vom Board von [FIRMA] zurueck, nachdem Verhandlungen ueber volle Kontrolle scheitern. [FIRMA] lehnt [PERSON]s Forderung nach absolutem Entscheidungsrecht ab.
+
+[H063] (2018-03-17) [politisch]
+  Es wird bekannt, dass [UNI] Analytica Daten von 87 Millionen [FIRMA]-Nutzern ohne Einwilligung fuer politische Werbung gesammelt hat. [PERSON] muss vor dem US-Kongress und dem EU-Parlament aussagen.
+
+[H064] (2018-06-01) [einstellung]
+  Vice President of Applied AI and Partnerships bei [FIRMA] (Juni 2018)
+
+[H065] (2018-06-01) [partnerschaft]
+  [FIRMA] wechselt Chip-Produktion zu TSMC (Taiwan), transformative Entscheidung für Produktqualität und Wettbewerbsfähigkeit
+
+[H066] (2018-08-01) [gruendung]
+  Founded Pioneer, an early-stage remote startup accelerator and fund finding talented people globally through online tournaments
+
+[H067] (2019-01-01) [partnerschaft]
+  Established [FIRMA] Research partnership with [UNI] AI Research (BAIR) for Phase 2 collaborations, forging strong collaborations between [FIRMA] researchers, students and faculty pursuing research on fundamental advances in computer vision, machine learning, natural language processing, planning, control, and robotics.
+
+[H068] (2019-01-01) [sonstiges]
+  Received NSF CAREER Award for research on Active Learning of Preferences for Human-Aware Autonomy
+
+[H069] (2019-03-11) [umstrukturierung]
+  Ankündigung der neuen Rechtsstruktur [FIRMA] LP zur besseren Verfolgung der AGI-Mission
+
+[H070] (2019-06-13) [politisch]
+  [PERSON] sagt als Policy Director von [FIRMA] vor dem US House Science Committee ueber KI-Fortschritte und politische Herausforderungen aus.
+
+[H071] (2019-11-01) [spende]
+  Endowed two computer science professorships at [UNI] University for $3 million each through Cadence Design Systems
+
+[H072] (2020-01-01) [produktlaunch]
+  Covariant officially launched from stealth mode to bring universal AI to robots
+
+[H073] (2020-01-23) [sonstiges]
+  Veroeffentlichung des bahnbrechenden Papers 'Scaling Laws for Neural Language Models' (arXiv:2001.08361) mit [PERSON] als Erstautor. Das Paper zeigt, dass LLM-Performance praediktablen Power Laws folgt.
+
+[H074] (2020-03-01) [sonstiges]
+  Published ELECTRA paper with Kevin Clark, Minh-Thang Luong, and Quoc V. Le, introducing more efficient pre-training using discriminators rather than generators
+
+[H075] (2020-04-22) [produktlaunch]
+  Launched [FIRMA] mainnet on April 22, 2020. Genesis occurred at 18:00:00 UTC, enabling developers to deploy production apps. Network became completely community-operated in September 2020.
+
+[H076] (2020-09-01) [investition]
+  Raised $5 million seed funding for [FIRMA]
+
+[H077] (2020-11-01) [investition]
+  [FIRMA] erhält $40M Series A Funding von Radical Ventures ([PERSON]) und Index Ventures
+
+[H078] (2020-2024) [umstrukturierung]
+  Built company to $1B revenue with zero sales team, zero marketing team, relying entirely on word-of-mouth and product quality.
+
+[H079] (2021-01-01) [einstellung]
+  Joined Mozilla Foundation Board of Directors as executive board member to guide trustworthy AI charter and support Mozilla AI initiatives
+
+[H080] (2021-01-28) [gruendung]
+  [PERSON] verlaesst [FIRMA] als Research Lead und gruendet zusammen mit Dario und [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON] das KI-Sicherheitsunternehmen [FIRMA]. [PERSON] wird Co-Founder und Chief Architect.
+
+[H081] (2021-01-28) [gruendung]
+  [PERSON] wird Mitgruender von [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON]. [PERSON] uebernimmt die Rolle des Interpretability Research Lead. Die Gruendung erfolgt durch sieben Ex-[FIRMA]-Mitarbeiter.
+
+[H082] (2021-02-03) [einstellung]
+  Beitritt zu [FIRMA] ([FIRMA]) als General Partner mit Fokus auf Consumer und Web3/Crypto-Investitionen. Leitete später das erste internationale [FIRMA]-Büro in London.
+
+[H083] (2021-04-26) [produktlaunch]
+  Einführung von App Tracking Transparency in iOS 14.5 - nutzerbasierte Kontrolle über App-Tracking
+
+[H084] (2021-05-01) [sonstiges]
+  Named Foreign Member of the Royal Society.
+
+[H085] (2021-06-10) [politisch]
+  [PERSON] wird von der US-Regierung in die National AI Research Resource Task Force berufen, die Empfehlungen fuer eine nationale KI-Forschungsinfrastruktur entwickelt.
+
+[H086] (2021-06-15) [sonstiges]
+  Graduated as salutatorian from Bellarmine College Preparatory. Enrolled at Georgetown University's School of Foreign Service to study international relations and economics.
+
+[H087] (2021-06-29) [produktlaunch]
+  [FIRMA] launcht [PRODUKT], den ersten grossen KI-Programmier-Assistenten, basierend auf [FIRMA] [PRODUKT]. Der Service nutzt [PRODUKT]-Technologie.
+
+[H088] (2021-10-01) [ruecktritt]
+  Verlassen von [FIRMA] nach 20 Jahren aufgrund von Frustration über nicht veröffentlichten Meena-Chatbot
+
+[H089] (2022-01-01) [sonstiges]
+  Awarded inaugural World Laureates Association Prize for fundamental contributions to the foundations of machine learning and its application.
+
+[H090] (2022-01-01) [partnerschaft]
+  Established partnerships with Alibaba, Ampere, [FIRMA], Bosch, Denso, Mobileye and Telechips as new entrants to [FIRMA] ecosystem through IPG investments in vertical market solutions
+
+[H091] (2022-02-28) [umstrukturierung]
+  Reformed executive leadership team within weeks of appointment, letting three executives go and reshaping organizational structure
+
+[H092] (2022-04-01) [sonstiges]
+  Received ACM Prize in Computing for contributions to robot learning, including learning from demonstrations and deep reinforcement learning. Prize carries $250,000.
+
+[H093] (2022-04-01) [gruendung]
+  Co-founded [FIRMA] Inc. at [UNI] with [PERSON], [PERSON], and [PERSON] to develop AI-powered coding tools
+
+[H094] (2022-04-15) [investition] ($580,000,000)
+  [FIRMA] Series B Finanzierungsrunde unter Führung von Sam Bankman-Fried zur Expansion von Rechenressourcen und Team-Wachstum.
+
+[H095] (2022-05-01) [spende] ($30,000,000)
+  Spende von mehr als 30 Millionen USD seit 2021 an Opportunity Matters Fund Super PAC zur Unterstützung von Senator Tim Scott
+
+[H096] (2022-05-01) [partnerschaft]
+  NEAR and Flowcarbon announced partnership to launch carbon-market ecosystem on NEAR network. Enables trading of carbon credits, advancing NEAR's vision of becoming carbon-negative blockchain.
+
+[H097] (2022-06-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], [PERSON], and [PERSON] while students at [UNI], creating the AI code editor [FIRMA]
+
+[H098] (2022-08-31) [klage]
+  Filed lawsuit against Qualcomm and Nuvia for breach of license agreements and trademark infringement following Qualcomm's 2021 acquisition of Nuvia
+
+[H099] (2022-11-01) [ruecktritt]
+  Left Adept AI as co-founder and CTO after approximately 6 months
+
+[H100] (2022-12) [umstrukturierung]
+  Nach dem viralen Erfolg von [PRODUKT] ruft [PERSON] unternehmensweit 'Code Red' aus und bezeichnet den Chatbot als existenzielle Bedrohung fuer [FIRMA] Search. Teams werden umstrukturiert, um bis Mai 2023 KI-Prototypen und Produkte zu entwickeln.
+
+[H101] (2023-02-07) [produktlaunch]
+  [FIRMA] launcht [PRODUKT] (spaeter umbenannt in [FIRMA] [PRODUKT]), eine KI-gestuetzte Suchmaschine basierend auf [PRODUKT]. Es ist [FIRMA]s erster direkter Angriff auf [FIRMA]s Suchmonopol.
+
+[H102] (2023-02-08) [ruecktritt]
+  Announced departure from [FIRMA] after 18 years, leaving VP of Labs position in March 2023
+
+[H103] (2023-03-14) [entlassung]
+  [FIRMA] kuendigt weitere 10.000 Entlassungen und einen Einstellungsstopp fuer 5.000 Stellen als Teil des 'Year of Efficiency' an. Insgesamt wurden 2023 ueber 21.000 Stellen abgebaut.
+
+[H104] (2023-03-14) [produktlaunch]
+  Öffentliche Präsentation von [PRODUKT] in einem Live-Video-Demo
+
+[H105] (2023-03-21) [entlassung]
+  [PERSON] leitete Massenentlassungen von 27.000 Mitarbeitern bei [FIRMA] (18.000 + 9.000 in zwei Phasen)
+
+[H106] (2023-04) [produktlaunch]
+  [FIRMA] launched die Artificial Intelligence Platform (AIP), die Large Language Models in private Netzwerke integriert. AIP wird Game-Changer fuer kommerzielle Kunden (Airbus, Merck, HCA Healthcare).
+
+[H107] (2023-04-01) [partnerschaft] ($100,000,000)
+  [PERSON] sicherte eine strategische Partnerschaft mit [FIRMA], bei der [FIRMA] 100 Millionen Dollar in [FIRMA] investierte und sich verpflichtete, Milliarden Dollar an [FIRMA] Cloud-Kapazitaet bis 2032 zu kaufen. Diese Partnerschaft etablierte [FIRMA] als primaere GPU-Infrastruktur fuer [FIRMA].
+
+[H108] (2023-04-25) [produktlaunch]
+  Launch von HuggingChat als Open-Source-Alternative zu [PRODUKT], basierend auf [FIRMA]'s LLaMa-Modell. Ziel war zu demonstrieren, dass Open-Source-Alternativen zu proprietären Chatbots möglich sind.
+
+[H109] (2023-05-20) [investition] ($450,000,000)
+  [FIRMA] Series C Finanzierungsrunde unter Führung von Spark Capital mit Beteiligung von [FIRMA], Salesforce Ventures und anderen.
+
+[H110] (2023-06-01) [produktlaunch]
+  Released MPT-30B model, significantly more powerful than MPT-7B, outperforming original [PRODUKT]
+
+[H111] (2023-06-01) [partnerschaft]
+  Completed [FIRMA] Startup Fund accelerator program
+
+[H112] (2023-06-14) [lobbying]
+  [PERSON] gibt vor dem Europaeischen Parlament Zeugnis ab und unterstuetzt den EU AI Act, fordert aber strengere Sicherheitsanforderungen fuer Frontier-Modelle.
+
+[H113] (2023-07-05) [produktlaunch]
+  [FIRMA] launcht Threads, eine [PLATTFORM]-Alternative. Die App erreicht 100 Millionen Nutzer in 5 Tagen -- der schnellste Wachstum einer Consumer-App jemals, schneller selbst als [PRODUKT].
+
+[H114] (2023-07-18) [politisch]
+  [PERSON] haelt eine offizielle Rede bei der ersten UN-Sicherheitsratssitzung ueber KI-Bedrohungen fuer den Weltfrieden, gemeinsam mit UN-Generalsekretaer Guterres und chinesischem KI-Experten Yi Zeng.
+
+[H115] (2023-07-19) [kauf]
+  Akquisition von MosaicML, einer führenden Generative-AI-Plattform, für $1.3 Milliarden (inklusive Retention Packages). MosaicML ist bekannt für MPT Large Language Models.
+
+[H116] (2023-07-25) [lobbying]
+  [PERSON] veroeffentlicht Op-Ed in der New York Times 'Our Oppenheimer Moment: The Creation of A.I. Weapons', in dem er fuer KI-Waffensysteme trotz ethischer Bedenken plaediert und vor China warnt.
+
+[H117] (2023-08-01) [ruecktritt]
+  Left [FIRMA] after almost 12 years as senior software engineer and researcher at [FIRMA] Brain
+
+[H118] (2023-09-05) [produktlaunch]
+  [PERSON] veroeffentlicht 'The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma' gemeinsam mit Michael Bhaskar. Das Buch wird zum internationalen Bestseller und definiert 'Containment' als zentrales KI-Governance-Konzept.
+
+[H119] (2023-09-07) [sonstiges]
+  Auszeichnung als einer der 100 einflussreichsten Menschen in KI 2023 durch TIME Magazine
+
+[H120] (2023-09-19) [sonstiges]
+  [FIRMA] veroeffentlicht als erstes grosses KI-Unternehmen eine 'Responsible Scaling Policy' (RSP) mit dem AI Safety Levels (ASL) Framework, angelehnt an biologische Sicherheitsstufen (BSL). [PERSON] investierte 10-20% seiner Arbeitszeit ueber 3 Monate in die Ausarbeitung.
+
+[H121] (2023-10-23) [kauf]
+  Akquisition von Arcion, führender Anbieter für Echtzeit-Enterprise-Datenreplikation, für über $100 Millionen (inklusive Incentives)
+
+[H122] (2023-10-26) [sonstiges]
+  Panel-Teilnahme bei Washington Post Futurist Summit über KI-Schlachtfelder
+
+[H123] (2023-11-19) [einstellung]
+  Nach der Entlassung von [PERSON] durch den [FIRMA]-Board bietet [PERSON] [PERSON] und [PERSON] an, ein neues KI-Team bei [FIRMA] zu leiten. Als [PERSON] zurueckkehrt, sichert [FIRMA] einen Beobachtersitz im neuen Board.
+
+[H124] (2023-11-20) [politisch]
+  Posted public statement supporting [FIRMA] employees during leadership crisis
+
+[H125] (2023-11-22) [einstellung]
+  Ernennung zum Chairman des [FIRMA] Board: Nach der Krise um [PERSON]s kurzzeitige Absetzung wurde Taylor zum neuen Board Chairman von [FIRMA] ernannt, um das Governance-System zu reformieren.
+
+[H126] (2023-11-28) [produktlaunch]
+  Launch von [FIRMA] Q, AI-Assistent für Entwickler und Business (Q Developer, Q Business)
+
+[H127] (2023-12-06) [politisch]
+  [PERSON] gibt schriftliches und muendliches Testimony vor dem US Senate AI Insight Forum zum Thema 'Risk, Alignment & Guarding Against Doomsday Scenarios', warnt vor emergenten Risiken und Biowaffen-Missbrauch.
+
+[H128] (2023-12-11) [investition]
+  Essential AI raised $56.5 million Series A funding led by March Capital, with backing from [FIRMA], [FIRMA], [FIRMA], and Thrive Capital
+
+[H129] (2024) [sonstiges] ($6,800,000,000)
+  [PERSON]s CEO-Verguetung steigt auf Paper um $6,8 Milliarden durch Wertzuwachs seiner Aktienoptionen. [FIRMA]-Aktie steigt um 340% in 2024. [PERSON] wird zu einem der bestbezahlten CEOs der Welt.
+
+[H130] (2024) [produktlaunch]
+  Co-inventor of [PRODUKT-REASONING] reasoning model at [FIRMA]
+
+[H131] (2024-01-01) [spende]
+  Spendete $55+ Millionen an demokratische Kandidaten, Parteien und PACs ueber vier Jahre (2020-2024), einer der Top-Grossspender. At least $34.8M in 2024 cycle alone, nearly $9M to Wisconsin Democratic Party since 2020.
+
+[H132] (2024-01-01) [einstellung]
+  Built team with intense 9-9-6 culture (9am-9pm, 6 days per week) without traditional sales department
+
+[H133] (2024-01-01) [sonstiges]
+  Awarded National Artificial Intelligence Research Resource (NAIRR) Grant for project on learning reward functions for robotics using large datasets and human feedback
+
+[H134] (2024-01-28) [produktlaunch]
+  [FIRMA] fuehrt die erste erfolgreiche Gehirn-Chip-Implantation bei einem Menschen durch: Noland Arbaugh, ein gelahmter Patient. Der Chip ermoeglicht [FIRMA]-Steuerung allein durch Gedanken.
+
+[H135] (2024-02-19) [investition] ($100,000,000,000)
+  [PROJEKT] Ankündigung - geplante 100 Mrd. USD AI Chip Venture zum [FIRMA]-Wettbewerb (Name spielt auf AGI an)
+
+[H136] (2024-03-01) [spende]
+  Received $100,000 [PERSON] Fellowship grant after being selected as [PERSON] Fellow
+
+[H137] (2024-03-01) [investition]
+  [FIRMA] raised $30M seed funding from Lux Capital and [PERSON] Ventures
+
+[H138] (2024-03-01) [einstellung]
+  Appointed as AI Expert for UN Secretary-General's High-Level Advisory Body on AI at United Nations to advise on AI governance and policy
+
+[H139] (2024-03-01) [investition]
+  [FIRMA] invested in Cognition AI, creator of Devin AI software engineer
+
+[H140] (2024-03-23) [ruecktritt]
+  Resigned as CEO and board member of [FIRMA] to pursue decentralized AI initiatives after investor pressure
+
+[H141] (2024-03-26) [produktlaunch]
+  [PERSON] launcht einen Kurs zu 'AI Agentic Design Patterns', in dem er seine Vision fuer agentic workflows erklaert: Reflection, Tool Use, Planning, Multi-Agent Collaboration. Der Kurs wird ein Bestseller.
+
+[H142] (2024-03-27) [investition] ($2,750,000,000)
+  [FIRMA] komplettiert zusätzliche 2,75 Milliarden USD Investition in [FIRMA] (Teil der ursprünglich angekündigten 4 Milliarden USD).
+
+[H143] (2024-03-27) [sonstiges]
+  Awarded $100,000 [PERSON] Fellowship grant with co-founders - required dropping out of Harvard
+
+[H144] (2024-04-14) [sonstiges]
+  Keynote speaker at International Conference on Software Engineering (ICSE) 2024
+
+[H145] (2024-05-09) [produktlaunch]
+  Introduced automotive-enhanced [FIRMA]v9 CPU profiles specifically designed for autonomous driving and self-driving cars
+
+[H146] (2024-06-01) [partnerschaft]
+  Mercor partnered with [FIRMA] and other top 5 AI labs to provide domain experts for training AI models
+
+[H147] (2024-06-06) [spende] ($12,000,000)
+  [PERSON] co-hostete einen Fundraiser fuer Donald Trump in seinem San Francisco Anwesen. Tickets kosteten 50.000 Dollar pro Person, mit einem 300.000 Dollar Tier das Foto-Moeglichkeiten mit Trump beinhaltete. Das Event brachte erwartete 12 Millionen Dollar ein.
+
+[H148] (2024-06-10) [produktlaunch]
+  Ankündigung und Launch von [FIRMA] Intelligence auf WWDC 2024 - [FIRMA]s persönliches Intelligenz-System mit On-Device und Private Cloud Compute
+
+[H149] (2024-07-01) [sonstiges]
+  Received ICML Test of Time Award for paper "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition" (with Donahue, Jia, Vinyals, [PERSON], Zhang, Tzeng), recognizing exceptional long-term impact on machine learning field.
+
+[H150] (2024-07-01) [sonstiges]
+  Gave invited talk at ICML 2024, first invited talk of the conference
+
+[H151] (2024-07-23) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT].1 mit 405 Milliarden Parametern -- das groesste Open-Source-Sprachmodell und laut [FIRMA] wettbewerbsfaehig mit [PRODUKT] und [PRODUKT]. Begleitet von [PERSON]s 'Open Source AI is the Path Forward'-Manifest.
+
+[H152] (2024-08-01) [lobbying]
+  Led opposition against California's SB 1047 AI safety bill at Fight for Open Source event, arguing bill shifts liability to infrastructure and threatens startups, alongside [FIRMA], Nancy Pelosi, [FIRMA], and Big Tech
+
+[H153] (2024-08-08) [produktlaunch]
+  NEAR launched Chain Signatures on mainnet, enabling multichain, non-custodial accounts. Allows users with NEAR account to sign transactions on other blockchains without cross-chain bridges.
+
+[H154] (2024-09-01) [investition]
+  [FIRMA] baut 'Colossus', den weltweit groessten Supercomputer, in 122 Tagen. Standort: umgebaute Electrolux-Fabrik in Memphis. Anfangs 100.000 [FIRMA]-GPUs, dann verdoppelt auf 200.000 GPUs.
+
+[H155] (2024-09-01) [investition]
+  [FIRMA] raised approximately $200M Series A at $1.5B valuation from Mitsubishi UFJ, SMBC, Mizuho, Itochu, KDDI, Nomura and [FIRMA]
+
+[H156] (2024-09-12) [produktlaunch]
+  Als 'key architect' der [PRODUKT-REASONING]/[PRODUKT-REASONING] Reasoning-Modelle entwickelte Chen zusammen mit [PERSON] die neue Paradigma-Klasse von Modellen, die für komplexe Aufgaben in Wissenschaft, Mathe und Coding designed sind.
+
+[H157] (2024-10-04) [spende]
+  Ben und Felicia [PERSON] kündigen 'signifikante Spende' an Kamala Harris' Kampagne an - nur 3 Monate nach Trump-Unterstützung
+
+[H158] (2024-10-09) [partnerschaft]
+  Announced three strategic agreements with Eli Lilly for metabolic diseases including MASLD
+
+[H159] (2024-10-28) [sonstiges]
+  Veroeffentlichung von 'Sparse Crosscoders for Cross-Layer Features and Model Diffing' auf Transformer Circuits Thread. [PERSON] ist Co-Autor. Sparse Crosscoders sind eine Variante, die Features ueber mehrere Schichten von Modellen verstehen.
+
+[H160] (2024-11-01) [produktlaunch]
+  Launched RoboCrowd platform demonstrating crowdsourced robot data collection with over 200 volunteers in university cafe
+
+[H161] (2024-11-15) [politisch]
+  Consulted with President-elect Trump on revamping US military, considered for Deputy Secretary of Defense position
+
+[H162] (2024-12-01) [partnerschaft]
+  Zusammenarbeit mit University of [UNI] zur AI-gestützten Modifikation von Weizen für 20% höhere Erträge durch effizientere Photosynthese
+
+[H163] (2024-12-01) [investition]
+  Raised $105 million Series B at $2.5 billion valuation led by Thrive Capital
+
+[H164] (2024-12-13) [politisch] ($1,000,000)
+  [PERSON] spendet $1 Million an Trumps Inaugurations-Fonds 2025 -- trotz jahrelanger Konflikte zwischen Trump und der Washington Post.
+
+[H165] (2024-12-17) [investition]
+  Einwerbung von $10 Milliarden in Series J Funding bei $62 Milliarden Bewertung. Led by Thrive Capital, co-led by [FIRMA], DST Global, Insight Partners, WCM, GIC. Neue Investoren: Iconiq Growth, Sands Capital, Wellington Management, MGX.
+
+[H166] (2024-12-22) [einstellung]
+  Ernennung zum Senior White House Policy Advisor für Artificial Intelligence durch Präsident Donald Trump. Verantwortlich für KI-Strategie und Koordination der KI-Politik über die gesamte Regierung hinweg.
+
+[H167] (2024-12-23) [investition] ($6,000,000,000)
+  [FIRMA] sammelt weitere $6 Milliarden in einer Series-C-Runde mit Beteiligung von Fidelity, BlackRock und [FIRMA] Capital. Bewertung steigt auf $50 Milliarden. Gesamtfinanzierung: ueber $12 Milliarden.
+
+[H168] (2025-01-01) [einstellung]
+  Appointed as Non-Executive Director to AstraZeneca PLC board, bringing deep technology expertise in data science, computing and AI to pharmaceutical company
+
+[H169] (2025-01-01) [sonstiges]
+  Submitted work to ICLR 2025 conference
+
+[H170] (2025-01-01) [produktlaunch]
+  [FIRMA] announced Arsenal Projects, hyperscale computing facilities for manufacturing autonomous weapons faster than near-peer rivals
+
+[H171] (2025-01-03) [spende] ($1,000,000)
+  [PERSON] spendet persoenlich 1 Million Dollar an Donald Trumps Amtseinfuehrungs-Komitee
+
+[H172] (2025-01-21) [partnerschaft] ($500,000,000,000)
+  [PROJEKT] Ankündigung mit Trump - 500 Mrd. USD KI-Infrastruktur Initiative ([FIRMA] Chairman), 100k Jobs
+
+[H173] (2025-02-03) [partnerschaft]
+  Strengthened partnerships with [FIRMA] and [FIRMA] to drive AI productivity across global technology sector
+
+[H174] (2025-02-17) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT] 3, trainiert mit '10x mehr Rechenleistung' als [PRODUKT] 2 im Colossus-Rechenzentrum mit 200.000 GPUs. Uebertrifft laut [FIRMA] [FIRMA] [PRODUKT] in Benchmarks.
+
+[H175] (2025-02-20) [investition]
+  Raised $100 million Series B funding led by Felicis at $2 billion valuation
+
+[H176] (2025-03-01) [investition]
+  Kanadische Regierung finalisiert $240M Investment in [FIRMA]s $725M Projekt für kanadische Compute-Kapazität
+
+[H177] (2025-03-05) [partnerschaft]
+  Thunderforge-Vertrag mit Pentagon für KI-Agenten in militärischen Operationen
+
+[H178] (2025-04-01) [investition] ($600,000,000)
+  Isomorphic Labs schliesst erste externe Finanzierungsrunde ueber $600 Millionen ab. Gefuehrt von Thrive Capital, mit Beteiligung von [FIRMA] Ventures und [FIRMA].
+
+[H179] (2025-06-01) [investition]
+  Raised $300 million Series E round at $5 billion valuation.
+
+[H180] (2025-07-03) [einstellung]
+  Joined [FIRMA] Superintelligence Labs to work on AI products and superintelligence development
+
+[H181] (2025-07-14) [kauf]
+  Akquisition von Windsurf (agentic IDE) inklusive IP, Produkt, Marke und 82M USD ARR
+
+[H182] (2025-08-01) [einstellung]
+  Expanded team to approximately 150 employees as company scaled past $1 billion ARR
+
+[H183] (2025-08-13) [ruecktritt]
+  Resigned as co-founder and Chief Engineer from [FIRMA] after 2 years
+
+[H184] (2025-08-13) [investition]
+  Personally invested $50 million as first-closing capital for general partner of [PERSON] Ventures
+
+[H185] (2025-08-13) [investition]
+  Secured commitments from Teacher Retirement System of Texas ($500 million) and [PERSON] Family Office ($200 million additional) for [PERSON] Ventures, targeting $1 billion total fund size
+
+[H186] (2025-08-22) [politisch]
+  Negotiated deal with Trump administration for U.S. government to acquire 10% equity stake in Intel for $8.9 billion in exchange for CHIPS Act funding
+
+[H187] (2025-09-10) [investition] ($13,000,000,000)
+  [FIRMA] Series F Finanzierungsrunde co-geführt von Iconiq Capital, Fidelity und Lightspeed. Post-Money Bewertung: 183 Milliarden USD.
+
+[H188] (2025-10-09) [produktlaunch]
+  Unveiled Figure 03, third-generation humanoid robot redesigned for mass manufacturing and home environments
+
+[H189] (2025-10-27) [investition]
+  Mercor raised $350 million Series C at $10 billion valuation led by Felicis, with Robinhood Ventures joining as new investor
+
+[H190] (2025-10-29) [produktlaunch]
+  Launch von Composer - proprietäres KI-Modell speziell für agentisches Coding optimiert
+
+[H191] (2025-11-01) [sonstiges]
+  Became Sweden's youngest dollar billionaire at age 26, with Forbes estimating a 4.5% stake in [FIRMA] worth at least $1.3 billion
+
+[H192] (2025-11-01) [sonstiges]
+  [FIRMA] crossed $1 billion in annualized revenue, fastest SaaS to reach this milestone (20 months from launch)
+
+[H193] (2025-11-13) [investition]
+  [FIRMA] raised $2.3 billion Series D at $29.3 billion valuation co-led by Accel and Coatue Management (after [PERSON]'s departure)
+
+[H194] (2025-11-17) [investition]
+  [FIRMA] raised $135M Series B at $2.65B post-money valuation from MUFG, [PERSON] Ventures, Macquarie Capital, NEA, Lux Capital, and In-Q-Tel
+
+[H195] (2025-12-04) [investition]
+  Raised $160 million round led by [FIRMA], valuing company at $8 billion. Surpassed $100 million annual recurring revenue in August with 700 clients across 63 countries including majority of top 10 US law firms.
+
+[H196] (2025-12-08) [umstrukturierung]
+  [PERSON] kuendigt Budgetkuerzungen von bis zu 30% fuer Reality Labs ([FIRMA]verse-Abteilung) und Entlassungen von 10-30% des Teams an. Fokus verschiebt sich zu KI-gesteuerten Smart Glasses statt VR-Headsets.
+
+[H197] (2025-12-29) [kauf] ($2,000,000,000)
+  [FIRMA] uebernimmt Manus, ein in Singapur ansaessiges KI-Startup mit chinesischen Wurzeln, fuer ueber $2 Milliarden. Manus entwickelt KI-Agenten. Eine seltene Uebernahme eines China-gegruendeten Startups durch einen US-Tech-Giganten.
+
+[H198] (2026-01-26) [investition] ($2,000,000,000)
+  [FIRMA] investierte weitere 2 Milliarden Dollar in [FIRMA] im Januar 2026, verdoppelte seinen Anteil und wurde zweitgroesster Aktionaer. Die Aktien wurden mit 87,20 Dollar bewertet. Dies vertiefte die strategische Partnerschaft fuer 5 Gigawatt Rechenzentrumskapazitaet bis 2030.
+
+[H199] (2026-02-02) [kauf] ($250,000,000,000)
+  [FIRMA] akquiriert [FIRMA] in einer All-Stock-Transaktion. [FIRMA] wird vollstaendige Tochtergesellschaft von [FIRMA]. [FIRMA]-Bewertung: $1 Billion, [FIRMA]-Bewertung: $250 Milliarden. Kombinierte Bewertung: $1,25 Billionen.
+
+[H200] (2026-02-10) [ruecktritt]
+  Resigned as co-founder from [FIRMA] after leading research, safety, and enterprise efforts

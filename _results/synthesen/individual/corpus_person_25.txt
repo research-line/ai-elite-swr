@@ -1,0 +1,147 @@
+=== DATENKORPUS PERSON-25 ===
+
+--- AUSSAGEN (24 Stueck) ---
+
+[A001] (2007, muendlich)
+  "Of course there are lot of things that were going through our minds. Above all else, we wanted to create a new internet currency to replace the dollar."
+  Kontext: Interview ueber die Anfaenge von [FIRMA]. [PERSON] beschreibt die libertaere Vision: eine private, digitale Waehrung.
+
+[A002] (2008, muendlich)
+  "There are quite a lot of people who think it's not possible, and those who do think it's possible often think it's not desirable. The critical question is, 'How do you get from here to there?'"
+  Kontext: [PERSON] gruendet mit Patri [PERSON] das Seasteading Institute -- schwimmende Staaten ausserhalb staatlicher Jurisdiktion.
+
+[A003] (2009-04-13, muendlich)
+  "I no longer believe that freedom and democracy are compatible."
+  Kontext: Essay fuer Cato Unbound (2009). [PERSON] erklaert, dass Demokratie und Freiheit in Konflikt geraten seien, seit Frauen waehlten -- eine provokante libertaere Position.
+
+[A004] (2009-04-13, schriftlich)
+  "I stand against confiscatory taxes, totalitarian collectives, and the ideology of the inevitability of the death of every individual. We are in a deadly race between politics and technology. The fate of our world may depend on the effort of a single person who builds or propagates the machinery of freedom that makes the world safe for capitalism."
+  Kontext: Manifest fuer radikalen Libertarismus. [PERSON] formuliert seinen Glauben an Technologie als Weg zur Ueberwindung von Politik und Tod.
+
+[A005] (2011, schriftlich)
+  "We wanted flying cars, instead we got 140 characters."
+  Kontext: Manifesto der [FIRMA]-Website. [PERSON] kritisiert die Fokussierung auf triviale Software statt auf echte Innovation.
+
+[A006] (2012, muendlich)
+  "The most contrarian thing of all is not to oppose the crowd but to think for yourself."
+  Kontext: Aus [PERSON]s legendaerer [UNI]-Vorlesung 'Startup', die zur Grundlage von 'Zero to One' wurde.
+
+[A007] (2012, muendlich)
+  "Horizontal progress is globalization — taking things that work somewhere and making them work everywhere. Vertical progress is technology — doing new things."
+  Kontext: [PERSON]s Unterscheidung zwischen 1-to-n (Globalisierung) und 0-to-1 (Innovation) aus der CS183-Vorlesung.
+
+[A008] (2014-09-16, schriftlich)
+  "Competition is for losers."
+  Kontext: Kernthese aus dem Buch 'Zero to One'. [PERSON] argumentiert, dass wahre Innovatoren Monopole schaffen, nicht konkurrieren.
+
+[A009] (2014-09-16, schriftlich)
+  "If you're starting a company, you always want to aim for monopoly and avoid competition. Hence, competition is for losers."
+  Kontext: [PERSON] elaboriert die Monopol-These: Erfolgreiche Unternehmen schaffen neue Kategorien statt in bestehenden Maerkten zu konkurrieren.
+
+[A010] (2014-09-16, schriftlich)
+  "A startup is the largest endeavor over which you can have definite mastery. You can have agency not just over your own life, but over a small and important part of the world. It begins by rejecting the unjust tyranny of Chance. You are not a lottery ticket."
+  Kontext: [PERSON] kontrastiert 'definite optimism' (planbare Zukunft) mit 'indefinite optimism' (Zukunft als Zufall).
+
+[A011] (2015, muendlich)
+  "I'm looking into parabiosis stuff, which I think is really interesting. This is where they did the young blood into older mice and they found that had a massive rejuvenating effect."
+  Kontext: Interview zu seinen Investitionen in Life Extension. [PERSON] nennt Parabiose-Forschung 'wirklich interessant'.
+
+[A012] (2016-05-25, muendlich)
+  "It's less about revenge and more about specific deterrence. I saw Gawker pioneer a unique and incredibly damaging way of getting attention by bullying people even when there was no connection to the public interest."
+  Kontext: [PERSON] gibt zu, Hulk Hogans Prozess gegen Gawker finanziert zu haben -- Gawker geht in Konkurs.
+
+[A013] (2016-07-21, muendlich)
+  "I am proud to be gay. I am proud to be a Republican. But most of all I am proud to be an American."
+  Kontext: Erster offen schwuler Redner bei einer Republican National Convention.
+
+[A014] (2016-07-21, muendlich)
+  "Instead of going to Mars, we have invaded the Middle East. We don't need to see Hillary Clinton's deleted emails: her incompetence is in plain sight."
+  Kontext: [PERSON] attackiert das politische Establishment und positioniert Trump als Wandel.
+
+[A015] (2016-08-01, muendlich)
+  "I've always had this really strong sense that death was a terrible, terrible thing. I think that's somewhat unusual. Most people end up compartmentalizing, and they are in some weird mode of denial and acceptance about death, but they both have the result of not doing anything about it."
+  Kontext: [PERSON] spricht offen ueber seine Life Extension-Investments und seinen Kampf gegen das Altern.
+
+[A016] (2016-10-15, muendlich)
+  "The media always takes Trump literally. It never takes him seriously, but it always takes him literally. I think a lot of the voters who vote for Trump take Trump seriously but not literally."
+  Kontext: Interview mit der New York Times, in dem [PERSON] seine Trump-Unterstuetzung erklaert.
+
+[A017] (2016-10-31, muendlich)
+  "I think there are a lot of people who want to see a conservative government, but they think Trump would be too much. But I think it's actually Trump that's too little, not too much."
+  Kontext: TechCrunch Disrupt 2016. [PERSON] verteidigt seine Unterstuetzung Trumps gegenueber einem kritischen Silicon Valley.
+
+[A018] (2018-03-15, muendlich)
+  "Bitcoin is like a reserve form of money, it's like gold, and it's just a store of value. You don't need to use it to make payments."
+  Kontext: Crypto-Konferenz. [PERSON] kontrastiert Bitcoin (Wertspeicher) mit Ethereum (Zahlungssystem).
+
+[A019] (2018-05-13, muendlich)
+  "We've always had the view that privacy and civil liberties issues were not incompatible with a business dedicated to national security and law enforcement."
+  Kontext: 60 Minutes-Interview ueber [FIRMA]. [PERSON] weist Kritik zurueck, dass [FIRMA] eine Ueberwachungs-Dystopie schaffe.
+
+[A020] (2018-09-26, muendlich)
+  "I'm very comfortable with our work for the U.S. government. I think it's a great privilege to be able to work on these things."
+  Kontext: [PERSON] verteidigt [FIRMA]s ICE-Vertrag gegenueber internen Protesten.
+
+[A021] (2019, muendlich)
+  "AI is a military technology. It's not like the internet where you can have a more globalized approach. If the AI race is won by China, it will be terrible for this country and for the world."
+  Kontext: Hoover Institution Vortrag. [PERSON] fordert, dass KI als strategische Waffe behandelt wird.
+
+[A022] (2019-07-15, muendlich)
+  "[FIRMA] should be investigated by the FBI and CIA. How many foreign intelligence agencies have infiltrated your Manhattan Project for AI?"
+  Kontext: National Conservatism Conference 2019. [PERSON] greift [FIRMA] scharf an und impliziert Landesverrat.
+
+[A023] (2021-08-04, muendlich)
+  "I think one of the disturbing things about COVID was just the crazy lack of debate, where people would say, 'You can't even ask these questions.' And that's always when I think you should be very suspicious."
+  Kontext: Langes Interview bei Joe Rogan. [PERSON] spricht ueber COVID, Tech, Politik und Meinungsfreiheit.
+
+[A024] (2022-04-07, muendlich)
+  "Bitcoin is the honest answer to an enormous financial problem, and that problem is a gerontocracy that's running a finance system. The finance gerontocracy in the U.S. is crazier and more dangerous than the communist one in China."
+  Kontext: Miami Bitcoin Conference 2022. Radikaler Angriff auf Fed und etablierte Finanzsysteme.
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (1998-12) [gruendung]
+  [PERSON] gruendet Confinity zusammen mit Max Levchin und Luke Nosek. Confinity entwickelt [FIRMA] -- urspruenglich als Krypto-Waehrung gedacht. [FIRMA] fusioniert 2000 mit X.com ([PERSON]).
+
+[H002] (2002-10-03) [verkauf] ($55,000,000)
+  [FIRMA] wird fuer $1,5 Milliarden an eBay verkauft. [PERSON], groesster Einzelaktionaer, erhaelt ca. $55 Millionen.
+
+[H003] (2003-05) [gruendung] ($2,000,000)
+  [PERSON] gruendet [FIRMA] Technologies mit Nathan Gettings, Joe Lonsdale, Stephen Cohen und [PERSON]. [FIRMA] baut Big-Data-Analyseplattformen fuer Geheimdienste und Strafverfolgung. Erste Finanzierung: $2 Mio. von [PERSON].
+
+[H004] (2004-08) [investition] ($500,000)
+  [PERSON] investiert $500.000 in [FIRMA] und erhaelt 10,2% der Anteile. Er wird erster externer Investor und Verwaltungsratsmitglied. Investment wird spaeter auf ca. $1 Milliarde wert.
+
+[H005] (2005) [gruendung] ($50,000,000)
+  [PERSON] gruendet [FIRMA] mit Ken Howery und Luke Nosek. Strategie: Investitionen in radikale Technologien (Raumfahrt, Life Extension, KI). Erster Fonds: $50 Mio.
+
+[H006] (2008) [spende] ($1,250,000)
+  [PERSON] spendet $1,25 Millionen an das Seasteading Institute (gegruendet mit Patri [PERSON], Enkel von Milton [PERSON]). Ziel: schwimmende autonome Staaten in internationalen Gewaessern.
+
+[H007] (2011) [gruendung]
+  [PERSON] startet die [PERSON] Fellowship: $100.000 fuer Studenten unter 23, die das College abbrechen, um an eigenen Projekten zu arbeiten. [PERSON] kritisiert Universitaeten als 'Bildungsblase'.
+
+[H008] (2016-05-25) [klage] ($10,000,000)
+  [PERSON] finanziert geheim Hulk Hogans Klage gegen Gawker Media wegen Veroeffentlichung eines Sex-Videos. Gawker verliert den Prozess ($140 Mio. Schadenersatz) und geht in Konkurs.
+
+[H009] (2016-10-15) [spende] ($1,250,000)
+  [PERSON] spendet $1,25 Millionen an Donald Trumps Praesidentschaftskampagne -- groesste Einzelspende eines Tech-CEOs. Er haelt Rede bei Republican National Convention.
+
+[H010] (2016-11-09) [politisch]
+  [PERSON] wird Mitglied von Donald Trumps Transition-Team und organisiert Tech-Treffen im Trump Tower (Cook, [PERSON], [PERSON], Sandberg). Er wird als Kandidat fuer Supreme Court gehandelt.
+
+[H011] (2018) [investition]
+  [PERSON] investiert ueber [FIRMA] in Unity Biotechnology, ein Anti-Aging-Startup, das senolytische Therapien entwickelt. Investment: Teil einer $116 Mio. Series B.
+
+[H012] (2020-09-30) [produktlaunch]
+  [FIRMA] Technologies geht per Direct Listing an die Boerse (NYSE: PLTR). Bewertung: ca. $16 Milliarden. [PERSON] besitzt ca. 7% (~$1,1 Mrd.). [FIRMA] arbeitet mit CIA, NSA, ICE, IDF zusammen.
+
+[H013] (2022) [spende] ($15,000,000)
+  [PERSON] spendet $15 Millionen an J.D. Vances erfolgreiche Senatskampagne in Ohio -- groesste Spende an einen einzelnen Kandidaten. Vance ist ehemaliger Angestellter von [PERSON]s Mithril Capital.
+
+[H014] (2022-02-07) [ruecktritt]
+  [PERSON] verlaesst nach 17 Jahren den Verwaltungsrat von [FIRMA]/[FIRMA], um sich auf Trump-Unterstuetzung und eigene Ventures zu konzentrieren. Er veraeussert grosse Teile seiner Anteile.
+
+[H015] (2023) [investition] ($100,000,000)
+  [FIRMA] investiert massiv in KI-Startups: [FIRMA] ($100+ Mio.), [FIRMA], [FIRMA], [FIRMA]. [PERSON] verfolgt Strategie: KI als militaerische/nationale Sicherheitstechnologie.

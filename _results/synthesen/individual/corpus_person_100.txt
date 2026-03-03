@@ -1,0 +1,131 @@
+=== DATENKORPUS PERSON-100 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2019-09-01, schriftlich)
+  "The Trump Administration made history by joining together with democracies in the world that share our common values when we signed an international consensus document on AI Principles at the OECD in Paris."
+  Kontext: Discussion of first international AI policy guidelines
+
+[A002] (2020-01-01, schriftlich)
+  "The National Artificial Intelligence Initiative Office will be integral to the Federal government's AI efforts for many years to come, serving as a central hub for national AI research and policy for the entire US innovation ecosystem."
+  Kontext: Announcement of National AI Initiative Office establishment
+
+[A003] (2020-09-01, schriftlich)
+  "A terrific example of a mistake that can be made where you try to create a one-size-fits-all regulatory regime, and ultimately you end up with less innovation."
+  Kontext: Contrasting US and EU AI regulatory approaches
+
+[A004] (2025-01-01, muendlich)
+  "The Action Plan very definitively turned the page on AI doomerism and hostility towards AI innovation that had been the hallmark of the Biden administration."
+  Kontext: Statement about Trump AI Action Plan vs Biden approach
+
+[A005] (2025-01-01, schriftlich)
+  "The CCP has made it very clear that they will use these technologies for their authoritarian objectives."
+  Kontext: Discussion on emerging technologies and strategic competition
+
+[A006] (2025-01-01, schriftlich)
+  "The EU stuff is particularly disappointing. American companies, like, over the barrel of a gun."
+  Kontext: Criticism of EU AI regulation at Davos
+
+[A007] (2025-03-01, schriftlich)
+  "The only way to do so will be to double down on what has made our history of innovation so great, the uniquely American free market approach to scientific discovery, which harnesses the combined strength of government, industry and academia."
+  Kontext: Confirmation hearing for OSTP director role
+
+[A008] (2025-03-01, schriftlich)
+  "Whenever I think about how you structure a national strategy around emerging tech, it typically falls on four pillars – one is R&D [research and development], one is on regulations, one is on international, and the fourth pillar is always workforce."
+  Kontext: Outlining strategic framework for emerging technologies
+
+[A009] (2025-04-01, schriftlich)
+  "The Trump Administration will unleash Federal resources to build out the data resources needed for an AI-powered future."
+  Kontext: On federal infrastructure for AI development
+
+[A010] (2025-04-15, schriftlich)
+  "To the degree it even tried to accomplish this, the Biden administration failed on its own terms, led by a spirit of fear rather than promise."
+  Kontext: Endless Frontiers Retreat in Austin, Texas
+
+[A011] (2025-04-15, schriftlich)
+  "After 30 years of subsidizing Chinese growth, it is time for us to stop helping a rival catch up with us in that race."
+  Kontext: Speech at Endless Frontiers Retreat in Austin
+
+[A012] (2025-04-15, schriftlich)
+  "Our technologies permit us to manipulate time and space. They leave distance annihilated, cause things to grow, and improve productivity."
+  Kontext: Speech on American technological capabilities
+
+[A013] (2025-04-15, schriftlich)
+  "The chief barrier to pushing the envelope again in transportation, whether supersonic aircraft or high-speed rail and flying cars, has been a regulatory regime opposed to innovation and development."
+  Kontext: On regulatory barriers to transportation innovation
+
+[A014] (2025-04-15, schriftlich)
+  "Throw off the burden of bad regulations that weigh down our innovators, and use federal resources to test, to deploy, and to mature emerging technologies."
+  Kontext: Call for deregulation and federal support
+
+[A015] (2025-04-16, schriftlich)
+  "Strict and simple export controls and know your customer rules, with an unapologetic America-first attitude about enforcing them, are central to stopping China from continuing to build itself up at our expense."
+  Kontext: Technology competition strategy
+
+[A016] (2025-07-01, schriftlich)
+  "President Trump's 'promote and protect' strategy for artificial intelligence is based on expanding the use of export controls while reforming them to better allow friends and allies to acquire U.S. technologies."
+  Kontext: Dual approach to AI export policy
+
+[A017] (2025-08-01, schriftlich)
+  "The highest end of semiconductors need to continue to be export controlled, not allowed into China, and that's important for our ability to maintain our leadership in this race."
+  Kontext: On semiconductor export controls to China
+
+[A018] (2025-09-01, schriftlich)
+  "The United States is being able to show that there is an alternative to that sort of precautionary principle-driven mode of AI regulation."
+  Kontext: US vs EU AI regulation philosophy
+
+[A019] (2025-09-01, schriftlich)
+  "A patchwork of state regulations is anti-innovation. It actually presents and gives more power to large technology companies that have armies of lawyers."
+  Kontext: House Science Committee AI hearing
+
+[A020] (2025-11-01, schriftlich)
+  "That's something that we're pushing a lot of the folks in the big data center companies to work on."
+  Kontext: Encouraging data center companies to build own energy supplies
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2010-01-01) [einstellung]
+  Joined [PERSON] Capital as principal and served as chief of staff to [PERSON] before entering Trump administration
+
+[H002] (2017-01-20) [einstellung]
+  Appointed as Deputy Assistant to the President for Technology Policy, later became 4th US Chief Technology Officer
+
+[H003] (2019-02-11) [produktlaunch]
+  Architected the American AI Initiative, the nation's first comprehensive AI strategy
+
+[H004] (2019-05-22) [politisch]
+  Led U.S. efforts to develop world's first intergovernmental AI policy guidelines at OECD in Paris
+
+[H005] (2019-08-01) [politisch]
+  Unanimously confirmed by U.S. Senate as Chief Technology Officer of the United States
+
+[H006] (2020-01-01) [gruendung]
+  Established the National AI Initiative Office at the White House as central hub for AI research and policy
+
+[H007] (2020-07-10) [einstellung]
+  Appointed Acting Under Secretary of Defense for Research and Engineering, 3rd highest Pentagon official
+
+[H008] (2020-08-01) [investition]
+  Spearheaded $1 billion program creating network of AI and quantum research institutes across US
+
+[H009] (2021-03-01) [einstellung]
+  Joined [FIRMA] as Managing Director and Head of Strategy after leaving Pentagon
+
+[H010] (2023-05-01) [einstellung]
+  Joined Foundation for American Innovation board as new member
+
+[H011] (2024-11-01) [einstellung]
+  Named to Trump White House transition team while at [FIRMA]
+
+[H012] (2024-12-22) [politisch]
+  Nominated by President-elect Trump as Director of Office of Science and Technology Policy
+
+[H013] (2025-01-20) [lobbying]
+  Promoted Trump's light-touch AI approach and criticized EU AI Act at World Economic Forum Davos
+
+[H014] (2025-03-25) [politisch]
+  Confirmed by U.S. Senate as OSTP Director in 74-25 vote, youngest person ever in role
+
+[H015] (2025-04-09) [politisch]
+  Led DOE identification of 16 federal sites for rapid AI data center construction

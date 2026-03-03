@@ -1,0 +1,959 @@
+========================================================================
+SYNTHESEEINHEIT: GA_10-16_AH
+Beschreibung: Epoche: Fruehphase KI (2010-2016)
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 98 Aussagen + 182 Handlungen = 280 gesamt
+Zeitraum Aussagen: 2010 bis 2016-12-30
+Zeitraum Handlungen: 2010 bis 2016-12-13
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (98 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2010, muendlich)
+  "Especially in technology, we need revolution, not evolution."
+  Kontext: Aeusserung im Kontext von Singularity University, die Page mitfinanziert hat.
+
+[A002] (2010-01-03, schriftlich)
+  "The next big thing will start out looking like a toy."
+  Kontext: Einflussreicher Essay über disruptive Technologien basierend auf Clayton Christensens Theorie
+
+[A003] (2010-03-23, muendlich)
+  "I am particularly troubled that this has occurred in China, as I spent some time as a child growing up in the Soviet Union. I was born in Moscow. I spent the first six years of my life there. I understand very much this kind of environment of totalitarianism and that's something I'm particularly sensitive to."
+  Kontext: Interview nach [FIRMA]s Rueckzug aus China (2010). [PERSON] macht seinen persoenlichen Hintergrund als Emigrant zum zentralen Grund.
+
+[A004] (2010-06-25, muendlich)
+  "In 300 years, we would like to become that company that makes the most contribution to human evolution -- the company that has greatest impact on humanity."
+  Kontext: [FIRMA] Shareholder Meeting, präsentierte seinen berühmten 300-Jahres-Plan
+
+[A005] (2010-06-25, muendlich)
+  "In 300 years time, chips planted inside or on our bodies will allow humans to communicate with one another, in any language, via telepathy. People will be able to communicate telepathically with dogs."
+  Kontext: 133-seitige Präsentation in Tokyo, Vision von Telepathie durch Gehirn-Chips
+
+[A006] (2010-06-25, muendlich)
+  "[FIRMA] might not be a mobile phone company anymore, but instead could be a telepathy service provider."
+  Kontext: Teil des 300-Jahres-Plans, Zukunftsvision des Geschäftsmodells
+
+[A007] (2010-11-15, muendlich)
+  "We want to build technology that everybody loves using, and that affects everyone. We want to create beautiful, intuitive services and technologies that are so incredibly useful that people use them twice a day. Like they use a toothbrush. There aren't that many things people use twice a day."
+  Kontext: Web 2.0 Summit Interview. [PERSON] spricht ueber [FIRMA]s Produktphilosophie und den Anspruch, unverzichtbare Technologie zu schaffen.
+
+[A008] (2011, schriftlich)
+  "We wanted flying cars, instead we got 140 characters."
+  Kontext: Manifesto der [FIRMA]-Website. [PERSON] kritisiert die Fokussierung auf triviale Software statt auf echte Innovation.
+
+[A009] (2011-08-20, schriftlich)
+  "In short, software is eating the world."
+  Kontext: Wegweisender Essay im Wall Street Journal, der die These aufstellt, dass Software alle Industrien transformieren wird.
+
+[A010] (2011-08-20, schriftlich)
+  "Six decades into the computer revolution, four decades since the invention of the microprocessor, and two decades into the rise of the modern Internet, all of the technology required to transform industries through software finally works and can be widely delivered at global scale."
+  Kontext: Erklaerung des historischen Moments, in dem Software-Skalierung moeglich wurde.
+
+[A011] (2012, muendlich)
+  "The most contrarian thing of all is not to oppose the crowd but to think for yourself."
+  Kontext: Aus [PERSON]s legendaerer [UNI]-Vorlesung 'Startup', die zur Grundlage von 'Zero to One' wurde.
+
+[A012] (2012, muendlich)
+  "Horizontal progress is globalization — taking things that work somewhere and making them work everywhere. Vertical progress is technology — doing new things."
+  Kontext: [PERSON]s Unterscheidung zwischen 1-to-n (Globalisierung) und 0-to-1 (Innovation) aus der CS183-Vorlesung.
+
+[A013] (2012, schriftlich)
+  "We believe strongly in supporting medical research, particularly in Parkinson's disease, which affects my family, and in fighting global poverty and supporting education."
+  Kontext: Artikel ueber die [PERSON] Wojcicki Foundation. [PERSON] spendet Millionen fuer Parkinson-Forschung (motiviert durch seine eigene Praedisposition).
+
+[A014] (2012-01-01, schriftlich)
+  "The goal is, how do you make networking have the properties of software systems as far as innovation, provisioning speed, and upgrade speed. You want networks to be as flexible and as agile as compute is."
+  Kontext: Explaining the vision behind software-defined networking
+
+[A015] (2012-04-15, muendlich)
+  "There are very powerful forces that have lined up against the open Internet on all sides and around the world. I am more worried than I have been in the past. It's scary. The threat to the freedom of the Internet comes from governments, entertainment industries, and restrictive walled gardens like [FIRMA] and [FIRMA]."
+  Kontext: Guardian-Interview 2012. [PERSON] aeussert sich ungewoehnlich politisch und kritisiert Zensur, Walled Gardens und Regierungseingriffe.
+
+[A016] (2012-06-20, schriftlich)
+  "When I bought Lāna'i, I publicly announced plans to transform the island into a model for environmental sustainability. I intend to invest as much as $500 million to improve the island's infrastructure and create an environmentally friendly agricultural industry."
+  Kontext: Ankündigung nach dem Kauf von 98% der hawaiianischen Insel Lanai
+
+[A017] (2012-06-26, muendlich)
+  "It basically invented the concept of a cat."
+  Kontext: [FIRMA] Brain Experiment - Neuronales Netz lernt Katzen in [FIRMA]-Videos zu erkennen ohne Labels
+
+[A018] (2012-06-27, muendlich)
+  "We want to make the world's information universally accessible and useful. Ultimately, I'd like information to come to me when I need it without having to take any action."
+  Kontext: Interview ueber [FIRMA] Glass. [PERSON] erklaert die Vision eines Computers, der Informationen vorausschauend liefert.
+
+[A019] (2012-07-23, schriftlich)
+  "My goal in creating Nicira was to change networking. It's very difficult to do that alone, and now I'm working with the best company in the world to make it happen."
+  Kontext: On VMware acquisition of Nicira
+
+[A020] (2012-12-01, muendlich)
+  "We need to get adoption first."
+  Kontext: Entscheidung 2012, Apache Spark als Open Source zu veröffentlichen statt sofort zu kommerzialisieren. Zeigt strategische Vision: Adoption vor Monetarisierung.
+
+[A021] (2012-12-11, muendlich)
+  "I would like to die working. I'm not saying I'd like to die at work—just that if I had to die, I'd like the transition to be a short one—to still be working. I don't have a sense that I'd like to stop working. I think I'd like to be 50 or 60 before I'd like that feeling to change."
+  Kontext: Fortune-Interview 2012. Page spricht ueberraschend offen ueber Tod und Vermaechtnis.
+
+[A022] (2012-12-11, muendlich)
+  "You know, I'd rather give my money to [PERSON] than to charity. He's going to make people's lives better. I don't think people necessarily appreciate the role of entrepreneurs in solving the world's toughest problems."
+  Kontext: Fortune 2012. Page verteidigt Unternehmertum gegenueber traditioneller Philanthropie.
+
+[A023] (2013, muendlich)
+  "One of the most exciting things about deep learning is that it's very good at learning features. You don't need to be an expert in the domain to build a pretty good computer vision system."
+  Kontext: Technischer Vortrag ueber Deep Learning. Ng erklaert warum Deep Learning ein Paradigmenwechsel ist.
+
+[A024] (2013-01, muendlich)
+  "We can probably save a million lives a year by having self-driving cars, just in terms of accident reduction. Think about all the people that get injured, all the emergency rooms, all the suffering, all the people that lose their loved ones."
+  Kontext: Konferenz zum [FIRMA] Self-Driving Car Project. [PERSON] praesentiert die Vision autonomer Fahrzeuge als humanitaeres Projekt.
+
+[A025] (2013-01-01, schriftlich)
+  "We calculate that if every Android user utilized [FIRMA]'s new voice search feature for just three minutes a day, the company would need to double its global data center capacity."
+  Kontext: Projektion die zur Entwicklung der TPU führte - Motivation für spezialisierte AI-Hardware
+
+[A026] (2013-01-17, muendlich)
+  "It's quite hard to get people to do things they don't have to do. I wish we had a situation where the people who are most able to do these things and have the resources can spend their time solving the biggest problems in the world."
+  Kontext: Wired-Interview 2013. Page reflektiert ueber die Rolle von Ressourcen und faehigen Menschen.
+
+[A027] (2013-01-17, muendlich)
+  "If you say you want to automate cars and save people's lives, the skills you need for that aren't taught in any particular discipline. I know it seems hard. But people are dying every day in car accidents. The faster we can make this happen, the better."
+  Kontext: Wired 2013. Page rechtfertigt [FIRMA]s Arbeit an selbstfahrenden Autos mit Leben-retten-Argument.
+
+[A028] (2013-02-17, schriftlich)
+  "The mind is not a vessel that needs filling, but wood that needs igniting."
+  Kontext: Quoting Plutarch on learning philosophy
+
+[A029] (2013-02-27, muendlich)
+  "The phone is very, very seductive, and it's very easy to just pull it out, check your email, check your messages. It's kind of emasculating. Is this glass half full or half empty? It's kind of socially isolating. It takes you away from the present."
+  Kontext: TED-Konferenz 2013, wo [PERSON] [FIRMA] Glass praesentiert und gegen Smartphones argumentiert.
+
+[A030] (2013-03-02, schriftlich)
+  "What the smartest people do on the weekend is what everyone else will do during the week in ten years."
+  Kontext: Blog-Post über Hobbys als Vorläufer zukünftiger Mainstream-Technologien
+
+[A031] (2013-05-15, muendlich)
+  "If you read the newspapers, it's like one in a million people does something bad. You read about it and you think, 'oh that's normal.' We need to reorient our thinking about the world. Negativity is not realism. It's like, you don't think about all the amazing people that are doing unbelievably positive things for humanity."
+  Kontext: [FIRMA] I/O 2013 Fireside Chat. Page verteidigt Technologie-Optimismus gegen Medien-Pessimismus.
+
+[A032] (2013-05-15, muendlich)
+  "You need to aim for something that's radical, transformative, and really powerful. And most of the time people would say that's not possible. That's exactly what you should be doing."
+  Kontext: [FIRMA] I/O 2013. Page erklaert die 'Moonshot'-Philosophie von [FIRMA] X.
+
+[A033] (2013-05-15, muendlich)
+  "We get tremendous trust from people. They give us their data. We know where they are. We know what they've searched for. We take protecting that data and people's privacy incredibly seriously."
+  Kontext: [FIRMA] I/O 2013. Page verteidigt [FIRMA]s Umgang mit Nutzerdaten nach den ersten Edward-Snowden-Enthuellungen.
+
+[A034] (2013-05-20, schriftlich)
+  "We're playing a long-term game."
+  Kontext: Statement on [FIRMA]'s business strategy and patience
+
+[A035] (2013-09-03, schriftlich)
+  "The values of The Post do not need changing. The paper's duty will remain to its readers and not to the private interests of its owners. We will continue to follow the truth wherever it leads."
+  Kontext: [PERSON] kauft die Washington Post fuer $250 Millionen und schreibt den Mitarbeitern einen Brief. Er verspricht redaktionelle Unabhaengigkeit.
+
+[A036] (2013-10-01, schriftlich)
+  "We need a ban on weapon systems that make the decision to apply violent force autonomously."
+  Kontext: Offener Brief im Oktober 2013 von ueber 270 Ingenieuren, Informatikern und KI-Experten. [PERSON] gehoert zu den Unterzeichnern.
+
+[A037] (2013-10-09, muendlich)
+  "Our vision is to take great courses from great universities and provide them to everyone around the world for free. We currently have about 450 courses from more than a hundred different countries."
+  Kontext: Vortrag bei TechCrunch Disrupt. Ng und [PERSON] erklaeren die [FIRMA]-Mission.
+
+[A038] (2013-11-11, schriftlich)
+  "The R-CNN approach combines two key insights: applying high-capacity convolutional neural networks (CNNs) to bottom-up region proposals to localize and segment objects, and using supervised pre-training for an auxiliary task followed by domain-specific fine-tuning."
+  Kontext: Seminal paper on R-CNN object detection method that won CVPR Longuet-Higgins Prize 2024
+
+[A039] (2014, muendlich)
+  "We're trying to do things that sound a little crazy, like making a car that drives itself or building a balloon-powered Internet. But we take a moonshot-style approach with one caveat: our problems all have to be huge. Millions and millions of people have to be affected by a problem before we tackle it."
+  Kontext: Artikel ueber [FIRMA] X. [PERSON] leitet das Moonshot-Labor und beschreibt die Philosophie hinter Projekten wie Loon und Waymo.
+
+[A040] (2014-01-01, schriftlich)
+  "Caffe is a deep learning framework made with expression, speed, and modularity in mind, and is developed by [UNI] AI Research (BAIR) and by community contributors. Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models."
+  Kontext: Official description of Caffe deep learning framework design philosophy
+
+[A041] (2014-01-01, schriftlich)
+  "I wish I still owned [FIRMA] now."
+  Kontext: Regretting 2006 sale to Condé Nast, site exceeded expectations
+
+[A042] (2014-03-01, muendlich)
+  "People think of rap lyrics as being only about money, women, status and cocaine, but more pervasive themes are leadership, collaboration and the vulnerability beneath the swagger — all relevant in business."
+  Kontext: Artikel über [PERSON]' Verbindung zwischen Hip-Hop-Kultur und Business-Leadership
+
+[A043] (2014-03-03, muendlich)
+  "The pace of change is so rapid with technology that regulation doesn't really work. By the time you regulate it, it's already changed or the technology doesn't work the way you thought it did."
+  Kontext: [PERSON] Ventures Conference 2014. Page kritisiert Regulierungspraxis im Tech-Bereich.
+
+[A044] (2014-03-04, schriftlich)
+  "Every time you make the hard, correct decision you become a bit more courageous, and every time you make the easy, wrong decision you become a bit more cowardly. If you are CEO, these choices will lead to a courageous or cowardly company."
+  Kontext: Zitat aus 'The Hard Thing About Hard Things' über Führungsqualitäten
+
+[A045] (2014-03-04, schriftlich)
+  "The hard thing isn't setting a big, hairy, audacious goal. The hard thing is laying people off when you miss the big goal. The hard thing isn't hiring great people. The hard thing is when those 'great people' develop a sense of entitlement."
+  Kontext: Kernaussage aus 'The Hard Thing About Hard Things' über die wahren Herausforderungen im Management
+
+[A046] (2014-03-06, muendlich)
+  "The simple goal was to energize women engineers and focus on personal and professional development. What started with 17 women grew to 1,800 members strong all over the world, with 12 chapters."
+  Kontext: Reflecting on founding and growth of QWISE at Qualcomm
+
+[A047] (2014-03-19, muendlich)
+  "The toothbrush test: Do you use it once or twice a day, and does it make your life better? We apply that to products we make."
+  Kontext: TED-Talk 2014, einer der letzten grossen oeffentlichen Auftritte von [PERSON]. Er erklaert [FIRMA]s Produktphilosophie.
+
+[A048] (2014-03-19, muendlich)
+  "We have a bit of a problem where most of the people are afraid of new technology in some way or another. I feel like the pace of change in the world is accelerating. We're not adapting fast enough, and we need more people working on these problems."
+  Kontext: TED 2014. Page aeussert sich ueberrascht ueber Technologie-Skepsis und fordert mehr Arbeit an KI-Problemen.
+
+[A049] (2014-09-16, schriftlich)
+  "Competition is for losers."
+  Kontext: Kernthese aus dem Buch 'Zero to One'. [PERSON] argumentiert, dass wahre Innovatoren Monopole schaffen, nicht konkurrieren.
+
+[A050] (2014-09-16, schriftlich)
+  "If you're starting a company, you always want to aim for monopoly and avoid competition. Hence, competition is for losers."
+  Kontext: [PERSON] elaboriert die Monopol-These: Erfolgreiche Unternehmen schaffen neue Kategorien statt in bestehenden Maerkten zu konkurrieren.
+
+[A051] (2014-09-16, schriftlich)
+  "A startup is the largest endeavor over which you can have definite mastery. You can have agency not just over your own life, but over a small and important part of the world. It begins by rejecting the unjust tyranny of Chance. You are not a lottery ticket."
+  Kontext: [PERSON] kontrastiert 'definite optimism' (planbare Zukunft) mit 'indefinite optimism' (Zukunft als Zufall).
+
+[A052] (2014-10-03, muendlich)
+  "After a bubble, when people invested and a lot of companies overpromised without providing serious analysis, it will bust. I am predicting that within a two- to five-year span, people will say the big-data thing came and went and died."
+  Kontext: IEEE Spectrum interview, predicting bubble burst due to overpromising without analysis
+
+[A053] (2014-10-03, muendlich)
+  "Cycles of excessive hype—assertions not based on understanding real problems or acknowledging that solving them would take decades—will be followed by a period when it would be very hard to get resources for data analysis."
+  Kontext: Warning about consequences of unrealistic promises
+
+[A054] (2014-10-31, muendlich)
+  "The idea that everyone should slavishly work so they do something inefficiently so they keep their job – that just doesn't make any sense to me. That can't be the right answer."
+  Kontext: Financial Times Interview 2014. Page diskutiert Automatisierung, KI und die Zukunft der Arbeit.
+
+[A055] (2014-10-31, muendlich)
+  "Most people like working, but they'd also like to have more time with their family or to pursue their own interests. So that would be one way to deal with the problem – spread the work around a little bit more."
+  Kontext: FT 2014. Page schlaegt Arbeitszeitverkuerzung als Loesung fuer Automatisierung vor.
+
+[A056] (2015, muendlich)
+  "AI will probably most likely lead to the end of the world, but in the meantime, there'll be great companies."
+  Kontext: Informelle Aeusserung waehrend der Y-Combinator-Zeit, ca. 2015. Wird oft ohne Kontext oder Datum geteilt.
+
+[A057] (2015, muendlich)
+  "I'm looking into parabiosis stuff, which I think is really interesting. This is where they did the young blood into older mice and they found that had a massive rejuvenating effect."
+  Kontext: Interview zu seinen Investitionen in Life Extension. [PERSON] nennt Parabiose-Forschung 'wirklich interessant'.
+
+[A058] (2015, muendlich)
+  "It's not a failure if you learn something. We always look at things and say, 'What did we learn from that?' Whether it's Glass, or whether it's any other project."
+  Kontext: Interview ueber die Kultur bei [FIRMA] X. [PERSON] verteidigt gescheiterte Projekte wie [FIRMA] Glass als wertvolle Lernerfahrungen.
+
+[A059] (2015-01-01, schriftlich)
+  "We recommend expanded research aimed at ensuring that increasingly capable AI systems are robust and beneficial."
+  Kontext: Open letter drafted by Russell calling for AI safety research, signed by thousands including leading AI researchers
+
+[A060] (2015-01-01, schriftlich)
+  "If there is one thing that I learned about developing new technology it's that you can't give things away. If it's totally new, you have to sell it. People don't attach value to things that are free. That's why I became an entrepreneur."
+  Kontext: On lessons learned from developing OpenFlow and founding Nicira
+
+[A061] (2015-01-01, schriftlich)
+  "More than a billion people use the Internet, yet only a tiny fraction contribute their knowledge to it."
+  Kontext: Quote on knowledge-sharing participation gap
+
+[A062] (2015-01-01, schriftlich)
+  "You have to get comfortable giving up control, and you find people who do things better than you do."
+  Kontext: Leadership philosophy on delegation and hiring
+
+[A063] (2015-03, muendlich)
+  "We decided to do something that very few people had dared to do at the time. We're going to map out the entire world of objects. We started from babies. We thought, we're going to teach the computer to see objects just like a child learns."
+  Kontext: TED Talk 2015, in dem Li die Entstehung von ImageNet und die Vision von Computer Vision erklaert.
+
+[A064] (2015-03, muendlich)
+  "Nobody told us that a critical step in teaching computers how to see is to teach them to see through a lot of training data and examples. This is a crucial insight."
+  Kontext: Im gleichen TED Talk erklaert Li, warum ImageNet so viele Bilder benoetigte.
+
+[A065] (2015-03-01, muendlich)
+  "This research makes cars potentially safer and more agile. When computers can recognize their surroundings, it makes them more perceptive and able to react properly to other cars, pedestrians, and objects in their environment, and be robust to unexpected situations."
+  Kontext: Discussing [UNI] DeepDrive research on autonomous vehicle perception and safety
+
+[A066] (2015-03-24, schriftlich)
+  "I don't work on preventing AI from turning evil for the same reason that I don't work on combating overpopulation on Mars."
+  Kontext: Zitiert in der Washington Post. Ng lehnt existenzielle KI-Risiko-Diskussionen ab.
+
+[A067] (2015-05-13, muendlich)
+  "I think AI is akin to building a rocket ship. You need a huge engine and a lot of fuel. The rocket engine is the learning algorithms but the fuel is the huge amounts of data we can feed to these algorithms."
+  Kontext: Interview mit WIRED ueber Deep Learning und Baidu. Ng betont die zentrale Rolle von Daten.
+
+[A068] (2015-05-13, muendlich)
+  "At Baidu, we're building AI into every product. Our goal is to make Baidu the leading AI company, not just in China but globally."
+  Kontext: WIRED Interview waehrend seiner Zeit als Chief Scientist bei Baidu.
+
+[A069] (2015-05-27, schriftlich)
+  "Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction."
+  Kontext: Beruhmter Nature-Artikel von [PERSON], [PERSON] und [PERSON], der Deep Learning einem breiten wissenschaftlichen Publikum erklaert.
+
+[A070] (2015-07-01, schriftlich)
+  "Starting a military AI arms race is a bad idea."
+  Kontext: Open letter on autonomous weapons calling for ban, signed by 4,667 AI researchers
+
+[A071] (2015-07-01, schriftlich)
+  "Robots would not be restrained by human compassion, which can provide an important check on the killing of civilians."
+  Kontext: Statement in campaign against lethal autonomous weapons
+
+[A072] (2015-10-01, muendlich)
+  "Privacy is a fundamental human right. At [FIRMA], respect for privacy — and a healthy suspicion of authority — have always been in our bloodstream."
+  Kontext: [PERSON] im NPR-Interview ueber [FIRMA]s Datenschutz-Philosophie.
+
+[A073] (2015-11-09, muendlich)
+  "With TensorFlow, when we started to develop it, we kind of looked at ourselves and said: Hey, maybe we should open source this."
+  Kontext: Über die Entscheidung, TensorFlow als Open Source zu veröffentlichen
+
+[A074] (2015-12-01, schriftlich)
+  "Our mission is to cure, prevent, or manage all diseases by the end of the century."
+  Kontext: Mission Statement der Chan [PERSON] Initiative, die mit 99% des [FIRMA]-Vermoegens ausgestattet wurde.
+
+[A075] (2016-01-01, schriftlich)
+  "Technology will replace 80 percent of what doctors do."
+  Kontext: [PERSON]s berühmtes Paper "20 Percent Doctor Included" über die Zukunft der Medizin
+
+[A076] (2016-01-01, muendlich)
+  "The ImpaQt blueprint consists of three phases—Ideation, Review and Prototyping—and the program engages the entire employee population, with those who come up with workable ideas remaining involved in their projects all the way through to fruition, creating and nurturing a culture of innovation and collaboration."
+  Kontext: Describing Qualcomm ImpaQt innovation incubator structure
+
+[A077] (2016-01-01, schriftlich)
+  "In one widely cited paper from 2016, we considered the idealized case of two cars, one driven by a person and another by a computer program, and developed a model for how humans drive based on people's behavior in a video-game-like simulation."
+  Kontext: Early influential research on autonomous vehicle interaction
+
+[A078] (2016-01-04, schriftlich)
+  "We build a multi-source machine translation model trained to maximize the probability of a target English string given French and German sources."
+  Kontext: Describing approach to neural machine translation using multiple source languages simultaneously
+
+[A079] (2016-03-21, muendlich)
+  "We need to decide as a nation how much power the government should have over our data and over our privacy. We have a responsibility to protect your data and your privacy. We will not shrink from this responsibility."
+  Kontext: [PERSON] zur FBI-Aufforderung, das iPhone des San Bernardino-Attentaeters zu entschluesseln.
+
+[A080] (2016-04-01, schriftlich)
+  "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1."
+  Kontext: In seinem vielleicht beruehmtesten Shareholder Letter definiert [PERSON] 'Day 1' vs. 'Day 2' und etabliert die 'Day 1 Mentalitaet' als Philosophie gegen organisatorische Sklerose.
+
+[A081] (2016-04-01, schriftlich)
+  "There are many ways to center a business. You can be competitor focused, you can be product focused, you can be technology focused, you can be business model focused, and there are more. But in my view, obsessive customer focus is by far the most protective of Day 1 vitality."
+  Kontext: [PERSON] identifiziert vier Faktoren, die Day 1-Vitalitaet bewahren. Customer Obsession steht an erster Stelle.
+
+[A082] (2016-04-01, schriftlich)
+  "As companies get larger and more complex, there's a tendency to manage to proxies. This comes in many shapes and sizes, and it's dangerous, subtle, and very Day 2."
+  Kontext: Zweiter Day-1-Faktor: Widerstand gegen Proxy-Management. [PERSON] meint damit, Prozesse mit Zielen zu verwechseln.
+
+[A083] (2016-04-01, schriftlich)
+  "Day 2 companies make high-quality decisions, but they make high-quality decisions slowly. To keep the energy and dynamism of Day 1, you have to somehow make high-quality, high-velocity decisions."
+  Kontext: Vierter Day-1-Faktor: Schnelle, hochwertige Entscheidungen. [PERSON] beschreibt Techniken wie 'disagree and commit' und 'two-way doors'.
+
+[A084] (2016-04-07, schriftlich)
+  "Transfer learning significantly improves BLEU scores across a range of low-resource languages by an average of 5.6 BLEU."
+  Kontext: Presenting results on using transfer learning to improve neural machine translation for languages with limited training data
+
+[A085] (2016-05-18, muendlich)
+  "We've been running TPUs inside our data centers for more than a year, and have found them to deliver an order of magnitude better performance per watt for machine learning."
+  Kontext: [PERSON] Keynote [FIRMA] I/O 2016 - Erste öffentliche Ankündigung der Tensor Processing Units
+
+[A086] (2016-05-25, muendlich)
+  "It's less about revenge and more about specific deterrence. I saw Gawker pioneer a unique and incredibly damaging way of getting attention by bullying people even when there was no connection to the public interest."
+  Kontext: [PERSON] gibt zu, Hulk Hogans Prozess gegen Gawker finanziert zu haben -- Gawker geht in Konkurs.
+
+[A087] (2016-06-01, muendlich)
+  "We are willing to be misunderstood for long periods of time. We are long-term oriented, and we are willing to make bets that may not pay off for five to seven years."
+  Kontext: Code Conference Interview. [PERSON] verteidigt [FIRMA]s Investitionsstrategie und niedrige Margen.
+
+[A088] (2016-06-01, schriftlich)
+  "On GitHub he contributed a core TensorFlow implementation of [FIRMA]'s WaveNet—adding dilated convolutions, mu-law encoding/decoding, CLI, logging and other production features—showing attention to both model design and engineering."
+  Kontext: Description of open source contributions to deep learning community
+
+[A089] (2016-07-21, muendlich)
+  "I am proud to be gay. I am proud to be a Republican. But most of all I am proud to be an American."
+  Kontext: Erster offen schwuler Redner bei einer Republican National Convention.
+
+[A090] (2016-07-21, muendlich)
+  "Instead of going to Mars, we have invaded the Middle East. We don't need to see Hillary Clinton's deleted emails: her incompetence is in plain sight."
+  Kontext: [PERSON] attackiert das politische Establishment und positioniert Trump als Wandel.
+
+[A091] (2016-08-01, muendlich)
+  "I've always had this really strong sense that death was a terrible, terrible thing. I think that's somewhat unusual. Most people end up compartmentalizing, and they are in some weird mode of denial and acceptance about death, but they both have the result of not doing anything about it."
+  Kontext: [PERSON] spricht offen ueber seine Life Extension-Investments und seinen Kampf gegen das Altern.
+
+[A092] (2016-10-15, muendlich)
+  "The media always takes Trump literally. It never takes him seriously, but it always takes him literally. I think a lot of the voters who vote for Trump take Trump seriously but not literally."
+  Kontext: Interview mit der New York Times, in dem [PERSON] seine Trump-Unterstuetzung erklaert.
+
+[A093] (2016-10-31, muendlich)
+  "I think there are a lot of people who want to see a conservative government, but they think Trump would be too much. But I think it's actually Trump that's too little, not too much."
+  Kontext: TechCrunch Disrupt 2016. [PERSON] verteidigt seine Unterstuetzung Trumps gegenueber einem kritischen Silicon Valley.
+
+[A094] (2016-11-01, muendlich)
+  "Zero percent of the world knows about VR."
+  Kontext: Interview on VR adoption challenges
+
+[A095] (2016-11-01, schriftlich)
+  "Despite their success, neural networks are still hard to design."
+  Kontext: From the abstract of [PERSON] & Le's foundational NAS paper, describing motivation for automating neural architecture design
+
+[A096] (2016-11-01, schriftlich)
+  "On the CIFAR-10 dataset, our algorithm can design a novel network architecture that rivals the best human-invented architecture in terms of test set accuracy."
+  Kontext: Describing results from Neural Architecture Search using reinforcement learning, demonstrating that automated design can match human experts
+
+[A097] (2016-11-24, schriftlich)
+  "As the CEO, I shouldn't play such games, and it's all fixed now."
+  Kontext: Apologizing for secretly editing user comments criticizing him
+
+[A098] (2016-12-30, muendlich)
+  "I'm a big fan of open source. I think the more people have access to AI tools, the more innovation we'll see. Open source has been a huge driver of AI progress."
+  Kontext: Forbes-Interview. Ng betont die Rolle von Open Source fuer KI-Demokratisierung.
+
+------------------------------------------------------------------------
+HANDLUNGEN (182 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2010) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] und Shane Legg [FIRMA] Technologies in London mit dem Ziel, 'AGI sicher und ethisch zu bauen'. Sie schreiben den Businessplan im Sommer 2010 und pitchen ihn im Silicon Valley.
+
+[H002] (2010) [produktlaunch]
+  [PERSON] und ihr Team lancieren die ImageNet Large Scale Visual Recognition Challenge (ILSVRC), einen jaehrlichen Wettbewerb fuer Computer-Vision-Algorithmen. Der Wettbewerb wird zum Standard-Benchmark der KI-Community.
+
+[H003] (2010-01-01) [sonstiges]
+  Elected member of National Academy of Engineering for contributions to the foundations and applications of machine learning.
+
+[H004] (2010-01-01) [gruendung]
+  Co-founded [UNI] Artificial Intelligence Research (BAIR) Lab at UC [UNI], one of the world's premier AI research laboratories bringing together researchers in computer vision, machine learning, natural language processing, planning, and robotics.
+
+[H005] (2010-01-01) [gruendung]
+  Co-founded Greplin (later renamed Cue), a personal search engine startup that indexed users' online data, at age 19
+
+[H006] (2010-01-01) [sonstiges]
+  Worked at NYU under [PERSON] on deep learning, robotics, pedestrian detection, and OCR
+
+[H007] (2010-01-01) [einstellung]
+  Joined [PERSON] Capital as principal and served as chief of staff to [PERSON] before entering Trump administration
+
+[H008] (2010-08-01) [gruendung]
+  Co-founded Hipmunk travel search startup with Adam Goldstein as CTO
+
+[H009] (2010-09-01) [gruendung]
+  [PERSON] gruendet [FIRMA] Technologies in London zusammen mit Shane Legg und [PERSON]. Die Vision: KI-Systeme entwickeln, die so allgemein und flexibel sind wie die menschliche Intelligenz.
+
+[H010] (2010-10-06) [gruendung]
+  Co-founded [FIRMA] with Kevin Systrom. The photo-sharing app launched on App Store on October 6, 2010, reaching 25,000 users on first day and 1 million users within three months.
+
+[H011] (2011) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] das [FIRMA] Brain-Projekt, [FIRMA]s Deep-Learning-Forschungsinitiative. Das Projekt entwickelt DistBelief, einen Vorgaenger von TensorFlow.
+
+[H012] (2011) [gruendung]
+  [PERSON] startet die [PERSON] Fellowship: $100.000 fuer Studenten unter 23, die das College abbrechen, um an eigenen Projekten zu arbeiten. [PERSON] kritisiert Universitaeten als 'Bildungsblase'.
+
+[H013] (2011-01-01) [gruendung]
+  Mitgründung von [FIRMA] Brain zusammen mit [PERSON] und Greg Corrado - Deep Learning AI Research Team
+
+[H014] (2011-01-01) [gruendung]
+  Co-directed AMPLab (Algorithms, Machines and People Lab) at UC [UNI] with Michael Franklin and Ion Stoica. The lab was officially launched in 2011 and awarded NSF CISE Expeditions in Computing grant in 2012. AMPLab created Apache Spark, Apache Mesos, and Alluxio, influential big data technologies.
+
+[H015] (2011-01-01) [investition]
+  Made early angel investments in Uber, Instacart, Figma, GitHub, Airtable, Rippling, and Coinbase
+
+[H016] (2011-01-01) [sonstiges]
+  Elected to National Academy of Engineering
+
+[H017] (2011-01-01) [sonstiges]
+  Maintained EBLearn C++ based Deep Learning Framework pre-2012
+
+[H018] (2011-03-01) [investition]
+  Received $4 million Series A investment from [FIRMA] Capital for Greplin, becoming one of [FIRMA]'s youngest founders at age 19
+
+[H019] (2011-04-04) [einstellung]
+  [PERSON] wird wieder CEO von [FIRMA], Eric Schmidt wird Executive Chairman. Page kuendigt Fokus auf 'fewer, bigger bets' an und reorganisiert [FIRMA] radikal.
+
+[H020] (2011-05-16) [gruendung]
+  Co-founded Xamarin with Miguel de Icaza to continue Mono project development after Novell layoffs
+
+[H021] (2011-05-19) [produktlaunch]
+  [FIRMA] Boersengang (IPO), [PERSON]s Anteil war $2,34 Milliarden wert. Successful IPO made [FIRMA] one of the most valuable social networks.
+
+[H022] (2011-08-24) [einstellung]
+  [PERSON] wird zum CEO von [FIRMA] ernannt, Nachfolger von Steve Jobs
+
+[H023] (2011-11-01) [verkauf]
+  Verkauf von Hunch an eBay für 80 Millionen US-Dollar
+
+[H024] (2011-12-01) [investition] ($50,000,000)
+  [FIRMA] schliesst Serie-A-Finanzierung ueber $50 Millionen ab. Investoren: [FIRMA] ([PERSON]), Horizons Ventures (Li Ka-shing), [PERSON] und Scott Banister.
+
+[H025] (2012) [gruendung]
+  [PERSON] gruendet zusammen mit seinen Doktoranden Alex Krizhevsky und [PERSON] das Startup DNNresearch Inc., nachdem ihr AlexNet-Modell 2012 die ImageNet-Challenge gewann.
+
+[H026] (2012) [gruendung]
+  [PERSON] wird der gruendende Direktor des NYU Center for Data Science, einem der ersten universitaeren Data-Science-Programme in den USA.
+
+[H027] (2012) [lobbying]
+  [PERSON] und [PERSON] spendet persoenlich Millionen an politische Kampagnen, hauptsaechlich an Demokraten und Kandidaten, die Technologie-freundliche Politik unterstuetzen. [FIRMA]/[FIRMA] wird einer der groessten Lobbying-Akteure in Washington.
+
+[H028] (2012-01-01) [sonstiges]
+  ACM-Infosys Foundation Award - Auszeichnung für bedeutende Beiträge zur Informatik
+
+[H029] (2012-01-01) [sonstiges]
+  Received ACM Grace Murray Hopper Award (shared with Dina Katabi) for inventing software-defined networking (SDN), including OpenFlow API, OpenVswitch, and NOX/ONIX controllers
+
+[H030] (2012-01-01) [gruendung]
+  Co-founded [FIRMA] with [PERSON], online education platform that reached over 100 million learners worldwide
+
+[H031] (2012-02-01) [einstellung]
+  Joined [FIRMA] as software engineer
+
+[H032] (2012-03-19) [umstrukturierung] ($10,000,000,000)
+  [FIRMA] kuendigt erste Dividende seit 1995 und 10-Mrd.-Dollar-Aktienrueckkauf an
+
+[H033] (2012-04-09) [kauf] ($1,000,000,000)
+  [FIRMA] uebernimmt [FIRMA] fuer $1 Milliarde in bar und Aktien. [FIRMA] hatte zu diesem Zeitpunkt 13 Mitarbeiter und 30 Millionen Nutzer.
+
+[H034] (2012-04-09) [verkauf] ($1,000,000,000)
+  [FIRMA] acquired by [FIRMA] for $1 billion. [PERSON] served as CTO and scaled engineering team to over 450 people, helping grow platform to more than 1 billion monthly users.
+
+[H035] (2012-04-18) [gruendung] ($16,000,000)
+  [PERSON] und [PERSON] gruenden [FIRMA], eine Online-Lernplattform, die Kurse von Top-Universitaeten kostenlos oder zu niedrigen Kosten anbietet. [FIRMA] startet mit einem $16 Mio. Investment von Kleiner Perkins und New Enterprise Associates.
+
+[H036] (2012-05-01) [investition]
+  Personally invested $20 million in [FIRMA] as part of Series B funding
+
+[H037] (2012-05-14) [sonstiges]
+  [PERSON] repraesentiert die University of Warsaw beim International Collegiate Programming Contest (ICPC) und gewinnt eine Goldmedaille. Sein Team erreicht den zweiten Platz weltweit.
+
+[H038] (2012-05-18) [produktlaunch] ($104,000,000,000)
+  [FIRMA] geht an die Boerse mit einer Bewertung von $104 Milliarden -- zu diesem Zeitpunkt der groesste Tech-IPO der Geschichte. [PERSON] behaelt Kontrolle durch spezielle Aktienklassen.
+
+[H039] (2012-06-12) [sonstiges] ($100,000)
+  [PERSON] erhaelt das [PERSON] Fellowship mit 19 Jahren. Er fokussiert sich auf 3D-Druck zur Reduktion von Knappheit, mit dem Ziel, jedem mit einem 3D-Drucker zu ermoeglichen, Bildungshilfen, wissenschaftliche Grundausstattung und Werkzeuge herzustellen.
+
+[H040] (2012-06-20) [kauf] ($300,000,000)
+  Kauf von 98% der hawaiianischen Insel Lanai, um sie in ein Modell für ökologische Nachhaltigkeit zu verwandeln
+
+[H041] (2012-06-25) [verkauf] ($1,200,000,000)
+  [FIRMA] akquirierte Yammer fuer 1,2 Milliarden Dollar in bar. Dies war einer der schnellsten Unicorn-Exits im SaaS-Bereich und etablierte [PERSON] als erfolgreichen Serial Entrepreneur.
+
+[H042] (2012-06-26) [sonstiges]
+  [PERSON] und das [FIRMA] Brain Team veroeffentlichen die beruehmt gewordene Studie, in der ein neuronales Netz mit 16.000 Prozessoren lernt, Katzen in [FIRMA]-Videos zu erkennen -- ohne vorher mit gelabelten Daten trainiert worden zu sein (unsupervised learning).
+
+[H043] (2012-06-27) [produktlaunch]
+  [PERSON] stellt [FIRMA] Glass oeffentlich vor -- eine Augmented-Reality-Brille. Er traegt sie persoenlich bei oeffentlichen Events, inklusive einem spektakulaeren Fallschirmsprung-Stunt bei der [FIRMA] I/O 2012.
+
+[H044] (2012-06-30) [sonstiges] ($10,000)
+  [PERSON] gewinnt die globale Meisterschaft des [FIRMA] Code Jam 2012 und erhaelt $10,000 Preisgeld. Er toppte die Charts des weltweit fuehrenden Programmierwettbewerbs.
+
+[H045] (2012-07-23) [verkauf]
+  Nicira acquired by VMware for $1.26 billion ($1.05 billion in cash and $210 million in assumed unvested equity awards), becoming one of the largest acquisitions in networking history
+
+[H046] (2012-08-01) [einstellung]
+  Joined VMware as Fellow and CTO for Networking and Security, General Manager of Networking and Security Business Unit after Nicira acquisition
+
+[H047] (2012-08-27) [sonstiges]
+  Beförderung zum Senior Vice President Software Engineering - Verantwortung für iOS und macOS
+
+[H048] (2012-09-30) [sonstiges]
+  [PERSON]s Team (Krizhevsky, [PERSON], [PERSON]) gewinnt die ImageNet Large Scale Visual Recognition Challenge 2012 mit AlexNet, einem tiefen neuronalen Netz. Die Top-5-Fehlerrate von 15.3% uebertrifft die Konkurrenz um 10.8 Prozentpunkte -- ein historischer Durchbruch.
+
+[H049] (2012-09-30) [produktlaunch]
+  [PERSON], Alex Krizhevsky und [PERSON] entwickeln AlexNet, das die ImageNet LSVRC-2012-Konkurrenz mit grossem Vorsprung gewinnt. Dies loest die Deep-Learning-Revolution aus.
+
+[H050] (2012-11-01) [investition]
+  Raised $10 million from Index Ventures for Cue after rebranding from Greplin
+
+[H051] (2012-11-19) [einstellung]
+  Beitritt zu [FIRMA] ([FIRMA]) als General Partner
+
+[H052] (2013-01) [einstellung]
+  [PERSON] wird Direktorin des [UNI] Artificial Intelligence Laboratory (SAIL), einem der aeltesten und renommiertesten KI-Forschungslabore der Welt.
+
+[H053] (2013-01-01) [einstellung]
+  Senior Product Manager bei [FIRMA] für Model X und Autopilot (2013-2016)
+
+[H054] (2013-01-01) [investition]
+  Investition in Instacart (Online-Lebensmittellieferung)
+
+[H055] (2013-01-01) [gruendung]
+  Mitgründung von [FIRMA] als einer von sieben Co-Founders ('Apache Spark Seven') zusammen mit Ion Stoica, Matei Zaharia, Patrick Wendell, Reynold Xin, Andy Konwinski und Arsalan Tavakoli-Shiraji
+
+[H056] (2013-01-01) [gruendung]
+  Co-founded Vettery, a talent marketplace matching job seekers with employers needing technical expertise
+
+[H057] (2013-01-01) [umstrukturierung]
+  Led product management and design for Gmail, [FIRMA] Drive, [FIRMA] Docs, and [FIRMA] Apps for Enterprise (Workspace)
+
+[H058] (2013-01-01) [einstellung]
+  Joined [FIRMA] Partners as venture capitalist, later becoming youngest General Partner
+
+[H059] (2013-03-12) [verkauf] ($44,000,000)
+  [FIRMA] erwirbt DNNresearch Inc. fuer $44 Millionen nach einer Auktion, an der auch Baidu, [FIRMA] und [FIRMA] teilnahmen. [PERSON], Krizhevsky und [PERSON] treten [FIRMA] Brain bei.
+
+[H060] (2013-03-12) [einstellung]
+  [PERSON] tritt [FIRMA] Brain bei und wird Vice President und Engineering Fellow. Er arbeitet in Teilzeit (spaeter 50%, dann 20%) parallel zu seiner Professur in [UNI].
+
+[H061] (2013-03-12) [verkauf] ($44,000,000)
+  [FIRMA] erwirbt das AlexNet-Team ([PERSON], [PERSON], Alex Krizhevsky) fuer $44 Millionen und weist sie [FIRMA] Brain zu.
+
+[H062] (2013-03-15) [kauf]
+  Aldebaran Robotics Übernahme (später [FIRMA] Robotics) - Entwicklung des humanoiden Roboters [PRODUKT-ROBOTER]
+
+[H063] (2013-06-01) [investition]
+  Led [FIRMA]'s seed investment in Figma when it was a seed-stage startup
+
+[H064] (2013-06-01) [sonstiges]
+  Conducted research at CERN LHCb experiment while studying physics at TU Dortmund
+
+[H065] (2013-06-14) [gruendung]
+  [PERSON] unterstuetzt die Entwicklung von Project Loon in [FIRMA] X: ein Netzwerk von Stratosphaeren-Ballons zur Bereitstellung von Internet in abgelegenen Gebieten. Erste Tests in Neuseeland.
+
+[H066] (2013-08-05) [kauf] ($250,000,000)
+  [PERSON] kauft die Washington Post fuer $250 Millionen als Privatperson (nicht durch [FIRMA]). Er uebernimmt die angeschlagene Zeitung und verspricht Investitionen in digitalen Journalismus.
+
+[H067] (2013-09-18) [gruendung]
+  [PERSON] gruendet Calico (California Life Company), ein Biotech-Unternehmen mit dem Ziel, Altern zu bekaempfen und Lebensspanne zu verlaengern. CEO wird Arthur Levinson (Ex-Genentech, [FIRMA]-Boardmember). Finanzierung durch [FIRMA]/[FIRMA].
+
+[H068] (2013-10) [einstellung]
+  Joined [FIRMA] Brain as Senior Software Engineer
+
+[H069] (2013-10-01) [politisch]
+  [PERSON] unterzeichnet einen offenen Brief von ueber 270 Ingenieuren und KI-Experten, der ein Verbot autonomer Waffensysteme fordert, die ohne menschliche Kontrolle ueber Gewaltanwendung entscheiden.
+
+[H070] (2013-10-01) [produktlaunch]
+  Released [UNI] Sentiment Treebank, the first corpus with fully labeled parse trees for sentiment analysis (215,154 phrases from 11,855 sentences)
+
+[H071] (2013-10-01) [verkauf]
+  Sold Cue to [FIRMA] for $40-60 million and joined [FIRMA] as Director of Machine Learning
+
+[H072] (2013-10-01) [einstellung]
+  Joined [FIRMA] as Director leading artificial intelligence and machine learning initiatives across iOS, OS X, and other platforms
+
+[H073] (2013-12-09) [gruendung]
+  [PERSON] tritt [FIRMA] bei und gruendet [FIRMA] AI Research (FAIR) als Director. Unter seiner Fuehrung wird FAIR zu einem der fuehrenden industriellen KI-Forschungslabore weltweit mit Standorten in Menlo Park, New York, Paris und [UNI].
+
+[H074] (2013-12-19) [produktlaunch]
+  [FIRMA] veroeffentlicht bahnbrechende Forschung: Ein Deep Q-Network (DQN) lernt, Atari-Spiele auf uebermenschlichem Niveau zu spielen, allein durch Beobachtung der Pixel.
+
+[H075] (2014) [einstellung]
+  [PERSON] wird zum CIFAR Senior Fellow und Co-Director des Learning in Machines & Brains Program ernannt.
+
+[H076] (2014-01) [verkauf] ($650,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer ca. 400 Millionen Pfund (ca. $650 Mio.) -- die zu diesem Zeitpunkt groesste [FIRMA]-Akquisition in Europa. [PERSON] wird Head of Applied AI bei [FIRMA].
+
+[H077] (2014-01-01) [investition]
+  Investition in DoorDash (Essenslieferung)
+
+[H078] (2014-01-01) [investition]
+  Investition in Affirm (Fintech Buy-Now-Pay-Later)
+
+[H079] (2014-01-01) [investition]
+  Führte [FIRMA] Investitionen in Coinbase - insgesamt fast 50 Millionen US-Dollar in Bitcoin-bezogene Projekte bis 2014
+
+[H080] (2014-01-01) [produktlaunch]
+  Released [UNI] CoreNLP as open source software suite providing extensive NLP tools and models for research and commercial use
+
+[H081] (2014-01-01) [gruendung]
+  Co-founded Gradescope with Arjun Singh, Sergey Karayev, and Ibrahim Awwal to use AI for streamlined grading in education
+
+[H082] (2014-01-01) [produktlaunch]
+  Released Caffe deep learning framework as open-source software, developed by Yangqing Jia in [PERSON]'s lab at UC [UNI]. Caffe quickly became one of the most widely used platforms for deep learning, particularly in computer vision applications.
+
+[H083] (2014-01-01) [einstellung]
+  Became Partner at [FIRMA], focusing on startups in government and defense technology sectors
+
+[H084] (2014-01-26) [verkauf] ($500,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer geschaetzt $400-650 Millionen. Groesste europaeische Tech-Akquisition von [FIRMA] zu diesem Zeitpunkt. [FIRMA] wird Tochterunternehmen von [FIRMA].
+
+[H085] (2014-01-26) [kauf] ($500,000,000)
+  [FIRMA] kauft das britische KI-Startup [FIRMA] fuer geschaetzt $500-650 Millionen. [FIRMA]-Gruender [PERSON] besteht auf Ethik-Board. Die Akquisition signalisiert Pages langfristige KI-Vision.
+
+[H086] (2014-02-01) [gruendung]
+  Co-founded Nervana Systems, a deep learning chip startup focused on AI accelerators for data centers
+
+[H087] (2014-02-04) [einstellung]
+  [PERSON] wird der dritte CEO von [FIRMA] und loest Steve Ballmer ab. Er tritt die Nachfolge von Bill Gates und Steve Ballmer an.
+
+[H088] (2014-02-19) [kauf] ($19,000,000,000)
+  [FIRMA] uebernimmt [FIRMA] fuer $19 Milliarden -- zu diesem Zeitpunkt die groesste Uebernahme eines VC-finanzierten Startups. [FIRMA] hatte 55 Mitarbeiter und 450 Millionen Nutzer.
+
+[H089] (2014-02-21) [einstellung]
+  [PERSON] wird Praesident von [FIRMA] und loest Paul Graham ab. Unter seiner Fuehrung foerdert YC ca. 1.900 Startups, darunter Airbnb, DoorDash, [FIRMA] und Twitch.
+
+[H090] (2014-03-04) [produktlaunch]
+  Publikation des Management-Buches 'The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers' - wurde zum Bestseller und Standardwerk für Startup-Gründer
+
+[H091] (2014-03-25) [kauf] ($2,300,000,000)
+  [FIRMA] uebernimmt Oculus VR fuer $2,3 Milliarden, um in Virtual Reality einzusteigen. Oculus hatte die Kickstarter-gefundete Oculus Rift entwickelt.
+
+[H092] (2014-03-25) [verkauf] ($2,300,000,000)
+  Verkauf von Oculus VR an [FIRMA] ([FIRMA]) für 2,3 Milliarden US-Dollar. [PERSON] war 21 Jahre alt und wurde zum jüngsten Self-Made-Milliardär in der VR-Branche.
+
+[H093] (2014-05-01) [einstellung]
+  Joined [FIRMA] AI Research (FAIR) as AI researcher
+
+[H094] (2014-05-16) [einstellung]
+  [PERSON] tritt als Chief Scientist bei Baidu ein und leitet die KI-Strategie des chinesischen Suchmaschinen-Giganten. Er baut das Baidu Research Lab auf und gruendet das 'Baidu Brain'-Projekt mit einem Team von 1.300 Mitarbeitern.
+
+[H095] (2014-05-28) [kauf] ($3,000,000,000)
+  [FIRMA] kauft Beats Electronics und Beats Music fuer 3 Milliarden Dollar
+
+[H096] (2014-06-01) [einstellung]
+  [PERSON] arbeitet als Neural Network Reporter bei Bloomberg, spezialisiert auf KI-Berichterstattung ueber [FIRMA], [FIRMA] und verteilte Systeme.
+
+[H097] (2014-06-05) [produktlaunch]
+  [PRODUKT-ROBOTER] Roboter Launch - humanoider Roboter für Kundeninteraktion, Co-Design mit Aldebaran
+
+[H098] (2014-07-15) [sonstiges]
+  Gewann Goldmedaille (1. Platz) bei International Olympiad in Informatics (IOI)
+
+[H099] (2014-10-01) [produktlaunch]
+  Released GloVe (Global Vectors for Word Representation) model, which became one of the most widely used word embedding approaches
+
+[H100] (2014-10-08) [einstellung]
+  [PERSON] wird CEO von [FIRMA], übernimmt Führung eines krisengeschüttelten Unternehmens mit Aktienkurs unter 2 USD
+
+[H101] (2014-11-06) [produktlaunch]
+  [FIRMA] stellt Alexa und Echo vor -- [FIRMA]s Einstieg in KI-gesteuerte Sprachassistenten. Echo ist ein Smart Speaker, Alexa die dahinterstehende KI. Anfangs nur auf Einladung verfuegbar.
+
+[H102] (2014-12-01) [produktlaunch]
+  Co-authored Adam optimizer algorithm with Diederik Kingma
+
+[H103] (2015) [investition] ($100,000,000)
+  [PERSON] finanziert persoenlich (nicht via [FIRMA]) das Flugtaxi-Startup Kitty Hawk mit ueber $100 Millionen. CEO wird Sebastian Thrun ([UNI], Ex-[FIRMA] X). Ziel: elektrische senkrechtstartende Fluggeraete (eVTOL).
+
+[H104] (2015) [gruendung] ($100,000,000)
+  [PERSON] gruendet heimlich LTA Research, ein Unternehmen zur Entwicklung riesiger Frachtluftschiffe. Er baut in einem NASA-Hangar in Mountain View ein 200-Meter-Luftschiff namens 'Pathfinder 1'. Finanzierung: geschaetzt ueber $100 Millionen.
+
+[H105] (2015-01-01) [investition]
+  Investition in Impossible Foods (pflanzliches Fleisch)
+
+[H106] (2015-01-01) [einstellung]
+  Beginn der Karriere als Machine Learning Researcher bei [FIRMA] Research
+
+[H107] (2015-01-01) [lobbying]
+  Drafted and became first signatory of open letter "Research Priorities for Robust and Beneficial Artificial Intelligence" calling for expanded AI safety research. Letter signed by thousands including leading AI researchers at [FIRMA], [FIRMA], [FIRMA] and top computer scientists, physicists and philosophers worldwide.
+
+[H108] (2015-01-01) [partnerschaft]
+  Serves on Advisory Boards of Centre for the Study of Existential Risk (CSER), Future of Life Institute (FLI), and Machine Intelligence Research Institute (MIRI).
+
+[H109] (2015-01-01) [partnerschaft]
+  Contributed to Universal Dependencies project as core member managing universal guidelines for morphosyntactic annotation of 100+ languages
+
+[H110] (2015-01-01) [sonstiges]
+  Managed the team responsible for the natural language query understanding system that underpins [FIRMA] Assistant and several other [FIRMA] products.
+
+[H111] (2015-01-01) [sonstiges]
+  Published three highly-cited papers on Generative Adversarial Networks: LAPGAN, DCGAN, and Wasserstein GAN
+
+[H112] (2015-03) [sonstiges]
+  [PERSON] haelt ihren beruhmten TED Talk 'How we're teaching computers to understand pictures', der ueber 2,5 Millionen Views erreicht und Computer Vision einem breiten Publikum erklaert.
+
+[H113] (2015-03-01) [gruendung]
+  Founded [UNI] DeepDrive (BDD) Industrial Consortium, investigating state-of-the-art technologies in computer vision, robotics, and machine learning for autonomous vehicle applications, with industry partners including Volkswagen, Ford, Toyota, Samsung, Bosch, Honda, Hyundai, Qualcomm and [FIRMA].
+
+[H114] (2015-03-01) [gruendung]
+  Co-founded Qordoba with Waseem AlShikh, an AI-powered platform for content localization
+
+[H115] (2015-03-15) [umstrukturierung]
+  Su initiiert strategische Neuausrichtung: Fokus auf High-Performance Computing, Gaming und KI; R&D-Budget wird um ca. 45% erhöht (2014-2017)
+
+[H116] (2015-04-24) [produktlaunch]
+  Launch der [FIRMA] Watch, erste neue Produktkategorie unter Cook
+
+[H117] (2015-05-01) [ruecktritt]
+  Rücktritt als CTO von Stripe, um sich [FIRMA] zu widmen
+
+[H118] (2015-06-01) [einstellung]
+  Joined [FIRMA] Research as software engineer, focusing on end-to-end deep learning systems for NLP
+
+[H119] (2015-06-01) [umstrukturierung]
+  Transferred from [FIRMA] to [FIRMA] Research/[FIRMA] Brain as senior software engineer
+
+[H120] (2015-06-10) [produktlaunch]
+  Aufbau und Launch des [FIRMA] Audience Network - einer Werbe-Plattform als Konkurrenz zu [FIRMA]s Ad-Technologien.
+
+[H121] (2015-06-17) [einstellung]
+  [PERSON] beginnt Internship bei [FIRMA] Brain und wird zweiter Autor auf dem DeepDream-Projekt. DeepDream wird zu einem Meilenstein der neuronalen Netzwerk-Visualisierung und loest eine kleine Kunstbewegung aus.
+
+[H122] (2015-07-01) [lobbying]
+  Launched open letter calling for ban on offensive autonomous weapons beyond meaningful human control. Letter signed by 4,667 AI researchers including almost entire leadership of the field, plus nearly 27,000 other signatories.
+
+[H123] (2015-07-10) [einstellung]
+  Returned to [FIRMA] as CEO, replacing Ellen Pao after moderator revolt
+
+[H124] (2015-08-10) [einstellung]
+  [PERSON] wird CEO von [FIRMA] (nach Umbenennung der Holding in [FIRMA] Inc.). [PERSON] wird CEO von [FIRMA], [PERSON] uebernimmt Tagesgeschaeft von [FIRMA].
+
+[H125] (2015-08-10) [umstrukturierung]
+  [PERSON] kuendigt die Umstrukturierung von [FIRMA] in [FIRMA] Inc. an. [FIRMA] wird Tochterunternehmen. Page wird CEO von [FIRMA], [PERSON] CEO von [FIRMA]. Weitere Toechter: Calico, Verily, Waymo, X, Wing, etc.
+
+[H126] (2015-08-10) [umstrukturierung]
+  [PERSON] und [PERSON] gruenden [FIRMA] Inc. als Muttergesellschaft von [FIRMA]. Page wird [FIRMA]-CEO, [PERSON] wird Praesident. [PERSON] uebernimmt [FIRMA] als CEO.
+
+[H127] (2015-09-01) [produktlaunch]
+  Developed and taught freshman-level undergraduate Data Science course at [UNI] (Fall 2015) that blends computer science and statistics, teaching Python programming for data analysis with resampling-based inferential procedures.
+
+[H128] (2015-10-01) [produktlaunch]
+  [PRODUKT] besiegt Fan Hui, den europaeischen Go-Champion, mit 5:0. Erster Sieg eines Computerprogramms gegen einen professionellen Go-Spieler auf dem 19x19-Brett.
+
+[H129] (2015-11-09) [produktlaunch]
+  Open Source Release von TensorFlow - Machine Learning Framework mit Apache 2.0 Lizenz, über 11.000 GitHub Stars in erster Woche
+
+[H130] (2015-12-01) [gruendung] ($45,000,000,000)
+  [PERSON] und Priscilla Chan gruenden die Chan [PERSON] Initiative (CZI) und verpflichten sich, 99% ihrer [FIRMA]-Aktien (damals ca. $45 Milliarden) zu spenden. CZI wird als LLC strukturiert, nicht als klassische Stiftung.
+
+[H131] (2015-12-07) [gruendung]
+  [PERSON] initiiert die Gruendung von Verily (ehemals [FIRMA] Life Sciences) als [FIRMA]-Tochter. Verily entwickelt medizinische Geraete, Gesundheits-Software und Diagnostik-Tools.
+
+[H132] (2015-12-11) [gruendung] ($1,000,000,000)
+  [PERSON], [PERSON], [PERSON], [PERSON] und weitere gruenden [FIRMA] als Non-Profit-Forschungslabor. Eine Gruppe von Unterstuetzern (u.a. [PERSON], [PERSON]) sagen $1 Mrd. Foerderung zu. [PERSON] und [PERSON] sind Co-Vorsitzende.
+
+[H133] (2015-12-11) [gruendung] ($100,000,000)
+  [PERSON] und [PERSON] gruenden zusammen mit [PERSON], [PERSON] und weiteren das Non-Profit-KI-Forschungslabor [FIRMA]. [PERSON] ist Co-Vorsitzender und verpflichtet sich zu $1 Mrd. Foerderung (tatsaechlich ca. $100 Mio. eingezahlt).
+
+[H134] (2015-12-11) [gruendung] ($1,000,000,000)
+  [PERSON] verlaesst [FIRMA] Brain und gruendet [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], Wojciech Zaremba und John Schulman. [PERSON] wird Chief Scientist. [FIRMA] wird als gemeinnuetziges KI-Forschungslabor gegruendet.
+
+[H135] (2015-12-11) [gruendung]
+  Mitgründung von [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON] und anderen
+
+[H136] (2015-12-31) [produktlaunch]
+  Built VMware NSX network virtualization product to $600 million annual revenue run-rate, tripling revenue and growing to 1,200 paying customers
+
+[H137] (2016) [partnerschaft]
+  [FIRMA] Health kooperiert mit Royal Free NHS Trust zur Entwicklung der Streams-App. Die Partnerschaft wird spaeter vom ICO kritisiert: Royal Free hat Datenschutzgesetze nicht eingehalten, Patienten wurden nicht ausreichend informiert.
+
+[H138] (2016-01-01) [einstellung]
+  Vice President of Product and Engineering bei Leap Motion (2016-2018)
+
+[H139] (2016-01-01) [gruendung]
+  Gründung von [FIRMA] - Datenlabeling-Plattform für KI-Entwicklung
+
+[H140] (2016-01-01) [spende]
+  Unter den ersten Spendern fuer [FIRMA] ueber Aphorism Foundation: $1M an YC 2016, $5M direkt an [FIRMA] 2017-2018. [FIRMA] established by [PERSON], [PERSON] and others.
+
+[H141] (2016-01-01) [einstellung]
+  Übernahme der CEO-Position bei [FIRMA] (zuvor Co-Founder und verschiedene technische Rollen)
+
+[H142] (2016-01-01) [sonstiges]
+  Fellow der American Academy of Arts and Sciences - Anerkennung für wissenschaftliche Exzellenz
+
+[H143] (2016-01-01) [gruendung]
+  Founded the Center for Human-Compatible Artificial Intelligence (CHAI) at UC [UNI] with co-principal investigators [PERSON], Anca Dragan, Tom Griffiths, Bart Selman, Joseph Halpern, Michael Wellman and Satinder Singh Baveja. Center mission: develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.
+
+[H144] (2016-01-01) [partnerschaft]
+  Became co-chair of the World Economic Forum's Global AI Council on AI and Robotics, later joined Global AI Council in 2018 to help galvanize thinking about achieving positive futures with AI through planning and policy development.
+
+[H145] (2016-01-01) [sonstiges]
+  Completed PhD in reinforcement learning theory at Australian National University under supervision of Marcus Hutter. Thesis: "Nonparametric General Reinforcement Learning"
+
+[H146] (2016-01-01) [sonstiges]
+  Received [FIRMA] PhD Fellowship in Machine Learning
+
+[H147] (2016-01-01) [produktlaunch]
+  Co-created and publicly released PyTorch framework
+
+[H148] (2016-01-01) [sonstiges]
+  Created ganhacks repository with tips for training GANs
+
+[H149] (2016-01-01) [einstellung]
+  Started as Research Scientist at [FIRMA] Brain, working on Neural Architecture Search and AutoML
+
+[H150] (2016-02) [produktlaunch]
+  [PERSON] lanciert [FIRMA] Health bei der Royal Society of Medicine, eine Initiative zur Entwicklung von Kliniker-geleiteter Technologie fuer den NHS und andere Partner im Gesundheitswesen.
+
+[H151] (2016-02) [verkauf]
+  Xamarin acquired by [FIRMA] for approximately $400-500 million
+
+[H152] (2016-02-01) [einstellung]
+  [PERSON] tritt [FIRMA] bei, zunaechst fuer Strategie und Kommunikation, spaeter wird er Policy Director.
+
+[H153] (2016-02-01) [einstellung]
+  Joined [FIRMA] as ninth General Partner to lead infrastructure investments, announced by [PERSON] who first met [PERSON] in 2009
+
+[H154] (2016-02-17) [klage]
+  [FIRMA] widersetzt sich FBI-Anordnung zur Entschluesselung von iPhone im San Bernardino-Fall
+
+[H155] (2016-02-25) [ruecktritt]
+  Left VMware as EVP and General Manager of Networking and Security Business, stating he waited until NSX established solid footing after contemplating departure for two years
+
+[H156] (2016-03-01) [gruendung]
+  Co-Gründung von [FIRMA] zusammen mit Julien Chaumond und Thomas Wolf in New York. Ursprünglich als Chatbot-App für Teenager gestartet, später zur Open-Source-KI-Plattform pivotiert.
+
+[H157] (2016-03-15) [produktlaunch]
+  [PRODUKT] besiegt Lee Sedol, einen der besten Go-Spieler der Welt, mit 4:1 in Seoul. Das Match wird von ueber 200 Millionen Menschen weltweit verfolgt.
+
+[H158] (2016-05-18) [produktlaunch]
+  Öffentliche Ankündigung der Tensor Processing Units (TPUs) bei [FIRMA] I/O - Spezialisierte Hardware für Machine Learning
+
+[H159] (2016-05-18) [produktlaunch]
+  Launched [FIRMA] Daydream VR platform and Daydream View headset at [FIRMA] I/O 2016
+
+[H160] (2016-05-18) [partnerschaft]
+  Announced partnership with IMAX to develop cinema-grade 360-degree VR camera at [FIRMA] I/O 2016
+
+[H161] (2016-05-25) [klage] ($10,000,000)
+  [PERSON] finanziert geheim Hulk Hogans Klage gegen Gawker Media wegen Veroeffentlichung eines Sex-Videos. Gawker verliert den Prozess ($140 Mio. Schadenersatz) und geht in Konkurs.
+
+[H162] (2016-06-01) [einstellung]
+  Six-month postdoctoral fellowship at Future of Humanity Institute, [UNI], focusing on theoretical alignment research
+
+[H163] (2016-06-13) [verkauf]
+  [FIRMA] erwarb [FIRMA] fuer $26,2 Milliarden bar, [PERSON]s Anteil war $2,84 Milliarden wert, stimmte als Hauptaktionaer (10.85%) dafuer.
+
+[H164] (2016-07-01) [gruendung]
+  [PERSON] gruendet [FIRMA], ein Neurotechnologie-Unternehmen, das Brain-Computer-Interfaces entwickelt, um eine 'Symbiose mit KI' zu ermoeglichen. Ziel: Behandlung neurologischer Erkrankungen und Erweiterung menschlicher Faehigkeiten.
+
+[H165] (2016-07-01) [produktlaunch]
+  Published Layer Normalization paper with [PERSON] and Jamie Ryan Kiros
+
+[H166] (2016-08-01) [verkauf]
+  Quip wird von Salesforce übernommen: Salesforce kaufte Quip, Taylors Produktivitätssoftware-Startup (Konkurrent zu [FIRMA] Docs), für etwa 750 Millionen Dollar. Taylor wurde Chief Product Officer bei Salesforce.
+
+[H167] (2016-08-01) [ruecktritt]
+  Stepped down as President of [FIRMA] to join Calico as Chief Computing Officer
+
+[H168] (2016-08-09) [verkauf]
+  Intel acquired Nervana Systems for approximately $408 million; Rao became VP and GM of Intel's AI Products Group
+
+[H169] (2016-09-01) [gruendung]
+  Gründung von Halite (Coding-Wettbewerb) als Teenager zusammen mit Benjamin Spector
+
+[H170] (2016-09-01) [spende] ($10,000)
+  Spende von 10.000 US-Dollar an Nimble America, eine Pro-Donald Trump Organisation, die Anti-Hillary-Clinton Werbung schaltete. Diese Spende führte zu seiner späteren Entlassung bei [FIRMA].
+
+[H171] (2016-09-01) [sonstiges]
+  Published open-source TensorFlow implementation of [FIRMA] WaveNet with production features on GitHub
+
+[H172] (2016-09-05) [kauf] ($32,000,000,000)
+  ARM Holdings Übernahme - Kauf des britischen Chip-Designers für Vorbereitung auf KI-Revolution und IoT-Ära
+
+[H173] (2016-10-15) [spende] ($1,250,000)
+  [PERSON] spendet $1,25 Millionen an Donald Trumps Praesidentschaftskampagne -- groesste Einzelspende eines Tech-CEOs. Er haelt Rede bei Republican National Convention.
+
+[H174] (2016-11-01) [kauf] ($9,300,000,000)
+  Übernahme von NetSuite für 9,3 Milliarden USD, [PERSON] besaß 35% und machte persönlich 3,5 Milliarden USD
+
+[H175] (2016-11-01) [sonstiges]
+  Co-authored article "Yes, We Are Worried About the Existential Risk of Artificial Intelligence" published in [UNI] Technology Review explaining AI existential risk concerns.
+
+[H176] (2016-11-01) [produktlaunch]
+  Published Neural Architecture Search with Reinforcement Learning, foundational paper establishing automated neural network design as viable field
+
+[H177] (2016-11-09) [politisch]
+  [PERSON] wird Mitglied von Donald Trumps Transition-Team und organisiert Tech-Treffen im Trump Tower (Cook, [PERSON], [PERSON], Sandberg). Er wird als Kandidat fuer Supreme Court gehandelt.
+
+[H178] (2016-11-18) [produktlaunch]
+  [PERSON], Ian Goodfellow und Aaron Courville veroeffentlichen das Lehrbuch 'Deep Learning', das zum Standard-Lehrbuch des Feldes wird.
+
+[H179] (2016-11-23) [sonstiges]
+  Secretly edited user comments criticizing him (u/spez) on r/The_Donald, replacing his username with moderator names
+
+[H180] (2016-11-23) [politisch]
+  Led Department of Defense transition team for President-elect Donald Trump, screening staff and shaping policies
+
+[H181] (2016-12-01) [sonstiges]
+  Published foundational research paper "Cooperative Inverse Reinforcement Learning" (NIPS 2016) with Dylan Hadfield-Menell, Anca Dragan, and [PERSON], formalizing value alignment problem as cooperative game where robot learns human preferences.
+
+[H182] (2016-12-13) [gruendung]
+  Das [FIRMA] Self-Driving Car Project wird als eigenstaendige [FIRMA]-Tochter 'Waymo' ausgegliedert. CEO: John Krafcik. Waymo wird spaeter auf ueber $30 Milliarden bewertet.

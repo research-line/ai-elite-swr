@@ -1,0 +1,133 @@
+=== DATENKORPUS PERSON-1 ===
+
+--- AUSSAGEN (22 Stueck) ---
+
+[A001] (2023-02-10, muendlich)
+  "AI is having its 'iPhone moment' driven by the introduction of [PRODUKT]."
+  Kontext: Interview an der UC [UNI] [PERSON] School of Business. [PERSON] vergleicht den [PRODUKT]-Launch mit dem iPhone als transformativen Moment.
+
+[A002] (2023-05-27, muendlich)
+  "A.I. has reinvented computing from the ground up. Over $1 trillion of traditional computers will be upgraded for AI within a decade."
+  Kontext: National Taiwan University Commencement Speech in Taipei. [PERSON] spricht zu Absolventen ueber die KI-Revolution.
+
+[A003] (2024-02-13, muendlich)
+  "It codifies your culture, your society's intelligence, your common sense, your history – you own your own data."
+  Kontext: World Governments Summit 2024 in Dubai. [PERSON] stellt das Konzept von Sovereign AI vor.
+
+[A004] (2024-02-13, muendlich)
+  "Nobody needs atomic bombs, everyone needs AI."
+  Kontext: World Governments Summit 2024. [PERSON] argumentiert, dass jedes Land KI-Infrastruktur aufbauen sollte.
+
+[A005] (2024-02-13, muendlich)
+  "The first thing that I would do, of course, is I would codify the language, the data of your culture into your own large language model."
+  Kontext: World Governments Summit 2024. [PERSON] gibt konkrete Empfehlungen fuer Entwicklungslaender.
+
+[A006] (2024-03-18, muendlich)
+  "Humanity discovered an algorithm that could really, truly learn any distribution of data."
+  Kontext: GTC 2024 Keynote. [PERSON] erklaert den fundamentalen Durchbruch von Deep Learning.
+
+[A007] (2024-03-18, muendlich)
+  "Blackwell is the engine to power this new industrial revolution in generative AI."
+  Kontext: GTC 2024 Keynote zur Ankuendigung der Blackwell-GPU-Architektur.
+
+[A008] (2024-03-19, muendlich)
+  "If we specified AGI to be something very specific, a set of tests where a software program can do very well — or maybe 8% better than most people — I believe we will get there within 5 years."
+  Kontext: GTC 2024 Keynote. [PERSON] aeussert sich zur AGI-Timeline und betont, dass die Definition von AGI entscheidend ist.
+
+[A009] (2024-07-29, muendlich)
+  "[FIRMA] did one of the greatest things for the AI community by making [PRODUKT] open source."
+  Kontext: SIGGRAPH 2024 Konferenz. Panel-Diskussion mit [FIRMA] CEO [PERSON].
+
+[A010] (2024-07-29, muendlich)
+  "Every business will have an AI. Every company will have their own AI assistants and agents."
+  Kontext: SIGGRAPH 2024. Gemeinsame Diskussion mit [PERSON] ueber die Zukunft von KI in Unternehmen.
+
+[A011] (2025-01-07, muendlich)
+  "That's the future, you're going to have superintelligent AI that will let you write, analyze problems, deal with supply chain planning, write software, design chips."
+  Kontext: CES 2025 Keynote in Las Vegas. [PERSON] spricht ueber Physical AI und Superintelligenz.
+
+[A012] (2025-01-07, muendlich)
+  "AI started with perception AI—understanding images, words and sounds—then moved to generative AI, and now is entering the era of physical AI, AI that can proceed, reason, plan and act."
+  Kontext: CES 2025 Keynote. [PERSON] beschreibt die Evolution von KI von Wahrnehmung ueber Generierung zu physischer Interaktion.
+
+[A013] (2025-01-07, muendlich)
+  "Every single layer of the technology stack has been transformed in just 12 years."
+  Kontext: CES 2025. [PERSON] reflektiert ueber die Geschwindigkeit der KI-getriebenen Transformation.
+
+[A014] (2025-02-07, muendlich)
+  "We're going to have to build half a trillion dollars worth of capacity infrastructure for the transition to GPU-driven generative AI."
+  Kontext: Interview ueber die wirtschaftlichen Dimensionen des KI-Infrastruktur-Aufbaus.
+
+[A015] (2025-02-26, muendlich)
+  "Go get yourself an AI tutor right away. I have a personal AI tutor with me all the time."
+  Kontext: Interview mit Cleo Abram fuer 'Huge Conversations'. [PERSON] spricht ueber persoenliche KI-Nutzung.
+
+[A016] (2025-10-09, muendlich)
+  "[PERSON] is singular in his understanding of engineering. Just to put it in perspective, 100,000 GPUs -- that's easily the fastest supercomputer on the planet as one cluster. Almost everything that Elon is part of, you really want to be part of as well."
+  Kontext: Interview ueber [FIRMA]s Colossus-Supercomputer mit 100.000 [FIRMA] GPUs, gebaut in 19 Tagen.
+
+[A017] (2025-11-08, muendlich)
+  "Without TSMC, there is no [FIRMA] today. You are really the pride of Taiwan, you are also the pride of the world."
+  Kontext: TSMC Sports Day Event in Taiwan. [PERSON] betont die strategische Bedeutung von TSMC.
+
+[A018] (2025-11-08, muendlich)
+  "TSMC is my family."
+  Kontext: TSMC Sports Day. [PERSON] zeigt emotionale Bindung zum wichtigsten Fertigungspartner.
+
+[A019] (2025-11-08, muendlich)
+  "[FIRMA]'s business is very strong and getting stronger month by month. We need capacity."
+  Kontext: Besuch bei TSMC Sports Day. [PERSON] spricht ueber die anhaltend hohe Nachfrage nach [FIRMA] GPUs.
+
+[A020] (2025-11-14, muendlich)
+  "TSMC learned to 'dance with 400 partners' while Intel has 'always' danced alone."
+  Kontext: Interview ueber TSMC-Partnerschaft und die Unterschiede im Geschaeftsmodell zwischen TSMC und Intel.
+
+[A021] (2026-01-21, muendlich)
+  "AI is infrastructure. We are seeing the largest infrastructure buildout in human history."
+  Kontext: World Economic Forum in Davos 2026. Panel-Diskussion mit BlackRock CEO Larry Fink.
+
+[A022] (2026-02-05, muendlich)
+  "India should not export flour to import bread. By owning the data (flour) and GPU clusters (bakery), nations can ensure their AI reflects their unique societal values and linguistic heritage."
+  Kontext: Panel-Diskussion in Indien. [PERSON] nutzt die Mehl/Brot-[FIRMA]pher fuer Datensouveraenitaet.
+
+
+--- HANDLUNGEN (13 Stueck) ---
+
+[H001] (1993-04-05) [gruendung] ($20,000,000)
+  [PERSON], Chris Malachowsky und Curtis Priem gruenden [FIRMA] in einem Denny's Restaurant in San Jose. Sie starten mit $40.000 eigenem Kapital und sichern sich schnell $20 Millionen Venture Capital.
+
+[H002] (1999-01-22) [investition]
+  [FIRMA] geht an die Boerse mit einem IPO-Preis von $12 pro Aktie. Der Boersengang erfolgt nach Jahren finanzieller Schwierigkeiten, einschliesslich einem Fast-Bankrott in den spaeteren 1990er Jahren.
+
+[H003] (2006-11-15) [produktlaunch]
+  [FIRMA] fuehrt CUDA (Compute Unified Device Architecture) ein -- eine Parallel-Computing-Plattform, die es ermoeglicht, GPUs fuer allgemeine Rechenaufgaben zu nutzen. Dies wird zur Grundlage fuer moderne KI-Anwendungen.
+
+[H004] (2018-08-20) [produktlaunch]
+  [FIRMA] veroeffentlicht die GeForce RTX 20-Serie, die erste GPU-Generation mit dedizierter Hardware fuer Echtzeit-Raytracing und KI-beschleunigte Features.
+
+[H005] (2022-03-22) [produktlaunch]
+  [FIRMA] stellt die Hopper-Architektur (H100 GPU) vor, benannt nach Grace Hopper. Die H100 wird zur meistgenutzten GPU fuer Training grosser Sprachmodelle wie [PRODUKT] und LLaMA.
+
+[H006] (2023-01-23) [verkauf]
+  [FIRMA] bestellt [FIRMA] GPUs im Wert von mehreren Milliarden Dollar fuer [FIRMA]-Infrastruktur als Teil ihrer strategischen Partnerschaft. [FIRMA] hat insgesamt $13 Milliarden in [FIRMA] investiert.
+
+[H007] (2024-03-18) [produktlaunch]
+  [FIRMA] kuendigt die Blackwell-Architektur an: 2,5x schneller als Hopper fuer Training (FP8), 5x fuer Inferenz (FP4). Cloud-Partner: [FIRMA], [FIRMA] Cloud, [FIRMA] Azure, [FIRMA]. 3,6 Millionen Blackwell-GPUs werden im ersten Jahr an die 4 groessten US-Cloud-Anbieter ausgeliefert.
+
+[H008] (2024-06-15) [verkauf]
+  [FIRMA] nutzt [FIRMA] GPUs (spaeter eigene Chips) fuer Autopilot-Training. [PERSON] lobt [FIRMA] als Pionier in Physical AI. [FIRMA] bleibt ein strategischer Partner fuer KI-Infrastruktur.
+
+[H009] (2024-07-23) [partnerschaft]
+  [FIRMA] nutzt ueber 100.000 [FIRMA] H100 GPUs zur Trainierung von LLaMA-4. [FIRMA] und [FIRMA] vertiefen ihre strategische Partnerschaft fuer Open-Source-KI.
+
+[H010] (2024-11-16) [partnerschaft]
+  [FIRMA] kuendigt ein Sovereign-AI-Programm mit Suedkorea an: bis zu 50.000 [FIRMA] GPUs (davon initial 13.000 Blackwell) werden ueber Cloud-Provider NHN Cloud, Kakao Corp. und NAVER Cloud bereitgestellt.
+
+[H011] (2025-01-19) [partnerschaft]
+  [FIRMA] und TSMC kuendigen eine Zusammenarbeit bei Silicon Photonics an -- einer Technologie zur optischen Datenuebertragung in Chips. Dies soll die Bandbreite fuer KI-Cluster massiv erhoehen.
+
+[H012] (2025-09-02) [verkauf] ($7,000,000,000)
+  [PERSON]s [FIRMA] baut den 'Colossus'-Supercomputer mit 100.000 [FIRMA] GPUs in nur 19 Tagen Bauzeit (Gesamtprojekt ca. 122 Tage). Geschaetzte Kosten: $7 Milliarden. [PERSON] nennt [PERSON] 'superhuman'.
+
+[H013] (2025-09-15) [partnerschaft] ($20,000,000,000)
+  [FIRMA] und [FIRMA] kuendigen eine strategische Partnerschaft an: Bereitstellung von 10 Gigawatt [FIRMA]-Systemen fuer [FIRMA]. Eine geplante $100 Milliarden Investition wird spaeter auf $20 Milliarden angepasst.

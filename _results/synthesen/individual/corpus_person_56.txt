@@ -1,0 +1,120 @@
+=== DATENKORPUS PERSON-56 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (unbekannt, schriftlich)
+  "Entrepreneurship is about finding ways in which the world could be different and better and in feeling empowered to go make that change."
+  Kontext: General statement on entrepreneurship philosophy
+
+[A002] (unbekannt, schriftlich)
+  "Innovation happens best when people of different backgrounds come together to solve the world's toughest challenges and, in the process, can create new jobs and opportunities."
+  Kontext: Philosophy on innovation and diversity
+
+[A003] (unbekannt, schriftlich)
+  "Focus on doing the right things instead of a bunch of things."
+  Kontext: Philosophy on prioritization and execution
+
+[A004] (2024, muendlich)
+  "It becomes multidisciplinary, where it's knowing what to build as much as it is knowing the exact implementation that you want."
+  Kontext: On the future of software engineering with AI
+
+[A005] (2024, muendlich)
+  "Driving alignment and figuring out what to build is still the hardest part."
+  Kontext: On human role in AI-assisted development
+
+[A006] (2024, schriftlich)
+  "His vision for AI goes beyond mere technological advancement, emphasizing the human aspect of technology and advocating for AI systems that empower rather than replace human abilities."
+  Kontext: Core philosophy on AI and human empowerment
+
+[A007] (2024, muendlich)
+  "Engineers being freed from repetitive tasks and empowered to tackle big problems like climate tech, healthcare innovations, or AI ethics - the role of software engineers as shifting from coders to delegates, and this is a good thing."
+  Kontext: Vision of AI liberating engineers for meaningful work
+
+[A008] (2024-05-15, schriftlich)
+  "As a two time entrepreneur, I'm particularly excited by how [PRODUKT], along with the right scaffolding and product features, can empower more people to innovate at a faster pace and at a lower cost."
+  Kontext: Statement on joining [FIRMA] as CPO in May 2024
+
+[A009] (2024-05-15, muendlich)
+  "The window to shape how they're used is now. I'm eager to help create technology that really matters for people."
+  Kontext: Statement on joining [FIRMA] in 2024
+
+[A010] (2024-05-15, schriftlich)
+  "I admire [FIRMA]'s relentless focus on building capable and trustworthy AI systems that empower humans and expand what's possible with technology."
+  Kontext: On joining [FIRMA] as CPO
+
+[A011] (2024-05-15, schriftlich)
+  "The potential for AI to positively impact the world is immense, and I believe [FIRMA] has the talent, principles, and technology to help realize that potential."
+  Kontext: On [FIRMA]'s mission and AI's potential
+
+[A012] (2024-10, schriftlich)
+  "Within the next few years, the primary function of engineers will pivot towards ensuring that AI systems operate in alignment with human values and ethical frameworks."
+  Kontext: On the future role of software engineers in AI era
+
+[A013] (2025, schriftlich)
+  "On [PERSON]'s mind is the question of how to unlock [PRODUKT]'s latent capabilities, and surface them in a product that works reliably enough to be useful for everyday users."
+  Kontext: TIME 100 AI profile on his focus at [FIRMA]
+
+[A014] (2025-01, muendlich)
+  "For most products at [FIRMA] it's effectively 100% just [PRODUKT] writing, and we've created all the right scaffolds around it to let us trust it."
+  Kontext: Interview on AI-driven development at [FIRMA]
+
+[A015] (2025-01, muendlich)
+  "Having [PRODUKT] trained to be a really good adversarial code reviewer has been fantastic, identifying security vulnerabilities and suggesting refactoring improvements."
+  Kontext: On [PRODUKT]'s role in code review at [FIRMA]
+
+[A016] (2025-01-13, schriftlich)
+  "We've reached a watershed moment in AI—model capabilities are advancing so fast that the window to shape how they're used is now. That's why I'm getting back into builder mode, moving from my role as CPO and joining our Labs team: I want to be hands-on at the frontier, building products that channel AI toward solving the world's hardest problems."
+  Kontext: Announcement of transition from CPO to co-leading [FIRMA] Labs in January 2025
+
+[A017] (2025-10, muendlich)
+  "The best products can be grounded in some kind of success metric or evaluation. When it gets fuzzy, it's very hard to then evaluate, did it help?"
+  Kontext: Interview on Superhuman AI podcast about AI adoption challenges
+
+[A018] (2025-10, muendlich)
+  "They were driven by this AI FOMO that was happening in the CIO suite. Two years ago, many companies didn't even have a definition of success when implementing AI into their operations."
+  Kontext: Critique of corporate AI adoption without clear metrics
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (unbekannt) [investition]
+  Angel investor with 42 investments across companies including Figma, [FIRMA], Loft, Titan, and Loom. Has 4 unicorns in portfolio. Focus on Application Software and Business/Productivity Software industries.
+
+[H002] (unbekannt) [sonstiges]
+  Joined Figma's Board of Directors. Was early angel investor in Figma before joining board.
+
+[H003] (unbekannt) [sonstiges]
+  Serves as Advisor at SignalFire venture capital firm, offering expertise in product and growth.
+
+[H004] (2010-10-06) [gruendung]
+  Co-founded [FIRMA] with Kevin Systrom. The photo-sharing app launched on App Store on October 6, 2010, reaching 25,000 users on first day and 1 million users within three months.
+
+[H005] (2012-04-09) [verkauf] ($1,000,000,000)
+  [FIRMA] acquired by [FIRMA] for $1 billion. [PERSON] served as CTO and scaled engineering team to over 450 people, helping grow platform to more than 1 billion monthly users.
+
+[H006] (2018-09-24) [ruecktritt]
+  [PERSON] and Kevin Systrom departed [FIRMA]/[FIRMA] after reported clashes with [FIRMA] leadership over strategic direction and content sharing between platforms. Systrom stated they were "ready for our next chapter" and "planning on leaving [FIRMA] to explore our curiosity and creativity again."
+
+[H007] (2020-04-18) [produktlaunch]
+  Launched Rt.live with Kevin Systrom, an up-to-date tracker of how fast COVID-19 was spreading in each US state using Rt (reproduction rate) metrics. First collaborative product since leaving [FIRMA].
+
+[H008] (2023-01-31) [gruendung]
+  Co-founded Artifact with Kevin Systrom, an AI-powered personalized news aggregator app. Name is portmanteau of "articles", "artificial intelligence", and "fact". Founded through company Nokto, Inc.
+
+[H009] (2023-02-22) [produktlaunch]
+  Artifact news app launched publicly to all users on App Store and [FIRMA] Play with AI-powered personalization features.
+
+[H010] (2024-01) [sonstiges]
+  Announced shutdown of Artifact app due to insufficient market opportunity. Kevin Systrom stated "the market opportunity isn't big enough to warrant continued investment in this way."
+
+[H011] (2024-03-29) [verkauf]
+  Yahoo acquired Artifact's AI-powered personalization technology. Artifact will no longer operate as standalone app, but technology will be integrated into Yahoo News. [PERSON] and Systrom to work with Yahoo in advisory capacity during transition.
+
+[H012] (2024-05-15) [einstellung]
+  Joined [FIRMA] as Chief Product Officer. [PERSON]gs experience building and scaling innovative products from [FIRMA]. Focus on transforming [FIRMA]'s AI research into mass-market products.
+
+[H013] (2025) [sonstiges]
+  Named to TIME's 100 Most Influential People in AI 2025 list as [FIRMA] CPO. Recognition notes that in first six months of 2025, [FIRMA]'s annualized revenue quadrupled to $4 billion.
+
+[H014] (2025-01-13) [umstrukturierung]
+  Stepped down as Chief Product Officer to co-lead [FIRMA] Labs incubator with Ben Mann. Labs focuses on building experimental AI products. Plans to double team headcount within six months. Transition described as "getting back into builder mode" at the frontier.

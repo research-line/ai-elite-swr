@@ -1,0 +1,96 @@
+=== DATENKORPUS PERSON-44 ===
+
+--- AUSSAGEN (12 Stueck) ---
+
+[A001] (2024-05-14, schriftlich)
+  "Ilya introduced me to the world of deep learning research, and has been a mentor to me, and a great collaborator for many years. His incredible vision for what deep learning could become was foundational to what [FIRMA], and the field of AI, is today. I am deeply grateful to him."
+  Kontext: Tweet am Tag von [PERSON]s Ruecktritt als Chief Scientist von [FIRMA]. [PERSON] uebernimmt die Position.
+
+[A002] (2025, muendlich)
+  "I see our research building towards automating scientific research."
+  Kontext: TIME 100 AI 2025 Interview. [PERSON] beschreibt die langfristige Vision von [FIRMA], wissenschaftliche Forschung zu automatisieren.
+
+[A003] (2025, muendlich)
+  "I emphasize seeking understanding of how deep learning works. The technology upon which [FIRMA]'s success is predicated is still a black box to even its researchers."
+  Kontext: TIME Interview. [PERSON] aeussert sich zur Black-Box-Natur von Deep Learning und der Notwendigkeit, die Mechanismen besser zu verstehen.
+
+[A004] (2025, muendlich)
+  "Despite it seeming like it's just mathematics, it's really a sort of natural science, where you're trying to understand this phenomenon."
+  Kontext: TIME Interview. [PERSON] charakterisiert KI-Forschung als empirische Wissenschaft, die Phaenomene untersucht.
+
+[A005] (2025, muendlich)
+  "I expect our reasoning models to become persistent entities in the not-too-distant-future."
+  Kontext: TIME Interview. [PERSON] prognostiziert, dass KI-Systeme kontinuierlich arbeiten werden, statt nur auf Anfragen zu reagieren.
+
+[A006] (2025, muendlich)
+  "This used to be a little bit far-off, a little bit sci-fi, and I think it's clearly becoming real."
+  Kontext: TIME Interview. [PERSON] aeussert sich zu Bedenken ueber taeuschende Faehigkeiten von KI-Modellen -- ein Risiko, das frueher theoretisch war, nun aber real wird.
+
+[A007] (2025, muendlich)
+  "The more we understand, the more fascinating it becomes."
+  Kontext: TIME Interview. [PERSON] drueckt seine Begeisterung fuer die Erforschung von Deep Learning aus.
+
+[A008] (2025, muendlich)
+  "My father gave me the book when I was about 15, and it was a Polish version of a book by an author I didn't know called 'Hackers and Painters'. When I was 15, I was unsure what I wanted to do for my career."
+  Kontext: Interview ueber pragende Einfluesse. [PERSON] beschreibt, wie Paul Grahams Buch seine Karriere-Entscheidung beeinflusste.
+
+[A009] (2025-01-10, schriftlich)
+  "I am extremely excited about the potential of chain-of-thought faithfulness & interpretability. It has significantly influenced the design of our reasoning models, starting with [PRODUKT-REASONING]-preview. As AI systems spend more compute working e.g. on long term research problems, it is..."
+  Kontext: Tweet ueber die Bedeutung von Chain-of-Thought-Interpretierbarkeit fuer die Entwicklung von [PRODUKT-REASONING] und zukuenftigen Reasoning-Modellen.
+
+[A010] (2025-02-10, schriftlich)
+  "Last week, our reasoning models took part in the 2025 International Collegiate Programming Contest (ICPC), the world's premier university-level programming competition. Our system solved all 12 out of 12 problems, a performance that would have placed first in the world (the best human team solved 11 problems)."
+  Kontext: Tweet ueber die Leistung von [FIRMA]s Reasoning-Modellen beim ICPC 2025 -- ein direkter Bezug zu [PERSON]s eigener Vergangenheit als Competitive-Programming-Champion.
+
+[A011] (2025-05-23, muendlich)
+  "I definitely believe we have significant evidence that the models are capable of discovering novel insights."
+  Kontext: Interview mit Nature im Mai 2025. [PERSON] spricht ueber die Faehigkeiten von Reasoning-Modellen wie [PRODUKT-REASONING] und [PRODUKT-REASONING], neuartige wissenschaftliche Einsichten zu generieren.
+
+[A012] (2025-05-23, muendlich)
+  "I would say it is a form of reasoning, but that doesn't mean it's the same as how humans reason."
+  Kontext: Nature Interview. [PERSON] differenziert zwischen KI-Reasoning und menschlichem Denken, betont aber, dass es sich um eine legitime Form des Denkens handelt.
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (2009-08-15) [sonstiges]
+  [PERSON] gewinnt eine Silbermedaille bei der International Olympiad in Informatics (IOI) 2009. Er war sechsmaliger IOI-Finalist.
+
+[H002] (2012-05-14) [sonstiges]
+  [PERSON] repraesentiert die University of Warsaw beim International Collegiate Programming Contest (ICPC) und gewinnt eine Goldmedaille. Sein Team erreicht den zweiten Platz weltweit.
+
+[H003] (2012-06-30) [sonstiges] ($10,000)
+  [PERSON] gewinnt die globale Meisterschaft des [FIRMA] Code Jam 2012 und erhaelt $10,000 Preisgeld. Er toppte die Charts des weltweit fuehrenden Programmierwettbewerbs.
+
+[H004] (2017-05-15) [sonstiges]
+  [PERSON] erhaelt seinen Ph.D. in Computer Science von der [UNI] University unter der Supervision von Gary Miller. Seine Forschung konzentrierte sich auf theoretische Informatik.
+
+[H005] (2017-06-01) [einstellung]
+  [PERSON] tritt [FIRMA] bei und verlaesst seine akademische Karriere in theoretischer Informatik. Er wird Teil des Forschungsteams.
+
+[H006] (2019-04-13) [produktlaunch]
+  [PERSON] leitet die Entwicklung von [FIRMA] Five, einem KI-System, das professionelle Dota 2-Spieler besiegt. Das Projekt demonstriert Fortschritte in Multi-Agent-Reinforcement-Learning.
+
+[H007] (2021-01-15) [einstellung]
+  [PERSON] wird zum Research Director bei [FIRMA] befördert. Er uebernimmt die Leitung wichtiger Forschungsprojekte.
+
+[H008] (2023-03-14) [produktlaunch]
+  [PERSON] leitet die Entwicklung von [PRODUKT] als Overall Lead und Optimization Lead. [PERSON] sagt: 'We wouldn't be here without him.'
+
+[H009] (2024-05-14) [einstellung]
+  [PERSON] wird zum Chief Scientist von [FIRMA] ernannt und tritt die Nachfolge von [PERSON] an. [PERSON] nennt ihn 'easily one of the greatest minds of our generation'.
+
+[H010] (2024-09-01) [sonstiges]
+  [PERSON] und Team lassen [PRODUKT-REASONING]-ioi bei der International Olympiad in Informatics (IOI) 2024 antreten. Das System erreicht den 49. Perzentil live, und unter relaxierten Bedingungen eine Goldmedaille.
+
+[H011] (2024-09-12) [produktlaunch]
+  [PERSON] leitet die Entwicklung und Veroeffentlichung von [PRODUKT-REASONING], [FIRMA]s erstem grossem Reasoning-Modell. [PRODUKT-REASONING] zeigt starke Faehigkeiten in Mathematik, Coding und Wissenschaft.
+
+[H012] (2024-12-20) [produktlaunch]
+  [PERSON] leitet die Entwicklung von [PRODUKT-REASONING], einem fortgeschrittenen Reasoning-Modell, das ohne handgefertigte domainspezifische Strategien Goldmedaillen-Niveau bei IOI erreicht.
+
+[H013] (2025-02-10) [sonstiges]
+  [PERSON] ist Co-Autor des Papers 'Competitive Programming with Large Reasoning Models' (arXiv 2502.06807), das die Leistung von [PRODUKT-REASONING], [PRODUKT-REASONING] und [PRODUKT-REASONING]-ioi bei IOI und ICPC analysiert.
+
+[H014] (2025-03-15) [sonstiges]
+  [PERSON] wird in die TIME 100 AI 2025-Liste aufgenommen -- eine Anerkennung als eine der 100 einflussreichsten Personen im Bereich Kuenstliche Intelligenz.

@@ -1,0 +1,150 @@
+=== DATENKORPUS PERSON-4 ===
+
+--- AUSSAGEN (24 Stueck) ---
+
+[A001] (2023-04, muendlich)
+  "AI is probably the most important thing humanity has ever worked on. I think of it as something more profound than electricity or fire."
+  Kontext: 60 Minutes Interview ueber KI. [PERSON] vergleicht KI mit fundamentalen Entdeckungen der Menschheit.
+
+[A002] (2023-04-20, schriftlich)
+  "To ensure the bold and responsible development of general AI, we're creating a unit that will help us build more capable systems more safely and responsibly."
+  Kontext: Interne Memo zur Fusion von [FIRMA] Brain und [FIRMA] zu [FIRMA]. Verantwortungsvolle KI-Entwicklung als Ziel.
+
+[A003] (2023-05-10, muendlich)
+  "Making AI helpful for everyone is the most profound way we'll advance our mission."
+  Kontext: [FIRMA] I/O 2023 Keynote. [PERSON] praesentiert [FIRMA]s KI-Vision und kuendigt umfassende Integration von KI in alle Produkte an.
+
+[A004] (2023-05-10, muendlich)
+  "We have been investing in AI research for two decades. We have a deep sense of responsibility to get this right."
+  Kontext: [FIRMA] I/O 2023. [PERSON] unterstreicht [FIRMA]s langjaehriges Engagement und Verantwortung.
+
+[A005] (2023-09-13, muendlich)
+  "The U.S. must get the balance right on AI regulation or risk falling behind China. This would be better done at the national level."
+  Kontext: Senate AI Meeting mit Tech-CEOs ([PERSON], [PERSON], [PERSON], [PERSON]). Diskussion ueber KI-Regulierung.
+
+[A006] (2023-09-13, muendlich)
+  "Countries must work together to develop international frameworks of cooperation so that we don't weaponize these technologies against each other."
+  Kontext: Fortsetzung des Senate AI Meetings. [PERSON] fordert internationale KI-Governance.
+
+[A007] (2023-10-19, muendlich)
+  "Technology should be an enabler, a great equalizer. It should be used to make things more accessible for everyone."
+  Kontext: [UNI] Sloan Konferenz. [PERSON] spricht ueber demokratischen Zugang zu Technologie.
+
+[A008] (2023-10-19, muendlich)
+  "He warned against the risk of an 'AI divide,' urging global efforts to ensure fair access to AI technologies."
+  Kontext: [UNI] Sloan Konferenz. [PERSON] spricht ueber Gerechtigkeit beim KI-Zugang.
+
+[A009] (2023-12-06, schriftlich)
+  "I believe the transition we are seeing right now with AI will be the most profound in our lifetimes, far bigger than the shift to mobile or to the web before it."
+  Kontext: Offizielle Ankuendigung von [PRODUKT], [FIRMA]s multimodalem KI-Modell. [PERSON] positioniert es als Meilenstein.
+
+[A010] (2024, muendlich)
+  "The future of AI is not about replacing humans, it's about augmenting human capabilities."
+  Kontext: Allgemeine Vision zur Mensch-KI-Zusammenarbeit in verschiedenen Reden.
+
+[A011] (2024, schriftlich)
+  "I believe that technology is a foundational enabler of progress. Just as the internet and mobile devices expanded opportunities for people around the world, now AI is poised to accelerate progress at unprecedented scale."
+  Kontext: Grundsatzerklaerung zur strategischen Bedeutung von KI fuer [FIRMA] und die Welt.
+
+[A012] (2024, muendlich)
+  "All of [FIRMA]'s 2-billion user products use [PRODUKT]. This is the fastest adoption of any model in our history."
+  Kontext: Earnings Call. [PERSON] berichtet ueber erfolgreiche [PRODUKT]-Integration in [FIRMA]-Oekosystem.
+
+[A013] (2024-02-08, schriftlich)
+  "This is the biggest upgrade to [PRODUKT] since it launched. It represents a new era in our AI journey."
+  Kontext: Ankuendigung von [PRODUKT] Advanced mit Ultra 1.0 und Umbenennung von [PRODUKT] zu [PRODUKT].
+
+[A014] (2024-05-14, muendlich)
+  "[FIRMA] is fully in our [PRODUKT] era. We've been investing in AI for more than a decade — and innovating at every layer of the stack: research, product, infrastructure."
+  Kontext: [FIRMA] I/O 2024 Keynote. [PERSON] praesentiert [PRODUKT]-Integration in alle [FIRMA]-Produkte.
+
+[A015] (2024-09-22, muendlich)
+  "We've been investing in AI research, tools, and infrastructure for two decades because it's the most profound way we can deliver on our mission — and improve people's lives."
+  Kontext: Keynote beim UN Summit of the Future 2024. [PERSON] betont [FIRMA]s langjaehriges Engagement fuer KI.
+
+[A016] (2024-09-22, muendlich)
+  "With AI, we have the chance to democratize access from the start… ensure that the digital divide doesn't become an AI divide… and make AI helpful for everyone."
+  Kontext: UN Summit. [PERSON] fordert demokratischen Zugang zu KI fuer alle.
+
+[A017] (2024-12-09, schriftlich)
+  "Introducing Willow, our new state-of-the-art quantum computing chip with a breakthrough that can reduce errors exponentially as we scale up using more qubits, cracking a 30-year challenge in the field."
+  Kontext: Ankuendigung von [FIRMA]s Quantenchip Willow auf X/[PLATTFORM]. Durchbruch bei Fehlerkorrektur.
+
+[A018] (2024-12-09, schriftlich)
+  "We see Willow as an important step in our journey to build a useful quantum computer with practical applications in areas like drug discovery, fusion energy, battery design + more."
+  Kontext: Follow-up Tweet zur Willow-Ankuendigung. [PERSON] beschreibt praktische Anwendungen.
+
+[A019] (2025-02-10, muendlich)
+  "AI will be the most profound shift of our lifetimes. Bigger than the shift to personal computing, or to mobile. And it will do more to democratize access to information than the internet."
+  Kontext: AI Action Summit Paris 2025. [PERSON] vergleicht KI mit frueheren technologischen Revolutionen.
+
+[A020] (2025-02-10, muendlich)
+  "AI is the most profound technology humanity has ever worked on, and it has potential for extraordinary benefits, and we will have to work through societal disruption."
+  Kontext: Fortsetzung der AI Action Summit Remarks. [PERSON] spricht ueber Chancen und Risiken.
+
+[A021] (2025-05-13, muendlich)
+  "AI Mode is a total reimagining of Search. It's designed to help you solve bigger problems and get things done."
+  Kontext: [FIRMA] I/O 2025 Keynote. [PERSON] praesentiert grundlegende Neugestaltung der Suche durch KI.
+
+[A022] (2025-11-18, muendlich)
+  "Don't blindly trust AI tools. People need to adapt."
+  Kontext: Warnung vor unkritischer KI-Nutzung. [PERSON] betont Eigenverantwortung.
+
+[A023] (2025-12, muendlich)
+  "People who learn to adopt and adapt to AI will do better. All those professions will be around, but the people who will do well in each of those professions are people who learn how to use these tools."
+  Kontext: Aeusserungen zur Zukunft der Arbeit. [PERSON] betont Anpassungsfaehigkeit statt Jobverlust.
+
+[A024] (2025-12-02, muendlich)
+  "People will need to adapt, and then there will be areas where it will impact some jobs. So, as a society, I think we need to be having those conversations."
+  Kontext: BBC Interview ueber KI-Auswirkungen auf den Arbeitsmarkt. [PERSON] spricht offen ueber Job-Verluste.
+
+
+--- HANDLUNGEN (16 Stueck) ---
+
+[H001] (2015-08-10) [einstellung]
+  [PERSON] wird CEO von [FIRMA] (nach Umbenennung der Holding in [FIRMA] Inc.). [PERSON] wird CEO von [FIRMA], [PERSON] uebernimmt Tagesgeschaeft von [FIRMA].
+
+[H002] (2019-12-03) [einstellung]
+  [PERSON] wird zusaetzlich CEO von [FIRMA] Inc., nachdem [PERSON] und [PERSON] zuruecktreten. [PERSON] leitet nun sowohl [FIRMA] als auch die Muttergesellschaft.
+
+[H003] (2022-12) [umstrukturierung]
+  Nach dem viralen Erfolg von [PRODUKT] ruft [PERSON] unternehmensweit 'Code Red' aus und bezeichnet den Chatbot als existenzielle Bedrohung fuer [FIRMA] Search. Teams werden umstrukturiert, um bis Mai 2023 KI-Prototypen und Produkte zu entwickeln.
+
+[H004] (2023-02-04) [investition] ($300,000,000)
+  [FIRMA] investiert $300 Millionen in [FIRMA] ([FIRMA]-Konkurrent, gegr. von ehemaligen [FIRMA]-Mitarbeitern) und nimmt ca. 10% Anteil. [FIRMA] waehlt [FIRMA] als bevorzugten Cloud-Partner.
+
+[H005] (2023-03-21) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], einen KI-Chatbot als Antwort auf [PRODUKT]. Der Launch verlaeuft holprig: In der Demo gibt [PRODUKT] eine falsche Antwort, [FIRMA]s Aktienkurs faellt um $100 Milliarden.
+
+[H006] (2023-04-20) [umstrukturierung]
+  [PERSON] fuehrt [FIRMA] Brain und [FIRMA] zu '[FIRMA]' zusammen. [PERSON] wird CEO, [PERSON] Chief Scientist. Ziel: 'Kuehne und verantwortungsvolle Entwicklung allgemeiner KI'.
+
+[H007] (2023-10-27) [investition] ($2,000,000,000)
+  [FIRMA] verpflichtet sich, bis zu $2 Milliarden in [FIRMA] zu investieren: $500 Mio. sofort, weitere $1,5 Mrd. ueber die Zeit. Vertiefung der strategischen Partnerschaft.
+
+[H008] (2023-12-06) [produktlaunch]
+  [FIRMA] veroeffentlicht [PRODUKT], ein multimodales KI-Modell in drei Groessen (Ultra, Pro, Nano). [PERSON] bezeichnet es als 'most capable AI model yet'. [PRODUKT] wird in [PRODUKT] integriert.
+
+[H009] (2024-02-08) [produktlaunch]
+  [FIRMA] benennt [PRODUKT] in '[PRODUKT]' um und startet [PRODUKT] Advanced mit Ultra 1.0-Modell. Launch eines kostenpflichtigen Abonnements ([PRODUKT] Advanced) fuer $19.99/Monat. Integration in [FIRMA] One.
+
+[H010] (2024-05-14) [produktlaunch]
+  [FIRMA] kuendigt TPU v6 'Trillium' an - 6. Generation von [FIRMA]s KI-Chips. 4,7-fache Leistungssteigerung pro Chip gegenueber TPU v5e. Teil der langfristigen Infrastruktur-Strategie.
+
+[H011] (2024-12-09) [produktlaunch]
+  [FIRMA] veroeffentlicht Willow, einen Quantenchip mit 105 Qubits, der einen Durchbruch bei der Fehlerkorrektur erzielt. Berechnung in unter 5 Minuten, die klassische Computer 10^25 Jahre benoetigen wuerden.
+
+[H012] (2025) [produktlaunch]
+  [FIRMA] kuendigt TPU v7 'Ironwood' an, die 7. Generation der Tensor Processing Units. 3.600-mal bessere Performance als die erste oeffentliche TPU, 29-mal energieeffizienter. Launch fuer 2025 geplant.
+
+[H013] (2025-01) [investition] ($75,000,000,000)
+  [PERSON] kuendigt $75 Milliarden Investition in KI-Infrastruktur fuer 2025 an (Steigerung von $52,5 Mrd. in 2024). Ausbau von Rechenzentren, TPUs und GPU-Clustern.
+
+[H014] (2025-01-22) [investition] ($1,000,000,000)
+  [FIRMA] investiert weitere $1 Milliarde in [FIRMA] und bringt kumulativ ca. $3 Milliarden Investment. Zusaetzlich wird Cloud-Deal angekuendigt: Lieferung von bis zu 1 Million TPUs an [FIRMA].
+
+[H015] (2025-02-05) [politisch]
+  [FIRMA] aendert seine AI-Ethik-Grundsaetze und entfernt das Versprechen, Waffen- und Ueberwachungsanwendungen zu vermeiden. Kritiker werfen [FIRMA] vor, kommerzielle Interessen ueber ethische Prinzipien zu stellen.
+
+[H016] (2025-10-23) [partnerschaft]
+  [FIRMA] und [FIRMA] kuendigen Cloud-Deal im Wert von Dutzenden Milliarden Dollar an: Lieferung von bis zu 1 Million TPUs. Deployment ab 2026 mit ueber 1 Gigawatt Kapazitaet. Groesster TPU-Deal in [FIRMA]s Geschichte.

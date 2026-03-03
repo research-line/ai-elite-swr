@@ -1,0 +1,77 @@
+=== DATENKORPUS PERSON-69 ===
+
+--- AUSSAGEN (8 Stueck) ---
+
+[A001] (2020-01-01, muendlich)
+  "The important components in this paper were doing parallel computation across all the words in the sentence and the ability to learn and capture the relationships between any two words in the sentence, not just neighboring words as in long short-term memory networks and convolutional neural network-based models."
+  Kontext: Explaining the key innovation of the Transformer architecture in the 'Attention Is All You Need' paper
+
+[A002] (2020-01-01, muendlich)
+  "I believe one should always start with forming the research question/goal and an initial hypothesis. In collaborative settings, it's useful to brainstorm closely and refine solutions based on incoming results. In our project, we did this every day and discussed at great lengths the new results we got each day and then went on to try new things. Through the course of the project, paying attention to details is important — every detail, every question, every choice seems relevant."
+  Kontext: Describing her research methodology and collaborative approach at [FIRMA] Brain
+
+[A003] (2020-01-01, muendlich)
+  "Choosing a problem is one of the hardest parts, which to be honest, I still struggle with sometimes. Being able to get feedback or collaborate with peers really helps in all aspects. The other, which is echoed several times and is extremely important, is to ask a lot of questions — small or big. Useful brainstorming and making interesting connections happen by doing that. I've also found that staying consistent on a problem and not giving up early forces one to look in multiple directions for solutions that can help to find new insights."
+  Kontext: Reflecting on the challenges of research and her approach to problem-solving
+
+[A004] (2022-04-25, schriftlich)
+  "Life update: For those who haven't heard, I left [FIRMA] Brain! I'm grateful for the 6+ years I spent there, the peers and friends that are inspiring and the opportunities to push on some of the most important problems in AI."
+  Kontext: Announcement of departure from [FIRMA] Brain in April 2022
+
+[A005] (2023-01-01, schriftlich)
+  "We are in an exciting era of human-computer collaboration evolving the way we will reason with, process and generate information."
+  Kontext: Statement about her vision for AI and human-computer collaboration
+
+[A006] (2023-03-01, muendlich)
+  "I developed my first interest in Machine Learning during my undergrad by taking MOOCs by [PERSON] and Peter Norvig, and when I joined USC, I was part of a computational social science lab led by Prof. Morteza Dehghani, where I explored social science questions using ML and big data."
+  Kontext: Describing her educational journey into machine learning
+
+[A007] (2024-10-05, muendlich)
+  "There's always more to learn. Even after co-authoring the influential Transformer paper, she doesn't believe she's 'made it.' Additionally, she doesn't want to be remembered just for the Transformer model."
+  Kontext: Reflections on her career and legacy in October 2024
+
+[A008] (2025-02-25, schriftlich)
+  "Today is as good a day as any to share that I joined [FIRMA] last Dec :) [PRODUKT].7 is a remarkable model at complex tasks, especially coding, and I'm thrilled to have contributed to its development."
+  Kontext: Announcement of joining [FIRMA] and working on [PRODUKT].7 Sonnet
+
+
+--- HANDLUNGEN (13 Stueck) ---
+
+[H001] (2015-06-01) [einstellung]
+  Joined [FIRMA] Research as software engineer, focusing on end-to-end deep learning systems for NLP
+
+[H002] (2017-06-12) [produktlaunch]
+  Co-authored landmark paper 'Attention Is All You Need' introducing Transformer architecture at NeurIPS 2017, which became foundation for modern LLMs
+
+[H003] (2017-10-01) [einstellung]
+  Transitioned to [FIRMA] Brain as Research Software Engineer, contributing to research on self-attention and deep learning
+
+[H004] (2018-02-15) [produktlaunch]
+  Co-authored 'Image Transformer' paper extending Transformer architecture to image generation, achieving state-of-the-art results on ImageNet
+
+[H005] (2018-03-01) [produktlaunch]
+  Contributed to Tensor2Tensor library release at [FIRMA] Brain, an open-source library for deep learning models and datasets
+
+[H006] (2021-11-01) [ruecktritt]
+  Left [FIRMA] Brain after 6+ years at [FIRMA] (including [FIRMA] Research and [FIRMA] Brain)
+
+[H007] (2022-04-26) [gruendung]
+  Co-founded Adept AI Labs with David Luan (CEO) and [PERSON] (Chief Scientist), serving as CTO
+
+[H008] (2022-04-26) [investition]
+  Adept AI raised $65 million Series A funding led by [FIRMA] and Root Ventures, with participation from [PERSON], Scott Belsky, Andrej [PERSON]athy, and others
+
+[H009] (2022-11-01) [ruecktritt]
+  Left Adept AI as co-founder and CTO after approximately 6 months
+
+[H010] (2023-01-01) [gruendung]
+  Co-founded Essential AI with [PERSON] to build 'Enterprise Brain' for LLM-powered business workflow automation
+
+[H011] (2023-12-11) [investition]
+  Essential AI raised $56.5 million Series A funding led by March Capital, with backing from [FIRMA], [FIRMA], [FIRMA], and Thrive Capital
+
+[H012] (2024-12-01) [einstellung]
+  Joined [FIRMA] as Member of Technical Staff, contributing to [PRODUKT].7 Sonnet development
+
+[H013] (2025-02-25) [produktlaunch]
+  Contributed to development and launch of [PRODUKT].7 Sonnet model at [FIRMA], described as remarkable at complex tasks especially coding

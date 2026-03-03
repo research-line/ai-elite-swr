@@ -1,0 +1,90 @@
+=== DATENKORPUS PERSON-41 ===
+
+--- AUSSAGEN (12 Stueck) ---
+
+[A001] (2025-03-28, muendlich)
+  "Going public is really a means to an end. It puts us on the path towards what we need to accomplish as a business."
+  Kontext: CNBC Interview am Tag des [FIRMA] IPO, Erklaerung der strategischen Bedeutung
+
+[A002] (2025-03-31, muendlich)
+  "There's a divergence between what the capital markets and what the media is thinking, and what I am feeling down in the trenches. What I am feeling is relentless demand."
+  Kontext: Interview kurz nach [FIRMA] IPO ueber Diskrepanz zwischen Marktsentiment und Geschaeftsrealitaet
+
+[A003] (2025-03-31, muendlich)
+  "While we were previously reliant on [FIRMA] for 85% of our revenue, aggressive diversification efforts mean that no single customer now represents more than 30% of the company's backlog."
+  Kontext: Diskussion ueber Risikominderung und Kundenportfolio-Strategie
+
+[A004] (2025-09-22, muendlich)
+  "AI will be embedded into everything we do within the next decade."
+  Kontext: CNBC Interview ueber die Zukunft der AI-Integration in Gesellschaft und Wirtschaft
+
+[A005] (2025-09-25, schriftlich)
+  "We are proud to expand our relationship with [FIRMA], a company consistently at the forefront of advancing artificial intelligence. This expansion affirms the trust that world-leading innovators have in [FIRMA]'s ability to power the most demanding inference and training workloads at an unmatched pace."
+  Kontext: Offizielle Stellungnahme zur 6,5 Milliarden Dollar [FIRMA]-Vertragserweiterung
+
+[A006] (2025-11-15, muendlich)
+  "[FIRMA] is the first AI-native cloud, designed from the ground up for AI workloads rather than retrofitted from CPU-based systems."
+  Kontext: Columbia Business School Diskussion ueber [FIRMA]'s einzigartige Architektur
+
+[A007] (2025-11-15, muendlich)
+  "AI has the potential to accelerate the economy by 15 percent through sustained productivity growth, which could expand employment and raise standards of living, even if the short-term adjustment is difficult."
+  Kontext: Columbia Business School Diskussion ueber makrooekonomische AI-Auswirkungen
+
+[A008] (2025-11-15, muendlich)
+  "AI's appetite for energy is immense. While advances like liquid cooling have reduced data center energy consumption by as much as 60 percent, overall demand continues to rise faster than efficiency gains can offset."
+  Kontext: Diskussion ueber Nachhaltigkeit und Energie-Herausforderungen der AI-Infrastruktur
+
+[A009] (2025-12-26, muendlich)
+  "The demand from the most knowledgeable, most sophisticated, largest tech companies in the world is relentless."
+  Kontext: Fortune Brainstorm AI Konferenz in San Francisco, Diskussion ueber AI-Nachfrage trotz Marktskepsis
+
+[A010] (2025-12-26, muendlich)
+  "The primary constraint facing the AI sector is a physical bottleneck associated with getting the most performant compute into the hands of the most cutting-edge players. The reasons that you have challenges in delivering that compute is because of policy, because of physical infrastructure, because of energy."
+  Kontext: Erklaerung der systemischen Herausforderungen in der AI-Infrastruktur Lieferkette
+
+[A011] (2025-12-26, muendlich)
+  "Circular is the incorrect way of looking at it. This is not financial engineering, but logistical necessity."
+  Kontext: Verteidigung gegen Kritik an [FIRMA]-[FIRMA] Partnerschaftsmodell
+
+[A012] (2026-01-10, schriftlich)
+  "Every major technology shift eventually stops being about the technology and starts being about the systems around it. AI has begun to cross that threshold, with foundational capabilities firmly in place. This next phase is about making AI usable and productive across entire industries."
+  Kontext: CEO Blog-Post ueber die naechste Phase der AI-Entwicklung und Industrialisierung
+
+
+--- HANDLUNGEN (12 Stueck) ---
+
+[H001] (2017-09-01) [gruendung]
+  [PERSON] co-gruendete [FIRMA] (urspruenglich Atlantic Crypto) zusammen mit Brian Venturo, Brannin McBee und Peter Salanki. Das Unternehmen startete als Ethereum-Mining-Operation in einer Garage in New Jersey. [PERSON] brachte seine Erfahrung aus dem Rohstoffhandel und Climate Finance mit.
+
+[H002] (2019-03-01) [umstrukturierung]
+  Nach dem Krypto-Crash 2018 leitete [PERSON] die strategische Neuausrichtung von [FIRMA] vom Ethereum-Mining zur GPU-Cloud-Computing-Plattform. Diese visionaere Entscheidung verwandelte potenziell wertlose GPU-Bestaende in die Grundlage eines Milliarden-Dollar-Unternehmens, genau rechtzeitig fuer die AI-Revolution.
+
+[H003] (2021-10-01) [umstrukturierung]
+  [PERSON] fuehrte das Rebranding von Atlantic Crypto zu [FIRMA] durch, um die neue Mission als Anbieter von Kern-Rechenleistung und vernetzten Netzwerkressourcen fuer AI-Workloads zu reflektieren. Dies signalisierte den definitiven Bruch mit der Krypto-Mining-Vergangenheit.
+
+[H004] (2023-04-01) [partnerschaft] ($100,000,000)
+  [PERSON] sicherte eine strategische Partnerschaft mit [FIRMA], bei der [FIRMA] 100 Millionen Dollar in [FIRMA] investierte und sich verpflichtete, Milliarden Dollar an [FIRMA] Cloud-Kapazitaet bis 2032 zu kaufen. Diese Partnerschaft etablierte [FIRMA] als primaere GPU-Infrastruktur fuer [FIRMA].
+
+[H005] (2023-08-01) [partnerschaft]
+  Unter [PERSON]s Fuehrung schloss [FIRMA] einen massiven Deal mit [FIRMA] ab, der 2024 zu 62% bzw. 85% der Gesamteinnahmen fuehrte. [FIRMA] nutzte [FIRMA]'s GPU-Infrastruktur fuer Azure AI-Services und [FIRMA]-Support.
+
+[H006] (2024-05-01) [investition] ($1,100,000,000)
+  [PERSON] fuehrte [FIRMA] durch eine 1,1 Milliarden Dollar Finanzierungsrunde unter Fuehrung von Coatue Management, die das Unternehmen mit 19 Milliarden Dollar bewertete. Weitere Investoren umfassten Magnetar Capital, Fidelity, Jane Street und andere fuehrende Institutionen.
+
+[H007] (2025-03-28) [sonstiges] ($1,500,000,000)
+  [PERSON] fuehrte [FIRMA] am 28. Maerz 2025 an die Boerse (Nasdaq: CRWV). Der IPO brachte 1,5 Milliarden Dollar ein und war das groesste AI-bezogene Listing nach eingeworbener Summe. [PERSON] behielt 11% Eigentumsanteil, was seine persoenliche Ausrichtung mit dem langfristigen Erfolg signalisiert.
+
+[H008] (2025-05-10) [investition] ($2,000,000,000)
+  [PERSON] kuendigte eine 2 Milliarden Dollar Investition in schottische Rechenzentren an, die vollstaendig mit erneuerbarer Energie betrieben werden. Dies reflektiert seinen Hintergrund in Climate Finance und adressiert Nachhaltigkeitsbedenken bzgl. AI-Energieverbrauch.
+
+[H009] (2025-06-15) [partnerschaft] ($14,200,000,000)
+  [PERSON] sicherte einen 14,2 Milliarden Dollar Deal mit [FIRMA] fuer AI-Infrastruktur. Dies war Teil der strategischen Diversifizierung weg von der [FIRMA]-Abhaengigkeit und positionierte [FIRMA] als kritischer Infrastrukturanbieter fuer mehrere AI-Giganten.
+
+[H010] (2025-08-20) [produktlaunch] ($1,600,000,000)
+  [FIRMA] eroeffnete ein 1,6 Milliarden Dollar Supercomputer-Rechenzentrum in Plano, Texas, fuer [FIRMA]. [FIRMA] bezeichnete es als schnellsten AI-Supercomputer der Welt. Dies demonstrierte [FIRMA]'s Faehigkeit, cutting-edge Infrastruktur in Rekordzeit zu liefern.
+
+[H011] (2025-09-25) [partnerschaft] ($22,400,000,000)
+  [PERSON] erweiterte die [FIRMA]-[FIRMA] Partnerschaft massiv: Maerz 2025 initiale 11,9 Milliarden Dollar, Mai 2025 weitere 4 Milliarden, September 2025 zusaetzliche 6,5 Milliarden Dollar. Gesamtwert der [FIRMA]-Zusammenarbeit erreichte 22,4 Milliarden Dollar. [FIRMA] investierte zudem 350 Millionen in [FIRMA]-Aktien.
+
+[H012] (2026-01-26) [investition] ($2,000,000,000)
+  [FIRMA] investierte weitere 2 Milliarden Dollar in [FIRMA] im Januar 2026, verdoppelte seinen Anteil und wurde zweitgroesster Aktionaer. Die Aktien wurden mit 87,20 Dollar bewertet. Dies vertiefte die strategische Partnerschaft fuer 5 Gigawatt Rechenzentrumskapazitaet bis 2030.

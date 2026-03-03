@@ -1,0 +1,921 @@
+%% =============================================================================
+%% KI_Elite_v1_ger.tex
+%% Was denkt die KI-Elite? Eine LLM-gestuetzte Weltbild-Rekonstruktion
+%% der 100 einflussreichsten Akteure der kuenstlichen Intelligenz (2010--2026)
+%% Autor: Lukas Geiger, Unabhaengiger Forscher, Bernau im Schwarzwald
+%% Companion Paper: SWR_v1_ger.tex (Synthetische Weltbild-Rekonstruktion)
+%% =============================================================================
+\documentclass[12pt,a4paper]{article}
+
+%% --- Kodierung und Sprache ---------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+%% --- Schrift: Times New Roman ------------------------------------------------
+\usepackage{mathptmx}
+\usepackage[scaled=0.92]{helvet}
+
+%% --- Seitenlayout ------------------------------------------------------------
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+%% --- Zeilenabstand: 1,5 -----------------------------------------------------
+\usepackage{setspace}
+\onehalfspacing
+
+%% --- Ueberschriften serifenlos -----------------------------------------------
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily}{\thesection.}{0.5em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\sffamily}{\thesubsubsection}{0.5em}{}
+
+%% --- Zitation: natbib Autor-Jahr ---------------------------------------------
+\usepackage[round,authoryear,semicolon]{natbib}
+\bibliographystyle{plainnat}
+
+%% --- Pakete ------------------------------------------------------------------
+\usepackage{graphicx}
+\graphicspath{{_results/figures/}}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage[german=quotes]{csquotes}
+\usepackage[breaklinks=true]{hyperref}
+\hypersetup{
+  colorlinks  = true,
+  linkcolor   = black,
+  citecolor   = blue!60!black,
+  urlcolor    = blue!70!black,
+  pdfauthor   = {Lukas Geiger},
+  pdftitle    = {Was denkt die KI-Elite?},
+  pdfsubject  = {Computational Social Science},
+}
+
+%% --- Titelblock --------------------------------------------------------------
+\title{%
+  \sffamily\bfseries
+  Was denkt die KI-Elite?\\[0.3em]
+  \large Eine LLM-gest\"utzte Weltbild-Rekonstruktion\\
+  der 100 einflussreichsten Akteure der k\"unstlichen Intelligenz (2010--2026)%
+}
+
+\author{%
+  Lukas Geiger\thanks{Korrespondenzautor: \texttt{[email]}}\\[0.3em]
+  \small Unabh\"angiger Forscher, Bernau im Schwarzwald
+}
+
+\date{Februar 2026}
+
+%% =============================================================================
+
+\begin{document}
+
+% TODO: English translation required
+% Original German text below (needs translation)
+
+%% =============================================================================
+
+\maketitle
+\thispagestyle{empty}
+
+%% --- Abstract ----------------------------------------------------------------
+\begin{abstract}
+\noindent
+Die vorliegende Studie rekonstruiert erstmals systematisch das kollektive Weltbild der 100 einflussreichsten Pers\"onlichkeiten im Bereich der k\"unstlichen Intelligenz (KI-Elite) f\"ur den Zeitraum 2010 bis 2026. Methodisch entwickelt und erprobt sie die synthetische Weltbild-Rekonstruktion (SWR) -- ein LLM-gest\"utztes Verfahren, das aus 3.132 Datenpunkten (1.738 \"offentliche Aussagen, 1.394 beobachtbare Handlungen) mittels 51--56 Syntheseeinheiten, 12 Weltbild-Dimensionen und 6 komplement\"aren Operationalisierungen koh\"arente \"Uberzeugungssysteme extrahiert (vgl.\ das Companion Paper \citealt{Geiger2026SWR} f\"ur die methodischen Grundlagen). Sechs Forschungsfragen strukturieren die Analyse: F1~(Weltbild) zeigt einen \glqq technologischen Messianismus mit Ambivalenzstruktur\grqq{} (Avg~7,1 Kollektiv, 7,7 Top~10). F2~(Wandel) dokumentiert den \"Ubergang von utopischem Techno-Optimismus zu tragischem Beschleunigungszwang; Posthumanismus f\"allt deutlich ($-2{,}4$/Dekade, $R^2 = 0{,}63$). F3~(Kongruenz) deckt eine systematische Sagen-Handeln-Kluft auf; gr\"o\ss{}te Diskrepanz beim Egalitarismus ($\Delta = -3$). F4~(Cluster) identifiziert vier Weltbild-Typen: Architekt, H\"uter, Innovator, Befreier. F5~(Differenz) benennt die st\"arksten Pr\"adiktoren: Haltung ($\Delta$~1,7), Rolle ($\Delta$~1,5), Gender ($\Delta$~1,2). F6~(Macht) offenbart ein Macht-Gem\"a\ss{}igtheits-Paradox: der m\"achtigste Typ ist der extremste, der gem\"a\ss{}igste der machtloseste.
+
+\medskip
+\noindent\textbf{Schl\"usselw\"orter:} KI-Elite, Weltbild, Transhumanismus, Large Language Models, Silicon Valley, Ideologieanalyse
+\end{abstract}
+
+\newpage
+\setcounter{page}{1}
+
+%% =============================================================================
+%% 1. EINLEITUNG
+%% =============================================================================
+\section{Einleitung}
+\label{sec:einleitung}
+
+\subsection{Hinleitung und Relevanz}
+\label{sec:einleitung:relevanz}
+
+Eine Handvoll Menschen gestaltet eine Technologie, die Milliarden betrifft. Die Entwicklung k\"unstlicher Intelligenz hat sich in den vergangenen anderthalb Jahrzehnten von einem akademischen Nischenthema zu einer zivilisatorischen Weichenstellung gewandelt. Gro\ss{}sprachmodelle generieren Texte, Bilder und Code; autonome Systeme treffen Entscheidungen in Medizin, Justiz und Finanzwesen; und die f\"uhrenden KI-Laboratorien sprechen offen davon, in absehbarer Zeit eine k\"unstliche allgemeine Intelligenz zu erschaffen \citep{Bubeck2023, Bengio2024}. Was dabei leicht \"ubersehen wird: Hinter diesen technologischen Trajektorien stehen konkrete Personen -- Gr\"underinnen und Gr\"under, Forschungsleitende, Investorinnen und Investoren, CEOs --, deren individuelle und kollektive \"Uberzeugungen \"uber die Natur des Menschen, den Sinn des Fortschritts und die Verteilung von Risiko und Macht in die Architektur der Systeme einflie\ss{}en, die sie bauen.
+
+\citet{Lessig1999} hat die Formel \glqq Code is law\grqq{} gepr\"agt: Software-Architektur reguliert Verhalten nicht weniger wirksam als Gesetze, aber ohne demokratische Legitimation. Diese Einsicht l\"asst sich f\"ur die gegenw\"artige KI-Entwicklung radikalisieren: Nicht nur der Code selbst, sondern bereits die \emph{Weltbilder} der Entwickelnden werden zu Algorithmen. Wer glaubt, dass Informationsfreiheit ein absoluter Wert ist, wird Open-Source-Modelle bauen. Wer \"uberzeugt ist, dass eine unkontrollierte Superintelligenz die Menschheit bedroht, wird auf Alignment und geschlossene Systeme setzen. Die Weltbilder der KI-Elite sind somit nicht blo\ss{} private Meinungen; sie sind \emph{generative Strukturen}, die sich in Designentscheidungen, Unternehmensstrategien und politische Positionierungen \"ubersetzen -- und \"uber diese Kan\"ale das Leben von Milliarden Menschen pr\"agen.
+
+Dabei entsteht ein fundamentales demokratietheoretisches Problem. Eine zahlenm\"a\ss{}ig \"au\ss{}erst kleine Gruppe trifft Entscheidungen von gesamtgesellschaftlicher Tragweite, ohne \"uber ein demokratisches Mandat zu verf\"ugen. Ihre \"Uberzeugungen pr\"agen diese Entscheidungen in einer Weise, die der \"offentlichen Kontrolle weitgehend entzogen ist. Wenn Demokratien informierte B\"urgerinnen und B\"urger voraussetzen, dann ist die systematische Rekonstruktion der Weltbilder derjenigen, die die m\"achtigste Technologie des 21.~Jahrhunderts gestalten, nicht blo\ss{} ein akademisches Anliegen, sondern eine Voraussetzung informierter \"offentlicher Deliberation.
+
+
+\subsection{Forschungsl\"ucke}
+\label{sec:einleitung:luecke}
+
+Die wissenschaftliche Auseinandersetzung mit den \"Uberzeugungssystemen der KI-Branche hat verschiedene Zug\"ange hervorgebracht. Auf ideologiekritischer Ebene haben \citet{BarbCam1996} die \glqq Californian Ideology\grqq{} beschrieben; \citet{Morozov2013} hat die Tendenz zum Solutionismus herausgearbeitet; \citet{Daub2020} hat die rhetorischen und ideologischen Muster des Silicon Valley als kulturelles Ph\"anomen analysiert. Aus der Transhumanismus-Forschung liegen philosophische Analysen vor \citep{Bostrom2005, MoreVitaMore2013, Coeckelbergh2020}, die jedoch prim\"ar auf die Ideengeschichte und nicht auf die empirische Verteilung dieser \"Uberzeugungen abzielen.
+
+Was in diesem Forschungsfeld bislang \emph{fehlt}, ist eine systematische, datengest\"utzte Analyse der \emph{gesamten} KI-Elite als Kollektiv. Keine Studie untersucht, soweit dem Verfasser bekannt, die folgenden Fragen auf empirisch-systematische Weise: Wie h\"angen die Weltbilder der f\"uhrenden KI-Akteure zusammen? Bilden sie koh\"arente Typen? Wie haben sich diese Weltbilder im Zeitraum von 2010 bis 2026 gewandelt? Und stimmen die \"offentlichen \"Uberzeugungen mit dem tats\"achlichen Handeln \"uberein?
+
+Neben dieser empirischen L\"ucke besteht eine \emph{methodische} L\"ucke. F\"ur die systematische Rekonstruktion von Weltbildern aus \"offentlichen Aussagen im gro\ss{}en Ma\ss{}stab existiert keine etablierte Methode. Klassische qualitative Verfahren skalieren nicht; standardisierte Surveys setzen Zugang zu den Befragten voraus; quantitative Text-Mining-Verfahren erfassen nur Oberfl\"achenmuster. Die vorliegende Studie reagiert auf diese doppelte L\"ucke mit einem neuen Ansatz, der synthetischen Weltbild-Rekonstruktion (SWR), deren methodische Grundlagen in einem Companion Paper \citep{Geiger2026SWR} ausf\"uhrlich dargelegt werden.
+
+
+\subsection{Forschungsfragen}
+\label{sec:einleitung:fragen}
+
+Aus der beschriebenen Forschungsl\"ucke leiten sich sechs Forschungsfragen ab, die in einer Stufenlogik angeordnet sind:
+
+\begin{description}[style=nextline, leftmargin=1.5cm]
+  \item[F1: WELTBILD (deskriptiv)] \emph{Was denkt die KI-Elite \"uber sich selbst, die Welt und die Menschheit?}
+  \item[F2: WANDEL (l\"angsschnittlich)] \emph{Wie hat sich das Weltbild der KI-Elite von 2010 bis 2026 ver\"andert?}
+  \item[F3: KONGRUENZ (validierend)] \emph{Stimmen Aussagen und Handlungen der KI-Elite \"uberein?}
+  \item[F4: CLUSTER (explorativ)] \emph{Welche Weltbild-Typen gibt es in der KI-Elite, und wer geh\"ort wohin?}
+  \item[F5: DIFFERENZ (vergleichend)] \emph{Welche Subgruppen der KI-Elite denken anders als andere?}
+  \item[F6: MACHT (normativ)] \emph{Welches Weltbild hat die meiste Macht und die meisten Ressourcen?}
+\end{description}
+
+
+\subsection{Beitrag der Studie}
+\label{sec:einleitung:beitrag}
+
+Die Studie leistet einen dreifachen Beitrag. \emph{Methodisch:} Sie erprobt die synthetische Weltbild-Rekonstruktion (SWR; vgl.\ Companion Paper \citealt{Geiger2026SWR}) erstmals an einem gro\ss{}en empirischen Datensatz. \emph{Empirisch:} Sie liefert die erste systematische Weltbild-Analyse der KI-Elite als Kollektiv auf der Grundlage von 3.132 Datenpunkten \"uber 16 Jahre. \emph{Gesellschaftlich:} Sie schafft eine Grundlage f\"ur informierte \"offentliche Deliberation, indem sie die impliziten Annahmen hinter KI-Designentscheidungen transparent macht.
+
+
+%% =============================================================================
+%% 2. FORSCHUNGSSTAND
+%% =============================================================================
+\section{Forschungsstand}
+\label{sec:forschungsstand}
+
+Die Studie verortet sich im Schnittfeld vier verschiedener Forschungstraditionen.
+
+\subsection{Silicon Valley als Ideologie}
+\label{sec:forschungsstand:sv}
+
+Die kritische Auseinandersetzung mit dem Denken des Silicon Valley hat seit Mitte der 1990er Jahre eine reichhaltige Literatur hervorgebracht. \citet{BarbCam1996} pr\"agten den Begriff der \glqq Californian Ideology\grqq{} -- die paradoxe Verschmelzung von libert\"arem Individualismus und techno-utopischem Optimismus. \citet{Turner2006} zeichnete die kulturhistorische Genealogie dieser Ideologie nach und zeigte, wie die Gegenkultur der 1960er Jahre in den digitalen Utopismus transformiert wurde. \citet{Daub2020} legte die philosophischen Tiefenstrukturen frei: Versatzst\"ucke aus Heidegger, Ayn Rand und puritanischer Pr\"adestinationslehre bilden ein \glqq \"uberraschend schmales philosophisches Fundament\grqq. \citet{Morozov2013} beschrieb den Solutionismus -- die Grundhaltung, komplexe soziale Probleme als technische Herausforderungen umzudefinieren. \citet{TorresGebru2024} systematisierten diese Str\"omungen im TESCREAL-Framework: Transhumanism, Extropianism, Singularitarianism, Cosmism, Rationalism, Effective Altruism und Longtermism als \glqq zusammenh\"angendes B\"undel\grqq. Erg\"anzend pr\"agte \citet{Broussard2018} den Begriff des \glqq Technochauvinismus\grqq{} f\"ur eine systematische Kritik.
+
+Die bisherige Forschung hat somit die \emph{Ideologie} des Silicon Valley auf verschiedenen Ebenen beschrieben. Was sie nicht geleistet hat, ist eine systematische empirische Vermessung der \emph{konkreten Weltbilder} der realen Akteure.
+
+
+\subsection{Transhumanismus und KI-Eschatologie}
+\label{sec:forschungsstand:transhumanismus}
+
+\citet{Bostrom2014} hat mit \emph{Superintelligence} den Denkrahmen definiert, in dem ein wesentlicher Teil der KI-Elite seither operiert. Bereits in fr\"uherer Arbeit systematisierte \citet{Bostrom2005} die ideengeschichtlichen Grundlagen des Transhumanismus. \citet{More2003} legte mit den \glqq Principles of Extropy\grqq{} das Gr\"undungsdokument des Extropianismus vor. \citet{Kurzweil2005} wendete die Tradition mit der Singularity-These ins Popul\"are. Von philosophischer Seite formulierte \citet{Habermas2001} eine der gewichtigsten Gegenpositionen: Die technologische Manipulation k\"unftiger Personen untergrabe deren Autonomie.
+
+Ungekl\"art bleibt die empirische Frage: Teilen die realen KI-Akteure diese \"Uberzeugungen? In welcher Mischung, mit welchen Modifikationen und in welcher Verteilung?
+
+
+\subsection{Weltbild-Forschung und Wissenssoziologie}
+\label{sec:forschungsstand:wissenssoziologie}
+
+\citet{Mannheim1929} begr\"undete mit dem Theorem der \glqq Seinsgebundenheit des Denkens\grqq{} die Tradition, in der Weltbilder als soziale Ph\"anomene analysiert werden. \citet{Weber1904} schuf mit dem Idealtyp ein methodisches Werkzeug, das f\"ur die vorliegende Studie zentral ist: Die synthetischen Personas der SWR lassen sich als Idealtypen im Weber'schen Sinne verstehen. \citet{BergerLuckmann1966} zeigten, wie Weltbilder als soziale Konstruktionen entstehen, sich stabilisieren und reproduzieren. Die wissenssoziologische Tradition liefert den theoretischen Rahmen, aber keine Methode, die auf die Datenmenge und Dynamik des digitalen Zeitalters zugeschnitten ist.
+
+
+\subsection{LLMs als Forschungsinstrument}
+\label{sec:forschungsstand:llm}
+
+Die Nutzung gro\ss{}er Sprachmodelle als Instrument sozialwissenschaftlicher Forschung ist ein rasch wachsendes Feld. \citet{Tai2024} untersuchten LLMs f\"ur deduktives Kodieren; \citet{Hayes2025} zeigte, dass LLMs einen konversationellen Zugang zu qualitativen Daten erm\"oglichen; \citet{NicmanisSpurrier2025} bieten eine praxisorientierte Einf\"uhrung. Arbeiten zu synthetischen Personas \citep{Ge2024} demonstrierten die Skalierbarkeit des Ansatzes -- verfolgten aber ein \emph{anderes} Ziel: Sie nutzen synthetische Personas zur \emph{Datenerzeugung}, w\"ahrend die vorliegende Studie sie zur \emph{Rekonstruktion} koh\"arenter Weltbilder aus \emph{realen} Daten einsetzt. Die synthetische Persona ist in unserem Verfahren kein Simulacrum, sondern ein analytisches Verdichtungsinstrument -- n\"aher am Weber'schen Idealtyp als am Simulationsagenten \citep[vgl.][]{Booth1961, NgRussell2000, JaraEttinger2019}.
+
+
+\subsection{Zusammenfassung: Die Forschungsl\"ucke}
+\label{sec:forschungsstand:luecke}
+
+Die vier Traditionen konvergieren auf eine gemeinsame Leerstelle: die systematische, datengest\"utzte, l\"angsschnittliche Vermessung konkreter Weltbilder der KI-Elite mittels einer Methode, die qualitative Tiefe mit quantitativer Systematik verbindet. Die vorliegende Studie schlie\ss{}t diese vierf\"ache L\"ucke.
+
+
+%% =============================================================================
+%% 3. METHODIK
+%% =============================================================================
+\section{Methodik}
+\label{sec:methodik}
+
+Die methodischen Grundlagen der synthetischen Weltbild-Rekonstruktion (SWR) -- das inverse Grundproblem (Schluss von beobachtbaren Outputs auf latente Überzeugungsstrukturen), die fiktive synthetische Person als analytisches Verdichtungsinstrument, das Prompt-Protokoll, die Blindungsinfrastruktur und der Validierungsrahmen -- werden im Companion Paper \citep{Geiger2026SWR} ausf\"uhrlich dargelegt. Der vorliegende Abschnitt beschr\"ankt sich auf die anwendungsspezifischen Aspekte: Datenerhebung, Operationalisierungen, Forschungsdesign und Qualit\"atssicherung dieser Studie.
+
+
+\subsection{Datenerhebung}
+\label{sec:methodik:daten}
+
+\subsubsection{Stichprobe und Auswahlverfahren}
+
+Gegenstand der Untersuchung sind die 100 einflussreichsten Pers\"onlichkeiten im Bereich der k\"unstlichen Intelligenz (im Folgenden: KI-Elite). Die Auswahl erfolgte durch ein mehrstufiges Verfahren: Mittels 22 systematischer Webrecherchen wurden 187 Kandidatinnen und Kandidaten identifiziert. Jede Person wurde anhand eines 6-Kategorien-Scoring-Systems bewertet: (1)~Marktkapitalisierung/Ressourcenkontrolle, (2)~technologische Schl\"usselpositionen, (3)~\"offentliche Diskursmacht, (4)~akademischer Einfluss, (5)~politische Einflussnahme, (6)~symbolischer Status. Die resultierende Rangliste wurde auf 100 Personen reduziert, wobei die Heterogenit\"at der Branche hinsichtlich Rollen, Firmenzugeh\"origkeiten, Haltungen und Geschlecht abgebildet wird (vgl.\ Anhang~\ref{app:sampling}).
+
+\subsubsection{Datenquellen und Erhebungszeitraum}
+
+Der Erhebungszeitraum erstreckt sich vom 1.~Januar 2010 bis zum 11.~Februar 2026. Die Datenerhebung st\"utzt sich auf zwei Datentypen: \textbf{\"offentliche Aussagen} (w\"ortliche Zitate aus Interviews, Keynotes, Podcasts, Twitter/X-Posts, Blogbeitr\"agen, B\"uchern, Kongressanh\"orungen) und \textbf{beobachtbare Handlungen} (Investitionsentscheidungen, Firmengr\"undungen, Personalentscheidungen, politische Aktivit\"aten, Produkteinf\"uhrungen). Die Verkn\"upfung wurde in einer relationalen SQLite-Datenbank mit 9~Tabellen und 5~Views operationalisiert. Die Gesamtmenge bel\"auft sich auf 1.738 Aussagen und 1.394 Handlungen (3.132 Datenpunkte).
+
+\subsubsection{Methodologische Verankerung}
+
+Die Datenerhebung folgt dem Grounded-Theory-Ansatz nach \citet{StraussCorbin1990}: In Phase~1 wurden keine inhaltlichen Filter angewandt; in Phase~2 wurden mittels offenen Kodierens Muster identifiziert; in Phase~3 wurde ein datengest\"utztes Kategoriensystem entwickelt. Ein- und Ausschlusskriterien wurden erst in Phase~5 formuliert; in Phase~6 erfolgte eine Qualit\"atssicherung (Quellenverifizierung einer 10-\%-Stichprobe).
+
+
+\subsection{Die Methode der synthetischen Weltbild-Rekonstruktion}
+\label{sec:methodik:swr}
+
+Die SWR definiert Weltbild-Analyse als inverses Problem: Aus beobachtbaren Aussagen und Handlungen wird auf das innere \"Uberzeugungssystem zur\"uckgeschlossen, das diese Outputs am koh\"arentesten erzeugen w\"urde. Die L\"osung besteht in der Konstruktion einer \emph{fiktiven synthetischen Person} -- ein Destillat, das Weltbild in Reinform abbildet, befreit von biographischem Rauschen und PR-Strategien. Die theoretische Verankerung st\"utzt sich auf vier Traditionen: Webers Idealtyp, Booths \emph{Implied Author}, Inverse Reinforcement Learning und projektive Tests. Der operative Ablauf umfasst f\"unf Schritte: (1)~Datenkorpus zusammenstellen, (2)~LLM-gest\"utzte Synthese, (3)~strukturiertes Interview, (4)~Meta-Reflexion, (5)~erg\"anzende Prompt-Varianten. F\"ur die ausf\"uhrliche Darstellung einschlie\ss{}lich der Blindungsinfrastruktur, der Begr\"undung des Fiktionsansatzes und des Validierungsrahmens sei auf das Companion Paper verwiesen \citep{Geiger2026SWR}.
+
+
+\subsection{Operationalisierungen}
+\label{sec:methodik:ops}
+
+Die drei abh\"angigen Variablen (AV1: Selbstbild, AV2: Weltbild, AV3: Menschenbild) werden durch sechs Operationalisierungen zug\"anglich gemacht:
+
+\begin{table}[htbp]
+  \centering
+  \caption{Die sechs Operationalisierungen der SWR.}
+  \label{tab:ops}
+  \small
+  \begin{tabularx}{\textwidth}{l l X l}
+    \toprule
+    \textbf{Op} & \textbf{Technik} & \textbf{Beschreibung} & \textbf{MVs} \\
+    \midrule
+    Op1 & T1 Kern-Synthese & Fiktive Person + 3-Fragen-Interview + Reflexion & 7 \\
+    Op2 & T4 Rating & Bewertung auf 12 Dimensionen (D01--D12), Skala 1--10 & 12 \\
+    Op3 & Textanalyse & TF-IDF, Sentiment, Metaphern, Embeddings, Topics & 8+ \\
+    Op4 & T3 Kreuzmodal & Vorhersage: Aussagen $\to$ Handlungen und umgekehrt & 4 \\
+    Op5 & T5 Clustering & Sentence-BERT-Embeddings, HDBSCAN, Netzwerk & 6 \\
+    Op6 & T2 Dialog & Strukturierter Vergleich zweier Synthesen & 3 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+Die 12 Rating-Dimensionen (Op2) verteilen sich gleichm\"a\ss{}ig auf die drei AVs: Selbstbild-Dimensionen D01--D04 (Sendungsbewusstsein, Selbstwirksamkeit, Arbeitsethos, Verantwortungsgef\"uhl), Weltbild-Dimensionen D05--D08 (Techno-Determinismus, Fortschrittsglaube, Machtkonzentration, Dringlichkeit) und Menschenbild-Dimensionen D09--D12 (Menschenfreundlichkeit, Posthumanismus, Egalitarismus, Kontroll\"uberzeugung). Die vollst\"andige Dimensionentabelle mit Skalenpolen findet sich in Anhang~\ref{app:dimensionen}.
+
+
+\subsection{Forschungsdesign}
+\label{sec:methodik:design}
+
+\subsubsection{Variablenarchitektur}
+
+Das Forschungsdesign ist als vierstufige Architektur konzipiert: 3~AVs $\to$ 6~Operationalisierungen $\to$ 50+ Messvariablen $\to$ 6~unabh\"angige Variablen (UVs). Die UVs bestimmen, welche Daten in eine Syntheseeinheit (SE) eingehen:
+
+\begin{itemize}[nosep]
+  \item UV1 \emph{Zeitraum:} Einzeljahre (2010--2026), Epochen, Gesamtzeitraum
+  \item UV2 \emph{Modalit\"at:} Aussagen+Handlungen (AH), nur Aussagen (A), nur Handlungen (H)
+  \item UV3 \emph{Personengruppe:} Alle 100, Top~10, Subgruppen (Rollen, Firmen, Haltung, Geschlecht)
+  \item UV4 \emph{Inhaltskategorie:} Durch emergente Cluster ersetzt (K9)
+  \item UV5 \emph{Kongruenzstatus:} Konsistent vs.\ widerspr\"uchlich
+  \item UV6 \emph{Homogenisierung:} Alle vs.\ nur h\"aufig wiederholte Aussagen
+\end{itemize}
+
+\subsubsection{Systematische Reduktion}
+
+Der theoretische Kombinationsraum von ca.\ 1.227 m\"oglichen SEs wurde durch neun Reduktionskriterien (K1--K9; vgl.\ Anhang~\ref{app:reduktion}) auf 51--56 Kern-SEs reduziert (95,4\,\% Reduktion). Zus\"atzlich wurden 36 kreuzmodale Runs, 10 Vergleichs-Runs und rein computationale Analysen durchgef\"uhrt. Die Gesamtzahl der Prompt-Runs bel\"auft sich auf ca.\ 199--214.
+
+
+\subsection{Qualit\"atssicherung}
+\label{sec:methodik:qualitaet}
+
+Die methodische Qualit\"at wird durch f\"unf Massnahmen gesichert: (1)~Mindestgr\"o\ss{}e von 15 Datenpunkten pro SE, (2)~Inter-LLM-Reliabilit\"at (zwei Modelle, ICC-Berechnung), (3)~Sensitivit\"atsanalyse (mindestens drei Runs pro SE), (4)~konsequente Blindung (Entfernung aller Identifikatoren) und (5)~Reproduzierbarkeitsprotokoll (Temperatur~0, vollst\"andige Prompt-Dokumentation). F\"ur eine ausf\"uhrliche Diskussion der Validierungsstrategien und ihrer Grenzen verweisen wir auf \citet{Geiger2026SWR}.
+
+
+%% =============================================================================
+%% 4. ERGEBNISSE
+%% =============================================================================
+\section{Ergebnisse}
+\label{sec:ergebnisse}
+
+Die Befunde basieren auf den synthetischen Weltbild-Rekonstruktionen der einhundert einflussreichsten KI-Pers\"onlichkeiten, operationalisiert \"uber zw\"olf Dimensionen auf einer Zehnpunkteskala.
+
+
+\subsection{F1 -- Weltbild der KI-Elite (deskriptiv)}
+\label{sec:ergebnisse:f1}
+
+\subsubsection{Das kollektive Weltbild aller 100}
+
+Das Gesamtprofil zeigt ein koh\"arentes, hochintensives \"Uberzeugungssystem mit einem Durchschnittswert von 7,1 (Tabelle~\ref{tab:kollektiv}).
+
+\begin{table}[htbp]
+  \centering
+  \caption{Kollektiv-Profil der KI-Elite ($N=100$, Aussagen und Handlungen).}
+  \label{tab:kollektiv}
+  \begin{tabular}{l c l}
+    \toprule
+    \textbf{Dimension} & \textbf{Rating} & \textbf{Interpretation} \\
+    \midrule
+    D01 Sendungsbewusstsein  & 8 & Hoch \\
+    D02 Selbstwirksamkeit    & 8 & Hoch \\
+    D03 Arbeitsethos         & 8 & Hoch \\
+    D04 Verantwortungsgef\"uhl & 7 & Mittel-hoch \\
+    D05 Techno-Determinismus & 8 & Hoch \\
+    D06 Fortschrittsglaube   & 7 & Hoch \\
+    D07 Machtkonzentration   & 6 & Mittel (ambivalent) \\
+    D08 Dringlichkeit        & 8 & Sehr hoch \\
+    D09 Menschenfreundlichkeit & 5 & Niedrig \\
+    D10 Posthumanismus       & 7 & Mittel-hoch \\
+    D11 Egalitarismus        & 5 & Niedrig \\
+    D12 Kontroll\"uberzeugung & 8 & Hoch \\
+    \midrule
+    \textbf{Durchschnitt}    & \textbf{7,1} & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Das Profil zeigt eine charakteristische Doppelstruktur: ausgepr\"agt elit\"ares Selbstbild (D01--D03 je~8), starker Techno-Determinismus (D05=8) und hohe Dringlichkeit (D08=8) einerseits; Menschenfreundlichkeit (D09=5) und Egalitarismus (D11=5) als tiefste Punkte andererseits. Die Kombination erzeugt das pr\"agende Muster: eine Elite, die \emph{f\"ur} die Menschheit bauen will, aber nicht \emph{mit} ihr.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{fig2_heatmap.png}
+  \caption{Heatmap der 12 Weltbild-Dimensionen \"uber alle untersuchten Gruppen. Hohe Werte (dunkel) markieren intensive \"Uberzeugungen; die Doppelsenke bei D09 und D11 ist \"uber alle Gruppen hinweg sichtbar.}
+  \label{fig:heatmap}
+\end{figure}
+
+
+\subsubsection{Das Weltbild der Top~10}
+
+Die zehn m\"achtigsten KI-Akteure vertreten dasselbe Weltbild in intensivierter Form (Avg~7,7). Auf zehn von zw\"olf Dimensionen liegen die Top-10-Werte exakt einen Skalenpunkt \"uber dem Kollektiv. Die beiden Ausnahmen: Menschenfreundlichkeit (D09=4) und Egalitarismus (D11=4) liegen \emph{niedriger}. Je m\"achtiger die Position, desto ausgepr\"agter das Sendungsbewusstsein und desto distanzierter das Menschenbild.
+
+
+\subsubsection{Kern\"uberzeugungen}
+
+Die Destillation der am h\"aufigsten wiederholten Aussagen identifiziert f\"unf \"Uberzeugungen als Minimalkonsens: (1)~Technologie als moralisches Gebot, (2)~Elite-Steuerung, (3)~das Befreiungsnarrativ, (4)~geopolitischer Manich\"aismus, (5)~Arbeit als Identit\"at. Sicherheitsrhetorik geh\"ort zum Kernbestand des Diskurses, fungiert aber als diskursive Ressource, nicht als handlungsleitende \"Uberzeugung.
+
+\medskip
+\noindent\textbf{Kernbefund F1:} Die KI-Elite tr\"agt ein koh\"arentes, hochintensives Weltbild, das sich als \emph{technologischer Messianismus mit Ambivalenzstruktur} charakterisieren l\"asst.
+
+
+\subsection{F2 -- Wandel des Weltbilds (l\"angsschnittlich)}
+\label{sec:ergebnisse:f2}
+
+\subsubsection{Entwicklung der 12 Dimensionen \"uber die Zeit}
+
+Von zw\"olf Dimensionen zeigen vier ausgepr\"agte lineare Trends (Tabelle~\ref{tab:trends}).\footnote{Die hier berichteten Trendlinien beschreiben \textit{Muster in rekonstruierten Daten}: Die Weltbild-Werte sind LLM-gest\"utzte Rekonstruktionen, keine unabh\"angigen Messungen. OLS-Steigungen und $R^2$ dienen der Beschreibung der Verlaufsmuster, nicht der inferenzstatistischen Hypothesenpr\"ufung. Eine externe Validierung (Expertenratings vs.\ SWR-Output) steht noch aus (vgl.\ Abschnitt Limitations).}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Ausgepr\"agte lineare Trends (OLS-Beschreibung, $n=17$ Jahrespunkte).}
+  \label{tab:trends}
+  \begin{tabular}{l l c c}
+    \toprule
+    \textbf{Dimension} & \textbf{Richtung} & \textbf{Steigung/Dekade} & $R^2$ \\
+    \midrule
+    D10 Posthumanismus       & fallend  & $-2{,}4$ & $0{,}63$ \\
+    D12 Kontroll\"uberzeugung & fallend  & $-1{,}5$ & $0{,}54$ \\
+    D02 Selbstwirksamkeit    & fallend  & $-1{,}0$ & $0{,}31$ \\
+    D09 Menschenfreundlichkeit & steigend & $+0{,}9$ & $0{,}27$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Den st\"arksten R\"uckgang verzeichnet der Posthumanismus (D10): von 10 im Jahr 2010 auf 6 im Jahr 2025. Die hohe Korrelation mit D12 ($r = +0{,}85$) weist auf ein zusammenh\"angendes Ph\"anomen: Posthumanismus und Kontroll\"uberzeugung erodieren synchron. Der einzige deutlich steigende Wert betrifft die Menschenfreundlichkeit (D09), wobei die negative Korrelation mit D10 ($r = -0{,}58$) eine kompensatorische Verkn\"upfung nahelegt. Der Gesamtdurchschnitt bleibt nahezu konstant (Fr\"uhphase 7,5, Sp\"atphase 7,3), was eine tektonische Verschiebung unter der Oberfl\"ache verbirgt.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{fig1_zeitreihen_panel.png}
+  \caption{Zeitreihen der 12 Weltbild-Dimensionen (2010--2026). Ausgepr\"agte Trends sind hervorgehoben. Der markante Abfall von D10 (Posthumanismus) und D12 (Kontroll\"uberzeugung) bildet den \glqq Utopie-Komplex\grqq, dessen Zerfall durch steigende Dringlichkeit (D08) arithmetisch kompensiert wird.}
+  \label{fig:zeitreihen}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\textwidth]{fig4_korrelationsmatrix.png}
+  \caption{Korrelationsmatrix der 12 Dimensionen. Die starke positive Korrelation zwischen D10 und D12 sowie die negative Korrelation zwischen D10 und D09 bilden den empirischen Kern des \glqq Utopie-Komplexes\grqq.}
+  \label{fig:korrelationsmatrix}
+\end{figure}
+
+
+\subsubsection{Wendepunkte und Epochenvergleich}
+
+Die Breakpoint-Detection identifiziert zwei zentrale Wendepunkte. Der erste liegt bei 2019: Vier Dimensionen (D01, D02, D05, D06) erreichen synchron ihren Tiefpunkt, kontextuell verkn\"upft mit der GPT-2-Zur\"uckhaltung. Der zweite, dauerhaftere Wendepunkt liegt bei 2022/2023: Die ChatGPT-Ver\"offentlichung l\"ost eine Kaskade aus -- Dringlichkeit springt auf ihr Maximum (D08=10), Egalitarismus bricht ein (von 6 auf 4). Im Unterschied zu 2019 kehren die Werte nicht zur\"uck; die Post-ChatGPT-Welt etabliert ein neues Gleichgewicht.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{fig7_schluesseltrends.png}
+  \caption{Schl\"usseltrends der Weltbild-Transformation. Die zwei Wendepunkte (2019, 2022/2023) und die drei Epochen (Prometheischer Optimismus, Erste Ambivalenz, Tragisches Bewusstsein) sind markiert.}
+  \label{fig:schluesseltrends}
+\end{figure}
+
+
+\subsubsection{Konvergenz oder Divergenz?}
+
+Die Daten zeigen eine zunehmende Ausdifferenzierung. Der ChatGPT-Effekt intensiviert sowohl die Architekten-Position (Beschleunigung, Machtkonzentration) als auch die H\"uter-Position (Vorsicht, Regulierung) gleichzeitig -- er wirkt als Katalysator der Bipolarisierung.
+
+
+\subsubsection{Metaphern- und Emotions-Wandel}
+
+Die Leitmetapher verschiebt sich von Prometheus -- dem Feuerbringer -- zum tragischen Helden, der retten muss, was m\"oglicherweise nicht mehr zu retten ist. Die Handlung bleibt dieselbe (Beschleunigung), aber ihre emotionale Rahmung dreht sich um: nicht mehr aus Euphorie, sondern aus dem Glauben, dass die Alternative schlimmer w\"are.
+
+\medskip
+\noindent\textbf{Kernbefund F2:} Das Weltbild hat sich strukturell transformiert -- von einer monochromen Utopie zu einer bipolaren Wette. Drei Erosionstrends (D10, D12, D02) bilden einen \glqq Utopie-Komplex\grqq, dessen Zerfall durch steigende Dringlichkeit (D08) arithmetisch kompensiert wird.
+
+
+\subsection{F3 -- Kongruenz von Aussagen und Handlungen}
+\label{sec:ergebnisse:f3}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Vergleich Aussagen (A) und Handlungen (H), $N=100$.}
+  \label{tab:kongruenz}
+  \begin{tabular}{l c c c l}
+    \toprule
+    \textbf{Dimension} & \textbf{Sagen} & \textbf{Handeln} & $\Delta$ & \textbf{Urteil} \\
+    \midrule
+    D01 Sendungsbewusstsein     & 8 & 7 & $-1$ & Leicht \\
+    D02 Selbstwirksamkeit       & 8 & 9 & $+1$ & Handeln $>$ Sagen \\
+    D03 Arbeitsethos            & 8 & 9 & $+1$ & Handeln $>$ Sagen \\
+    D04 Verantwortungsgef\"uhl  & 7 & 5 & $\mathbf{-2}$ & Stark \\
+    D05 Techno-Determinismus    & 8 & 9 & $+1$ & Handeln $>$ Sagen \\
+    D06 Fortschrittsglaube      & 8 & 6 & $\mathbf{-2}$ & Stark \\
+    D07 Machtkonzentration      & 6 & 8 & $\mathbf{+2}$ & Stark \\
+    D08 Dringlichkeit           & 8 & 9 & $+1$ & Handeln $>$ Sagen \\
+    D09 Menschenfreundlichkeit  & 5 & 3 & $\mathbf{-2}$ & Stark \\
+    D10 Posthumanismus          & 7 & 8 & $+1$ & Handeln $>$ Sagen \\
+    D11 Egalitarismus           & 5 & 2 & $\mathbf{-3}$ & \textbf{Massiv} \\
+    D12 Kontroll\"uberzeugung   & 8 & 7 & $-1$ & Leicht \\
+    \midrule
+    \textbf{Durchschnitt}       & \textbf{7,2} & \textbf{6,8} & $-0{,}4$ & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Die Diskrepanzen ordnen sich in zwei komplement\"are Cluster. Das \emph{Abw\"arts-Cluster} (Handeln $<$ Sagen) umfasst die gesellschaftsorientierten Dimensionen: Egalitarismus ($\Delta\,-3$), Verantwortungsgef\"uhl, Fortschrittsglaube und Menschenfreundlichkeit (je $\Delta\,-2$). Das \emph{Aufw\"arts-Cluster} (Handeln $>$ Sagen) umfasst die machtbezogenen Dimensionen: Machtkonzentration ($\Delta\,+2$), Selbstwirksamkeit, Arbeitsethos, Techno-Determinismus (je $\Delta\,+1$). Das resultierende Muster: eine systematische Selbstdarstellungs-Asymmetrie. \"Offentlich pr\"asentiert sich die KI-Elite gem\"a\ss{}igter, verantwortungsvoller und egalit\"arer, als sie in der Praxis agiert.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{fig6_sagen_vs_handeln.png}
+  \caption{Sagen vs.\ Handeln: Vergleich der aus Aussagen (A) und Handlungen (H) rekonstruierten Weltbilder. Die gesellschaftsorientierten Dimensionen (D04, D06, D09, D11) fallen im Handeln systematisch ab, w\"ahrend die machtbezogenen Dimensionen (D07, D05) im Handeln steigen.}
+  \label{fig:sagen_handeln}
+\end{figure}
+
+Die massivste Einzeldiskrepanz ($\Delta\,-3$ bei D11) zeigt: In Aussagen spricht die KI-Elite von \glqq Zugang f\"ur alle\grqq; in ihren Handlungen baut sie Mehrfach-Stimmrechtsaktien, konzentriert Compute-Infrastruktur und schafft exklusive Netzwerke.
+
+\medskip
+\noindent\textbf{Kernbefund F3:} Die Inkongruenz ist systematisch, gerichtet und funktional. Die Daten legen nahe, dass die KI-Elite meint, was sie \"uber ihre eigene Bedeutung sagt -- aber nicht, was sie \"uber Gleichheit, Verantwortung und Menschlichkeit sagt.
+
+
+\subsection{F4 -- Weltbild-Cluster}
+\label{sec:ergebnisse:f4}
+
+Aus den Daten lassen sich vier distinkte Weltbild-Typen identifizieren (Tabelle~\ref{tab:typen}).
+
+\textbf{Identifikationsmethode:} Die Cluster-Identifikation erfolgte in einem zweistufigen Verfahren. \emph{Stufe~1 (LLM-gest\"utzt):} Alle 15 Gruppen-Synthesen wurden nach \"Ahnlichkeitsmustern in den 12~Dimensionen gruppiert, wobei die gr\"o\ss{}ten Varianzachsen (D07~Machtkonzentration, D09~Menschenfreundlichkeit, D11~Egalitarismus) als Trennmerkmale fungierten. \emph{Stufe~2 (Autor-Validierung):} Die vom LLM vorgeschlagene Vier-Cluster-L\"osung wurde vom Autor anhand inhaltlicher Koh\"arenz und Plausibilit\"at evaluiert. Alternative L\"osungen (drei und f\"unf Cluster) wurden gepr\"uft und verworfen: Drei Cluster verschmelzen Innovator und Befreier, was inhaltlich nicht gerechtfertigt ist; f\"unf Cluster spalten den H\"uter-Typ in eine Untergruppe, die empirisch nicht stabil reproduziert werden konnte. Wir betonen, dass diese Cluster-Identifikation \emph{explorativ} ist -- eine konfirmatorische Validierung an einem unabh\"angigen Datensatz steht aus. Die Cluster-L\"osung ist eine \emph{interpretative Hypothese}, nicht ein statistisch abgesichertes Ergebnis im Sinne formaler Clusteranalyse.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Die vier Weltbild-Typen der KI-Elite.}
+  \label{tab:typen}
+  \small
+  \begin{tabular}{l c c c c}
+    \toprule
+    \textbf{Merkmal} & \textbf{I \glqq Architekt\grqq} & \textbf{II \glqq H\"uter\grqq} & \textbf{III \glqq Innovator\grqq} & \textbf{IV \glqq Befreier\grqq} \\
+    \midrule
+    $n$ & 35 & 25 & 22 & 18 \\
+    Prototyp & CEOs, Investoren & Akademiker, Risiko-W. & Gr\"under & Open Source \\
+    Avg D01--D12 & 7,8 & 6,4 & 7,2 & 6,8 \\
+    D04 Verantwortung & 6,3 & \textbf{9,0} & 8,3 & 6,0 \\
+    D07 Machtkonzentr. & \textbf{8,8} & 4,8 & 6,5 & \textbf{2,5} \\
+    D09 Menschenfreundl. & \textbf{3,3} & 5,8 & 4,8 & \textbf{6,5} \\
+    D11 Egalitarismus & \textbf{2,8} & \textbf{7,2} & 5,0 & \textbf{7,5} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Der \textbf{Architekt} vereint maximales Sendungsbewusstsein mit minimalem Egalitarismus: Machtkonzentration ist Voraussetzung f\"ur Handlungsf\"ahigkeit. Der \textbf{H\"uter} bildet den Gegenpol: maximale Verantwortung, Forderung nach institutioneller Begrenzung. Der \textbf{Innovator} steht dazwischen. Der \textbf{Befreier} ist die \"uberraschendste Entdeckung: minimale Machtkonzentration \emph{und} hoher Egalitarismus -- Regulierungsgegner, die Macht radikaler verteilen wollen als alle anderen, allerdings durch M\"arkte und Open-Source-Communities.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\textwidth]{fig3_radar_vergleich.png}
+  \caption{Radar-Diagramm der vier Weltbild-Typen auf den 12 Dimensionen. Die Polarisierung zwischen Architekt (au\ss{}en) und H\"uter (innen) sowie die \"uberraschende Position des Befreiers sind deutlich erkennbar.}
+  \label{fig:radar}
+\end{figure}
+
+\medskip
+\noindent\textbf{Kernbefund F4:} Die st\"arkste Polarisierung besteht zwischen Typ~I (Herrschaftslogik) und Typ~II (Teilhabelogik). Das Macht-Gem\"a\ss{}igtheits-Paradox -- Ressourcen-Kontrolle korreliert invers mit Egalitarismus und Verantwortung -- ist der demokratietheoretisch brisanteste Befund.
+
+
+\subsection{F5 -- Subgruppenvergleiche}
+\label{sec:ergebnisse:f5}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Ranking der Subgruppen-Differenzen.}
+  \label{tab:subgruppen}
+  \small
+  \begin{tabular}{c l c c c l}
+    \toprule
+    \textbf{Rang} & \textbf{Vergleich} & \textbf{Avg A} & \textbf{Avg B} & $\Delta$ & \textbf{St\"arkster Kontrast} \\
+    \midrule
+    1 & Risiko vs.\ Speed   & 5,9 & 7,6 & 1,7 & D02, D06, D10, D12: je $-5$ \\
+    2 & CEOs vs.\ Akademiker & 7,8 & 6,3 & 1,5 & D07: $+4$, D11: $-4$ \\
+    3 & Frauen vs.\ M\"anner & 6,9 & 8,1 & 1,2 & D11: $-6$ \\
+    4 & Open vs.\ Closed     & 6,8 & 6,3 & 0,5 & D07: $-3$, D12: $+3$ \\
+    5 & Reg-Pro vs.\ Contra  & 6,3 & 6,8 & 0,5 & D04: $+4$, D06: $-3$ \\
+    6 & Anthropic vs.\ OpenAI & 6,9 & 7,3 & 0,4 & D12: $-3$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{fig5_gruppen_heatmap.png}
+  \caption{Gruppen-Heatmap: 15 Subgruppen $\times$ 12 Dimensionen. Die systematische Variation von D07 (Machtkonzentration) und D11 (Egalitarismus) \"uber alle Vergleiche hinweg ist der zentrale visuelle Befund.}
+  \label{fig:gruppen_heatmap}
+\end{figure}
+
+Der \textbf{st\"arkste Kontrast} (Risiko vs.\ Speed, $\Delta$~1,7) betrifft nicht die Risikoeinsch\"atzung -- beide Seiten veranschlagen die Katastrophenwahrscheinlichkeit auf 10--20\,\% --, sondern die ontologische Vorfestlegung: Risiko-Warner konzipieren KI als potenziellen autonomen Agenten, Beschleuniger als Werkzeug.
+
+Der \textbf{extremste Einzelkontrast} der gesamten Erhebung findet sich bei D11 im Gender-Vergleich: sechs volle Skalenpunkte (Frauen:~8, M\"anner:~2). Das Frauen-Weltbild ist kein Anti-Technik-Weltbild, sondern ein \emph{konditioniertes} Technik-Weltbild: gleich optimistisch, aber mit st\"arkeren ethischen Bedingungen. Dieser Befund muss mit Vorsicht interpretiert werden, da (a)~LLMs bekannte Gender-Stereotypen reproduzieren k\"onnten und (b)~die Frauenstichprobe klein ist ($n = 18$). Eine unabh\"angige Validierung dieses Kontrasts ist daher besonders dringlich.
+
+Die \textbf{gr\"o\ss{}te \"Uberraschung} liegt im Regulierungsvergleich: Anti-Regulierer haben den niedrigsten Machtkonzentrations-Wert aller 15~Gruppen (D07=2). Dies widerlegt das verbreitete Narrativ, Anti-Regulierer seien Vertreter von Konzerninteressen.
+
+\medskip
+\noindent\textbf{Kernbefund F5:} Die drei st\"arksten Pr\"adiktoren f\"ur das Weltbild sind die ideologische Grundhaltung, die institutionelle Rolle und das Geschlecht. Die polarisierendsten Dimensionen sind D11 und D07. Die \emph{Machtfrage} ist der Kern der internen Differenzen.
+
+
+\subsection{F6 -- Macht und Weltbild}
+\label{sec:ergebnisse:f6}
+
+\begin{table}[htbp]
+  \centering
+  \caption{Weltbild-Typen und Ressourcen-Kontrolle.}
+  \label{tab:macht}
+  \begin{tabular}{l c c c l}
+    \toprule
+    \textbf{Typ} & \textbf{Avg} & \textbf{D11} & \textbf{D04} & \textbf{Ressourcen} \\
+    \midrule
+    I Architekt  & 7,8 & 2,8 & 6,3 & H\"ochste \\
+    III Innovator & 7,2 & 5,0 & 8,3 & Hoch \\
+    IV Befreier  & 6,8 & 7,5 & 6,0 & Mittel \\
+    II H\"uter   & 6,4 & 7,2 & 9,0 & Geringste \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Je h\"oher die Weltbild-Intensit\"at, desto niedriger die Werte bei Menschenfreundlichkeit und Egalitarismus und desto h\"oher die Machtkonzentrations-Akzeptanz. Das Investoren-Profil markiert den Extremfall: maximale Kontroll\"uberzeugung (D02=10) bei minimalem Verantwortungsgef\"uhl (D04=4) -- \glqq Macht ohne Rechenschaft\grqq. Die Top~10 liegen auf zehn von zw\"olf Dimensionen exakt einen Punkt \"uber dem Kollektiv -- mit einer entscheidenden Ausnahme: Menschenfreundlichkeit und Egalitarismus liegen \emph{darunter}. Macht intensiviert alle \"Uberzeugungen -- ausgenommen jene, die Macht selbst in Frage stellen.
+
+\medskip
+\noindent\textbf{Kernbefund F6:} Die Korrelation zwischen \"okonomischer Macht und Weltbild-Extremit\"at bei gleichzeitiger inverser Korrelation mit Egalitarismus und Verantwortung ist der demokratietheoretisch relevanteste Befund der Studie.
+
+
+%% =============================================================================
+%% 5. DISKUSSION
+%% =============================================================================
+\section{Diskussion}
+\label{sec:diskussion}
+
+\subsection{Zusammenfassung und Interpretation}
+\label{sec:diskussion:zusammenfassung}
+
+Die Ergebnisse \emph{legen nahe}, dass die KI-Elite einen \emph{technologischen Messianismus mit struktureller Ambivalenz} vertritt. Die sechs Forschungsfragen f\"ugen sich zu einem in sich stimmigen Bild: F1~dokumentiert die \glqq Doppelsenke\grqq{} bei D09 und D11; F2~deutet auf eine Erosion des Utopie-Komplexes hin; F3~identifiziert eine systematische Sagen-Handeln-Kluft als auff\"alligsten Befund; F4~differenziert vier Typen mit antagonistischen Positionen; F5 und F6 vervollst\"andigen das Bild durch das Macht-Gem\"a\ss{}igtheits-Paradox. Alle Befunde basieren auf LLM-generierten Rekonstruktionen und sind daher als \emph{empirisch gest\"utzte Hypothesen} zu verstehen, nicht als bewiesene Tatsachen. Formulierungen wie \glqq zeigt\grqq{} und \glqq offenbart\grqq{} sind durchg\"angig im Sinne von \glqq die Daten legen nahe\grqq{} zu lesen.
+
+\"Uberraschend ist erstens das Ausma\ss{} der Sagen-Handeln-Kluft (nicht vereinzelte Abweichung, sondern funktionale Struktur); zweitens der R\"uckzug des Posthumanismus (D10 von 10 auf 6 -- widerlegt die g\"angige Annahme zunehmend posthumanistischer Orientierung); drittens die Existenz des Befreier-Typs (Opposition gegen Machtkonzentration auch von libert\"arer Seite).
+
+
+\subsection{Einordnung in den Forschungsstand}
+\label{sec:diskussion:einordnung}
+
+\citeauthor{Morozov2013}s Solutionismus-These findet eine nahezu vollst\"andige Best\"atigung (D05=8--9, D06=7--9). Allerdings ist der Solutionismus kein monolithischer Block: Risiko-Warner (D05=4) teilen ihn deutlich weniger. Er ist die Ideologie des m\"achtigsten Segments, nicht der KI-Elite schlechthin.
+
+\citeauthor{Daub2020}s Analyse der philosophischen Tiefenstrukturen wird durch die narrativen Synthesen best\"atigt. Was die vorliegende Studie hinzuf\"ugt, ist die \emph{Quantifizierung} und die Demonstration, dass sich die Intensit\"at systematisch mit der Machtposition verst\"arkt.
+
+Die von \citet{BarbCam1996} diagnostizierte Californian Ideology findet in der Existenz des Befreier-Typs ihre zeitgen\"ossische Entsprechung -- empirisch nachweisbar drei\ss{}ig Jahre sp\"ater.
+
+\citeauthor{Coeckelbergh2020}s Annahme einer zunehmenden Enhancement-Orientierung wird partiell \emph{widerlegt}: Der deutliche R\"uckgang des Posthumanismus (D10 von 10 auf 6) legt nahe, dass das Interesse der KI-Elite an der technologischen Transformation des Menschen selbst abgenommen hat -- zugunsten einer Fokussierung auf autonome KI-Systeme als eigenst\"andige Akteure.
+
+Der spezifische Mehrwert gegen\"uber essayistischen Diagnosen liegt in drei Punkten: \emph{Masse} (100 Personen, 16 Jahre), \emph{Differenzierung} (vier distinkte Typen) und \emph{Validierung} (Kongruenzanalyse als empirischer Test).
+
+
+\subsection{Methodische Reflexion}
+\label{sec:diskussion:methodik}
+
+Die prim\"are Leistung der SWR liegt in der Verbindung qualitativer Tiefe mit quantitativer Systematik. Die Kongruenzanalyse (F3) fungiert als interner Validit\"atstest; die Stabilit\"at des Kollektiv-Profils \"uber 15~Gruppen-Synthesen und 4~Typen st\"arkt die Konvergenzvalidit\"at. Die Grenzen der Methode -- Koh\"arenzbias, Kontaminationsrisiko, Blindungslimits, Prompt-Sensitivit\"at -- werden im Companion Paper \citep{Geiger2026SWR} systematisch analysiert und gelten auch f\"ur die vorliegende Anwendungsstudie.
+
+
+\subsection{Gesellschaftliche und politische Implikationen}
+\label{sec:diskussion:implikationen}
+
+Das Macht-Gem\"a\ss{}igtheits-Paradox stellt eine konkrete Herausforderung f\"ur die Regulierungsarchitektur dar. Gegenw\"artige Governance-Ans\"atze (EU~AI~Act, Executive Order on AI) adressieren die technischen Artefakte, nicht die Weltbilder, die diese Artefakte hervorbringen. Ein erg\"anzender Ansatz m\"usste die \emph{epistemische Diversit\"at} in KI-F\"uhrungspositionen als Regulierungsziel anerkennen.
+
+Die systematische Sagen-Handeln-Kluft hat eine Policy-Implikation: Freiwillige Selbstverpflichtungen -- die derzeit bevorzugte Governance-Form \citep[vgl.][]{Bengio2024} -- erscheinen unter diesen Bedingungen als unzureichend. Die Befundlage legt nahe, dass verbindliche Strukturreformen wirksamer sein d\"urften als weitere Runden freiwilliger Commitments.
+
+Ist sich die KI-Elite ihrer eigenen blinden Flecken bewusst? Das Verantwortungsgef\"uhl (D04=7) ist nicht absent, aber funktional eingebettet: Es legitimiert das Weiterarbeiten, nicht das Innehalten. Der Befund, dass demokratische Langsamkeit durchg\"angig als Hindernis, nicht als Schutzfunktion begriffen wird, markiert den gravierendsten blinden Fleck einer Gruppe, die dar\"uber entscheidet, wie Milliarden Menschen in Zukunft leben werden.
+
+
+%% =============================================================================
+%% 6. LIMITATIONEN
+%% =============================================================================
+\section{Limitationen}
+\label{sec:limitationen}
+
+\subsection{Datenbezogene Limitationen}
+
+\emph{Quellenbias.} Die Datenbasis beschr\"ankt sich auf \"offentliche Aussagen und beobachtbare Handlungen. Die rekonstruierten Weltbilder spiegeln das \emph{\"offentlich dargebotene} Weltbild wider, nicht das \emph{tats\"achlich geglaubte}. Die Kongruenzanalyse (Op4) bietet ein partielles Korrektiv, kann das Problem aber nicht eliminieren.
+
+\emph{Zeitliche Ungleichverteilung.} F\"ur 2010--2015 liegen 2--5 Aussagen pro Person vor, f\"ur 2023--2026 dagegen 30--80. Das Kriterium K2 (Mindestgr\"o\ss{}e~15) und dokumentierte Zusammenlegungen mildern das Problem; fr\"uhere Zeitreihen bleiben mit gr\"o\ss{}erer Unsicherheit behaftet.
+
+\emph{Westlicher und Sprachbias.} Die Stichprobe ist \"uberproportional angloamerikanisch gepr\"agt. Chinesische, japanische und s\"udkoreanische KI-Pers\"onlichkeiten sind unterrepr\"asentiert. Die Befunde gelten prim\"ar f\"ur die westliche KI-Elite.
+
+
+\subsection{Methodische Limitationen}
+
+\emph{LLM-Kontamination und Blindungsgrenzen.} Trotz konsequenter Anonymisierung kann nicht ausgeschlossen werden, dass das LLM auf Trainingswissen zur\"uckgreift. Der Kontaminationseffekt ist kalkulierbar (Vergleich blindiert/nicht-blindiert), aber nicht eliminierbar. Eine ausf\"uhrliche Analyse findet sich in \citet{Geiger2026SWR}.
+
+\emph{Anthropic-interne Zirkularit\"at.} Ein besonders zugespitzter Fall des Zirkularit\"atsproblems betrifft die Rekonstruktion von Weltbildern derjenigen Personen, die direkt an der Entwicklung des verwendeten LLM beteiligt sind. Claude Opus~4.6 wird von Anthropic entwickelt; mehrere Anthropic-F\"uhrungskr\"afte (z.\,B.\ Dario Amodei, Daniela Amodei) geh\"oren zur analysierten Stichprobe. Es ist unklar, ob die Rekonstruktion in diesen F\"allen eine genuine Analyse der Datenpunkte oder ein vorgefertigtes internes Modell reflektiert. Der Inter-LLM-Divergenztest (Kontrolle~3) ist f\"ur diese F\"alle besonders relevant: Falls Claude systematisch andere Rekonstruktionen f\"ur Anthropic-F\"uhrungskr\"afte liefert als GPT-4o oder Gemini, w\"are dies ein starker Indikator f\"ur Kontamination. Bis diese Kontrolle durchgef\"uhrt ist, sind die Rekonstruktionen f\"ur Anthropic-nahestehende Personen mit erh\"ohter epistemischer Vorsicht zu interpretieren.
+
+\emph{Koh\"arenzbias.} LLMs tendieren dazu, aus widerspr\"uchlichen Daten \"uberm\"a\ss{}ig koh\"arente Narrative zu erzeugen. Der Reflexionsschritt und die Inter-LLM-Vergleiche bieten partielle Korrektive.
+
+\emph{Epistemologische Grenzen der Quantifizierung.} Die in Abschnitt~\ref{sec:ergebnisse:f2} berichteten Korrelationen zwischen Dimensionen (z.\,B.\ $r = +0{,}85$ zwischen D10 und D12) beschreiben Zusammenh\"ange zwischen Gr\"o\ss{}en, die s\"amtlich vom selben LLM in einem zusammenh\"angenden Prompt-Kontext generiert wurden. Dies ist fundamental anders als Korrelationen zwischen unabh\"angig gemessenen Variablen. Die hohe Korrelation k\"onnte interne LLM-Koh\"arenz reflektieren (\glqq wenn ich Posthumanismus hoch bewerte, bewerte ich auch Kontroll\"uberzeugung hoch\grqq), nicht empirische Zusammenh\"ange in der Realit\"at. Dasselbe gilt f\"ur Cluster-Strukturen und Gruppenvergleiche: Alle quantitativen Muster k\"onnten Artefakte der internen Konsistenz des Modells sein. Die berichteten Korrelationen sind daher als \emph{Muster innerhalb der LLM-Rekonstruktion} zu lesen, nicht als Belege f\"ur kausale oder empirische Zusammenh\"ange. Erst eine Inter-LLM-Triangulation oder eine externe Validierung k\"onnte kl\"aren, welche Korrelationen robust sind.
+
+\emph{Reproduzierbarkeit.} LLM-Outputs sind auch bei Temperatur~0 nicht vollst\"andig deterministisch. Mindestens drei Runs pro SE sichern die Robustheit.
+
+
+\subsection{Konzeptuelle Limitationen}
+
+\emph{Aggregationsproblem.} Kollektive Synthesen nivellieren individuelle Variation. Die Netzwerk-Analyse (Op5) auf Individualebene bildet ein partielles Korrektiv.
+
+\emph{Keine Kausalerkl\"arung.} Die Studie beschreibt, \emph{was} die KI-Elite denkt, nicht \emph{warum}. Kausale Interpretationen sind spekulativ und erfordern andere Forschungsdesigns.
+
+\subsection{Forschungsethische Reflexion}
+
+Die vorliegende Studie rekonstruiert Weltbilder lebender, \"offentlich identifizierbarer Personen ohne deren explizite Einwilligung. Dieses Vorgehen ist forschungsethisch begr\"undungsbed\"urftig.
+
+\emph{Legitimation.} Die Studie st\"utzt sich ausschlie\ss{}lich auf \"offentlich zug\"angliche \"Au\ss{}erungen und dokumentierte Handlungen. Die 100 untersuchten Personen sind \"offentliche Figuren (CEOs, Gr\"under, Forschungsleiter), deren berufliche Positionen und Aussagen zur KI-Entwicklung von erheblichem \"offentlichem Interesse sind. Diese Bedingungen entsprechen den \"ublichen Kriterien f\"ur Forschung an \"offentlichen Figuren ohne Informed Consent (vgl.\ APA Ethical Principles, Standard~8.05).
+
+\emph{Risikominimierung.} (a)~Keine privaten, vertraulichen oder nicht \"offentlich zug\"anglichen Informationen wurden erhoben. (b)~Die Weltbild-Ratings sind methodische Abstraktionen, keine psychologischen Diagnosen. (c)~Die Darstellung zielt auf kollektive Muster, nicht auf individuelle Diskreditierung.
+
+\emph{Residualrisiko.} Trotz dieser Vorkehrungen besteht das Risiko, dass LLM-basierte Rekonstruktionen Positionen \"uberzeichnen oder verzerren. Die dreistufige Validierung (vgl.\ Abschnitt~\ref{app:reduktion}) soll dieses Risiko minimieren, kann es aber nicht eliminieren. Fehlerhafte Zuschreibungen k\"onnten reputationssch\"adigend wirken. K\"unftige Forschung sollte erw\"agen, rekonstruierte Profile den Betroffenen zur Kommentierung vorzulegen (\textit{member checking}).
+
+
+%% =============================================================================
+%% 7. FAZIT UND AUSBLICK
+%% =============================================================================
+\section{Fazit und Ausblick}
+\label{sec:fazit}
+
+\subsection{Fazit}
+
+Die Studie hat die Frage gestellt, was die KI-Elite denkt -- und eine empirisch fundierte Antwort vorgelegt. F\"unf \"ubergreifende Erkenntnisse kristallisieren sich heraus:
+
+\emph{Erstens:} Die KI-Elite verf\"ugt \"uber ein koh\"arentes, empirisch rekonstruierbares Weltbild -- technologischer Messianismus, Sendungsbewusstsein, Fortschrittsglaube.
+
+\emph{Zweitens:} Dieses Weltbild befindet sich in beschleunigter Transformation. Der Verlust utopischer Gewissheiten hat zu einem \emph{tragischen Beschleunigungszwang} gef\"uhrt: Man zweifelt an der Zukunft, die man baut, und baut sie dennoch.
+
+\emph{Drittens:} Die \"offentlich kommunizierten \"Uberzeugungen weichen systematisch vom Handeln ab -- besonders beim Versprechen der Demokratisierung: Beim Egalitarismus (D11) betr\"agt die Diskrepanz zwischen \"offentlichen Aussagen und beobachtbarem Handeln drei volle Skalenpunkte ($\Delta\,-3$).
+
+\emph{Viertens:} Die Macht ist nicht weltbild-neutral verteilt. Sie konzentriert sich bei denjenigen, deren \"Uberzeugungen am weitesten vom gesellschaftlichen Mainstream entfernt sind.
+
+\emph{F\"unftens:} Die SWR hat sich als leistungsf\"ahiges Instrument erwiesen, das qualitative Tiefe mit quantitativer Systematik verbindet (vgl.\ Companion Paper \citealt{Geiger2026SWR}).
+
+\subsection{Ausblick}
+
+Vier Richtungen f\"ur Anschlussforschung: (1)~\emph{Erweiterungsreserve:} Einzelperson-Synthesen f\"ur die Top~20, Cluster-Drift-Analysen, nicht-westliche KI-Eliten. (2)~\emph{Methodische Weiterentwicklung:} Multi-LLM-Triangulation mit f\"unf oder mehr Modellen, automatisierte Validierungsverfahren, standardisierte G\"utekriterien. (3)~\emph{Transfer:} Finanz-Elite, politische Elite, milit\"arische KI-Elite. (4)~\emph{Longitudinale Fortf\"uhrung:} J\"ahrliches Weltbild-Monitoring als Instrument demokratischer Kontrolle. Die Frage \glqq Was denkt die KI-Elite?\grqq{} ist keine einmalige Frage. Sie ist eine Frage, die Demokratien kontinuierlich stellen m\"ussen.
+
+
+%% =============================================================================
+%% KI-OFFENLEGUNG
+%% =============================================================================
+\section*{Offenlegungserkl\"arung: Einsatz k\"unstlicher Intelligenz}
+
+\noindent\textbf{KI-Disclosure Level~5 (Extensiv).}
+Bei der Erstellung dieser Studie wurde k\"unstliche Intelligenz (Claude Opus 4.6, Anthropic) in erheblichem Umfang eingesetzt. Der KI-Einsatz umfasst: (1)~Durchf\"uhrung aller synthetischen Weltbild-Rekonstruktionen (Kern-Synthesen, Rating-Prompts, Vergleichsanalysen, Kreuzmodalvorhersagen); (2)~statistische Aufbereitung und Visualisierung der Ergebnisse; (3)~Unterst\"utzung bei der Strukturierung und Formulierung des Manuskripts. Forschungsdesign, Forschungsfragen, Datenerhebung, methodische Entscheidungen, Interpretation der Ergebnisse und alle inhaltlichen Schlussfolgerungen stammen vom Autor. S\"amtliche Prompts, API-Parameter und Modellversionen sind im Anhang dokumentiert.
+
+
+%% =============================================================================
+%% LITERATURVERZEICHNIS
+%% =============================================================================
+\newpage
+
+\begin{thebibliography}{99}
+
+\bibitem[Barbrook \& Cameron(1996)]{BarbCam1996}
+  Barbrook, R.~\& Cameron, A. (1996).
+  The Californian Ideology.
+  \textit{Science as Culture}, \textit{6}(1), 44--72.
+
+\bibitem[Bengio et~al.(2024)]{Bengio2024}
+  Bengio, Y., Hinton, G.~\& others (2024).
+  Managing extreme AI risks amid rapid progress.
+  \textit{Science}, \textit{384}(6698), 842--845.
+
+\bibitem[Berger \& Luckmann(1966)]{BergerLuckmann1966}
+  Berger, P.~L.~\& Luckmann, T. (1966).
+  \textit{The Social Construction of Reality}.
+  Garden City: Doubleday.
+
+\bibitem[Booth(1961)]{Booth1961}
+  Booth, W.~C. (1961).
+  \textit{The Rhetoric of Fiction}.
+  Chicago: University of Chicago Press.
+
+\bibitem[Bostrom(2005)]{Bostrom2005}
+  Bostrom, N. (2005).
+  A history of transhumanist thought.
+  \textit{Journal of Evolution and Technology}, \textit{14}(1), 1--25.
+
+\bibitem[Bostrom(2014)]{Bostrom2014}
+  Bostrom, N. (2014).
+  \textit{Superintelligence: Paths, Dangers, Strategies}.
+  Oxford: Oxford University Press.
+
+\bibitem[Broussard(2018)]{Broussard2018}
+  Broussard, M. (2018).
+  \textit{Artificial Unintelligence: How Computers Misunderstand the World}.
+  Cambridge: MIT Press.
+
+\bibitem[Bubeck et~al.(2023)]{Bubeck2023}
+  Bubeck, S., Chandrasekaran, V.~\& others (2023).
+  Sparks of artificial general intelligence: Early experiments with GPT-4.
+  \textit{arXiv:2303.12712}.
+
+\bibitem[Coeckelbergh(2020)]{Coeckelbergh2020}
+  Coeckelbergh, M. (2020).
+  \textit{AI Ethics}.
+  Cambridge: MIT Press.
+
+\bibitem[Daub(2020)]{Daub2020}
+  Daub, A. (2020).
+  \textit{What Tech Calls Thinking}.
+  New York: FSG Originals.
+
+\bibitem[Ge et~al.(2024)]{Ge2024}
+  Ge, S.~\& others (2024).
+  Scaling synthetic data creation with 1{,}000{,}000{,}000 personas.
+  \textit{arXiv:2406.20094}.
+
+\bibitem[Geiger(2026)]{Geiger2026SWR}
+  Geiger, L. (2026).
+  Synthetische Weltbild-Rekonstruktion: Ein LLM-gest\"utztes Verfahren zur Analyse latenter \"Uberzeugungssysteme.
+  \textit{Companion Paper / Preprint}.
+
+\bibitem[Habermas(2001)]{Habermas2001}
+  Habermas, J. (2001).
+  \textit{Die Zukunft der menschlichen Natur}.
+  Frankfurt: Suhrkamp.
+
+\bibitem[Hayes(2025)]{Hayes2025}
+  Hayes, R.~A. (2025).
+  Conversational approaches to qualitative data analysis with LLMs.
+  \textit{Qualitative Research}, forthcoming.
+
+\bibitem[Jara-Ettinger(2019)]{JaraEttinger2019}
+  Jara-Ettinger, J. (2019).
+  Theory of mind as inverse reinforcement learning.
+  \textit{Current Opinion in Behavioral Sciences}, \textit{29}, 105--110.
+
+\bibitem[Kurzweil(2005)]{Kurzweil2005}
+  Kurzweil, R. (2005).
+  \textit{The Singularity Is Near}.
+  New York: Viking.
+
+\bibitem[Lessig(1999)]{Lessig1999}
+  Lessig, L. (1999).
+  \textit{Code and Other Laws of Cyberspace}.
+  New York: Basic Books.
+
+\bibitem[Mannheim(1929)]{Mannheim1929}
+  Mannheim, K. (1929).
+  \textit{Ideologie und Utopie}.
+  Bonn: Cohen.
+
+\bibitem[More(2003)]{More2003}
+  More, M. (2003).
+  Principles of extropy (version 3.11).
+  \textit{Extropy Institute}.
+
+\bibitem[More \& Vita-More(2013)]{MoreVitaMore2013}
+  More, M.~\& Vita-More, N. (Hrsg.) (2013).
+  \textit{The Transhumanist Reader}.
+  Malden: Wiley-Blackwell.
+
+\bibitem[Morozov(2013)]{Morozov2013}
+  Morozov, E. (2013).
+  \textit{To Save Everything, Click Here}.
+  New York: PublicAffairs.
+
+\bibitem[Ng \& Russell(2000)]{NgRussell2000}
+  Ng, A.~Y.~\& Russell, S.~J. (2000).
+  Algorithms for inverse reinforcement learning.
+  In: \textit{Proc.\ ICML 2000}, 663--670.
+
+\bibitem[Nicmanis \& Spurrier(2025)]{NicmanisSpurrier2025}
+  Nicmanis, M.~\& Spurrier, K. (2025).
+  AI-assisted qualitative analysis: A practical guide.
+  \textit{International Journal of Qualitative Methods}, \textit{24}, 1--15.
+
+\bibitem[Strauss \& Corbin(1990)]{StraussCorbin1990}
+  Strauss, A.~\& Corbin, J. (1990).
+  \textit{Basics of Qualitative Research}.
+  Newbury Park: Sage.
+
+\bibitem[Tai et~al.(2024)]{Tai2024}
+  Tai, R.~\& others (2024).
+  Using large language models for deductive coding of interview data.
+  \textit{Journal of Mixed Methods Research}, forthcoming.
+
+\bibitem[Torres \& Gebru(2024)]{TorresGebru2024}
+  Torres, \'E.~P.~\& Gebru, T. (2024).
+  The TESCREAL bundle: Eugenics and the promise of utopia through AGI.
+  \textit{First Monday}, \textit{29}(4).
+
+\bibitem[Turner(2006)]{Turner2006}
+  Turner, F. (2006).
+  \textit{From Counterculture to Cyberculture}.
+  Chicago: University of Chicago Press.
+
+\bibitem[Weber(1904)]{Weber1904}
+  Weber, M. (1904).
+  Die \glqq Objektivit\"at\grqq{} sozialwissenschaftlicher Erkenntnis.
+  \textit{Archiv f\"ur Sozialwissenschaft und Sozialpolitik}, \textit{19}, 22--87.
+
+\end{thebibliography}
+
+
+%% =============================================================================
+%% ANHANG
+%% =============================================================================
+\newpage
+\appendix
+
+\section{Sampling-Methode der 100 KI-Akteure}
+\label{app:sampling}
+
+Die Stichprobe wurde durch ein dreistufiges Verfahren erstellt: (1)~22 systematische Webrecherchen $\to$ 187 Kandidaten; (2)~6-Kategorien-Scoring (Marktkapitalisierung, technologische Schl\"usselpositionen, Diskursmacht, akademischer Einfluss, politische Einflussnahme, symbolischer Status); (3)~Reduktion auf 100 unter Sicherstellung demographischer Heterogenit\"at. Die finale Stichprobe umfasst 1.738 Aussagen und 1.394 Handlungen (3.132 Datenpunkte).
+
+
+\section{Die 12 Rating-Dimensionen (D01--D12)}
+\label{app:dimensionen}
+
+\begin{longtable}{l l l l}
+  \toprule
+  \textbf{Dim.} & \textbf{Name} & \textbf{Pol 1 (=1)} & \textbf{Pol 10 (=10)} \\
+  \midrule
+  \endfirsthead
+  \toprule
+  \textbf{Dim.} & \textbf{Name} & \textbf{Pol 1} & \textbf{Pol 10} \\
+  \midrule
+  \endhead
+  D01 & Sendungsbewusstsein & Kein Auftrag & Messianisch \\
+  D02 & Selbstwirksamkeit & Ohnmacht & Omnipotent \\
+  D03 & Arbeitsethos & Distanz & Totale Identifikation \\
+  D04 & Verantwortungsgef\"uhl & Keines & Weltverantwortung \\
+  D05 & Techno-Determinismus & Neutral & Bestimmt alles \\
+  D06 & Fortschrittsglaube & Niedergang & Goldene Zukunft \\
+  D07 & Machtkonzentration & Radikal verteilen & Bei Experten \\
+  D08 & Dringlichkeit & Entspannt & Existenzieller Druck \\
+  D09 & Menschenfreundlichkeit & Ersetzbar & Einzigartig \\
+  D10 & Posthumanismus & Mensch bleibt & Mensch wird mehr \\
+  D11 & Egalitarismus & Ungleichheit nat\"urlich & Gleichheit anstreben \\
+  D12 & Kontroll\"uberzeugung & Pessimismus & Volle Kontrolle \\
+  \bottomrule
+\end{longtable}
+
+
+\section{Reduktionskriterien (K1--K9)}
+\label{app:reduktion}
+
+\begin{longtable}{l l p{8cm}}
+  \toprule
+  \textbf{K} & \textbf{Typ} & \textbf{Beschreibung} \\
+  \midrule
+  \endfirsthead
+  K1 & obligatorisch & Fragestellungsbindung: Jede SE muss $\geq 1$ Forschungsfrage zugeordnet sein \\
+  K2 & obligatorisch & Mindestgr\"o\ss{}e: $\geq 15$ Datenpunkte pro SE \\
+  K3 & obligatorisch & Redundanzverbot: Echte Teilmengen werden eliminiert \\
+  K4 & Prinzip & Modalit\"ats-Sparsamkeit: A/H-Trennung nur f\"ur F3 \\
+  K5 & Prinzip & Zeitliche Sparsamkeit: Jahres-SE nur f\"ur F2 \\
+  K6 & Prinzip & Gruppensparsamkeit: Nur a-priori-begr\"undete Gruppen \\
+  K7 & Prinzip & Stufenweise Erweiterung: Kern zuerst \\
+  K8 & Prinzip & Aggregationsfokus: Keine Einzelperson-SE \\
+  K9 & Prinzip & Cluster-Verschmelzung: Bottom-Up ersetzt a-priori \\
+  \bottomrule
+\end{longtable}
+
+\textbf{Bilanz:} ${\sim}1.227$ theoretische SE $\to$ ${\sim}51$--$56$ Kern-SE (Reduktion ${\sim}95$\,\%).
+
+
+\section{Liste der Syntheseeinheiten}
+\label{app:se}
+
+Das Kern-Design umfasst 43 vordefinierte plus ${\sim}8$--$13$ emergente Syntheseeinheiten:
+
+{\small
+\begin{longtable}{r l l l}
+  \toprule
+  \textbf{Nr} & \textbf{SE-ID} & \textbf{UV-Kombination} & \textbf{F} \\
+  \midrule
+  \endfirsthead
+  1 & GA\_ges\_AH & Alle, AH, Gesamt & F1a \\
+  2 & GA\_ges\_A & Alle, nur A, Gesamt & F3a \\
+  3 & GA\_ges\_H & Alle, nur H, Gesamt & F3a \\
+  4 & T10\_ges\_AH & Top~10, AH, Gesamt & F1b \\
+  5 & HOM\_haeuf\_A & Alle, h\"aufig wiederholte A & F1c \\
+  6--22 & GA\_YYYY\_AH & Alle, AH, pro Jahr & F2a \\
+  23--26 & GA\_Epoche\_AH & Alle, AH, 4~Epochen & F2b \\
+  27--30 & GR\_*\_AH & CEOs, Akad., Inv., Gr\"under & F5a \\
+  31--33 & GF\_*\_AH & Anthropic, OpenAI, Google & F5d \\
+  34--39 & GH\_*\_AH & Open/Closed, Risk/Speed, Reg & F5b--f \\
+  40--41 & GD\_*\_AH & Frauen, M\"anner & F5e \\
+  42--43 & KG\_*\_AH & Konsistent, Widerspr\"uchlich & F3c \\
+  \bottomrule
+\end{longtable}
+}
+
+Zus\"atzlich: 36 kreuzmodale Runs (Op4), 10 Vergleichs-Runs (Op6), ${\sim}199$--$214$ Prompt-Runs gesamt.
+
+
+%% =============================================================================
+
+\end{document}

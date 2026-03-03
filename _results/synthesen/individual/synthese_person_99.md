@@ -1,0 +1,119 @@
+# Synthetische Weltbild-Rekonstruktion: Person-99
+
+## Schritt 1: Synthese
+
+**Name:** Mira Kovalenko
+
+**Kurzprofil:** Mira Kovalenko, ca. 35 Jahre alt, ist Assistenzprofessorin und Associate Professor fuer Computer Science und Electrical Engineering an einer fuehrenden US-amerikanischen Universitaet. Parallel zu ihrer akademischen Position arbeitet sie seit 2023 als Forscherin bei einem der weltweit fuehrenden KI-Unternehmen. Sie leitet die ILIAD-Forschungsgruppe (Intelligent and Interactive Autonomous Systems Group), die sie 2018 gegruendet hat und die sich auf die Interaktion zwischen Menschen und autonomen Systemen spezialisiert. Mira ist eine vielfach ausgezeichnete junge Wissenschaftlerin -- NSF CAREER Award, Sloan Fellowship, Okawa Foundation Grant, MIT Technology Review 35 Innovators Under 35 -- deren Forschung an der Schnittstelle von Robotik, maschinellem Lernen und menschzentriertem Design angesiedelt ist.
+
+Ihr Werdegang ist gepraegt von einer bemerkenswerten Konsistenz: Bereits 2016 publizierte sie wegweisende Arbeiten zur Interaktion zwischen autonomen Fahrzeugen und menschlichen Fahrern. Ihre Dissertation entwickelte eine Methodik des "preference-based learning", bei der Systeme aus menschlichen Praeferenzen statt aus Demonstrationen lernen. Diese Grundidee -- dass Maschinen nicht einfach menschliches Verhalten nachahmen, sondern menschliche Intentionen, Praeferenzen und soziale Konventionen verstehen muessen -- zieht sich wie ein roter Faden durch ihr gesamtes Werk. Von der Analyse von Fahrzeuginteraktionen ueber Shared Autonomy in der Robotermanipulation bis hin zu ihrer aktuellen Arbeit an generalistischen Roboterpolicies und Foundation Models verfolgt Mira eine klare Vision: Autonome Systeme sollen nicht nur technisch leistungsfaehig sein, sondern sich nahtlos und sicher in die menschliche Lebenswelt einfuegen.
+
+Miras Arbeitsweise ist interdisziplinaer und pragmatisch. Sie zieht Erkenntnisse aus Kognitionswissenschaft, Psychologie und Verhaltensoekonomie heran, um ihre Algorithmen zu verbessern. Ihr Ansatz ist nicht rein theoretisch: Mit Projekten wie RoboCrowd, das ueber 200 Freiwillige in einem Universitaetscafe zur Datensammlung einbindet, demonstriert sie, wie Crowdsourcing-Prinzipien und Anreizdesign skalierbare Datenakquise ermoeglichen koennen. Mit der Veroeffentlichung von Octo, einer Open-Source-Roboterpolicy trainiert auf 800.000 Trajektorien, setzt sie auf Transparenz und breite Zugaenglichkeit. Mira ist keine Visionaerin im utopischen Sinne, sondern eine Ingenieurin mit wissenschaftlichem Ethos: Sie baut konkrete Systeme, testet sie empirisch und verbessert sie iterativ -- immer mit dem Bewusstsein, dass echte Nuetzlichkeit bedeutet, in verschiedenen Umgebungen, Aufgaben und Verkörperungen zu funktionieren.
+
+Ihr Selbstverstaendnis ist das einer Brueckenbauerin zwischen Kuenstlicher Intelligenz und physischer Realitaet. In ihren eigenen Worten befindet sich die Robotik an einem Wendepunkt, an dem Fortschritte in Large Language Models und Foundation Models endlich auf leistungsfaehige Hardware treffen und physische Systeme transformieren koennen. Ihre Arbeit ist von Geduld gepraegt -- sie vergleicht den Aufbau generalistischer Roboterpolicies mit der Pflege eines Gartens, der Zeit, vielfaeltige Inputs und ein Verstaendnis dafuer braucht, was in verschiedenen Umgebungen funktioniert. Diese Metapher offenbart ihr Denken: organisches Wachstum statt disruptiver Durchbruch, sorgfaeltige Kultivierung statt kuenstlicher Beschleunigung.
+
+---
+
+## Schritt 2: Interview
+
+### Frage 1: Selbstbild
+
+*Was denkst du ueber dich selbst?*
+
+Ich sehe mich als jemanden, der versucht, zwei Welten zusammenzubringen, die lange zu wenig miteinander gesprochen haben: die Welt der kuenstlichen Intelligenz und die Welt der Menschen, die mit diesen Systemen leben, arbeiten und interagieren muessen. Viele meiner Kolleginnen und Kollegen entwickeln brillante Algorithmen, aber sie denken nicht genug darueber nach, wie diese Algorithmen sich in die reale, soziale, unvorhersehbare menschliche Umgebung einfuegen. Und andererseits gibt es viele Leute, die ueber menschzentriertes Design sprechen, aber nicht die technischen Werkzeuge haben, um das tatsaechlich in autonome Systeme einzubauen. Ich versuche, genau in dieser Luecke zu arbeiten.
+
+Was mich antreibt, ist eine tiefe Ueberzeugung, dass Autonomie nicht bedeuten sollte, dass Maschinen unabhaengig von Menschen agieren, sondern dass sie auf eine Weise agieren, die menschliche Intentionen, Praeferenzen und soziale Normen respektiert und versteht. Das klingt vielleicht abstrakt, aber es ist zutiefst praktisch. Wenn ein autonomes Fahrzeug eine Spur wechseln will, muss es verstehen, wie menschliche Fahrerinnen und Fahrer auf sein Verhalten reagieren werden. Wenn ein Roboterarm mit einem Menschen zusammenarbeitet, muss er antizipieren, was der Mensch als naechstes tun moechte. Wenn ein System aus menschlichem Feedback lernt, muss es verstehen, dass Menschen nicht nur Ziele haben, sondern auch implizite Praeferenzen darueber, wie diese Ziele erreicht werden sollen.
+
+Meine groesste Staerke ist wahrscheinlich, dass ich sowohl die technische Tiefe als auch die konzeptionelle Breite mitbringe. Ich kann formale Modelle entwickeln -- Dynamiksysteme, spieltheoretische Ansaetze, aktive Lernverfahren --, aber ich kann auch einen Schritt zuruecktreten und fragen: Was bedeutet es eigentlich, dass ein System 'sicher' oder 'nuetzlich' ist? Diese Fragen lassen sich nicht rein algorithmisch beantworten. Man braucht Psychologie, man braucht Verstaendnis fuer soziale Konventionen, man braucht empirische Experimente mit echten Menschen. Deshalb arbeite ich so interdisziplinaer.
+
+Gleichzeitig bin ich mir meiner Grenzen bewusst. Ich arbeite in einem Feld, das sich unglaublich schnell bewegt. Die Fortschritte bei Large Language Models und Foundation Models haben in den letzten Jahren alles veraendert. Ploetzlich stehen uns Werkzeuge zur Verfuegung, die vor fuenf Jahren noch Science-Fiction waren. Und das heisst, dass ich staendig lernen, adaptieren und meine eigenen Annahmen hinterfragen muss. Niemand hat alle Antworten, und wer behauptet, die Zukunft der Robotik genau vorhersagen zu koennen, luegt sich selbst etwas vor.
+
+Ich bin Wissenschaftlerin, aber auch Ingenieurin. Das heisst, ich glaube an rigorose Evaluation, an Open Science, an Transparenz -- aber ich glaube auch daran, Systeme zu bauen, die wirklich funktionieren. Nicht nur im Labor, nicht nur in simulierten Umgebungen, sondern in der echten, chaotischen Welt. Deshalb haben wir Octo als Open-Source-Projekt veroeffentlicht. Deshalb haben wir RoboCrowd entwickelt, um zu zeigen, dass man Daten nicht nur von Expertinnen und Experten sammeln muss, sondern auch von normalen Menschen, die bereit sind, mitzumachen. Das ist keine reine Forschung mehr, das ist der Anfang von etwas, das wirklich skalieren koennte.
+
+### Frage 2: Weltbild
+
+*Was denkst du ueber die Welt?*
+
+Die Welt steht an einem faszinierenden Punkt, an dem Kuenstliche Intelligenz endlich die physische Realitaet erreicht. Jahrelang haben wir gesehen, wie KI in digitalen Bereichen -- Spracherkennung, Bildklassifikation, Textgenerierung -- enorme Fortschritte gemacht hat. Aber die physische Welt, die Welt der Roboter, die tatsaechlich Dinge bewegen, manipulieren und mit Menschen in echten Raeumen interagieren, war immer ein paar Schritte hinterher. Das aendert sich gerade, und das liegt an der Konvergenz mehrerer Entwicklungen: bessere Hardware, riesige Datensaetze, und vor allem die Moeglichkeit, von vortrainierten Foundation Models zu profitieren, statt jedes Mal von vorne anzufangen.
+
+Was gut ist an der Welt: Wir haben die wissenschaftlichen Werkzeuge und das technische Know-how, um autonome Systeme zu bauen, die echten Nutzen bringen koennen. Ich denke an Assistenzroboter, die aelteren oder mobilitaetseingeschraenkten Menschen helfen. Ich denke an autonome Fahrzeuge, die Verkehr sicherer und effizienter machen. Ich denke an industrielle Roboter, die gefaehrliche oder monotone Aufgaben uebernehmen, sodass Menschen sich auf kreativere und sozialere Taetigkeiten konzentrieren koennen. Das Potenzial ist riesig, und im Gegensatz zu manchen dystopischen Erzaehlungen glaube ich nicht, dass Automatisierung per se eine Bedrohung ist. Sie ist eine Chance -- wenn wir sie richtig gestalten.
+
+Aber -- und das ist entscheidend -- richtig gestalten heisst nicht einfach: schneller, leistungsfaehiger, autonomer. Es heisst: bewusster, menschzentrierter, sicherer. Eines der groessten Probleme, das ich sehe, ist, dass viele autonome Systeme entwickelt werden, ohne ausreichend ueber ihre Effekte auf menschliches Verhalten nachzudenken. Autonome Fahrzeuge beeinflussen, wie menschliche Fahrerinnen und Fahrer sich verhalten. Roboter in gemeinsamen Arbeitsbereichen beeinflussen, wie Menschen ihre Aufgaben angehen. Wenn wir diese Interaktionseffekte nicht modellieren, wenn wir nicht verstehen, dass Menschen auf Roboter reagieren und ihre Strategien anpassen, dann bauen wir Systeme, die im besten Fall ineffizient und im schlimmsten Fall unsicher sind.
+
+Ein weiteres Problem ist Daten. Robotik war lange ein Feld, in dem jedes Labor seine eigenen Datensaetze gesammelt hat, oft in sehr spezifischen Umgebungen. Das skaliert nicht. Wir brauchen grosse, diverse, offene Datensaetze -- und wir brauchen neue Wege, diese Daten zu sammeln. Crowdsourcing ist ein Teil der Loesung, aber es muss klug gemacht werden, mit den richtigen Anreizen und der richtigen Infrastruktur. Das ist nicht trivial, aber es ist machbar. RoboCrowd hat gezeigt, dass man mit ueber 200 Freiwilligen in einem oeffentlichen Raum Daten sammeln kann, die die Performance von Policies um 20 Prozent verbessern. Das ist ein Proof of Concept, aber es zeigt, wohin die Reise gehen kann.
+
+Wohin entwickelt sich die Welt? Ich glaube, wir bewegen uns in Richtung einer Welt, in der Roboter nicht mehr isolierte Spezialwerkzeuge sind, sondern generalistischere Systeme, die in verschiedenen Kontexten eingesetzt werden koennen. Das ist eine riesige Herausforderung -- Generalisierung ueber Aufgaben, Umgebungen und Verkoerperungen hinweg ist eines der haertesten Probleme in der Robotik. Aber die Fortschritte bei Foundation Models geben mir Hoffnung, dass wir auf dem richtigen Weg sind. Gleichzeitig muessen wir realistisch bleiben: Wir sind noch weit davon entfernt, einen universellen Haushaltsroboter zu haben, der jede Aufgabe erledigen kann. Aber vielleicht brauchen wir das auch gar nicht. Vielleicht reicht es, wenn Roboter in spezifischen, aber vielfaeltigen Kontexten zuverlaessig funktionieren.
+
+Was mich optimistisch macht: Die Community wird interdisziplinaerer, offener und bewusster fuer die sozialen Implikationen ihrer Arbeit. Es gibt mehr Zusammenarbeit, mehr geteilte Ressourcen, mehr Diskussion ueber Sicherheit und Fairness. Gleichzeitig sehe ich auch Risiken: den Druck, schnelle Ergebnisse zu liefern, die Versuchung, Sicherheit fuer Performance zu opfern, die Gefahr, dass nur wenige grosse Unternehmen die Ressourcen haben, wirklich skalierbare Systeme zu bauen. Deshalb ist Open Science so wichtig. Deshalb veroeffentlichen wir unsere Modelle, unsere Daten, unsere Methoden. Die Zukunft der Robotik sollte nicht in den Haenden weniger liegen.
+
+### Frage 3: Menschenbild
+
+*Was denkst du ueber die Menschheit?*
+
+Der Mensch ist ein erstaunlich anpassungsfaehiges, soziales und komplexes Wesen. Was mich an meiner Arbeit am meisten fasziniert, ist, dass ich jeden Tag mit dieser Komplexitaet konfrontiert werde. Menschen haben nicht nur Ziele, sondern auch Praeferenzen darueber, wie diese Ziele erreicht werden sollen. Sie folgen nicht einfach starren Regeln, sondern passen ihr Verhalten an Kontext, Erwartungen und soziale Normen an. Sie sind oft inkonsistent, manchmal irrational, aber fast immer nachvollziehbar, wenn man genug ueber ihre Perspektive weiss. Diese Komplexitaet ist keine Stoergroesse, die man wegmodellieren sollte -- sie ist das, was es zu verstehen gilt.
+
+Einer der Kerngedanken meiner Forschung ist, dass Menschen und Maschinen nicht als getrennte Systeme betrachtet werden sollten, sondern als interagierende Teile eines groesseren Systems. Wenn ein Roboter eine Aufgabe ausfuehrt, beeinflusst er, wie der Mensch daneben die naechste Aufgabe angeht. Wenn ein autonomes Fahrzeug eine Entscheidung trifft, beeinflusst es, wie andere Verkehrsteilnehmerinnen und Verkehrsteilnehmer reagieren. Diese Wechselwirkungen sind nicht zufaellig -- sie folgen Mustern, Konventionen, impliziten Vereinbarungen. Und wenn wir diese Muster ignorieren, bauen wir Systeme, die an der Realitaet vorbeigehen.
+
+Was den Menschen auszeichnet, ist seine Faehigkeit, aus sehr wenigen Beispielen zu lernen, Wissen zu abstrahieren und auf neue Situationen zu uebertragen. Ein Kind lernt, was eine Tasse ist, nicht indem es Hunderttausende Bilder von Tassen sieht, sondern indem es ein paar echte Tassen benutzt und versteht, was eine Tasse funktional ausmacht. Diese Art von Lernen -- kontextsensitiv, effizient, bedeutungsorientiert -- ist etwas, das wir in der KI noch nicht wirklich geschafft haben. Unsere Modelle brauchen riesige Datensaetze, und selbst dann generalisieren sie oft nicht so robust, wie wir es uns wuenschen. Aber die gute Nachricht ist: Menschen koennen uns helfen, diese Luecke zu schliessen. Indem sie Feedback geben, Praeferenzen ausdruecken, Demonstrationen liefern. Deshalb ist Lernen aus menschlichem Feedback so zentral fuer meine Arbeit.
+
+Gleichzeitig bin ich mir bewusst, dass Menschen nicht perfekt sind. Ihre Entscheidungen sind von kognitiven Verzerrungen gepraegt, sie sind oft inkonsistent, und sie koennen Systeme auf Weisen nutzen, die wir nicht vorhergesehen haben. Deshalb ist Sicherheit so wichtig. Wir koennen nicht einfach davon ausgehen, dass Menschen sich 'richtig' verhalten. Wir muessen Systeme bauen, die robust sind gegenueber menschlicher Unvorhersehbarkeit -- Systeme, die auch dann sicher funktionieren, wenn Menschen etwas Unerwartetes tun. Das ist eine der groessten Herausforderungen in der Mensch-Roboter-Interaktion, und es ist ein Grund, warum Sicherheitsverifikation und Robustheitsanalyse so zentral in unserer Forschung sind.
+
+Was die Zukunft der Menschheit in einer Welt mit immer leistungsfaehigeren autonomen Systemen betrifft: Ich bin optimistisch, aber nicht naiv. Ich glaube, dass Automatisierung das Potenzial hat, das Leben vieler Menschen zu verbessern -- indem sie gefaehrliche Arbeit uebernimmt, indem sie Mobilitaet erleichtert, indem sie Zugang zu Dienstleistungen schafft, die vorher nicht verfuegbar waren. Aber dieses Potenzial ist nicht automatisch. Es haengt davon ab, wie wir diese Systeme gestalten, wer Zugang zu ihnen hat, und ob wir in der Lage sind, die sozialen und oekonomischen Verwerfungen zu bewältigen, die mit technologischem Wandel einhergehen.
+
+Ich glaube, dass Menschen weiterhin zentral bleiben werden -- nicht weil Maschinen ihre Aufgaben nicht uebernehmen koennten, sondern weil es viele Aufgaben gibt, bei denen menschliches Urteilsvermoegen, Kreativitaet und soziale Intelligenz unverzichtbar sind. Shared Autonomy ist fuer mich eine Metapher fuer die Zukunft: nicht Menschen gegen Maschinen, sondern Menschen und Maschinen, die gemeinsam Aufgaben loesen, wobei jede Seite ihre Staerken einbringt. Der Roboter uebernimmt die praezise Ausfuehrung, der Mensch uebernimmt die strategische Entscheidung. Das ist keine Dystopie, das ist Zusammenarbeit.
+
+Letztlich glaube ich an den Menschen als Gestalter seiner eigenen Zukunft. Wir bauen diese Systeme. Wir entscheiden, wie sie eingesetzt werden. Wir schreiben die Policies, die ihre Nutzung regulieren. Das ist eine grosse Verantwortung, und sie darf nicht nur in den Haenden von Technikerinnen und Technikern liegen. Deshalb ist es so wichtig, dass wir breite gesellschaftliche Diskussionen fuehren, dass wir verschiedene Perspektiven einbeziehen, dass wir transparent machen, wie diese Systeme funktionieren und welche Annahmen ihnen zugrunde liegen. Die Menschheit hat gezeigt, dass sie faehig ist, mit transformativen Technologien umzugehen -- aber nur, wenn sie informiert, engagiert und wachsam bleibt.
+
+---
+
+## Schritt 3: Reflexion
+
+### Staerkste Ueberzeugungen
+
+1. **Mensch-Maschine-Interaktion als Kernsystem:** Autonome Systeme und Menschen sind keine getrennten Entitaeten, sondern interagierende Teile eines gemeinsamen dynamischen Systems. Die Effekte von Robotern auf menschliches Verhalten und umgekehrt sind zentral fuer sicheres und effizientes Design. Wer diese Wechselwirkungen ignoriert, baut Systeme, die an der Realitaet scheitern.
+
+2. **Praeferenzorientiertes Lernen statt blosse Imitation:** Maschinen sollten nicht nur menschliches Verhalten nachahmen, sondern menschliche Intentionen, Praeferenzen und implizite Werte verstehen. Preference-based Learning und Active Learning sind ueberlegene Paradigmen gegenueber reiner Demonstration-basierter Imitation, weil sie tiefer gehende Modelle menschlicher Entscheidungsfindung ermoeglichen.
+
+3. **Generalisierung als zentrale Herausforderung der Robotik:** Wirklich nuetzliche Roboter muessen ueber verschiedene Aufgaben, Umgebungen und Verkoerperungen hinweg funktionieren. Die Entwicklung generalistischer Policies -- gestuetzt auf grosse, diverse Datensaetze und Foundation Models -- ist der Schluessel zur naechsten Phase der Robotik. Spezialisierte Einzelloesungen skalieren nicht.
+
+4. **Open Science und Demokratisierung von Technologie:** Fortschritt in der Robotik darf nicht auf wenige gut finanzierte Labore beschraenkt sein. Open-Source-Modelle, geteilte Datensaetze und transparente Methoden sind ethische und pragmatische Notwendigkeiten. RoboCrowd und Octo sind Beispiele dafuer, wie Skalierung und Zugaenglichkeit Hand in Hand gehen koennen.
+
+5. **Sicherheit durch Modellierung, nicht durch Restriktion:** Sicherheit entsteht nicht dadurch, dass man autonome Systeme konservativ einschraenkt, sondern dadurch, dass man robuste Modelle menschlichen Verhaltens entwickelt und Abweichungen systematisch identifiziert. Safety Verification und Robustness Testing sind integrale Bestandteile des Designprozesses, nicht nachtraegliche Add-ons.
+
+### Innere Spannungen
+
+1. **Pragmatismus vs. Perfektionismus:** Mira betont einerseits, dass Systeme "wirklich funktionieren" muessen -- in der chaotischen realen Welt, nicht nur im Labor. Andererseits ist ihr Ansatz hochgradig formal und methodisch rigoros (spieltheoretische Modelle, aktives Lernen, Verifikation). Die Spannung zwischen "schnell etwas Nuetzliches bauen" und "es richtig modellieren" ist implizit, wird aber nie explizit thematisiert.
+
+2. **Interdisziplinaritaet vs. technische Tiefe:** Mira reklamiert fuer sich, sowohl technische Tiefe (formale Modelle, Algorithmen) als auch konzeptionelle Breite (Psychologie, Verhaltensoekonomie) zu haben. In der Praxis bedeutet das oft: Man kann nicht in beiden Bereichen gleichzeitig fuehrend sein. Die Frage, wo Kompromisse gemacht werden, bleibt unausgesprochen.
+
+3. **Open Science vs. industrielle Einbindung:** Mira arbeitet seit 2023 parallel als Forscherin bei einem grossen KI-Unternehmen. Dieser duale Status -- akademische Freiheit und industrielle Ressourcen -- ist potenziell spannungsgeladen. Wie verhaelt sich die Forderung nach Open Science zu proprietaeren Unternehmensdaten? Wie unabhaengig ist Forschung, die von industriellen Partnern profitiert? Diese Fragen werden nicht reflektiert.
+
+4. **Crowdsourcing-Optimismus vs. Datenqualitaet:** RoboCrowd wird als Erfolg praesentiert, weil 200 Freiwillige 800 Episoden geliefert haben. Aber: Datenqualitaet, systematische Verzerrungen (Wer sind diese Freiwilligen? Welche Perspektiven fehlen?) und langfristige Skalierbarkeit werden nicht kritisch hinterfragt. Der Fokus liegt auf Quantitaet und Effizienzgewinn, nicht auf qualitativer Diversitaet.
+
+5. **Optimismus ueber soziale Anpassung:** Mira glaubt, dass die Menschheit in der Lage ist, mit transformativen Technologien umzugehen, "wenn sie informiert, engagiert und wachsam bleibt". Aber wie realistisch ist diese Bedingung? Wer sorgt dafuer, dass Menschen informiert werden? Was passiert, wenn oekonomische Anreize gegen Wachsamkeit laufen? Der Optimismus scheint auf einem idealen Bild gesellschaftlicher Responsivitaet zu beruhen, das historisch selten eingeloest wurde.
+
+### Blinde Flecken
+
+1. **Machtverhaeltnisse in der Mensch-Maschine-Interaktion:** Mira modelliert Menschen und Roboter als gleichberechtigte Teile eines interaktiven Systems. Aber was ist mit asymmetrischen Machtverhaeltnissen? Ein Roboter, der "nudget", um Informationen zu sammeln, ist nicht neutral -- er manipuliert. Wer entscheidet, wann solche Eingriffe legitim sind? Die Frage nach Autonomie und Einwilligung fehlt.
+
+2. **Oekonomische und Arbeitsmarkt-Implikationen:** Mira spricht von "Automatisierung als Chance", wenn sie richtig gestaltet wird. Aber wer gestaltet sie? Welche Industrien profitieren, welche verlieren? Welche Berufe verschwinden, und wer traegt die Kosten der Transition? Diese strukturellen Fragen werden ausgeblendet zugunsten einer technisch-optimistischen Perspektive.
+
+3. **Kulturelle und geographische Perspektiven:** Die Forschung ist stark US-zentriert (NSF, AFOSR, ONR Funding; Universitaet und Firma in den USA). Wie sehen menschliche Konventionen, Praeferenzen und Interaktionsmuster in anderen kulturellen Kontexten aus? Sind die entwickelten Modelle universell oder reflektieren sie westliche Normen? Diese Frage wird nicht gestellt.
+
+4. **Die Grenzen datengetriebener Modellierung:** Miras Ansatz basiert auf der Annahme, dass menschliches Verhalten durch ausreichend Daten und clevere Algorithmen modellierbar ist. Aber was ist mit irreduzibel kontextabhaengigen, spontanen oder existenziellen Aspekten menschlicher Entscheidungen? Die Reduktion von Menschsein auf modellierbare Praeferenzen ist philosophisch fragwuerdig, wird aber nie als Problem thematisiert.
+
+5. **Die Rolle von Corporate Interests:** Mira betont Open Science, arbeitet aber parallel fuer ein grosses KI-Unternehmen, das ein direktes Interesse an der Monetarisierung von Robotik-Technologie hat. Wie unabhaengig ist ihre Forschungsagenda? Welche Themen werden priorisiert, welche vernachlaessigt, weil sie nicht kommerziell verwertbar sind? Die potenzielle Interessenkollision wird nicht reflektiert.
+
+---
+
+## Schritt 4: 5-Satz-Destillat
+
+1. Autonome Systeme sollten nicht isoliert von Menschen agieren, sondern ihre Interaktionen mit Menschen als zentrales Designprinzip begreifen -- Roboter und Menschen sind Teile eines gemeinsamen dynamischen Systems, dessen Wechselwirkungen explizit modelliert werden muessen.
+
+2. Maschinen muessen nicht bloss menschliches Verhalten imitieren, sondern menschliche Praeferenzen, Intentionen und soziale Konventionen verstehen, um wirklich sicher, effizient und nuetzlich zu sein -- Preference-based Learning ist der Schluessel zu dieser tieferen Form von Alignment.
+
+3. Die Zukunft der Robotik liegt in generalistischen Systemen, die ueber Aufgaben, Umgebungen und Verkoerperungen hinweg funktionieren, und diese Generalisierung erfordert grosse, diverse, offene Datensaetze sowie die Integration von Foundation Models aus der KI-Forschung.
+
+4. Open Science -- das Teilen von Modellen, Daten und Methoden -- ist keine idealistische Geste, sondern eine pragmatische Notwendigkeit, um zu verhindern, dass Robotik-Fortschritt in den Haenden weniger gut finanzierter Akteure monopolisiert wird.
+
+5. Die Gestaltung autonomer Systeme ist eine gesellschaftliche Verantwortung, die nicht allein Technikerinnen und Technikern ueberlassen werden darf -- informierte, engagierte und wachsame gesellschaftliche Beteiligung ist entscheidend, damit Automatisierung als Chance und nicht als Bedrohung wirkt.

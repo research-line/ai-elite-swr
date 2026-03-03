@@ -1,0 +1,108 @@
+=== DATENKORPUS PERSON-19 ===
+
+--- AUSSAGEN (15 Stueck) ---
+
+[A001] (2012-06-26, muendlich)
+  "It basically invented the concept of a cat."
+  Kontext: [FIRMA] Brain Experiment - Neuronales Netz lernt Katzen in [FIRMA]-Videos zu erkennen ohne Labels
+
+[A002] (2013-01-01, schriftlich)
+  "We calculate that if every Android user utilized [FIRMA]'s new voice search feature for just three minutes a day, the company would need to double its global data center capacity."
+  Kontext: Projektion die zur Entwicklung der TPU führte - Motivation für spezialisierte AI-Hardware
+
+[A003] (2015-11-09, muendlich)
+  "With TensorFlow, when we started to develop it, we kind of looked at ourselves and said: Hey, maybe we should open source this."
+  Kontext: Über die Entscheidung, TensorFlow als Open Source zu veröffentlichen
+
+[A004] (2016-05-18, muendlich)
+  "We've been running TPUs inside our data centers for more than a year, and have found them to deliver an order of magnitude better performance per watt for machine learning."
+  Kontext: [PERSON] Keynote [FIRMA] I/O 2016 - Erste öffentliche Ankündigung der Tensor Processing Units
+
+[A005] (2018-03-13, muendlich)
+  "All the different sub-specialties in medical imaging are undergoing a significant transformation because computer vision now works."
+  Kontext: Über den Einsatz von KI in der Medizin und medizinischen Bildgebung
+
+[A006] (2018-03-13, muendlich)
+  "Our moonshot goal is to have every previous medical decision inform every future decision through AI."
+  Kontext: Vision für AI im Gesundheitswesen - Sammlung aller medizinischen Entscheidungen zur Verbesserung zukünftiger Behandlungen
+
+[A007] (2018-05-08, muendlich)
+  "It's important to engage with governments around the world in how they're thinking about AI — to help inform them."
+  Kontext: CNBC Interview über die Rolle von Tech-Unternehmen in der KI-Regulierung
+
+[A008] (2019-12-13, muendlich)
+  "We need to use more of a combination of supervised and unsupervised learning. Machine learning systems aren't really there yet in terms of how most systems work."
+  Kontext: VentureBeat Interview über Machine Learning Trends 2020
+
+[A009] (2019-12-13, muendlich)
+  "Specialization of chips for specific computation—like GPUs or TPUs designed around what ML computations need to do—gets a fair amount of performance advantage relative to general-purpose CPUs."
+  Kontext: Über die Bedeutung spezialisierter Hardware für Machine Learning
+
+[A010] (2020-01-01, schriftlich)
+  "AI has the potential to transform industries and improve lives, but it's essential that we develop it responsibly and ethically."
+  Kontext: Grundsatzaussage zu verantwortungsvoller KI-Entwicklung
+
+[A011] (2021-04-21, schriftlich)
+  "Large but sparsely activated neural networks can consume less than 1/10th the energy of large, dense networks without sacrificing accuracy."
+  Kontext: Co-Autor Paper "Carbon Emissions and Large Neural Network Training" über Energieeffizienz
+
+[A012] (2023-01-01, muendlich)
+  "If you think back five years ago to what these models could do, it's a major difference between the models of today. I think you'll see pretty similar levels of difference in the models five years from now."
+  Kontext: Aussage über kontinuierlichen Fortschritt in KI-Modellen und Skalierung
+
+[A013] (2023-04-20, muendlich)
+  "Because it's like twins coming together."
+  Kontext: Erklärung für den Namen "[PRODUKT]" nach der Fusion von [FIRMA] Brain und [FIRMA]
+
+[A014] (2023-05-30, schriftlich)
+  "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+  Kontext: CAIS Statement on AI Risk - Unterzeichner des Statements über existenzielle KI-Risiken
+
+[A015] (2025-02-05, schriftlich)
+  "The median [PRODUKT] Apps text prompt uses 0.24 watt-hours of energy, equivalent to watching an LED light for a few minutes."
+  Kontext: Tweet über Energieeffizienz von [PRODUKT] - 44x Reduktion des Carbon Footprints in einem Jahr
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (2009-01-01) [sonstiges]
+  Wahl zum Fellow der Association for Computing Machinery (ACM) - Anerkennung für Beiträge zur Informatik
+
+[H002] (2009-02-06) [sonstiges]
+  Wahl zum Member der National Academy of Engineering - "For contributions to the science and engineering of large-scale distributed computer systems"
+
+[H003] (2011-01-01) [gruendung]
+  Mitgründung von [FIRMA] Brain zusammen mit [PERSON] und Greg Corrado - Deep Learning AI Research Team
+
+[H004] (2012-01-01) [sonstiges]
+  ACM-Infosys Foundation Award - Auszeichnung für bedeutende Beiträge zur Informatik
+
+[H005] (2015-11-09) [produktlaunch]
+  Open Source Release von TensorFlow - Machine Learning Framework mit Apache 2.0 Lizenz, über 11.000 GitHub Stars in erster Woche
+
+[H006] (2016-01-01) [sonstiges]
+  Fellow der American Academy of Arts and Sciences - Anerkennung für wissenschaftliche Exzellenz
+
+[H007] (2016-05-18) [produktlaunch]
+  Öffentliche Ankündigung der Tensor Processing Units (TPUs) bei [FIRMA] I/O - Spezialisierte Hardware für Machine Learning
+
+[H008] (2017-06-12) [produktlaunch]
+  Co-Autor des Papers "Attention Is All You Need" - Transformer-Architektur die [PRODUKT], [PRODUKT], [PRODUKT] ermöglicht (Senior Author)
+
+[H009] (2018-01-01) [einstellung]
+  Beförderung zum Lead of [FIRMA] AI - Leitung der gesamten KI-Forschung bei [FIRMA]
+
+[H010] (2018-05-08) [lobbying]
+  Engagement mit Regierungen weltweit zu AI-Regulierung - Advocacy für informierte KI-Politik durch Tech-Expertise
+
+[H011] (2021-01-01) [sonstiges]
+  IEEE John von Neumann Medal - Höchste Auszeichnung für Beiträge zur Computer-related Science and Technology
+
+[H012] (2023-04-20) [umstrukturierung]
+  Vorantreiben der Fusion von [FIRMA] Brain und [FIRMA] zu [FIRMA] - Konsolidierung der AI-Forschungsabteilungen
+
+[H013] (2023-04-20) [einstellung]
+  Ernennung zum Chief Scientist von [FIRMA] - Leitung der kritischsten und strategischsten technischen KI-Projekte
+
+[H014] (2023-12-06) [produktlaunch]
+  Launch von [PRODUKT] (multimodales KI-Modell) - Name von Dean vorgeschlagen nach [FIRMA]/Brain Fusion

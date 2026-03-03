@@ -1,0 +1,110 @@
+=== DATENKORPUS PERSON-6 ===
+
+--- AUSSAGEN (17 Stueck) ---
+
+[A001] (2000, muendlich)
+  "Artificial intelligence would be the ultimate version of [FIRMA]. The ultimate search engine that would understand everything on the web. It would understand exactly what you wanted, and it would give you the right thing."
+  Kontext: Fruehere Aussage zu KI (ca. Anfang 2000er Jahre), in der Page seine Vision von KI als perfekter Suchmaschine beschreibt.
+
+[A002] (2007, schriftlich)
+  "We have some capability of building such a search engine for the academic realm and probably could make it available for everyone. We believed we could build a better search engine."
+  Kontext: Interview im Buch 'Founders at Work' von Jessica Livingston. Page beschreibt die Gruendungsidee von [FIRMA].
+
+[A003] (2007, muendlich)
+  "If you're changing the world, you're working on important things. You're excited to get up in the morning."
+  Kontext: Zeitgeist-Konferenz 2007. Page ueber die Motivation, an grossen Problemen zu arbeiten.
+
+[A004] (2009-06-13, muendlich)
+  "If you're not doing some things that are crazy, then you're doing the wrong things."
+  Kontext: [UNI] University Commencement Address 2009. Page fordert Absolventen auf, Veruecktes zu wagen.
+
+[A005] (2010, muendlich)
+  "Especially in technology, we need revolution, not evolution."
+  Kontext: Aeusserung im Kontext von Singularity University, die Page mitfinanziert hat.
+
+[A006] (2012-12-11, muendlich)
+  "I would like to die working. I'm not saying I'd like to die at work—just that if I had to die, I'd like the transition to be a short one—to still be working. I don't have a sense that I'd like to stop working. I think I'd like to be 50 or 60 before I'd like that feeling to change."
+  Kontext: Fortune-Interview 2012. Page spricht ueberraschend offen ueber Tod und Vermaechtnis.
+
+[A007] (2012-12-11, muendlich)
+  "You know, I'd rather give my money to [PERSON] than to charity. He's going to make people's lives better. I don't think people necessarily appreciate the role of entrepreneurs in solving the world's toughest problems."
+  Kontext: Fortune 2012. Page verteidigt Unternehmertum gegenueber traditioneller Philanthropie.
+
+[A008] (2013-01-17, muendlich)
+  "It's quite hard to get people to do things they don't have to do. I wish we had a situation where the people who are most able to do these things and have the resources can spend their time solving the biggest problems in the world."
+  Kontext: Wired-Interview 2013. Page reflektiert ueber die Rolle von Ressourcen und faehigen Menschen.
+
+[A009] (2013-01-17, muendlich)
+  "If you say you want to automate cars and save people's lives, the skills you need for that aren't taught in any particular discipline. I know it seems hard. But people are dying every day in car accidents. The faster we can make this happen, the better."
+  Kontext: Wired 2013. Page rechtfertigt [FIRMA]s Arbeit an selbstfahrenden Autos mit Leben-retten-Argument.
+
+[A010] (2013-05-15, muendlich)
+  "If you read the newspapers, it's like one in a million people does something bad. You read about it and you think, 'oh that's normal.' We need to reorient our thinking about the world. Negativity is not realism. It's like, you don't think about all the amazing people that are doing unbelievably positive things for humanity."
+  Kontext: [FIRMA] I/O 2013 Fireside Chat. Page verteidigt Technologie-Optimismus gegen Medien-Pessimismus.
+
+[A011] (2013-05-15, muendlich)
+  "You need to aim for something that's radical, transformative, and really powerful. And most of the time people would say that's not possible. That's exactly what you should be doing."
+  Kontext: [FIRMA] I/O 2013. Page erklaert die 'Moonshot'-Philosophie von [FIRMA] X.
+
+[A012] (2013-05-15, muendlich)
+  "We get tremendous trust from people. They give us their data. We know where they are. We know what they've searched for. We take protecting that data and people's privacy incredibly seriously."
+  Kontext: [FIRMA] I/O 2013. Page verteidigt [FIRMA]s Umgang mit Nutzerdaten nach den ersten Edward-Snowden-Enthuellungen.
+
+[A013] (2014-03-03, muendlich)
+  "The pace of change is so rapid with technology that regulation doesn't really work. By the time you regulate it, it's already changed or the technology doesn't work the way you thought it did."
+  Kontext: [PERSON] Ventures Conference 2014. Page kritisiert Regulierungspraxis im Tech-Bereich.
+
+[A014] (2014-03-19, muendlich)
+  "The toothbrush test: Do you use it once or twice a day, and does it make your life better? We apply that to products we make."
+  Kontext: TED-Talk 2014, einer der letzten grossen oeffentlichen Auftritte von [PERSON]. Er erklaert [FIRMA]s Produktphilosophie.
+
+[A015] (2014-03-19, muendlich)
+  "We have a bit of a problem where most of the people are afraid of new technology in some way or another. I feel like the pace of change in the world is accelerating. We're not adapting fast enough, and we need more people working on these problems."
+  Kontext: TED 2014. Page aeussert sich ueberrascht ueber Technologie-Skepsis und fordert mehr Arbeit an KI-Problemen.
+
+[A016] (2014-10-31, muendlich)
+  "The idea that everyone should slavishly work so they do something inefficiently so they keep their job – that just doesn't make any sense to me. That can't be the right answer."
+  Kontext: Financial Times Interview 2014. Page diskutiert Automatisierung, KI und die Zukunft der Arbeit.
+
+[A017] (2014-10-31, muendlich)
+  "Most people like working, but they'd also like to have more time with their family or to pursue their own interests. So that would be one way to deal with the problem – spread the work around a little bit more."
+  Kontext: FT 2014. Page schlaegt Arbeitszeitverkuerzung als Loesung fuer Automatisierung vor.
+
+
+--- HANDLUNGEN (12 Stueck) ---
+
+[H001] (1998-09-04) [gruendung] ($100,000)
+  [PERSON] und [PERSON] gruenden [FIRMA] Inc. in einer Garage in Menlo Park, Kalifornien. Startkapital: $100.000 von Andy Bechtolsheim (Sun Microsystems Co-Founder). Die PageRank-Algorithmus-Idee stammt aus Pages [UNI]-Dissertation.
+
+[H002] (2001-08-01) [ruecktritt]
+  [PERSON] tritt als CEO zurueck. Eric Schmidt wird CEO, Page wird Praesident fuer Produkte. Investor-Bedenken ueber mangelnde Management-Erfahrung fuehren zur Entscheidung.
+
+[H003] (2004-08-19) [verkauf] ($1,670,000,000)
+  [FIRMA] geht an die Boerse (NASDAQ: GOOG). IPO sammelt $1,67 Milliarden ein bei einer Bewertung von $23 Milliarden. [PERSON] und [PERSON] behalten ueber Dual-Class-Aktien die Kontrolle. Unkonventionelles hollaendisches Auktions-Verfahren.
+
+[H004] (2006-10-09) [kauf] ($1,650,000,000)
+  [FIRMA] kauft [FIRMA] fuer $1,65 Milliarden in Aktien. [FIRMA] war erst 18 Monate alt und erwirtschaftete keine Gewinne. Die Akquisition wird spaeter als eine der besten Tech-Deals aller Zeiten bewertet.
+
+[H005] (2008-09-20) [gruendung]
+  [PERSON] und Ray Kurzweil gruenden gemeinsam mit Peter Diamandis die Singularity University im NASA Ames Research Center. Ziel: Ausbildung von Fuehrungskraeften in exponentiellen Technologien (KI, Biotech, Nanotech).
+
+[H006] (2011-04-04) [einstellung]
+  [PERSON] wird wieder CEO von [FIRMA], Eric Schmidt wird Executive Chairman. Page kuendigt Fokus auf 'fewer, bigger bets' an und reorganisiert [FIRMA] radikal.
+
+[H007] (2013-09-18) [gruendung]
+  [PERSON] gruendet Calico (California Life Company), ein Biotech-Unternehmen mit dem Ziel, Altern zu bekaempfen und Lebensspanne zu verlaengern. CEO wird Arthur Levinson (Ex-Genentech, [FIRMA]-Boardmember). Finanzierung durch [FIRMA]/[FIRMA].
+
+[H008] (2014-01-26) [kauf] ($500,000,000)
+  [FIRMA] kauft das britische KI-Startup [FIRMA] fuer geschaetzt $500-650 Millionen. [FIRMA]-Gruender [PERSON] besteht auf Ethik-Board. Die Akquisition signalisiert Pages langfristige KI-Vision.
+
+[H009] (2015) [investition] ($100,000,000)
+  [PERSON] finanziert persoenlich (nicht via [FIRMA]) das Flugtaxi-Startup Kitty Hawk mit ueber $100 Millionen. CEO wird Sebastian Thrun ([UNI], Ex-[FIRMA] X). Ziel: elektrische senkrechtstartende Fluggeraete (eVTOL).
+
+[H010] (2015-08-10) [umstrukturierung]
+  [PERSON] kuendigt die Umstrukturierung von [FIRMA] in [FIRMA] Inc. an. [FIRMA] wird Tochterunternehmen. Page wird CEO von [FIRMA], [PERSON] CEO von [FIRMA]. Weitere Toechter: Calico, Verily, Waymo, X, Wing, etc.
+
+[H011] (2019-12-03) [ruecktritt]
+  [PERSON] tritt als CEO von [FIRMA] zurueck. [PERSON] tritt ebenfalls als Praesident zurueck. [PERSON] wird CEO von [FIRMA] und [FIRMA]. Page und [PERSON] bleiben Boardmitglieder und kontrollieren [FIRMA] ueber Stimmrechtsaktien.
+
+[H012] (2019-12-17) [partnerschaft]
+  Pages Flugtaxi-Firma Wisk Aero (Spin-off von Kitty Hawk) geht Partnerschaft mit Boeing ein. Boeing investiert, Wisk entwickelt autonome eVTOL-Flugtaxis weiter. Ziel: FAA-Zertifizierung bis Mitte 2020er.

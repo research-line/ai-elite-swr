@@ -1,0 +1,123 @@
+=== DATENKORPUS PERSON-16 ===
+
+--- AUSSAGEN (18 Stueck) ---
+
+[A001] (2010-06-25, muendlich)
+  "In 300 years, we would like to become that company that makes the most contribution to human evolution -- the company that has greatest impact on humanity."
+  Kontext: [FIRMA] Shareholder Meeting, präsentierte seinen berühmten 300-Jahres-Plan
+
+[A002] (2010-06-25, muendlich)
+  "In 300 years time, chips planted inside or on our bodies will allow humans to communicate with one another, in any language, via telepathy. People will be able to communicate telepathically with dogs."
+  Kontext: 133-seitige Präsentation in Tokyo, Vision von Telepathie durch Gehirn-Chips
+
+[A003] (2010-06-25, muendlich)
+  "[FIRMA] might not be a mobile phone company anymore, but instead could be a telepathy service provider."
+  Kontext: Teil des 300-Jahres-Plans, Zukunftsvision des Geschäftsmodells
+
+[A004] (2017-09-20, muendlich)
+  "We believe the singularity is inevitable, and all businesses will be redefined as computers overtake humans in intelligence."
+  Kontext: CNBC Interview, warnte vor der Singularität und deren transformativer Wirkung auf alle Branchen
+
+[A005] (2017-09-20, muendlich)
+  "30 years from now, the number of smart robots, the smart robot population on this earth will be 10 billion. By that time, human population will be around 10 billion. So here on this earth we will have 10 billion population of mankind and 10 billion population of smart robots."
+  Kontext: Präsentation zur Zukunftsvision, Prognose einer Welt mit gleich vielen intelligenten Robotern wie Menschen
+
+[A006] (2017-09-20, muendlich)
+  "Every industry that mankind created will be redefined. The medical industry, automobile industry, the information industry of course. Every industry that mankind ever defined and created, even agriculture, will be redefined."
+  Kontext: Vision zur umfassenden Transformation aller Branchen durch KI
+
+[A007] (2017-10-25, muendlich)
+  "The Singularity will happen by 2047."
+  Kontext: Technologie-Konferenz, spezifische Vorhersage des Singularitäts-Zeitpunkts
+
+[A008] (2018-06-20, muendlich)
+  "In the future, cancer will no longer be a disease we should be afraid of, because artificial intelligence will solve problems that we cannot solve."
+  Kontext: [FIRMA] Shareholder Meeting, optimistische Vision über KI-basierte Medizin
+
+[A009] (2021-06-23, muendlich)
+  "Everything inspired by the corporate philosophy: Information Revolution — Happiness for everyone."
+  Kontext: Erklärung der Unternehmensphilosophie trotz häufiger Geschäftsmodell-Wechsel
+
+[A010] (2021-06-23, muendlich)
+  "I want to be the 21st century Rothschild."
+  Kontext: CNBC Bericht über [FIRMA] AGM, verglich seine Investmentrolle mit historischen Finanziers
+
+[A011] (2023-10-04, muendlich)
+  "Artificial general intelligence will come within 10 years."
+  Kontext: CNN Business Interview, AGI-Prognose für 2030er Jahre
+
+[A012] (2024-06-21, muendlich)
+  "I was born to realize ASI. What is my belief and vision for this investment? I have only one belief — Singularity."
+  Kontext: [FIRMA] Annual General Shareholders Meeting in Tokyo, erklärte sein Lebenswerk als Realisierung von Artificial Super Intelligence
+
+[A013] (2024-06-21, muendlich)
+  "AI that is 10,000 times smarter than humans will be here in 10 years. By 2030, AI could be one to 10 times smarter than humans, and by 2035, it might be 10,000 times smarter than human intelligence."
+  Kontext: [FIRMA] AGM 2024, Prognose zur Entwicklung übermenschlicher Intelligenz
+
+[A014] (2024-06-21, muendlich)
+  "I am devoting 97% of my time and brain to driving the future of AI."
+  Kontext: [FIRMA] AGM 2024, persönliches Commitment zur KI-Entwicklung
+
+[A015] (2024-06-21, muendlich)
+  "I want [FIRMA] to become the world's leading Artificial Super Intelligence platform within ten years."
+  Kontext: [FIRMA] AGM 2024, strategische Vision für das Unternehmen
+
+[A016] (2024-06-27, muendlich)
+  "I think this superintelligence is going to be our partner."
+  Kontext: Fortune Interview, betonte Partnerschaft-Vision zwischen Mensch und ASI
+
+[A017] (2025-02-01, muendlich)
+  "AGI will arrive in 2-3 years."
+  Kontext: Aktualisierte Prognose für AGI-Zeitpunkt (2027-2028)
+
+[A018] (2025-03-19, schriftlich)
+  "The future of Artificial Super Intelligence requires breakthrough computing power."
+  Kontext: Ankündigung der Ampere Computing Übernahme für 6,5 Mrd. USD
+
+
+--- HANDLUNGEN (15 Stueck) ---
+
+[H001] (2000-01-20) [investition] ($20,000,000)
+  Alibaba frühe Investition - 34% Stake für 20 Mio. USD, später über 200 Mrd. USD wert (eine der erfolgreichsten Tech-Investments aller Zeiten)
+
+[H002] (2013-03-15) [kauf]
+  Aldebaran Robotics Übernahme (später [FIRMA] Robotics) - Entwicklung des humanoiden Roboters [PRODUKT-ROBOTER]
+
+[H003] (2014-06-05) [produktlaunch]
+  [PRODUKT-ROBOTER] Roboter Launch - humanoider Roboter für Kundeninteraktion, Co-Design mit Aldebaran
+
+[H004] (2016-09-05) [kauf] ($32,000,000,000)
+  ARM Holdings Übernahme - Kauf des britischen Chip-Designers für Vorbereitung auf KI-Revolution und IoT-Ära
+
+[H005] (2017-05-20) [gruendung] ($100,000,000,000)
+  [FIRMA] Vision Fund - Gründung des weltweit größten Tech-Investmentfonds mit Fokus auf KI, Robotik und IoT
+
+[H006] (2017-08-25) [investition] ($4,400,000,000)
+  WeWork Investment durch Vision Fund - massive Investition in Co-Working Startup (später 14 Mrd. USD Abschreibung)
+
+[H007] (2019-02-28) [verkauf]
+  [FIRMA] Stake Verkauf - Verkauf der gesamten 4.9% [FIRMA] Position (später als großer strategischer Fehler bezeichnet, Son "was crying")
+
+[H008] (2024-02-19) [investition] ($100,000,000,000)
+  [PROJEKT] Ankündigung - geplante 100 Mrd. USD AI Chip Venture zum [FIRMA]-Wettbewerb (Name spielt auf AGI an)
+
+[H009] (2024-05-07) [investition] ($1,050,000,000)
+  Wayve autonomous driving Investment - 1,05 Mrd. USD Finanzierungsrunde für UK Self-Driving Startup (mit [FIRMA], [FIRMA])
+
+[H010] (2024-05-10) [verkauf] ($29,000,000,000)
+  Vision Fund US Portfolio Abbau - Verkauf/Abschreibung von 29 Mrd. USD in US-Aktien (Coupang, DoorDash, Grab) für Pivot zu KI/Chips
+
+[H011] (2025-01-21) [partnerschaft] ($500,000,000,000)
+  [PROJEKT] Ankündigung mit Trump - 500 Mrd. USD KI-Infrastruktur Initiative ([FIRMA] Chairman), 100k Jobs
+
+[H012] (2025-03-15) [investition] ($40,000,000,000)
+  [FIRMA] Investment Commitment - bis zu 40 Mrd. USD Gesamtverpflichtung, Teil von [PROJEKT]
+
+[H013] (2025-10-15) [investition] ($22,500,000,000)
+  [FIRMA] Vision Fund 2 Investment - 22,5 Mrd. USD durch SVF2 (dritte Tranche, effektiv 30 Mrd. nach Syndizierung)
+
+[H014] (2025-11-11) [verkauf] ($5,830,000,000)
+  [FIRMA] Komplett-Ausstieg - Verkauf aller verbliebenen 32,1 Mio. [FIRMA] Aktien für Fokus auf eigene AI-Infrastruktur
+
+[H015] (2025-11-25) [kauf] ($6,500,000,000)
+  Ampere Computing Übernahme - Erwerb des ARM-basierten Server-Chip Designers für ASI-Computing-Power

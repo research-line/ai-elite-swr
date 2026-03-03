@@ -1,0 +1,128 @@
+=== DATENKORPUS PERSON-73 ===
+
+--- AUSSAGEN (20 Stueck) ---
+
+[A001] (2022-08, muendlich)
+  "[FIRMA]'s approach to safety is like a portfolio because they don't know what will end up working, so they pursue different approaches in parallel"
+  Kontext: Describing [FIRMA]'s multi-track approach to AI safety research during his time there
+
+[A002] (2023-07, muendlich)
+  "Scalable oversight is generally a portfolio of ideas and techniques that allow leveraging AI to assist human evaluation on difficult tasks"
+  Kontext: Technical podcast explaining key concepts in superalignment research agenda
+
+[A003] (2023-07-05, schriftlich)
+  "Our goal is to build the first automated alignment researcher with human-level capabilities"
+  Kontext: Superalignment project announcement describing core objective
+
+[A004] (2023-08, muendlich)
+  "I think alignment is tractable. I think we can actually make a lot of progress if we focus on it and we put an effort into it"
+  Kontext: Interview discussing Superalignment project and optimism about solving alignment
+
+[A005] (2023-08, muendlich)
+  "It really feels like we have a real angle of attack on the problem that we can actually iterate on, we can actually build towards. And I think it's pretty likely going to work, actually"
+  Kontext: Expressing optimism about technical approach to alignment problem during Superalignment announcement period
+
+[A006] (2023-08, muendlich)
+  "Reinforcement learning from human feedback is kind of the popular method today. It works well because humans can look at what the system is doing and tell whether it's good or not"
+  Kontext: Explaining current alignment methodology and its limitations for future systems
+
+[A007] (2023-08, muendlich)
+  "I have a lot of uncertainty about how the future will go, and nobody really knows when AGI will arrive specifically"
+  Kontext: Discussing uncertainty around AGI development timeline in podcast interview
+
+[A008] (2023-08, muendlich)
+  "Maybe this problem isn't even solvable by humans who live today. But there's this easier problem, which is how do you align the system that is the next generation? How do you align [PRODUKT-FAMILIE]-N+1? And that is a substantially easier problem"
+  Kontext: Explaining iterative approach to alignment - solve for next model generation rather than final superintelligence
+
+[A009] (2023-08, muendlich)
+  "Systems could get a lot smarter or more capable over the next few years, and [FIRMA] would love to have solved the alignment problem in advance of actually having to solve it, ideally far in advance"
+  Kontext: Explaining rationale for four-year Superalignment timeline relative to expected capability increases
+
+[A010] (2023-08, muendlich)
+  "I think there's a lot of research progress to be made that we can actually make with a small dedicated team over the course of a year, or four"
+  Kontext: Optimistic view on what focused research teams can accomplish in alignment
+
+[A011] (2023-12, schriftlich)
+  "Future superhuman models will behave in complex ways too difficult for humans to reliably evaluate; humans will only be able to weakly supervise superhuman models"
+  Kontext: Research publication introducing weak-to-strong generalization paradigm for superhuman AI alignment
+
+[A012] (2023-12, schriftlich)
+  "We showed that we can use a [PRODUKT]-level model to elicit most of [PRODUKT]'s capabilities—close to [PRODUKT]-level performance—generalizing correctly even to hard problems where the small model failed"
+  Kontext: Research results on weak-to-strong generalization showing surprising capability elicitation
+
+[A013] (2024-05-17, schriftlich)
+  "Over the past years, safety culture and processes have taken a backseat to shiny products"
+  Kontext: [PLATTFORM]/X thread announcing resignation from [FIRMA] as head of alignment and Superalignment lead, criticizing company priorities
+
+[A014] (2024-05-17, schriftlich)
+  "I have been disagreeing with [FIRMA] leadership about the company's core priorities for quite some time, until we finally reached a breaking point"
+  Kontext: Resignation announcement explaining reasons for leaving [FIRMA]
+
+[A015] (2024-05-17, schriftlich)
+  "Sometimes we were struggling for compute and it was getting harder and harder to get this crucial research done"
+  Kontext: Describing resource constraints faced by Superalignment team despite 20% compute commitment
+
+[A016] (2024-05-17, schriftlich)
+  "We are long overdue in getting incredibly serious about the implications of AGI. We must prioritize preparing for them as best as we can"
+  Kontext: Part of resignation statement emphasizing urgency of AGI safety preparation
+
+[A017] (2024-05-17, schriftlich)
+  "I believe much more of our bandwidth should be spent getting ready for the next generations of models, on security, monitoring, preparedness, safety, adversarial robustness, (super)alignment, confidentiality, societal impact, and related topics"
+  Kontext: Resignation statement outlining priorities [FIRMA] should focus on
+
+[A018] (2024-05-17, schriftlich)
+  "I joined because I thought [FIRMA] would be the best place in the world to do this research"
+  Kontext: Resignation statement reflecting on initial motivations for joining [FIRMA]
+
+[A019] (2024-05-17, schriftlich)
+  "Over the past few months my team had been sailing against the wind"
+  Kontext: Describing organizational resistance and difficulties faced by Superalignment team
+
+[A020] (2024-05-28, schriftlich)
+  "I'm excited to join @[FIRMA]AI to continue the superalignment mission! My new team will work on scalable oversight, weak-to-strong generalization, and automated alignment research"
+  Kontext: Announcement of joining [FIRMA] with research agenda
+
+
+--- HANDLUNGEN (14 Stueck) ---
+
+[H001] (2016-01-01) [sonstiges]
+  Completed PhD in reinforcement learning theory at Australian National University under supervision of Marcus Hutter. Thesis: "Nonparametric General Reinforcement Learning"
+
+[H002] (2016-06-01) [einstellung]
+  Six-month postdoctoral fellowship at Future of Humanity Institute, [UNI], focusing on theoretical alignment research
+
+[H003] (2017-01-01) [einstellung]
+  Joined [FIRMA] as alignment researcher to focus on empirical AI safety research, prototyped reinforcement learning from human feedback (RLHF)
+
+[H004] (2017-06-01) [produktlaunch]
+  Co-authored seminal paper "Deep Reinforcement Learning from Human Preferences" with Paul Christiano, Tom B. Brown, Miljan Martic, Shane Legg, and [PERSON] at NIPS 2017
+
+[H005] (2018-11-01) [produktlaunch]
+  Published "Scalable agent alignment via reward modeling: a research direction" with co-authors David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, and Shane Legg, introducing recursive reward modeling
+
+[H006] (2021-01-01) [einstellung]
+  Joined [FIRMA] as alignment researcher, later became Head of Alignment
+
+[H007] (2022-03-01) [produktlaunch]
+  Co-authored "Training language models to follow instructions with human feedback" (Instruct[PRODUKT-FAMILIE] paper), developing first RLHF language model at NIPS 2022
+
+[H008] (2022-11-01) [produktlaunch]
+  Led alignment efforts for [PRODUKT] including RLHF training and red-teaming, using similar approach as Instruct[PRODUKT-FAMILIE]
+
+[H009] (2023-07-05) [gruendung]
+  Co-founded and co-led Superalignment team with [PERSON], with 20% of [FIRMA] compute allocated. Goal: solve core technical challenges of superintelligence alignment in 4 years
+
+[H010] (2023-09-01) [sonstiges]
+  Named to TIME 100 Most Influential People in AI 2023 list for co-leading [FIRMA] Superalignment team
+
+[H011] (2023-12-01) [produktlaunch]
+  Published weak-to-strong generalization research showing [PRODUKT]-level models can elicit most [PRODUKT] capabilities, addressing superhuman AI supervision challenge
+
+[H012] (2024-05-17) [ruecktritt]
+  Resigned as Head of Alignment, Superalignment lead, and executive at [FIRMA] citing disagreement with leadership priorities and insufficient safety focus
+
+[H013] (2024-05-28) [einstellung]
+  Joined [FIRMA] to lead new superalignment team working on scalable oversight, weak-to-strong generalization, and automated alignment research. Reports to [PERSON] (Chief Science Officer)
+
+[H014] (2024-09-01) [sonstiges]
+  Named to TIME 100 Most Influential People in AI 2024 list for second consecutive year, recognized for dramatic exit from [FIRMA] and continued alignment work at [FIRMA]

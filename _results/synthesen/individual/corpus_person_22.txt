@@ -1,0 +1,162 @@
+=== DATENKORPUS PERSON-22 ===
+
+--- AUSSAGEN (24 Stueck) ---
+
+[A001] (2013, muendlich)
+  "One of the most exciting things about deep learning is that it's very good at learning features. You don't need to be an expert in the domain to build a pretty good computer vision system."
+  Kontext: Technischer Vortrag ueber Deep Learning. Ng erklaert warum Deep Learning ein Paradigmenwechsel ist.
+
+[A002] (2013-10-09, muendlich)
+  "Our vision is to take great courses from great universities and provide them to everyone around the world for free. We currently have about 450 courses from more than a hundred different countries."
+  Kontext: Vortrag bei TechCrunch Disrupt. Ng und [PERSON] erklaeren die [FIRMA]-Mission.
+
+[A003] (2015-03-24, schriftlich)
+  "I don't work on preventing AI from turning evil for the same reason that I don't work on combating overpopulation on Mars."
+  Kontext: Zitiert in der Washington Post. Ng lehnt existenzielle KI-Risiko-Diskussionen ab.
+
+[A004] (2015-05-13, muendlich)
+  "I think AI is akin to building a rocket ship. You need a huge engine and a lot of fuel. The rocket engine is the learning algorithms but the fuel is the huge amounts of data we can feed to these algorithms."
+  Kontext: Interview mit WIRED ueber Deep Learning und Baidu. Ng betont die zentrale Rolle von Daten.
+
+[A005] (2015-05-13, muendlich)
+  "At Baidu, we're building AI into every product. Our goal is to make Baidu the leading AI company, not just in China but globally."
+  Kontext: WIRED Interview waehrend seiner Zeit als Chief Scientist bei Baidu.
+
+[A006] (2016-12-30, muendlich)
+  "I'm a big fan of open source. I think the more people have access to AI tools, the more innovation we'll see. Open source has been a huge driver of AI progress."
+  Kontext: Forbes-Interview. Ng betont die Rolle von Open Source fuer KI-Demokratisierung.
+
+[A007] (2017-01-25, muendlich)
+  "Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don't think AI will transform in the next several years."
+  Kontext: Vortrag bei der [UNI] Graduate School of Business. Die [FIRMA]phor 'AI is the new electricity' wird zu Ngs Signature-Statement.
+
+[A008] (2017-01-25, muendlich)
+  "I think AI can help us tackle some of society's biggest challenges, from climate change to poverty to healthcare. But we need to be thoughtful about how we deploy it."
+  Kontext: [UNI]-Vortrag zu AI for Social Good.
+
+[A009] (2017-03-28, muendlich)
+  "I think the potential of AI in healthcare is tremendous. But we need to work closely with doctors and regulators to make sure we build systems that are safe and effective."
+  Kontext: Interview mit STAT News ueber AI in der Medizin.
+
+[A010] (2017-08-08, muendlich)
+  "AI is too important to be left to just a few people. That's why I started DeepLearning.AI — to teach AI to millions of people around the world."
+  Kontext: Ankuendigung von DeepLearning.AI. Ng startet umfassende Online-Kurse fuer KI-Bildung.
+
+[A011] (2017-12-14, schriftlich)
+  "Most of AI's value will be created not by a few Internet giants, but by many companies across many sectors. Landing AI is helping companies outside tech harness AI."
+  Kontext: Gruendungsankuendigung von Landing AI. Ng fokussiert auf Manufacturing und Small Data.
+
+[A012] (2018-01-30, muendlich)
+  "There are many industries where AI can create tremendous value, but they don't yet know how. We want to build startups in partnership with these industries."
+  Kontext: Launch des AI Fund. Ng erklaert seine Studio-Strategie fuer AI-Adoption.
+
+[A013] (2018-02-23, muendlich)
+  "AI systems can perpetuate bias if we're not careful about the data we use to train them. We need diverse teams building these systems and careful audits of the data."
+  Kontext: [UNI] Technology Review Interview zu Fairness und Bias in KI-Systemen.
+
+[A014] (2018-03-13, muendlich)
+  "I'm generally against regulation, but I think transparency is good. We should ask companies to be transparent about what data they're collecting, what they're doing with it."
+  Kontext: Interview mit CNBC. Ng kritisiert den 'hastigen' Ruf nach KI-Regulierung.
+
+[A015] (2018-03-13, muendlich)
+  "China and the US are neck-and-neck in AI. China has strengths in certain areas like facial recognition and speech recognition. The US has strengths in others like natural language processing."
+  Kontext: CNBC-Interview waehrend der AI-Wettbewerbs-Debatte zwischen USA und China.
+
+[A016] (2018-08-22, muendlich)
+  "Every time someone learns a new skill on [FIRMA], it makes me happy. I think education is the great equalizer. AI will help us personalize education at scale."
+  Kontext: Interview mit Quartz ueber personalisierte Bildung durch KI.
+
+[A017] (2018-09-25, muendlich)
+  "I think AI will create more jobs than it destroys, but it will also change the nature of work. We need to focus on reskilling and helping people transition."
+  Kontext: Interview mit Fortune ueber die Zukunft der Arbeit. Ng ist optimistischer als viele andere KI-Experten.
+
+[A018] (2018-09-25, muendlich)
+  "There's a huge shortage of AI talent globally. That's why education is so critical. We need to train millions more people in AI skills."
+  Kontext: Fortune Interview zu KI-Bildung und Talentknappheit.
+
+[A019] (2019, muendlich)
+  "I don't know when we'll get to human-level intelligence. I think progress will be significant, but I don't think AGI is imminent."
+  Kontext: Interview zu AGI-Zeitlinien. Ng ist deutlich konservativer als [PERSON] oder [PERSON].
+
+[A020] (2019, muendlich)
+  "In AI, it's often better to ship something quickly and iterate than to wait for perfection. Speed matters more than most people think."
+  Kontext: Vortrag ueber Produktentwicklung und Iteration in KI.
+
+[A021] (2021-05-06, muendlich)
+  "The model and the code for many applications are basically a solved problem. So I think the most important work is actually shifting from model-centric to data-centric AI."
+  Kontext: Interview mit IEEE Spectrum. Ng startet seine Kampagne fuer data-centric AI development.
+
+[A022] (2021-05-06, muendlich)
+  "The big companies have the big data. If we want AI to be democratized, we need to figure out how to build systems that learn from less data."
+  Kontext: IEEE Spectrum Interview zur data-centric AI. Ng will KI fuer kleinere Firmen zugaenglich machen.
+
+[A023] (2023, muendlich)
+  "The rise of foundation models like [PRODUKT-FAMILIE] is exciting, but I think the real value will come from fine-tuning these models for specific applications."
+  Kontext: Diskussion ueber Large Language Models und deren praktische Anwendung.
+
+[A024] (2024-03-26, muendlich)
+  "I think agentic workflows — where we use LLMs not just to generate one response but to iterate multiple times and reflect on its output — will drive huge gains in AI capabilities."
+  Kontext: Vortrag bei DeepLearning.AI zum Thema agentic workflows als Design Pattern.
+
+
+--- HANDLUNGEN (20 Stueck) ---
+
+[H001] (2003) [produktlaunch]
+  [PERSON] startet den [UNI] Machine Learning Kurs (CS229), der zu einem der beliebtesten Kurse der Universitaet wird und Tausende von Studenten anzieht. Der Kurs wird spaeter zur Grundlage fuer [FIRMA].
+
+[H002] (2011) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] das [FIRMA] Brain-Projekt, [FIRMA]s Deep-Learning-Forschungsinitiative. Das Projekt entwickelt DistBelief, einen Vorgaenger von TensorFlow.
+
+[H003] (2012-04-18) [gruendung] ($16,000,000)
+  [PERSON] und [PERSON] gruenden [FIRMA], eine Online-Lernplattform, die Kurse von Top-Universitaeten kostenlos oder zu niedrigen Kosten anbietet. [FIRMA] startet mit einem $16 Mio. Investment von Kleiner Perkins und New Enterprise Associates.
+
+[H004] (2012-06-26) [sonstiges]
+  [PERSON] und das [FIRMA] Brain Team veroeffentlichen die beruehmt gewordene Studie, in der ein neuronales Netz mit 16.000 Prozessoren lernt, Katzen in [FIRMA]-Videos zu erkennen -- ohne vorher mit gelabelten Daten trainiert worden zu sein (unsupervised learning).
+
+[H005] (2014-05-16) [einstellung]
+  [PERSON] tritt als Chief Scientist bei Baidu ein und leitet die KI-Strategie des chinesischen Suchmaschinen-Giganten. Er baut das Baidu Research Lab auf und gruendet das 'Baidu Brain'-Projekt mit einem Team von 1.300 Mitarbeitern.
+
+[H006] (2017-03-22) [ruecktritt]
+  [PERSON] kuendigt seinen Ruecktritt als Chief Scientist bei Baidu an, um sich auf neue KI-Projekte zu konzentrieren. Er verlaesst Baidu nach drei Jahren, in denen er Baidu Brain aufgebaut hat.
+
+[H007] (2017-08-08) [gruendung]
+  [PERSON] gruendet DeepLearning.AI, ein Bildungsunternehmen, das KI-Kurse und Spezialisierungen auf [FIRMA] anbietet. Die Plattform startet mit dem 'Deep Learning Specialization', einem 5-Kurse-Programm.
+
+[H008] (2017-12-14) [gruendung]
+  [PERSON] gruendet Landing AI, ein Unternehmen, das sich auf KI-Loesungen fuer das verarbeitende Gewerbe spezialisiert. Landing AI fokussiert auf Computer Vision und 'Small Data'-Ansaetze fuer die Fertigung.
+
+[H009] (2018-01-30) [investition] ($175,000,000)
+  [PERSON] startet den AI Fund, einen $175 Millionen Venture-Capital-Fonds und Studio, das neue KI-Startups gruendet. Der Fonds investiert in Unternehmen wie Woebot (mental health AI) und Landing AI.
+
+[H010] (2018-02-01) [partnerschaft]
+  Landing AI geht eine strategische Partnerschaft mit Foxconn ein, um KI-basierte visuelle Inspektion in der Elektronikfertigung einzufuehren. Foxconn nutzt Landing AI fuer Qualitaetskontrolle.
+
+[H011] (2018-10-12) [produktlaunch]
+  [PERSON] veroeffentlicht 'Machine Learning Yearning', ein kostenloses E-Book, das praktische Ratschlaege fuer die Strukturierung von Machine-Learning-Projekten bietet. Das Buch wird von Hunderttausenden gelesen.
+
+[H012] (2018-12-17) [produktlaunch]
+  [PERSON] startet 'AI for Everyone', einen nicht-technischen Kurs auf [FIRMA], der KI fuer Manager, Fuehrungskraefte und Nicht-Techniker zugaenglich macht. Der Kurs wird ueber 1 Million Mal belegt.
+
+[H013] (2021-03-31) [sonstiges] ($4,300,000,000)
+  [FIRMA] geht an die Boerse (NYSE: COUR) mit einer Bewertung von $4,3 Milliarden. [PERSON] ist zu diesem Zeitpunkt nicht mehr operativ taetig, bleibt aber Chairman des Board.
+
+[H014] (2021-05-06) [sonstiges]
+  [PERSON] startet die 'Data-Centric AI'-Bewegung, die den Fokus von Modellverbesserungen auf Datenqualitaet verlagert. Er organisiert den ersten Data-Centric AI Workshop und Competition.
+
+[H015] (2021-11-09) [produktlaunch]
+  Landing AI launcht LandingLens, eine Cloud-basierte Computer-Vision-Plattform, die es Unternehmen ermoeglicht, visuelle Inspektionssysteme mit minimalen Daten zu trainieren. Die Plattform implementiert data-centric AI-Prinzipien.
+
+[H016] (2022-06-14) [investition] ($57,000,000)
+  Landing AI sichert sich eine $57 Millionen Series-A-Finanzierung gefuehrt von McRock Capital. Das Kapital wird genutzt, um LandingLens zu skalieren und neue Manufacturing-Kunden zu gewinnen.
+
+[H017] (2023-05-01) [produktlaunch]
+  DeepLearning.AI launcht in Partnerschaft mit [FIRMA] den Kurs '[PRODUKT] Prompt Engineering for Developers', der eine Million Einschreibungen in den ersten Wochen erreicht.
+
+[H018] (2023-07-12) [partnerschaft]
+  DeepLearning.AI geht eine Partnerschaft mit [FIRMA] Cloud ein, um Kurse zu entwickeln, die [FIRMA]-Cloud-KI-Tools lehren, einschliesslich Vertex AI und Generative AI-Anwendungen.
+
+[H019] (2023-08-15) [sonstiges]
+  DeepLearning.AI gibt bekannt, dass ueber 5 Millionen Menschen ihre Kurse absolviert haben. Die Plattform bietet inzwischen 20+ Spezialisierungen und Kurse in KI-Themen.
+
+[H020] (2024-03-26) [produktlaunch]
+  [PERSON] launcht einen Kurs zu 'AI Agentic Design Patterns', in dem er seine Vision fuer agentic workflows erklaert: Reflection, Tool Use, Planning, Multi-Agent Collaboration. Der Kurs wird ein Bestseller.

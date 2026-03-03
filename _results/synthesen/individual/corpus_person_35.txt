@@ -1,0 +1,84 @@
+=== DATENKORPUS PERSON-35 ===
+
+--- AUSSAGEN (12 Stueck) ---
+
+[A001] (2024-05-15, muendlich)
+  "The best thing you can do for another human being is to help them learn and know more. It's almost like a moral duty for all of us to seek wisdom and become perpetual learning machines because nothing else can help us keep upgrading ourselves."
+  Kontext: Zitiert Charlie Munger und erläutert [FIRMA]s philosophische Grundlage
+
+[A002] (2024-05-15, muendlich)
+  "Search should return answers, not ads. Traditional search is fundamentally a marketing function."
+  Kontext: Kritik an [FIRMA]s Geschäftsmodell und Vision für [FIRMA]
+
+[A003] (2024-05-15, muendlich)
+  "Every year it's the same feature announced in the IO. Like I think in 2023 they called it Search Generative Experience. In 2024 they called it AI Overview. This year they called it AI Mode. Next year they'll call it another name. But at the end of the day, the feature never gets shipped to the user."
+  Kontext: Kritik an [FIRMA]s langsamer Innovation und Produktauslieferung
+
+[A004] (2024-05-15, muendlich)
+  "Resilience means redefining failure and never giving up. Too many people avoid risks because they worry about losing or how others might perceive them, when in reality, most potential critics aren't paying attention."
+  Kontext: Leadership-Ratschlag für Entrepreneure
+
+[A005] (2024-06-19, muendlich)
+  "When I wrote my first paper, the senior people who were working with me on the paper told me this one profound thing, which is that every sentence you write in a paper should be backed with a citation, with a citation from another peer reviewed paper, or an experimental result in your own paper."
+  Kontext: Diskussion über akademische Strenge und wie diese Philosophie [FIRMA]s Ansatz mit Quellenangaben beeinflusst hat
+
+[A006] (2024-06-19, muendlich)
+  "I think this curiosity makes humans special, and we want to cater to that. That's the mission of the company. And we harness the power of AI in all these frontier models to serve that."
+  Kontext: Erklärung der grundlegenden Mission von [FIRMA] AI
+
+[A007] (2024-06-19, muendlich)
+  "[FIRMA] is best described as an answer engine. So you ask it a question, you get an answer. Except the difference is all the answers are backed by sources."
+  Kontext: Kernunterscheidung zwischen [FIRMA] und anderen KI-Chatbots
+
+[A008] (2024-08-20, muendlich)
+  "Curiosity is unbounded in this world. Every person in the world is curious, but not all of them are blessed to translate that curiosity into a well-articulated question."
+  Kontext: Über die Rolle von [FIRMA] bei der Demokratisierung von Wissen
+
+[A009] (2024-08-20, muendlich)
+  "I think of [FIRMA] as a knowledge discovery engine. The journey doesn't end once you get an answer. In my opinion, the journey begins after you get an answer."
+  Kontext: Unterscheidung zwischen reiner Antwortmaschine und Wissens-Explorationstool
+
+[A010] (2024-10-15, muendlich)
+  "Hallucinations are always going to be a problem. Hallucinations should always be a bug for a product that aims to give you accurate answers or do stuff for you. You don't want an agent that makes mistakes 20% of the time."
+  Kontext: Über die Herausforderungen bei der Entwicklung zuverlässiger KI-Systeme
+
+[A011] (2025-11-07, muendlich)
+  "I only have one: accuracy. Everything else breaks without it."
+  Kontext: Antwort auf die Frage, was ihn an der Zukunft der KI am meisten begeistert
+
+[A012] (2025-11-07, muendlich)
+  "To make that real, you need reliability. That comes from fixing the thousand bugs no one wants to fix."
+  Kontext: Über die Entwicklung eines zuverlässigen KI-Assistenten
+
+
+--- HANDLUNGEN (10 Stueck) ---
+
+[H001] (2022-08-01) [gruendung]
+  Gründung von [FIRMA] AI als KI-gestützte Answer Engine mit Quellenangaben. Co-Gründer und CEO.
+
+[H002] (2024-01-04) [investition]
+  Series B Finanzierungsrunde: 73,6 Millionen USD bei 520 Millionen USD Bewertung. Lead: IVP, mit Beteiligung von [FIRMA], [PERSON] ([PERSON] Expeditions), und weiteren Investoren.
+
+[H003] (2024-03-10) [investition]
+  Weitere Finanzierung von 63 Millionen USD, Erreichen des Unicorn-Status mit 1,04 Milliarden USD Bewertung. Lead: [PERSON] (ehemals [FIRMA] AI Lead), mit [PERSON], [FIRMA], Stan Druckenmiller, Tobi Lutke, Garry Tan.
+
+[H004] (2024-05-15) [sonstiges]
+  Keynote beim [UNI] GSB View From The Top - dem führenden Leadership Speaker Series seit 1978. Themen: Entrepreneurship, Building Teams, Bias for Action, Ethische KI.
+
+[H005] (2024-07-30) [partnerschaft]
+  Launch des Publishers Program: Revenue-Sharing-Modell mit Medienunternehmen als Reaktion auf Plagiatsvorwürfe. Erste Partner: Fortune, Time, Entrepreneur, The Texas Tribune, Der Spiegel, WordPress.com.
+
+[H006] (2024-11-12) [produktlaunch]
+  Launch des Werbegeschäfts: Sponsored Follow-up Questions und Video Ads. Erste Partner: Indeed, Whole Foods, Universal McCann, PMG. CPM über 50 USD.
+
+[H007] (2024-11-15) [investition]
+  Persönliche Beteiligung an 9 Millionen USD Finanzierungsrunde für ein KI-Startup im Finanzbereich, das Finance-Routinearbeit um 40% reduziert und Monatsabschlüsse halbiert.
+
+[H008] (2024-11-18) [produktlaunch]
+  Launch des Shopping Hub für Pro-Nutzer in den USA: Visual Product Cards, Snap to Shop (Foto-basierte Produktsuche), One-Click Checkout mit kostenlosem Versand für Pro-Abonnenten. Integration mit Shopify.
+
+[H009] (2024-12-18) [investition]
+  Series D Finanzierungsrunde: 500 Millionen USD bei 9 Milliarden USD Bewertung - Verdreifachung des Werts innerhalb weniger Monate. Vierte Finanzierungsrunde in 2024.
+
+[H010] (2024-12-28) [politisch]
+  Treffen mit dem indischen Premierminister Narendra Modi in Neu-Delhi. Diskussion über KI-Adoption in Indien und weltweit. [PERSON] bot an, [FIRMA] Pro für indische Studenten, Forscher und Fakultät zugänglich zu machen.

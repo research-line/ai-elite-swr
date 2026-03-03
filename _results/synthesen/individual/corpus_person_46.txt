@@ -1,0 +1,95 @@
+=== DATENKORPUS PERSON-46 ===
+
+--- AUSSAGEN (14 Stueck) ---
+
+[A001] (2023-04-13, muendlich)
+  "Really good AI models take billions of dollars to train, so most companies want to work off of a foundational model that's big and great already and then have the ability to customize it for their own purposes."
+  Kontext: [FIRMA] Bedrock Launch Event 2023, Erklärung der Bedrock-Strategie und Marktbedürfnisse
+
+[A002] (2024-01-18, muendlich)
+  "This is like three steps into a marathon."
+  Kontext: Interview über KI als Risiko und Chance, Betonung des frühen Entwicklungsstadiums
+
+[A003] (2024-04-11, muendlich)
+  "I think that AI and generative AI specifically is the most transformative technology of our lifetime, which is saying a lot, given that we have had the internet."
+  Kontext: Interview mit CNBC über [FIRMA]s KI-Strategie und Zukunftsvisionen
+
+[A004] (2024-04-11, schriftlich)
+  "We continue to believe AI is a once-in-a-lifetime reinvention of everything we know, the demand is unlike anything we've seen before, and our customers, shareholders, and business will be well-served by our investing aggressively now."
+  Kontext: Annual Shareholder Letter 2024, in dem [PERSON] [FIRMA]s aggressive KI-Investitionen rechtfertigt
+
+[A005] (2024-08-24, schriftlich)
+  "This is a great example of how large-scale enterprises can gain significant efficiencies in foundational software hygiene work by leveraging [FIRMA] Q. It's been a game changer for us."
+  Kontext: Tweet über interne [FIRMA] Q Nutzung: 4.500 Entwicklerjahre gespart, 260 Mio. Dollar Effizienzgewinne bei Java-Upgrades
+
+[A006] (2024-09-16, schriftlich)
+  "When we look back over the last five years, we continue to believe that the advantages of being together in the office are significant. We are going to return to being in the office the way we were before the onset of COVID."
+  Kontext: Memo an Mitarbeiter über 5-Tage-Büropflicht ab Januar 2025, kontroverse Entscheidung mit massivem Widerstand
+
+[A007] (2024-09-26, schriftlich)
+  "[FIRMA]'s central commitment is The Climate Pledge, which aims to reach net-zero carbon across its operations by 2040—10 years ahead of the Paris Agreement."
+  Kontext: Nachhaltigkeits-Diskussion, [FIRMA]s Klimaziele trotz massiver KI-Infrastruktur-Expansion
+
+[A008] (2024-11-04, muendlich)
+  "We're building Bedrock to be the biggest inference engine in the world and in the long run, believe Bedrock could be as big a business for [FIRMA] as EC2."
+  Kontext: Earnings Call Q3 2024, Vision für [FIRMA] Bedrock als potentiell größtes [FIRMA]-Geschäft
+
+[A009] (2024-11-05, muendlich)
+  "This was not a cost play for us. This is not a backdoor layoff."
+  Kontext: All-Hands Meeting mit Mitarbeitern, Reaktion auf Kritik und Spekulationen über versteckte Entlassungen
+
+[A010] (2024-11-22, schriftlich)
+  "We have tremendous respect for [FIRMA]'s team and foundation models, and believe we can help improve many customer experiences, short and long-term, through our deeper collaboration."
+  Kontext: Ankündigung der $4 Milliarden Gesamtinvestition in [FIRMA], strategische KI-Partnerschaft
+
+[A011] (2024-12-03, muendlich)
+  "We prioritize technology that we think is going to really matter for customers, and with the explosion of generative AI the last couple years, we've taken that same approach … but what we're trying to do is solve problems for you — what we think of as practical AI."
+  Kontext: [FIRMA] re:Invent 2024 Keynote, Vorstellung von [FIRMA] Nova Modellen und praktischer KI-Ansatz
+
+[A012] (2024-12-03, muendlich)
+  "Human beings don't go to one human being for expertise in every single area. You have different human beings who are great at different things."
+  Kontext: [FIRMA] re:Invent 2024, Begründung für Multi-Modell-Strategie bei [FIRMA] Bedrock
+
+[A013] (2025-02-26, muendlich)
+  "Kuiper targets 400 to 500 million households around the world who don't have broadband connectivity. The tight connection between Kuiper and [FIRMA] is going to make that very compelling as well."
+  Kontext: CNBC The Exchange Interview, Verteidigung der $10+ Milliarden Kuiper-Investition
+
+[A014] (2025-06-30, muendlich)
+  "There will be fewer people doing some of the jobs that the technology actually starts to automate."
+  Kontext: CNBC Mad Money Interview, Diskussion über KI-Auswirkungen auf Arbeitskräfte nach Massenentlassungen von 27.000 Mitarbeitern
+
+
+--- HANDLUNGEN (11 Stueck) ---
+
+[H001] (2021-07-05) [einstellung]
+  [PERSON] übernahm als CEO von [FIRMA], Nachfolger von [PERSON]
+
+[H002] (2023-03-21) [entlassung]
+  [PERSON] leitete Massenentlassungen von 27.000 Mitarbeitern bei [FIRMA] (18.000 + 9.000 in zwei Phasen)
+
+[H003] (2023-04-13) [produktlaunch]
+  Launch von [FIRMA] Bedrock, managed Foundation Model Plattform mit 10+ Modellen
+
+[H004] (2023-11-28) [produktlaunch]
+  Launch von [FIRMA] Q, AI-Assistent für Entwickler und Business (Q Developer, Q Business)
+
+[H005] (2024-09-16) [umstrukturierung]
+  [PERSON] führte 5-Tage-Büropflicht ab Januar 2025 ein, Ende des Hybrid-Modells
+
+[H006] (2024-09-26) [investition]
+  Fortführung Climate Pledge: 500+ Wind- und Solarprojekte, größter Corporate Renewable Energy Käufer
+
+[H007] (2024-10-01) [investition]
+  Fortsetzung Project Kuiper: $10+ Milliarden Investment in Satelliten-Internet (3.232 Satelliten geplant)
+
+[H008] (2024-11-01) [produktlaunch]
+  Skalierung von [FIRMA] Trainium2 Custom AI Chips - Multi-Milliarden-Dollar-Business, 150% QoQ Wachstum
+
+[H009] (2024-11-22) [investition]
+  [FIRMA] investierte unter [PERSON] insgesamt $4 Milliarden in [FIRMA] ([PRODUKT] AI)
+
+[H010] (2024-12-03) [produktlaunch]
+  Launch von [FIRMA] Nova, eigene Foundation Model Familie (Micro, Lite, Pro, Premier, Canvas, Reel)
+
+[H011] (2025-12-17) [umstrukturierung]
+  [PERSON] reorganisierte AI-Leadership: Rohit Prasad (AGI-Chef) ersetzt durch Peter DeSantis

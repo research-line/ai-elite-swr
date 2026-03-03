@@ -1,0 +1,173 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2014_AH
+Beschreibung: Jahrestopf 2014, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 17 Aussagen + 28 Handlungen = 45 gesamt
+Zeitraum Aussagen: 2014 bis 2014-10-31
+Zeitraum Handlungen: 2014 bis 2014-12-01
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (17 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2014, muendlich)
+  "We're trying to do things that sound a little crazy, like making a car that drives itself or building a balloon-powered Internet. But we take a moonshot-style approach with one caveat: our problems all have to be huge. Millions and millions of people have to be affected by a problem before we tackle it."
+  Kontext: Artikel ueber [FIRMA] X. [PERSON] leitet das Moonshot-Labor und beschreibt die Philosophie hinter Projekten wie Loon und Waymo.
+
+[A002] (2014-01-01, schriftlich)
+  "Caffe is a deep learning framework made with expression, speed, and modularity in mind, and is developed by [UNI] AI Research (BAIR) and by community contributors. Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models."
+  Kontext: Official description of Caffe deep learning framework design philosophy
+
+[A003] (2014-01-01, schriftlich)
+  "I wish I still owned [FIRMA] now."
+  Kontext: Regretting 2006 sale to Condé Nast, site exceeded expectations
+
+[A004] (2014-03-01, muendlich)
+  "People think of rap lyrics as being only about money, women, status and cocaine, but more pervasive themes are leadership, collaboration and the vulnerability beneath the swagger — all relevant in business."
+  Kontext: Artikel über [PERSON]' Verbindung zwischen Hip-Hop-Kultur und Business-Leadership
+
+[A005] (2014-03-03, muendlich)
+  "The pace of change is so rapid with technology that regulation doesn't really work. By the time you regulate it, it's already changed or the technology doesn't work the way you thought it did."
+  Kontext: [PERSON] Ventures Conference 2014. Page kritisiert Regulierungspraxis im Tech-Bereich.
+
+[A006] (2014-03-04, schriftlich)
+  "Every time you make the hard, correct decision you become a bit more courageous, and every time you make the easy, wrong decision you become a bit more cowardly. If you are CEO, these choices will lead to a courageous or cowardly company."
+  Kontext: Zitat aus 'The Hard Thing About Hard Things' über Führungsqualitäten
+
+[A007] (2014-03-04, schriftlich)
+  "The hard thing isn't setting a big, hairy, audacious goal. The hard thing is laying people off when you miss the big goal. The hard thing isn't hiring great people. The hard thing is when those 'great people' develop a sense of entitlement."
+  Kontext: Kernaussage aus 'The Hard Thing About Hard Things' über die wahren Herausforderungen im Management
+
+[A008] (2014-03-06, muendlich)
+  "The simple goal was to energize women engineers and focus on personal and professional development. What started with 17 women grew to 1,800 members strong all over the world, with 12 chapters."
+  Kontext: Reflecting on founding and growth of QWISE at Qualcomm
+
+[A009] (2014-03-19, muendlich)
+  "The toothbrush test: Do you use it once or twice a day, and does it make your life better? We apply that to products we make."
+  Kontext: TED-Talk 2014, einer der letzten grossen oeffentlichen Auftritte von [PERSON]. Er erklaert [FIRMA]s Produktphilosophie.
+
+[A010] (2014-03-19, muendlich)
+  "We have a bit of a problem where most of the people are afraid of new technology in some way or another. I feel like the pace of change in the world is accelerating. We're not adapting fast enough, and we need more people working on these problems."
+  Kontext: TED 2014. Page aeussert sich ueberrascht ueber Technologie-Skepsis und fordert mehr Arbeit an KI-Problemen.
+
+[A011] (2014-09-16, schriftlich)
+  "Competition is for losers."
+  Kontext: Kernthese aus dem Buch 'Zero to One'. [PERSON] argumentiert, dass wahre Innovatoren Monopole schaffen, nicht konkurrieren.
+
+[A012] (2014-09-16, schriftlich)
+  "If you're starting a company, you always want to aim for monopoly and avoid competition. Hence, competition is for losers."
+  Kontext: [PERSON] elaboriert die Monopol-These: Erfolgreiche Unternehmen schaffen neue Kategorien statt in bestehenden Maerkten zu konkurrieren.
+
+[A013] (2014-09-16, schriftlich)
+  "A startup is the largest endeavor over which you can have definite mastery. You can have agency not just over your own life, but over a small and important part of the world. It begins by rejecting the unjust tyranny of Chance. You are not a lottery ticket."
+  Kontext: [PERSON] kontrastiert 'definite optimism' (planbare Zukunft) mit 'indefinite optimism' (Zukunft als Zufall).
+
+[A014] (2014-10-03, muendlich)
+  "After a bubble, when people invested and a lot of companies overpromised without providing serious analysis, it will bust. I am predicting that within a two- to five-year span, people will say the big-data thing came and went and died."
+  Kontext: IEEE Spectrum interview, predicting bubble burst due to overpromising without analysis
+
+[A015] (2014-10-03, muendlich)
+  "Cycles of excessive hype—assertions not based on understanding real problems or acknowledging that solving them would take decades—will be followed by a period when it would be very hard to get resources for data analysis."
+  Kontext: Warning about consequences of unrealistic promises
+
+[A016] (2014-10-31, muendlich)
+  "The idea that everyone should slavishly work so they do something inefficiently so they keep their job – that just doesn't make any sense to me. That can't be the right answer."
+  Kontext: Financial Times Interview 2014. Page diskutiert Automatisierung, KI und die Zukunft der Arbeit.
+
+[A017] (2014-10-31, muendlich)
+  "Most people like working, but they'd also like to have more time with their family or to pursue their own interests. So that would be one way to deal with the problem – spread the work around a little bit more."
+  Kontext: FT 2014. Page schlaegt Arbeitszeitverkuerzung als Loesung fuer Automatisierung vor.
+
+------------------------------------------------------------------------
+HANDLUNGEN (28 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2014) [einstellung]
+  [PERSON] wird zum CIFAR Senior Fellow und Co-Director des Learning in Machines & Brains Program ernannt.
+
+[H002] (2014-01) [verkauf] ($650,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer ca. 400 Millionen Pfund (ca. $650 Mio.) -- die zu diesem Zeitpunkt groesste [FIRMA]-Akquisition in Europa. [PERSON] wird Head of Applied AI bei [FIRMA].
+
+[H003] (2014-01-01) [investition]
+  Investition in DoorDash (Essenslieferung)
+
+[H004] (2014-01-01) [investition]
+  Investition in Affirm (Fintech Buy-Now-Pay-Later)
+
+[H005] (2014-01-01) [investition]
+  Führte [FIRMA] Investitionen in Coinbase - insgesamt fast 50 Millionen US-Dollar in Bitcoin-bezogene Projekte bis 2014
+
+[H006] (2014-01-01) [produktlaunch]
+  Released [UNI] CoreNLP as open source software suite providing extensive NLP tools and models for research and commercial use
+
+[H007] (2014-01-01) [gruendung]
+  Co-founded Gradescope with Arjun Singh, Sergey Karayev, and Ibrahim Awwal to use AI for streamlined grading in education
+
+[H008] (2014-01-01) [produktlaunch]
+  Released Caffe deep learning framework as open-source software, developed by Yangqing Jia in [PERSON]'s lab at UC [UNI]. Caffe quickly became one of the most widely used platforms for deep learning, particularly in computer vision applications.
+
+[H009] (2014-01-01) [einstellung]
+  Became Partner at [FIRMA], focusing on startups in government and defense technology sectors
+
+[H010] (2014-01-26) [verkauf] ($500,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer geschaetzt $400-650 Millionen. Groesste europaeische Tech-Akquisition von [FIRMA] zu diesem Zeitpunkt. [FIRMA] wird Tochterunternehmen von [FIRMA].
+
+[H011] (2014-01-26) [kauf] ($500,000,000)
+  [FIRMA] kauft das britische KI-Startup [FIRMA] fuer geschaetzt $500-650 Millionen. [FIRMA]-Gruender [PERSON] besteht auf Ethik-Board. Die Akquisition signalisiert Pages langfristige KI-Vision.
+
+[H012] (2014-02-01) [gruendung]
+  Co-founded Nervana Systems, a deep learning chip startup focused on AI accelerators for data centers
+
+[H013] (2014-02-04) [einstellung]
+  [PERSON] wird der dritte CEO von [FIRMA] und loest Steve Ballmer ab. Er tritt die Nachfolge von Bill Gates und Steve Ballmer an.
+
+[H014] (2014-02-19) [kauf] ($19,000,000,000)
+  [FIRMA] uebernimmt [FIRMA] fuer $19 Milliarden -- zu diesem Zeitpunkt die groesste Uebernahme eines VC-finanzierten Startups. [FIRMA] hatte 55 Mitarbeiter und 450 Millionen Nutzer.
+
+[H015] (2014-02-21) [einstellung]
+  [PERSON] wird Praesident von [FIRMA] und loest Paul Graham ab. Unter seiner Fuehrung foerdert YC ca. 1.900 Startups, darunter Airbnb, DoorDash, [FIRMA] und Twitch.
+
+[H016] (2014-03-04) [produktlaunch]
+  Publikation des Management-Buches 'The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers' - wurde zum Bestseller und Standardwerk für Startup-Gründer
+
+[H017] (2014-03-25) [kauf] ($2,300,000,000)
+  [FIRMA] uebernimmt Oculus VR fuer $2,3 Milliarden, um in Virtual Reality einzusteigen. Oculus hatte die Kickstarter-gefundete Oculus Rift entwickelt.
+
+[H018] (2014-03-25) [verkauf] ($2,300,000,000)
+  Verkauf von Oculus VR an [FIRMA] ([FIRMA]) für 2,3 Milliarden US-Dollar. [PERSON] war 21 Jahre alt und wurde zum jüngsten Self-Made-Milliardär in der VR-Branche.
+
+[H019] (2014-05-01) [einstellung]
+  Joined [FIRMA] AI Research (FAIR) as AI researcher
+
+[H020] (2014-05-16) [einstellung]
+  [PERSON] tritt als Chief Scientist bei Baidu ein und leitet die KI-Strategie des chinesischen Suchmaschinen-Giganten. Er baut das Baidu Research Lab auf und gruendet das 'Baidu Brain'-Projekt mit einem Team von 1.300 Mitarbeitern.
+
+[H021] (2014-05-28) [kauf] ($3,000,000,000)
+  [FIRMA] kauft Beats Electronics und Beats Music fuer 3 Milliarden Dollar
+
+[H022] (2014-06-01) [einstellung]
+  [PERSON] arbeitet als Neural Network Reporter bei Bloomberg, spezialisiert auf KI-Berichterstattung ueber [FIRMA], [FIRMA] und verteilte Systeme.
+
+[H023] (2014-06-05) [produktlaunch]
+  [PRODUKT-ROBOTER] Roboter Launch - humanoider Roboter für Kundeninteraktion, Co-Design mit Aldebaran
+
+[H024] (2014-07-15) [sonstiges]
+  Gewann Goldmedaille (1. Platz) bei International Olympiad in Informatics (IOI)
+
+[H025] (2014-10-01) [produktlaunch]
+  Released GloVe (Global Vectors for Word Representation) model, which became one of the most widely used word embedding approaches
+
+[H026] (2014-10-08) [einstellung]
+  [PERSON] wird CEO von [FIRMA], übernimmt Führung eines krisengeschüttelten Unternehmens mit Aktienkurs unter 2 USD
+
+[H027] (2014-11-06) [produktlaunch]
+  [FIRMA] stellt Alexa und Echo vor -- [FIRMA]s Einstieg in KI-gesteuerte Sprachassistenten. Echo ist ein Smart Speaker, Alexa die dahinterstehende KI. Anfangs nur auf Einladung verfuegbar.
+
+[H028] (2014-12-01) [produktlaunch]
+  Co-authored Adam optimizer algorithm with Diederik Kingma

@@ -1,0 +1,87 @@
+=== DATENKORPUS PERSON-28 ===
+
+--- AUSSAGEN (12 Stueck) ---
+
+[A001] (2022-06-15, muendlich)
+  "AI has recently crossed a utility threshold, where cutting-edge models such as [PRODUKT], [PRODUKT], and [PRODUKT] are actually useful and can perform tasks computers cannot do any other way."
+  Kontext: Blog-Post über den Durchbruch von KI-Modellen zur praktischen Nutzbarkeit
+
+[A002] (2023-03-15, muendlich)
+  "We spent a lot of time trying to understand what [PRODUKT] is capable of. Getting it out in the world is how we learn. We're constantly making updates, include a bunch of improvements, so that the model is much more scalable to whatever personality or sort of mode you want it to be in."
+  Kontext: TechCrunch-Interview über [PRODUKT] und iteratives Deployment
+
+[A003] (2023-03-15, muendlich)
+  "There's still a lot of problems and mistakes that [the model] makes … but you can really see the jump in skill in things like calculus or law, where it went from being really bad at certain domains to actually quite good relative to humans."
+  Kontext: TechCrunch-Interview über die Limitationen und Fortschritte von [PRODUKT]
+
+[A004] (2023-03-25, muendlich)
+  "There's really one thing that we care about, which is mission success … the mission is to ensure that artificial general intelligence benefits all of humanity."
+  Kontext: Interview bei Axios über [FIRMA]s Mission und Ziele
+
+[A005] (2023-05-04, muendlich)
+  "I very deeply believe this will be the most positively transformative technology that humanity has yet developed."
+  Kontext: Fortune-Interview über die transformative Kraft von KI
+
+[A006] (2024-05-18, schriftlich)
+  "No one knows for sure how hard it will be to make sure AGIs act according to the values of their operators. We need to keep elevating our safety work to match the stakes of each new model."
+  Kontext: X-Thread über [FIRMA]s Sicherheitsstrategie nach Kritik
+
+[A007] (2024-05-18, schriftlich)
+  "We have called for international governance of AGI before such calls were popular. We need a very tight feedback loop, rigorous testing, careful consideration at every step, world-class security, and harmony of safety and capabilities."
+  Kontext: X-Thread als Antwort auf Kritik an [FIRMA]s Sicherheitsansatz
+
+[A008] (2024-08-05, schriftlich)
+  "I'm taking a sabbatical through end of year. First time to relax since co-founding [FIRMA] 9 years ago. The mission is far from complete; we still have a safe AGI to build."
+  Kontext: X-Post zur Ankündigung seines Sabbaticals von [FIRMA]
+
+[A009] (2025-01-13, schriftlich)
+  "A perspective that isn't yet getting enough attention: a way in which AI progress will soon deeply benefit the world is through the discovery and production of new technology. We measure human progress by technological revolutions; hard to internalize what it'd mean to have a computer which can do much of the work for breakthroughs."
+  Kontext: X-Post über den Nutzen von KI für technologische Durchbrüche
+
+[A010] (2026-01-09, muendlich)
+  "The fundamental bet is that AGI is possible, and if we are right about that, then it will really change everything."
+  Kontext: CES 2026 Keynote bei [FIRMA] über die Zukunft von AGI
+
+[A011] (2026-01-09, muendlich)
+  "At the end of the day, what this technology is for is to benefit people."
+  Kontext: CES 2026 Keynote über den Zweck von KI-Technologie
+
+[A012] (2026-01-09, muendlich)
+  "The world is going to require far more compute than we have right now."
+  Kontext: CES 2026 Keynote bei [FIRMA] über zukünftige Compute-Anforderungen
+
+
+--- HANDLUNGEN (11 Stueck) ---
+
+[H001] (2015-05-01) [ruecktritt]
+  Rücktritt als CTO von Stripe, um sich [FIRMA] zu widmen
+
+[H002] (2015-12-11) [gruendung]
+  Mitgründung von [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON] und anderen
+
+[H003] (2018-06-26) [politisch]
+  Aussage vor dem US-Kongress zur KI-Regulierung und -Sicherheit
+
+[H004] (2019-03-11) [umstrukturierung]
+  Ankündigung der neuen Rechtsstruktur [FIRMA] LP zur besseren Verfolgung der AGI-Mission
+
+[H005] (2023-03-14) [produktlaunch]
+  Öffentliche Präsentation von [PRODUKT] in einem Live-Video-Demo
+
+[H006] (2023-04-17) [produktlaunch]
+  Live-Demo von unreleased [PRODUKT]-Plugins bei TED2023
+
+[H007] (2023-11-17) [ruecktritt]
+  Rücktritt als President von [FIRMA] nach [PERSON]s Entlassung durch das Board
+
+[H008] (2023-11-21) [einstellung]
+  Rückkehr zu [FIRMA] als President nach der Neubildung des Boards und [PERSON]s Rückkehr
+
+[H009] (2024-08-05) [sonstiges]
+  Beginn eines dreimonatigen Sabbaticals von [FIRMA] - erstes Mal Entspannung nach 9 Jahren
+
+[H010] (2024-11-12) [einstellung]
+  Rückkehr zu [FIRMA] nach dreimonatigem Sabbatical
+
+[H011] (2026-01-09) [partnerschaft]
+  Öffentliches Auftreten bei [FIRMA] CEO [PERSON]s Keynote auf der CES 2026

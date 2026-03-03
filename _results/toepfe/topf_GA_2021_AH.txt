@@ -1,0 +1,398 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2021_AH
+Beschreibung: Jahrestopf 2021, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 38 Aussagen + 75 Handlungen = 113 gesamt
+Zeitraum Aussagen: 2021-01-01 bis 2021-12-22
+Zeitraum Handlungen: 2021-01-01 bis 2021-12-22
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (38 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2021-01-01, schriftlich)
+  "The move to [FIRMA] was driven by a shared conviction that AI safety research needed to be prioritized at the foundational level of AI development, and the company was founded with a clear mission to build reliable, interpretable, and steerable AI systems."
+  Kontext: Begründung für die Gründung von [FIRMA] und deren Mission
+
+[A002] (2021-01-01, muendlich)
+  "The goal was to create an ecosystem for startups and Global 2000s focusing on responsible development of AI through the Marketplace for Ethical and Responsible AI Tools."
+  Kontext: Describing nonprofit MERAT initiative before founding [FIRMA]
+
+[A003] (2021-01-01, schriftlich)
+  "I want to help pave the way for a future in which humans and robots do things like share the roads. By developing new ways for computers to anticipate people's actions, we can enable safer and more efficient interaction."
+  Kontext: [UNI] Technology Review Innovators Under 35 recognition
+
+[A004] (2021-01-01, schriftlich)
+  "Our work uses algorithmic human-robot interaction to be mindful of the effects of autonomous systems on humans, and further leverages these effects for better safety, efficiency, coordination, and estimation."
+  Kontext: ILIAD lab research philosophy on interactive autonomy
+
+[A005] (2021-01-15, muendlich)
+  "Someone who grew up in Jerusalem was able to build a search engine acquired by [FIRMA]."
+  Kontext: Using himself as example for finding talent in overlooked populations
+
+[A006] (2021-01-27, schriftlich)
+  "I accepted feedback that, as a co-founder at [FIRMA], I drove people too hard and at times my management style was not constructive."
+  Kontext: Oeffentliches Statement nach Untersuchung durch Anwaltskanzlei wegen Beschwerden ueber Fuehrungsstil.
+
+[A007] (2021-01-28, muendlich)
+  "Privacy is one of the top issues of the century."
+  Kontext: [PERSON] betont in einem Interview die zentrale Bedeutung von Datenschutz im 21. Jahrhundert.
+
+[A008] (2021-01-28, schriftlich)
+  "We wanted to put safety first."
+  Kontext: [PERSON] und sechs weitere [FIRMA]-Fuehrungskraefte verliessen 2020-2021 wegen Safety-Bedenken
+
+[A009] (2021-02-18, schriftlich)
+  "WallStreetBets may look sophomoric or chaotic from the outside, but the fact that we are here today means they've managed to raise important issues about fairness and opportunity in our financial system."
+  Kontext: Testimony before House Financial Services Committee
+
+[A010] (2021-02-18, schriftlich)
+  "WallStreetBets is first and foremost a real community. The self-deprecating jokes, the memes, the crass-at-times language, all reflect this."
+  Kontext: Defending WallStreetBets during GameStop congressional hearing
+
+[A011] (2021-03-01, schriftlich)
+  "People are getting confused about the meaning of AI in discussions of technology trends – that there is some kind of intelligent thought in computers that is responsible for the progress and which is competing with humans."
+  Kontext: IEEE Spectrum article explaining misconceptions about AI
+
+[A012] (2021-03-01, schriftlich)
+  "AI systems are showing human-level competence in low-level pattern recognition skills, but at the cognitive level they are merely imitating human intelligence, not engaging deeply and creatively."
+  Kontext: Distinguishing between pattern recognition and cognitive intelligence
+
+[A013] (2021-03-16, schriftlich)
+  "In the next five years, computer programs that can think will read legal documents and give medical advice. In the next decade, they will do assembly-line work and maybe even become companions."
+  Kontext: Blog-Post 'Moore's Law for Everything', in dem [PERSON] eine umfassende Vision fuer KI-getriebene Wirtschaftsumwaelzung und neue Steuerpolitik skizziert.
+
+[A014] (2021-03-16, schriftlich)
+  "We should therefore focus on taxing capital rather than labor, and we should use these taxes as an opportunity to directly distribute ownership and wealth to citizens."
+  Kontext: Zentraler Policy-Vorschlag im Blog-Post. [PERSON] schlaegt vor, AI-generierte Wertschoepfung ueber Kapitalbesteuerung umzuverteilen.
+
+[A015] (2021-04-21, schriftlich)
+  "Large but sparsely activated neural networks can consume less than 1/10th the energy of large, dense networks without sacrificing accuracy."
+  Kontext: Co-Autor Paper "Carbon Emissions and Large Neural Network Training" über Energieeffizienz
+
+[A016] (2021-04-22, muendlich)
+  "We don't want to be one of those single-planet species; we want to be a multi-planet species."
+  Kontext: Interview ueber [FIRMA]-Plaene. [PERSON] verknuepft Mars-Mission mit langfristigem Ueberleben der Menschheit.
+
+[A017] (2021-05-06, muendlich)
+  "The model and the code for many applications are basically a solved problem. So I think the most important work is actually shifting from model-centric to data-centric AI."
+  Kontext: Interview mit IEEE Spectrum. Ng startet seine Kampagne fuer data-centric AI development.
+
+[A018] (2021-05-06, muendlich)
+  "The big companies have the big data. If we want AI to be democratized, we need to figure out how to build systems that learn from less data."
+  Kontext: IEEE Spectrum Interview zur data-centric AI. Ng will KI fuer kleinere Firmen zugaenglich machen.
+
+[A019] (2021-05-10, schriftlich)
+  "Leaders are trained. Leadership is about hard work, continuous learning, and training."
+  Kontext: Leadership-Philosophie Interview - Su über erlernbare Führungsqualitäten
+
+[A020] (2021-05-31, schriftlich)
+  "Dario and I shared a conviction that AI development required a fundamentally different approach—one that placed constitutional safety principles at the foundation rather than bolting them on afterward."
+  Kontext: Rückblick auf die Gründung von [FIRMA] und die Unterschiede zum [FIRMA]-Ansatz
+
+[A021] (2021-06, muendlich)
+  "We need regulation of AI, but we need smart regulation – regulation that protects people without stifling innovation, that sets guardrails without building walls."
+  Kontext: Policy-Forum ueber KI-Regulierung und die Balance zwischen Sicherheit und Innovation.
+
+[A022] (2021-06-01, schriftlich)
+  "Excited to be here building AI to be a human ally."
+  Kontext: [PERSON]s [PLATTFORM]-Bio, beschreibt seine Motivation fuer [FIRMA]
+
+[A023] (2021-06-01, schriftlich)
+  "I spent most of high school thinking about policy debate. I was coached by Aaron Langerman, Ani Prabhu, and Tyler Vergho."
+  Kontext: Background on debate career at Bellarmine College Preparatory
+
+[A024] (2021-06-23, muendlich)
+  "Everything inspired by the corporate philosophy: Information Revolution — Happiness for everyone."
+  Kontext: Erklärung der Unternehmensphilosophie trotz häufiger Geschäftsmodell-Wechsel
+
+[A025] (2021-06-23, muendlich)
+  "I want to be the 21st century Rothschild."
+  Kontext: CNBC Bericht über [FIRMA] AGM, verglich seine Investmentrolle mit historischen Finanziers
+
+[A026] (2021-06-29, muendlich)
+  "With [PRODUKT], we're taking a first step toward a future where developers are able to spend less time on boilerplate and more time on what matters."
+  Kontext: Launch von [PRODUKT], dem ersten grossen KI-Coding-Assistenten nach der [FIRMA]-Uebernahme von GitHub.
+
+[A027] (2021-06-29, schriftlich)
+  "We spent the last year working closely with [FIRMA] to build [PRODUKT]. We've been using it internally for months, and can't wait for you to try it out; it's like a piece of the future teleported back to 2021."
+  Kontext: Announcement of [PRODUKT] launch
+
+[A028] (2021-08-04, muendlich)
+  "I think one of the disturbing things about COVID was just the crazy lack of debate, where people would say, 'You can't even ask these questions.' And that's always when I think you should be very suspicious."
+  Kontext: Langes Interview bei Joe Rogan. [PERSON] spricht ueber COVID, Tech, Politik und Meinungsfreiheit.
+
+[A029] (2021-09-26, schriftlich)
+  "Web3 is the internet owned by the builders and users, orchestrated with tokens."
+  Kontext: Blog-Post über die Vision von Web3 und dezentraler Internet-Governance
+
+[A030] (2021-09-26, schriftlich)
+  "I believe blockchains and the software movement around them — typically called crypto or web3 — provide the only plausible path to sustaining the original vision of the internet as an open platform that incentivizes creativity and entrepreneurship."
+  Kontext: Erklärung warum Blockchain-Technologie notwendig ist für ein offenes Internet
+
+[A031] (2021-10-28, muendlich)
+  "The next platform will be even more immersive — an embodied internet where you're in the experience, not just looking at it. We call this the metaverse."
+  Kontext: Connect-Konferenz 2021, bei der [FIRMA] zu [FIRMA] umbenannt wird und [PERSON] seine [FIRMA]verse-Vision vorstellt.
+
+[A032] (2021-10-28, muendlich)
+  "The defining quality of the metaverse will be a feeling of presence -- like you are right there with another person or in another place."
+  Kontext: Teil der Connect-2021-Keynote zur [FIRMA]verse-Vision.
+
+[A033] (2021-11-01, muendlich)
+  "As a PoS chain, NEAR is that much more energy efficient. The NEAR chain's energy consumption as a whole contributed to less than 1% of the entire NEAR collective's carbon footprint."
+  Kontext: CogX Open Web Forum discussion on NEAR's climate neutrality
+
+[A034] (2021-11-03, schriftlich)
+  "With all that we've accomplished in mind, and more than five great years at [FIRMA] under my belt, I've decided it's time for me to go back to my startup roots."
+  Kontext: Statement on stepping down from GitHub CEO role
+
+[A035] (2021-11-17, schriftlich)
+  "GFlowNets provide a new way to sample from complex distributions over compositional objects, with applications in drug discovery, materials design, and causal inference."
+  Kontext: Wissenschaftliche Arbeit, die eine neue generative Modellklasse einfuehrt. [PERSON] arbeitet seit 2021 intensiv an GFlowNets.
+
+[A036] (2021-12-01, muendlich)
+  "Is AI the biggest event in human history?"
+  Kontext: Central question posed in BBC Reith Lectures series on AI
+
+[A037] (2021-12-01, muendlich)
+  "The role of conventions is critical in human-AI collaboration. Conventions are norms or equilibria built through repeated interactions, and they enable more efficient coordination between humans and AI systems."
+  Kontext: NeurIPS 2021 keynote on conventions in human-AI interaction
+
+[A038] (2021-12-22, schriftlich)
+  "Missing the Distill Circuits Thread? My colleagues and I at @[FIRMA]AI are starting a similar project focused on transformer language models."
+  Kontext: Ankuendigung des Transformer Circuits Thread bei [FIRMA]
+
+------------------------------------------------------------------------
+HANDLUNGEN (75 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2021-01-01) [ruecktritt]
+  Verlassen von [FIRMA] als Research Scientist nach [PRODUKT] Projekt
+
+[H002] (2021-01-01) [gruendung]
+  Mitgründung von [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], [PERSON], [PERSON] und Christopher [PERSON] mit Fokus auf KI-Sicherheit
+
+[H003] (2021-01-01) [sonstiges]
+  IEEE John von Neumann Medal - Höchste Auszeichnung für Beiträge zur Computer-related Science and Technology
+
+[H004] (2021-01-01) [partnerschaft]
+  Became Investing Partner at AIX Ventures, an AI-focused venture capital firm founded by leading AI practitioners including Richard Socher and Anthony Goldbloom
+
+[H005] (2021-01-01) [sonstiges]
+  Awarded 2021 American Mathematical Society (AMS) Ulf Grenander Prize in Stochastic Theory and Modeling.
+
+[H006] (2021-01-01) [sonstiges]
+  Awarded Vannevar Bush Faculty Fellowship for 2021-2026.
+
+[H007] (2021-01-01) [einstellung]
+  Joined AIX Ventures as Investment Partner, a venture capital fund investing in AI startups
+
+[H008] (2021-01-01) [gruendung]
+  Founded Seros, a project aimed at improving global access to cloud computing
+
+[H009] (2021-01-01) [einstellung]
+  Joined [FIRMA] as alignment researcher, later became Head of Alignment
+
+[H010] (2021-01-01) [einstellung]
+  Joined Mozilla Foundation Board of Directors as executive board member to guide trustworthy AI charter and support Mozilla AI initiatives
+
+[H011] (2021-01-01) [sonstiges]
+  Received Okawa Foundation Research Grant for Adaptive Human-Robot Interaction research
+
+[H012] (2021-01-01) [sonstiges]
+  Named to [UNI] Technology Review 35 Innovators Under 35 list
+
+[H013] (2021-01-01) [gruendung]
+  Co-founded Sol (Sindarin Inc.) with Ben Chelf, developing next-generation wearable e-reader device incubated by [FIRMA]
+
+[H014] (2021-01-05) [produktlaunch]
+  [PERSON] leitet die Entwicklung von [PRODUKT] 1, einem KI-Bildgenerator, der Bilder aus Textbeschreibungen erstellt.
+
+[H015] (2021-01-05) [produktlaunch]
+  Leitete Team, das [PRODUKT] entwickelte - [FIRMA]s bahnbrechendes Text-zu-Bild-Modell. Adaptierte Transformer-Architektur von Sprache auf Bilder.
+
+[H016] (2021-01-15) [einstellung]
+  [PERSON] wird zum Research Director bei [FIRMA] befördert. Er uebernimmt die Leitung wichtiger Forschungsprojekte.
+
+[H017] (2021-01-15) [gruendung]
+  Mitgründung von [FIRMA] zusammen mit [PERSON] und 5 weiteren ehemaligen [FIRMA]-Mitarbeitern. Verlassen von [FIRMA] wegen unterschiedlicher Auffassungen über Richtung und Sicherheitsprioritäten.
+
+[H018] (2021-01-15) [gruendung]
+  Co-founded MosaicML with Hanlin Tang, focused on democratizing generative AI model training
+
+[H019] (2021-01-27) [sonstiges]
+  [FIRMA] gibt bekannt, dass eine Anwaltskanzlei [PERSON]s Fuehrungsstil untersucht hat nach Beschwerden von Mitarbeitern. [PERSON] akzeptiert Feedback und unterzieht sich professioneller Weiterbildung.
+
+[H020] (2021-01-28) [gruendung]
+  [PERSON] gruendet zusammen mit seiner Schwester [PERSON] und weiteren Ex-[FIRMA]-Forschern (u.a. [PERSON], [PERSON], [PERSON], [PERSON], [PERSON]) das KI-Sicherheitsunternehmen [FIRMA] als Public Benefit Corporation.
+
+[H021] (2021-01-28) [gruendung]
+  [PERSON] verlaesst [FIRMA] als Research Lead und gruendet zusammen mit Dario und [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON] das KI-Sicherheitsunternehmen [FIRMA]. [PERSON] wird Co-Founder und Chief Architect.
+
+[H022] (2021-01-28) [gruendung]
+  [PERSON] wird Mitgruender von [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON]. [PERSON] uebernimmt die Rolle des Interpretability Research Lead. Die Gruendung erfolgt durch sieben Ex-[FIRMA]-Mitarbeiter.
+
+[H023] (2021-01-28) [gruendung]
+  [PERSON] verlaesst [FIRMA] und gruendet zusammen mit [PERSON], [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON] das KI-Sicherheitsunternehmen [FIRMA]. [PERSON] wird Chief Science Officer.
+
+[H024] (2021-01-28) [gruendung]
+  [PERSON] verlaesst [FIRMA] und gruendet zusammen mit Dario und [PERSON], [PERSON], [PERSON], [PERSON] und [PERSON] das KI-Sicherheitsunternehmen [FIRMA]. Clark wird Co-Founder und Head of Policy.
+
+[H025] (2021-02-01) [investition]
+  Secured $1 billion investment from United Airlines for Archer Aviation urban air mobility services
+
+[H026] (2021-02-02) [sonstiges]
+  Veroeffentlichung von 'Scaling Laws for Transfer' (arXiv:2102.01293) als Co-Autor. Das Paper erweitert die urspruenglichen Scaling Laws auf Transfer Learning und Fine-Tuning.
+
+[H027] (2021-02-03) [einstellung]
+  Beitritt zu [FIRMA] ([FIRMA]) als General Partner mit Fokus auf Consumer und Web3/Crypto-Investitionen. Leitete später das erste internationale [FIRMA]-Büro in London.
+
+[H028] (2021-02-18) [sonstiges]
+  Testified before House Financial Services Committee defending WallStreetBets during GameStop meme stock surge
+
+[H029] (2021-03-01) [produktlaunch]
+  Launched 'The Robot Brains Podcast' featuring conversations with top AI and robotics experts and entrepreneurs
+
+[H030] (2021-03-01) [einstellung]
+  Joined [FIRMA] as Managing Director and Head of Strategy after leaving Pentagon
+
+[H031] (2021-03-15) [investition]
+  Raised $400 million Series C for [FIRMA]
+
+[H032] (2021-03-31) [sonstiges] ($4,300,000,000)
+  [FIRMA] geht an die Boerse (NYSE: COUR) mit einer Bewertung von $4,3 Milliarden. [PERSON] ist zu diesem Zeitpunkt nicht mehr operativ taetig, bleibt aber Chairman des Board.
+
+[H033] (2021-04-01) [gruendung]
+  Gründung von Adept AI zusammen mit [PERSON] und ehemaligen [FIRMA] Brain/[FIRMA]-Kollegen zur Entwicklung von KI-Agenten für Software-Automatisierung
+
+[H034] (2021-04-01) [ruecktritt]
+  Stepped down from co-CEO role at Archer Aviation, leaving Adam Goldstein as sole CEO
+
+[H035] (2021-04-26) [produktlaunch]
+  Einführung von App Tracking Transparency in iOS 14.5 - nutzerbasierte Kontrolle über App-Tracking
+
+[H036] (2021-05-01) [sonstiges]
+  Named Foreign Member of the Royal Society.
+
+[H037] (2021-05-01) [sonstiges]
+  First team in history to win all three national policy debate tournaments: Tournament of Champions (TOC), National Debate Coaches Association Tournament (NDCA), and National Speech and Debate Association Tournament (NSDA). Individually ranked as best speaker at both TOC and NDCA.
+
+[H038] (2021-05-01) [produktlaunch]
+  Led development and launch of Project Starline, [FIRMA]'s holographic videoconferencing technology
+
+[H039] (2021-05-06) [sonstiges]
+  [PERSON] startet die 'Data-Centric AI'-Bewegung, die den Fokus von Modellverbesserungen auf Datenqualitaet verlagert. Er organisiert den ersten Data-Centric AI Workshop und Competition.
+
+[H040] (2021-05-31) [investition] ($124,000,000)
+  [FIRMA] schliesst Series-A-Finanzierungsrunde ueber $124 Mio. ab, mit fruehen Investoren wie Jaan Tallinn (Skype/Kazaa) und anderen.
+
+[H041] (2021-05-31) [investition] ($124,000,000)
+  [FIRMA] Series A Finanzierungsrunde unter Führung von Jaan Tallinn zur Unterstützung der KI-Sicherheitsforschung. [PERSON] als Co-Founder und President.
+
+[H042] (2021-06) [einstellung]
+  Joined [FIRMA] as Member of Technical Staff/Researcher
+
+[H043] (2021-06-01) [investition] ($450,000,000)
+  [FIRMA] sicherte sich 450 Millionen Dollar Series D Finanzierung bei einer Bewertung von 4,7 Milliarden Dollar. [PERSON] als Gründer und CEO führte diese Finanzierungsrunde an.
+
+[H044] (2021-06-01) [investition]
+  Led Series B funding round for Common Room and joined board with [FIRMA]
+
+[H045] (2021-06-01) [einstellung]
+  Joined [FIRMA] as senior R&D engineer, participated in core technologies behind [PRODUKT] including [PRODUKT]
+
+[H046] (2021-06-10) [politisch]
+  [PERSON] wird von der US-Regierung in die National AI Research Resource Task Force berufen, die Empfehlungen fuer eine nationale KI-Forschungsinfrastruktur entwickelt.
+
+[H047] (2021-06-15) [sonstiges]
+  Graduated as salutatorian from Bellarmine College Preparatory. Enrolled at Georgetown University's School of Foreign Service to study international relations and economics.
+
+[H048] (2021-06-29) [produktlaunch]
+  [FIRMA] launcht [PRODUKT], den ersten grossen KI-Programmier-Assistenten, basierend auf [FIRMA] [PRODUKT]. Der Service nutzt [PRODUKT]-Technologie.
+
+[H049] (2021-06-29) [produktlaunch]
+  Launched [PRODUKT], AI pair programming tool built with [FIRMA], as GitHub CEO
+
+[H050] (2021-06-29) [produktlaunch]
+  [PRODUKT] launched as AI pair programming tool, co-developed under Scott's leadership
+
+[H051] (2021-07-01) [ruecktritt]
+  Left [FIRMA] Brain after 13 years, becoming part of the "brain drain" of AI talent leaving big tech firms.
+
+[H052] (2021-07-01) [gruendung]
+  Co-founded Inceptive with [UNI] biochemist Rhiju Das to use deep learning and high-throughput experiments to design RNA-based medicines.
+
+[H053] (2021-07-05) [ruecktritt]
+  [PERSON] tritt nach 27 Jahren als CEO von [FIRMA] zurueck. [PERSON] ([FIRMA]-Chef) wird neuer CEO. [PERSON] wird Executive Chairman und konzentriert sich auf [FIRMA], Day 1 Fund und Earth Fund.
+
+[H054] (2021-07-05) [einstellung]
+  [PERSON] übernahm als CEO von [FIRMA], Nachfolger von [PERSON]
+
+[H055] (2021-07-20) [sonstiges]
+  [PERSON] fliegt selbst mit [FIRMA]s New Shepard-Rakete ins All -- 9 Tage nach Richard Branson (Virgin Galactic). Der suborbitale Flug dauert 10 Minuten.
+
+[H056] (2021-07-27) [investition]
+  Covariant raised $80 million Series C funding led by Index Ventures with participation from Temasek and CPP Investments
+
+[H057] (2021-08-10) [produktlaunch]
+  Leitete Entwicklung von [PRODUKT] - Code-Generierungsmodell basierend auf [PRODUKT], das [PRODUKT] antreibt. Adaptierte [PRODUKT]-Architektur für Code-Generation.
+
+[H058] (2021-09-01) [produktlaunch]
+  Took Archer Aviation public on NYSE with $2.7 billion valuation and $860 million cash proceeds
+
+[H059] (2021-10-01) [ruecktritt]
+  Verlassen von [FIRMA] nach 20 Jahren aufgrund von Frustration über nicht veröffentlichten Meena-Chatbot
+
+[H060] (2021-10-01) [umstrukturierung]
+  [PERSON] fuehrte das Rebranding von Atlantic Crypto zu [FIRMA] durch, um die neue Mission als Anbieter von Kern-Rechenleistung und vernetzten Netzwerkressourcen fuer AI-Workloads zu reflektieren. Dies signalisierte den definitiven Bruch mit der Krypto-Mining-Vergangenheit.
+
+[H061] (2021-10-08) [spende] ($15,000,000)
+  Satya und Anu [PERSON] spenden $15 Millionen an die Seattle Children's Hospital fuer Forschung zu neurologischen Entwicklungsstoerungen bei Kindern, inspiriert durch ihren Sohn Zain mit zerebraler Kinderlahmung.
+
+[H062] (2021-10-28) [umstrukturierung]
+  [FIRMA] Inc. benennt sich in [FIRMA] Inc. um, um die strategische Neuausrichtung auf das [FIRMA]verse zu signalisieren. [FIRMA], [FIRMA] und [FIRMA] bleiben Produktnamen.
+
+[H063] (2021-11-01) [ruecktritt]
+  Left [FIRMA] Brain after 6+ years at [FIRMA] (including [FIRMA] Research and [FIRMA] Brain)
+
+[H064] (2021-11-01) [investition]
+  Led Series A funding round of $21 million led by Insight Partners
+
+[H065] (2021-11-03) [ruecktritt]
+  Stepped down as CEO of GitHub to return to startup/entrepreneurial roots
+
+[H066] (2021-11-04) [gruendung]
+  [PERSON] gruendet Isomorphic Labs, ein [FIRMA]-Tochterunternehmen, das KI fuer Medikamentenentwicklung nutzt. [PERSON] ist CEO sowohl von [FIRMA] als auch Isomorphic.
+
+[H067] (2021-11-09) [produktlaunch]
+  Landing AI launcht LandingLens, eine Cloud-basierte Computer-Vision-Plattform, die es Unternehmen ermoeglicht, visuelle Inspektionssysteme mit minimalen Daten zu trainieren. Die Plattform implementiert data-centric AI-Prinzipien.
+
+[H068] (2021-11-11) [umstrukturierung]
+  Led creation of new [FIRMA] Labs division consolidating AR/VR, Project Starline, and Area 120 incubator
+
+[H069] (2021-12-01) [gruendung]
+  Co-Gründung von Character.AI zusammen mit Daniel De Freitas nach Verlassen von [FIRMA]
+
+[H070] (2021-12-01) [ruecktritt]
+  Verlassen von [FIRMA] Brain nach über 5 Jahren als Research Scientist
+
+[H071] (2021-12-01) [sonstiges]
+  Delivered BBC Reith Lectures 2021 series "Living With Artificial Intelligence" - four lectures examining AI birth, autonomous weapons dangers, threat to jobs, and need to abandon current AI model. Lectures broadcast on BBC Radio 4, BBC World Service and BBC Sounds.
+
+[H072] (2021-12-01) [ruecktritt]
+  Stepped down as CEO of Cadence Design Systems after 12 years, transitioning to Executive Chairman role
+
+[H073] (2021-12-01) [gruendung]
+  Co-founded SID Venture Partners, a Ukrainian VC fund with $15M fund size, focused on Web3/Blockchain, AI, and enterprise applications. Became General Partner with investment range $100K-$5M.
+
+[H074] (2021-12-22) [sonstiges]
+  Launch des Transformer Circuits Thread bei [FIRMA] als Nachfolger des Distill Circuits Thread. Das Projekt fokussiert sich auf mechanische Interpretierbarkeit von Transformer-Sprachmodellen.
+
+[H075] (2021-12-22) [sonstiges]
+  Veroeffentlichung von 'A Mathematical Framework for Transformer Circuits' mit Nelson Elhage, Neel Nanda, Catherine Olsson und anderen. [PERSON] ist Correspondence Author. Das Paper legt mathematische Grundlagen fuer das Reverse-Engineering von Transformern.

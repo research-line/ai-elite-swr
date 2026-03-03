@@ -1,0 +1,159 @@
+=== DATENKORPUS PERSON-23 ===
+
+--- AUSSAGEN (24 Stueck) ---
+
+[A001] (2021-01-27, schriftlich)
+  "I accepted feedback that, as a co-founder at [FIRMA], I drove people too hard and at times my management style was not constructive."
+  Kontext: Oeffentliches Statement nach Untersuchung durch Anwaltskanzlei wegen Beschwerden ueber Fuehrungsstil.
+
+[A002] (2023, schriftlich)
+  "A first step that all aspiring AI regulators and developers can take is to limit 'recursive self improvement' or AI's ability to improve itself, as limiting this capability would be a critical first step to ensure that none of its future developments were made entirely without human oversight."
+  Kontext: Konkreter Policy-Vorschlag aus dem Buch 'The Coming Wave' zur KI-Kontrolle.
+
+[A003] (2023, muendlich)
+  "The strap line for the business plan was building artificial general intelligence safely and ethically."
+  Kontext: Interview ueber die Gruendungsgeschichte von [FIRMA] 2010.
+
+[A004] (2023-07-14, schriftlich)
+  "To pass the Modern Turing Test, an AI would have to successfully act on this instruction: 'Go make $1 million on a retail web platform in a few months with just a $100,000 investment.'"
+  Kontext: [PERSON]s Vorschlag fuer einen pragmatischen Turing-Test, der misst, was KI tun kann, nicht nur was sie sagen kann.
+
+[A005] (2023-09, muendlich)
+  "Containment is a belief that completely unregulated power that proliferates at zero marginal cost is a fundamental risk to peace and stability."
+  Kontext: Interview mit Trevor Noah ueber Containment als zentrales Konzept fuer KI-Governance.
+
+[A006] (2023-09-05, schriftlich)
+  "I believe this coming wave of technology is bringing human history to a turning point. If containing it is impossible, the consequences for our species are dramatic, potentially dire. Equally, without its fruits we are exposed and precarious."
+  Kontext: Kernaussage aus [PERSON]s Buch 'The Coming Wave', veroeffentlicht 2023. Beschreibt die existenzielle Herausforderung der Technologieentwicklung.
+
+[A007] (2023-09-05, schriftlich)
+  "The coming wave is defined by two core technologies: artificial intelligence (AI) and synthetic biology."
+  Kontext: Definition der Hauptthemen des Buches. [PERSON] fokussiert auf KI und Synthetische Biologie als transformative Technologien.
+
+[A008] (2023-09-05, schriftlich)
+  "This book is about confronting failure. If technology damages human lives, or produces societies filled with harm, or renders them ungovernable because we empower a chaotic long tail of bad (or unintentionally dangerous) actors—if, in the aggregate, technology is damaging—then it can be said to have failed in another, deeper sense, failing to live up to its promise."
+  Kontext: [PERSON]s Perspektive auf Technologie-Governance und das Versagen von Technologie als gesellschaftliches Phaenomen.
+
+[A009] (2023-09-05, schriftlich)
+  "This will be the greatest, most rapid acceleration in wealth and prosperity in human history…Over the next 10 years, AI will be the greatest force amplifier in history. That's why it could enable a redistribution of power on a historical scale."
+  Kontext: [PERSON]s Prognose zur oekonomischen und politischen Transformation durch KI in den naechsten 10 Jahren.
+
+[A010] (2023-09-05, schriftlich)
+  "A single person today likely has the capacity to kill a billion people."
+  Kontext: Extreme Warnung vor der Demokratisierung gefaehrlicher Technologien im Kontext synthetischer Biologie.
+
+[A011] (2023-09-05, schriftlich)
+  "Containment is not, on the face of it, possible. And yet for all our sakes, containment must be possible."
+  Kontext: Zentrales Dilemma des Buches: Die Notwendigkeit, das scheinbar Unmoegliche zu erreichen.
+
+[A012] (2023-09-05, schriftlich)
+  "Democratic governments must get way more involved, back to building real technology, setting standards, and nurturing in-house capability."
+  Kontext: Forderung aus 'The Coming Wave' nach aktiverer Rolle demokratischer Regierungen in der Technologie-Entwicklung.
+
+[A013] (2023-09-06, muendlich)
+  "Powerful AI systems should be licensed by government to ensure the survival of humanity."
+  Kontext: Interview zu [PERSON]s Containment-Strategie und konkreten Policy-Vorschlaegen.
+
+[A014] (2023-09-19, muendlich)
+  "AI existential risk is a completely bonkers distraction. The real problem is regulation."
+  Kontext: Kontroverse Aussage, in der [PERSON] die Fokussierung auf existenzielle Risiken kritisiert und konkrete Regulierung fordert.
+
+[A015] (2023-10-11, muendlich)
+  "I have been very sort of encouraging of additional regulation for a long time. I believe that going slowly and adding friction to the system will be long-term beneficial."
+  Kontext: NPR-Interview ueber [PERSON]s Position zur KI-Regulierung -- bemerkenswert als aktiver CEO eines KI-Unternehmens.
+
+[A016] (2024, muendlich)
+  "The uncertainty around this is so high that any categorical declarations just feel sort of ungrounded to me and over the top."
+  Kontext: [PERSON] mahnt zur Vorsicht bei AGI-Prognosen und betont wissenschaftliche Unsicherheit.
+
+[A017] (2024, muendlich)
+  "AI is a new digital species."
+  Kontext: TED Talk, in dem [PERSON] eine neue [FIRMA]pher fuer KI vorschlaegt, um Aufmerksamkeit auf diesen aussergewoehnlichen Moment zu lenken.
+
+[A018] (2024-12, muendlich)
+  "I don't want to say I think it's a high probability that it's two years away, but I think within the next five to seven years, since each generation takes 18 to 24 months now."
+  Kontext: Interview Ende 2024, in dem [PERSON] [PERSON]s 2-Jahres-Prognose kommentiert und seine eigene Timeline darstellt.
+
+[A019] (2025, muendlich)
+  "AI is already superhuman."
+  Kontext: Bloomberg Weekend Interview 2025. [PERSON] argumentiert, dass KI in bestimmten Bereichen bereits uebermenschliche Faehigkeiten zeigt.
+
+[A020] (2025, muendlich)
+  "[FIRMA] needs to be self-sufficient in AI, and to do that, it has to train frontier models of all scales with its own data and compute at the state-of-the-art level."
+  Kontext: [PERSON]s Strategie fuer [FIRMA]s KI-Unabhaengigkeit nach seiner Ernennung zum AI CEO.
+
+[A021] (2025-05-16, muendlich)
+  "I'll capture the loyalty of Gen Z and millennial users if I build products with enough emotional intelligence that customers confide in them."
+  Kontext: [PERSON]s Produktstrategie fuer [FIRMA] [PRODUKT] mit Fokus auf emotionale Bindung junger Nutzer.
+
+[A022] (2025-08, schriftlich)
+  "Conscious AI is coming and society isn't ready. In the near future, models will be able to hold long conversations, remember past interactions, evoke emotional reactions from users, and potentially make convincing claims about having subjective experiences."
+  Kontext: Blog-Post im August 2025, in dem [PERSON] vor den Gefahren scheinbar bewusster KI warnt.
+
+[A023] (2025-11, muendlich)
+  "We won't continue to develop a system that has the potential to run away from us. Containment and alignment are necessary prerequisites and red lines."
+  Kontext: [PERSON]s Commitment zu KI-Sicherheit bei der Ankuendigung des Superintelligence-Teams.
+
+[A024] (2025-11-06, muendlich)
+  "One of a humanist superintelligence — one that is always in our corner, on our team, aligned to human interests."
+  Kontext: Ankuendigung von [FIRMA]s Superintelligence-Team unter [PERSON]s Leitung mit Fokus auf Humanismus.
+
+
+--- HANDLUNGEN (19 Stueck) ---
+
+[H001] (2001) [sonstiges]
+  [PERSON] bricht sein Studium der Philosophie und Theologie an der Universitaet [UNI] (Mansfield College) im Alter von 19 Jahren ab, um praktische Erfahrungen zu sammeln statt auf formale Qualifikation zu warten.
+
+[H002] (2001-08) [gruendung]
+  Mit 19 Jahren gruendet [PERSON] (noch als 'starker Atheist') gemeinsam mit Mohammed Mamdani die Muslim Youth Helpline, einen Telefon-Beratungsdienst fuer psychische Gesundheit. Die Organisation wird spaeter zu einem der groessten Mental-Health-Support-Services.
+
+[H003] (2002) [einstellung]
+  [PERSON] arbeitet als Policy Officer fuer Menschenrechte fuer Ken Livingstone, den Buergermeister von London.
+
+[H004] (2004) [gruendung]
+  [PERSON] gruendet Reos Partners, eine 'systemic change' Beratungsfirma, die Methoden aus Konfliktloesung nutzt, um soziale Probleme anzugehen.
+
+[H005] (2010) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] und Shane Legg [FIRMA] Technologies in London mit dem Ziel, 'AGI sicher und ethisch zu bauen'. Sie schreiben den Businessplan im Sommer 2010 und pitchen ihn im Silicon Valley.
+
+[H006] (2014-01) [verkauf] ($650,000,000)
+  [FIRMA] erwirbt [FIRMA] fuer ca. 400 Millionen Pfund (ca. $650 Mio.) -- die zu diesem Zeitpunkt groesste [FIRMA]-Akquisition in Europa. [PERSON] wird Head of Applied AI bei [FIRMA].
+
+[H007] (2016) [partnerschaft]
+  [FIRMA] Health kooperiert mit Royal Free NHS Trust zur Entwicklung der Streams-App. Die Partnerschaft wird spaeter vom ICO kritisiert: Royal Free hat Datenschutzgesetze nicht eingehalten, Patienten wurden nicht ausreichend informiert.
+
+[H008] (2016-02) [produktlaunch]
+  [PERSON] lanciert [FIRMA] Health bei der Royal Society of Medicine, eine Initiative zur Entwicklung von Kliniker-geleiteter Technologie fuer den NHS und andere Partner im Gesundheitswesen.
+
+[H009] (2019-08-21) [sonstiges]
+  [PERSON] wird bei [FIRMA] auf unbefristeten administrativen Urlaub gesetzt ('bis Ende des Jahres') nach Vorwuerfen von Mitarbeitern, er habe sie schikaniert. Er kuendigt oeffentlich an, eine 'Auszeit' zu nehmen.
+
+[H010] (2019-12) [einstellung]
+  [PERSON] verlaesst [FIRMA] offiziell und wird VP of AI Product Management and AI Policy bei [FIRMA], weniger als ein halbes Jahr nach seinem administrativen Urlaub.
+
+[H011] (2021-01-27) [sonstiges]
+  [FIRMA] gibt bekannt, dass eine Anwaltskanzlei [PERSON]s Fuehrungsstil untersucht hat nach Beschwerden von Mitarbeitern. [PERSON] akzeptiert Feedback und unterzieht sich professioneller Weiterbildung.
+
+[H012] (2022-01) [ruecktritt]
+  [PERSON] verlaesst [FIRMA] im Januar 2022 und wird Venture Partner bei [FIRMA] Partners, bevor er sein naechstes KI-Unternehmen gruendet.
+
+[H013] (2022-03) [gruendung] ($225,000,000)
+  [PERSON] gruendet [FIRMA] gemeinsam mit [PERSON] ([FIRMA]) und Karen Simonyan (ehem. [FIRMA]). Erste Finanzierungsrunde: $225 Millionen.
+
+[H014] (2023-03-12) [produktlaunch]
+  [FIRMA] veroeffentlicht die Beta-Version des Pi-Chatbots ('Personal Intelligence') mit dem Ziel, ein empathischer Gespraechspartner zu sein. Tausende Tester erhalten Zugang. [FIRMA] verlassen damit den Stealth-Modus.
+
+[H015] (2023-06) [investition] ($1,300,000,000)
+  [FIRMA] schliesst eine $1,3 Milliarden Finanzierungsrunde ab. Bewertung: $4 Milliarden. Eine der groessten KI-Finanzierungen 2023.
+
+[H016] (2023-09-05) [produktlaunch]
+  [PERSON] veroeffentlicht 'The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma' gemeinsam mit Michael Bhaskar. Das Buch wird zum internationalen Bestseller und definiert 'Containment' als zentrales KI-Governance-Konzept.
+
+[H017] (2024-03-19) [verkauf] ($650,000,000)
+  [FIRMA] stellt [PERSON], Karen Simonyan und fast das gesamte [FIRMA]-Team ein. [FIRMA] zahlt ca. $650 Millionen fuer eine nicht-exklusive Lizenz fuer [FIRMA]-Modelle und rechtlichen Schutz. [FIRMA] bleibt als Firma bestehen, schwenkt aber auf B2B um.
+
+[H018] (2024-03-19) [einstellung]
+  [FIRMA] ernennt [PERSON] zum Executive Vice President (EVP) und CEO der neu geschaffenen Consumer AI Unit '[FIRMA] AI'. Er leitet die Entwicklung von [PRODUKT] und anderen Consumer-AI-Produkten.
+
+[H019] (2025-11-06) [gruendung]
+  [PERSON] kuendigt die Gruendung des MAI Superintelligence Teams bei [FIRMA] an mit dem Mandat, 'Humanist Superintelligence (HSI)' zu entwickeln. Fokus auf Safety, Control und Dienst am Menschen.

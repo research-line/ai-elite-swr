@@ -1,0 +1,90 @@
+=== DATENKORPUS PERSON-50 ===
+
+--- AUSSAGEN (12 Stueck) ---
+
+[A001] (2010-01-03, schriftlich)
+  "The next big thing will start out looking like a toy."
+  Kontext: Einflussreicher Essay über disruptive Technologien basierend auf Clayton Christensens Theorie
+
+[A002] (2013-03-02, schriftlich)
+  "What the smartest people do on the weekend is what everyone else will do during the week in ten years."
+  Kontext: Blog-Post über Hobbys als Vorläufer zukünftiger Mainstream-Technologien
+
+[A003] (2021-09-26, schriftlich)
+  "Web3 is the internet owned by the builders and users, orchestrated with tokens."
+  Kontext: Blog-Post über die Vision von Web3 und dezentraler Internet-Governance
+
+[A004] (2021-09-26, schriftlich)
+  "I believe blockchains and the software movement around them — typically called crypto or web3 — provide the only plausible path to sustaining the original vision of the internet as an open platform that incentivizes creativity and entrepreneurship."
+  Kontext: Erklärung warum Blockchain-Technologie notwendig ist für ein offenes Internet
+
+[A005] (2022-03-01, schriftlich)
+  "Yuga Labs combined with other emerging Web3 companies are an important counterweight to companies like [FIRMA]."
+  Kontext: Kommentar nach der 450 Mio. $ Investition in Yuga Labs (Bored Ape Yacht Club)
+
+[A006] (2023-06-11, schriftlich)
+  "The UK has deep pools of talent, world-leading academic institutions, and a strong entrepreneurial culture. Following a productive dialogue with the Prime Minister, and months of constructive conversations with HM Treasury, UK policymakers, and the Financial Conduct Authority, we're thrilled to open our first international office in a jurisdiction that welcomes blockchain technology."
+  Kontext: Offizielle Stellungnahme zur Eröffnung des ersten internationalen [FIRMA]-Büros in London
+
+[A007] (2024-01-01, schriftlich)
+  "Hobbies are what the smartest people spend time on when they aren't constrained by near-term financial goals."
+  Kontext: Aus seinem Buch über Innovation und langfristiges Denken
+
+[A008] (2024-01-01, schriftlich)
+  "Giving away the tool makes financial sense only when the company doing the subsidizing—not the community—will own the ultimate prize: the network."
+  Kontext: Kritik an der Geschäftspraxis von Web2-Plattformen
+
+[A009] (2024-01-01, schriftlich)
+  "The internet's latest phase—read-write-own era—is defined by a new simplifying concept: tokens, which encapsulate ownership."
+  Kontext: Definition der Web3-Ära durch das Konzept der Tokens
+
+[A010] (2024-01-01, schriftlich)
+  "Blockchains represent a radical departure from the status quo. Through tokens, they flip the script on digital ownership—making users, rather than internet services, owners."
+  Kontext: Über die revolutionäre Natur von Blockchain für digitales Eigentum
+
+[A011] (2024-01-01, schriftlich)
+  "Turing tests no longer distinguish real people from bots, and people can no longer tell real from fake media. The right approach is a credibly neutral, community-owned network—a blockchain network—that makes authenticity a trusted internet primitive."
+  Kontext: Über die Rolle von Blockchain bei der Verifizierung von Authentizität im KI-Zeitalter
+
+[A012] (2024-01-25, schriftlich)
+  "Using blockchains and tokens purely for gambling — casino culture — distracts from the true potential of this computing movement."
+  Kontext: Warnung vor spekulativem Missbrauch von Blockchain-Technologie
+
+
+--- HANDLUNGEN (12 Stueck) ---
+
+[H001] (2005-01-01) [gruendung]
+  Mitgründung von SiteAdvisor, einem Web-Security-Startup
+
+[H002] (2006-01-01) [verkauf]
+  Verkauf von SiteAdvisor an McAfee für 74 Millionen US-Dollar
+
+[H003] (2009-01-01) [gruendung]
+  Gründung von Hunch mit Caterina Fake und Tom Pinckney - eine Empfehlungsplattform
+
+[H004] (2011-11-01) [verkauf]
+  Verkauf von Hunch an eBay für 80 Millionen US-Dollar
+
+[H005] (2012-11-19) [einstellung]
+  Beitritt zu [FIRMA] ([FIRMA]) als General Partner
+
+[H006] (2014-01-01) [investition]
+  Führte [FIRMA] Investitionen in Coinbase - insgesamt fast 50 Millionen US-Dollar in Bitcoin-bezogene Projekte bis 2014
+
+[H007] (2018-01-01) [gruendung]
+  Gründung und Leitung von [FIRMA] crypto - dedizierte Krypto-Sparte von [FIRMA]
+
+[H008] (2022-03-01) [investition]
+  Leitung der 450 Millionen US-Dollar Finanzierungsrunde für Yuga Labs (Bored Ape Yacht Club) mit 4 Milliarden US-Dollar Bewertung
+
+[H009] (2022-05-01) [investition]
+  Launch des vierten [FIRMA] Crypto Fund mit 4,5 Milliarden US-Dollar
+
+[H010] (2022-10-18) [produktlaunch]
+  Ankündigung eines neuen Accelerator-Programms 'Crypto Startup School' mit 500.000 US-Dollar Seed-Funding
+
+[H011] (2023-06-11) [partnerschaft]
+  Ankündigung der ersten internationalen Expansion von [FIRMA] mit Büro-Eröffnung in London
+
+[H012] (2024-01-01) [produktlaunch]
+  Veröffentlichung des Buches 'Read Write Own: Building the Next Era of the Internet' bei Random House

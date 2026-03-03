@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code internal
+.claude/
+
+# Internal project management (not for public repo)
+Plan.txt
+_archive/
+_paper/
+_Big_Data_Society/
+_review_*.md
+*BRIEFING*
+CORE.txt
+removed_sections/
+
+# Empty database (rebuild with create_db.py)
+_data/aussagen_top100.db
+
+# Verification and log files
+_data/verify_*.py
+_data/check_tables.py
+_data/cleanup_vaswani_duplicates.py
+_data/final_check_vaswani.py
+_data/collect_murati_log.txt
+
+# Temporary data files
+_data/aussagen_p81_90.json
+
+# Artifacts from other tools
+compass_artifact_*.md
+
+# Binary documents (keep PDFs in paper/)
+*.docx

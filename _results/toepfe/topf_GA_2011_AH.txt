@@ -1,0 +1,75 @@
+========================================================================
+SYNTHESEEINHEIT: GA_2011_AH
+Beschreibung: Jahrestopf 2011, alle Personen
+Generiert: 2026-02-12 03:51
+========================================================================
+
+Datenpunkte: 3 Aussagen + 14 Handlungen = 17 gesamt
+Zeitraum Aussagen: 2011 bis 2011-08-20
+Zeitraum Handlungen: 2011 bis 2011-12-01
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (3 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2011, schriftlich)
+  "We wanted flying cars, instead we got 140 characters."
+  Kontext: Manifesto der [FIRMA]-Website. [PERSON] kritisiert die Fokussierung auf triviale Software statt auf echte Innovation.
+
+[A002] (2011-08-20, schriftlich)
+  "In short, software is eating the world."
+  Kontext: Wegweisender Essay im Wall Street Journal, der die These aufstellt, dass Software alle Industrien transformieren wird.
+
+[A003] (2011-08-20, schriftlich)
+  "Six decades into the computer revolution, four decades since the invention of the microprocessor, and two decades into the rise of the modern Internet, all of the technology required to transform industries through software finally works and can be widely delivered at global scale."
+  Kontext: Erklaerung des historischen Moments, in dem Software-Skalierung moeglich wurde.
+
+------------------------------------------------------------------------
+HANDLUNGEN (14 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2011) [gruendung]
+  [PERSON] gruendet gemeinsam mit [PERSON] das [FIRMA] Brain-Projekt, [FIRMA]s Deep-Learning-Forschungsinitiative. Das Projekt entwickelt DistBelief, einen Vorgaenger von TensorFlow.
+
+[H002] (2011) [gruendung]
+  [PERSON] startet die [PERSON] Fellowship: $100.000 fuer Studenten unter 23, die das College abbrechen, um an eigenen Projekten zu arbeiten. [PERSON] kritisiert Universitaeten als 'Bildungsblase'.
+
+[H003] (2011-01-01) [gruendung]
+  Mitgründung von [FIRMA] Brain zusammen mit [PERSON] und Greg Corrado - Deep Learning AI Research Team
+
+[H004] (2011-01-01) [gruendung]
+  Co-directed AMPLab (Algorithms, Machines and People Lab) at UC [UNI] with Michael Franklin and Ion Stoica. The lab was officially launched in 2011 and awarded NSF CISE Expeditions in Computing grant in 2012. AMPLab created Apache Spark, Apache Mesos, and Alluxio, influential big data technologies.
+
+[H005] (2011-01-01) [investition]
+  Made early angel investments in Uber, Instacart, Figma, GitHub, Airtable, Rippling, and Coinbase
+
+[H006] (2011-01-01) [sonstiges]
+  Elected to National Academy of Engineering
+
+[H007] (2011-01-01) [sonstiges]
+  Maintained EBLearn C++ based Deep Learning Framework pre-2012
+
+[H008] (2011-03-01) [investition]
+  Received $4 million Series A investment from [FIRMA] Capital for Greplin, becoming one of [FIRMA]'s youngest founders at age 19
+
+[H009] (2011-04-04) [einstellung]
+  [PERSON] wird wieder CEO von [FIRMA], Eric Schmidt wird Executive Chairman. Page kuendigt Fokus auf 'fewer, bigger bets' an und reorganisiert [FIRMA] radikal.
+
+[H010] (2011-05-16) [gruendung]
+  Co-founded Xamarin with Miguel de Icaza to continue Mono project development after Novell layoffs
+
+[H011] (2011-05-19) [produktlaunch]
+  [FIRMA] Boersengang (IPO), [PERSON]s Anteil war $2,34 Milliarden wert. Successful IPO made [FIRMA] one of the most valuable social networks.
+
+[H012] (2011-08-24) [einstellung]
+  [PERSON] wird zum CEO von [FIRMA] ernannt, Nachfolger von Steve Jobs
+
+[H013] (2011-11-01) [verkauf]
+  Verkauf von Hunch an eBay für 80 Millionen US-Dollar
+
+[H014] (2011-12-01) [investition] ($50,000,000)
+  [FIRMA] schliesst Serie-A-Finanzierung ueber $50 Millionen ab. Investoren: [FIRMA] ([PERSON]), Horizons Ventures (Li Ka-shing), [PERSON] und Scott Banister.
