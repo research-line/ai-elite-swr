@@ -36,14 +36,37 @@ Thumbs.db
 # Internal project management (not for public repo)
 Plan.txt
 _archive/
-_paper/
 _Big_Data_Society/
 _review_*.md
 *BRIEFING*
 CORE.txt
 removed_sections/
+AKTIONSPLAN.md
+ARGUMENTATION.md
+CLAUDE.md
+KONZEPT.md
+POSTRELEASE-PR.md
+PUBLIKATIONSPLAN.md
+REVISION_PROCESSING_NOTES.md
+ROADMAP.md
+START.md
+TODO.md
+UNTERSUCHUNGSERGEBNISSE.md
+UNTERSUCHUNGSPLAN_LEGACY.txt
 
-# Empty database (rebuild with create_db.py)
+# Bad Bank (internal documentation of removed content)
+_bad_bank/
+
+# Credentials and sensitive data
+ZENODO_CREDENTIALS*.md
+*CREDENTIALS*
+*.env
+
+# Review chain results (internal)
+_results_A/REVIEW_CHAIN_*.md
+_results_B/
+
+# Database (rebuild with create_db.py + insert scripts)
 _data/aussagen_top100.db
 
 # Verification and log files
@@ -61,3 +84,7 @@ compass_artifact_*.md
 
 # Binary documents (keep PDFs in paper/)
 *.docx
+
+# Combined/legacy PDF
+paper_B/SWR_KI_Elite_Combined_EN.pdf
+paper_B/TitlePage_SMR.*

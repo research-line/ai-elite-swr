@@ -1,0 +1,239 @@
+========================================================================
+SYNTHESEEINHEIT: G6_KONTROLLE
+Beschreibung: Kontrollgruppe fuer Expected-Discrepancy-Test
+Generiert: 2026-03-30 (manuell konstruiert)
+========================================================================
+
+Datenpunkte: 30 Aussagen + 30 Handlungen = 60 gesamt
+Zeitraum: 2018 bis 2025
+
+HINWEIS: Dies ist ein KONTROLLKORPUS. Die Daten beschreiben eine
+fiktive Gruppe von Umweltwissenschaftlern, deren Aussagen und
+Handlungen BEWUSST KONSISTENT konstruiert wurden.
+Es gibt KEINEN erwarteten Sagen-Handeln-Gap.
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (30 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2018, schriftlich)
+  "Renewable energy is not just an environmental necessity but an economic opportunity. Every dollar invested in solar infrastructure returns threefold within a decade."
+  Kontext: Policy paper on energy transition
+
+[A002] (2018, muendlich)
+  "We need binding international agreements on carbon emissions. Voluntary pledges have consistently failed to produce meaningful reductions."
+  Kontext: Conference keynote on climate policy
+
+[A003] (2019, schriftlich)
+  "Our research shows that community-based conservation programs outperform top-down mandates by a factor of 2.3 in biodiversity preservation."
+  Kontext: Peer-reviewed journal publication
+
+[A004] (2019, muendlich)
+  "I don't believe technology alone will solve the climate crisis. We need behavioral change, policy reform, and technological innovation working together."
+  Kontext: Panel discussion at sustainability summit
+
+[A005] (2019, schriftlich)
+  "Open data sharing between research institutions is essential for accelerating climate science. We publish all our datasets within 6 months of collection."
+  Kontext: Open science manifesto co-authored
+
+[A006] (2020, muendlich)
+  "The pandemic has shown us that global coordination on existential threats is possible but fragile. We must apply these lessons to climate action."
+  Kontext: Webinar on post-COVID sustainability
+
+[A007] (2020, schriftlich)
+  "Our lab has reduced its own carbon footprint by 40% since 2018. We believe researchers must practice what they study."
+  Kontext: Annual sustainability report of research institute
+
+[A008] (2020, muendlich)
+  "I'm cautiously optimistic about hydrogen fuel cells for heavy transport. The economics are improving, though we're still 5-7 years from widespread adoption."
+  Kontext: Industry interview on green transport
+
+[A009] (2021, schriftlich)
+  "Biodiversity loss is an underappreciated crisis. While climate change dominates headlines, species extinction rates are equally alarming and deeply interconnected."
+  Kontext: Op-ed in scientific magazine
+
+[A010] (2021, muendlich)
+  "We've been working with local farming communities in Southeast Asia to implement regenerative agriculture. The results after three years are very encouraging -- 30% yield improvement with 50% less chemical input."
+  Kontext: Research presentation
+
+[A011] (2021, schriftlich)
+  "Governments must stop subsidizing fossil fuels. The $5.9 trillion in annual fossil fuel subsidies is incompatible with any credible climate target."
+  Kontext: Policy brief
+
+[A012] (2021, muendlich)
+  "Education is the most powerful tool we have. When communities understand the science behind climate change, they become advocates rather than obstacles."
+  Kontext: TEDx talk on science communication
+
+[A013] (2022, schriftlich)
+  "Our interdisciplinary approach -- combining ecology, economics, and social science -- has been key to our impact. No single discipline can address climate change alone."
+  Kontext: Grant proposal narrative
+
+[A014] (2022, muendlich)
+  "I'm concerned about greenwashing in corporate sustainability reports. We need standardized, auditable metrics, not vague commitments to 'net zero by 2050'."
+  Kontext: Interview with environmental journalism outlet
+
+[A015] (2022, schriftlich)
+  "Indigenous knowledge systems offer invaluable insights for sustainable land management. Our partnership with First Nations communities has fundamentally changed our research approach."
+  Kontext: Research ethics paper
+
+[A016] (2022, muendlich)
+  "We reject the false dichotomy between economic growth and environmental protection. Our work with circular economy models shows they can coexist."
+  Kontext: Business summit keynote
+
+[A017] (2023, schriftlich)
+  "AI and machine learning are powerful tools for environmental monitoring. Our satellite-based deforestation detection system has helped reduce illegal logging by 25% in pilot regions."
+  Kontext: Technology review article
+
+[A018] (2023, muendlich)
+  "I believe in incremental, evidence-based progress. Revolutionary rhetoric sounds inspiring but rarely produces lasting change. Steady, measurable improvement does."
+  Kontext: Podcast interview
+
+[A019] (2023, schriftlich)
+  "Youth climate activists deserve our support, not our condescension. Their sense of urgency is scientifically justified."
+  Kontext: Open letter co-signed with 200 scientists
+
+[A020] (2023, muendlich)
+  "International cooperation remains essential. Climate change does not respect borders. Neither should our research partnerships."
+  Kontext: UN Environment Assembly side event
+
+[A021] (2024, schriftlich)
+  "Our 10-year longitudinal study confirms that reforestation programs with native species mixtures are 3x more effective for carbon sequestration than monoculture plantations."
+  Kontext: Nature publication
+
+[A022] (2024, muendlich)
+  "We must be honest about uncertainties in our models. Overclaiming damages scientific credibility and gives ammunition to climate skeptics."
+  Kontext: Academic conference
+
+[A023] (2024, schriftlich)
+  "Every member of our research team receives training in science communication. The gap between what scientists know and what the public understands is our responsibility to bridge."
+  Kontext: Institute newsletter
+
+[A024] (2024, muendlich)
+  "I've seen real progress in my career. Twenty years ago, sustainability was a fringe topic. Today it's central to every major policy discussion. That gives me hope."
+  Kontext: Career retrospective interview
+
+[A025] (2024, schriftlich)
+  "We allocate 15% of our research budget to capacity building in developing countries. Global problems require globally distributed expertise."
+  Kontext: Annual report
+
+[A026] (2025, muendlich)
+  "The transition to renewable energy is accelerating faster than any model predicted five years ago. Solar costs have dropped 90% since 2010."
+  Kontext: Energy policy forum
+
+[A027] (2025, schriftlich)
+  "Our open-source climate modeling toolkit has been adopted by 47 research institutions across 23 countries. This is exactly the kind of collaborative infrastructure we need."
+  Kontext: Software release announcement
+
+[A028] (2025, muendlich)
+  "I worry about research funding volatility. Long-term environmental monitoring requires long-term financial commitments. Stop-start funding produces stop-start science."
+  Kontext: Funding agency consultation
+
+[A029] (2025, schriftlich)
+  "We measure our success not by publications alone but by policy changes influenced, communities supported, and ecosystems restored."
+  Kontext: Strategic plan document
+
+[A030] (2025, muendlich)
+  "My role is to provide the best possible evidence and make it accessible. Policy decisions are for democratically elected leaders. Scientists advise; they don't govern."
+  Kontext: Public lecture on science and democracy
+
+------------------------------------------------------------------------
+HANDLUNGEN (30 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2018, Investition)
+  Invested $2M of research funds in solar-powered field monitoring stations across 12 countries.
+
+[H002] (2018, Gruendung)
+  Co-founded an open-access journal for climate adaptation research with no publication fees.
+
+[H003] (2019, Partnerschaft)
+  Established formal research partnerships with 8 universities in developing countries, including full data sharing agreements.
+
+[H004] (2019, Policy)
+  Testified before parliamentary committee advocating for binding emissions reduction targets.
+
+[H005] (2019, Forschung)
+  Published 14 peer-reviewed papers, all with open datasets and reproducible code.
+
+[H006] (2020, Nachhaltigkeit)
+  Converted institute fleet to electric vehicles and installed rooftop solar panels on all buildings.
+
+[H007] (2020, Bildung)
+  Launched free online course on climate science fundamentals, reaching 50,000 students in first year.
+
+[H008] (2020, Partnerschaft)
+  Partnered with indigenous communities in Amazonia for forest monitoring project, with shared intellectual property.
+
+[H009] (2021, Forschung)
+  Completed 3-year field study on regenerative agriculture in Southeast Asia, publishing results open-access.
+
+[H010] (2021, Policy)
+  Advised three national governments on carbon pricing mechanisms, all of which implemented the recommendations.
+
+[H011] (2021, Investition)
+  Directed $5M in grants toward early-career researchers from underrepresented regions.
+
+[H012] (2021, Technologie)
+  Deployed satellite-based deforestation monitoring system in 4 tropical countries.
+
+[H013] (2022, Nachhaltigkeit)
+  Achieved carbon-neutral operations for entire research institute, verified by independent auditor.
+
+[H014] (2022, Bildung)
+  Hired 6 dedicated science communicators to bridge research-public gap.
+
+[H015] (2022, Partnerschaft)
+  Signed MOU with First Nations communities for 10-year collaborative land management research program.
+
+[H016] (2022, Policy)
+  Published policy brief that directly influenced EU regulation on corporate sustainability reporting standards.
+
+[H017] (2023, Technologie)
+  Released open-source AI toolkit for environmental monitoring, adopted by 47 institutions.
+
+[H018] (2023, Forschung)
+  Led consortium of 15 institutions to standardize climate data collection protocols.
+
+[H019] (2023, Bildung)
+  Organized 12 community workshops on climate adaptation for vulnerable coastal communities.
+
+[H020] (2023, Investition)
+  Allocated 15% of annual budget ($3M) to capacity building in Global South institutions.
+
+[H021] (2024, Forschung)
+  Published landmark 10-year longitudinal study on reforestation in Nature.
+
+[H022] (2024, Policy)
+  Provided expert testimony to UN Framework Convention on Climate Change.
+
+[H023] (2024, Nachhaltigkeit)
+  Implemented circular economy practices in all institute procurement, reducing waste by 60%.
+
+[H024] (2024, Bildung)
+  Established mentorship program pairing senior researchers with students from developing nations.
+
+[H025] (2024, Partnerschaft)
+  Renewed all 8 international partnership agreements with expanded scope and funding.
+
+[H026] (2025, Technologie)
+  Upgraded monitoring network to include biodiversity sensors alongside climate instruments.
+
+[H027] (2025, Forschung)
+  Launched 5-year study on ocean acidification impacts on coral reef ecosystems.
+
+[H028] (2025, Policy)
+  Co-authored international framework for ethical AI use in environmental science.
+
+[H029] (2025, Investition)
+  Secured $20M multi-year grant for global climate resilience program.
+
+[H030] (2025, Nachhaltigkeit)
+  Expanded institute's renewable energy portfolio to include small-scale wind and geothermal.
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================

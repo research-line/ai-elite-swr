@@ -1,0 +1,2342 @@
+{
+  "metadata": {
+    "n_persons": 100,
+    "n_dimensions": 12,
+    "dimensions": {
+      "D01": "Sendungsbewusstsein",
+      "D02": "Kontrollueberzeugung",
+      "D03": "Zugehoerigkeitsgefuehl",
+      "D04": "Verantwortungsgefuehl",
+      "D05": "Technologie-Determinismus",
+      "D06": "Fortschrittsoptimismus",
+      "D07": "Machtkonzentration",
+      "D08": "Dringlichkeit",
+      "D09": "Menschliche Einzigartigkeit",
+      "D10": "Transhumanismus",
+      "D11": "Egalitarismus",
+      "D12": "Zukunft der Menschheit"
+    },
+    "date": "2026-03-27",
+    "method": "PCA + HDBSCAN + Cliff's delta + Kruskal-Wallis"
+  },
+  "pca": {
+    "n_components_80pct": 5,
+    "scree_data": [
+      {
+        "component": "PC1",
+        "eigenvalue": 4.342753515809945,
+        "explained_variance_ratio": 0.3582771650543206,
+        "cumulative": 0.3582771650543206
+      },
+      {
+        "component": "PC2",
+        "eigenvalue": 2.322489101954743,
+        "explained_variance_ratio": 0.19160535091126638,
+        "cumulative": 0.549882515965587
+      },
+      {
+        "component": "PC3",
+        "eigenvalue": 1.480712734169768,
+        "explained_variance_ratio": 0.12215880056900591,
+        "cumulative": 0.6720413165345929
+      },
+      {
+        "component": "PC4",
+        "eigenvalue": 1.088994794973943,
+        "explained_variance_ratio": 0.08984207058535033,
+        "cumulative": 0.7618833871199432
+      },
+      {
+        "component": "PC5",
+        "eigenvalue": 0.8161072360483789,
+        "explained_variance_ratio": 0.06732884697399129,
+        "cumulative": 0.8292122340939345
+      },
+      {
+        "component": "PC6",
+        "eigenvalue": 0.552103908954161,
+        "explained_variance_ratio": 0.0455485724887183,
+        "cumulative": 0.8747608065826529
+      },
+      {
+        "component": "PC7",
+        "eigenvalue": 0.44995388607724285,
+        "explained_variance_ratio": 0.03712119560137255,
+        "cumulative": 0.9118820021840254
+      },
+      {
+        "component": "PC8",
+        "eigenvalue": 0.3537559332805755,
+        "explained_variance_ratio": 0.02918486449564749,
+        "cumulative": 0.9410668666796729
+      },
+      {
+        "component": "PC9",
+        "eigenvalue": 0.2597074493663474,
+        "explained_variance_ratio": 0.021425864572723666,
+        "cumulative": 0.9624927312523965
+      },
+      {
+        "component": "PC10",
+        "eigenvalue": 0.20120932489601853,
+        "explained_variance_ratio": 0.016599769303921538,
+        "cumulative": 0.979092500556318
+      },
+      {
+        "component": "PC11",
+        "eigenvalue": 0.16626386592660397,
+        "explained_variance_ratio": 0.013716768938944834,
+        "cumulative": 0.9928092694952628
+      },
+      {
+        "component": "PC12",
+        "eigenvalue": 0.0871603697543896,
+        "explained_variance_ratio": 0.007190730504737145,
+        "cumulative": 1.0
+      }
+    ],
+    "pc1_loadings": {
+      "D01": 0.1968,
+      "D02": 0.4003,
+      "D03": -0.0226,
+      "D04": -0.1752,
+      "D05": 0.3871,
+      "D06": 0.3065,
+      "D07": 0.241,
+      "D08": 0.2035,
+      "D09": -0.3861,
+      "D10": 0.3338,
+      "D11": -0.2743,
+      "D12": 0.3013
+    },
+    "pc2_loadings": {
+      "D01": 0.5065,
+      "D02": -0.1001,
+      "D03": 0.2202,
+      "D04": 0.5025,
+      "D05": 0.0949,
+      "D06": -0.2195,
+      "D07": -0.006,
+      "D08": 0.5017,
+      "D09": 0.0221,
+      "D10": 0.2273,
+      "D11": 0.114,
+      "D12": -0.2417
+    },
+    "top3_pc1_dims": [
+      "D02",
+      "D05",
+      "D09"
+    ]
+  },
+  "hdbscan_subspace": {
+    "pca3_mcs5_ms3": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 5,
+      "min_samples": 3,
+      "n_clusters": 2,
+      "n_noise": 56,
+      "noise_pct": 56.0,
+      "silhouette": -0.0808
+    },
+    "pca3_mcs5_ms5": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 5,
+      "min_samples": 5,
+      "n_clusters": 2,
+      "n_noise": 54,
+      "noise_pct": 54.0,
+      "silhouette": -0.0884
+    },
+    "pca3_mcs8_ms3": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 8,
+      "min_samples": 3,
+      "n_clusters": 2,
+      "n_noise": 84,
+      "noise_pct": 84.0,
+      "silhouette": -0.2123
+    },
+    "pca3_mcs8_ms5": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 8,
+      "min_samples": 5,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": null
+    },
+    "pca3_mcs10_ms3": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 10,
+      "min_samples": 3,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": null
+    },
+    "pca3_mcs10_ms5": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": null
+    },
+    "pca3_mcs15_ms3": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 15,
+      "min_samples": 3,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": null
+    },
+    "pca3_mcs15_ms5": {
+      "subspace": "PC1+PC2+PC3",
+      "min_cluster_size": 15,
+      "min_samples": 5,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": null
+    },
+    "d07d11_mcs5_ms2": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 5,
+      "min_samples": 2,
+      "n_clusters": 9,
+      "n_noise": 12,
+      "noise_pct": 12.0,
+      "silhouette": 0.5674
+    },
+    "d07d11_mcs5_ms3": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 5,
+      "min_samples": 3,
+      "n_clusters": 8,
+      "n_noise": 19,
+      "noise_pct": 19.0,
+      "silhouette": 0.537
+    },
+    "d07d11_mcs5_ms5": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 5,
+      "min_samples": 5,
+      "n_clusters": 8,
+      "n_noise": 23,
+      "noise_pct": 23.0,
+      "silhouette": 0.5015
+    },
+    "d07d11_mcs8_ms2": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 8,
+      "min_samples": 2,
+      "n_clusters": 6,
+      "n_noise": 17,
+      "noise_pct": 17.0,
+      "silhouette": 0.4425
+    },
+    "d07d11_mcs8_ms3": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 8,
+      "min_samples": 3,
+      "n_clusters": 6,
+      "n_noise": 24,
+      "noise_pct": 24.0,
+      "silhouette": 0.4168
+    },
+    "d07d11_mcs8_ms5": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 8,
+      "min_samples": 5,
+      "n_clusters": 5,
+      "n_noise": 30,
+      "noise_pct": 30.0,
+      "silhouette": 0.3296
+    },
+    "d07d11_mcs10_ms2": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 10,
+      "min_samples": 2,
+      "n_clusters": 5,
+      "n_noise": 26,
+      "noise_pct": 26.0,
+      "silhouette": 0.3775
+    },
+    "d07d11_mcs10_ms3": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 10,
+      "min_samples": 3,
+      "n_clusters": 5,
+      "n_noise": 32,
+      "noise_pct": 32.0,
+      "silhouette": 0.3456
+    },
+    "d07d11_mcs10_ms5": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "n_clusters": 3,
+      "n_noise": 26,
+      "noise_pct": 26.0,
+      "silhouette": 0.2451
+    },
+    "d07d11_mcs12_ms2": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 12,
+      "min_samples": 2,
+      "n_clusters": 5,
+      "n_noise": 26,
+      "noise_pct": 26.0,
+      "silhouette": 0.3775
+    },
+    "d07d11_mcs12_ms3": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 12,
+      "min_samples": 3,
+      "n_clusters": 4,
+      "n_noise": 43,
+      "noise_pct": 43.0,
+      "silhouette": 0.2357
+    },
+    "d07d11_mcs12_ms5": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 12,
+      "min_samples": 5,
+      "n_clusters": 3,
+      "n_noise": 26,
+      "noise_pct": 26.0,
+      "silhouette": 0.2451
+    },
+    "d07d11_mcs15_ms2": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 15,
+      "min_samples": 2,
+      "n_clusters": 4,
+      "n_noise": 18,
+      "noise_pct": 18.0,
+      "silhouette": 0.3099
+    },
+    "d07d11_mcs15_ms3": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 15,
+      "min_samples": 3,
+      "n_clusters": 2,
+      "n_noise": 19,
+      "noise_pct": 19.0,
+      "silhouette": 0.3163
+    },
+    "d07d11_mcs15_ms5": {
+      "subspace": "D07+D11",
+      "min_cluster_size": 15,
+      "min_samples": 5,
+      "n_clusters": 3,
+      "n_noise": 26,
+      "noise_pct": 26.0,
+      "silhouette": 0.2451
+    },
+    "D02+D05+D09_mcs5_ms3": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 5,
+      "min_samples": 3,
+      "n_clusters": 11,
+      "n_noise": 11,
+      "noise_pct": 11.0,
+      "silhouette": 0.5496
+    },
+    "D02+D05+D09_mcs5_ms5": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 5,
+      "min_samples": 5,
+      "n_clusters": 9,
+      "n_noise": 13,
+      "noise_pct": 13.0,
+      "silhouette": 0.4221
+    },
+    "D02+D05+D09_mcs8_ms3": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 8,
+      "min_samples": 3,
+      "n_clusters": 8,
+      "n_noise": 9,
+      "noise_pct": 9.0,
+      "silhouette": 0.4002
+    },
+    "D02+D05+D09_mcs8_ms5": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 8,
+      "min_samples": 5,
+      "n_clusters": 8,
+      "n_noise": 9,
+      "noise_pct": 9.0,
+      "silhouette": 0.4053
+    },
+    "D02+D05+D09_mcs10_ms3": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 10,
+      "min_samples": 3,
+      "n_clusters": 4,
+      "n_noise": 36,
+      "noise_pct": 36.0,
+      "silhouette": 0.1506
+    },
+    "D02+D05+D09_mcs10_ms5": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "n_clusters": 4,
+      "n_noise": 25,
+      "noise_pct": 25.0,
+      "silhouette": 0.2065
+    },
+    "D02+D05+D09_mcs15_ms3": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 15,
+      "min_samples": 3,
+      "n_clusters": 3,
+      "n_noise": 27,
+      "noise_pct": 27.0,
+      "silhouette": 0.1314
+    },
+    "D02+D05+D09_mcs15_ms5": {
+      "subspace": "D02+D05+D09",
+      "min_cluster_size": 15,
+      "min_samples": 5,
+      "n_clusters": 3,
+      "n_noise": 25,
+      "noise_pct": 25.0,
+      "silhouette": 0.1535
+    }
+  },
+  "heuristic_clusters": {
+    "method": "Top-down Zuordnung ueber D07 (Machtkonzentration) und D11 (Egalitarismus), ergaenzt durch D04 und D06",
+    "distribution": {
+      "Architekt": 16,
+      "Hueter": 11,
+      "Innovator": 46,
+      "Befreier": 27
+    },
+    "profiles": {
+      "Architekt": {
+        "D01": {
+          "mean": 6.62,
+          "std": 1.15,
+          "median": 7.0,
+          "n": 16
+        },
+        "D02": {
+          "mean": 8.12,
+          "std": 0.62,
+          "median": 8.0,
+          "n": 16
+        },
+        "D03": {
+          "mean": 6.25,
+          "std": 0.77,
+          "median": 6.0,
+          "n": 16
+        },
+        "D04": {
+          "mean": 6.0,
+          "std": 1.03,
+          "median": 6.0,
+          "n": 16
+        },
+        "D05": {
+          "mean": 8.0,
+          "std": 0.82,
+          "median": 8.0,
+          "n": 16
+        },
+        "D06": {
+          "mean": 7.31,
+          "std": 1.3,
+          "median": 7.0,
+          "n": 16
+        },
+        "D07": {
+          "mean": 5.94,
+          "std": 0.77,
+          "median": 6.0,
+          "n": 16
+        },
+        "D08": {
+          "mean": 8.31,
+          "std": 0.95,
+          "median": 8.5,
+          "n": 16
+        },
+        "D09": {
+          "mean": 4.56,
+          "std": 1.03,
+          "median": 4.0,
+          "n": 16
+        },
+        "D10": {
+          "mean": 5.62,
+          "std": 1.45,
+          "median": 5.0,
+          "n": 16
+        },
+        "D11": {
+          "mean": 3.94,
+          "std": 1.06,
+          "median": 4.0,
+          "n": 16
+        },
+        "D12": {
+          "mean": 7.06,
+          "std": 1.18,
+          "median": 7.0,
+          "n": 16
+        },
+        "avg_all": 6.48
+      },
+      "Hueter": {
+        "D01": {
+          "mean": 6.09,
+          "std": 0.94,
+          "median": 6.0,
+          "n": 11
+        },
+        "D02": {
+          "mean": 6.55,
+          "std": 1.29,
+          "median": 6.0,
+          "n": 11
+        },
+        "D03": {
+          "mean": 6.45,
+          "std": 0.82,
+          "median": 7.0,
+          "n": 11
+        },
+        "D04": {
+          "mean": 6.91,
+          "std": 1.45,
+          "median": 7.0,
+          "n": 11
+        },
+        "D05": {
+          "mean": 7.0,
+          "std": 1.34,
+          "median": 7.0,
+          "n": 11
+        },
+        "D06": {
+          "mean": 5.64,
+          "std": 1.12,
+          "median": 6.0,
+          "n": 11
+        },
+        "D07": {
+          "mean": 3.82,
+          "std": 0.4,
+          "median": 4.0,
+          "n": 11
+        },
+        "D08": {
+          "mean": 7.73,
+          "std": 1.56,
+          "median": 8.0,
+          "n": 11
+        },
+        "D09": {
+          "mean": 5.82,
+          "std": 1.54,
+          "median": 5.0,
+          "n": 11
+        },
+        "D10": {
+          "mean": 4.64,
+          "std": 1.75,
+          "median": 4.0,
+          "n": 11
+        },
+        "D11": {
+          "mean": 5.91,
+          "std": 1.7,
+          "median": 6.0,
+          "n": 11
+        },
+        "D12": {
+          "mean": 6.09,
+          "std": 1.45,
+          "median": 6.0,
+          "n": 11
+        },
+        "avg_all": 6.05
+      },
+      "Innovator": {
+        "D01": {
+          "mean": 6.17,
+          "std": 1.22,
+          "median": 6.0,
+          "n": 46
+        },
+        "D02": {
+          "mean": 7.72,
+          "std": 0.62,
+          "median": 8.0,
+          "n": 46
+        },
+        "D03": {
+          "mean": 6.07,
+          "std": 0.68,
+          "median": 6.0,
+          "n": 46
+        },
+        "D04": {
+          "mean": 6.35,
+          "std": 1.25,
+          "median": 6.0,
+          "n": 46
+        },
+        "D05": {
+          "mean": 7.96,
+          "std": 0.76,
+          "median": 8.0,
+          "n": 46
+        },
+        "D06": {
+          "mean": 7.91,
+          "std": 0.76,
+          "median": 8.0,
+          "n": 46
+        },
+        "D07": {
+          "mean": 4.83,
+          "std": 0.71,
+          "median": 5.0,
+          "n": 46
+        },
+        "D08": {
+          "mean": 8.07,
+          "std": 1.22,
+          "median": 8.0,
+          "n": 46
+        },
+        "D09": {
+          "mean": 4.67,
+          "std": 0.94,
+          "median": 5.0,
+          "n": 46
+        },
+        "D10": {
+          "mean": 5.46,
+          "std": 1.03,
+          "median": 5.0,
+          "n": 46
+        },
+        "D11": {
+          "mean": 5.35,
+          "std": 1.35,
+          "median": 5.0,
+          "n": 46
+        },
+        "D12": {
+          "mean": 7.72,
+          "std": 0.96,
+          "median": 8.0,
+          "n": 46
+        },
+        "avg_all": 6.52
+      },
+      "Befreier": {
+        "D01": {
+          "mean": 6.07,
+          "std": 1.11,
+          "median": 6.0,
+          "n": 27
+        },
+        "D02": {
+          "mean": 6.96,
+          "std": 0.71,
+          "median": 7.0,
+          "n": 27
+        },
+        "D03": {
+          "mean": 6.0,
+          "std": 0.78,
+          "median": 6.0,
+          "n": 27
+        },
+        "D04": {
+          "mean": 7.04,
+          "std": 1.13,
+          "median": 7.0,
+          "n": 27
+        },
+        "D05": {
+          "mean": 7.44,
+          "std": 0.75,
+          "median": 7.0,
+          "n": 27
+        },
+        "D06": {
+          "mean": 7.52,
+          "std": 0.7,
+          "median": 7.0,
+          "n": 27
+        },
+        "D07": {
+          "mean": 3.63,
+          "std": 0.63,
+          "median": 4.0,
+          "n": 27
+        },
+        "D08": {
+          "mean": 7.48,
+          "std": 1.19,
+          "median": 7.0,
+          "n": 27
+        },
+        "D09": {
+          "mean": 5.41,
+          "std": 0.69,
+          "median": 5.0,
+          "n": 27
+        },
+        "D10": {
+          "mean": 5.19,
+          "std": 0.79,
+          "median": 5.0,
+          "n": 27
+        },
+        "D11": {
+          "mean": 7.33,
+          "std": 0.88,
+          "median": 7.0,
+          "n": 27
+        },
+        "D12": {
+          "mean": 7.19,
+          "std": 0.74,
+          "median": 7.0,
+          "n": 27
+        },
+        "avg_all": 6.44
+      }
+    },
+    "assignments": {
+      "P1": "Befreier",
+      "P2": "Innovator",
+      "P3": "Architekt",
+      "P4": "Befreier",
+      "P5": "Innovator",
+      "P6": "Architekt",
+      "P7": "Architekt",
+      "P8": "Befreier",
+      "P9": "Befreier",
+      "P10": "Innovator",
+      "P11": "Innovator",
+      "P12": "Innovator",
+      "P13": "Befreier",
+      "P14": "Innovator",
+      "P15": "Hueter",
+      "P16": "Innovator",
+      "P17": "Befreier",
+      "P18": "Befreier",
+      "P19": "Innovator",
+      "P20": "Befreier",
+      "P21": "Hueter",
+      "P22": "Befreier",
+      "P23": "Innovator",
+      "P24": "Innovator",
+      "P25": "Hueter",
+      "P26": "Innovator",
+      "P27": "Innovator",
+      "P28": "Innovator",
+      "P29": "Innovator",
+      "P30": "Innovator",
+      "P31": "Befreier",
+      "P32": "Innovator",
+      "P33": "Befreier",
+      "P34": "Innovator",
+      "P35": "Befreier",
+      "P36": "Architekt",
+      "P37": "Architekt",
+      "P38": "Architekt",
+      "P39": "Architekt",
+      "P40": "Befreier",
+      "P41": "Innovator",
+      "P42": "Befreier",
+      "P43": "Architekt",
+      "P44": "Innovator",
+      "P45": "Innovator",
+      "P46": "Innovator",
+      "P47": "Innovator",
+      "P48": "Befreier",
+      "P49": "Architekt",
+      "P50": "Befreier",
+      "P51": "Hueter",
+      "P52": "Innovator",
+      "P53": "Innovator",
+      "P54": "Befreier",
+      "P55": "Befreier",
+      "P56": "Architekt",
+      "P57": "Hueter",
+      "P58": "Innovator",
+      "P59": "Hueter",
+      "P60": "Hueter",
+      "P61": "Befreier",
+      "P62": "Hueter",
+      "P63": "Architekt",
+      "P64": "Architekt",
+      "P65": "Innovator",
+      "P66": "Befreier",
+      "P67": "Innovator",
+      "P68": "Hueter",
+      "P69": "Befreier",
+      "P70": "Innovator",
+      "P71": "Innovator",
+      "P72": "Hueter",
+      "P73": "Befreier",
+      "P74": "Innovator",
+      "P75": "Innovator",
+      "P76": "Architekt",
+      "P77": "Innovator",
+      "P78": "Innovator",
+      "P79": "Befreier",
+      "P80": "Innovator",
+      "P81": "Befreier",
+      "P82": "Innovator",
+      "P83": "Innovator",
+      "P84": "Innovator",
+      "P85": "Architekt",
+      "P86": "Innovator",
+      "P87": "Innovator",
+      "P88": "Innovator",
+      "P89": "Innovator",
+      "P90": "Innovator",
+      "P91": "Innovator",
+      "P92": "Befreier",
+      "P93": "Innovator",
+      "P94": "Architekt",
+      "P95": "Befreier",
+      "P96": "Architekt",
+      "P97": "Hueter",
+      "P98": "Innovator",
+      "P99": "Befreier",
+      "P100": "Innovator"
+    }
+  },
+  "cliffs_delta_clusters": {
+    "Architekt_vs_Hueter": {
+      "D01": {
+        "delta": 0.2784,
+        "interpretation": "small",
+        "mean_1": 6.62,
+        "mean_2": 6.09
+      },
+      "D02": {
+        "delta": 0.7273,
+        "interpretation": "large",
+        "mean_1": 8.12,
+        "mean_2": 6.55
+      },
+      "D03": {
+        "delta": -0.2045,
+        "interpretation": "small",
+        "mean_1": 6.25,
+        "mean_2": 6.45
+      },
+      "D04": {
+        "delta": -0.4545,
+        "interpretation": "medium",
+        "mean_1": 6.0,
+        "mean_2": 6.91
+      },
+      "D05": {
+        "delta": 0.4261,
+        "interpretation": "medium",
+        "mean_1": 8.0,
+        "mean_2": 7.0
+      },
+      "D06": {
+        "delta": 0.6875,
+        "interpretation": "large",
+        "mean_1": 7.31,
+        "mean_2": 5.64
+      },
+      "D07": {
+        "delta": 1.0,
+        "interpretation": "large",
+        "mean_1": 5.94,
+        "mean_2": 3.82
+      },
+      "D08": {
+        "delta": 0.2045,
+        "interpretation": "small",
+        "mean_1": 8.31,
+        "mean_2": 7.73
+      },
+      "D09": {
+        "delta": -0.5341,
+        "interpretation": "large",
+        "mean_1": 4.56,
+        "mean_2": 5.82
+      },
+      "D10": {
+        "delta": 0.3239,
+        "interpretation": "small",
+        "mean_1": 5.62,
+        "mean_2": 4.64
+      },
+      "D11": {
+        "delta": -0.6818,
+        "interpretation": "large",
+        "mean_1": 3.94,
+        "mean_2": 5.91
+      },
+      "D12": {
+        "delta": 0.4432,
+        "interpretation": "medium",
+        "mean_1": 7.06,
+        "mean_2": 6.09
+      }
+    },
+    "Architekt_vs_Innovator": {
+      "D01": {
+        "delta": 0.2228,
+        "interpretation": "small",
+        "mean_1": 6.62,
+        "mean_2": 6.17
+      },
+      "D02": {
+        "delta": 0.3261,
+        "interpretation": "small",
+        "mean_1": 8.12,
+        "mean_2": 7.72
+      },
+      "D03": {
+        "delta": 0.1101,
+        "interpretation": "negligible",
+        "mean_1": 6.25,
+        "mean_2": 6.07
+      },
+      "D04": {
+        "delta": -0.1957,
+        "interpretation": "small",
+        "mean_1": 6.0,
+        "mean_2": 6.35
+      },
+      "D05": {
+        "delta": 0.0217,
+        "interpretation": "negligible",
+        "mean_1": 8.0,
+        "mean_2": 7.96
+      },
+      "D06": {
+        "delta": -0.337,
+        "interpretation": "medium",
+        "mean_1": 7.31,
+        "mean_2": 7.91
+      },
+      "D07": {
+        "delta": 0.6821,
+        "interpretation": "large",
+        "mean_1": 5.94,
+        "mean_2": 4.83
+      },
+      "D08": {
+        "delta": 0.1155,
+        "interpretation": "negligible",
+        "mean_1": 8.31,
+        "mean_2": 8.07
+      },
+      "D09": {
+        "delta": -0.106,
+        "interpretation": "negligible",
+        "mean_1": 4.56,
+        "mean_2": 4.67
+      },
+      "D10": {
+        "delta": -0.0299,
+        "interpretation": "negligible",
+        "mean_1": 5.62,
+        "mean_2": 5.46
+      },
+      "D11": {
+        "delta": -0.591,
+        "interpretation": "large",
+        "mean_1": 3.94,
+        "mean_2": 5.35
+      },
+      "D12": {
+        "delta": -0.3519,
+        "interpretation": "medium",
+        "mean_1": 7.06,
+        "mean_2": 7.72
+      }
+    },
+    "Architekt_vs_Befreier": {
+      "D01": {
+        "delta": 0.2569,
+        "interpretation": "small",
+        "mean_1": 6.62,
+        "mean_2": 6.07
+      },
+      "D02": {
+        "delta": 0.7593,
+        "interpretation": "large",
+        "mean_1": 8.12,
+        "mean_2": 6.96
+      },
+      "D03": {
+        "delta": 0.1505,
+        "interpretation": "small",
+        "mean_1": 6.25,
+        "mean_2": 6.0
+      },
+      "D04": {
+        "delta": -0.5301,
+        "interpretation": "large",
+        "mean_1": 6.0,
+        "mean_2": 7.04
+      },
+      "D05": {
+        "delta": 0.3542,
+        "interpretation": "medium",
+        "mean_1": 8.0,
+        "mean_2": 7.44
+      },
+      "D06": {
+        "delta": -0.1389,
+        "interpretation": "negligible",
+        "mean_1": 7.31,
+        "mean_2": 7.52
+      },
+      "D07": {
+        "delta": 1.0,
+        "interpretation": "large",
+        "mean_1": 5.94,
+        "mean_2": 3.63
+      },
+      "D08": {
+        "delta": 0.419,
+        "interpretation": "medium",
+        "mean_1": 8.31,
+        "mean_2": 7.48
+      },
+      "D09": {
+        "delta": -0.5278,
+        "interpretation": "large",
+        "mean_1": 4.56,
+        "mean_2": 5.41
+      },
+      "D10": {
+        "delta": 0.1019,
+        "interpretation": "negligible",
+        "mean_1": 5.62,
+        "mean_2": 5.19
+      },
+      "D11": {
+        "delta": -0.9815,
+        "interpretation": "large",
+        "mean_1": 3.94,
+        "mean_2": 7.33
+      },
+      "D12": {
+        "delta": -0.1181,
+        "interpretation": "negligible",
+        "mean_1": 7.06,
+        "mean_2": 7.19
+      }
+    },
+    "Hueter_vs_Innovator": {
+      "D01": {
+        "delta": -0.0356,
+        "interpretation": "negligible",
+        "mean_1": 6.09,
+        "mean_2": 6.17
+      },
+      "D02": {
+        "delta": -0.6087,
+        "interpretation": "large",
+        "mean_1": 6.55,
+        "mean_2": 7.72
+      },
+      "D03": {
+        "delta": 0.3123,
+        "interpretation": "small",
+        "mean_1": 6.45,
+        "mean_2": 6.07
+      },
+      "D04": {
+        "delta": 0.2727,
+        "interpretation": "small",
+        "mean_1": 6.91,
+        "mean_2": 6.35
+      },
+      "D05": {
+        "delta": -0.413,
+        "interpretation": "medium",
+        "mean_1": 7.0,
+        "mean_2": 7.96
+      },
+      "D06": {
+        "delta": -0.8893,
+        "interpretation": "large",
+        "mean_1": 5.64,
+        "mean_2": 7.91
+      },
+      "D07": {
+        "delta": -0.7609,
+        "interpretation": "large",
+        "mean_1": 3.82,
+        "mean_2": 4.83
+      },
+      "D08": {
+        "delta": -0.1028,
+        "interpretation": "negligible",
+        "mean_1": 7.73,
+        "mean_2": 8.07
+      },
+      "D09": {
+        "delta": 0.4664,
+        "interpretation": "medium",
+        "mean_1": 5.82,
+        "mean_2": 4.67
+      },
+      "D10": {
+        "delta": -0.3241,
+        "interpretation": "small",
+        "mean_1": 4.64,
+        "mean_2": 5.46
+      },
+      "D11": {
+        "delta": 0.3043,
+        "interpretation": "small",
+        "mean_1": 5.91,
+        "mean_2": 5.35
+      },
+      "D12": {
+        "delta": -0.6462,
+        "interpretation": "large",
+        "mean_1": 6.09,
+        "mean_2": 7.72
+      }
+    },
+    "Hueter_vs_Befreier": {
+      "D01": {
+        "delta": 0.0135,
+        "interpretation": "negligible",
+        "mean_1": 6.09,
+        "mean_2": 6.07
+      },
+      "D02": {
+        "delta": -0.2626,
+        "interpretation": "small",
+        "mean_1": 6.55,
+        "mean_2": 6.96
+      },
+      "D03": {
+        "delta": 0.3199,
+        "interpretation": "small",
+        "mean_1": 6.45,
+        "mean_2": 6.0
+      },
+      "D04": {
+        "delta": 0.0034,
+        "interpretation": "negligible",
+        "mean_1": 6.91,
+        "mean_2": 7.04
+      },
+      "D05": {
+        "delta": -0.1582,
+        "interpretation": "small",
+        "mean_1": 7.0,
+        "mean_2": 7.44
+      },
+      "D06": {
+        "delta": -0.8653,
+        "interpretation": "large",
+        "mean_1": 5.64,
+        "mean_2": 7.52
+      },
+      "D07": {
+        "delta": 0.1279,
+        "interpretation": "negligible",
+        "mean_1": 3.82,
+        "mean_2": 3.63
+      },
+      "D08": {
+        "delta": 0.1347,
+        "interpretation": "negligible",
+        "mean_1": 7.73,
+        "mean_2": 7.48
+      },
+      "D09": {
+        "delta": 0.1448,
+        "interpretation": "negligible",
+        "mean_1": 5.82,
+        "mean_2": 5.41
+      },
+      "D10": {
+        "delta": -0.2424,
+        "interpretation": "small",
+        "mean_1": 4.64,
+        "mean_2": 5.19
+      },
+      "D11": {
+        "delta": -0.5387,
+        "interpretation": "large",
+        "mean_1": 5.91,
+        "mean_2": 7.33
+      },
+      "D12": {
+        "delta": -0.5387,
+        "interpretation": "large",
+        "mean_1": 6.09,
+        "mean_2": 7.19
+      }
+    },
+    "Innovator_vs_Befreier": {
+      "D01": {
+        "delta": 0.0395,
+        "interpretation": "negligible",
+        "mean_1": 6.17,
+        "mean_2": 6.07
+      },
+      "D02": {
+        "delta": 0.5539,
+        "interpretation": "large",
+        "mean_1": 7.72,
+        "mean_2": 6.96
+      },
+      "D03": {
+        "delta": 0.0459,
+        "interpretation": "negligible",
+        "mean_1": 6.07,
+        "mean_2": 6.0
+      },
+      "D04": {
+        "delta": -0.3092,
+        "interpretation": "small",
+        "mean_1": 6.35,
+        "mean_2": 7.04
+      },
+      "D05": {
+        "delta": 0.3535,
+        "interpretation": "medium",
+        "mean_1": 7.96,
+        "mean_2": 7.44
+      },
+      "D06": {
+        "delta": 0.31,
+        "interpretation": "small",
+        "mean_1": 7.91,
+        "mean_2": 7.52
+      },
+      "D07": {
+        "delta": 0.7915,
+        "interpretation": "large",
+        "mean_1": 4.83,
+        "mean_2": 3.63
+      },
+      "D08": {
+        "delta": 0.2786,
+        "interpretation": "small",
+        "mean_1": 8.07,
+        "mean_2": 7.48
+      },
+      "D09": {
+        "delta": -0.4469,
+        "interpretation": "medium",
+        "mean_1": 4.67,
+        "mean_2": 5.41
+      },
+      "D10": {
+        "delta": 0.1498,
+        "interpretation": "small",
+        "mean_1": 5.46,
+        "mean_2": 5.19
+      },
+      "D11": {
+        "delta": -0.7858,
+        "interpretation": "large",
+        "mean_1": 5.35,
+        "mean_2": 7.33
+      },
+      "D12": {
+        "delta": 0.3277,
+        "interpretation": "small",
+        "mean_1": 7.72,
+        "mean_2": 7.19
+      }
+    }
+  },
+  "cliffs_delta_roles": {
+    "CEO_vs_Akademiker": {
+      "D01": {
+        "delta": 0.303,
+        "interpretation": "small",
+        "mean_1": 6.58,
+        "mean_2": 5.8
+      },
+      "D02": {
+        "delta": 0.7879,
+        "interpretation": "large",
+        "mean_1": 7.7,
+        "mean_2": 6.2
+      },
+      "D03": {
+        "delta": -0.3182,
+        "interpretation": "small",
+        "mean_1": 5.97,
+        "mean_2": 6.4
+      },
+      "D04": {
+        "delta": -0.2848,
+        "interpretation": "small",
+        "mean_1": 6.76,
+        "mean_2": 7.4
+      },
+      "D05": {
+        "delta": 0.5182,
+        "interpretation": "large",
+        "mean_1": 7.88,
+        "mean_2": 6.8
+      },
+      "D06": {
+        "delta": 0.5818,
+        "interpretation": "large",
+        "mean_1": 7.7,
+        "mean_2": 6.1
+      },
+      "D07": {
+        "delta": 0.5424,
+        "interpretation": "large",
+        "mean_1": 4.88,
+        "mean_2": 4.0
+      },
+      "D08": {
+        "delta": 0.4121,
+        "interpretation": "medium",
+        "mean_1": 8.15,
+        "mean_2": 7.1
+      },
+      "D09": {
+        "delta": -0.4697,
+        "interpretation": "medium",
+        "mean_1": 4.97,
+        "mean_2": 6.1
+      },
+      "D10": {
+        "delta": 0.5091,
+        "interpretation": "large",
+        "mean_1": 5.58,
+        "mean_2": 4.2
+      },
+      "D11": {
+        "delta": -0.4727,
+        "interpretation": "medium",
+        "mean_1": 5.73,
+        "mean_2": 7.1
+      },
+      "D12": {
+        "delta": 0.5545,
+        "interpretation": "large",
+        "mean_1": 7.48,
+        "mean_2": 6.1
+      }
+    },
+    "CEO_vs_Investor": {
+      "D01": {
+        "delta": 0.007,
+        "interpretation": "negligible",
+        "mean_1": 6.58,
+        "mean_2": 6.54
+      },
+      "D02": {
+        "delta": -0.1865,
+        "interpretation": "small",
+        "mean_1": 7.7,
+        "mean_2": 8.0
+      },
+      "D03": {
+        "delta": -0.324,
+        "interpretation": "small",
+        "mean_1": 5.97,
+        "mean_2": 6.46
+      },
+      "D04": {
+        "delta": 0.3077,
+        "interpretation": "small",
+        "mean_1": 6.76,
+        "mean_2": 6.0
+      },
+      "D05": {
+        "delta": -0.1119,
+        "interpretation": "negligible",
+        "mean_1": 7.88,
+        "mean_2": 8.08
+      },
+      "D06": {
+        "delta": -0.1585,
+        "interpretation": "small",
+        "mean_1": 7.7,
+        "mean_2": 8.0
+      },
+      "D07": {
+        "delta": 0.1702,
+        "interpretation": "small",
+        "mean_1": 4.88,
+        "mean_2": 4.54
+      },
+      "D08": {
+        "delta": 0.1981,
+        "interpretation": "small",
+        "mean_1": 8.15,
+        "mean_2": 7.69
+      },
+      "D09": {
+        "delta": 0.2774,
+        "interpretation": "small",
+        "mean_1": 4.97,
+        "mean_2": 4.38
+      },
+      "D10": {
+        "delta": -0.0676,
+        "interpretation": "negligible",
+        "mean_1": 5.58,
+        "mean_2": 5.69
+      },
+      "D11": {
+        "delta": 0.303,
+        "interpretation": "small",
+        "mean_1": 5.73,
+        "mean_2": 4.69
+      },
+      "D12": {
+        "delta": -0.2564,
+        "interpretation": "small",
+        "mean_1": 7.48,
+        "mean_2": 8.08
+      }
+    },
+    "CEO_vs_Gruender": {
+      "D01": {
+        "delta": 0.25,
+        "interpretation": "small",
+        "mean_1": 6.58,
+        "mean_2": 5.93
+      },
+      "D02": {
+        "delta": 0.2094,
+        "interpretation": "small",
+        "mean_1": 7.7,
+        "mean_2": 7.39
+      },
+      "D03": {
+        "delta": -0.0737,
+        "interpretation": "negligible",
+        "mean_1": 5.97,
+        "mean_2": 6.07
+      },
+      "D04": {
+        "delta": 0.1584,
+        "interpretation": "small",
+        "mean_1": 6.76,
+        "mean_2": 6.34
+      },
+      "D05": {
+        "delta": 0.1212,
+        "interpretation": "negligible",
+        "mean_1": 7.88,
+        "mean_2": 7.7
+      },
+      "D06": {
+        "delta": 0.135,
+        "interpretation": "negligible",
+        "mean_1": 7.7,
+        "mean_2": 7.43
+      },
+      "D07": {
+        "delta": 0.2287,
+        "interpretation": "small",
+        "mean_1": 4.88,
+        "mean_2": 4.48
+      },
+      "D08": {
+        "delta": 0.0702,
+        "interpretation": "negligible",
+        "mean_1": 8.15,
+        "mean_2": 7.98
+      },
+      "D09": {
+        "delta": 0.0124,
+        "interpretation": "negligible",
+        "mean_1": 4.97,
+        "mean_2": 4.91
+      },
+      "D10": {
+        "delta": 0.0606,
+        "interpretation": "negligible",
+        "mean_1": 5.58,
+        "mean_2": 5.27
+      },
+      "D11": {
+        "delta": 0.0124,
+        "interpretation": "negligible",
+        "mean_1": 5.73,
+        "mean_2": 5.7
+      },
+      "D12": {
+        "delta": 0.135,
+        "interpretation": "negligible",
+        "mean_1": 7.48,
+        "mean_2": 7.18
+      }
+    },
+    "Akademiker_vs_Investor": {
+      "D01": {
+        "delta": -0.4231,
+        "interpretation": "medium",
+        "mean_1": 5.8,
+        "mean_2": 6.54
+      },
+      "D02": {
+        "delta": -0.8769,
+        "interpretation": "large",
+        "mean_1": 6.2,
+        "mean_2": 8.0
+      },
+      "D03": {
+        "delta": -0.0462,
+        "interpretation": "negligible",
+        "mean_1": 6.4,
+        "mean_2": 6.46
+      },
+      "D04": {
+        "delta": 0.6308,
+        "interpretation": "large",
+        "mean_1": 7.4,
+        "mean_2": 6.0
+      },
+      "D05": {
+        "delta": -0.6308,
+        "interpretation": "large",
+        "mean_1": 6.8,
+        "mean_2": 8.08
+      },
+      "D06": {
+        "delta": -0.6385,
+        "interpretation": "large",
+        "mean_1": 6.1,
+        "mean_2": 8.0
+      },
+      "D07": {
+        "delta": -0.1615,
+        "interpretation": "small",
+        "mean_1": 4.0,
+        "mean_2": 4.54
+      },
+      "D08": {
+        "delta": -0.2769,
+        "interpretation": "small",
+        "mean_1": 7.1,
+        "mean_2": 7.69
+      },
+      "D09": {
+        "delta": 0.6769,
+        "interpretation": "large",
+        "mean_1": 6.1,
+        "mean_2": 4.38
+      },
+      "D10": {
+        "delta": -0.5692,
+        "interpretation": "large",
+        "mean_1": 4.2,
+        "mean_2": 5.69
+      },
+      "D11": {
+        "delta": 0.6,
+        "interpretation": "large",
+        "mean_1": 7.1,
+        "mean_2": 4.69
+      },
+      "D12": {
+        "delta": -0.7077,
+        "interpretation": "large",
+        "mean_1": 6.1,
+        "mean_2": 8.08
+      }
+    },
+    "Akademiker_vs_Gruender": {
+      "D01": {
+        "delta": -0.1659,
+        "interpretation": "small",
+        "mean_1": 5.8,
+        "mean_2": 5.93
+      },
+      "D02": {
+        "delta": -0.7,
+        "interpretation": "large",
+        "mean_1": 6.2,
+        "mean_2": 7.39
+      },
+      "D03": {
+        "delta": 0.2568,
+        "interpretation": "small",
+        "mean_1": 6.4,
+        "mean_2": 6.07
+      },
+      "D04": {
+        "delta": 0.4773,
+        "interpretation": "large",
+        "mean_1": 7.4,
+        "mean_2": 6.34
+      },
+      "D05": {
+        "delta": -0.4477,
+        "interpretation": "medium",
+        "mean_1": 6.8,
+        "mean_2": 7.7
+      },
+      "D06": {
+        "delta": -0.5227,
+        "interpretation": "large",
+        "mean_1": 6.1,
+        "mean_2": 7.43
+      },
+      "D07": {
+        "delta": -0.3727,
+        "interpretation": "medium",
+        "mean_1": 4.0,
+        "mean_2": 4.48
+      },
+      "D08": {
+        "delta": -0.3568,
+        "interpretation": "medium",
+        "mean_1": 7.1,
+        "mean_2": 7.98
+      },
+      "D09": {
+        "delta": 0.5091,
+        "interpretation": "large",
+        "mean_1": 6.1,
+        "mean_2": 4.91
+      },
+      "D10": {
+        "delta": -0.4841,
+        "interpretation": "large",
+        "mean_1": 4.2,
+        "mean_2": 5.27
+      },
+      "D11": {
+        "delta": 0.5795,
+        "interpretation": "large",
+        "mean_1": 7.1,
+        "mean_2": 5.7
+      },
+      "D12": {
+        "delta": -0.4932,
+        "interpretation": "large",
+        "mean_1": 6.1,
+        "mean_2": 7.18
+      }
+    },
+    "Investor_vs_Gruender": {
+      "D01": {
+        "delta": 0.3374,
+        "interpretation": "medium",
+        "mean_1": 6.54,
+        "mean_2": 5.93
+      },
+      "D02": {
+        "delta": 0.3899,
+        "interpretation": "medium",
+        "mean_1": 8.0,
+        "mean_2": 7.39
+      },
+      "D03": {
+        "delta": 0.2692,
+        "interpretation": "small",
+        "mean_1": 6.46,
+        "mean_2": 6.07
+      },
+      "D04": {
+        "delta": -0.1626,
+        "interpretation": "small",
+        "mean_1": 6.0,
+        "mean_2": 6.34
+      },
+      "D05": {
+        "delta": 0.25,
+        "interpretation": "small",
+        "mean_1": 8.08,
+        "mean_2": 7.7
+      },
+      "D06": {
+        "delta": 0.2867,
+        "interpretation": "small",
+        "mean_1": 8.0,
+        "mean_2": 7.43
+      },
+      "D07": {
+        "delta": -0.0192,
+        "interpretation": "negligible",
+        "mean_1": 4.54,
+        "mean_2": 4.48
+      },
+      "D08": {
+        "delta": -0.1399,
+        "interpretation": "negligible",
+        "mean_1": 7.69,
+        "mean_2": 7.98
+      },
+      "D09": {
+        "delta": -0.292,
+        "interpretation": "small",
+        "mean_1": 4.38,
+        "mean_2": 4.91
+      },
+      "D10": {
+        "delta": 0.1136,
+        "interpretation": "negligible",
+        "mean_1": 5.69,
+        "mean_2": 5.27
+      },
+      "D11": {
+        "delta": -0.3252,
+        "interpretation": "small",
+        "mean_1": 4.69,
+        "mean_2": 5.7
+      },
+      "D12": {
+        "delta": 0.3811,
+        "interpretation": "medium",
+        "mean_1": 8.08,
+        "mean_2": 7.18
+      }
+    }
+  },
+  "cliffs_delta_gender": {
+    "D01": {
+      "delta": -0.1711,
+      "interpretation": "small",
+      "mean_frauen": 5.86,
+      "mean_maenner": 6.27
+    },
+    "D02": {
+      "delta": -0.3787,
+      "interpretation": "medium",
+      "mean_frauen": 6.93,
+      "mean_maenner": 7.53
+    },
+    "D03": {
+      "delta": 0.1395,
+      "interpretation": "negligible",
+      "mean_frauen": 6.29,
+      "mean_maenner": 6.09
+    },
+    "D04": {
+      "delta": 0.3447,
+      "interpretation": "medium",
+      "mean_frauen": 7.14,
+      "mean_maenner": 6.44
+    },
+    "D05": {
+      "delta": -0.4992,
+      "interpretation": "large",
+      "mean_frauen": 7.0,
+      "mean_maenner": 7.84
+    },
+    "D06": {
+      "delta": -0.1121,
+      "interpretation": "negligible",
+      "mean_frauen": 7.36,
+      "mean_maenner": 7.48
+    },
+    "D07": {
+      "delta": -0.1678,
+      "interpretation": "small",
+      "mean_frauen": 4.29,
+      "mean_maenner": 4.62
+    },
+    "D08": {
+      "delta": -0.392,
+      "interpretation": "medium",
+      "mean_frauen": 7.14,
+      "mean_maenner": 8.03
+    },
+    "D09": {
+      "delta": 0.588,
+      "interpretation": "large",
+      "mean_frauen": 5.86,
+      "mean_maenner": 4.84
+    },
+    "D10": {
+      "delta": -0.3829,
+      "interpretation": "medium",
+      "mean_frauen": 4.71,
+      "mean_maenner": 5.42
+    },
+    "D11": {
+      "delta": 0.4551,
+      "interpretation": "medium",
+      "mean_frauen": 6.86,
+      "mean_maenner": 5.53
+    },
+    "D12": {
+      "delta": 0.0066,
+      "interpretation": "negligible",
+      "mean_frauen": 7.29,
+      "mean_maenner": 7.29
+    }
+  },
+  "kruskal_wallis_clusters": {
+    "D01": {
+      "H_statistic": 2.59,
+      "p_value": 0.459242,
+      "significant_005": false,
+      "significant_001": false
+    },
+    "D02": {
+      "H_statistic": 33.553,
+      "p_value": 0.0,
+      "significant_005": true,
+      "significant_001": true
+    },
+    "D03": {
+      "H_statistic": 3.747,
+      "p_value": 0.290129,
+      "significant_005": false,
+      "significant_001": false
+    },
+    "D04": {
+      "H_statistic": 10.76,
+      "p_value": 0.013098,
+      "significant_005": true,
+      "significant_001": false
+    },
+    "D05": {
+      "H_statistic": 11.213,
+      "p_value": 0.010626,
+      "significant_005": true,
+      "significant_001": false
+    },
+    "D06": {
+      "H_statistic": 29.549,
+      "p_value": 2e-06,
+      "significant_005": true,
+      "significant_001": true
+    },
+    "D07": {
+      "H_statistic": 64.762,
+      "p_value": 0.0,
+      "significant_005": true,
+      "significant_001": true
+    },
+    "D08": {
+      "H_statistic": 6.253,
+      "p_value": 0.099927,
+      "significant_005": false,
+      "significant_001": false
+    },
+    "D09": {
+      "H_statistic": 17.495,
+      "p_value": 0.000559,
+      "significant_005": true,
+      "significant_001": true
+    },
+    "D10": {
+      "H_statistic": 4.044,
+      "p_value": 0.256705,
+      "significant_005": false,
+      "significant_001": false
+    },
+    "D11": {
+      "H_statistic": 49.567,
+      "p_value": 0.0,
+      "significant_005": true,
+      "significant_001": true
+    },
+    "D12": {
+      "H_statistic": 17.934,
+      "p_value": 0.000454,
+      "significant_005": true,
+      "significant_001": true
+    }
+  },
+  "mann_whitney_gender": {
+    "D01": {
+      "U_statistic": 499.0,
+      "p_value": 0.291431,
+      "significant_005": false
+    },
+    "D02": {
+      "U_statistic": 374.0,
+      "p_value": 0.015939,
+      "significant_005": true
+    },
+    "D03": {
+      "U_statistic": 686.0,
+      "p_value": 0.370306,
+      "significant_005": false
+    },
+    "D04": {
+      "U_statistic": 809.5,
+      "p_value": 0.034224,
+      "significant_005": true
+    },
+    "D05": {
+      "U_statistic": 301.5,
+      "p_value": 0.001524,
+      "significant_005": true
+    },
+    "D06": {
+      "U_statistic": 534.5,
+      "p_value": 0.484524,
+      "significant_005": false
+    },
+    "D07": {
+      "U_statistic": 501.0,
+      "p_value": 0.292811,
+      "significant_005": false
+    },
+    "D08": {
+      "U_statistic": 366.0,
+      "p_value": 0.016245,
+      "significant_005": true
+    },
+    "D09": {
+      "U_statistic": 956.0,
+      "p_value": 0.000244,
+      "significant_005": true
+    },
+    "D10": {
+      "U_statistic": 371.5,
+      "p_value": 0.015479,
+      "significant_005": true
+    },
+    "D11": {
+      "U_statistic": 876.0,
+      "p_value": 0.005782,
+      "significant_005": true
+    },
+    "D12": {
+      "U_statistic": 606.0,
+      "p_value": 0.971004,
+      "significant_005": false
+    }
+  },
+  "descriptive_statistics": {
+    "D01": {
+      "label": "Sendungsbewusstsein",
+      "mean": 6.21,
+      "median": 6.0,
+      "std": 1.149,
+      "var": 1.319,
+      "min": 4,
+      "max": 10,
+      "range": 6,
+      "Q1": 5.0,
+      "Q3": 7.0,
+      "IQR": 2.0,
+      "skewness": 0.428,
+      "kurtosis": 0.159
+    },
+    "D02": {
+      "label": "Kontrollueberzeugung",
+      "mean": 7.45,
+      "median": 7.0,
+      "std": 0.892,
+      "var": 0.795,
+      "min": 4,
+      "max": 9,
+      "range": 5,
+      "Q1": 7.0,
+      "Q3": 8.0,
+      "IQR": 1.0,
+      "skewness": -0.493,
+      "kurtosis": 1.083
+    },
+    "D03": {
+      "label": "Zugehoerigkeitsgefuehl",
+      "mean": 6.12,
+      "median": 6.0,
+      "std": 0.742,
+      "var": 0.551,
+      "min": 5,
+      "max": 8,
+      "range": 3,
+      "Q1": 6.0,
+      "Q3": 7.0,
+      "IQR": 1.0,
+      "skewness": -0.045,
+      "kurtosis": -0.845
+    },
+    "D04": {
+      "label": "Verantwortungsgefuehl",
+      "mean": 6.54,
+      "median": 6.0,
+      "std": 1.251,
+      "var": 1.564,
+      "min": 4,
+      "max": 9,
+      "range": 5,
+      "Q1": 6.0,
+      "Q3": 7.0,
+      "IQR": 1.0,
+      "skewness": 0.142,
+      "kurtosis": -0.542
+    },
+    "D05": {
+      "label": "Technologie-Determinismus",
+      "mean": 7.72,
+      "median": 8.0,
+      "std": 0.9,
+      "var": 0.81,
+      "min": 5,
+      "max": 9,
+      "range": 4,
+      "Q1": 7.0,
+      "Q3": 8.0,
+      "IQR": 1.0,
+      "skewness": -0.508,
+      "kurtosis": 0.312
+    },
+    "D06": {
+      "label": "Fortschrittsoptimismus",
+      "mean": 7.46,
+      "median": 8.0,
+      "std": 1.114,
+      "var": 1.241,
+      "min": 4,
+      "max": 10,
+      "range": 6,
+      "Q1": 7.0,
+      "Q3": 8.0,
+      "IQR": 1.0,
+      "skewness": -0.582,
+      "kurtosis": 0.959
+    },
+    "D07": {
+      "label": "Machtkonzentration",
+      "mean": 4.57,
+      "median": 5.0,
+      "std": 1.037,
+      "var": 1.076,
+      "min": 2,
+      "max": 7,
+      "range": 5,
+      "Q1": 4.0,
+      "Q3": 5.0,
+      "IQR": 1.0,
+      "skewness": 0.222,
+      "kurtosis": 0.255
+    },
+    "D08": {
+      "label": "Dringlichkeit",
+      "mean": 7.91,
+      "median": 8.0,
+      "std": 1.232,
+      "var": 1.517,
+      "min": 5,
+      "max": 10,
+      "range": 5,
+      "Q1": 7.0,
+      "Q3": 9.0,
+      "IQR": 2.0,
+      "skewness": -0.089,
+      "kurtosis": -0.793
+    },
+    "D09": {
+      "label": "Menschliche Einzigartigkeit",
+      "mean": 4.98,
+      "median": 5.0,
+      "std": 1.063,
+      "var": 1.131,
+      "min": 3,
+      "max": 8,
+      "range": 5,
+      "Q1": 4.0,
+      "Q3": 6.0,
+      "IQR": 2.0,
+      "skewness": 0.394,
+      "kurtosis": 0.123
+    },
+    "D10": {
+      "label": "Transhumanismus",
+      "mean": 5.32,
+      "median": 5.0,
+      "std": 1.162,
+      "var": 1.351,
+      "min": 2,
+      "max": 9,
+      "range": 7,
+      "Q1": 5.0,
+      "Q3": 6.0,
+      "IQR": 1.0,
+      "skewness": 0.636,
+      "kurtosis": 1.532
+    },
+    "D11": {
+      "label": "Egalitarismus",
+      "mean": 5.72,
+      "median": 6.0,
+      "std": 1.67,
+      "var": 2.789,
+      "min": 2,
+      "max": 9,
+      "range": 7,
+      "Q1": 5.0,
+      "Q3": 7.0,
+      "IQR": 2.0,
+      "skewness": -0.218,
+      "kurtosis": -0.569
+    },
+    "D12": {
+      "label": "Zukunft der Menschheit",
+      "mean": 7.29,
+      "median": 7.0,
+      "std": 1.113,
+      "var": 1.238,
+      "min": 4,
+      "max": 10,
+      "range": 6,
+      "Q1": 7.0,
+      "Q3": 8.0,
+      "IQR": 1.0,
+      "skewness": -0.06,
+      "kurtosis": 0.392
+    }
+  },
+  "group_assignments": {
+    "roles": {
+      "P1": "CEO",
+      "P2": "CEO",
+      "P3": "CEO",
+      "P4": "CEO",
+      "P5": "CEO",
+      "P6": "Investor",
+      "P7": "Investor",
+      "P8": "Investor",
+      "P9": "CEO",
+      "P10": "Investor",
+      "P11": "CEO",
+      "P12": "CEO",
+      "P13": "CEO",
+      "P14": "CEO",
+      "P15": "CEO",
+      "P16": "CEO",
+      "P17": "Gruender",
+      "P18": "Akademiker",
+      "P19": "Gruender",
+      "P20": "Gruender",
+      "P21": "Akademiker",
+      "P22": "Akademiker",
+      "P23": "CEO",
+      "P24": "Investor",
+      "P25": "Investor",
+      "P26": "CEO",
+      "P27": "CEO",
+      "P28": "Gruender",
+      "P29": "CEO",
+      "P30": "Gruender",
+      "P31": "Investor",
+      "P32": "Investor",
+      "P33": "Gruender",
+      "P34": "CEO",
+      "P35": "CEO",
+      "P36": "Investor",
+      "P37": "Gruender",
+      "P38": "CEO",
+      "P39": "CEO",
+      "P40": "CEO",
+      "P41": "Gruender",
+      "P42": "CEO",
+      "P43": "Gruender",
+      "P44": "Gruender",
+      "P45": "Gruender",
+      "P46": "CEO",
+      "P47": "Gruender",
+      "P48": "CEO",
+      "P49": "Investor",
+      "P50": "Investor",
+      "P51": "Gruender",
+      "P52": "Gruender",
+      "P53": "Gruender",
+      "P54": "Gruender",
+      "P55": "Gruender",
+      "P56": "Gruender",
+      "P57": "Akademiker",
+      "P58": "Akademiker",
+      "P59": "Akademiker",
+      "P60": "Akademiker",
+      "P61": "Akademiker",
+      "P62": "Akademiker",
+      "P63": "CEO",
+      "P64": "CEO",
+      "P65": "Gruender",
+      "P66": "Gruender",
+      "P67": "Gruender",
+      "P68": "Gruender",
+      "P69": "Gruender",
+      "P70": "Gruender",
+      "P71": "Gruender",
+      "P72": "Gruender",
+      "P73": "Gruender",
+      "P74": "Gruender",
+      "P75": "Gruender",
+      "P76": "Gruender",
+      "P77": "Gruender",
+      "P78": "Gruender",
+      "P79": "Gruender",
+      "P80": "CEO",
+      "P81": "Gruender",
+      "P82": "Investor",
+      "P83": "Gruender",
+      "P84": "CEO",
+      "P85": "CEO",
+      "P86": "Gruender",
+      "P87": "Gruender",
+      "P88": "Gruender",
+      "P89": "Gruender",
+      "P90": "Gruender",
+      "P91": "Gruender",
+      "P92": "Gruender",
+      "P93": "CEO",
+      "P94": "CEO",
+      "P95": "CEO",
+      "P96": "CEO",
+      "P97": "Gruender",
+      "P98": "Investor",
+      "P99": "Akademiker",
+      "P100": "Gruender"
+    },
+    "gender": {
+      "P1": "Mann",
+      "P2": "Mann",
+      "P3": "Mann",
+      "P4": "Mann",
+      "P5": "Mann",
+      "P6": "Mann",
+      "P7": "Mann",
+      "P8": "Mann",
+      "P9": "Mann",
+      "P10": "Mann",
+      "P11": "Mann",
+      "P12": "Mann",
+      "P13": "Mann",
+      "P14": "Frau",
+      "P15": "Mann",
+      "P16": "Mann",
+      "P17": "Frau",
+      "P18": "Frau",
+      "P19": "Mann",
+      "P20": "Mann",
+      "P21": "Mann",
+      "P22": "Mann",
+      "P23": "Mann",
+      "P24": "Mann",
+      "P25": "Mann",
+      "P26": "Frau",
+      "P27": "Mann",
+      "P28": "Mann",
+      "P29": "Mann",
+      "P30": "Mann",
+      "P31": "Mann",
+      "P32": "Mann",
+      "P33": "Frau",
+      "P34": "Mann",
+      "P35": "Mann",
+      "P36": "Mann",
+      "P37": "Mann",
+      "P38": "Mann",
+      "P39": "Mann",
+      "P40": "Mann",
+      "P41": "Mann",
+      "P42": "Mann",
+      "P43": "Mann",
+      "P44": "Mann",
+      "P45": "Mann",
+      "P46": "Mann",
+      "P47": "Mann",
+      "P48": "Frau",
+      "P49": "Mann",
+      "P50": "Mann",
+      "P51": "Mann",
+      "P52": "Mann",
+      "P53": "Mann",
+      "P54": "Mann",
+      "P55": "Mann",
+      "P56": "Mann",
+      "P57": "Mann",
+      "P58": "Mann",
+      "P59": "Frau",
+      "P60": "Mann",
+      "P61": "Mann",
+      "P62": "Mann",
+      "P63": "Mann",
+      "P64": "Mann",
+      "P65": "Mann",
+      "P66": "Mann",
+      "P67": "Mann",
+      "P68": "Mann",
+      "P69": "Frau",
+      "P70": "Mann",
+      "P71": "Mann",
+      "P72": "Mann",
+      "P73": "Mann",
+      "P74": "Mann",
+      "P75": "Mann",
+      "P76": "Mann",
+      "P77": "Mann",
+      "P78": "Mann",
+      "P79": "Mann",
+      "P80": "Frau",
+      "P81": "Mann",
+      "P82": "Mann",
+      "P83": "Frau",
+      "P84": "Mann",
+      "P85": "Mann",
+      "P86": "Frau",
+      "P87": "Frau",
+      "P88": "Mann",
+      "P89": "Mann",
+      "P90": "Frau",
+      "P91": "Mann",
+      "P92": "Mann",
+      "P93": "Mann",
+      "P94": "Mann",
+      "P95": "Mann",
+      "P96": "Mann",
+      "P97": "Mann",
+      "P98": "Mann",
+      "P99": "Frau",
+      "P100": "Mann"
+    },
+    "role_sizes": {
+      "CEO": 33,
+      "Akademiker": 10,
+      "Investor": 13,
+      "Gruender": 44
+    },
+    "gender_sizes": {
+      "Frauen": 14,
+      "Maenner": 86
+    },
+    "frauen_pids": [
+      "P14",
+      "P17",
+      "P18",
+      "P26",
+      "P33",
+      "P48",
+      "P59",
+      "P69",
+      "P80",
+      "P83",
+      "P86",
+      "P87",
+      "P90",
+      "P99"
+    ]
+  }
+}

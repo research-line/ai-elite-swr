@@ -1,0 +1,479 @@
+{
+  "method": "HDBSCAN",
+  "best_params": {
+    "min_cluster_size": 5,
+    "min_samples": 3
+  },
+  "n_clusters": 2,
+  "n_noise": 80,
+  "noise_pct": 80.0,
+  "silhouette": -0.152,
+  "all_results": [
+    {
+      "min_cluster_size": 5,
+      "min_samples": 3,
+      "n_clusters": 2,
+      "n_noise": 80,
+      "noise_pct": 80.0,
+      "silhouette": -0.152
+    },
+    {
+      "min_cluster_size": 5,
+      "min_samples": 5,
+      "n_clusters": 2,
+      "n_noise": 82,
+      "noise_pct": 82.0,
+      "silhouette": -0.171
+    },
+    {
+      "min_cluster_size": 8,
+      "min_samples": 3,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": "N/A"
+    },
+    {
+      "min_cluster_size": 8,
+      "min_samples": 5,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": "N/A"
+    },
+    {
+      "min_cluster_size": 10,
+      "min_samples": 3,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": "N/A"
+    },
+    {
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": "N/A"
+    },
+    {
+      "min_cluster_size": 15,
+      "min_samples": 3,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": "N/A"
+    },
+    {
+      "min_cluster_size": 15,
+      "min_samples": 5,
+      "n_clusters": 0,
+      "n_noise": 100,
+      "noise_pct": 100.0,
+      "silhouette": "N/A"
+    }
+  ],
+  "cluster_assignments": {
+    "P1": {
+      "name": "Victor Liang",
+      "cluster": -1
+    },
+    "P2": {
+      "name": "Nathan Calloway",
+      "cluster": -1
+    },
+    "P3": {
+      "name": "Viktor Stellaris",
+      "cluster": -1
+    },
+    "P4": {
+      "name": "Arjun Vaidyanathan",
+      "cluster": 1
+    },
+    "P5": {
+      "name": "Adrian Velker",
+      "cluster": -1
+    },
+    "P6": {
+      "name": "Markus Lindgren",
+      "cluster": -1
+    },
+    "P7": {
+      "name": "Marcus Severin",
+      "cluster": -1
+    },
+    "P8": {
+      "name": "Viktor Leonidov",
+      "cluster": -1
+    },
+    "P9": {
+      "name": "Adrian Langner",
+      "cluster": -1
+    },
+    "P10": {
+      "name": "Marcus Thornfield",
+      "cluster": -1
+    },
+    "P11": {
+      "name": "Arvind Kapur",
+      "cluster": -1
+    },
+    "P12": {
+      "name": "Viktor Rosen",
+      "cluster": -1
+    },
+    "P13": {
+      "name": "Thomas Reinhardt",
+      "cluster": 1
+    },
+    "P14": {
+      "name": "Helena Mertens",
+      "cluster": -1
+    },
+    "P15": {
+      "name": "Markus Brenner",
+      "cluster": -1
+    },
+    "P16": {
+      "name": "Viktor Tanaka",
+      "cluster": -1
+    },
+    "P17": {
+      "name": "Miriam Feldhaus",
+      "cluster": -1
+    },
+    "P18": {
+      "name": "Vera Nordstroem",
+      "cluster": -1
+    },
+    "P19": {
+      "name": "Thomas Richter",
+      "cluster": 1
+    },
+    "P20": {
+      "name": "Mathieu Delacroix",
+      "cluster": -1
+    },
+    "P21": {
+      "name": "Thomas Reinhardt",
+      "cluster": -1
+    },
+    "P22": {
+      "name": "Marcus Takeda",
+      "cluster": -1
+    },
+    "P23": {
+      "name": "Matthias Bergmann",
+      "cluster": -1
+    },
+    "P24": {
+      "name": "Robert Metzinger",
+      "cluster": -1
+    },
+    "P25": {
+      "name": "Maximilian Freiherr",
+      "cluster": -1
+    },
+    "P26": {
+      "name": "Miriam Koller",
+      "cluster": 1
+    },
+    "P27": {
+      "name": "Marcus Wendling",
+      "cluster": -1
+    },
+    "P28": {
+      "name": "Martin Severin",
+      "cluster": -1
+    },
+    "P29": {
+      "name": "Marcus Chen",
+      "cluster": -1
+    },
+    "P30": {
+      "name": "Marcus Volger",
+      "cluster": -1
+    },
+    "P31": {
+      "name": "Martin Weiland",
+      "cluster": -1
+    },
+    "P32": {
+      "name": "Rajiv Mehta",
+      "cluster": -1
+    },
+    "P33": {
+      "name": "Asha Patel",
+      "cluster": -1
+    },
+    "P34": {
+      "name": "Elias Vondermann",
+      "cluster": -1
+    },
+    "P35": {
+      "name": "Arun Mehta",
+      "cluster": -1
+    },
+    "P36": {
+      "name": "Marcus Thorne",
+      "cluster": -1
+    },
+    "P37": {
+      "name": "Marcus Brennan",
+      "cluster": 0
+    },
+    "P38": {
+      "name": "Marcus Reinhardt",
+      "cluster": -1
+    },
+    "P39": {
+      "name": "Marcus Holt",
+      "cluster": -1
+    },
+    "P40": {
+      "name": "Daniel Kovac",
+      "cluster": 1
+    },
+    "P41": {
+      "name": "Michael Sorensen",
+      "cluster": 1
+    },
+    "P42": {
+      "name": "Marcus Chen",
+      "cluster": -1
+    },
+    "P43": {
+      "name": "Marcus Vance",
+      "cluster": -1
+    },
+    "P44": {
+      "name": "Jakub Kowalski",
+      "cluster": -1
+    },
+    "P45": {
+      "name": "Marcus Chen (Research)",
+      "cluster": -1
+    },
+    "P46": {
+      "name": "Marcus Reinhardt",
+      "cluster": -1
+    },
+    "P47": {
+      "name": "Sebastian Mertens",
+      "cluster": -1
+    },
+    "P48": {
+      "name": "Clara Montfort",
+      "cluster": -1
+    },
+    "P49": {
+      "name": "Marcus Talbot",
+      "cluster": -1
+    },
+    "P50": {
+      "name": "Marcus Hartwell",
+      "cluster": -1
+    },
+    "P51": {
+      "name": "Marcus Wendt",
+      "cluster": -1
+    },
+    "P52": {
+      "name": "Daniel Eschbach",
+      "cluster": -1
+    },
+    "P53": {
+      "name": "Thomas Brenner",
+      "cluster": -1
+    },
+    "P54": {
+      "name": "Daniel Freund",
+      "cluster": -1
+    },
+    "P55": {
+      "name": "Marcus Hardt",
+      "cluster": -1
+    },
+    "P56": {
+      "name": "Marcus Weinberg",
+      "cluster": 1
+    },
+    "P57": {
+      "name": "Michael Brenner",
+      "cluster": -1
+    },
+    "P58": {
+      "name": "Marcus Thalberg",
+      "cluster": 1
+    },
+    "P59": {
+      "name": "Sophia Bernhardt",
+      "cluster": -1
+    },
+    "P60": {
+      "name": "Matthias Kornelius",
+      "cluster": -1
+    },
+    "P61": {
+      "name": "Dr. Matthias Siebert",
+      "cluster": 1
+    },
+    "P62": {
+      "name": "Emile Marchand",
+      "cluster": -1
+    },
+    "P63": {
+      "name": "Marcus Steinfeld",
+      "cluster": 0
+    },
+    "P64": {
+      "name": "Leonard Chen",
+      "cluster": -1
+    },
+    "P65": {
+      "name": "Jakob Weissmann",
+      "cluster": -1
+    },
+    "P66": {
+      "name": "Viktor Sokolow",
+      "cluster": -1
+    },
+    "P67": {
+      "name": "Lukas Turing",
+      "cluster": -1
+    },
+    "P68": {
+      "name": "Lukas Oshiro",
+      "cluster": -1
+    },
+    "P69": {
+      "name": "Mira Vaswani",
+      "cluster": -1
+    },
+    "P70": {
+      "name": "Marcus Keller",
+      "cluster": -1
+    },
+    "P71": {
+      "name": "David Teicher",
+      "cluster": 1
+    },
+    "P72": {
+      "name": "Viktor Mendel",
+      "cluster": -1
+    },
+    "P73": {
+      "name": "Jan Kowalski",
+      "cluster": -1
+    },
+    "P74": {
+      "name": "Marcus Brennan (Mercor)",
+      "cluster": 0
+    },
+    "P75": {
+      "name": "Brendan Keller",
+      "cluster": 0
+    },
+    "P76": {
+      "name": "Marcus Brennan (COO)",
+      "cluster": 0
+    },
+    "P77": {
+      "name": "Marcus Weidner",
+      "cluster": -1
+    },
+    "P78": {
+      "name": "Max Steiner",
+      "cluster": -1
+    },
+    "P79": {
+      "name": "Naveed Rafiq",
+      "cluster": -1
+    },
+    "P80": {
+      "name": "Maya Kowalski",
+      "cluster": -1
+    },
+    "P81": {
+      "name": "Marcus Brenner",
+      "cluster": 1
+    },
+    "P82": {
+      "name": "Martin Siebert",
+      "cluster": -1
+    },
+    "P83": {
+      "name": "Elena Bergstroem",
+      "cluster": 1
+    },
+    "P84": {
+      "name": "Marcus Thornfield",
+      "cluster": -1
+    },
+    "P85": {
+      "name": "Marcus Reinhardt",
+      "cluster": -1
+    },
+    "P86": {
+      "name": "Priya Varma",
+      "cluster": -1
+    },
+    "P87": {
+      "name": "Mira Daniels",
+      "cluster": -1
+    },
+    "P88": {
+      "name": "Markus Wegener",
+      "cluster": -1
+    },
+    "P89": {
+      "name": "Marcus Keller",
+      "cluster": 1
+    },
+    "P90": {
+      "name": "Maya Winters",
+      "cluster": -1
+    },
+    "P91": {
+      "name": "Michael Tran",
+      "cluster": -1
+    },
+    "P92": {
+      "name": "Soumith Rajan",
+      "cluster": -1
+    },
+    "P93": {
+      "name": "Marcus Thornhill",
+      "cluster": -1
+    },
+    "P94": {
+      "name": "Marcus Brenner",
+      "cluster": -1
+    },
+    "P95": {
+      "name": "Tariq Mansouri",
+      "cluster": -1
+    },
+    "P96": {
+      "name": "Marcus Hofer",
+      "cluster": -1
+    },
+    "P97": {
+      "name": "Erik Lindstroem",
+      "cluster": 1
+    },
+    "P98": {
+      "name": "Marcus Brennwald",
+      "cluster": -1
+    },
+    "P99": {
+      "name": "Mira Kovalenko",
+      "cluster": 1
+    },
+    "P100": {
+      "name": "Michael Kraemer",
+      "cluster": -1
+    }
+  }
+}

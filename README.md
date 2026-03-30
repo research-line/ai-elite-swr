@@ -1,147 +1,123 @@
-# What Does the AI Elite Think?
+# Synthetic Worldview Reconstruction (SWR) — Applied to the AI Elite
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18736737.svg)](https://doi.org/10.5281/zenodo.18736737)
+[![DOI Paper A](https://zenodo.org/badge/DOI/10.5281/zenodo.18736737.svg)](https://doi.org/10.5281/zenodo.18736737)
+[![DOI Paper B](https://zenodo.org/badge/DOI/10.5281/zenodo.18736720.svg)](https://doi.org/10.5281/zenodo.18736720)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-An LLM-based worldview reconstruction of the 100 most influential AI leaders (2010--2026), using the Synthetic Worldview Reconstruction (SWR) method.
+## What is this?
 
-> **Was denkt die KI-Elite?** Eine LLM-gestuetzte Weltbild-Rekonstruktion der 100 einflussreichsten KI-Akteure (2010--2026).
+This repository contains two companion papers:
 
-## Overview
+- **Paper A (AI Elite):** *What Does the AI Elite Think?* — An application study that reconstructs and compares the collective worldviews of 15 sociologically defined groups within the 100 most influential AI actors (2010–2026).
+- **Paper B (SWR):** *Synthetic Worldview Reconstruction* — A methods paper that describes the general method used in Paper A: using LLMs' synthetic integration capability to derive collective worldviews for societal groups.
 
-This repository contains the data collection pipeline, analysis scripts, and preprint for a study that reconstructs the latent worldviews of 100 top AI actors (Altman, Hassabis, Musk, Zuckerberg, et al.) across 12 semantic dimensions -- from *Transhumanism* and *Accelerationism* to *Safetyism* and *Spirituality*.
+**Paper A applies the method. Paper B describes it.**
 
-### Method: Synthetic Worldview Reconstruction (SWR)
+## The Core Idea
 
-The SWR method uses LLMs as analytical instruments to systematically process publicly available statements into coherent worldview profiles. Each actor is rated on 12 dimensions (1--10 scale), enabling quantitative comparison across the full sample.
+SWR exploits a specific capability of Large Language Models: their ability to compose heterogeneous textual fragments into coherent wholes. When you feed an LLM the aggregated public statements and documented actions of a sociological group's members, it can synthesize the group's *collective worldview* — a latent belief system that has never been explicitly articulated anywhere.
 
-The methodological foundation is described in a companion paper:
+This works better at the **group level** than at the individual level, because:
+- A group's collective worldview doesn't exist in any training corpus (reduced contamination risk)
+- The method creates something genuinely new rather than potentially reproducing stored knowledge
+- Inter-group comparison — the method's primary analytical tool — reveals structural differences in how groups see the world
 
-> **Geiger, L.** (2026). *Synthetic Worldview Reconstruction (SWR): An LLM-Based Method for Systematic Worldview Analysis.* Zenodo. [https://doi.org/10.5281/zenodo.18736720](https://doi.org/10.5281/zenodo.18736720)
+## Key Findings (Paper A)
 
-### Key Findings
+| Finding | Detail |
+|---------|--------|
+| **Collective worldview** | Technological messianism with ambivalence (avg. 7.1/10) |
+| **Temporal shift** | Utopian certainty eroding; tragic acceleration compulsion |
+| **Say-do gap** | Systematic: egalitarianism Δ = −3 (say equality, act elite) |
+| **4 worldview types** | Architect, Guardian, Innovator, Liberator (Weberian ideal types) |
+| **Power paradox** | Most extreme worldviews control the most resources |
 
-- **4 actor clusters**: Architects (n=35), Guardians (n=25), Liberators (n=22), Accelerationists (n=18)
-- **12 semantic dimensions**: Transhumanism, AI Autonomy, Safety Orientation, Acceleration Pressure, Regulation Preference, Power Concentration, Economic Disruption, Urgency, Anthropocentrism, Spirituality, Gender Equity, Techno-Optimism
-- **7 visualizations**: Temporal trends, heatmaps, radar charts, correlation matrices, cluster comparisons
-- **Temporal analysis**: Systematic tracking of worldview shifts across 2010--2026
+## Validation Status
 
-## Scientific Papers
+| Test | Result |
+|------|--------|
+| Run convergence (test-retest) | ICC = 0.902 (excellent) |
+| Cross-modal prediction | 88% of statement-based predictions confirmed by real actions |
+| Expected-discrepancy control | No artifactual say-do gap (control MAE = 0.50 vs. real 1.25) |
+| Aggregation-synthesis comparison | r = 0.623 with systematic amplification effect |
+| PCA | 5 components, 80% variance explained |
+| HDBSCAN | No natural clusters (confirms Weberian ideal types) |
+| Kruskal-Wallis | 6/12 dimensions p < .001 across types |
 
-The preprint is available in English, German, and a combined bilingual edition:
-
-- [`paper/KI_Elite_v2_en.pdf`](paper/KI_Elite_v2_en.pdf) -- English
-- [`paper/KI_Elite_v2_ger.pdf`](paper/KI_Elite_v2_ger.pdf) -- German
-- [`paper/KI_Elite_v2_kombi.pdf`](paper/KI_Elite_v2_kombi.pdf) -- Bilingual (DE+EN)
-
-## Project Structure
+## Repository Structure
 
 ```
-paper/                          # Preprint (EN + DE + Kombi, .tex + .pdf)
-_data/                          # Data collection & analysis pipeline
-  create_db.py                  # SQLite database schema (6 tables, 4 views)
-  update_db_v2.py               # Schema migration (v1 -> v2)
-  collect_*.py                  # 56 data collection scripts (one per actor)
-  insert_*.py                   # 29 additional actor insertion scripts
-  kodierung_*.py                # 12 qualitative coding scripts (P01-P100)
-  extract_blinded.py            # Blinded data extraction for validation
-  generate_topf.py              # Synthesis unit ("Topf") generation
-  fix_tonalitaet.py             # Tonality correction
-  kodierung_nachtrag.py         # Supplementary coding
-  visualisierungen.py           # Figure generation (fig1-fig7)
-  zeitreihen_analyse.py         # Temporal trend analysis
-_results/                       # Analysis outputs
-  figures/                      # 7 figures (PNG + SVG)
-  toepfe/                       # Synthesis units by group/time period
-  synthesen/                    # Individual and collective worldview syntheses
-  Phase*.md                     # Analysis phase documentation
-  Codier_Leitfaden.md           # Coding manual
-  Forschungsdesign_*.md         # Research design documentation
-README.md
-LICENSE                         # CC-BY 4.0
+paper_A/            AI Elite papers (EN + DE, .tex + .pdf)
+paper_B/            SWR method papers (EN + DE, .tex + .pdf)
+_data/              Data collection pipeline
+  85 actor-specific collect/insert scripts
+  generate_topf.py  — Synthesis unit generator
+  extract_blinded.py — Focus control (blinding) script
+  create_db.py      — Database schema
+_results_A/         Analysis outputs for Paper A
+  figures/          7 figures (PNG + SVG)
+  toepfe/           54 synthesis units (blinded data corpora)
+  synthesen/        Group syntheses + ratings
+  G5_BERICHT.md     — Cross-modal prediction results
+  G8_BERICHT.md     — Aggregation comparison results
+  *.json            — Statistical analysis outputs
 ```
 
-## Reproducibility
+## Data
 
-### Database Setup
+- **3,132 data points** (1,738 statements + 1,394 actions)
+- **100 AI actors**, organized into **15 sociological groups**
+- Time period: 2010–2026
+- Storage: SQLite database (rebuild with `create_db.py` + insert scripts)
 
-The SQLite database schema can be recreated from the provided scripts:
+## How to Reproduce
 
 ```bash
-cd _data
-python create_db.py             # Creates aussagen_top100.db with schema + master data
-python update_db_v2.py          # Applies v2 schema migration
+# 1. Rebuild database
+cd _data && python create_db.py
+
+# 2. Run insert scripts (requires the collect scripts to have run first)
+python insert_*.py
+
+# 3. Generate synthesis units
+python generate_topf.py --all
+
+# 4. Compile papers
+cd ../paper_A && pdflatex KI_Elite_v2_en.tex && pdflatex KI_Elite_v2_en.tex
+cd ../paper_B && pdflatex SWR_v2_en.tex && pdflatex SWR_v2_en.tex
 ```
-
-### Data Collection
-
-Each `collect_*.py` and `insert_*.py` script populates the database with statements from one AI actor. Scripts contain the collected statements as structured data.
-
-```bash
-python collect_altman.py        # Example: Sam Altman (767 lines, ~50 statements)
-python collect_hassabis.py      # Example: Demis Hassabis
-# ... (85 actor scripts total)
-```
-
-### Analysis Pipeline
-
-```bash
-python kodierung_P01-P10.py     # Qualitative coding (12 dimensions, 1-10 scale)
-# ... (10 coding batches, P01-P100)
-python generate_topf.py         # Generate synthesis units
-python visualisierungen.py      # Generate figures (fig1-fig7)
-python zeitreihen_analyse.py    # Temporal trend analysis
-```
-
-## The 12 Semantic Dimensions
-
-| Code | Dimension | Poles (1 = low, 10 = high) |
-|------|-----------|---------------------------|
-| D01 | Transhumanism | Human-centric -- Post-human |
-| D02 | AI Autonomy | Tool -- Agent |
-| D03 | Safety Orientation | Move fast -- Safety first |
-| D04 | Acceleration Pressure | Gradual -- Full speed |
-| D05 | Regulation Preference | Deregulate -- Regulate |
-| D06 | Power Concentration | Democratize -- Concentrate |
-| D07 | Economic Disruption | Continuity -- Disruption |
-| D08 | Urgency | Long-term -- Immediate |
-| D09 | Anthropocentrism | Replaceable -- Unique |
-| D10 | Spirituality | Materialist -- Spiritual |
-| D11 | Gender Equity | Status quo -- Equity-oriented |
-| D12 | Techno-Optimism | Skeptical -- Optimistic |
-
-## The 100 AI Actors
-
-The sample includes CEOs, founders, researchers, investors, and policymakers from the global AI ecosystem. Selection criteria and the full ranked list are documented in the paper (Section 3).
-
-Top 10: Jensen Huang, Sam Altman, Elon Musk, Sundar Pichai, Mark Zuckerberg, Larry Page, Larry Ellison, Sergey Brin, Dario Amodei, Jeff Bezos.
 
 ## Citation
 
-If you use this data or methodology in your research, please cite:
-
 ```bibtex
-@article{geiger2026aielite,
-  title={What Does the AI Elite Think? An LLM-Based Worldview Reconstruction
-         of 100 Key AI Leaders (2010--2026)},
-  author={Geiger, Lukas},
-  year={2026},
-  doi={10.5281/zenodo.18736737},
-  publisher={Zenodo}
+@article{Geiger2026Elite,
+  author  = {Geiger, Lukas},
+  title   = {What Does the {AI} Elite Think? {A} Synthetic Worldview Reconstruction of the 100 Most Influential {AI} Actors (2010--2026)},
+  year    = {2026},
+  doi     = {10.5281/zenodo.18736737},
+  note    = {Preprint}
+}
+
+@article{Geiger2026SWR,
+  author  = {Geiger, Lukas},
+  title   = {Synthetic Worldview Reconstruction: An {LLM}-Supported Method for Analyzing Latent Collective Belief Systems},
+  year    = {2026},
+  doi     = {10.5281/zenodo.18736720},
+  note    = {Preprint}
 }
 ```
 
-## Companion Paper
+## Author
 
-The SWR method used in this study is described in detail in:
+**Lukas Geiger** — Independent Researcher, Bernau im Schwarzwald
+ORCID: [0009-0005-7296-1534](https://orcid.org/0009-0005-7296-1534)
 
-> **Geiger, L.** (2026). *Synthetic Worldview Reconstruction (SWR).* Zenodo. DOI: [10.5281/zenodo.18736720](https://doi.org/10.5281/zenodo.18736720)
+## AI Disclosure (Level 5 — Extensive)
+
+Claude Sonnet 4.5 (Anthropic): All 100 individual-level dimensional ratings.
+Claude Opus 4.6 (Anthropic): Group-level syntheses, statistical analyses, validation experiments, manuscript support.
+Research design, research questions, methodological decisions, interpretation, and all substantive conclusions originate from the author.
 
 ## License
 
-CC-BY 4.0. See [LICENSE](LICENSE) for details.
-
-## Author
-
-**Lukas Geiger** -- Independent Researcher, Bernau im Schwarzwald, Germany
-
-*AI-assisted development: Claude Opus 4.6 (Anthropic), Gemini (Google DeepMind)*
+CC-BY 4.0
