@@ -142,6 +142,10 @@ Societal groups---political elites, corporate leadership classes, scientific com
 
 The systematic reconstruction of such collective worldviews poses a fundamental methodological problem for the social sciences. Collective worldviews are \emph{latent constructs}: They are not directly observable but manifest only indirectly---in the aggregated public speeches, interviews, policy documents, investment decisions, published texts, and observable behavior of a group's members. The researcher faces the task of inferring from a heterogeneous set of such manifestations the underlying collective belief system---a problem that in its epistemological structure corresponds to an \emph{inverse problem}: Given are the outputs (observable statements and actions of a group), sought is the generating mechanism (the collective worldview) that most coherently produces these outputs. This paper introduces a method---Synthetic Worldview Reconstruction (SWR)---that leverages the synthetic integration capability of Large Language Models to solve this inverse problem at scale.
 
+\subsection{Genesis and Scope}
+
+SWR was not developed as an abstract theoretical framework and then applied. It emerged from the concrete methodological challenges of a large-scale empirical study: the reconstruction and comparison of collective worldviews within the AI elite \citep{Geiger2026b}. That study required a method that could (a)~process thousands of heterogeneous data points per group, (b)~synthesize them into coherent group-level belief profiles, (c)~enable systematic inter-group comparison, and (d)~distinguish public rhetoric from observable action. No existing method met all four requirements simultaneously. SWR was developed iteratively to address these needs and is presented here as a generalized, transferable framework---abstracted from its original application context but empirically hardened by it. The twelve worldview dimensions (D01--D12), the validation stack, and the focus control infrastructure were all stabilized through iterative application to the pilot study's data. This origin is a strength, not a limitation: the method's design choices are grounded in real analytical challenges rather than theoretical speculation. However, it implies that the generalizability of SWR to populations with fundamentally different data characteristics (e.g., non-public figures, non-textual data, non-elite groups) remains an open empirical question.
+
 \subsection{Limits of Existing Methods}
 \label{sec:limits}
 
@@ -443,7 +447,7 @@ Acceptance criteria for run convergence:
   \item ICC $< .60$: Insufficient calibration; results may be run-dependent.
 \end{itemize}
 
-\emph{Empirical validation (pilot study, \citealp{Geiger2026Elite}).} Five group-level synthesis units were each processed twice independently by Claude Opus~4.6. The resulting D01--D12 profiles showed excellent convergence: overall Pearson $r = .908$, ICC(2,1) $= .902$, MAE $= 0.40$ on the 10-point scale, corresponding to a measurement precision of $\pm 0.2$ scale points. All 12~dimensions were stable across runs (mean $|\Delta| \leq 0.8$). This establishes that the SWR method, when applied with a single calibrated instrument, produces reliable group-level worldview reconstructions.
+\emph{Empirical validation (pilot study, \citealp{Geiger2026b}).} Five group-level synthesis units were each processed twice independently by Claude Opus~4.6. The resulting D01--D12 profiles showed excellent convergence: overall Pearson $r = .908$, ICC(2,1) $= .902$, MAE $= 0.40$ on the 10-point scale, corresponding to a measurement precision of $\pm 0.2$ scale points. All 12~dimensions were stable across runs (mean $|\Delta| \leq 0.8$). This establishes that the SWR method, when applied with a single calibrated instrument, produces reliable group-level worldview reconstructions.
 
 \emph{Inter-LLM comparison} remains an important future validation step. Current frontier LLMs share substantial overlap in training corpora and undergo similar alignment procedures (RLHF/RLAIF). High inter-LLM agreement would provide evidence for model-independent reconstruction; low agreement would indicate model-specific biases. Studies should include at least one open-weight model with a documented, distinct training corpus.
 
@@ -453,7 +457,7 @@ For each prompt, at least three paraphrased variants are generated conveying the
 
 \subsection{V3: Dimensional Quantification}
 
-Each worldview reconstruction is projected onto twelve dimensions (D01--D12) equally covering the three DVs (four dimensions each, 10-point scale). Dimensions are to be defined application-specifically and should fulfill the following validity criteria:
+Each worldview reconstruction is projected onto a set of dimensions equally covering the three DVs (10-point scale). Dimensions are to be defined \emph{application-specifically} and should be stabilized iteratively through pilot applications. In the pilot study \citep{Geiger2026b}, twelve dimensions (D01--D12, four per DV) were developed through iterative refinement: initial dimension sets were tested on early synthesis units, dimensions that failed to discriminate between groups were replaced, and pole definitions were sharpened until the system produced consistent, interpretable profiles. The resulting dimensions are not claimed to be universal; they are optimized for the analysis of technology-elite worldviews. Applications to other populations will require domain-specific dimension development. Dimensions should fulfill the following validity criteria:
 
 \begin{itemize}[leftmargin=*]
   \item \emph{Discriminant validity}: Profiles of different persons must differ.
@@ -472,7 +476,7 @@ An important caveat: high classification rates do not unambiguously confirm vali
 
 For each SU, the protocol is executed at least twice independently (temperature~=~0 or the lowest available setting; note that determinism is not guaranteed even at temperature~=~0 due to hardware-level non-determinism in some implementations). The \emph{run convergence rate} (proportion of dimension values with $\leq$1 scale point variation) should be $\geq$80\%; mean absolute error (MAE) should be under 1.0 scale point.
 
-\emph{Empirical results (pilot study, \citealp{Geiger2026Elite}).} Five group-level synthesis units were each processed twice independently by Claude Opus~4.6, yielding a run convergence rate of 93\% ($\leq$1 point variation) and an overall MAE of 0.40---well within the acceptance thresholds. The best convergence was observed for ideologically cohesive groups (ICC $= .969$ for regulation critics), the weakest for groups with greater internal tension (ICC $= .826$ for risk warners). Additionally, an expected-discrepancy control experiment showed that a synthetic consistent group produced no artifactual say-do gap (MAE $= 0.50$), while the real AI elite gap was $2.5\times$ larger (MAE $= 1.25$), confirming that the method does not fabricate discrepancies.
+\emph{Empirical results (pilot study, \citealp{Geiger2026b}).} Five group-level synthesis units were each processed twice independently by Claude Opus~4.6, yielding a run convergence rate of 93\% ($\leq$1 point variation) and an overall MAE of 0.40---well within the acceptance thresholds. The best convergence was observed for ideologically cohesive groups (ICC $= .969$ for regulation critics), the weakest for groups with greater internal tension (ICC $= .826$ for risk warners). Additionally, an expected-discrepancy control experiment showed that a synthetic consistent group produced no artifactual say-do gap (MAE $= 0.50$), while the real AI elite gap was $2.5\times$ larger (MAE $= 1.25$), confirming that the method does not fabricate discrepancies.
 
 In an integrated view, variance sources---between persons, between models, between prompt variants, between runs---can be combined in a variance component analysis (Generalizability Theory; \citealp{Brennan2001}). SWR strives for a design in which between-person variance explains $>$60\% of total variance.
 
@@ -484,7 +488,13 @@ As a complementary quality assurance strategy, we recommend \emph{adversarial pr
 \subsection{Minimum Acceptance Criteria}
 \label{sec:acceptance}
 
-An SWR study is considered methodologically acceptable when the following criteria are met: (1)~inter-LLM reliability ICC~$> 0.70$; (2)~prompt sensitivity variance share~$< 15\%$ of total variance; (3)~run convergence rate~$\geq 80\%$; (4)~identification test significantly above chance baseline; (5)~at least one external validation criterion (expert judgment or known-groups validation). These criteria should be understood as preliminary benchmarks that may be adjusted as empirical experience grows.
+An SWR study should meet acceptance criteria at two tiers:
+
+\emph{Tier~1 (instrument calibration -- required):} These criteria establish that the chosen LLM produces reliable results from the same data: (1)~within-model run convergence ICC~$> .75$ (or $\geq 80\%$ of dimension values with $\leq$1-point variation); (2)~prompt sensitivity variance share~$< 15\%$ of total variance; (3)~at least one external validation anchor (expert judgment, known-groups validation, or cross-modal prediction against documented actions).
+
+\emph{Tier~2 (model independence -- desirable for replication):} These criteria establish that the findings are not model-specific: (4)~inter-LLM reliability ICC~$> .70$ across at least two frontier models from different manufacturers; (5)~discriminability test significantly above chance baseline.
+
+Tier~1 criteria are prerequisites for publication; Tier~2 criteria strengthen generalizability but are conceptually equivalent to replication by other researchers using different instruments -- desirable but not a prerequisite for initial validation. The pilot application \citep{Geiger2026b} meets Tier~1 criteria (1) and (3) (ICC~$= .902$; cross-modal prediction 88\% confirmed); criteria (2), (4), and (5) remain as open validation tasks. These criteria should be understood as preliminary benchmarks that may be adjusted as empirical experience grows.
 
 
 %% ===========================================================================
@@ -502,7 +512,7 @@ SWR operates exclusively on \emph{publicly available} data---statements made in 
 
 \subsection{Misuse Potential}
 
-SWR could be misused for unauthorized psychological profiling, political manipulation, or targeted influence campaigns. Mitigation strategies include: (1)~transparent publication of all methods and prompts, enabling scrutiny; (2)~explicit framing of results as \emph{models}, not as claims about actual beliefs; (3)~recommendation of institutional review board (IRB) approval for applications involving non-public figures.
+SWR could be misused for unauthorized psychological profiling, political manipulation, or targeted influence campaigns. Mitigation strategies include: (1)~transparent publication of all methods and prompts, enabling scrutiny; (2)~explicit framing of results as \emph{models}, not as claims about actual beliefs; (3)~recommendation of institutional review board (IRB) approval for applications involving non-public figures. The present study and the companion application study were conducted by an independent researcher without institutional affiliation; no IRB review was available. We note that the study analyzes exclusively public figures using exclusively public data, and that the primary analytical units are sociological groups, not individual profiles -- conditions under which IRB exemption is standard practice (cf.\ APA Ethical Principles, Standard~8.05; 45~CFR~46.104(d)(4)).
 
 \subsection{Epistemic Risks}
 
@@ -552,7 +562,7 @@ To ground the methodological framework in a concrete application, we briefly des
 
 \emph{Scope and epistemic status of the pilot.} The present paper is a methods paper, not an empirical study; the pilot summary is included to anchor the methodological framework in a concrete research context and to demonstrate operational feasibility. The companion application paper \citep{Geiger2026b} provides full methodological details, data documentation, and statistical analyses. Independent replication by other research groups---using different LLMs, populations, and data corpora---remains the strongest form of validation for SWR as a method.
 
-\emph{Validation coverage.} Of the six validation layers proposed in Section~\ref{sec:quality}, the pilot application provides evidence for four: V1 (instrument calibration: run convergence with ICC $= .902$, see Section~\ref{sec:quality}), V3 (dimensional structure via PCA: 5~components, 80\% variance), V5 (run convergence: MAE $= 0.40$, plus expected-discrepancy control confirming no artifactual say-do gaps), and partial evidence for Op4 (cross-modal prediction: 88\% of statement-based behavioral predictions confirmed by real actions across 5~groups). V2 (prompt sensitivity), V4 (discriminability test), and V6 (adversarial probing) remain as open validation tasks. The completed validations establish that SWR produces \emph{reliable} (V1/V5), \emph{non-artifactual} (discrepancy control), and \emph{predictively valid} (Op4) group-level worldview reconstructions. Priority validation tasks for future work include inter-LLM replication (testing model-independence) and prompt sensitivity analysis.
+\emph{Validation coverage.} Of the six validation layers proposed in Section~\ref{sec:quality}, the pilot application provides evidence for four: V1 (instrument calibration: run convergence with ICC $= .902$, see Section~\ref{sec:quality}), V3 (dimensional structure via PCA: 5~components, 80\% variance), V5 (run convergence: MAE $= 0.40$, plus expected-discrepancy control confirming no artifactual say-do gaps), and partial evidence for Op4 (cross-modal prediction: 88\% of statement-based behavioral predictions confirmed by real actions across 5~groups). V2 (prompt sensitivity), V4 (discriminability test), and V6 (adversarial probing) remain as open validation tasks. The completed validations establish that SWR produces \emph{reliable} (V1/V5), \emph{non-artifactual} (discrepancy control), and \emph{predictively valid} (Op4) group-level worldview reconstructions. The highest-priority open validation task is V2 (prompt sensitivity analysis): since SWR is fundamentally a prompt-based method, demonstrating that results are robust to prompt paraphrasing is essential for methodological credibility. Inter-LLM replication (testing model-independence) is the second priority.
 
 \subsection{Limitations}
 
@@ -626,7 +636,7 @@ PersonaCite (RAG) & partial & yes & limited & retrieval \\
 
 This work has introduced Synthetic Worldview Reconstruction (SWR) as a new social science method for reconstructing and comparing the collective worldviews of sociologically defined groups. Four features constitute the specific contribution:
 
-\emph{First}, the identification of a methodological gap and a structural solution. No existing method can systematically reconstruct the \emph{integrated belief system} of a group as a coherent whole and then compare it with another group's belief system. SWR fills this gap by exploiting the synthetic integration capability of LLMs---their ability to compose heterogeneous fragments into coherent wholes that never existed as explicit objects.
+\emph{First}, the identification of a methodological gap and a structural solution. To our knowledge, no existing method can systematically reconstruct the \emph{integrated belief system} of a group as a coherent whole and then compare it with another group's belief system at scale. SWR fills this gap by exploiting the synthetic integration capability of LLMs---their ability to compose heterogeneous fragments into coherent wholes that never existed as explicit objects.
 
 \emph{Second}, the group-level advantage. SWR is methodologically stronger at the group level than at the individual level because the contamination risk---the primary concern for LLM-based reconstruction---is structurally reduced: no training corpus contains a group's collective worldview as a pre-formed object. This positions inter-group comparison as SWR's natural domain, with individual-level analysis as a valid but more demanding special case.
 
@@ -662,7 +672,7 @@ SWR proposes a structured attempt to deploy an instrument---the LLM---whose capa
 
 \section*{Data Availability Statement}
 
-\noindent A complete application of the SWR method, including all data collection scripts, qualitative coding scripts, analysis code, and the resulting dataset of 100 AI leader worldview profiles, is publicly available at: \url{https://github.com/lukisch/ai-elite-worldview}. The companion application paper is available at: \url{https://doi.org/10.5281/zenodo.18736737}. The repository includes: (a)~the complete prompt templates for all five protocol steps and all six operationalizations; (b)~the dimensional definitions (D01--D12) with rating anchors; (c)~the reduction criteria implementation; (d)~all blinding scripts; and (e)~reproducibility scripts for inter-LLM comparison. Researchers wishing to replicate or adapt SWR for their own populations are encouraged to use these materials as a starting point.
+\noindent The pilot application of SWR, including all data collection scripts, analysis code, and group-level synthesis outputs, is publicly available at: \url{https://github.com/research-line/ai-elite-swr}. The companion application paper is available at: \url{https://doi.org/10.5281/zenodo.18736737}. The repository includes: (a)~prompt templates for the core synthesis (Op1), dimensional rating (Op2), cross-modal prediction (Op4), structured comparison (Op6), and distillation steps (\texttt{prompts/} directory); (b)~the dimensional definitions (D01--D12) with rating anchors; (c)~the reduction criteria implementation; (d)~all blinding and data generation scripts; (e)~the $100 \times 12$ rating matrix and all group-level synthesis outputs; and (f)~validation analysis scripts (run-convergence, expected-discrepancy control, aggregation comparison, cross-modal prediction). Op3 (text analysis) and Op5 (bottom-up clustering) prompts are not included as these operationalizations were not executed in the pilot. Inter-LLM replication scripts are not included as this validation remains a future task. Researchers wishing to replicate or adapt SWR for their own populations are encouraged to use these materials as a starting point.
 
 %% ===========================================================================
 %% APPENDIX
@@ -702,6 +712,19 @@ Step 3: Step out of the role. Identify: (a) the 3--5 strongest convictions of th
 \begin{quote}
 \small\ttfamily
 Here are two worldview syntheses from different groups. Imagine the two fictional persons meet as representatives of two countries for a negotiation. Describe: (a) What do they agree on immediately? (b) What do they argue about? (c) What is completely incomprehensible to one about the other? (d) Can they draft a joint statement?
+\end{quote}
+
+\subsection{Cross-Modal Prediction Prompt (Op4)}
+
+\begin{quote}
+\small\ttfamily
+Below is a corpus of PUBLIC STATEMENTS from a group. There are NO ACTIONS included.
+
+Step 1: Construct a worldview from these statements (2--3 sentences).
+
+Step 2: Based ONLY on the statements, generate 10 PREDICTED ACTIONS that a group with this worldview would be expected to take.
+
+Step 3: Now read the REAL ACTIONS [provided separately]. For each prediction, rate: CONFIRMED / PLAUSIBLE / CONTRADICTED. Name the 3 biggest surprises.
 \end{quote}
 
 \subsection{Distillate Prompt}
@@ -752,7 +775,7 @@ The following dimensions are an example of an application-specific dimensionaliz
   \midrule
   D05 & Technological determinism & 1 = neutral \ldots{} 10 = determines everything \\
   D06 & Progress optimism & 1 = decline \ldots{} 10 = golden future \\
-  D07 & Power concentration & 1 = distribute \ldots{} 10 = centralize \\
+  D07 & Power concentration & 1 = radically distribute \ldots{} 10 = concentrate with experts \\
   D08 & Urgency & 1 = relaxed \ldots{} 10 = existential pressure \\
   \bottomrule
 \end{tabularx}
@@ -764,7 +787,7 @@ The following dimensions are an example of an application-specific dimensionaliz
   \toprule
   \textbf{Code} & \textbf{Name} & \textbf{Poles} \\
   \midrule
-  D09 & Philanthropy & 1 = replaceable \ldots{} 10 = unique \\
+  D09 & Human appreciation & 1 = replaceable \ldots{} 10 = unique \\
   D10 & Posthumanism & 1 = human remains \ldots{} 10 = human becomes more \\
   D11 & Egalitarianism & 1 = inequality natural \ldots{} 10 = strive for equality \\
   D12 & Locus of control & 1 = pessimism \ldots{} 10 = full control \\
@@ -1019,8 +1042,8 @@ The following criteria are application-specific implementations of the generic K
 
 \bibitem[Geiger(2026b)]{Geiger2026b}
   Geiger, L. (2026).
-  Was denkt die KI-Elite? Eine LLM-gest\"utzte Weltbild-Rekonstruktion der 100 einflussreichsten Akteure der k\"unstlichen Intelligenz (2010--2026).
-  \textit{Preprint}. Independent Researcher, Bernau, Germany.
+  What does the AI elite think? A synthetic worldview reconstruction of the 100 most influential AI actors (2010--2026).
+  \textit{Self-published preprint}. Zenodo. \url{https://doi.org/10.5281/zenodo.18736737}
 
 \bibitem[Reimers \& Gurevych(2019)]{Reimers2019}
   Reimers, N. \& Gurevych, I. (2019).
