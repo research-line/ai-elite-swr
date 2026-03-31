@@ -1,0 +1,874 @@
+========================================================================
+SYNTHESEEINHEIT: GR_ceo_H
+Beschreibung: CEOs/Unternehmensleiter — NUR Handlungen (für Say-Do-Analyse)
+Generiert: 2026-03-31 12:39
+========================================================================
+
+Datenpunkte: 285 Handlungen + 0 Aussagen = 285 gesamt
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+HANDLUNGEN (285 Stueck)
+------------------------------------------------------------------------
+
+[H001] (1987-01-01, gruendung)
+  Founded Walden International, a venture capital firm named after Thoreau's Walden to embody contrarian investment philosophy
+
+[H002] (1993-04-05, gruendung)
+  [PERSON], Chris Malachowsky und Curtis Priem gruenden [FIRMA] in einem Denny's Restaurant in San Jose. Sie starten mit $40.000 eigenem Kapital und sichern sich schnell $20 Millionen Venture Capital.
+
+[H003] (1999-01-22, investition)
+  [FIRMA] geht an die Boerse mit einem IPO-Preis von $12 pro Aktie. Der Boersengang erfolgt nach Jahren finanzieller Schwierigkeiten, einschliesslich einem Fast-Bankrott in den spaeteren 1990er Jahren.
+
+[H004] (2000-01-20, investition)
+  Alibaba frühe Investition - 34% Stake für 20 Mio. USD, später über 200 Mrd. USD wert (eine der erfolgreichsten Tech-Investments aller Zeiten)
+
+[H005] (2001, sonstiges)
+  [PERSON] bricht sein Studium der Philosophie und Theologie an der Universitaet [UNI] (Mansfield College) im Alter von 19 Jahren ab, um praktische Erfahrungen zu sammeln statt auf formale Qualifikation zu warten.
+
+[H006] (2001-08, gruendung)
+  Mit 19 Jahren gruendet [PERSON] (noch als 'starker Atheist') gemeinsam mit Mohammed Mamdani die Muslim Youth Helpline, einen Telefon-Beratungsdienst fuer psychische Gesundheit. Die Organisation wird spaeter zu einem der groessten Mental-Health-Support-Services.
+
+[H007] (2002, einstellung)
+  [PERSON] arbeitet als Policy Officer fuer Menschenrechte fuer Ken Livingstone, den Buergermeister von London.
+
+[H008] (2003-05, gruendung)
+  [PERSON] wird CEO von [FIRMA] Technologies, gegruendet mit [PERSON], Joe Lonsdale, Stephen Cohen und Nathan Gettings. [FIRMA] entwickelt Big-Data-Analyseplattformen fuer Geheimdienste (CIA, NSA) und Militaer.
+
+[H009] (2004, gruendung)
+  [PERSON] gruendet Reos Partners, eine 'systemic change' Beratungsfirma, die Methoden aus Konfliktloesung nutzt, um soziale Probleme anzugehen.
+
+[H010] (2004, investition)
+  [FIRMA] erhaelt mehr als $2 Millionen Finanzierung von In-Q-Tel, dem Venture-Capital-[FIRMA] der CIA. Start der Zusammenarbeit mit US-Geheimdiensten.
+
+[H011] (2004-02-04, gruendung)
+  [PERSON] gruendet [FIRMA] in seinem Wohnheimzimmer an der Harvard University zusammen mit Eduardo Saverin, Andrew McCollum, Dustin Moskovitz und Chris Hughes.
+
+[H012] (2005, gruendung)
+  [PERSON] gruendet im Alter von 19 Jahren die standortbasierte Social-Networking-App Loopt als Teil des ersten Y-Combinator-Batches. Er sammelt ueber $30 Mio. Risikokapital ein.
+
+[H013] (2005-06-01, gruendung)
+  Co-founded [FIRMA] with Alexis Ohanian after [FIRMA] acceptance, programmed entire site in Lisp in 20 days
+
+[H014] (2006-10-31, verkauf)
+  Sold [FIRMA] to Condé Nast for reported $10-20 million at age 23
+
+[H015] (2006-11-15, produktlaunch)
+  [FIRMA] fuehrt CUDA (Compute Unified Device Architecture) ein -- eine Parallel-Computing-Plattform, die es ermoeglicht, GPUs fuer allgemeine Rechenaufgaben zu nutzen. Dies wird zur Grundlage fuer moderne KI-Anwendungen.
+
+[H016] (2009-01-01, einstellung)
+  Appointed CEO of Cadence Design Systems, beginning 12-year tenure that transformed the EDA company
+
+[H017] (2009-01-01, ruecktritt)
+  Left [FIRMA] as acting CEO after Condé Nast acquisition
+
+[H018] (2010, gruendung)
+  [PERSON] gruendet gemeinsam mit [PERSON] und Shane Legg [FIRMA] Technologies in London mit dem Ziel, 'AGI sicher und ethisch zu bauen'. Sie schreiben den Businessplan im Sommer 2010 und pitchen ihn im Silicon Valley.
+
+[H019] (2010-08-01, gruendung)
+  Co-founded Hipmunk travel search startup with Adam Goldstein as CTO
+
+[H020] (2010-09-01, gruendung)
+  [PERSON] gruendet [FIRMA] Technologies in London zusammen mit Shane Legg und [PERSON]. Die Vision: KI-Systeme entwickeln, die so allgemein und flexibel sind wie die menschliche Intelligenz.
+
+[H021] (2011-08-24, einstellung)
+  [PERSON] wird zum CEO von [FIRMA] ernannt, Nachfolger von Steve Jobs
+
+[H022] (2011-12-01, investition)
+  [FIRMA] schliesst Serie-A-Finanzierung ueber $50 Millionen ab. Investoren: [FIRMA] ([PERSON]), Horizons Ventures (Li Ka-shing), [PERSON] und Scott Banister.
+
+[H023] (2012-03-19, umstrukturierung)
+  [FIRMA] kuendigt erste Dividende seit 1995 und 10-Mrd.-Dollar-Aktienrueckkauf an
+
+[H024] (2012-04-09, kauf)
+  [FIRMA] uebernimmt [FIRMA] fuer $1 Milliarde in bar und Aktien. [FIRMA] hatte zu diesem Zeitpunkt 13 Mitarbeiter und 30 Millionen Nutzer.
+
+[H025] (2012-05-18, produktlaunch)
+  [FIRMA] geht an die Boerse mit einer Bewertung von $104 Milliarden -- zu diesem Zeitpunkt der groesste Tech-IPO der Geschichte. [PERSON] behaelt Kontrolle durch spezielle Aktienklassen.
+
+[H026] (2012-06-20, kauf)
+  Kauf von 98% der hawaiianischen Insel Lanai, um sie in ein Modell für ökologische Nachhaltigkeit zu verwandeln
+
+[H027] (2013-01-01, gruendung)
+  Mitgründung von [FIRMA] als einer von sieben Co-Founders ('Apache Spark Seven') zusammen mit Ion Stoica, Matei Zaharia, Patrick Wendell, Reynold Xin, Andy Konwinski und Arsalan Tavakoli-Shiraji
+
+[H028] (2013-03-15, kauf)
+  Aldebaran Robotics Übernahme (später [FIRMA] Robotics) - Entwicklung des humanoiden Roboters [PRODUKT-ROBOTER]
+
+[H029] (2013-12-19, produktlaunch)
+  [FIRMA] veroeffentlicht bahnbrechende Forschung: Ein Deep Q-Network (DQN) lernt, Atari-Spiele auf uebermenschlichem Niveau zu spielen, allein durch Beobachtung der Pixel.
+
+[H030] (2014-01, verkauf)
+  [FIRMA] erwirbt [FIRMA] fuer ca. 400 Millionen Pfund (ca. $650 Mio.) -- die zu diesem Zeitpunkt groesste [FIRMA]-Akquisition in Europa. [PERSON] wird Head of Applied AI bei [FIRMA].
+
+[H031] (2014-01-26, verkauf)
+  [FIRMA] erwirbt [FIRMA] fuer geschaetzt $400-650 Millionen. Groesste europaeische Tech-Akquisition von [FIRMA] zu diesem Zeitpunkt. [FIRMA] wird Tochterunternehmen von [FIRMA].
+
+[H032] (2014-02-04, einstellung)
+  [PERSON] wird der dritte CEO von [FIRMA] und loest Steve Ballmer ab. Er tritt die Nachfolge von Bill Gates und Steve Ballmer an.
+
+[H033] (2014-02-19, kauf)
+  [FIRMA] uebernimmt [FIRMA] fuer $19 Milliarden -- zu diesem Zeitpunkt die groesste Uebernahme eines VC-finanzierten Startups. [FIRMA] hatte 55 Mitarbeiter und 450 Millionen Nutzer.
+
+[H034] (2014-02-21, einstellung)
+  [PERSON] wird Praesident von [FIRMA] und loest Paul Graham ab. Unter seiner Fuehrung foerdert YC ca. 1.900 Startups, darunter Airbnb, DoorDash, [FIRMA] und Twitch.
+
+[H035] (2014-03-25, kauf)
+  [FIRMA] uebernimmt Oculus VR fuer $2,3 Milliarden, um in Virtual Reality einzusteigen. Oculus hatte die Kickstarter-gefundete Oculus Rift entwickelt.
+
+[H036] (2014-05-28, kauf)
+  [FIRMA] kauft Beats Electronics und Beats Music fuer 3 Milliarden Dollar
+
+[H037] (2014-06-05, produktlaunch)
+  [PRODUKT-ROBOTER] Roboter Launch - humanoider Roboter für Kundeninteraktion, Co-Design mit Aldebaran
+
+[H038] (2014-10-08, einstellung)
+  [PERSON] wird CEO von [FIRMA], übernimmt Führung eines krisengeschüttelten Unternehmens mit Aktienkurs unter 2 USD
+
+[H039] (2015-03-15, umstrukturierung)
+  Su initiiert strategische Neuausrichtung: Fokus auf High-Performance Computing, Gaming und KI; R&D-Budget wird um ca. 45% erhöht (2014-2017)
+
+[H040] (2015-04-24, produktlaunch)
+  Launch der [FIRMA] Watch, erste neue Produktkategorie unter Cook
+
+[H041] (2015-07-10, einstellung)
+  Returned to [FIRMA] as CEO, replacing Ellen Pao after moderator revolt
+
+[H042] (2015-08-10, einstellung)
+  [PERSON] wird CEO von [FIRMA] (nach Umbenennung der Holding in [FIRMA] Inc.). [PERSON] wird CEO von [FIRMA], [PERSON] uebernimmt Tagesgeschaeft von [FIRMA].
+
+[H043] (2015-10-01, produktlaunch)
+  [PRODUKT] besiegt Fan Hui, den europaeischen Go-Champion, mit 5:0. Erster Sieg eines Computerprogramms gegen einen professionellen Go-Spieler auf dem 19x19-Brett.
+
+[H044] (2015-12-01, gruendung)
+  [PERSON] und Priscilla Chan gruenden die Chan [PERSON] Initiative (CZI) und verpflichten sich, 99% ihrer [FIRMA]-Aktien (damals ca. $45 Milliarden) zu spenden. CZI wird als LLC strukturiert, nicht als klassische Stiftung.
+
+[H045] (2015-12-11, gruendung)
+  [PERSON], [PERSON], [PERSON], [PERSON] und weitere gruenden [FIRMA] als Non-Profit-Forschungslabor. Eine Gruppe von Unterstuetzern (u.a. [PERSON], [PERSON]) sagen $1 Mrd. Foerderung zu. [PERSON] und [PERSON] sind Co-Vorsitzende.
+
+[H046] (2015-12-11, gruendung)
+  [PERSON] und [PERSON] gruenden zusammen mit [PERSON], [PERSON] und weiteren das Non-Profit-KI-Forschungslabor [FIRMA]. [PERSON] ist Co-Vorsitzender und verpflichtet sich zu $1 Mrd. Foerderung (tatsaechlich ca. $100 Mio. eingezahlt).
+
+[H047] (2016, partnerschaft)
+  [FIRMA] Health kooperiert mit Royal Free NHS Trust zur Entwicklung der Streams-App. Die Partnerschaft wird spaeter vom ICO kritisiert: Royal Free hat Datenschutzgesetze nicht eingehalten, Patienten wurden nicht ausreichend informiert.
+
+[H048] (2016-01-01, einstellung)
+  Übernahme der CEO-Position bei [FIRMA] (zuvor Co-Founder und verschiedene technische Rollen)
+
+[H049] (2016-02, produktlaunch)
+  [PERSON] lanciert [FIRMA] Health bei der Royal Society of Medicine, eine Initiative zur Entwicklung von Kliniker-geleiteter Technologie fuer den NHS und andere Partner im Gesundheitswesen.
+
+[H050] (2016-02-17, klage)
+  [FIRMA] widersetzt sich FBI-Anordnung zur Entschluesselung von iPhone im San Bernardino-Fall
+
+[H051] (2016-03-15, produktlaunch)
+  [PRODUKT] besiegt Lee Sedol, einen der besten Go-Spieler der Welt, mit 4:1 in Seoul. Das Match wird von ueber 200 Millionen Menschen weltweit verfolgt.
+
+[H052] (2016-07-01, gruendung)
+  [PERSON] gruendet [FIRMA], ein Neurotechnologie-Unternehmen, das Brain-Computer-Interfaces entwickelt, um eine 'Symbiose mit KI' zu ermoeglichen. Ziel: Behandlung neurologischer Erkrankungen und Erweiterung menschlicher Faehigkeiten.
+
+[H053] (2016-09-05, kauf)
+  ARM Holdings Übernahme - Kauf des britischen Chip-Designers für Vorbereitung auf KI-Revolution und IoT-Ära
+
+[H054] (2016-11-01, kauf)
+  Übernahme von NetSuite für 9,3 Milliarden USD, [PERSON] besaß 35% und machte persönlich 3,5 Milliarden USD
+
+[H055] (2016-11-23, sonstiges)
+  Secretly edited user comments criticizing him (u/spez) on r/The_Donald, replacing his username with moderator names
+
+[H056] (2017-03-02, produktlaunch)
+  Launch der Ryzen-Prozessoren mit neuer Zen-Architektur - [FIRMA] kehrt zurück in CPU-Wettbewerb mit Intel
+
+[H057] (2017-05-20, gruendung)
+  [FIRMA] Vision Fund - Gründung des weltweit größten Tech-Investmentfonds mit Fokus auf KI, Robotik und IoT
+
+[H058] (2017-06-20, produktlaunch)
+  Launch der EPYC Server-Prozessoren für Rechenzentren - strategischer Eintritt in lukrativen Data Center Markt
+
+[H059] (2017-08-25, investition)
+  WeWork Investment durch Vision Fund - massive Investition in Co-Working Startup (später 14 Mrd. USD Abschreibung)
+
+[H060] (2017-09-26, produktlaunch)
+  [PERSON] veroeffentlicht sein Buch 'Hit Refresh: The Quest to Rediscover [FIRMA]'s Soul and Imagine a Better Future for Everyone', in dem er die Transformation von [FIRMA] und seine Vision fuer KI darlegt.
+
+[H061] (2017-12-05, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], ein generalisiertes Reinforcement-Learning-System, das Schach, Shogi und Go meistert - allein durch Selbstspiel ohne menschliches Wissen. Besiegt Stockfish 8 nach 9 Stunden Training.
+
+[H062] (2017-12-31, lobbying)
+  [FIRMA] gibt Rekordbetrag von 7,15 Millionen Dollar fuer Lobbying aus
+
+[H063] (2018-02-20, ruecktritt)
+  [PERSON] tritt vom Board von [FIRMA] zurueck, nachdem Verhandlungen ueber volle Kontrolle scheitern. [FIRMA] lehnt [PERSON]s Forderung nach absolutem Entscheidungsrecht ab.
+
+[H064] (2018-03-17, politisch)
+  Es wird bekannt, dass [UNI] Analytica Daten von 87 Millionen [FIRMA]-Nutzern ohne Einwilligung fuer politische Werbung gesammelt hat. [PERSON] muss vor dem US-Kongress und dem EU-Parlament aussagen.
+
+[H065] (2018-06-01, partnerschaft)
+  [FIRMA] wechselt Chip-Produktion zu TSMC (Taiwan), transformative Entscheidung für Produktqualität und Wettbewerbsfähigkeit
+
+[H066] (2018-08-20, produktlaunch)
+  [FIRMA] veroeffentlicht die GeForce RTX 20-Serie, die erste GPU-Generation mit dedizierter Hardware fuer Echtzeit-Raytracing und KI-beschleunigte Features.
+
+[H067] (2018-12-01, produktlaunch)
+  [PRODUKT] gewinnt die CASP13-Proteinstruktur-Vorhersage-Wettbewerb mit deutlichem Vorsprung. [FIRMA] wendet Deep Learning auf Biologie an.
+
+[H068] (2019-02-28, verkauf)
+  [FIRMA] Stake Verkauf - Verkauf der gesamten 4.9% [FIRMA] Position (später als großer strategischer Fehler bezeichnet, Son "was crying")
+
+[H069] (2019-03-08, einstellung)
+  [PERSON] wird CEO von [FIRMA] und verlaesst seine Position als Praesident von [FIRMA], um sich voll auf [FIRMA] zu konzentrieren.
+
+[H070] (2019-07-22, investition)
+  [FIRMA] investiert $1 Milliarde in [FIRMA] und wird exklusiver Cloud-Partner. [FIRMA] fuehrt eine gewinnbegrenzte Gesellschaftsform (capped-profit) ein.
+
+[H071] (2019-07-22, investition)
+  [FIRMA] kuendigt eine $1 Milliarde Investition in [FIRMA] an und wird exklusiver Cloud-Partner. [FIRMA] nutzt Azure fuer alle KI-Modelle.
+
+[H072] (2019-07-24, klage)
+  [FIRMA] zahlt eine Rekordstrafe von $5 Milliarden an die FTC wegen Datenschutzverletzungen im Zusammenhang mit [UNI] Analytica und anderen Verstoessen. [PERSON] muss persoenlich vierteljährlich Compliance zertifizieren.
+
+[H073] (2019-08-21, sonstiges)
+  [PERSON] wird bei [FIRMA] auf unbefristeten administrativen Urlaub gesetzt ('bis Ende des Jahres') nach Vorwuerfen von Mitarbeitern, er habe sie schikaniert. Er kuendigt oeffentlich an, eine 'Auszeit' zu nehmen.
+
+[H074] (2019-08-26, spende)
+  [PERSON] spendet [FIRMA]-Aktien im Wert von 4,87 Millionen Dollar an wohltatige Organisationen
+
+[H075] (2019-10-15, spende)
+  Spende von Delta Lake an die Linux Foundation als Open-Source-Projekt unter Apache 2.0 Lizenz
+
+[H076] (2019-11-01, spende)
+  Endowed two computer science professorships at [UNI] University for $3 million each through Cadence Design Systems
+
+[H077] (2019-12, einstellung)
+  [PERSON] verlaesst [FIRMA] offiziell und wird VP of AI Product Management and AI Policy bei [FIRMA], weniger als ein halbes Jahr nach seinem administrativen Urlaub.
+
+[H078] (2019-12-03, einstellung)
+  [PERSON] wird zusaetzlich CEO von [FIRMA] Inc., nachdem [PERSON] und [PERSON] zuruecktreten. [PERSON] leitet nun sowohl [FIRMA] als auch die Muttergesellschaft.
+
+[H079] (2020-06-11, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] mit 175 Milliarden Parametern -- das zu diesem Zeitpunkt groesste Sprachmodell der Welt. Zunaechst Zugang nur per API.
+
+[H080] (2020-07-21, politisch)
+  [FIRMA] verpflichtet sich, bis 2030 vollstaendig klimaneutral zu werden
+
+[H081] (2020-08, umstrukturierung)
+  [PERSON] verlagert [FIRMA]s Hauptsitz von Palo Alto (Silicon Valley) nach Denver, Colorado. Begruendung: 'increasing intolerance and monoculture' im Silicon Valley.
+
+[H082] (2020-09-30, produktlaunch)
+  [FIRMA] geht per Direct Listing an die NYSE (Ticker: PLTR). Eroeffnungspreis: $10, Bewertung ca. $16,5 Milliarden. [PERSON] besitzt signifikante Anteile mit Supervoting-Rechten.
+
+[H083] (2020-10-27, kauf)
+  [FIRMA] kündigt Übernahme von Xilinx (FPGA-Hersteller) an - eine der größten Chip-Deals überhaupt, Stärkung adaptiver Computing-Fähigkeiten
+
+[H084] (2020-11-30, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT]2, das die 50-Jahre alte 'Protein-Folding'-Herausforderung loest. CASP14-Gewinn mit atomarer Genauigkeit (GDT-Score 92.4). Strukturen von ueber 200 Millionen Proteinen vorhergesagt.
+
+[H085] (2021-01-27, sonstiges)
+  [FIRMA] gibt bekannt, dass eine Anwaltskanzlei [PERSON]s Fuehrungsstil untersucht hat nach Beschwerden von Mitarbeitern. [PERSON] akzeptiert Feedback und unterzieht sich professioneller Weiterbildung.
+
+[H086] (2021-01-28, gruendung)
+  [PERSON] gruendet zusammen mit seiner Schwester [PERSON] und weiteren Ex-[FIRMA]-Forschern (u.a. [PERSON], [PERSON], [PERSON], [PERSON], [PERSON]) das KI-Sicherheitsunternehmen [FIRMA] als Public Benefit Corporation.
+
+[H087] (2021-02-18, sonstiges)
+  Testified before House Financial Services Committee defending WallStreetBets during GameStop meme stock surge
+
+[H088] (2021-05-31, investition)
+  [FIRMA] schliesst Series-A-Finanzierungsrunde ueber $124 Mio. ab, mit fruehen Investoren wie Jaan Tallinn (Skype/Kazaa) und anderen.
+
+[H089] (2021-06-29, produktlaunch)
+  [FIRMA] launcht [PRODUKT], den ersten grossen KI-Programmier-Assistenten, basierend auf [FIRMA] [PRODUKT]. Der Service nutzt [PRODUKT]-Technologie.
+
+[H090] (2021-07-05, einstellung)
+  [PERSON] übernahm als CEO von [FIRMA], Nachfolger von [PERSON]
+
+[H091] (2021-10-08, spende)
+  Satya und Anu [PERSON] spenden $15 Millionen an die Seattle Children's Hospital fuer Forschung zu neurologischen Entwicklungsstoerungen bei Kindern, inspiriert durch ihren Sohn Zain mit zerebraler Kinderlahmung.
+
+[H092] (2021-10-28, umstrukturierung)
+  [FIRMA] Inc. benennt sich in [FIRMA] Inc. um, um die strategische Neuausrichtung auf das [FIRMA]verse zu signalisieren. [FIRMA], [FIRMA] und [FIRMA] bleiben Produktnamen.
+
+[H093] (2021-11-04, gruendung)
+  [PERSON] gruendet Isomorphic Labs, ein [FIRMA]-Tochterunternehmen, das KI fuer Medikamentenentwicklung nutzt. [PERSON] ist CEO sowohl von [FIRMA] als auch Isomorphic.
+
+[H094] (2021-12-01, ruecktritt)
+  Stepped down as CEO of Cadence Design Systems after 12 years, transitioning to Executive Chairman role
+
+[H095] (2022-01, ruecktritt)
+  [PERSON] verlaesst [FIRMA] im Januar 2022 und wird Venture Partner bei [FIRMA] Partners, bevor er sein naechstes KI-Unternehmen gruendet.
+
+[H096] (2022-01-01, partnerschaft)
+  Established partnerships with Alibaba, Ampere, [FIRMA], Bosch, Denso, Mobileye and Telechips as new entrants to [FIRMA] ecosystem through IPG investments in vertical market solutions
+
+[H097] (2022-02-08, einstellung)
+  Appointed as Chief Executive Officer of [FIRMA], succeeding Simon Segars after 30 years with the company. Appointment coincided with collapse of [FIRMA] acquisition deal.
+
+[H098] (2022-02-14, kauf)
+  Abschluss der Xilinx-Übernahme; Su wird Chair von [FIRMA], kombiniertes Unternehmen entsteht
+
+[H099] (2022-02-28, umstrukturierung)
+  Reformed executive leadership team within weeks of appointment, letting three executives go and reshaping organizational structure
+
+[H100] (2022-03, gruendung)
+  [PERSON] gruendet [FIRMA] gemeinsam mit [PERSON] ([FIRMA]) und Karen Simonyan (ehem. [FIRMA]). Erste Finanzierungsrunde: $225 Millionen.
+
+[H101] (2022-03-14, entlassung)
+  Announced layoffs of 12-15% of global workforce (up to 1,000 employees out of 6,400), with UK hit hardest at 20% reduction. Most cuts avoided engineering roles to preserve product roadmap.
+
+[H102] (2022-03-22, produktlaunch)
+  [FIRMA] stellt die Hopper-Architektur (H100 GPU) vor, benannt nach Grace Hopper. Die H100 wird zur meistgenutzten GPU fuer Training grosser Sprachmodelle wie [PRODUKT] und LLaMA.
+
+[H103] (2022-04-29, investition)
+  Series-B-Runde ueber $580 Mio., angefuehrt von Sam Bankman-Fried (FTX/Alameda Research). Alameda allein investiert ca. $500 Mio. Die Investition wird spaeter Teil des FTX-Insolvenzverfahrens.
+
+[H104] (2022-05-01, spende)
+  Spende von mehr als 30 Millionen USD seit 2021 an Opportunity Matters Fund Super PAC zur Unterstützung von Senator Tim Scott
+
+[H105] (2022-06-01, partnerschaft)
+  [PERSON] reist als erster CEO eines grossen westlichen Unternehmens seit Kriegsbeginn in die Ukraine und trifft Praesident Zelenskyy. [FIRMA] stellt KI-Software fuer Kriegsfuehrung kostenlos zur Verfuegung.
+
+[H106] (2022-06-28, spende)
+  Open-Sourcing aller Delta Lake Features und APIs als Delta Lake 2.0. Vollständige Donation aller proprietären Erweiterungen zur Linux Foundation.
+
+[H107] (2022-08-11, einstellung)
+  Elected to Intel Corporation Board of Directors
+
+[H108] (2022-08-31, klage)
+  Filed lawsuit against Qualcomm and Nuvia for breach of license agreements and trademark infringement following Qualcomm's 2021 acquisition of Nuvia
+
+[H109] (2022-11-01, spende)
+  Spende von mehr als 31 Millionen USD an republikanische Kandidaten während der Kongresswahlen 2022
+
+[H110] (2022-11-09, entlassung)
+  [FIRMA] entlaesst 11.000 Mitarbeiter (ca. 13% der Belegschaft) -- die groesste Entlassungswelle in der Geschichte des Unternehmens. [PERSON] uebernimmt oeffentlich die Verantwortung fuer Fehleinschaetzungen beim Wachstum.
+
+[H111] (2022-11-30, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] als kostenlose Forschungsvorschau. Der Chatbot erreicht 1 Million Nutzer in 5 Tagen und 100 Millionen in 2 Monaten -- die am schnellsten wachsende Verbraucheranwendung der Geschichte.
+
+[H112] (2022-12, umstrukturierung)
+  Nach dem viralen Erfolg von [PRODUKT] ruft [PERSON] unternehmensweit 'Code Red' aus und bezeichnet den Chatbot als existenzielle Bedrohung fuer [FIRMA] Search. Teams werden umstrukturiert, um bis Mai 2023 KI-Prototypen und Produkte zu entwickeln.
+
+[H113] (2022-12-15, sonstiges)
+  Veroeffentlichung des Papers 'Constitutional AI: Harmlessness from AI Feedback' (arXiv:2212.08073). Einfuehrung von RLAIF als Alternative zu RLHF fuer harmlose KI-Systeme. Wird zum zentralen Sicherheitskonzept hinter [PRODUKT].
+
+[H114] (2023-01-17, produktlaunch)
+  [FIRMA] macht Azure [FIRMA] Service (Zugang zu [PRODUKT], [PRODUKT], [PRODUKT], [PRODUKT] etc.) allgemein verfuegbar fuer Unternehmenskunden. Bereits ueber 4.500 Unternehmen nutzen den Service in der Preview.
+
+[H115] (2023-01-23, verkauf)
+  [FIRMA] bestellt [FIRMA] GPUs im Wert von mehreren Milliarden Dollar fuer [FIRMA]-Infrastruktur als Teil ihrer strategischen Partnerschaft. [FIRMA] hat insgesamt $13 Milliarden in [FIRMA] investiert.
+
+[H116] (2023-01-23, investition)
+  [FIRMA] investiert weitere ca. $10 Milliarden in [FIRMA] (kumulativ nun ca. $13 Mrd.). [FIRMA] wird auf ca. $86 Milliarden bewertet.
+
+[H117] (2023-01-23, investition)
+  [FIRMA] investiert weitere ca. $10 Milliarden in [FIRMA] in einer mehrjaehrigen Partnerschaft. Die Gesamtinvestition belaeuft sich damit auf ca. $13 Milliarden.
+
+[H118] (2023-02-04, investition)
+  [FIRMA] investiert $300 Millionen in [FIRMA] ([FIRMA]-Konkurrent, gegr. von ehemaligen [FIRMA]-Mitarbeitern) und nimmt ca. 10% Anteil. [FIRMA] waehlt [FIRMA] als bevorzugten Cloud-Partner.
+
+[H119] (2023-02-07, produktlaunch)
+  [FIRMA] launcht [PRODUKT] (spaeter umbenannt in [FIRMA] [PRODUKT]), eine KI-gestuetzte Suchmaschine basierend auf [PRODUKT]. Es ist [FIRMA]s erster direkter Angriff auf [FIRMA]s Suchmonopol.
+
+[H120] (2023-03-09, gruendung)
+  [PERSON] gruendet [FIRMA], ein KI-Unternehmen mit der Mission, 'die wahre Natur des Universums zu verstehen'. Fokus auf 'wahrheitssuchende' KI ohne politische Korrektheit.
+
+[H121] (2023-03-12, produktlaunch)
+  [FIRMA] veroeffentlicht die Beta-Version des Pi-Chatbots ('Personal Intelligence') mit dem Ziel, ein empathischer Gespraechspartner zu sein. Tausende Tester erhalten Zugang. [FIRMA] verlassen damit den Stealth-Modus.
+
+[H122] (2023-03-14, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], ein multimodales grosses Sprachmodell mit deutlich verbessertem Reasoning. [FIRMA] wird fuer mangelnde Transparenz kritisiert, da kaum technische Details veroeffentlicht werden.
+
+[H123] (2023-03-14, entlassung)
+  [FIRMA] kuendigt weitere 10.000 Entlassungen und einen Einstellungsstopp fuer 5.000 Stellen als Teil des 'Year of Efficiency' an. Insgesamt wurden 2023 ueber 21.000 Stellen abgebaut.
+
+[H124] (2023-03-14, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] 1 als KI-Assistenten, zunaechst nur fuer ausgewaehlte Partner zugaenglich.
+
+[H125] (2023-03-16, produktlaunch)
+  [FIRMA] kuendigt [FIRMA] 365 [PRODUKT] an, einen KI-Assistenten fuer Word, Excel, PowerPoint, Outlook und Teams. Preis: $30/Monat zusaetzlich zu [FIRMA] 365.
+
+[H126] (2023-03-21, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], einen KI-Chatbot als Antwort auf [PRODUKT]. Der Launch verlaeuft holprig: In der Demo gibt [PRODUKT] eine falsche Antwort, [FIRMA]s Aktienkurs faellt um $100 Milliarden.
+
+[H127] (2023-03-21, entlassung)
+  [PERSON] leitete Massenentlassungen von 27.000 Mitarbeitern bei [FIRMA] (18.000 + 9.000 in zwei Phasen)
+
+[H128] (2023-04, produktlaunch)
+  [FIRMA] launched die Artificial Intelligence Platform (AIP), die Large Language Models in private Netzwerke integriert. AIP wird Game-Changer fuer kommerzielle Kunden (Airbus, Merck, HCA Healthcare).
+
+[H129] (2023-04-01, umstrukturierung)
+  Announced major API pricing changes requiring third-party apps to pay for access
+
+[H130] (2023-04-13, produktlaunch)
+  Launch von [FIRMA] Bedrock, managed Foundation Model Plattform mit 10+ Modellen
+
+[H131] (2023-04-20, umstrukturierung)
+  [PERSON] fuehrt [FIRMA] Brain und [FIRMA] zu '[FIRMA]' zusammen. [PERSON] wird CEO, [PERSON] Chief Scientist. Ziel: 'Kuehne und verantwortungsvolle Entwicklung allgemeiner KI'.
+
+[H132] (2023-04-20, umstrukturierung)
+  [FIRMA] vereint [FIRMA] und [FIRMA] Brain zu '[FIRMA]'. [PERSON] wird CEO der neuen Einheit. Ziel: Beschleunigung der KI-Entwicklung und AGI-Forschung.
+
+[H133] (2023-05-03, kauf)
+  Akquisition von Okera, der weltweit ersten KI-zentrierten Data-Governance-Plattform. Okera hatte zuvor knapp $30 Millionen Funding erhalten.
+
+[H134] (2023-05-23, investition)
+  Series-C-Runde ueber $450 Mio., angefuehrt von Spark Capital mit Beteiligung von [FIRMA], Salesforce Ventures und anderen. Bewertung: $4.1 Mrd.
+
+[H135] (2023-05-23, produktlaunch)
+  [FIRMA] launcht Azure AI Foundry (vorher Azure AI Studio), eine Plattform fuer Entwickler zum Bauen, Trainieren und Deployen eigener KI-Modelle. Unterstuetzt [FIRMA]-Modelle, Open-Source-Modelle und Custom-Modelle.
+
+[H136] (2023-06, investition)
+  [FIRMA] schliesst eine $1,3 Milliarden Finanzierungsrunde ab. Bewertung: $4 Milliarden. Eine der groessten KI-Finanzierungen 2023.
+
+[H137] (2023-06-14, lobbying)
+  [FIRMA] engagiert sich intensiv im EU-AI-Act-Gesetzgebungsprozess und plaediert fuer risikobasierte Regulierung statt pauschaler Verbote. [PERSON] trifft EU-Kommissarin Margrethe Vestager mehrfach.
+
+[H138] (2023-06-30, sonstiges)
+  Implemented API changes despite massive protest, killing major third-party apps
+
+[H139] (2023-07-05, produktlaunch)
+  [FIRMA] launcht Threads, eine [PLATTFORM]-Alternative. Die App erreicht 100 Millionen Nutzer in 5 Tagen -- der schnellste Wachstum einer Consumer-App jemals, schneller selbst als [PRODUKT].
+
+[H140] (2023-07-11, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] fuer die breite Oeffentlichkeit mit signifikanten Verbesserungen bei Coding, Mathematik und Reasoning.
+
+[H141] (2023-07-18, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] als Open-Source-Sprachmodell mit bis zu 70 Milliarden Parametern. Kostenlos fuer Forschung und kommerzielle Nutzung (mit Einschraenkungen fuer grosse Unternehmen).
+
+[H142] (2023-07-19, kauf)
+  Akquisition von MosaicML, einer führenden Generative-AI-Plattform, für $1.3 Milliarden (inklusive Retention Packages). MosaicML ist bekannt für MPT Large Language Models.
+
+[H143] (2023-07-21, politisch)
+  [FIRMA] unterzeichnet als eines von sieben fuehrenden US-KI-Unternehmen freiwillige Selbstverpflichtungen gegenueber der Biden-Administration zu KI-Sicherheit, Transparenz und externem Testing vor Deployment.
+
+[H144] (2023-07-24, gruendung)
+  [PERSON] launcht [PROJEKT] (spaeter 'World') mit Tools for Humanity. Das Projekt nutzt Iris-Scanner ('Orb') um eine globale digitale Identitaet ([PROJEKT]) und Kryptowaehrung bereitzustellen. Ueber 2 Millionen Nutzer verifizieren sich bis zum Launch. $250 Mio. Venture-Capital eingesammelt.
+
+[H145] (2023-07-25, lobbying)
+  [PERSON] veroeffentlicht Op-Ed in der New York Times 'Our Oppenheimer Moment: The Creation of A.I. Weapons', in dem er fuer KI-Waffensysteme trotz ethischer Bedenken plaediert und vor China warnt.
+
+[H146] (2023-09-05, produktlaunch)
+  [PERSON] veroeffentlicht 'The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma' gemeinsam mit Michael Bhaskar. Das Buch wird zum internationalen Bestseller und definiert 'Containment' als zentrales KI-Governance-Konzept.
+
+[H147] (2023-09-14, produktlaunch)
+  Led [FIRMA]' initial public offering on Nasdaq, pricing at $51/share and raising $4.87 billion in the largest IPO of 2023. Company valued at $54.5 billion. Stock opened at $56.10 and closed first day at $63.59 (+24%).
+
+[H148] (2023-09-19, sonstiges)
+  [FIRMA] veroeffentlicht als erstes grosses KI-Unternehmen eine 'Responsible Scaling Policy' (RSP) mit dem AI Safety Levels (ASL) Framework, angelehnt an biologische Sicherheitsstufen (BSL). [PERSON] investierte 10-20% seiner Arbeitszeit ueber 3 Monate in die Ausarbeitung.
+
+[H149] (2023-09-19, umstrukturierung)
+  [FIRMA] etabliert den Long-Term Benefit Trust (LTBT): ein unabhaengiges Gremium aus fuenf Experten fuer KI-Sicherheit, nationale Sicherheit und Ethik, das schrittweise die Mehrheit der Sitze im [FIRMA]-Board waehlen kann. Trustees haben keine finanziellen Interessen an [FIRMA].
+
+[H150] (2023-09-25, partnerschaft)
+  [FIRMA] investiert initial $1.25 Mrd. in [FIRMA] als Teil eines geplanten $4 Mrd. Deals. [FIRMA] wird bevorzugter KI-Partner fuer [FIRMA] Web Services ([FIRMA]) und nutzt [FIRMA]-Infrastruktur.
+
+[H151] (2023-10-23, kauf)
+  Akquisition von Arcion, führender Anbieter für Echtzeit-Enterprise-Datenreplikation, für über $100 Millionen (inklusive Incentives)
+
+[H152] (2023-10-27, investition)
+  [FIRMA] verpflichtet sich, bis zu $2 Milliarden in [FIRMA] zu investieren: $500 Mio. sofort, weitere $1,5 Mrd. ueber die Zeit. Vertiefung der strategischen Partnerschaft.
+
+[H153] (2023-11-04, produktlaunch)
+  [FIRMA] launcht [PRODUKT], einen KI-Chatbot mit Zugang zu Echtzeit-Daten von X ([PLATTFORM]). [PRODUKT] ist provokant, 'rebellisch' und fuer X-Premium-Nutzer verfuegbar. Alternative zu [PRODUKT].
+
+[H154] (2023-11-17, entlassung)
+  Der [FIRMA]-Vorstand entlaesst [PERSON] als CEO mit der Begruendung, er sei 'nicht durchgaengig aufrichtig' in seiner Kommunikation mit dem Board gewesen. [PERSON] kuendigt ebenfalls. [FIRMA] wird erst eine Minute vor der Oeffentlichkeit informiert.
+
+[H155] (2023-11-19, einstellung)
+  Nach der Entlassung von [PERSON] durch den [FIRMA]-Board bietet [PERSON] [PERSON] und [PERSON] an, ein neues KI-Team bei [FIRMA] zu leiten. Als [PERSON] zurueckkehrt, sichert [FIRMA] einen Beobachtersitz im neuen Board.
+
+[H156] (2023-11-21, einstellung)
+  Nach 4 Tagen intensiver Verhandlungen kehrt [PERSON] als CEO zurueck. Ueber 700 von 770 [FIRMA]-Mitarbeitern hatten mit Kuendigung gedroht. [PERSON] bedauert seine Rolle oeffentlich. Ein neuer Board unter [PERSON] wird installiert. [FIRMA] erhaelt einen Beobachtersitz.
+
+[H157] (2023-11-28, produktlaunch)
+  Launch von [FIRMA] Q, AI-Assistent für Entwickler und Business (Q Developer, Q Business)
+
+[H158] (2023-12-06, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], ein multimodales KI-Modell in drei Groessen (Ultra, Pro, Nano). [PERSON] bezeichnet es als 'most capable AI model yet'. [PRODUKT] wird in [PRODUKT] integriert.
+
+[H159] (2023-12-06, produktlaunch)
+  [FIRMA] launcht [PRODUKT] 1.0, ein multimodales Large Language Model in drei Groessen (Ultra, Pro, Nano). [PRODUKT] uebertrifft [PRODUKT] in mehreren Benchmarks.
+
+[H160] (2023-12-06, produktlaunch)
+  Launch der MI300 AI-Beschleuniger-Serie - [FIRMA]'s direkter Angriff auf [FIRMA]'s KI-Chip-Dominanz
+
+[H161] (2024, sonstiges)
+  [PERSON]s CEO-Verguetung steigt auf Paper um $6,8 Milliarden durch Wertzuwachs seiner Aktienoptionen. [FIRMA]-Aktie steigt um 340% in 2024. [PERSON] wird zu einem der bestbezahlten CEOs der Welt.
+
+[H162] (2024-01, politisch)
+  [PERSON] fliegt [FIRMA]-Vorstand nach Tel Aviv fuer erstes Board Meeting des Jahres -- Solidaritaetsbekundung nach Hamas-Angriff. [FIRMA] unterzeichnet strategische Partnerschaft mit israelischem Verteidigungsministerium.
+
+[H163] (2024-01-28, produktlaunch)
+  [FIRMA] fuehrt die erste erfolgreiche Gehirn-Chip-Implantation bei einem Menschen durch: Noland Arbaugh, ein gelahmter Patient. Der Chip ermoeglicht [FIRMA]-Steuerung allein durch Gedanken.
+
+[H164] (2024-01-31, politisch)
+  [PERSON] sagt vor dem Senate Judiciary Committee zu Online-Kindersicherheit aus. Er entschuldigt sich direkt bei anwesenden Opferfamilien, nachdem Senator Hawley ihn dazu draengt. Senator Graham sagt, er habe 'Blut an den Haenden'.
+
+[H165] (2024-02-01, partnerschaft)
+  Signed data licensing deal with [FIRMA] worth $60 million per year for AI training
+
+[H166] (2024-02-02, produktlaunch)
+  Launch des [FIRMA] Vision Pro Mixed-Reality-Headsets
+
+[H167] (2024-02-08, produktlaunch)
+  [FIRMA] benennt [PRODUKT] in '[PRODUKT]' um und startet [PRODUKT] Advanced mit Ultra 1.0-Modell. Launch eines kostenpflichtigen Abonnements ([PRODUKT] Advanced) fuer $19.99/Monat. Integration in [FIRMA] One.
+
+[H168] (2024-02-19, investition)
+  [PROJEKT] Ankündigung - geplante 100 Mrd. USD AI Chip Venture zum [FIRMA]-Wettbewerb (Name spielt auf AGI an)
+
+[H169] (2024-02-26, partnerschaft)
+  [FIRMA] kuendigt Partnerschaft mit dem franzoesischen KI-Startup Mistral AI an und investiert ca. $16 Millionen. Mistral-Modelle werden auf Azure verfuegbar.
+
+[H170] (2024-03-01, klage)
+  [PERSON] verklagt [FIRMA] und [PERSON]. Vorwurf: Abweichung von der gemeinnuetzigen Mission, Vertragsbruch, Manipulation. [PERSON] fordert Rueckkehr zum Non-Profit-Modell.
+
+[H171] (2024-03-01, verkauf)
+  Sold 500,000 [FIRMA] shares during IPO process for estimated $17 million
+
+[H172] (2024-03-04, produktlaunch)
+  [FIRMA] veroeffentlicht die [PRODUKT]-3-Modellfamilie mit drei Varianten: [PRODUKT] (flaggschiff), [PRODUKT] Sonnet (mittel) und [PRODUKT] Haiku (schnell/guenstig). Opus uebertrifft [PRODUKT] in vielen Benchmarks.
+
+[H173] (2024-03-17, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] als Open Source unter der Apache-2.0-Lizenz. Das Sprachmodell wird frei verfuegbar fuer Forschung und kommerzielle Nutzung.
+
+[H174] (2024-03-18, produktlaunch)
+  [FIRMA] kuendigt die Blackwell-Architektur an: 2,5x schneller als Hopper fuer Training (FP8), 5x fuer Inferenz (FP4). Cloud-Partner: [FIRMA], [FIRMA] Cloud, [FIRMA] Azure, [FIRMA]. 3,6 Millionen Blackwell-GPUs werden im ersten Jahr an die 4 groessten US-Cloud-Anbieter ausgeliefert.
+
+[H175] (2024-03-19, einstellung)
+  [FIRMA] stellt [PERSON] (Co-Founder von [FIRMA] und [FIRMA]) als CEO von [FIRMA] AI ein und holt die meisten [FIRMA]-Mitarbeiter. [FIRMA] zahlt [FIRMA] $650 Millionen fuer Lizenzen.
+
+[H176] (2024-03-19, verkauf)
+  [FIRMA] stellt [PERSON], Karen Simonyan und fast das gesamte [FIRMA]-Team ein. [FIRMA] zahlt ca. $650 Millionen fuer eine nicht-exklusive Lizenz fuer [FIRMA]-Modelle und rechtlichen Schutz. [FIRMA] bleibt als Firma bestehen, schwenkt aber auf B2B um.
+
+[H177] (2024-03-19, einstellung)
+  [FIRMA] ernennt [PERSON] zum Executive Vice President (EVP) und CEO der neu geschaffenen Consumer AI Unit '[FIRMA] AI'. Er leitet die Entwicklung von [PRODUKT] und anderen Consumer-AI-Produkten.
+
+[H178] (2024-03-21, produktlaunch)
+  Led [FIRMA]'s Initial Public Offering (IPO) at $34 per share
+
+[H179] (2024-05-02, umstrukturierung)
+  [FIRMA] kuendigt groessten Aktienrueckkauf der Geschichte an: 110 Milliarden Dollar
+
+[H180] (2024-05-07, investition)
+  Wayve autonomous driving Investment - 1,05 Mrd. USD Finanzierungsrunde für UK Self-Driving Startup (mit [FIRMA], [FIRMA])
+
+[H181] (2024-05-09, produktlaunch)
+  Introduced automotive-enhanced [FIRMA]v9 CPU profiles specifically designed for autonomous driving and self-driving cars
+
+[H182] (2024-05-10, verkauf)
+  Vision Fund US Portfolio Abbau - Verkauf/Abschreibung von 29 Mrd. USD in US-Aktien (Coupang, DoorDash, Grab) für Pivot zu KI/Chips
+
+[H183] (2024-05-13, produktlaunch)
+  [FIRMA] stellt [PRODUKT] vor, ein schnelleres und guenstigeres Modell als [PRODUKT] mit verbesserten multimodalen Faehigkeiten (Text, Audio, Bild). Kostenlos verfuegbar fuer alle Nutzer.
+
+[H184] (2024-05-14, produktlaunch)
+  [FIRMA] kuendigt TPU v6 'Trillium' an - 6. Generation von [FIRMA]s KI-Chips. 4,7-fache Leistungssteigerung pro Chip gegenueber TPU v5e. Teil der langfristigen Infrastruktur-Strategie.
+
+[H185] (2024-05-16, partnerschaft)
+  Signed data licensing partnership with [FIRMA] worth estimated $70 million per year
+
+[H186] (2024-05-20, produktlaunch)
+  [FIRMA] kuendigt [PRODUKT]+ PCs an, eine neue PC-Kategorie mit integrierten NPUs (Neural Processing Units) fuer On-Device-KI. Partnerschaft mit Qualcomm, Intel, [FIRMA].
+
+[H187] (2024-05-26, investition)
+  [FIRMA] sichert sich $6 Milliarden in einer Series-B-Finanzierungsrunde gefuehrt von [FIRMA], [FIRMA] Capital, Lightspeed und Tribe Capital. Bewertung: $24 Milliarden.
+
+[H188] (2024-06-01, investition)
+  [FIRMA] plant Ausgaben von rund 40 Milliarden USD für [FIRMA]-Chips, einschließlich etwa 400.000 der leistungsstärksten GB200-Chips
+
+[H189] (2024-06-04, kauf)
+  Akquisition von Tabular für über $2 Milliarden. Tabular wurde von den Erfindern von Apache Iceberg gegründet. [FIRMA] gewann Bieterwettbewerb gegen Snowflake und Confluent.
+
+[H190] (2024-06-10, produktlaunch)
+  Ankuendigung von [FIRMA] Intelligence, [FIRMA]s KI-System bei WWDC 2024
+
+[H191] (2024-06-10, partnerschaft)
+  [FIRMA] kuendigt Partnerschaft mit [FIRMA] fuer [PRODUKT]-Integration in [FIRMA] Intelligence an
+
+[H192] (2024-06-15, verkauf)
+  [FIRMA] nutzt [FIRMA] GPUs (spaeter eigene Chips) fuer Autopilot-Training. [PERSON] lobt [FIRMA] als Pionier in Physical AI. [FIRMA] bleibt ein strategischer Partner fuer KI-Infrastruktur.
+
+[H193] (2024-06-15, investition)
+  Abilene-Projekt: Baubeginn für AI-Rechenzentrum mit 450.000 [FIRMA] GB200 GPUs, 1,2 GW Gesamtleistung auf über 1.000 Acres
+
+[H194] (2024-06-20, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], der trotz Mittelklasse-Pricing den bisherigen Flaggschiff-[PRODUKT] in den meisten Benchmarks uebertrifft -- bei doppelter Geschwindigkeit und einem Fuenftel der Kosten.
+
+[H195] (2024-07-01, lobbying)
+  [PERSON] lobbyierte bei Trump, Tim Scott als Vizepräsidentschaftskandidaten zu wählen
+
+[H196] (2024-07-23, partnerschaft)
+  [FIRMA] nutzt ueber 100.000 [FIRMA] H100 GPUs zur Trainierung von LLaMA-4. [FIRMA] und [FIRMA] vertiefen ihre strategische Partnerschaft fuer Open-Source-KI.
+
+[H197] (2024-07-23, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT].1 mit 405 Milliarden Parametern -- das groesste Open-Source-Sprachmodell und laut [FIRMA] wettbewerbsfaehig mit [PRODUKT] und [PRODUKT]. Begleitet von [PERSON]s 'Open Source AI is the Path Forward'-Manifest.
+
+[H198] (2024-08-01, ruecktritt)
+  Resigned from Intel Board of Directors due to disagreements over company strategic direction
+
+[H199] (2024-08-15, produktlaunch)
+  [FIRMA] implantiert erfolgreich einen zweiten Patienten mit einem Brain-Computer-Interface. Expansion der klinischen Studien.
+
+[H200] (2024-08-19, kauf)
+  [FIRMA] gibt Übernahme von ZT Systems bekannt (Compute-Infrastruktur für Hyperscaler), Stärkung der Datacenter-Präsenz
+
+[H201] (2024-09-01, investition)
+  [FIRMA] baut 'Colossus', den weltweit groessten Supercomputer, in 122 Tagen. Standort: umgebaute Electrolux-Fabrik in Memphis. Anfangs 100.000 [FIRMA]-GPUs, dann verdoppelt auf 200.000 GPUs.
+
+[H202] (2024-09-05, produktlaunch)
+  [FIRMA] veroeffentlicht AlphaProteo, ein KI-System zum Design neuer Proteine, die an Zielmolekuele binden. Geht ueber [PRODUKT]s Vorhersagefaehigkeit hinaus zur aktiven Protein-Design.
+
+[H203] (2024-09-10, partnerschaft)
+  Su verkündet Kooperation mit GE Vernova zur Integration von Kernenergie in Tech-Infrastruktur für KI-Rechenzentren
+
+[H204] (2024-09-12, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT-REASONING] (intern 'Strawberry'), ein Reasoning-Modell, das vor der Antwort plant und mehrere Loesungswege durchgeht. Bei der Internationalen Mathematik-Olympiade loest es 83% der Aufgaben ([PRODUKT]: 13%).
+
+[H205] (2024-09-16, umstrukturierung)
+  [PERSON] führte 5-Tage-Büropflicht ab Januar 2025 ein, Ende des Hybrid-Modells
+
+[H206] (2024-09-26, investition)
+  Fortführung Climate Pledge: 500+ Wind- und Solarprojekte, größter Corporate Renewable Energy Käufer
+
+[H207] (2024-10-01, investition)
+  Fortsetzung Project Kuiper: $10+ Milliarden Investment in Satelliten-Internet (3.232 Satelliten geplant)
+
+[H208] (2024-10-02, investition)
+  [FIRMA] schliesst eine $6,6 Milliarden Finanzierungsrunde ab (gefuehrt von Thrive Capital mit $1,3 Mrd.). Bewertung: $157 Milliarden. Investoren: [FIRMA] ($750 Mio.), [FIRMA] ($500 Mio.), [FIRMA] ($100 Mio.) u.a. Bedingung: For-Profit-Umbau innerhalb von 2 Jahren.
+
+[H209] (2024-10-09, sonstiges)
+  [PERSON] und John M. Jumper erhalten den Nobelpreis fuer Chemie 2024 fuer die Entwicklung von [PRODUKT]2 zur Proteinstrukturvorhersage. Erster Nobelpreis fuer KI-Forschung.
+
+[H210] (2024-10-15, sonstiges)
+  [PERSON] wird von Koenig Charles III. zum Ritter geschlagen ('Sir [PERSON]') fuer Verdienste um KI und Wissenschaft.
+
+[H211] (2024-10-23, klage)
+  Issued 60-day notice to terminate Qualcomm's architectural license agreement, escalating legal dispute over chip design licensing
+
+[H212] (2024-11-01, produktlaunch)
+  Skalierung von [FIRMA] Trainium2 Custom AI Chips - Multi-Milliarden-Dollar-Business, 150% QoQ Wachstum
+
+[H213] (2024-11-15, klage)
+  [PERSON] reicht erweiterte Klage gegen [FIRMA] ein, diesmal mit [FIRMA] als Beklagtem. Neue Vorwuerfe: Kartellrechtsverletzung, monopolistische Praktiken, illegale Fusion. Forderung: $79-134 Milliarden Schadenersatz.
+
+[H214] (2024-11-16, partnerschaft)
+  [FIRMA] kuendigt ein Sovereign-AI-Programm mit Suedkorea an: bis zu 50.000 [FIRMA] GPUs (davon initial 13.000 Blackwell) werden ueber Cloud-Provider NHN Cloud, Kakao Corp. und NAVER Cloud bereitgestellt.
+
+[H215] (2024-11-22, partnerschaft)
+  [FIRMA] verdoppelt sein Gesamtinvestment in [FIRMA] auf $8 Mrd. durch eine weitere Investition von $4 Mrd.
+
+[H216] (2024-11-22, investition)
+  [FIRMA] investierte unter [PERSON] insgesamt $4 Milliarden in [FIRMA] ([PRODUKT] AI)
+
+[H217] (2024-12-01, partnerschaft)
+  Zusammenarbeit mit University of [UNI] zur AI-gestützten Modifikation von Weizen für 20% höhere Erträge durch effizientere Photosynthese
+
+[H218] (2024-12-03, produktlaunch)
+  Launch von [FIRMA] Nova, eigene Foundation Model Familie (Micro, Lite, Pro, Premier, Canvas, Reel)
+
+[H219] (2024-12-09, produktlaunch)
+  [FIRMA] veroeffentlicht Willow, einen Quantenchip mit 105 Qubits, der einen Durchbruch bei der Fehlerkorrektur erzielt. Berechnung in unter 5 Minuten, die klassische Computer 10^25 Jahre benoetigen wuerden.
+
+[H220] (2024-12-13, politisch)
+  [PERSON] spendet persoenlich $1 Million an Trumps Inaugurations-Fonds. Zuvor hatte er 2023 $200.000 an Biden gespendet und Trump 2016 mit Hitler verglichen.
+
+[H221] (2024-12-17, investition)
+  Einwerbung von $10 Milliarden in Series J Funding bei $62 Milliarden Bewertung. Led by Thrive Capital, co-led by [FIRMA], DST Global, Insight Partners, WCM, GIC. Neue Investoren: Iconiq Growth, Sands Capital, Wellington Management, MGX.
+
+[H222] (2024-12-23, investition)
+  [FIRMA] sammelt weitere $6 Milliarden in einer Series-C-Runde mit Beteiligung von Fidelity, BlackRock und [FIRMA] Capital. Bewertung steigt auf $50 Milliarden. Gesamtfinanzierung: ueber $12 Milliarden.
+
+[H223] (2025, produktlaunch)
+  [FIRMA] kuendigt TPU v7 'Ironwood' an, die 7. Generation der Tensor Processing Units. 3.600-mal bessere Performance als die erste oeffentliche TPU, 29-mal energieeffizienter. Launch fuer 2025 geplant.
+
+[H224] (2025, partnerschaft)
+  [FIRMA] kuendigt Zusammenarbeit mit Commonwealth Fusion Systems an, um KI zur Beschleunigung der Fusionsenergie-Entwicklung einzusetzen. KI optimiert Simulation, Kontrollsysteme und Materialentdeckung.
+
+[H225] (2025-01, investition)
+  [PERSON] kuendigt $75 Milliarden Investition in KI-Infrastruktur fuer 2025 an (Steigerung von $52,5 Mrd. in 2024). Ausbau von Rechenzentren, TPUs und GPU-Clustern.
+
+[H226] (2025-01-01, einstellung)
+  Appointed as Non-Executive Director to AstraZeneca PLC board, bringing deep technology expertise in data science, computing and AI to pharmaceutical company
+
+[H227] (2025-01-01, politisch)
+  Participated in US-Japan announcement of university-corporate AI partnerships worth $110 million with support from [FIRMA]
+
+[H228] (2025-01-03, spende)
+  [PERSON] spendet persoenlich 1 Million Dollar an Donald Trumps Amtseinfuehrungs-Komitee
+
+[H229] (2025-01-19, partnerschaft)
+  [FIRMA] und TSMC kuendigen eine Zusammenarbeit bei Silicon Photonics an -- einer Technologie zur optischen Datenuebertragung in Chips. Dies soll die Bandbreite fuer KI-Cluster massiv erhoehen.
+
+[H230] (2025-01-21, investition)
+  [FIRMA], [FIRMA], [FIRMA] und MGX kuendigen gemeinsam mit Praesident Trump das [PROJEKT]-Projekt an: bis zu $500 Milliarden Investition in KI-Infrastruktur (Rechenzentren) in den USA. [FIRMA] hat operative Verantwortung, [FIRMA] die finanzielle. Geplant: 100.000 neue Jobs.
+
+[H231] (2025-01-21, investition)
+  Gründungsinvestition im [PROJEKT] AI-Projekt: [FIRMA] verpflichtet 7 Milliarden USD initial bei geplanten Gesamtinvestitionen von 100-500 Milliarden USD
+
+[H232] (2025-01-21, produktlaunch)
+  Start des Baus von 10 Rechenzentren in Abilene, Texas für das [PROJEKT]-Projekt mit geplanter Expansion auf 20 Standorte weltweit
+
+[H233] (2025-01-21, partnerschaft)
+  [PROJEKT] Ankündigung mit Trump - 500 Mrd. USD KI-Infrastruktur Initiative ([FIRMA] Chairman), 100k Jobs
+
+[H234] (2025-01-22, investition)
+  [FIRMA] investiert weitere $1 Milliarde in [FIRMA] und bringt kumulativ ca. $3 Milliarden Investment. Zusaetzlich wird Cloud-Deal angekuendigt: Lieferung von bis zu 1 Million TPUs an [FIRMA].
+
+[H235] (2025-02-03, partnerschaft)
+  Strengthened partnerships with [FIRMA] and [FIRMA] to drive AI productivity across global technology sector
+
+[H236] (2025-02-05, politisch)
+  [FIRMA] aendert seine AI-Ethik-Grundsaetze und entfernt das Versprechen, Waffen- und Ueberwachungsanwendungen zu vermeiden. Kritiker werfen [FIRMA] vor, kommerzielle Interessen ueber ethische Prinzipien zu stellen.
+
+[H237] (2025-02-06, klage)
+  Ended legal efforts to terminate Qualcomm's license after jury concluded Qualcomm had not violated license terms and chips using Nuvia technology were properly licensed
+
+[H238] (2025-02-14, produktlaunch)
+  Announced plans to launch paid subreddits and contributor monetization features
+
+[H239] (2025-02-17, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] 3, trainiert mit '10x mehr Rechenleistung' als [PRODUKT] 2 im Colossus-Rechenzentrum mit 200.000 GPUs. Uebertrifft laut [FIRMA] [FIRMA] [PRODUKT] in Benchmarks.
+
+[H240] (2025-03-01, investition)
+  [FIRMA] schliesst eine Series-E-Finanzierungsrunde ueber $3.5 Mrd. ab, angefuehrt von Lightspeed Venture Partners. Post-Money-Bewertung: $61.5 Mrd.
+
+[H241] (2025-03-01, partnerschaft)
+  Secured agreement with Malaysian government for $250 million over ten years for AI chip design blueprints, including IP access, training 10,000 local engineers, and establishing Kuala Lumpur office
+
+[H242] (2025-03-15, investition)
+  [FIRMA] Investment Commitment - bis zu 40 Mrd. USD Gesamtverpflichtung, Teil von [PROJEKT]
+
+[H243] (2025-03-18, einstellung)
+  Appointed Chief Executive Officer of Intel Corporation, replacing interim co-CEOs David Zinsner and Michelle Johnston Holthaus
+
+[H244] (2025-03-31, investition)
+  [FIRMA] schliesst eine $40 Milliarden Finanzierungsrunde ab, die groesste private Tech-Finanzierung aller Zeiten. [FIRMA] fuehrt mit $30 Mrd. Bewertung: $300 Milliarden. Weitere Investoren: [FIRMA], Coatue, Altimeter, Thrive.
+
+[H245] (2025-04-01, investition)
+  Isomorphic Labs schliesst erste externe Finanzierungsrunde ueber $600 Millionen ab. Gefuehrt von Thrive Capital, mit Beteiligung von [FIRMA] Ventures und [FIRMA].
+
+[H246] (2025-04-14, verkauf)
+  Sold 51% controlling stake in Intel's Altera FPGA business to Silver Lake private equity for $4.46 billion
+
+[H247] (2025-05-22, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] Opus 4 (leistungstaerkstes Modell, weltbestes Coding-Modell) und [PRODUKT] Sonnet 4 mit Extended Thinking und Hybrid-Modus.
+
+[H248] (2025-06-10, investition)
+  [FIRMA] investiert $14,3 Milliarden in [FIRMA] und stellt dessen CEO [PERSON] ein. Die Investition ist Teil von [FIRMA]s AGI-Sprint und soll [FIRMA]s Datenannotation und KI-Training beschleunigen.
+
+[H249] (2025-06-17, gruendung)
+  [FIRMA] gruendet die 'Superintelligence Group', die FAIR ([FIRMA] AI Research) und GenAI-Teams vereint mit dem Ziel, AGI/Superintelligenz zu entwickeln. [PERSON] erklaert Superintelligenz als 'in Sichtweite'.
+
+[H250] (2025-07-25, umstrukturierung)
+  Canceled Intel's planned chip manufacturing facilities in Magdeburg, Germany (€10B subsidy) and Wrocław, Poland (€4.6B), ending European expansion
+
+[H251] (2025-07-25, entlassung)
+  Announced workforce reduction of approximately 25,000 employees (15% of workforce) by end of 2025, reducing headcount to ~75,000
+
+[H252] (2025-07-25, umstrukturierung)
+  Implemented return-to-office mandate requiring employees to work in office four days per week by September 2025
+
+[H253] (2025-08-22, politisch)
+  Negotiated deal with Trump administration for U.S. government to acquire 10% equity stake in Intel for $8.9 billion in exchange for CHIPS Act funding
+
+[H254] (2025-09-01, partnerschaft)
+  [FIRMA] sichert sich Mehrjahresverträge im Wert von über 300 Milliarden USD mit [FIRMA], [FIRMA], [FIRMA], [FIRMA] und [FIRMA]
+
+[H255] (2025-09-02, verkauf)
+  [PERSON]s [FIRMA] baut den 'Colossus'-Supercomputer mit 100.000 [FIRMA] GPUs in nur 19 Tagen Bauzeit (Gesamtprojekt ca. 122 Tage). Geschaetzte Kosten: $7 Milliarden. [PERSON] nennt [PERSON] 'superhuman'.
+
+[H256] (2025-09-10, partnerschaft)
+  [FIRMA] sichert sich 300-Milliarden-USD-Vertrag mit [FIRMA] über fünf Jahre für Cloud-Computing-Ressourcen
+
+[H257] (2025-09-10, investition)
+  [PERSON]s Vermögen steigt an einem Tag um 101 Milliarden USD auf 393 Milliarden USD - größter eintägiger Vermögenszuwachs in der Geschichte
+
+[H258] (2025-09-15, partnerschaft)
+  [FIRMA] und [FIRMA] kuendigen eine strategische Partnerschaft an: Bereitstellung von 10 Gigawatt [FIRMA]-Systemen fuer [FIRMA]. Eine geplante $100 Milliarden Investition wird spaeter auf $20 Milliarden angepasst.
+
+[H259] (2025-10-15, partnerschaft)
+  [FIRMA] und [FIRMA] verkünden massive Partnerschaft: [FIRMA] kauft [FIRMA] Instinct AI-Chips für 6 Gigawatt Deployment, Start 2026 mit 1 GW
+
+[H260] (2025-10-15, sonstiges)
+  [FIRMA] gibt Warrant für bis zu 160 Millionen [FIRMA]-Aktien an [FIRMA] aus, vesting bei Erreichen technischer/kommerzieller Meilensteine
+
+[H261] (2025-10-15, investition)
+  [FIRMA] Vision Fund 2 Investment - 22,5 Mrd. USD durch SVF2 (dritte Tranche, effektiv 30 Mrd. nach Syndizierung)
+
+[H262] (2025-10-15, partnerschaft)
+  Announced expanded multi-year partnership with [FIRMA] for AI infrastructure, moving [FIRMA]'s ranking and recommendation systems to [FIRMA]'s Neoverse platform optimized for cloud AI
+
+[H263] (2025-10-23, partnerschaft)
+  [FIRMA] und [FIRMA] kuendigen Cloud-Deal im Wert von Dutzenden Milliarden Dollar an: Lieferung von bis zu 1 Million TPUs. Deployment ab 2026 mit ueber 1 Gigawatt Kapazitaet. Groesster TPU-Deal in [FIRMA]s Geschichte.
+
+[H264] (2025-10-29, umstrukturierung)
+  Nach fast einem Jahr Verhandlungen schliesst [FIRMA] den Umbau zu einer Public Benefit Corporation (PBC) ab. Die gemeinnuetzige [FIRMA] Foundation erhaelt 26% ($130 Mrd. Anteil), [FIRMA] 27%, Mitarbeiter/andere Investoren 47%. Gewinndeckelungen entfallen.
+
+[H265] (2025-11-01, sonstiges)
+  Achieved billionaire status as [FIRMA] stock soared after earnings report
+
+[H266] (2025-11-06, gruendung)
+  [PERSON] kuendigt die Gruendung des MAI Superintelligence Teams bei [FIRMA] an mit dem Mandat, 'Humanist Superintelligence (HSI)' zu entwickeln. Fokus auf Safety, Control und Dienst am Menschen.
+
+[H267] (2025-11-11, investition)
+  [FIRMA] stellt Gesamtinvestitionen von über 100 Milliarden USD für organisches und anorganisches Wachstum über 5 Jahre dar (2020-2025)
+
+[H268] (2025-11-11, produktlaunch)
+  [FIRMA] kündigt MI450 GPUs an, Teil des [FIRMA]-Deals für 2026 Deployment - nächste Generation KI-Beschleuniger
+
+[H269] (2025-11-11, verkauf)
+  [FIRMA] Komplett-Ausstieg - Verkauf aller verbliebenen 32,1 Mio. [FIRMA] Aktien für Fokus auf eigene AI-Infrastruktur
+
+[H270] (2025-11-25, kauf)
+  Ampere Computing Übernahme - Erwerb des ARM-basierten Server-Chip Designers für ASI-Computing-Power
+
+[H271] (2025-12, partnerschaft)
+  [FIRMA] erhaelt $60 Millionen Vertrag mit ICE (Immigration and Customs Enforcement) fuer 'Immigration OS' -- ohne offene Ausschreibung. Software wird fuer Abschiebungen und Grenzkontrollen genutzt.
+
+[H272] (2025-12-01, verkauf)
+  Sold 57.5 million shares of Intel's Mobileye autonomous driving unit for $922 million, reducing Intel stake to ~80%
+
+[H273] (2025-12-08, umstrukturierung)
+  [PERSON] kuendigt Budgetkuerzungen von bis zu 30% fuer Reality Labs ([FIRMA]verse-Abteilung) und Entlassungen von 10-30% des Teams an. Fokus verschiebt sich zu KI-gesteuerten Smart Glasses statt VR-Headsets.
+
+[H274] (2025-12-10, partnerschaft)
+  [FIRMA] kuendigt weitreichende Forschungspartnerschaft mit der britischen Regierung an. Fokus: Materialwissenschaft, saubere Energie, Kernfusion. Eroeffnung des ersten automatisierten Forschungslabors in UK 2026.
+
+[H275] (2025-12-17, umstrukturierung)
+  [PERSON] reorganisierte AI-Leadership: Rohit Prasad (AGI-Chef) ersetzt durch Peter DeSantis
+
+[H276] (2025-12-18, partnerschaft)
+  [FIRMA] wird Teil der Investorengruppe, die 80,1% Anteil an der neu gegründeten US TikTok-Einheit erwirbt, nach Ausgliederung von ByteDance
+
+[H277] (2025-12-29, kauf)
+  [FIRMA] uebernimmt Manus, ein in Singapur ansaessiges KI-Startup mit chinesischen Wurzeln, fuer ueber $2 Milliarden. Manus entwickelt KI-Agenten. Eine seltene Uebernahme eines China-gegruendeten Startups durch einen US-Tech-Giganten.
+
+[H278] (2026-01-01, einstellung)
+  Hired Eric Demers, former [FIRMA] CTO and Qualcomm Adreno lead, as Chief GPU Architect to challenge [FIRMA] in GPU market
+
+[H279] (2026-01-06, investition)
+  [FIRMA] schliesst eine $20 Milliarden Series-E-Finanzierungsrunde ab mit Beteiligung von [FIRMA], Cisco und Fidelity. Bewertung: $230 Milliarden. Uebertrifft urspruengliches $15-Mrd.-Ziel.
+
+[H280] (2026-02-01, umstrukturierung)
+  Die Chan [PERSON] Initiative entlaesst 70 Mitarbeiter und stellt Finanzierung fuer Bildung, Klimawandel und soziale Gerechtigkeit ein. Volle Fokussierung auf KI-getriebene biomedizinische Forschung und das Biohub-Netzwerk.
+
+[H281] (2026-02-02, kauf)
+  [FIRMA] akquiriert [FIRMA] in einer All-Stock-Transaktion. [FIRMA] wird vollstaendige Tochtergesellschaft von [FIRMA]. [FIRMA]-Bewertung: $1 Billion, [FIRMA]-Bewertung: $250 Milliarden. Kombinierte Bewertung: $1,25 Billionen.
+
+[H282] (2026-02-02, investition)
+  [FIRMA] plant massive Kapitalaufnahme von 45-50 Milliarden USD für AI-Cloud-Expansion durch Mischung aus Fremd- und Eigenkapital
+
+[H283] (2026-02-03, partnerschaft)
+  Announced partnership with Amkor Technology to expand Intel Foundry advanced packaging capabilities for customers
+
+[H284] (2026-02-06, investition)
+  [FIRMA] kuendigt '[FIRMA] Compute' an: eine massive Infrastruktur-Initiative mit Multi-Gigawatt-Rechenzentren. Das erste 'Prometheus'-Zentrum (1 GW) in Ohio, das groesste 'Hyperion' (5 GW, $10 Mrd.) in Louisiana.
+
+[H285] (2026-02-09, investition)
+  Abschluss einer $5 Milliarden Finanzierungsrunde (davon $3B Equity, $2B Debt) bei $134 Milliarden Bewertung. Mehr als Verdopplung der Bewertung seit Series J.
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================

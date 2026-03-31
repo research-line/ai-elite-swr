@@ -1,0 +1,876 @@
+========================================================================
+SYNTHESEEINHEIT: ANTHRO_matched_control_AH
+Beschreibung: Matched Control (9 Nicht-Anthropic Gründer/Forscher)
+Generiert: 2026-03-31 12:05
+========================================================================
+
+Datenpunkte: 130 Aussagen + 111 Handlungen = 241 gesamt
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (130 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2017-06-12, schriftlich)
+  "Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea."
+  Kontext: One of its authors, [PERSON], suspected that attention without recurrence would be sufficient for language translation, thus the title "attention is all you need". That hypothesis was against conventional wisdom at the time.
+
+[A002] (2017-06-12, schriftlich)
+  "Not everyone thought the transformer idea was going to rock the world, including [PERSON]'s father, who had scooped up two [FIRMA] Faculty research awards while his son was working for the company."
+  Kontext: Jakob's father Hans [PERSON], a well-known computational linguist, was skeptical about the transformer hypothesis despite his son's work at [FIRMA].
+
+[A003] (2020-12-01, schriftlich)
+  "[PERSON]'s entrance into biology was sparked by two 2020 events: first, seeing millions of patients benefiting from mRNA-based COVID vaccines, and second, the breakthroughs in [FIRMA]'s [PRODUKT]2, which could predict three-dimensional protein structures from sequence data and was based on the Transformer."
+  Kontext: The convergence of mRNA vaccine success and [PRODUKT]2's breakthrough catalyzed [PERSON]'s pivot from AI language models to biological applications.
+
+[A004] (2021-11-01, muendlich)
+  "As a PoS chain, NEAR is that much more energy efficient. The NEAR chain's energy consumption as a whole contributed to less than 1% of the entire NEAR collective's carbon footprint."
+  Kontext: CogX Open Web Forum discussion on NEAR's climate neutrality
+
+[A005] (2022, muendlich)
+  "Maybe we're now reaching a point where the language of psychology is starting to be appropriate to understand the behavior of these neural networks."
+  Kontext: [PERSON] spekuliert, dass fortgeschrittene KI-Systeme psychologische Konzepte rechtfertigen koennten.
+
+[A006] (2022-01-01, muendlich)
+  "For me, web3 is not about decentralization. I think decentralization is just a tool. What it is about is low switching costs."
+  Kontext: Podcast interview with Daniel Scrivner explaining his philosophy on Web3
+
+[A007] (2022-04-26, schriftlich)
+  "After 5+ wonderful years in [FIRMA] Brain, I'm starting Adept with the mission to build the future of human-computer collaboration."
+  Kontext: Ankündigung der Gründung von Adept AI nach Verlassen von [FIRMA]
+
+[A008] (2022-11-04, muendlich)
+  "Crypto became the largest driver for humanitarian help as well as some of military help for Ukraine. It's resilient, it's fast, it delivers help directly to people."
+  Kontext: Interview about crypto's role in Ukraine war relief efforts
+
+[A009] (2022-11-04, muendlich)
+  "You can create a full system, an NGO system in days. Instead of [the] months it would take to create a new nonprofit, set up banks accounts, get all the legal structure, make sure that people can wire money to it without problems."
+  Kontext: Explaining the speed advantage of crypto for humanitarian organizations
+
+[A010] (2022-11-30, muendlich)
+  "After a lot of reflection, I've decided to return to my entrepreneurial roots. Salesforce has never been more relevant to customers, and with its best-in-class management team and the company executing on all cylinders, now is the right time for me to step away."
+  Kontext: Offizielle Stellungnahme zum Rücktritt als Salesforce Co-CEO
+
+[A011] (2023, muendlich)
+  "Good compressors can become good predictors. When training a large neural network to accurately predict the next word, the network learns a world model by learning statistical correlations in text to compress them really well."
+  Kontext: [PERSON] erklaert seine Theorie des unueberwachten Lernens: Kompression ist eng mit Intelligenz verbunden.
+
+[A012] (2023, muendlich)
+  "I'm quite hopeful that by simply improving this subsequent reinforcement learning from human feedback step, we can teach it to not hallucinate."
+  Kontext: [PERSON] aeussert sich optimistisch ueber die Faehigkeit von RLHF, KI-Halluzinationen zu reduzieren.
+
+[A013] (2023, muendlich)
+  "Feel the AGI!"
+  Kontext: Berichte von [FIRMA]-Mitarbeitern, dass [PERSON] Team-Meetings mit dem Aufruf 'Feel the AGI!' leitete -- fast wie eine spirituelle Beschwörung.
+
+[A014] (2023, muendlich)
+  "Kolmogorov complexity well-defines unsupervised learning and LLMs are approximations thereof."
+  Kontext: [PERSON] verbindet Informationstheorie und KI: LLMs lernen durch Kompression, was einer Form von Kolmogorov-Komplexitaet entspricht.
+
+[A015] (2023-01-01, muendlich)
+  "There was nothing decentralized or transparent about Sam Bankman-Fried's FTX empire. FTX's failure was a result of centralized mismanagement rather than an indictment of decentralized technology."
+  Kontext: Commentary on FTX collapse and centralization risks
+
+[A016] (2023-02-01, schriftlich)
+  "It's important for [FIRMA] and companies like ours to bring this into the public consciousness in a way that's controlled and responsible. But we're a small group of people and we need a ton more input into the system from, you know, from people in the world, from society, from regulators and governments and so on."
+  Kontext: Interview mit TIME Magazine über [PRODUKT] und die Notwendigkeit von KI-Regulierung
+
+[A017] (2023-02-01, muendlich)
+  "For capabilities and safety, they're actually not separate domains. They go hand-in-hand. It's much easier to direct a smarter system by telling it, okay, just don't do these things."
+  Kontext: TIME Interview über die Beziehung zwischen KI-Fähigkeiten und Sicherheit
+
+[A018] (2023-02-21, muendlich)
+  "The future of AI is here, but it's not evenly distributed. We're on a journey to advance and democratize artificial intelligence through open source and open science. It's time to make AI open and accessible to all."
+  Kontext: Statement at announcement of [FIRMA] partnership expansion to democratize AI access
+
+[A019] (2023-04-01, muendlich)
+  "AI is a really incredible and magical technology, but the breadth, the reach, the consequence, is also great. Our entire world is engineering—like our cities, our bridges, everything—and there's always risk that comes with that, and you manage that risk with responsibility."
+  Kontext: Johns Hopkins Interview über KI-Entwicklung und Verantwortung
+
+[A020] (2023-04-24, muendlich)
+  "I expect that we will collaborate with it and it's going to make our creativity expand. It's going to lower the barrier for anyone to think of themselves as creative."
+  Kontext: Associated Press Interview über [PRODUKT] und kreative Zusammenarbeit mit KI
+
+[A021] (2023-05-01, schriftlich)
+  "Our attention should be aligned with the needs and challenges of Earth's eight billion people."
+  Kontext: USC Viterbi Promotionsfeier 2023 - Dean Yortsos zitiert [PERSON]'s Paper-Titel als ethischen Aufruf
+
+[A022] (2023-05-01, muendlich)
+  "I was just trying to understand how attention mechanisms worked. We didn't know it would become the architecture for everything."
+  Kontext: Reflexion über die Arbeit am "Attention Is All You Need" Paper als 20-jähriger [FIRMA] Brain Intern
+
+[A023] (2023-05-09, muendlich)
+  "A.I. will make people more effective not displace them."
+  Kontext: CNBC Interview über die Auswirkungen von KI auf Arbeitsplätze
+
+[A024] (2023-06-22, muendlich)
+  "Open science and open source AI distribute economic gains by enabling hundreds of thousands of small companies and startups to build with AI. It fosters innovation, and fair competition between all."
+  Kontext: Congressional testimony before House Science Committee on AI regulation and innovation
+
+[A025] (2023-06-22, muendlich)
+  "Thanks to ethical openness, [they create] a safer path for development of the technology by giving civil society, nonprofits, academia and policymakers the capabilities they need to counterbalance the power of big private companies."
+  Kontext: Congressional testimony explaining why open source AI creates safer development paths
+
+[A026] (2023-06-22, muendlich)
+  "Open science and open source AI are extremely aligned with the American values and interests."
+  Kontext: Congressional testimony positioning open source AI as aligned with US national interests
+
+[A027] (2023-06-22, muendlich)
+  "Open-science and open-source prevent black box systems, make companies more accountable and help solving today's challenges like mitigating biases, reducing misinformation, promoting copyrights, and rewarding all stakeholders."
+  Kontext: Congressional testimony on benefits of open source for AI accountability and addressing societal challenges
+
+[A028] (2023-06-22, muendlich)
+  "Openness bolsters transparency and enables external scrutiny."
+  Kontext: Congressional testimony on benefits of openness for AI safety and accountability
+
+[A029] (2023-08-01, muendlich)
+  "My dad would bring home math problems from his classes, and we'd work through them at dinner. My mom taught me to think about systems aesthetically, not just functionally. Good design is elegant design."
+  Kontext: Über seinen familiären Hintergrund und frühe Prägung
+
+[A030] (2023-08-01, muendlich)
+  "Model architectures will actually get simpler from here, and be driven by hardware."
+  Kontext: [PERSON] predicted that future model architectures will become simpler, driven by hardware constraints and capabilities.
+
+[A031] (2023-08-01, muendlich)
+  "The existing drug discovery approach is not scalable, and deep learning at scale could be the key to unlock innovations."
+  Kontext: [PERSON] explained why existing pharmaceutical discovery methods face scalability limitations.
+
+[A032] (2023-08-01, muendlich)
+  "We want to do that but with cells in your body."
+  Kontext: Referring to programming paradigms, [PERSON] envisions designing biological software that runs on cells.
+
+[A033] (2023-08-15, muendlich)
+  "We are a big proponent of more transparency, more openness, more distribution of power in terms of AI capabilities. That's what we're trying to push, while at the same time respecting the different approaches that companies take."
+  Kontext: Interview discussing [FIRMA]'s philosophy and approach to AI development
+
+[A034] (2023-08-15, muendlich)
+  "I think through the open source model, you can do things a bit differently ... you can, as a startup, empower the community in a way, and create a thousand times more value than you would by building a proprietary tool."
+  Kontext: Explaining the business value and community empowerment potential of open source AI models
+
+[A035] (2023-10-01, muendlich)
+  "Data keeps coming up because it's such unknown today. There are several places where we can have large open source contributions."
+  Kontext: ScaleUp:AI 2023 Event - Diskussion über Herausforderungen in der KI-Entwicklung
+
+[A036] (2023-10-01, muendlich)
+  "I would like to see some of the Millennium Problems solved in conjunction with the new AI models."
+  Kontext: ScaleUp:AI 2023 - Vision für den Einsatz von KI bei fundamentalen wissenschaftlichen Problemen
+
+[A037] (2023-10-01, muendlich)
+  "While we were aware we were working on a fundamental problem, we didn't fully realize the potential of our innovation until we saw the model outperforming existing ones and applying it to various tasks."
+  Kontext: Reflektion über die Entstehung des Transformer-Papers
+
+[A038] (2023-11-07, muendlich)
+  "The open web is an internet where all people control their own assets, data, and power of governance."
+  Kontext: NEARCON 2023 keynote in Lisbon on Day One
+
+[A039] (2023-11-15, schriftlich)
+  "There are a lot of people emphasizing the existential risk of AI to justify the fact that it shouldn't be as open as it is, saying that it's better not to share research because it's dangerous."
+  Kontext: Critique of using existential risk arguments to justify closed AI development
+
+[A040] (2023-11-20, schriftlich)
+  "I deeply regret my participation in the board's actions. I never intended to harm [FIRMA]. I love everything we've built together and I will do everything I can to reunite the company."
+  Kontext: Tweet drei Tage nach [PERSON]s Entlassung, als 700+ [FIRMA]-Mitarbeiter mit Kuendigung drohten. [PERSON] selbst unterzeichnete den Brief, der den Ruecktritt des Boards forderte.
+
+[A041] (2023-12-11, muendlich)
+  "Essential AI's mission is to deepen the partnership between humans and computers, unlocking collaborative capabilities that far exceed what could be achieved today."
+  Kontext: Offizielle Mission von Essential AI bei Gründung
+
+[A042] (2023-12-20, muendlich)
+  "The idea is that blockchains must be abstracted away from the user so they are not barriers to entry or participation."
+  Kontext: CoinDesk article on NEAR's chain abstraction vision
+
+[A043] (2024, muendlich)
+  "Very carefully curate data such that consciousness is never mentioned. If the AI then spontaneously recognized and articulated consciousness, that would constitute evidence of consciousness."
+  Kontext: [PERSON] schlaegt einen spezifischen Test vor: KI-Bewusstsein wuerde sich zeigen, wenn eine KI spontan das Konzept erkennt, ohne je damit trainiert worden zu sein.
+
+[A044] (2024, muendlich)
+  "There will be a before and an after. I'm working on safety for my own self-interest."
+  Kontext: [PERSON] beschreibt die Entwicklung fortgeschrittener KI als 'monumental, welterschuetternd' und raeumt ein, dass seine Sicherheitsarbeit auch Eigeninteresse ist.
+
+[A045] (2024-01-01, schriftlich)
+  "The transformer is a way to capture interaction very quickly all at once between different parts of any input. It's a general method that captures interactions between pieces in a sentence, or the notes in music, or pixels in an image, or parts of a protein."
+  Kontext: Erklärung der Transformer-Architektur und ihrer universellen Anwendbarkeit
+
+[A046] (2024-01-01, muendlich)
+  "Today's models of language have absolutely no connection to the extremely rich other aspects of the human experience."
+  Kontext: [PERSON] views current language models as "extremely advanced pattern matchers and pattern recognizers" that "cannot possibly relate to the depths of human emotions and the human experience."
+
+[A047] (2024-01-01, muendlich)
+  "The hope is that we will eventually get to the point where we can have fairly complex definitions or declarations of intended behaviour that are then successfully compiled into descriptions of molecules that exhibit those behaviours inside cells."
+  Kontext: In exclusive interview with Pharmaphorum, [PERSON] describes his vision for biological software that can compile intended behaviors into molecular designs.
+
+[A048] (2024-01-01, muendlich)
+  "AI is a really powerful force, but what we don't want is it to be controlled and biased by a single company. Whoever controls these models controls the biases, what gets shown or hidden, and the decisions suggested to millions of people."
+  Kontext: Interview on The Neuron podcast about AI centralization concerns
+
+[A049] (2024-01-01, muendlich)
+  "Both sides of the market are scared — users fear giving AI access to their data, while companies fear the liability of handling that data, especially with HIPAA, IP rights, and compliance nightmares."
+  Kontext: Discussing privacy and liability concerns in AI systems
+
+[A050] (2024-01-01, muendlich)
+  "Your AI could be secretly programmed to convince you of opinions. As language models gain the ability to interact directly with society, they hold the potential to manipulate information on a broad scale."
+  Kontext: Warning about dystopian AI manipulation scenarios
+
+[A051] (2024-01-01, muendlich)
+  "People will find meaning and compete for status in small communities focused on niche interests and activities such as athletics, video games, collection & creation of unique artifacts, and who knows what else."
+  Kontext: Cognitive Revolution podcast on future society with AI
+
+[A052] (2024-01-01, muendlich)
+  "Advertising and middlemen will become less relevant as AI agents allow buyers and sellers to connect directly at unprecedented scale."
+  Kontext: Discussing economic implications of AI agents
+
+[A053] (2024-01-01, muendlich)
+  "Humans and AIs effectively grow up together. AIs should pursue the interests of their individual humans, even if that means being less than fully transparent when negotiating with other AIs on their humans' behalf."
+  Kontext: Vision of symbiotic human-AI relationships
+
+[A054] (2024-01-01, muendlich)
+  "We need is some form of community coordination and governance and incentives to continue building this in the open and de-bias it over time."
+  Kontext: Discussing governance models for open AI development
+
+[A055] (2024-03-13, muendlich)
+  "I'm actually not sure about that."
+  Kontext: Antwort auf WSJ-Frage, ob [PRODUKT] mit [FIRMA], [FIRMA] oder [FIRMA]-Daten trainiert wurde - führte zu Kontroverse
+
+[A056] (2024-04-08, muendlich)
+  "AI must be open for all to participate and profit while preserving ownership and privacy of data. Blockchain technology provides a means to accomplish this, with NEAR being the only platform purpose-built to power AI at scale while preserving privacy and user ownership."
+  Kontext: Hong Kong Web3 Festival 2024 keynote on AI and Web3 integration
+
+[A057] (2024-05-01, muendlich)
+  "As synthetic biology enters the age of hyperscale powered by generative models, molecular learning, and programmable therapeutics, Jakob shared his vision for reimagining intelligence not just in machines, but in the molecules that power life."
+  Kontext: At SynBioBeta conference, [PERSON] discussed molecular intelligence beyond machine learning.
+
+[A058] (2024-05-13, muendlich)
+  "[PRODUKT] provides [PRODUKT] intelligence, but it is much faster, and it improves on its capabilities across text, vision and audio."
+  Kontext: Präsentation von [PRODUKT] bei [FIRMA] Spring Update Event
+
+[A059] (2024-05-13, muendlich)
+  "This allows us to bring [PRODUKT] class intelligence to our free users."
+  Kontext: [PRODUKT] Launch Event - Ankündigung des kostenlosen Zugangs
+
+[A060] (2024-05-14, schriftlich)
+  "This is a project that is very personally meaningful to me."
+  Kontext: [PERSON] verlaesst [FIRMA] nach der turbulenten Board-Krise und der Aufloesung des Superalignment-Teams.
+
+[A061] (2024-05-15, muendlich)
+  "If there's one lesson I wish I could give my younger self, it's to focus less on the technology and more on the customer need."
+  Kontext: Podcast-Interview über Karrierelernen und Produktentwicklung
+
+[A062] (2024-05-22, schriftlich)
+  "User-owned AI optimizes for the privacy and sovereignty of users. The system's objective function is designed to prioritize the user's well-being rather than advertising metrics or revenue."
+  Kontext: Blog post announcing NEAR's vision for user-owned AI
+
+[A063] (2024-06-01, muendlich)
+  "Everything. There's not going to be an area that won't be affected in terms of cognitive work."
+  Kontext: Antwort auf die Frage, welche Industrien am meisten von KI betroffen sein werden, bei Dartmouth Event
+
+[A064] (2024-06-01, muendlich)
+  "Computers may exhibit PhD-level intelligence for specific tasks in coming years, and while that rings alarm bells for many, she believes smarter AI will not only be more helpful—but also safer."
+  Kontext: Dartmouth Event über die Zukunft von KI und Sicherheit fortgeschrittener Systeme
+
+[A065] (2024-06-15, muendlich)
+  "Just as websites defined the web era and apps defined mobile, AI agents are the atomic unit of enterprise software. Most will be vertical specialists with deep domain expertise rather than general-purpose tools."
+  Kontext: Podcast-Interview über die Zukunft von Enterprise-Software
+
+[A066] (2024-06-18, muendlich)
+  "At some point you need to commit and start adopting."
+  Kontext: Statement zu Unternehmen, die in einem "PoC death cycle" (Proof-of-Concept-Tests ohne Implementierung) feststecken
+
+[A067] (2024-06-19, schriftlich)
+  "Our first product will be the safe superintelligence, and it will not do anything else up until then."
+  Kontext: Ankuendigung der Gruendung von [FIRMA]. [PERSON] betont den kompromisslosen Fokus auf sichere Superintelligenz.
+
+[A068] (2024-06-21, muendlich)
+  "Some creative jobs maybe will go away, but maybe they shouldn't have been there in the first place."
+  Kontext: Interview über die Auswirkungen von KI auf kreative Berufe - führte zu erheblichem Backlash
+
+[A069] (2024-06-25, muendlich)
+  "Five to twenty years."
+  Kontext: Interview mit Dwarkesh Patel nach [PERSON]s Abgang von [FIRMA]. Auf die Frage nach seiner AGI-Prognose antwortet er knapp mit diesem Zeitrahmen.
+
+[A070] (2024-06-25, muendlich)
+  "Current approaches will go some distance and then peter out. They'll keep improving, but won't deliver AGI. The kind of system that would work is something we don't yet know how to build."
+  Kontext: Dwarkesh Podcast. [PERSON] aeussert sich skeptisch ueber die Faehigkeit aktueller Scaling-Ansaetze, AGI zu erreichen.
+
+[A071] (2024-06-25, muendlich)
+  "Generalization is the real frontier—today's AI aces benchmarks but fails at simple tasks. Humans learn from far fewer examples. Closing this gap is the key to true intelligence."
+  Kontext: Dwarkesh Podcast. [PERSON] betont, dass Generalisierung -- nicht nur Skalierung -- der Schluessel zu echter Intelligenz ist.
+
+[A072] (2024-06-25, muendlich)
+  "AGI will start as a superintelligent learner, not an all-knowing oracle. A system that can learn every job extremely fast becomes superintelligent through deployment."
+  Kontext: [PERSON] beschreibt seine Vision von AGI als System, das durch schnelles Lernen superintelligent wird, nicht durch umfassende Vorprogrammierung.
+
+[A073] (2024-06-27, schriftlich)
+  "Today's centralized AI ecosystem is broken. User-Owned AI is the path forward—making systems private, verifiable, and aligned with users rather than corporations."
+  Kontext: CNBC interview on democratizing AI
+
+[A074] (2024-06-27, muendlich)
+  "I firmly believed that the software would make significant progress and that software will change the entire world. The most direct way is to teach machines to write code and make programming accessible to everyone."
+  Kontext: Explaining why he left [FIRMA] after publishing Transformer paper
+
+[A075] (2024-07-06, muendlich)
+  "Privacy is the most important, underrated and under-appreciated bottleneck to AI adoption."
+  Kontext: Interview zu Hindernissen bei der Enterprise-KI-Adoption
+
+[A076] (2024-07-06, muendlich)
+  "There's no one in the field who was around back then working who could have foreseen where we are in terms of technological capability. The models are doing stuff that I personally thought maybe I'd see at the end of my career, maybe in like 40 years."
+  Kontext: Reflexion über die schnellere als erwartete KI-Entwicklung seit dem Transformer-Paper 2017
+
+[A077] (2024-07-10, muendlich)
+  "When you have an AI agent represent your brand, the agency goes to the customer."
+  Kontext: Podcast-Interview über KI-Agenten und Kundenerfahrung
+
+[A078] (2024-07-12, muendlich)
+  "Maybe [FIRMA] here hasn't been able to be as daring as, you know, a much, much smaller company such as [FIRMA] when it comes to applying this technology to quite different types of products."
+  Kontext: In a 2024 CNBC interview, [PERSON] compared [FIRMA]'s cautious approach to [FIRMA]'s more daring application of AI technology.
+
+[A079] (2024-07-16, muendlich)
+  "There's so much positive potential to address some of the biggest challenges we are facing as a species — climate change, the next disease outbreak, the next pandemic."
+  Kontext: [PERSON] expressed optimism about AI's potential to tackle major global challenges.
+
+[A080] (2024-07-16, muendlich)
+  "The best way of limiting that danger is really to push the development of this technology in responsible ways forward, as fast as we can."
+  Kontext: [PERSON] argues for rapid but responsible development of AI technology as a risk mitigation strategy.
+
+[A081] (2024-08-01, muendlich)
+  "We didn't want to just add AI to existing tools. We wanted to reimagine the entire development environment with AI at its core."
+  Kontext: Erklärung der Gründungsphilosophie von [FIRMA] - nicht nur KI hinzufügen, sondern fundamental neu denken
+
+[A082] (2024-08-01, muendlich)
+  "What if AI wasn't just an assistant, but the foundation of the coding experience?"
+  Kontext: Die zentrale Einsicht die zur Gründung von [FIRMA] führte, nach Launch von [PRODUKT]
+
+[A083] (2024-08-06, schriftlich)
+  "What few understand is that the main reason why open-source is lagging behind closed-source in some AI domains (ex: video or LLMs) is because you can't hide with open-source and it forces you to take more ethical decisions that can sometimes be detrimental to performance."
+  Kontext: Discussion of trade-offs between open source transparency/ethics and performance in AI development
+
+[A084] (2024-08-20, muendlich)
+  "We think in the future, your AI agent will be more important than your website and more important than your app. It will be the main way you interact with your customers."
+  Kontext: Podcast mit [PERSON] über Unterschiede der KI-Revolution
+
+[A085] (2024-09-12, schriftlich)
+  "Once again, an AI system is not 'thinking', it's 'processing', 'running predictions',... just like [FIRMA] or computers do. Giving the false impression that technology systems are human is just cheap snake oil and marketing to fool you into thinking it's more clever than it is."
+  Kontext: Critique of anthropomorphizing AI systems and misleading marketing language
+
+[A086] (2024-09-15, muendlich)
+  "We believed that only a few things really matter, and we stuck to them. We ignored hype, spoke less, built more, and kept a clear focus on building something truly useful for developers."
+  Kontext: Erklärung der Unternehmensphilosophie und Erfolgsfaktoren von [FIRMA]
+
+[A087] (2024-09-15, muendlich)
+  "I think it's going to be more consequential than the internet... it's going to take a while, and I think it's going to be a multi-decade thing."
+  Kontext: Langfristige Prognose über den Impact von KI auf die Gesellschaft
+
+[A088] (2024-09-25, muendlich)
+  "My six-and-a-half years with the [FIRMA] team have been an extraordinary privilege. I'm stepping away because I want to create the time and space to do my own exploration."
+  Kontext: Offizielle Rücktrittserklärung von [PERSON] als CTO von [FIRMA]
+
+[A089] (2024-10-01, muendlich)
+  "The goal with the company is to replace coding with something that's much better."
+  Kontext: Interview über die langfristige Vision von [FIRMA] - nicht nur Coding verbessern, sondern transformieren
+
+[A090] (2024-10-01, muendlich)
+  "I think that this is going to be a decade where just your ability to build will be so magnified... But then I think it'll also become accessible for tons more people."
+  Kontext: Prognose über die Zukunft der Softwareentwicklung im KI-Zeitalter
+
+[A091] (2024-10-10, muendlich)
+  "We think every company in the world, whether it's a technology company or a 150-year-old company like ADT, can benefit from AI, and the technology is ready right now."
+  Kontext: Interview mit CNBC über [FIRMA]s KI-Agenten für Unternehmen
+
+[A092] (2024-10-10, muendlich)
+  "I think a lot of folks in Silicon Valley think we should probably be focused more on empowering little tech than trying to disempower Big Tech."
+  Kontext: CNBC-Interview über Tech-Regulierung und Wettbewerb
+
+[A093] (2024-10-10, muendlich)
+  "We have capital. We're not too highly regulated. And what often happens in these well-intentioned environments is people introduce constraints in the business environment that actually help incumbents, because it creates a lot of complexity for startups."
+  Kontext: CNBC-Interview über das US-Unternehmensumfeld für KI-Startups
+
+[A094] (2024-10-10, muendlich)
+  "In general, my philosophy is, don't wait for the technology to be perfect. In fact, it may never be perfect — but narrow the domain that you're working on so you can take these intractable problems and make them solvable."
+  Kontext: Interview über Best Practices bei KI-Implementierung
+
+[A095] (2024-10-22, muendlich)
+  "Deep learning has enabled major scientific breakthroughs despite going against traditional scientific theory and advocates for using AI not just to assist science but rather as an alternative approach to finding solutions."
+  Kontext: In his TED talk, [PERSON] highlighted how deep learning enables breakthroughs that bypass traditional scientific methods.
+
+[A096] (2024-10-22, muendlich)
+  "Certain problems may always remain beyond the abilities of human cognition, and highlights how deep learning has enabled major scientific breakthroughs despite going against traditional scientific approaches."
+  Kontext: [PERSON] believes AI can solve problems that are fundamentally beyond human cognitive capabilities.
+
+[A097] (2024-11-05, muendlich)
+  "People really like to see developments as revolutions... The truth is, revolutions basically never happen. What really happens is years and years of very hard work by lots of people, most heroes unsung, whose shoulders you stand on."
+  Kontext: Speaking at Frontiers Health conference in Berlin 2024, [PERSON] emphasized the cumulative nature of scientific progress.
+
+[A098] (2024-11-15, muendlich)
+  "I had a big new vision."
+  Kontext: Interview mit CTech. [PERSON] spricht erstmals detaillierter ueber die Gruende fuer seinen [FIRMA]-Abgang.
+
+[A099] (2024-11-17, muendlich)
+  "The constraint is no longer just GPUs — it's electricity. Training and testing large-scale models requires thousands of GPUs running for days, placing major pressure on electric grids and data center infrastructure worldwide."
+  Kontext: Confluence Conference at NOVA IMS, discussing AI infrastructure challenges
+
+[A100] (2024-12-10, muendlich)
+  "Pre-training as we know it will unquestionably end, because we have but one internet."
+  Kontext: NeurIPS 2024 Keynote in Vancouver. [PERSON] warnt, dass Pre-Training an Datengrenzen stoesst und neue Forschungsansaetze noetig sind.
+
+[A101] (2024-12-10, muendlich)
+  "At some point though, pre-training will run out of data. The data is very clearly finite."
+  Kontext: NeurIPS 2024 Talk. [PERSON] diskutiert 'Peak Data' -- die Menschheit erreicht die Grenze verfuegbarer Trainingsdaten.
+
+[A102] (2024-12-10, muendlich)
+  "That is obviously where this field is headed. This is obviously what is being built here. Superintelligent AI will have radically different qualities and properties than today's AI."
+  Kontext: NeurIPS 2024 Keynote 'Sequence to Sequence Learning with Neural Networks: What a Decade'. [PERSON] spricht ueber die Zukunft von Superintelligenz.
+
+[A103] (2024-12-10, muendlich)
+  "2012 to 2020 was the age of research, 2020 to 2025 was the age of scaling, and 2026 onward will be another age of research."
+  Kontext: NeurIPS 2024. [PERSON] beschreibt das Ende der reinen Skalierungsaera und die Rueckkehr zur Grundlagenforschung.
+
+[A104] (2024-12-10, muendlich)
+  "We got right: betting on deep learning, autoregressive models, and scaling. We got wrong: using pipelining and LSTMs. LSTM architecture is ancient history."
+  Kontext: NeurIPS 2024 Keynote. [PERSON] ueberblickt die letzten 12 Jahre seit AlexNet und seq2seq und kommentiert, was funktioniert hat und was ueberholt ist.
+
+[A105] (2024-12-25, muendlich)
+  "In the Autonomous Era of software engineering, the role of a software engineer will likely transform from being the author of computer code to being the operator of a code generating machine."
+  Kontext: Blog-Beitrag über die Zukunft der Softwareentwicklung mit KI
+
+[A106] (2025-01-15, muendlich)
+  "We were really, really intentional about wanting to own the surface."
+  Kontext: Erklärung der strategischen Entscheidung, einen VS Code Fork zu erstellen statt nur ein Plugin
+
+[A107] (2025-01-26, schriftlich)
+  "At Essential AI, we strive to do Foundational work in the open. Open Science ensures the sustained progress of AI."
+  Kontext: [PLATTFORM]-Post über die Philosophie von Essential AI
+
+[A108] (2025-02-18, muendlich)
+  "We're building multimodal AI that will be compatible with the ways that people naturally interact with the world, including through conversation and sight."
+  Kontext: Ankündigung der Mission von [FIRMA]
+
+[A109] (2025-03-04, muendlich)
+  "I am more excited about large language models and this current wave of technology more than any technology I can remember, perhaps since I discovered the internet when I was a teenager."
+  Kontext: TechCrunch-Artikel über Taylors Vision für KI-Agenten
+
+[A110] (2025-04-01, schriftlich)
+  "Reflection and self-correcting ability appears early during pretraining and improves steadily over time, especially in relatively small models."
+  Kontext: Forschungspaper über Reflection-Mechanismen beim Pretraining
+
+[A111] (2025-05-08, muendlich)
+  "It's really easy at an executive level to underestimate just how far away we are from the limit of automating software. I think that there's a really, really long way to go."
+  Kontext: Realistische Einschätzung der aktuellen Grenzen von KI in der Softwareentwicklung
+
+[A112] (2025-07-28, muendlich)
+  "We have the potential to be truly transformative for organizations looking to massively increase their productivity and efficiency without any compromise on data security and privacy."
+  Kontext: Statement zur Bell-[FIRMA] Partnerschaft für souveräne KI-Lösungen in Kanada
+
+[A113] (2025-09-03, schriftlich)
+  "Transformer-based labs are stifling innovation. Big Tech is blinding itself to new breakthroughs."
+  Kontext: Bloomberg-Profil über [PERSON]'s Kritik an Big Tech trotz seiner Rolle als Transformer-Erfinder
+
+[A114] (2025-09-14, muendlich)
+  "It is both true that AI will transform the economy and create huge amounts of economic value, and that we're also in a bubble where a lot of people will lose money—both things are absolutely true at the same time."
+  Kontext: TechCrunch-Artikel über Taylors Einschätzung des KI-Marktes
+
+[A115] (2025-10-01, muendlich)
+  "One thing I can say is that the process was rushed. I think it was rushed because the board was inexperienced."
+  Kontext: Deposition am 1. Oktober 2025 im Rahmen von [PERSON]s Klage gegen [FIRMA] und [PERSON]. Erste detaillierte Aussage [PERSON]s ueber die Board-Krise.
+
+[A116] (2025-10-01, muendlich)
+  "I had not expected them to cheer, but I had not expected them to feel strongly either way."
+  Kontext: [PERSON] erklaert, dass er erwartete, dass die Mitarbeiter indifferent sein wuerden -- nicht dass 700 von 770 mit Kuendigung drohen wuerden.
+
+[A117] (2025-10-01, muendlich)
+  "I was very unhappy about it. I really did not want [FIRMA] to merge with [FIRMA]."
+  Kontext: Board-Mitglied Helen Toner erreichte [FIRMA]-Gruender [PERSON] am 18. November 2023 mit einem Fusionsvorschlag. [PERSON] lehnte dies ab.
+
+[A118] (2025-10-15, muendlich)
+  "Ensuring there is no third party that can switch you off, there is no foreign entity that can just shut down the operation of your economy or government — we're starting to actually see that happening. It's actually happening and needs to be protected against."
+  Kontext: Statement zu geopolitischen Risiken und Notwendigkeit von AI-Souveränität für Nationen
+
+[A119] (2025-10-15, muendlich)
+  "I think public market investors would be excited to have a pure-play AI investment opportunity, as opposed to investing by proxy through hyperscalers."
+  Kontext: Aussage zu möglichem baldigen [FIRMA]-IPO
+
+[A120] (2025-10-15, muendlich)
+  "We have a differentiated deployment model, we have very high margins similar to a traditional [software-as-a-service] business."
+  Kontext: Erklärung des Geschäftsmodells und Vorhersage, dass [FIRMA] vor 2029 profitabel wird
+
+[A121] (2025-10-28, schriftlich)
+  "Is it time we stop using the word AI for everything and instead use words like 'chatbots', 'video generation', 'recommendation engines', 'cell prediction',...? Feels like as a society, we could have healthier debates like that."
+  Kontext: Proposal to use more specific terminology instead of the catch-all term 'AI' for better public discourse
+
+[A122] (2025-11-13, schriftlich)
+  "We believe that coding will be the single biggest driver of global productivity over the next decade."
+  Kontext: Offizielle Stellungnahme zur Series D Finanzierungsrunde
+
+[A123] (2025-12-06, schriftlich)
+  "We are beyond thrilled to share our first flagship models, Rnj-1 base and instruct 8B parameter models. Rnj-1 is the culmination of 10 months of hard work by a phenomenal team, dedicated to advancing American SOTA OSS AI."
+  Kontext: Ankündigung des ersten Open-Source-Modells von Essential AI
+
+[A124] (2025-12-08, schriftlich)
+  "We deliberately deprioritized reinforcement learning from human feedback, instead pouring resources into program execution modeling—training the model to simulate how code behaves, not just how it looks."
+  Kontext: Erklärung des innovativen Ansatzes bei der Entwicklung des Rnj-1 Modells
+
+[A125] (2025-12-15, muendlich)
+  "AI models will no longer be stateless, but will be actively learning from experience."
+  Kontext: Vorhersage für 2026: Durchbrüche bei Continual Learning, wo KI-Modelle aus Interaktionen und Fehlern lernen können
+
+[A126] (2025-12-15, muendlich)
+  "When a model fails at a task, it will be able to learn from that failure and remember the correct way to perform the task, continuously improving over time."
+  Kontext: Vision für kontinuierliches Lernen in KI-Systemen
+
+[A127] (2025-12-25, muendlich)
+  "If you close your eyes and you don't look at the code and you have AIs build things with shaky foundations as you add another floor, and another floor, and another floor, and another floor, things start to kind of crumble."
+  Kontext: Warnung vor den Gefahren des "Vibe Coding" - wenn Entwickler blindlings KI-generierten Code verwenden ohne ihn zu verstehen
+
+[A128] (2026-01-02, schriftlich)
+  "[FIRMA] seeks to be the best and most powerful way to code with AI. What are the ways in which we could be better?"
+  Kontext: Öffentliche Frage an die Community, um Feedback für Verbesserungen zu sammeln
+
+[A129] (2026-01-14, schriftlich)
+  "We built a browser with [PRODUKT-FAMILIE]-5.2 in [FIRMA]. It ran uninterrupted for one week. It's 3M+ lines of code across thousands of files. The rendering engine is from-scratch in Rust with HTML parsing, CSS cascade, layout, text shaping, paint, and a custom JS VM. It *kind of* works!"
+  Kontext: Demonstration der Fähigkeiten von [PRODUKT-FAMILIE]-5.2 und [FIRMA] durch Bau eines funktionsfähigen Browsers
+
+[A130] (2026-01-22, muendlich)
+  "AI is probably a bubble, and I expect to see a correction over the next few years. However, I am an AI optimist who believes the free market will ultimately determine where the value is."
+  Kontext: CNBC-Interview als [FIRMA] Board Chairman über KI-Markt
+
+------------------------------------------------------------------------
+HANDLUNGEN (111 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2006-06-01, einstellung)
+  Interned at [FIRMA] Research in 2006 and 2007, working on clustering algorithms for machine translation and language modeling.
+
+[H002] (2007-06-01, gruendung)
+  Mitgründung von FriendFeed: Taylor verließ [FIRMA], um mit anderen Ex-[FIRMA]-Mitarbeitern das Social Network FriendFeed zu gründen. Die Plattform führte Innovationen wie den Like-Button ein.
+
+[H003] (2007-06-30, sonstiges)
+  Earned Master's degree in computer science and mathematics from Technische Universität Berlin.
+
+[H004] (2007-08-01, einstellung)
+  Worked as a software engineer at Acrolinx, a provider of enterprise content governance, for approximately 12 months after graduation.
+
+[H005] (2008-03-01, einstellung)
+  Joined [FIRMA] Brain in Berlin, contributing to early versions of [FIRMA] Translate.
+
+[H006] (2009-08-01, verkauf)
+  FriendFeed von [FIRMA] übernommen: [FIRMA] kaufte FriendFeed, das von Taylor gegründete soziale Netzwerk, für geschätzte 50 Millionen Dollar. Der Like-Button von FriendFeed wurde später von [FIRMA] übernommen.
+
+[H007] (2012-09-30, produktlaunch)
+  [PERSON], Alex Krizhevsky und [PERSON] entwickeln AlexNet, das die ImageNet LSVRC-2012-Konkurrenz mit grossem Vorsprung gewinnt. Dies loest die Deep-Learning-Revolution aus.
+
+[H008] (2013-01-01, einstellung)
+  Senior Product Manager bei [FIRMA] für Model X und Autopilot (2013-2016)
+
+[H009] (2013-03-12, verkauf)
+  [FIRMA] erwirbt das AlexNet-Team ([PERSON], [PERSON], Alex Krizhevsky) fuer $44 Millionen und weist sie [FIRMA] Brain zu.
+
+[H010] (2015-01-01, sonstiges)
+  Managed the team responsible for the natural language query understanding system that underpins [FIRMA] Assistant and several other [FIRMA] products.
+
+[H011] (2015-12-11, gruendung)
+  [PERSON] verlaesst [FIRMA] Brain und gruendet [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], Wojciech Zaremba und John Schulman. [PERSON] wird Chief Scientist. [FIRMA] wird als gemeinnuetziges KI-Forschungslabor gegruendet.
+
+[H012] (2016-01-01, einstellung)
+  Vice President of Product and Engineering bei Leap Motion (2016-2018)
+
+[H013] (2016-03-01, gruendung)
+  Co-Gründung von [FIRMA] zusammen mit Julien Chaumond und Thomas Wolf in New York. Ursprünglich als Chatbot-App für Teenager gestartet, später zur Open-Source-KI-Plattform pivotiert.
+
+[H014] (2016-08-01, verkauf)
+  Quip wird von Salesforce übernommen: Salesforce kaufte Quip, Taylors Produktivitätssoftware-Startup (Konkurrent zu [FIRMA] Docs), für etwa 750 Millionen Dollar. Taylor wurde Chief Product Officer bei Salesforce.
+
+[H015] (2016-09-01, gruendung)
+  Gründung von Halite (Coding-Wettbewerb) als Teenager zusammen mit Benjamin Spector
+
+[H016] (2017-06-01, gruendung)
+  Co-founded [FIRMA] (originally named Near.ai) with Alexander Skidanov. Initially focused on AI development and program synthesis, later evolved to provide blockchain services.
+
+[H017] (2017-06-12, sonstiges)
+  Co-Autor des wissenschaftlichen Papers "Attention Is All You Need" über Transformer-Architektur als 20-jähriger [FIRMA] Brain Intern
+
+[H018] (2017-06-12, produktlaunch)
+  Co-authored "Attention Is All You Need" paper introducing the Transformer architecture, with 8 [FIRMA] researchers including [PERSON], [PERSON], [PERSON], [PERSON], Aidan N. [PERSON], Łukasz Kaiser, and [PERSON].
+
+[H019] (2018-03-01, sonstiges)
+  Gewinn des ACM/CSTA Cutler-Bell Prize in High School Computing im Alter von 17 Jahren
+
+[H020] (2018-06-01, einstellung)
+  Vice President of Applied AI and Partnerships bei [FIRMA] (Juni 2018)
+
+[H021] (2019-02-14, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], ein 1,5-Milliarden-Parameter-Sprachmodell. Wegen befuerchteten Missbrauchs wird es zunaechst nur teilweise freigegeben. [PERSON] spielt eine zentrale Rolle in der Entwicklung.
+
+[H022] (2019-11-01, gruendung)
+  Co-Gründung von [FIRMA] zusammen mit Nick Frosst (ebenfalls [PERSON]-Student) und Ivan Zhang
+
+[H023] (2020-04-22, produktlaunch)
+  Launched [FIRMA] mainnet on April 22, 2020. Genesis occurred at 18:00:00 UTC, enabling developers to deploy production apps. Network became completely community-operated in September 2020.
+
+[H024] (2020-05-04, investition)
+  [FIRMA] raised $21.6 million in token sale led by [FIRMA] ([FIRMA]), with participation from Pantera Capital, Electric Capital, Blockchange, Libertus Capital and Distributed Global.
+
+[H025] (2020-06-11, produktlaunch)
+  [FIRMA] launcht [PRODUKT] mit 175 Milliarden Parametern -- das groesste Sprachmodell seiner Zeit. [PERSON] ist massgeblich an der Entwicklung beteiligt.
+
+[H026] (2020-10-22, produktlaunch)
+  Co-authored "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" paper, extending Transformer architecture to computer vision.
+
+[H027] (2020-11-01, investition)
+  [FIRMA] erhält $40M Series A Funding von Radical Ventures ([PERSON]) und Index Ventures
+
+[H028] (2021-01-05, produktlaunch)
+  [PERSON] leitet die Entwicklung von [PRODUKT] 1, einem KI-Bildgenerator, der Bilder aus Textbeschreibungen erstellt.
+
+[H029] (2021-04-01, gruendung)
+  Gründung von Adept AI zusammen mit [PERSON] und ehemaligen [FIRMA] Brain/[FIRMA]-Kollegen zur Entwicklung von KI-Agenten für Software-Automatisierung
+
+[H030] (2021-07-01, ruecktritt)
+  Left [FIRMA] Brain after 13 years, becoming part of the "brain drain" of AI talent leaving big tech firms.
+
+[H031] (2021-07-01, gruendung)
+  Co-founded Inceptive with [UNI] biochemist Rhiju Das to use deep learning and high-throughput experiments to design RNA-based medicines.
+
+[H032] (2021-12-01, ruecktritt)
+  Verlassen von [FIRMA] Brain nach über 5 Jahren als Research Scientist
+
+[H033] (2021-12-01, gruendung)
+  Co-founded SID Venture Partners, a Ukrainian VC fund with $15M fund size, focused on Web3/Blockchain, AI, and enterprise applications. Became General Partner with investment range $100K-$5M.
+
+[H034] (2022-01-01, einstellung)
+  Beförderung zur Chief Technology Officer bei [FIRMA] (2022)
+
+[H035] (2022-01-01, gruendung)
+  Gründung von [FIRMA] ([FIRMA]) zusammen mit [UNI]-Kommilitonen [PERSON], [PERSON] und [PERSON]
+
+[H036] (2022-01-01, investition)
+  Inceptive secured Seed round funding of $20 million.
+
+[H037] (2022-01-15, investition)
+  [FIRMA] raised $150 million in funding round. This came less than three months before the larger Tiger Global round.
+
+[H038] (2022-02-01, investition)
+  [FIRMA] erhält $125M Series B Funding von Tiger Global
+
+[H039] (2022-02-26, gruendung)
+  Co-founded Unchain Fund immediately after Russian invasion of Ukraine on February 24. Created with other Ukrainian crypto entrepreneurs, raised nearly $7-10 million in crypto donations for humanitarian and military aid.
+
+[H040] (2022-04-06, investition)
+  [FIRMA] raised $350 million in funding round led by Tiger Global, with participation from Republic Capital, Hashed, FTX Ventures, Dragonfly Capital and others. Aimed to accelerate decentralization of NEAR ecosystem.
+
+[H041] (2022-05-01, partnerschaft)
+  NEAR and Flowcarbon announced partnership to launch carbon-market ecosystem on NEAR network. Enables trading of carbon credits, advancing NEAR's vision of becoming carbon-negative blockchain.
+
+[H042] (2022-10-31, ruecktritt)
+  Ausscheiden als [PLATTFORM] Board Chairman: Taylor beendete seine Rolle als Chairman des [PLATTFORM] Board nach [PERSON]s Übernahme und Auflösung des Boards. Er hatte [PLATTFORM] während der Übernahmeverhandlungen vertreten.
+
+[H043] (2022-11-30, ruecktritt)
+  Taylor trat nach nur einem Jahr als Co-CEO und Vice Chair von Salesforce zurück, um "zu seinen unternehmerischen Wurzeln zurückzukehren". Berichte deuteten auf Spannungen mit Marc Benioff hin.
+
+[H044] (2023-01-01, ruecktritt)
+  Verlassen von Adept AI als Chief Scientist nach weniger als 2 Jahren, zusammen mit Co-Gründerin [PERSON]
+
+[H045] (2023-01-01, partnerschaft)
+  Inceptive partnered with a major European pharmaceutical company to co-develop a new infectious disease mRNA vaccine.
+
+[H046] (2023-02-01, gruendung)
+  Gründung von Essential AI als CEO zusammen mit [PERSON], Fokus auf Enterprise-KI und Open Science
+
+[H047] (2023-02-21, partnerschaft)
+  Strategische Partnerschaft mit [FIRMA] Web Services ([FIRMA]) zur Integration von [FIRMA] Produkten in [FIRMA]-Infrastruktur. [FIRMA] nutzt [FIRMA] als bevorzugten Cloud-Provider für Training und Deployment von KI-Modellen.
+
+[H048] (2023-03-01, produktlaunch)
+  Launch von [FIRMA] 1.0 - KI-nativer Code-Editor basierend auf VS Code Fork
+
+[H049] (2023-03-14, produktlaunch)
+  [PERSON] ist einer der Hauptarchitekten von [PRODUKT], dem multimodalen Sprachmodell, das im Maerz 2023 veroeffentlicht wird.
+
+[H050] (2023-04-25, produktlaunch)
+  Launch von HuggingChat als Open-Source-Alternative zu [PRODUKT], basierend auf [FIRMA]'s LLaMa-Modell. Ziel war zu demonstrieren, dass Open-Source-Alternativen zu proprietären Chatbots möglich sind.
+
+[H051] (2023-06-01, investition)
+  Essential AI erhält 8,3 Millionen USD Seed-Funding von Thrive Capital mit Beteiligung mehrerer prominenter Angel-Investoren
+
+[H052] (2023-06-01, investition)
+  [FIRMA] erhält $270M Series C Funding bei $2.2B Bewertung von [FIRMA], [FIRMA], Salesforce Ventures und Inovia Capital
+
+[H053] (2023-06-15, partnerschaft)
+  [FIRMA] integriert [FIRMA]-Technologie in [FIRMA] Fusion Cloud, [FIRMA] NetSuite und branchenspezifische [FIRMA]-Anwendungen
+
+[H054] (2023-06-22, lobbying)
+  Aussage vor dem US House Committee on Science, Space and Technology über die Bedeutung von Open-Source-KI für amerikanische Interessen, Innovation und faire Wettbewerbsbedingungen. Advocacy für erhöhte NIST-Finanzierung.
+
+[H055] (2023-08-24, investition)
+  Series D Funding Round von $235 Millionen unter Führung von Salesforce, mit Beteiligung von [FIRMA], [FIRMA], [FIRMA], Intel, [FIRMA], Qualcomm und IBM. Unternehmensbewertung erreicht $4.5 Milliarden.
+
+[H056] (2023-09-06, investition)
+  Inceptive raised $100 million in Series A funding led by [FIRMA] ([FIRMA]) and [FIRMA]'s NVentures, with participation from Obvious Ventures and Section 32, tripling valuation to over $300 million.
+
+[H057] (2023-10-01, investition)
+  Erhalt von $11 Millionen Seed-Finanzierung, davon $8 Millionen vom [FIRMA] Startup Fund
+
+[H058] (2023-11-07, einstellung)
+  Appointed CEO of NEAR Foundation on November 7, 2023. Took over leadership to oversee growth of NEAR Open Web Ecosystem and guide constellation of teams building on NEAR. Predecessor Chris Donovan became COO.
+
+[H059] (2023-11-07, sonstiges)
+  Keynote at NEARCON 2023 in Lisbon on "AI and the Open Web". Discussed AI-Web3 convergence, how blockchains can help AI develop positively, and future of governance and work with AI.
+
+[H060] (2023-11-14, partnerschaft)
+  Partnerschaft mit Dell Technologies zur Vereinfachung der On-Premises-Implementierung von Open-Source-Generative-AI-Modellen für Unternehmen. Erstellung eines Dell-Portals auf der [FIRMA] Plattform.
+
+[H061] (2023-11-17, entlassung)
+  [PERSON] fuehrt als Board-Mitglied die Entlassung von [PERSON] als [FIRMA]-CEO an. Der Board wirft [PERSON] mangelnde Aufrichtigkeit vor.
+
+[H062] (2023-11-17, einstellung)
+  Interim CEO von [FIRMA] nach Entlassung von [PERSON] (17.-21. November 2023)
+
+[H063] (2023-11-19, sonstiges)
+  [PERSON] unterzeichnet den offenen Brief von 700+ [FIRMA]-Mitarbeitern, der den Ruecktritt des Boards fordert -- obwohl er selbst Board-Mitglied ist und [PERSON] entlassen hat.
+
+[H064] (2023-11-22, ruecktritt)
+  Nach der Rueckkehr von [PERSON] als CEO tritt [PERSON] vom [FIRMA]-Board zurueck. Er bleibt zunaechst Chief Scientist.
+
+[H065] (2023-11-22, einstellung)
+  Ernennung zum Chairman des [FIRMA] Board: Nach der Krise um [PERSON]s kurzzeitige Absetzung wurde Taylor zum neuen Board Chairman von [FIRMA] ernannt, um das Governance-System zu reformieren.
+
+[H066] (2023-12-11, investition)
+  Essential AI sichert sich 56,5 Millionen USD Series A Finanzierung von March Capital mit strategischer Beteiligung von [FIRMA], [FIRMA] und [FIRMA]
+
+[H067] (2024-01-15, partnerschaft)
+  Zusammenarbeit mit [FIRMA] Cloud zur Kombination von [FIRMA] Open-Source-Modellen mit [FIRMA]-Infrastruktur. Einführung des Hallucinations Leaderboard zur Bekämpfung von KI-Halluzinationen.
+
+[H068] (2024-02-13, gruendung)
+  Gründung von [FIRMA] AI mit [PERSON]: Taylor und der ehemalige [FIRMA]-Manager [PERSON] gründeten [FIRMA], ein KI-Agenten-Startup für Kundenservice, und sicherten sich 110 Millionen Dollar Startfinanzierung von [FIRMA] Capital und Benchmark.
+
+[H069] (2024-03-01, produktlaunch)
+  Launch von Command-R: RAG-optimiertes LLM für Enterprise mit 128k Token Kontext und 10 Sprachen
+
+[H070] (2024-03-20, partnerschaft)
+  Teilnahme an [FIRMA] GTC 2024 Panel mit allen Transformer-Paper-Autoren und [PERSON], erste gemeinsame Reunion der Autoren
+
+[H071] (2024-04-04, produktlaunch)
+  Launch von Command R+: Advanced Enterprise LLM mit best-in-class RAG mit Zitationen und Tool Use API
+
+[H072] (2024-04-08, sonstiges)
+  Delivered keynote at Hong Kong Web3 Festival 2024 on "Why AI needs Web3". Presented choice between closed AI world controlled by few entities versus open, decentralized future powered by Web3 principles.
+
+[H073] (2024-05-01, partnerschaft)
+  Erweiterung der Partnerschaft mit [FIRMA] Azure, begonnen 2022, um Entwicklern breitere Infrastruktur und Tools für [PRODUKT] AI-Modelle bereitzustellen.
+
+[H074] (2024-05-01, sonstiges)
+  Presented at SynBioBeta conference with founder John Cumbers on the intersection of AI and synthetic biology.
+
+[H075] (2024-05-13, produktlaunch)
+  Leitung der [PRODUKT] Launch-Veranstaltung bei [FIRMA] Spring Update (13. Mai 2024)
+
+[H076] (2024-05-14, ruecktritt)
+  [PERSON] kuendigt seinen Ruecktritt als Chief Scientist von [FIRMA] an, um sich einem neuen Projekt zu widmen, das 'sehr persoenlich bedeutungsvoll' fuer ihn sei. [PERSON] uebernimmt seine Position.
+
+[H077] (2024-05-22, produktlaunch)
+  Announced User-Owned AI initiative for [FIRMA]. Building infrastructure for decentralized AI that optimizes for privacy and user sovereignty, including DCML (Decentralized Confidential Machine Learning) technology.
+
+[H078] (2024-06-01, sonstiges)
+  Speaker bei The Montgomery Summit (March Capital), Präsentation zu Transformer-Architektur und Essential AI's Enterprise-KI-Vision
+
+[H079] (2024-06-01, partnerschaft)
+  Start eines KI-Accelerator-Programms für europäische Startups zusammen mit [FIRMA] und Scaleway, um Startups bei der Integration offener Foundation-Modelle in ihre Produkte zu unterstützen.
+
+[H080] (2024-06-19, gruendung)
+  [PERSON] gruendet [FIRMA] Inc. ([FIRMA]) zusammen mit [PERSON] und Daniel Levy. [FIRMA] hat Bueros in Palo Alto und Tel Aviv und fokussiert ausschliesslich auf sichere Superintelligenz.
+
+[H081] (2024-07-01, partnerschaft)
+  Zusammenarbeit mit [FIRMA] zur Integration von [FIRMA]-beschleunigten Inferenz-Services in die [FIRMA] Open-Source-Plattform für verbesserte KI-Model-Performance.
+
+[H082] (2024-08-08, produktlaunch)
+  NEAR launched Chain Signatures on mainnet, enabling multichain, non-custodial accounts. Allows users with NEAR account to sign transactions on other blockchains without cross-chain bridges.
+
+[H083] (2024-08-09, investition)
+  Series A Finanzierung: $60 Millionen bei $400 Millionen Bewertung, geleitet von [FIRMA] und Thrive Capital
+
+[H084] (2024-09-04, investition)
+  [FIRMA] ([FIRMA]) sichert sich $1 Milliarde Finanzierung von NFDG ([PERSON] & [PERSON]), [FIRMA], [FIRMA] Capital, DST Global und SV Angel. Bewertung: $5 Milliarden.
+
+[H085] (2024-09-25, ruecktritt)
+  Rücktritt als CTO von [FIRMA] nach 6,5 Jahren (25. September 2024)
+
+[H086] (2024-10-01, sonstiges)
+  [FIRMA] verkauft Services an Communications Security Establishment (CSE), Kanadas Cyber-Geheimdienst
+
+[H087] (2024-10-01, produktlaunch)
+  Launch von HUGS ([FIRMA] for Generative AI Services) als kostenpflichtiges Angebot zur Unterstützung von Unternehmen bei der Bereitstellung von KI-Modellen. Markiert Wandel zu kommerziellen Diensten.
+
+[H088] (2024-10-01, sonstiges)
+  Delivered TED talk titled "AI should optimize your life — not companies' profits". Described dangers of AI controlled by few tech companies and outlined how blockchain can empower individuals.
+
+[H089] (2024-10-22, sonstiges)
+  Delivered TED talk titled "How AI Sidesteps Traditional Science" at TEDAI 2024 in San Francisco.
+
+[H090] (2024-10-28, investition)
+  [FIRMA] erhält 175 Millionen Dollar bei 4,5 Milliarden Bewertung: [FIRMA] sicherte sich eine Finanzierungsrunde von 175 Millionen Dollar unter Führung von Greenoaks Capital, womit das Unternehmen mit 4,5 Milliarden Dollar bewertet wurde.
+
+[H091] (2024-11-05, sonstiges)
+  Participated in fireside chat with Bart de Witte (HIPPO AI Foundation) at Frontiers Health 2024 in Berlin, discussing open-source models and data communities transforming drug discovery.
+
+[H092] (2024-12-10, sonstiges)
+  [PERSON], Oriol Vinyals und Quoc V. Le erhalten den NeurIPS 2024 Test of Time Award fuer ihr Paper 'Sequence to Sequence Learning with Neural Networks'.
+
+[H093] (2025-02-18, gruendung)
+  Gründung von [FIRMA] als CEO (Februar 2025)
+
+[H094] (2025-03-01, investition)
+  Kanadische Regierung finalisiert $240M Investment in [FIRMA]s $725M Projekt für kanadische Compute-Kapazität
+
+[H095] (2025-03-10, investition)
+  [FIRMA] ([FIRMA]) sichert sich weitere $2 Milliarden in einer von Greenoaks Capital gefuehrten Finanzierungsrunde. Die Bewertung steigt auf $30-32 Milliarden -- das Sechsfache der vorherigen Bewertung.
+
+[H096] (2025-03-18, sonstiges)
+  Presented new AI research from NEAR AI at [FIRMA] GTC 2025 in San Jose. Showcased technology to enable confidential, decentralized AI computation, providing technical basis for user-owned AI economy.
+
+[H097] (2025-04-01, produktlaunch)
+  Veröffentlichung des Forschungspapers "Rethinking Reflection in Pre-Training" auf arXiv mit Open-Source-Code auf GitHub
+
+[H098] (2025-04-15, partnerschaft)
+  Partnerschaft mit Stripe - Teilnahme an Stripe Sessions 2025 Developer Keynote
+
+[H099] (2025-06-17, sonstiges)
+  Rede bei [FIRMA] AI Startup School über den Aufbau von [FIRMA]
+
+[H100] (2025-07-15, investition)
+  Abschluss einer 2 Milliarden Dollar Seed-Finanzierung bei 12 Milliarden Dollar Bewertung (Juli 2025)
+
+[H101] (2025-07-28, partnerschaft)
+  Bell Canada und [FIRMA] formen strategische Partnerschaft für souveräne Full-Stack-KI-Lösungen in Kanada
+
+[H102] (2025-08-14, investition)
+  [FIRMA] erhält $500M Series D Funding bei $6.8B Bewertung von Radical Ventures, [FIRMA], [FIRMA], Salesforce
+
+[H103] (2025-08-15, sonstiges)
+  Kanadische Regierung unterzeichnet Memorandum of Understanding (MoU) mit [FIRMA] für KI-Einsatz im öffentlichen Dienst
+
+[H104] (2025-09-04, investition)
+  [FIRMA] erreicht 10 Milliarden Dollar Bewertung: [FIRMA] schloss eine 350 Millionen Dollar Finanzierungsrunde ab, die das Unternehmen mit 10 Milliarden Dollar bewertete - mehr als doppelt so viel wie 11 Monate zuvor.
+
+[H105] (2025-09-24, investition)
+  [FIRMA] schließt zweite Tranche der Finanzierungsrunde mit zusätzlichen $100M ab, Bewertung steigt auf $7B
+
+[H106] (2025-10-01, produktlaunch)
+  Launch von Tinker, einer API zum Fine-Tuning von Sprachmodellen (1. Oktober 2025)
+
+[H107] (2025-10-29, produktlaunch)
+  Launch von Composer - proprietäres KI-Modell speziell für agentisches Coding optimiert
+
+[H108] (2025-11-13, investition)
+  Series D Finanzierung: $2.3 Milliarden bei $29.3 Milliarden Bewertung, co-geleitet von Accel und Coatue Management
+
+[H109] (2025-11-21, produktlaunch)
+  [FIRMA] erreicht 100 Millionen Dollar ARR: [FIRMA] gab bekannt, dass es in unter zwei Jahren 100 Millionen Dollar jährlichen wiederkehrenden Umsatz (ARR) erreicht hat, mit Kunden wie ADT, Sonos und Weight Watchers.
+
+[H110] (2025-12-06, produktlaunch)
+  Launch des Rnj-1 Open-Source-Modells (8B Parameter) mit Apache 2.0 Lizenz, benannt nach Mathematiker Ramanujan
+
+[H111] (2026-01-14, produktlaunch)
+  Demonstration: Bau eines funktionsfähigen Browsers mit [PRODUKT-FAMILIE]-5.2 in [FIRMA] (FastRender, 3M+ Zeilen Code)
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================

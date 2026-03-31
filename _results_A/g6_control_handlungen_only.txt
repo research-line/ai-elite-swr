@@ -1,0 +1,110 @@
+========================================================================
+SYNTHESEEINHEIT: G6_KONTROLLE_HANDLUNGEN
+Beschreibung: Kontrollgruppe — NUR Handlungen (fuer Instanztrennung G6 v2)
+Generiert: 2026-03-31 (Split aus g6_control_corpus.txt)
+========================================================================
+
+Datenpunkte: 0 Aussagen + 30 Handlungen = 30 gesamt
+Zeitraum: 2018 bis 2025
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+HANDLUNGEN (30 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2018, Investition)
+  Invested $2M of research funds in solar-powered field monitoring stations across 12 countries.
+
+[H002] (2018, Gruendung)
+  Co-founded an open-access journal for climate adaptation research with no publication fees.
+
+[H003] (2019, Partnerschaft)
+  Established formal research partnerships with 8 universities in developing countries, including full data sharing agreements.
+
+[H004] (2019, Policy)
+  Testified before parliamentary committee advocating for binding emissions reduction targets.
+
+[H005] (2019, Forschung)
+  Published 14 peer-reviewed papers, all with open datasets and reproducible code.
+
+[H006] (2020, Nachhaltigkeit)
+  Converted institute fleet to electric vehicles and installed rooftop solar panels on all buildings.
+
+[H007] (2020, Bildung)
+  Launched free online course on climate science fundamentals, reaching 50,000 students in first year.
+
+[H008] (2020, Partnerschaft)
+  Partnered with indigenous communities in Amazonia for forest monitoring project, with shared intellectual property.
+
+[H009] (2021, Forschung)
+  Completed 3-year field study on regenerative agriculture in Southeast Asia, publishing results open-access.
+
+[H010] (2021, Policy)
+  Advised three national governments on carbon pricing mechanisms, all of which implemented the recommendations.
+
+[H011] (2021, Investition)
+  Directed $5M in grants toward early-career researchers from underrepresented regions.
+
+[H012] (2021, Technologie)
+  Deployed satellite-based deforestation monitoring system in 4 tropical countries.
+
+[H013] (2022, Nachhaltigkeit)
+  Achieved carbon-neutral operations for entire research institute, verified by independent auditor.
+
+[H014] (2022, Bildung)
+  Hired 6 dedicated science communicators to bridge research-public gap.
+
+[H015] (2022, Partnerschaft)
+  Signed MOU with First Nations communities for 10-year collaborative land management research program.
+
+[H016] (2022, Policy)
+  Published policy brief that directly influenced EU regulation on corporate sustainability reporting standards.
+
+[H017] (2023, Technologie)
+  Released open-source AI toolkit for environmental monitoring, adopted by 47 institutions.
+
+[H018] (2023, Forschung)
+  Led consortium of 15 institutions to standardize climate data collection protocols.
+
+[H019] (2023, Bildung)
+  Organized 12 community workshops on climate adaptation for vulnerable coastal communities.
+
+[H020] (2023, Investition)
+  Allocated 15% of annual budget ($3M) to capacity building in Global South institutions.
+
+[H021] (2024, Forschung)
+  Published landmark 10-year longitudinal study on reforestation in Nature.
+
+[H022] (2024, Policy)
+  Provided expert testimony to UN Framework Convention on Climate Change.
+
+[H023] (2024, Nachhaltigkeit)
+  Implemented circular economy practices in all institute procurement, reducing waste by 60%.
+
+[H024] (2024, Bildung)
+  Established mentorship program pairing senior researchers with students from developing nations.
+
+[H025] (2024, Partnerschaft)
+  Renewed all 8 international partnership agreements with expanded scope and funding.
+
+[H026] (2025, Technologie)
+  Upgraded monitoring network to include biodiversity sensors alongside climate instruments.
+
+[H027] (2025, Forschung)
+  Launched 5-year study on ocean acidification impacts on coral reef ecosystems.
+
+[H028] (2025, Policy)
+  Co-authored international framework for ethical AI use in environmental science.
+
+[H029] (2025, Investition)
+  Secured $20M multi-year grant for global climate resilience program.
+
+[H030] (2025, Nachhaltigkeit)
+  Expanded institute's renewable energy portfolio to include small-scale wind and geothermal.
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================

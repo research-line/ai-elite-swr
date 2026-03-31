@@ -1,0 +1,1209 @@
+========================================================================
+SYNTHESEEINHEIT: STRATA_bottom_AH
+Beschreibung: Bottom 10 (Rang 91-100) — VOLLSTÄNDIG
+Generiert: 2026-03-31 12:05 (regeneriert mit vollständiger DB)
+========================================================================
+
+Datenpunkte: 187 Aussagen + 146 Handlungen = 333 gesamt
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+AUSSAGEN (187 Stueck)
+------------------------------------------------------------------------
+
+[A001] (2014-01-01, schriftlich)
+  "I wish I still owned [FIRMA] now."
+  Kontext: Regretting 2006 sale to Condé Nast, site exceeded expectations
+
+[A002] (2016-01-01, schriftlich)
+  "In one widely cited paper from 2016, we considered the idealized case of two cars, one driven by a person and another by a computer program, and developed a model for how humans drive based on people's behavior in a video-game-like simulation."
+  Kontext: Early influential research on autonomous vehicle interaction
+
+[A003] (2016-01-04, schriftlich)
+  "We build a multi-source machine translation model trained to maximize the probability of a target English string given French and German sources."
+  Kontext: Describing approach to neural machine translation using multiple source languages simultaneously
+
+[A004] (2016-04-07, schriftlich)
+  "Transfer learning significantly improves BLEU scores across a range of low-resource languages by an average of 5.6 BLEU."
+  Kontext: Presenting results on using transfer learning to improve neural machine translation for languages with limited training data
+
+[A005] (2016-11-01, schriftlich)
+  "Despite their success, neural networks are still hard to design."
+  Kontext: From the abstract of [PERSON] & Le's foundational NAS paper, describing motivation for automating neural architecture design
+
+[A006] (2016-11-01, schriftlich)
+  "On the CIFAR-10 dataset, our algorithm can design a novel network architecture that rivals the best human-invented architecture in terms of test set accuracy."
+  Kontext: Describing results from Neural Architecture Search using reinforcement learning, demonstrating that automated design can match human experts
+
+[A007] (2016-11-24, schriftlich)
+  "As the CEO, I shouldn't play such games, and it's all fixed now."
+  Kontext: Apologizing for secretly editing user comments criticizing him
+
+[A008] (2017-01-01, schriftlich)
+  "I need to own a motorcycle because everybody else is screwed."
+  Kontext: Inspired by 'Deep Impact' scene of escaping through stalled traffic
+
+[A009] (2017-01-01, schriftlich)
+  "I propose to learn from preferences (or comparisons) instead of demonstrations, where the person provides the system a relative preference between two trajectories. I take an active learning approach, in which the system decides on what preference queries to make."
+  Kontext: PhD research on preference-based learning methodology
+
+[A010] (2017-01-25, schriftlich)
+  "If the world ends — and not even if the world ends, but if we have trouble — getting contacts or glasses is going to be a huge pain in the ass."
+  Kontext: Explaining why he got laser eye surgery as apocalypse preparation
+
+[A011] (2017-01-25, schriftlich)
+  "I think, to some degree, we all collectively take it on faith that our country works, that our currency is valuable, the peaceful transfer of power—that all of these things that we hold dear work because we believe they work. While I do believe they're quite resilient, and we've been through a lot, certainly we're going to go through a lot more."
+  Kontext: Discussing concerns about American political stability
+
+[A012] (2017-01-25, schriftlich)
+  "Happy to help others, but not wanting to require others."
+  Kontext: Describing his interpretation of 'radical self-reliance' from Burning Man
+
+[A013] (2017-07-21, schriftlich)
+  "The key contribution was the design of a new search space (the 'NASNet search space') which enables transferability."
+  Kontext: Describing innovation in NASNet that allowed architectures designed on small datasets to transfer to larger ones like ImageNet
+
+[A014] (2017-07-21, schriftlich)
+  "We search for an architectural building block on a small dataset and then transfer the block to a larger dataset."
+  Kontext: Explaining the NASNet methodology for efficient architecture search with transfer learning
+
+[A015] (2017-12-01, schriftlich)
+  "Our method is up to 5 times more efficient than the RL method of [PERSON] et al. (2018) in terms of number of models evaluated."
+  Kontext: Progressive NAS paper comparing efficiency improvements over [PERSON]'s original reinforcement learning based NAS approach
+
+[A016] (2018-01-01, schriftlich)
+  "Neither Alexis nor I created [FIRMA] to be a bastion of free speech, but rather as a place where open and honest discussion can happen."
+  Kontext: Clarifying [FIRMA]'s purpose regarding free speech
+
+[A017] (2018-01-01, schriftlich)
+  "[FIRMA] is a place for open and honest conversations—'open and honest' meaning authentic, meaning messy, meaning the best and worst and realest and weirdest parts of humanity."
+  Kontext: 2018 statement on [FIRMA]'s commitment to free expression
+
+[A018] (2018-01-01, schriftlich)
+  "The goal of my research is to develop efficient methods and algorithms to better model and understand humans' preferences while operating, interacting, and collaborating with robots, and to design algorithms that plan for robots that are aware of such preferences and can initiate safe and seamless interaction with humans."
+  Kontext: NSF CAREER grant research proposal statement
+
+[A019] (2018-05-24, schriftlich)
+  "AutoAugment is a simple procedure to automatically search for improved data augmentation policies."
+  Kontext: Introducing automated approach to finding optimal data augmentation strategies, applying NAS principles to data preprocessing
+
+[A020] (2018-06-15, schriftlich)
+  "[PERSON] was so skilled that he was actually able to match human performance."
+  Kontext: Quoc Le describing [PERSON]'s exceptional abilities as a resident at [FIRMA] Brain, exceeding expectations on the AutoML project
+
+[A021] (2018-07-02, schriftlich)
+  "We are not the thought police … but we do care about how you behave."
+  Kontext: Interview on content moderation philosophy
+
+[A022] (2019-01-01, schriftlich)
+  "The actions of autonomous cars can influence the behavior of human-driven cars on the same road, and user studies suggest that autonomous cars programmed to be aware of their interactions with humans can achieve tasks such as lane changing or coordinating at intersections safely and efficiently."
+  Kontext: Research findings on autonomous vehicle interaction with human drivers
+
+[A023] (2019-01-01, schriftlich)
+  "Safety has become a core concern of learning algorithms in human-robot systems. The robustness of controllers relies on the accuracy of models of human behavior, and we need approaches to find deviations in learned human behavior that lead to violations of safety objectives."
+  Kontext: Research paper on safety verification in autonomous systems
+
+[A024] (2019-01-01, schriftlich)
+  "We formalize the interaction between autonomous cars and human-driven cars as an underactuated dynamical system to incorporate expressive models of human actions and their responses to robots."
+  Kontext: Game-theoretic approach to modeling human-robot interaction
+
+[A025] (2019-06-01, schriftlich)
+  "As I dug in to try to understand where all of the capability gaps were between [FIRMA] and us for model training, I got very, very worried. The thing that's interesting about what [FIRMA] and [FIRMA] and [FIRMA] Brain are doing is the scale of their ambition."
+  Kontext: Internal email to [PERSON] and Bill Gates expressing concerns about [FIRMA]'s AI capabilities compared to competitors
+
+[A026] (2019-06-01, schriftlich)
+  "We are multiple years behind the competition in terms of ML scale."
+  Kontext: Part of the 2019 email to [FIRMA] leadership about AI competitive position
+
+[A027] (2019-09-01, schriftlich)
+  "The Trump Administration made history by joining together with democracies in the world that share our common values when we signed an international consensus document on AI Principles at the OECD in Paris."
+  Kontext: Discussion of first international AI policy guidelines
+
+[A028] (2020-01-01, schriftlich)
+  "AI must be developed in accordance with a set of policies that democratize AI. AI must be accessible to all individuals and all businesses so that this immense potential is not missed by those with limited resources."
+  Kontext: Talk about AI policy and democratization principles
+
+[A029] (2020-01-01, muendlich)
+  "His motivation stems from his son being diagnosed with autism, with Emad wanting to see how AI could help review existing research."
+  Kontext: Personal motivation for AI work in healthcare
+
+[A030] (2020-01-01, schriftlich)
+  "In shared autonomy, the robot begins with a set of 'beliefs' about what the controller is telling it to do and gains confidence about the goal as additional instructions are given. As the joystick directs it toward one goal and away from others, the robot gains confidence and can begin to take over, sharing autonomy with the user to more precisely control the robot arm."
+  Kontext: Explanation of shared autonomy concept in human-robot interaction
+
+[A031] (2020-01-01, schriftlich)
+  "The National Artificial Intelligence Initiative Office will be integral to the Federal government's AI efforts for many years to come, serving as a central hub for national AI research and policy for the entire US innovation ecosystem."
+  Kontext: Announcement of National AI Initiative Office establishment
+
+[A032] (2020-02-01, schriftlich)
+  "We must ensure equal access to technology, starting with rural broadband. In order for these communities to be able to connect with their digital future, they actually have to be able to connect to the internet. You can't run a modern, technology-heavy business when your business and your employees don't have great broadband connectivity."
+  Kontext: Discussion on technology infrastructure needs in rural America
+
+[A033] (2020-04-07, schriftlich)
+  "AI has the potential to create opportunity for everyone and help solve some of our most vexing problems. The sooner that we stop viewing AI as a substitute for human labor and start imagining how it can be a force multiplier for human ingenuity, the better."
+  Kontext: Book publication and promotional materials for 'Reprogramming the American Dream'
+
+[A034] (2020-08-01, schriftlich)
+  "We developed an algorithm that would empower autonomous vehicles to actively 'nudge' drivers - by tapping their brakes or drifting into another lane - to gather information about how drivers respond in different conditions and improve safety."
+  Kontext: [UNI] research on interactive autonomous vehicle design
+
+[A035] (2020-09-01, schriftlich)
+  "A terrific example of a mistake that can be made where you try to create a one-size-fits-all regulatory regime, and ultimately you end up with less innovation."
+  Kontext: Contrasting US and EU AI regulatory approaches
+
+[A036] (2020-11-01, schriftlich)
+  "I'm exploring how to train robots to better understand humans and how to give humans the skills to more seamlessly work with robots, drawing from fields as varied as cognitive neuroscience, psychology, and behavioral economics."
+  Kontext: Interview about interdisciplinary research approach
+
+[A037] (2021-01-01, schriftlich)
+  "I want to help pave the way for a future in which humans and robots do things like share the roads. By developing new ways for computers to anticipate people's actions, we can enable safer and more efficient interaction."
+  Kontext: [UNI] Technology Review Innovators Under 35 recognition
+
+[A038] (2021-01-01, schriftlich)
+  "Our work uses algorithmic human-robot interaction to be mindful of the effects of autonomous systems on humans, and further leverages these effects for better safety, efficiency, coordination, and estimation."
+  Kontext: ILIAD lab research philosophy on interactive autonomy
+
+[A039] (2021-02-18, schriftlich)
+  "WallStreetBets may look sophomoric or chaotic from the outside, but the fact that we are here today means they've managed to raise important issues about fairness and opportunity in our financial system."
+  Kontext: Testimony before House Financial Services Committee
+
+[A040] (2021-02-18, schriftlich)
+  "WallStreetBets is first and foremost a real community. The self-deprecating jokes, the memes, the crass-at-times language, all reflect this."
+  Kontext: Defending WallStreetBets during GameStop congressional hearing
+
+[A041] (2021-12-01, muendlich)
+  "The role of conventions is critical in human-AI collaboration. Conventions are norms or equilibria built through repeated interactions, and they enable more efficient coordination between humans and AI systems."
+  Kontext: NeurIPS 2021 keynote on conventions in human-AI interaction
+
+[A042] (2022-01-01, schriftlich)
+  "Humans and machines have different strengths—machines excel at chess, Go, and repetitive work, while humans are strong in areas like common sense reasoning where machines still have long way to go."
+  Kontext: Interview about the relationship between human and machine intelligence
+
+[A043] (2022-02-17, schriftlich)
+  "We scaled a sparse model to 269B parameters with computational cost comparable to a 32B dense encoder-decoder Transformer."
+  Kontext: Describing breakthrough in Mixture of Experts models achieving massive scale with manageable compute requirements
+
+[A044] (2022-02-17, schriftlich)
+  "For the first time achieved state-of-the-art performance in transfer learning across diverse tasks including reasoning, summarization, closed book question answering."
+  Kontext: Highlighting the broad capabilities achieved by sparse expert models across multiple NLP benchmarks
+
+[A045] (2022-09, schriftlich)
+  "You could ask a 10-year-old and you could ask Hemingway to draw a bounding box around a car... But if you were saying like, write me a poem of a moon that makes me cry, like I would expect Hemingway to be better than a 10-year-old."
+  Kontext: Interview on data labeling quality
+
+[A046] (2022-09-12, schriftlich)
+  "Big announcement: PyTorch Foundation! PyTorch has large core investments from many companies. So, we're creating a neutral foundation for securing assets and interests. Technical Governance is separate & secure in a Maintainer model."
+  Kontext: Announcing PyTorch's transition to Linux Foundation
+
+[A047] (2022-09-12, schriftlich)
+  "The move is intended to make sure business decisions about the framework are open and transparent, and take into account the needs of the many PyTorch stakeholders."
+  Kontext: Explaining motivation for PyTorch Foundation creation
+
+[A048] (2023-01-01, schriftlich)
+  "Open source AI is AI we can trust."
+  Kontext: Podcast interview discussing open source AI philosophy
+
+[A049] (2023-01-01, schriftlich)
+  "I rabidly love open-source and open research. That love is borne out of growing up without answers to all my questions, and that giving away technology and knowledge is one of the best ways to equal the playing field."
+  Kontext: Explaining personal motivation for open source work
+
+[A050] (2023-01-01, schriftlich)
+  "Open source has that fundamental way to distribute opportunity in a way that is very powerful."
+  Kontext: Podcast discussing democratization through open source
+
+[A051] (2023-01-01, schriftlich)
+  "Technology only matters when it expands what people can do. The core question stays constant: Does the work make someone's life or job meaningfully better? Are we doing the best job that we possibly can to build technology in a way where 40 years from now, our children and our grandchildren will look back and say, 'Wow, this was beneficial. This mattered.'"
+  Kontext: Discussion about technology's purpose and long-term impact
+
+[A052] (2023-01-01, schriftlich)
+  "Every time that we have used AI to solve a problem that we thought was some high watermark of human intelligence, we have changed our mind about how important that watermark was."
+  Kontext: Reflections on AI capabilities and human perception of intelligence
+
+[A053] (2023-01-01, schriftlich)
+  "We must democratize access to AI tools so that people in small communities have the same access I do, because I have infinite amounts of faith in their ability to go do amazing things once they have the access, which ultimately ensures fair and inclusive decision-making about AI's trajectory."
+  Kontext: Discussion on democratization of AI and equal access
+
+[A054] (2023-01-01, schriftlich)
+  "We're probably going to have more change over the next 40 years due to technology than in the past 40. We as a society need to realize the potential for AI to relieve us of repetitive cognitive work, and with the democratization of AI should come recognition of our unique abilities as humans."
+  Kontext: Speech about future technological transformation and human capabilities
+
+[A055] (2023-01-01, schriftlich)
+  "Developers report that [PRODUKT] helps them stay in the flow and keeps their minds sharper during what used to be boring and repetitive tasks, and when AI tools help eliminate drudgery from a job, it improves satisfaction."
+  Kontext: Analysis of [PRODUKT] impact on developer productivity and satisfaction
+
+[A056] (2023-01-01, schriftlich)
+  "[PRODUKT] is a large language model-based system that turns natural language prompts into code and has a dramatic positive impact on developer productivity, opening up coding to a much broader group of people."
+  Kontext: Discussion on AI's impact on software development
+
+[A057] (2023-01-01, schriftlich)
+  "Technology really does massively benefit society. You wouldn't go take mechanical engines or books away from society. AI will eventually be indispensable to society, and we must choose what kind of transformation wave we're going to have."
+  Kontext: Discussion on AI's inevitable integration into society
+
+[A058] (2023-01-01, muendlich)
+  "I'm not sure that any of us can cope with the speed. You know, frankly it's terrifying."
+  Kontext: Statement about AI's disruption potential
+
+[A059] (2023-01-01, muendlich)
+  "We're at this point whereby if we don't have AI to help us, I think we're in a very bad scenario. With AI, if we don't build it right, we're also in a bad scenario. If AI is built right and is aligned and works with us, then we're in a very good scenario."
+  Kontext: Statement on AI's critical importance and alignment
+
+[A060] (2023-01-01, muendlich)
+  "The world becomes a better place, ironically, through empathy from AI, and that's infrastructure that should be available to everyone. This is a concept we call universal basic AI."
+  Kontext: Introducing concept of universal basic AI
+
+[A061] (2023-01-01, muendlich)
+  "You're not going to beat centralized AI with more centralized AI. You're not going to beat centralized AI with more centralized AI."
+  Kontext: Core philosophy on AI development
+
+[A062] (2023-01-01, muendlich)
+  "[FIRMA] decided not to allow any Ukrainian content or Ukrainians to use it."
+  Kontext: Criticism of [FIRMA]'s access restrictions
+
+[A063] (2023-01-01, muendlich)
+  "Blocking people from using technology — as [FIRMA] has done with its [PRODUKT] service in Ukraine, China and Russia — is fundamentally wrong."
+  Kontext: Moral stance against technology blocking
+
+[A064] (2023-01-01, muendlich)
+  "In 10 years, every single student in the world will have an AI tutor that helps them."
+  Kontext: Prediction about AI in education
+
+[A065] (2023-01-01, muendlich)
+  "In the not-too-distant future, the best diagnosticians in the world will be AIs, and the best surgeons will be robots driven by AIs. This is how we create an abundance of health globally."
+  Kontext: Vision for AI in healthcare
+
+[A066] (2023-01-01, muendlich)
+  "Superintelligence should be a collective intelligence made up of amplified human intelligence, versus an AGI that is top-down and designed to control us."
+  Kontext: Philosophy on superintelligence development
+
+[A067] (2023-03-15, schriftlich)
+  "[PRODUKT] incorporates an additional safety reward signal during RLHF training to reduce harmful outputs by training the model to refuse requests for such content."
+  Kontext: From [PRODUKT] technical report describing safety measures in post-training, area led by [PERSON]'s team
+
+[A068] (2023-06-01, schriftlich)
+  "What I'm suggesting as a pathway out is actually more democracy. We've got some old, legacy decisions on how communities are run that we need to kind of work our way out of."
+  Kontext: Discussing changes to moderator governance during 2023 protests
+
+[A069] (2023-06-01, muendlich)
+  "There will be no programmers in five years."
+  Kontext: Prediction about AI replacing programmers
+
+[A070] (2023-06-01, muendlich)
+  "41% of all code right now is AI generated."
+  Kontext: Evidence for programmer replacement prediction
+
+[A071] (2023-06-15, schriftlich)
+  "The people who get there first get to stay there and pass it down to their descendants, and that is not democratic."
+  Kontext: Criticizing moderator system during API protest, calling it undemocratic
+
+[A072] (2023-06-15, schriftlich)
+  "[FIRMA] was never designed to support third-party apps."
+  Kontext: Defending API pricing changes that killed third-party apps
+
+[A073] (2023-07-17, muendlich)
+  "I think this will be the biggest bubble of all time."
+  Kontext: Statement to UBS analysts about AI bubble
+
+[A074] (2023-07-17, muendlich)
+  "It hasn't even started yet."
+  Kontext: Continuation of AI bubble statement
+
+[A075] (2023-10-01, schriftlich)
+  "Our experience at [UNI] and [FIRMA]'s accelerator convinced us that AI could bridge the gap by enhancing developer capabilities rather than replacing them."
+  Kontext: How [UNI] and [FIRMA] accelerator experience shaped the founding team's philosophy on AI-assisted development
+
+[A076] (2023-10-01, muendlich)
+  "The role of grounded representations in learning from interactions with humans is crucial. Language instructions along with latent actions can enable shared autonomy in robotic manipulation problems, and we need to tap into large pretrained models to enable more aligned embodied AI agents."
+  Kontext: ICCV 2023 keynote on language and embodied AI
+
+[A077] (2023-11-19, schriftlich)
+  "To my researcher friends (at @openai and those who watched this saga unfold) -- if you want to focus on doing solid *open* and published research, have access to lots of hardware -- there are a few options: [FIRMA], Mistral, etc. don't let your work get lost in corporate sagas!"
+  Kontext: Response to [FIRMA] leadership turmoil, advocating for open research
+
+[A078] (2023-12-17, schriftlich)
+  "PyTorch's design origins, its connection to Lua, its intertwined deep connection to JAX, its symbiotic connection to Chainer. The groundwork for PyTorch originally started in early 2016, online, among a band of Torch7's contributors."
+  Kontext: Explaining PyTorch's origins and design philosophy
+
+[A079] (2024-01-01, schriftlich)
+  "The current hypothesis around AI is that if you want to train a smarter model, you have to throw more data and compute at the model for it to get smarter. It's not clear when it's going to over-saturate."
+  Kontext: Interview discussing AI training and scaling hypotheses
+
+[A080] (2024-01-01, schriftlich)
+  "Open source AI is probably not going to be as well integrated and smooth as a vertically integrated product that uses [FIRMA]. But the advantages are that it's way more democratized. Anyone can build a product around it without having to go through a bunch of agreements with a separate provider and doing things only in a certain way."
+  Kontext: Comparing open source vs closed source AI approaches
+
+[A081] (2024-01-01, schriftlich)
+  "People in current society have rights based on various aspects: property, rights, copyrights, likeness rights. Some of those rights are being questioned by AI models. I think we need moments like these to understand when AI is not expressing something that works according to current social norms. These moments are going to allow people to understand each other, organize with each other, and question the direction we want to go around preserving or not preserving these rights with generative AI."
+  Kontext: Discussing ethical and legal implications of generative AI
+
+[A082] (2024-01-01, schriftlich)
+  "We're currently building very obedient students, not revolutionaries."
+  Kontext: Critique of current state of AI development
+
+[A083] (2024-01-01, schriftlich)
+  "PyTorch binaries are downloaded about 2 million times a day and there are tens of thousands of commits and tests each month."
+  Kontext: Describing PyTorch's adoption and development activity
+
+[A084] (2024-01-01, schriftlich)
+  "Massive crunch is probably an understatement. I think we have been in a mode where it's been almost impossible to build capacity fast enough since [PRODUKT] launched."
+  Kontext: Discussion on data center capacity constraints and AI infrastructure challenges
+
+[A085] (2024-01-01, muendlich)
+  "I expect constraints to persist for a while. Demand keeps exploding. I do not see demand for inference declining and some of the most ambitious teams using coding agents can face inference costs of roughly $150,000 per year."
+  Kontext: [FIRMA] conference presentation on AI infrastructure challenges
+
+[A086] (2024-01-01, schriftlich)
+  "If I like it, there are millions of people just like me so they'll also like it."
+  Kontext: Explaining his product development philosophy
+
+[A087] (2024-01-01, muendlich)
+  "2024 is going to be the year of action and we will see exponential adoption. It's not a case of if, but when and the UK can lead the charge."
+  Kontext: Statement about AI adoption in 2024
+
+[A088] (2024-01-01, muendlich)
+  "Within 1,000 days, we'll reach a tipping point where AI systems begin replacing large portions of cognitive work as the cost of intelligence approaches that of electricity."
+  Kontext: Prediction about AI's economic impact timeline
+
+[A089] (2024-01-01, muendlich)
+  "We're at the terminal point of our current economic structure and questions fundamental concepts like the nature of money and value in a world of infinite abundance with billions of robots and trillions of agents."
+  Kontext: View on capitalism becoming obsolete
+
+[A090] (2024-01-01, muendlich)
+  "Cancer is good for GDP and it makes it go up."
+  Kontext: Criticism of GDP as economic metric
+
+[A091] (2024-01-01, schriftlich)
+  "Programmers remain in the driver's seat."
+  Kontext: Core philosophy articulated by the [FIRMA] founding team about human-AI collaboration in coding
+
+[A092] (2024-01-01, schriftlich)
+  "AI is an assistant rather than a replacement."
+  Kontext: Philosophy on the role of AI in software development, emphasizing human-AI collaboration
+
+[A093] (2024-01-01, schriftlich)
+  "Solving one problem exceptionally well: developer productivity."
+  Kontext: The founders' laser focus on developer productivity rather than broad AI applications
+
+[A094] (2024-01-01, schriftlich)
+  "Using AI to amplify human creativity rather than replace it."
+  Kontext: Core belief about the purpose of AI in software development, emphasizing augmentation over automation
+
+[A095] (2024-01-01, schriftlich)
+  "Early exposure to open-source programming and large code-bases illustrates a self-driven ethos of building and sharing."
+  Kontext: [PERSON]'s background in open-source development shaped his approach to building collaborative tools
+
+[A096] (2024-01-01, muendlich)
+  "When we started [FIRMA] in 2017, there was a lot of bad press. It was not popular. There was a lot of being dragged through the mud on things that either weren't true or were a misunderstanding of what it is that we were doing. But in 2024, I mean, it's a meme category. Like everybody wants to work in defense tech, which is amazing."
+  Kontext: Kevin Gee interview 2024
+
+[A097] (2024-01-01, muendlich)
+  "The important thing is to be principled, to have conviction, moral conviction, around the thing that it is you're doing. And get smart on why you have that moral conviction. And as long as you have that conviction, and you're not on an island, like you have people around you that are willing to dive into this exploration with you, stay firm."
+  Kontext: On principled entrepreneurship
+
+[A098] (2024-03-01, schriftlich)
+  "The paradox I see is that, as more content on the internet is written by machines, there's an increasing premium on content that comes from real people."
+  Kontext: Company earnings call discussing AI data licensing strategy
+
+[A099] (2024-03-01, schriftlich)
+  "Obsessing over sub-second response times, accurate code predictions, seamless VS Code integration, and real-time collaboration between human and AI."
+  Kontext: Technical priorities that differentiated [FIRMA] from competitors in the AI coding assistant market
+
+[A100] (2024-03-02, muendlich)
+  "The threat that we're facing globally is very different than it was in 2000 through 2020. It looks now more like a Cold War conflict against near-peer adversaries."
+  Kontext: On geopolitical threat environment
+
+[A101] (2024-03-02, muendlich)
+  "It might not hurt to have some shotguns."
+  Kontext: On bunker preparations and survival kit
+
+[A102] (2024-03-21, schriftlich)
+  "First of all, I love wallstreetbets. I'm a user, I've seen their comments over the last couple of weeks so I just send them my regards."
+  Kontext: On [FIRMA] IPO day, revealing his membership in WallStreetBets
+
+[A103] (2024-03-22, muendlich)
+  "You're not going to beat centralized AI with more centralized AI."
+  Kontext: Resignation statement emphasizing commitment to decentralized AI
+
+[A104] (2024-04-14, schriftlich)
+  "AI is making us rethink everything, including software development."
+  Kontext: Keynote speech at International Conference on Software Engineering
+
+[A105] (2024-05-01, schriftlich)
+  "Large policies pretrained on diverse robot datasets have the potential to transform robotic learning: instead of training new policies from scratch, such generalist robot policies may be finetuned with only a little in-domain data, yet generalize broadly."
+  Kontext: Introduction to Octo, large transformer-based robot policy
+
+[A106] (2024-06-01, schriftlich)
+  "AI should enrich programming as an activity rather than replace it."
+  Kontext: [PERSON]'s vision of programming enriched—not replaced—by AI, which has guided [FIRMA]'s product development
+
+[A107] (2024-06-01, schriftlich)
+  "The human-plus-AI developer era."
+  Kontext: [PERSON]'s articulation of a new era in software development combining human creativity with AI capabilities
+
+[A108] (2024-07-15, schriftlich)
+  "Despite what other people think, we're not at diminishing marginal returns on scale-up. The unfortunate thing is you only get to sample it every couple of years because it just takes a while to build supercomputers and then train models on top of them."
+  Kontext: Podcast interview discussing AI scaling laws and future of large language models
+
+[A109] (2024-07-15, schriftlich)
+  "Everything that large language models can do will get better at the next scale point, and they will become more general in capability."
+  Kontext: Discussion on the continued benefits of scaling AI models
+
+[A110] (2024-08-01, schriftlich)
+  "Making technology fast, accurate, and human-controlled."
+  Kontext: Core design principle guiding every product decision at [FIRMA] during [PERSON]'s tenure as CTO
+
+[A111] (2024-09-25, schriftlich)
+  "I posted this note to [FIRMA]. Hey everybody, I have decided to leave [FIRMA]. This was a very difficult decision as I have has such an incredible time at [FIRMA]. I got to join right before [PRODUKT] and helped build the post-training team from scratch with John Schulman and others."
+  Kontext: Announcement of departure from [FIRMA], highlighting his role in building the post-training team that developed [PRODUKT]
+
+[A112] (2024-09-25, schriftlich)
+  "It felt like a natural point for me to explore new opportunities outside of [FIRMA]."
+  Kontext: Describing his decision to leave [FIRMA] as personal decision based on how he wanted to evolve the next phase of his career
+
+[A113] (2024-11-01, schriftlich)
+  "We introduced RoboCrowd, a new data collection paradigm that distributes the workload by utilizing crowdsourcing principles and incentive design to enable scalable data collection. Our field experiment engaged over 200 volunteers who provided over 800 interaction episodes, boosting policy performance up to 20%."
+  Kontext: Paper introducing crowdsourced robot data collection methodology
+
+[A114] (2024-11-15, muendlich)
+  "[PRODUKT] was initially meant to be a low key research preview."
+  Kontext: From [PERSON] & Schulman's [UNI] HAI talk about the development process of [PRODUKT] and post-training methods
+
+[A115] (2024-11-15, muendlich)
+  "Post-training makes the model behave like an assistant and follow the right format, and it's the final stage of getting the model ready for production."
+  Kontext: Explaining the role of post-training in AI model development at [UNI] HAI seminar
+
+[A116] (2024-11-15, muendlich)
+  "They started working together in September 2022 with a big push on making an aligned chatbot that they could safely deploy."
+  Kontext: Describing the beginning of the [PRODUKT] project with focus on alignment and safe deployment
+
+[A117] (2025-01-01, schriftlich)
+  "[FIRMA] is the most human place on the internet."
+  Kontext: Positioning [FIRMA] against AI-generated content ('AI slop')
+
+[A118] (2025-01-01, schriftlich)
+  "We achieved the fastest path to $100M ARR in SaaS history."
+  Kontext: Recognition of [FIRMA]'s unprecedented growth, reaching $100M ARR in just 12 months from launch
+
+[A119] (2025-01-01, schriftlich)
+  "From competitive programming in Sweden to building a multi-billion dollar AI company."
+  Kontext: Trajectory from winning IOI medals to co-founding one of the fastest-growing AI companies
+
+[A120] (2025-01-01, muendlich)
+  "We're finally at a stage where we could think about advances in AI, advances in large language models, foundation models, and how they can influence physical robotic systems that make actions, and this is due to advances in hardware."
+  Kontext: Statement at [UNI] HAI Robotics Conference 2025 about the current state of robotics and AI integration
+
+[A121] (2025-01-01, schriftlich)
+  "Robotic foundation models hold potential with a critical need for more data, and truly useful robots must learn how to generalize not only across tasks but also in varied environments and embodiments."
+  Kontext: Research perspective on foundation models in robotics
+
+[A122] (2025-01-01, muendlich)
+  "My journey toward building generalist robot policies is like cultivating a backyard garden - it requires patience, diverse inputs, and understanding of what works in different environments."
+  Kontext: Robotics: Science and Systems 2025 Early Career Spotlight presentation
+
+[A123] (2025-01-01, muendlich)
+  "The Action Plan very definitively turned the page on AI doomerism and hostility towards AI innovation that had been the hallmark of the Biden administration."
+  Kontext: Statement about Trump AI Action Plan vs Biden approach
+
+[A124] (2025-01-01, schriftlich)
+  "The CCP has made it very clear that they will use these technologies for their authoritarian objectives."
+  Kontext: Discussion on emerging technologies and strategic competition
+
+[A125] (2025-01-01, schriftlich)
+  "The EU stuff is particularly disappointing. American companies, like, over the barrel of a gun."
+  Kontext: Criticism of EU AI regulation at Davos
+
+[A126] (2025-01-08, muendlich)
+  "Universal Basic Income at poverty level would cost more than entire US tax base."
+  Kontext: Critique of traditional UBI approach
+
+[A127] (2025-03-01, schriftlich)
+  "We need to outline the forms of generalization believed to be important for robot manipulation in a comprehensive and fine-grained manner. Our StarGen taxonomy evaluates generalization in robot policies, spanning semantic, visual, and behavioral dimensions."
+  Kontext: Recent paper on evaluating generalist robot policies
+
+[A128] (2025-03-01, schriftlich)
+  "The only way to do so will be to double down on what has made our history of innovation so great, the uniquely American free market approach to scientific discovery, which harnesses the combined strength of government, industry and academia."
+  Kontext: Confirmation hearing for OSTP director role
+
+[A129] (2025-03-01, schriftlich)
+  "Whenever I think about how you structure a national strategy around emerging tech, it typically falls on four pillars – one is R&D [research and development], one is on regulations, one is on international, and the fourth pillar is always workforce."
+  Kontext: Outlining strategic framework for emerging technologies
+
+[A130] (2025-04-01, muendlich)
+  "If the U.S. got into a hot conflict with a great power, we would run out of munitions in a week. You see situations like Ukraine where we deplete not only available inventory, we also deplete our own inventory."
+  Kontext: Warning about defense preparedness
+
+[A131] (2025-04-01, schriftlich)
+  "The Trump Administration will unleash Federal resources to build out the data resources needed for an AI-powered future."
+  Kontext: On federal infrastructure for AI development
+
+[A132] (2025-04-15, schriftlich)
+  "To the degree it even tried to accomplish this, the Biden administration failed on its own terms, led by a spirit of fear rather than promise."
+  Kontext: Endless Frontiers Retreat in Austin, Texas
+
+[A133] (2025-04-15, schriftlich)
+  "After 30 years of subsidizing Chinese growth, it is time for us to stop helping a rival catch up with us in that race."
+  Kontext: Speech at Endless Frontiers Retreat in Austin
+
+[A134] (2025-04-15, schriftlich)
+  "Our technologies permit us to manipulate time and space. They leave distance annihilated, cause things to grow, and improve productivity."
+  Kontext: Speech on American technological capabilities
+
+[A135] (2025-04-15, schriftlich)
+  "The chief barrier to pushing the envelope again in transportation, whether supersonic aircraft or high-speed rail and flying cars, has been a regulatory regime opposed to innovation and development."
+  Kontext: On regulatory barriers to transportation innovation
+
+[A136] (2025-04-15, schriftlich)
+  "Throw off the burden of bad regulations that weigh down our innovators, and use federal resources to test, to deploy, and to mature emerging technologies."
+  Kontext: Call for deregulation and federal support
+
+[A137] (2025-04-16, schriftlich)
+  "Strict and simple export controls and know your customer rules, with an unapologetic America-first attitude about enforcing them, are central to stopping China from continuing to build itself up at our expense."
+  Kontext: Technology competition strategy
+
+[A138] (2025-05-01, muendlich)
+  "Within five years, 95% of new code could be AI-generated, enabling even non-coders like my 16-year-old daughter to build apps effortlessly."
+  Kontext: [FIRMA] Build 2025 keynote presentation on future of coding
+
+[A139] (2025-05-01, muendlich)
+  "The agentic web is an open internet with agents talking to agents the way browsers talk to servers. By championing the open Model Context Protocol across GitHub, [PRODUKT] Studio, Azure AI Foundry, and Windows 11, [FIRMA] aims to provide HTTP-style interoperability and memory via structured retrieval augmentation."
+  Kontext: [FIRMA] Build 2025 keynote outlining vision for AI agents
+
+[A140] (2025-07-01, schriftlich)
+  "President Trump's 'promote and protect' strategy for artificial intelligence is based on expanding the use of export controls while reforming them to better allow friends and allies to acquire U.S. technologies."
+  Kontext: Dual approach to AI export policy
+
+[A141] (2025-08-01, muendlich)
+  "You can't have artificial intelligence without actual intelligence."
+  Kontext: Q2 earnings call 2025, discussing AI's dependence on human knowledge
+
+[A142] (2025-08-01, schriftlich)
+  "The highest end of semiconductors need to continue to be export controlled, not allowed into China, and that's important for our ability to maintain our leadership in this race."
+  Kontext: On semiconductor export controls to China
+
+[A143] (2025-09-01, schriftlich)
+  "The United States is being able to show that there is an alternative to that sort of precautionary principle-driven mode of AI regulation."
+  Kontext: US vs EU AI regulation philosophy
+
+[A144] (2025-09-01, schriftlich)
+  "A patchwork of state regulations is anti-innovation. It actually presents and gives more power to large technology companies that have armies of lawyers."
+  Kontext: House Science Committee AI hearing
+
+[A145] (2025-10-01, schriftlich)
+  "It is, of course, with a mix of feelings. I'm sad to leave the team and the product; I'm excited for the ideas I get to explore next."
+  Kontext: Statement upon leaving [FIRMA]/[FIRMA] in October 2025 to found Integrous Research, a safety-focused AI research lab
+
+[A146] (2025-10-01, schriftlich)
+  "Developing systems for safer AI."
+  Kontext: Mission statement for Integrous Research, the AI safety research lab [PERSON] founded after leaving [FIRMA]
+
+[A147] (2025-10-01, schriftlich)
+  "Robust systems for secure and trustworthy AI."
+  Kontext: Focus area for Integrous Research, emphasizing AI safety and trustworthiness
+
+[A148] (2025-10-06, schriftlich)
+  "The partnership with [FIRMA] was basically a bet saying this particular team at the time also understood that this was a game of scaling, compute and doing incredible things with it in a very disciplined way. If we work with them, they will push us to build better infrastructure, and we can enable them to do their best work."
+  Kontext: TechCrunch Disrupt 2025 discussion about the strategic rationale behind [FIRMA]-[FIRMA] partnership
+
+[A149] (2025-11-01, schriftlich)
+  "That's something that we're pushing a lot of the folks in the big data center companies to work on."
+  Kontext: Encouraging data center companies to build own energy supplies
+
+[A150] (2025-11-06, schriftlich)
+  "PyTorch handles exascale training now. It powers foundation models that are redefining intelligence. It's in production at virtually every major AI company. It's taught in classrooms from [UNI] to rural India. The tools I dreamed about making accessible? They are. The barrier to entry I wanted to lower? It's almost gone."
+  Kontext: Announcement of departure from [FIRMA], reflecting on PyTorch's success and global impact
+
+[A151] (2025-11-06, schriftlich)
+  "I don't want to work on PyTorch forever, nor do I want to be like Guido or Linus, tied to the same thing for decades."
+  Kontext: Explaining decision to leave PyTorch leadership after nearly 8 years
+
+[A152] (2025-11-06, schriftlich)
+  "I could have moved to something else inside [FIRMA]. But I needed to know what's out there. I needed to do something small again. I couldn't live with the counterfactual regret of never trying something outside [FIRMA]."
+  Kontext: Explaining motivation for leaving [FIRMA] after 11 years
+
+[A153] (2025-11-06, schriftlich)
+  "It's very hard to leave. I probably have one of the AI industry's most leveraged seats, I lead the software layer that powers the entire AI industry."
+  Kontext: Reflecting on his influential position at [FIRMA] before leaving
+
+[A154] (2025-11-06, schriftlich)
+  "Something small. Something new. Something I don't fully understand yet. Something uncomfortable."
+  Kontext: Describing what he's looking for in next career step
+
+[A155] (2025-12-07, schriftlich)
+  "I've always hated the word data labeling because it just paints this very simplistic picture when I think what we're doing is completely different. You don't just feed a child information. You're teaching them values, and creativity, and what's beautiful, and these infinite subtle things about what makes somebody a good person."
+  Kontext: Lenny's Podcast interview
+
+[A156] (2025-12-07, schriftlich)
+  "I don't want AI to be this cold robotic thing that solves a bunch of math questions. I want it to feel rich and warm and creative, capable of interacting in an inherently human way."
+  Kontext: Lenny's Podcast interview on AI vision
+
+[A157] (2025-12-07, schriftlich)
+  "We're still a decade away from AGI."
+  Kontext: Lenny's Podcast interview
+
+[A158] (2025-12-07, schriftlich)
+  "If AGI is realized, it will be significantly more powerful than today's algorithmic platforms while infiltrating every part of society, with almost an infinite potential for unintended consequences."
+  Kontext: Discussion on AGI risks
+
+[A159] (2025-12-07, schriftlich)
+  "I'm skeptical that AI will reach a point where human feedback is no longer needed. Annotation becomes more difficult as models improve."
+  Kontext: On future of human involvement in AI
+
+[A160] (2026-01-14, schriftlich)
+  "We have parted ways with [PERSON]."
+  Kontext: [PERSON]'s announcement at Thinking Machines all-hands meeting about [PERSON]'s termination for alleged unethical conduct
+
+[A161] (unbekannt, schriftlich)
+  "AI is capable of Nobel Prize-winning poetry, solving the Riemann hypothesis, and discovering the secrets of the universe—but only if it's trained on data that captures human expertise, creativity, and values."
+  Kontext: TIME 100 AI 2025 profile
+
+[A162] (unbekannt, schriftlich)
+  "AI models are only as good as the data that you feed them. If you feed your models poor data, then they'll mimic the bad data and give inaccurate predictions."
+  Kontext: Discussion on data quality fundamentals
+
+[A163] (unbekannt, schriftlich)
+  "Without clean, contextual, high-quality training data, even the best models underperform. Data quality is the #1 constraint in AI today."
+  Kontext: Analysis of [FIRMA]'s approach
+
+[A164] (unbekannt, schriftlich)
+  "In many cases, a few thousand well-labeled human examples outperform millions of synthetic ones."
+  Kontext: Case study on business philosophy
+
+[A165] (unbekannt, schriftlich)
+  "We're not competing with synthetic data. We are the quality control layer that makes synthetic data usable. As AI generates more training data, Surge's humans verify quality in a recursive loop of human-AI collaboration."
+  Kontext: On relationship between human and synthetic data
+
+[A166] (unbekannt, schriftlich)
+  "One of the reasons we self-financed is that I've always hated the status quo in Silicon Valley. I hate the idea of raising a large amount of money and then having to spend it. Typical VC-backed Silicon Valley startups are get-rich-quick schemes."
+  Kontext: Criticism of venture capital culture
+
+[A167] (unbekannt, schriftlich)
+  "You move slow. You have a lot of politics. You have a lot of bureaucracy."
+  Kontext: On why he avoided venture capital
+
+[A168] (unbekannt, schriftlich)
+  "I'm glad I'm not surrounded by the default ways of Silicon Valley thinking."
+  Kontext: On independent thinking
+
+[A169] (unbekannt, schriftlich)
+  "The industry is moving in the wrong direction due to a broader pattern of style over substance."
+  Kontext: Criticism of industry trends
+
+[A170] (unbekannt, schriftlich)
+  "Sales teams optimize for closing deals, not solving problems."
+  Kontext: On why Surge has no sales team
+
+[A171] (unbekannt, schriftlich)
+  "Be so good that customers can't function without you. We'll get calls from new customers saying, 'We hired someone from [major AI lab] and they said we need to get [FIRMA] here or we're not doing anything.' That's exactly the kind of organic growth we want—driven by people who've seen firsthand what a difference quality data makes."
+  Kontext: On organic growth strategy
+
+[A172] (unbekannt, schriftlich)
+  "AI safety is not a future concern. Misaligned objectives—like optimizing for engagement over truth—are already causing harm."
+  Kontext: On current AI safety issues
+
+[A173] (unbekannt, schriftlich)
+  "I've seen firsthand how products designed to optimize for clicks can cause harm."
+  Kontext: Reflecting on experience at [FIRMA] and [PLATTFORM]
+
+[A174] (unbekannt, schriftlich)
+  "I advocate for versatile engineers to maintain agility and focus on building. I'm skeptical about hiring too many specialized PMs or non-engineering roles early on, preferring tight product feedback loops driven by engineers."
+  Kontext: On team building philosophy
+
+[A175] (unbekannt, schriftlich)
+  "History has shown that those who lead in new technologies of defense will set the ethical norms and standards that govern those technologies. Those who lead from behind will be subject to those norms."
+  Kontext: Medium article on defense ethics
+
+[A176] (unbekannt, schriftlich)
+  "I believe deeply in liberal democratic governance and the values that form its foundation. In the national security sector, it is critical for the United States and her allies to set ethical norms and assert a moral high ground, and in order to do that, we must first hold the technological high ground."
+  Kontext: On democratic values and tech leadership
+
+[A177] (unbekannt, schriftlich)
+  "God is the original innovator and humans, made in God's image, are meant to build things, and that it is excessive pride, not building, that God punishes."
+  Kontext: Moral Code series on faith and tech
+
+[A178] (unbekannt, schriftlich)
+  "Science alone is insufficient to provide a framework for ethical living, and the values held by secular humanists were developed within and shaped by the Judeo-Christian tradition."
+  Kontext: On ethics and religious foundations
+
+[A179] (unbekannt, schriftlich)
+  "Building the easy button for the government - creating products that genuinely make government operations more effective rather than forcing government agencies to adapt to commercial paradigms."
+  Kontext: Core philosophy on gov tech from [FIRMA] experience
+
+[A180] (unbekannt, muendlich)
+  "Tech can be used for both good and bad. It's cliche because it's true."
+  Kontext: On technology and moral responsibility
+
+[A181] (unbekannt, schriftlich)
+  "Where use of force is necessary, Just War principles require it be deployed ethically and consistently with principles of discrimination and proportionality. Technology has the potential to lead to significant reduction in innocent life loss through highly precise and targeted attacks, reducing the need for massive indiscriminate strikes."
+  Kontext: On Just War theory and technology
+
+[A182] (unbekannt, schriftlich)
+  "Modern technology, if developed properly, can make warfare more proportional, precise, and less indiscriminate than ever before, representing ethical goods that result in better and more peaceful outcomes globally."
+  Kontext: On technology improving warfare ethics
+
+[A183] (unbekannt, schriftlich)
+  "It is critical that democratically-elected governments with a firm respect for Just War frameworks be the leaders in the development of these technologies."
+  Kontext: On who should develop defense AI
+
+[A184] (unbekannt, schriftlich)
+  "I was a senior in high school on 9/11 and was inspired to pursue a career in national security."
+  Kontext: Career motivation origin
+
+[A185] (unbekannt, schriftlich)
+  "Forgiveness is a surprisingly useful concept in Silicon Valley, where relationships matter and holding grudges limits opportunities."
+  Kontext: Medium article on Christian ethics in tech
+
+[A186] (unbekannt, muendlich)
+  "My primary ethical concern about tech is not innovation itself, but whether people are pursuing good quests - asking if they're actually making the world a better place or pursuing selfish ambition."
+  Kontext: On ethical framework for tech work
+
+[A187] (unbekannt, muendlich)
+  "Our goal with ACTS 17 Collective is not necessarily conversion, but rather encouraging the high intellectuals of our time to consider incorporating faith into their lives."
+  Kontext: On ministry to Silicon Valley elites
+
+------------------------------------------------------------------------
+HANDLUNGEN (146 Stueck)
+------------------------------------------------------------------------
+
+[H001] (2005-06-01, gruendung)
+  Co-founded [FIRMA] with Alexis Ohanian after [FIRMA] acceptance, programmed entire site in Lisp in 20 days
+
+[H002] (2006-10-31, verkauf)
+  Sold [FIRMA] to Condé Nast for reported $10-20 million at age 23
+
+[H003] (2008-01-01, einstellung)
+  Joined [FIRMA] Technologies as early employee, led teams for defense/intelligence expansion, international growth, and product development
+
+[H004] (2009-01-01, ruecktritt)
+  Left [FIRMA] as acting CEO after Condé Nast acquisition
+
+[H005] (2010-01-01, sonstiges)
+  Worked at NYU under [PERSON] on deep learning, robotics, pedestrian detection, and OCR
+
+[H006] (2010-01-01, einstellung)
+  Joined [PERSON] Capital as principal and served as chief of staff to [PERSON] before entering Trump administration
+
+[H007] (2010-08-01, gruendung)
+  Co-founded Hipmunk travel search startup with Adam Goldstein as CTO
+
+[H008] (2011-01-01, sonstiges)
+  Maintained EBLearn C++ based Deep Learning Framework pre-2012
+
+[H009] (2014-01-01, einstellung)
+  Became Partner at [FIRMA], focusing on startups in government and defense technology sectors
+
+[H010] (2014-05-01, einstellung)
+  Joined [FIRMA] AI Research (FAIR) as AI researcher
+
+[H011] (2015-01-01, sonstiges)
+  Published three highly-cited papers on Generative Adversarial Networks: LAPGAN, DCGAN, and Wasserstein GAN
+
+[H012] (2015-07-10, einstellung)
+  Returned to [FIRMA] as CEO, replacing Ellen Pao after moderator revolt
+
+[H013] (2016-01-01, einstellung)
+  Started as Research Scientist at [FIRMA] Brain, working on Neural Architecture Search and AutoML
+
+[H014] (2016-01-01, produktlaunch)
+  Co-created and publicly released PyTorch framework
+
+[H015] (2016-01-01, sonstiges)
+  Created ganhacks repository with tips for training GANs
+
+[H016] (2016-11-01, produktlaunch)
+  Published Neural Architecture Search with Reinforcement Learning, foundational paper establishing automated neural network design as viable field
+
+[H017] (2016-11-23, sonstiges)
+  Secretly edited user comments criticizing him (u/spez) on r/The_Donald, replacing his username with moderator names
+
+[H018] (2016-11-23, politisch)
+  Led Department of Defense transition team for President-elect Donald Trump, screening staff and shaping policies
+
+[H019] (2017-01-20, einstellung)
+  Appointed as Deputy Assistant to the President for Technology Policy, later became 4th US Chief Technology Officer
+
+[H020] (2017-01-24, einstellung)
+  [PERSON] appointed as [FIRMA] Chief Technology Officer, reporting directly to CEO [PERSON]
+
+[H021] (2017-06-01, gruendung)
+  Co-founded [FIRMA] Industries with [PERSON], Matt Grimm, Joe Chen, and Brian Schimpf, focusing on autonomous defense systems and AI-powered surveillance
+
+[H022] (2017-07-21, produktlaunch)
+  Published NASNet paper demonstrating transferable architecture search from CIFAR-10 to ImageNet with state-of-the-art results
+
+[H023] (2018-01-01, produktlaunch)
+  Launched 'Behind the Tech' podcast as host, interviewing technology innovators
+
+[H024] (2018-01-01, gruendung)
+  Founded and became Director of the Intelligent and Interactive Autonomous Systems Group (ILIAD) at [UNI] University
+
+[H025] (2018-01-01, einstellung)
+  Joined [UNI] University as Assistant Professor in Computer Science and Electrical Engineering
+
+[H026] (2018-05-24, produktlaunch)
+  Published AutoAugment paper introducing automated data augmentation policy search, achieving state-of-the-art on CIFAR-10 (1.48% error)
+
+[H027] (2019-01-01, lobbying)
+  Participated in National Security Commission on AI, representing industry perspective on AI policy
+
+[H028] (2019-01-01, sonstiges)
+  Received NSF CAREER Award for research on Active Learning of Preferences for Human-Aware Autonomy
+
+[H029] (2019-02-11, produktlaunch)
+  Architected the American AI Initiative, the nation's first comprehensive AI strategy
+
+[H030] (2019-05-22, politisch)
+  Led U.S. efforts to develop world's first intergovernmental AI policy guidelines at OECD in Paris
+
+[H031] (2019-07-01, investition)
+  [FIRMA] invested $1 billion in [FIRMA] following [PERSON]'s strategic recommendation
+
+[H032] (2019-08-01, politisch)
+  Unanimously confirmed by U.S. Senate as Chief Technology Officer of the United States
+
+[H033] (2020, partnerschaft)
+  Established partnership with [FIRMA] as major client for data labeling and RLHF services.
+
+[H034] (2020, partnerschaft)
+  Established partnership with [FIRMA] as major client, contributing to [PRODUKT]'s training and evaluation.
+
+[H035] (2020, partnerschaft)
+  Established partnership with [FIRMA] as major client for AI training data.
+
+[H036] (2020, partnerschaft)
+  Established partnership with [FIRMA] ([FIRMA]) as major client for AI training data.
+
+[H037] (2020, partnerschaft)
+  Established partnership with [FIRMA] as major client for AI training data.
+
+[H038] (2020-01-01, umstrukturierung)
+  Led [FIRMA] Responsible AI Council as co-chair alongside Brad Smith
+
+[H039] (2020-01-01, sonstiges)
+  Awarded AFOSR Young Investigator Research Program (YIP)
+
+[H040] (2020-01-01, sonstiges)
+  Served as Area Chair on Program Committee for Robotics: Science and Systems (RSS) 2020 conference
+
+[H041] (2020-01-01, gruendung)
+  Established the National AI Initiative Office at the White House as central hub for AI research and policy
+
+[H042] (2020-04-07, produktlaunch)
+  Book 'Reprogramming the American Dream: From Rural America to Silicon Valley—Making AI Serve Us All' published
+
+[H043] (2020-05, gruendung)
+  Founded [FIRMA] with $300,000 from personal savings, bootstrapping the company without any venture capital. Started from San Francisco apartment.
+
+[H044] (2020-05, ruecktritt)
+  Quit seven-figure salary job to found [FIRMA], turning down lucrative Big Tech compensation.
+
+[H045] (2020-07-10, einstellung)
+  Appointed Acting Under Secretary of Defense for Research and Engineering, 3rd highest Pentagon official
+
+[H046] (2020-08-01, investition)
+  Spearheaded $1 billion program creating network of AI and quantum research institutes across US
+
+[H047] (2020-12-01, gruendung)
+  Co-founded [FIRMA] with Cyrus Hodes, creating company behind [PRODUKT] AI image generator
+
+[H048] (2020-2024, sonstiges)
+  Built network of over 1 million contractors across 50+ countries, including professors from [UNI], Princeton, and Harvard, medical doctors, lawyers, and PhD researchers.
+
+[H049] (2020-2024, umstrukturierung)
+  Built company to $1B revenue with zero sales team, zero marketing team, relying entirely on word-of-mouth and product quality.
+
+[H050] (2020-2025, sonstiges)
+  Explicitly rejected venture capital offers, maintaining 100% bootstrapped status despite achieving $1B+ revenue.
+
+[H051] (2021-01-01, gruendung)
+  Co-founded Sol (Sindarin Inc.) with Ben Chelf, developing next-generation wearable e-reader device incubated by [FIRMA]
+
+[H052] (2021-01-01, sonstiges)
+  Received Okawa Foundation Research Grant for Adaptive Human-Robot Interaction research
+
+[H053] (2021-01-01, sonstiges)
+  Named to [UNI] Technology Review 35 Innovators Under 35 list
+
+[H054] (2021-02-18, sonstiges)
+  Testified before House Financial Services Committee defending WallStreetBets during GameStop meme stock surge
+
+[H055] (2021-03-01, einstellung)
+  Joined [FIRMA] as Managing Director and Head of Strategy after leaving Pentagon
+
+[H056] (2021-06-29, produktlaunch)
+  [PRODUKT] launched as AI pair programming tool, co-developed under Scott's leadership
+
+[H057] (2022-01-01, sonstiges)
+  Became Angel Investor focusing on AI companies
+
+[H058] (2022-01-01, sonstiges)
+  Co-authored academic paper on 'Formal Security Definition of [FIRMA]data-Private Messaging' published in IACR Cryptology ePrint Archive
+
+[H059] (2022-01-01, sonstiges)
+  Awarded Sloan Research Fellowship
+
+[H060] (2022-01-01, sonstiges)
+  Received ONR Young Investigator Award
+
+[H061] (2022-02-17, produktlaunch)
+  Published ST-MoE paper on stable sparse expert models, scaling to 269B parameters with efficiency of 32B dense model
+
+[H062] (2022-06-01, gruendung)
+  Co-founded [FIRMA] with [PERSON], [PERSON], and [PERSON] while students at [UNI], creating the AI code editor [FIRMA]
+
+[H063] (2022-08-01, produktlaunch)
+  Launched [PRODUKT] as open-source AI image generation model, competing with [PRODUKT] and [PRODUKT]
+
+[H064] (2022-09-01, einstellung)
+  Joined [FIRMA] as VP of Research (Post-Training), building post-training team with John Schulman right before [PRODUKT] launch
+
+[H065] (2022-09-12, umstrukturierung)
+  Led transition of PyTorch to Linux Foundation as independent PyTorch Foundation
+
+[H066] (2022-10-01, investition)
+  Secured $101 million investment led by Coatue and Lightspeed Venture Partners, reaching unicorn status at $1 billion valuation
+
+[H067] (2022-11-30, produktlaunch)
+  Led post-training team that developed and launched [PRODUKT], implementing RLHF and alignment techniques for safe deployment
+
+[H068] (2022-11-30, partnerschaft)
+  Selected [FIRMA] as [FIRMA]'s preferred cloud provider, using [FIRMA] SageMaker for AI model development
+
+[H069] (2023-01-01, investition)
+  Angel investments in Runway, 1X, Osmo, [FIRMA], Together.ai, Lepton, OpenHands, and Odyssey
+
+[H070] (2023-01-01, partnerschaft)
+  [FIRMA] and [FIRMA] collaboration announced to build AI supercomputer
+
+[H071] (2023-01-01, partnerschaft)
+  Became research scientist at [FIRMA] while maintaining [UNI] faculty position
+
+[H072] (2023-01-01, sonstiges)
+  Promoted to Associate Professor in Computer Science and Electrical Engineering at [UNI] University
+
+[H073] (2023-01-23, investition)
+  [FIRMA] invested additional $10 billion in [FIRMA], giving it just shy of 50% stake
+
+[H074] (2023-01-23, partnerschaft)
+  [FIRMA] and [FIRMA] extended partnership announced with supercomputing infrastructure commitment
+
+[H075] (2023-03-01, produktlaunch)
+  Launched [FIRMA] public beta, an AI-native code editor built on VS Code fork, in March 2023
+
+[H076] (2023-03-14, produktlaunch)
+  Contributed to [PRODUKT] post-training and alignment using RLHF with safety reward signals
+
+[H077] (2023-04-01, umstrukturierung)
+  Announced major API pricing changes requiring third-party apps to pay for access
+
+[H078] (2023-05-01, einstellung)
+  Joined Foundation for American Innovation board as new member
+
+[H079] (2023-06-01, sonstiges)
+  Forbes investigation alleged misrepresentations about [UNI] degrees, [FIRMA] partnership, and role in [PRODUKT] creation
+
+[H080] (2023-06-01, partnerschaft)
+  Graduated from [FIRMA]'s accelerator program with [FIRMA]
+
+[H081] (2023-06-30, sonstiges)
+  Implemented API changes despite massive protest, killing major third-party apps
+
+[H082] (2023-07-01, klage)
+  Co-founder Cyrus Hodes filed lawsuit alleging fraud, claiming [PERSON] deceived him into selling 15% stake for $100
+
+[H083] (2023-10-01, sonstiges)
+  Lightspeed Venture Partners sent letter to board stating [PERSON]'s mismanagement 'severely undermined' confidence, urged sale
+
+[H084] (2023-10-01, investition)
+  Raised $8 million seed round led by [FIRMA] Startup Fund, with angels including [PERSON] and Arash Ferdowsi
+
+[H085] (2023-12-01, investition)
+  Received $50 million investment from Intel (partial disbursement of planned $95 million), with $20 million initially disbursed
+
+[H086] (2024, sonstiges)
+  [FIRMA] surpassed $1 billion in annual revenue with under 100 employees, completely bootstrapped—the fastest company in history to reach this milestone.
+
+[H087] (2024-01-01, partnerschaft)
+  Collaborated with DeepLearning.AI to launch PyTorch Professional Certificate on [FIRMA]
+
+[H088] (2024-01-01, investition)
+  [FIRMA] invested $19 billion in data center capital expenditures for AI workload capacity
+
+[H089] (2024-01-01, gruendung)
+  Co-founded Valinor Enterprises with Julie Bush (CEO), Paul Kwan, and Grant Verstandig as defense-tech company incubator
+
+[H090] (2024-01-01, sonstiges)
+  Awarded National Artificial Intelligence Research Resource (NAIRR) Grant for project on learning reward functions for robotics using large datasets and human feedback
+
+[H091] (2024-02-01, partnerschaft)
+  Signed data licensing deal with [FIRMA] worth $60 million per year for AI training
+
+[H092] (2024-03-01, verkauf)
+  Sold 500,000 [FIRMA] shares during IPO process for estimated $17 million
+
+[H093] (2024-03-01, sonstiges)
+  Core [PRODUKT] researchers Rombach, Blattmann and Lorenz resigned amid financial struggles and executive exodus
+
+[H094] (2024-03-21, produktlaunch)
+  Led [FIRMA]'s Initial Public Offering (IPO) at $34 per share
+
+[H095] (2024-03-23, ruecktritt)
+  Resigned as CEO and board member of [FIRMA] to pursue decentralized AI initiatives after investor pressure
+
+[H096] (2024-03-24, umstrukturierung)
+  [FIRMA] appointed Shan Shan Wong (COO) and Christian Laforte (CTO) as interim co-CEOs after [PERSON]'s departure
+
+[H097] (2024-04-01, sonstiges)
+  [FIRMA] reportedly defaulted on [FIRMA] and [FIRMA] Cloud payments, with $99M annual infrastructure costs and shrinking cash
+
+[H098] (2024-04-14, sonstiges)
+  Keynote speaker at International Conference on Software Engineering (ICSE) 2024
+
+[H099] (2024-05-01, produktlaunch)
+  Released Octo, an open-source generalist robot policy trained on 800k trajectories from the Open X-Embodiment dataset
+
+[H100] (2024-05-16, partnerschaft)
+  Signed data licensing partnership with [FIRMA] worth estimated $70 million per year
+
+[H101] (2024-05-21, umstrukturierung)
+  [FIRMA] deployed equivalent of five 561 petaflops supercomputers monthly for AI infrastructure
+
+[H102] (2024-06-07, gruendung)
+  Founded Schelling AI to build open source AI code, models and datasets powered by 'AI money' and tokenized economics
+
+[H103] (2024-06-25, sonstiges)
+  Prem Akkaraju announced as new [FIRMA] CEO, Sean Parker joined board as Executive Chairman with new funding round
+
+[H104] (2024-07-01, sonstiges)
+  Gave invited talk at ICML 2024, first invited talk of the conference
+
+[H105] (2024-08-01, investition)
+  Raised $60 million Series A at $400 million valuation led by [FIRMA] and Thrive Capital
+
+[H106] (2024-09-18, sonstiges)
+  Participated in Keynote Panel on Scaling & Benchmarking at PyTorch Conference 2024
+
+[H107] (2024-09-25, ruecktritt)
+  Left [FIRMA] as VP of Research (Post-Training) after helping build [PRODUKT] and the post-training team from scratch
+
+[H108] (2024-11-01, produktlaunch)
+  Launched RoboCrowd platform demonstrating crowdsourced robot data collection with over 200 volunteers in university cafe
+
+[H109] (2024-11-01, einstellung)
+  Named to Trump White House transition team while at [FIRMA]
+
+[H110] (2024-11-15, sonstiges)
+  Gave [UNI] HAI talk with John Schulman on [PRODUKT] and the Art of Post-Training, sharing insights on alignment and RLHF
+
+[H111] (2024-11-15, politisch)
+  Consulted with President-elect Trump on revamping US military, considered for Deputy Secretary of Defense position
+
+[H112] (2024-12-01, investition)
+  Raised $105 million Series B at $2.6 billion valuation led by Thrive Capital
+
+[H113] (2024-12-22, politisch)
+  Nominated by President-elect Trump as Director of Office of Science and Technology Policy
+
+[H114] (2025, sonstiges)
+  Named to TIME 100 Most Influential People in AI 2025 list.
+
+[H115] (2025, sonstiges)
+  Became youngest person on Forbes 400 list of richest Americans at age 37 with $18 billion net worth.
+
+[H116] (2025-01-01, sonstiges)
+  [FIRMA] became the fastest SaaS company to reach $100M ARR, achieving this milestone in just 12 months from launch
+
+[H117] (2025-01-01, produktlaunch)
+  [FIRMA] announced Arsenal Projects, hyperscale computing facilities for manufacturing autonomous weapons faster than near-peer rivals
+
+[H118] (2025-01-01, sonstiges)
+  Organized [UNI] HAI conference "Robotics in a Human-Centered World: Hype, Hope, and Future Directions" with Karen Liu and Allison Okamura
+
+[H119] (2025-01-20, lobbying)
+  Promoted Trump's light-touch AI approach and criticized EU AI Act at World Economic Forum Davos
+
+[H120] (2025-02-01, gruendung)
+  Co-founded [FIRMA] with [PERSON] and John Schulman as CTO, AI startup focused on innovative AI research
+
+[H121] (2025-02-14, produktlaunch)
+  Announced plans to launch paid subreddits and contributor monetization features
+
+[H122] (2025-03-01, investition)
+  [FIRMA] secured fresh funds from UK advertising group WPP as lead investor, shifting toward enterprise solutions
+
+[H123] (2025-03-25, politisch)
+  Confirmed by U.S. Senate as OSTP Director in 74-25 vote, youngest person ever in role
+
+[H124] (2025-04-09, politisch)
+  Led DOE identification of 16 federal sites for rapid AI data center construction
+
+[H125] (2025-05-01, produktlaunch)
+  Windows AI Foundry and Model Context Protocol (MCP) integration announced at Build 2025
+
+[H126] (2025-05-01, produktlaunch)
+  SQL Server 2025 public preview announced with AI-ready enterprise database capabilities
+
+[H127] (2025-05-01, sonstiges)
+  [FIRMA] surpassed $500 million in annual recurring revenue
+
+[H128] (2025-06, sonstiges)
+  Gained significant market share after [FIRMA]'s $14.3B investment in competitor [FIRMA], as clients worried about data sharing with competitors. Gained more revenue in one week than previous six months.
+
+[H129] (2025-06-01, investition)
+  Raised $900 million Series C at $9.9 billion valuation led by Thrive Capital
+
+[H130] (2025-06-05, investition)
+  [FIRMA] led [FIRMA] Series G funding round with $1 billion investment at $30.5 billion valuation, doubling prior valuation
+
+[H131] (2025-07, sonstiges)
+  Reportedly preparing $1 billion Series A funding round at $24-25 billion valuation after years of bootstrapping.
+
+[H132] (2025-07-01, partnerschaft)
+  [FIRMA] raised $2 billion seed round led by [FIRMA] with valuation of $12 billion from [FIRMA], [FIRMA], Cisco, Jane Street
+
+[H133] (2025-07-04, verkauf)
+  [FIRMA] awarded $6+ billion in Trump border security legislation for virtual wall surveillance tower expansion
+
+[H134] (2025-10-01, ruecktritt)
+  Left [FIRMA]/[FIRMA] as Co-Founder and CTO to pursue new ventures in AI safety
+
+[H135] (2025-10-01, gruendung)
+  Founded Integrous Research, a safety-focused AI research lab developing systems for safer, secure, and trustworthy AI
+
+[H136] (2025-11-01, sonstiges)
+  Achieved billionaire status as [FIRMA] stock soared after earnings report
+
+[H137] (2025-11-01, sonstiges)
+  Became Sweden's youngest dollar billionaire at age 26, with Forbes estimating a 4.5% stake in [FIRMA] worth at least $1.3 billion
+
+[H138] (2025-11-01, sonstiges)
+  [FIRMA] crossed $1 billion in annualized revenue, fastest SaaS to reach this milestone (20 months from launch)
+
+[H139] (2025-11-06, ruecktritt)
+  Stepped down as PyTorch lead and announced departure from [FIRMA] after 11 years, effective November 17, 2025
+
+[H140] (2025-11-13, investition)
+  [FIRMA] raised $2.3 billion Series D at $29.3 billion valuation co-led by Accel and Coatue Management (after [PERSON]'s departure)
+
+[H141] (2026-01-14, entlassung)
+  Terminated as CTO of [FIRMA] by [PERSON] for alleged unethical conduct involving sharing confidential information and undisclosed workplace relationship
+
+[H142] (2026-01-16, einstellung)
+  Joined [FIRMA] as Chief Technology Officer (CTO)
+
+[H143] (2026-01-22, einstellung)
+  Rejoined [FIRMA] and appointed to lead enterprise AI sales efforts, heading push into corporate market
+
+[H144] (unbekannt, gruendung)
+  Co-founded Pursuit Properties, offering turnkey co-ownership and management of recreational ranches and legacy-building properties
+
+[H145] (unbekannt, gruendung)
+  Co-founded ACTS 17 Collective with wife Michelle [PERSON] to minister to Silicon Valley elites and tech industry leaders
+
+[H146] (unbekannt, investition)
+  Led $8 million seed round for Hydra Host through [FIRMA] with Joe Lonsdale participating
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================

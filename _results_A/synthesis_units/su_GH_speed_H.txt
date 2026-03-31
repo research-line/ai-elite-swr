@@ -1,0 +1,400 @@
+========================================================================
+SYNTHESEEINHEIT: GH_speed_H
+Beschreibung: Beschleuniger — NUR Handlungen (für Say-Do-Analyse)
+Generiert: 2026-03-31 12:39
+========================================================================
+
+Datenpunkte: 127 Handlungen + 0 Aussagen = 127 gesamt
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+HANDLUNGEN (127 Stueck)
+------------------------------------------------------------------------
+
+[H001] (1987, sonstiges)
+  [PERSON] schliesst seine Promotion in Informatik an der Universite Pierre et Marie Curie ab. In seiner Dissertation schlaegt er eine fruehe Form des Backpropagation-Lernalgorithmus fuer neuronale Netze vor.
+
+[H002] (1988, einstellung)
+  [PERSON] tritt dem Adaptive Systems Research Department bei AT&T Bell Laboratories in Holmdel, New Jersey bei. Dort entwickelt er in den folgenden Jahren das Convolutional Neural Network (LeNet) und wendet es erfolgreich auf Handschrifterkennung an.
+
+[H003] (1989, produktlaunch)
+  [PERSON] und sein Team bei AT&T Bell Labs entwickeln LeNet, eine Serie von Convolutional Neural Network-Architekturen zum Lesen handgeschriebener Ziffern. LeNet wird erfolgreich fuer die automatische Scheckverarbeitung bei Banken und Geldautomaten eingesetzt.
+
+[H004] (1993-01-23, produktlaunch)
+  [PERSON] entwickelt gemeinsam mit Eric Bina am National Center for Supercomputing Applications (NCSA) den Mosaic-Webbrowser, den ersten weitverbreiteten grafischen Browser. Mosaic wird im Januar 1993 veroeffentlicht und revolutioniert den Zugang zum World Wide Web.
+
+[H005] (1994-04-04, gruendung)
+  Jim Clark (Gruender von Silicon Graphics) und [PERSON] gruenden Mosaic Communications Corporation, spaeter umbenannt in Netscape Communications. Das Unternehmen entwickelt den Netscape Navigator Browser.
+
+[H006] (1994-10-13, produktlaunch)
+  Netscape veroeffentlicht Mosaic Netscape 0.9, den Vorlaefer von Netscape Navigator. Innerhalb von vier Monaten erobert der Browser drei Viertel des Browsermarkts.
+
+[H007] (1995-08-09, investition)
+  Netscape geht mit dem drittgroessten Boersengang der Geschichte an die Boerse. Der Aktienkurs wurde last-minute von $14 auf $28 verdoppelt, stieg am ersten Tag auf $75 und schloss bei $58,25. Boersenwert: $2,9 Milliarden. [PERSON] wird ueber Nacht 50 Millionen Dollar reicher.
+
+[H008] (1998-12, gruendung)
+  [PERSON] gruendet Confinity zusammen mit Max Levchin und Luke Nosek. Confinity entwickelt [FIRMA] -- urspruenglich als Krypto-Waehrung gedacht. [FIRMA] fusioniert 2000 mit X.com ([PERSON]).
+
+[H009] (1999-03-17, verkauf)
+  America Online (AOL) uebernimmt Netscape Communications fuer $4,3 Milliarden, nachdem Netscape den Browser-Krieg gegen [FIRMA] Internet Explorer verloren hat.
+
+[H010] (1999-09-09, gruendung)
+  [PERSON], [PERSON], Tim Howes und In Sik Rhee gruenden Loudcloud am 9. September 1999 (9/9/99) als Managed-Services-Provider fuer Cloud-Computing und Hosting.
+
+[H011] (2000-01-20, investition)
+  Alibaba frühe Investition - 34% Stake für 20 Mio. USD, später über 200 Mrd. USD wert (eine der erfolgreichsten Tech-Investments aller Zeiten)
+
+[H012] (2001-03-09, investition)
+  Loudcloud geht an die Boerse, nur sechs Monate vor dem Platzen der Dotcom-Blase. Der IPO ist einer der letzten grossen Tech-Boersengaenge vor dem Crash.
+
+[H013] (2002-06-30, umstrukturierung)
+  Loudcloud verkauft sein Hosting- und Managed-Services-Geschaeft fuer $63,5 Millionen an EDS und benennt sich in Opsware um, um sich auf Software-Produkte zu konzentrieren.
+
+[H014] (2002-10-03, verkauf)
+  [FIRMA] wird fuer $1,5 Milliarden an eBay verkauft. [PERSON], groesster Einzelaktionaer, erhaelt ca. $55 Millionen.
+
+[H015] (2003, einstellung)
+  [PERSON] wird Professor fuer Computer Science und Neural Science an der New York University (Courant Institute und Center for Neural Science). Er erhaelt die Jacob T. Schwartz Chaired Professorship.
+
+[H016] (2003, produktlaunch)
+  [PERSON] startet den [UNI] Machine Learning Kurs (CS229), der zu einem der beliebtesten Kurse der Universitaet wird und Tausende von Studenten anzieht. Der Kurs wird spaeter zur Grundlage fuer [FIRMA].
+
+[H017] (2003-05, gruendung)
+  [PERSON] gruendet [FIRMA] Technologies mit Nathan Gettings, Joe Lonsdale, Stephen Cohen und [PERSON]. [FIRMA] baut Big-Data-Analyseplattformen fuer Geheimdienste und Strafverfolgung. Erste Finanzierung: $2 Mio. von [PERSON].
+
+[H018] (2004-02-04, gruendung)
+  [PERSON] gruendet [FIRMA] in seinem Wohnheimzimmer an der Harvard University zusammen mit Eduardo Saverin, Andrew McCollum, Dustin Moskovitz und Chris Hughes.
+
+[H019] (2004-08, investition)
+  [PERSON] investiert $500.000 in [FIRMA] und erhaelt 10,2% der Anteile. Er wird erster externer Investor und Verwaltungsratsmitglied. Investment wird spaeter auf ca. $1 Milliarde wert.
+
+[H020] (2005, gruendung)
+  [PERSON] gruendet im Alter von 19 Jahren die standortbasierte Social-Networking-App Loopt als Teil des ersten Y-Combinator-Batches. Er sammelt ueber $30 Mio. Risikokapital ein.
+
+[H021] (2005, gruendung)
+  [PERSON] gruendet [FIRMA] mit Ken Howery und Luke Nosek. Strategie: Investitionen in radikale Technologien (Raumfahrt, Life Extension, KI). Erster Fonds: $50 Mio.
+
+[H022] (2007-07-23, verkauf)
+  Hewlett-Packard (HP) kauft Opsware fuer $1,65 Milliarden in bar. Dies ist [PERSON]s zweiter erfolgreicher Exit.
+
+[H023] (2008, spende)
+  [PERSON] spendet $1,25 Millionen an das Seasteading Institute (gegruendet mit Patri [PERSON], Enkel von Milton [PERSON]). Ziel: schwimmende autonome Staaten in internationalen Gewaessern.
+
+[H024] (2008-06-24, einstellung)
+  [PERSON] tritt dem Board of Directors von [FIRMA] bei. Er bleibt bis 2019 im Board und spielt eine wichtige beratende Rolle waehrend [FIRMA]s Wachstumsphase.
+
+[H025] (2009-07-06, gruendung)
+  [PERSON] und [PERSON] gruenden die Venture-Capital-Firma [FIRMA] ([FIRMA]) mit einem Anfangskapital von $300 Millionen. Die Gruendung erfolgt waehrend der Finanzkrise 2008-2009.
+
+[H026] (2011, gruendung)
+  [PERSON] gruendet gemeinsam mit [PERSON] das [FIRMA] Brain-Projekt, [FIRMA]s Deep-Learning-Forschungsinitiative. Das Projekt entwickelt DistBelief, einen Vorgaenger von TensorFlow.
+
+[H027] (2011, gruendung)
+  [PERSON] startet die [PERSON] Fellowship: $100.000 fuer Studenten unter 23, die das College abbrechen, um an eigenen Projekten zu arbeiten. [PERSON] kritisiert Universitaeten als 'Bildungsblase'.
+
+[H028] (2012, gruendung)
+  [PERSON] wird der gruendende Direktor des NYU Center for Data Science, einem der ersten universitaeren Data-Science-Programme in den USA.
+
+[H029] (2012-04-09, kauf)
+  [FIRMA] uebernimmt [FIRMA] fuer $1 Milliarde in bar und Aktien. [FIRMA] hatte zu diesem Zeitpunkt 13 Mitarbeiter und 30 Millionen Nutzer.
+
+[H030] (2012-04-18, gruendung)
+  [PERSON] und [PERSON] gruenden [FIRMA], eine Online-Lernplattform, die Kurse von Top-Universitaeten kostenlos oder zu niedrigen Kosten anbietet. [FIRMA] startet mit einem $16 Mio. Investment von Kleiner Perkins und New Enterprise Associates.
+
+[H031] (2012-05-18, produktlaunch)
+  [FIRMA] geht an die Boerse mit einer Bewertung von $104 Milliarden -- zu diesem Zeitpunkt der groesste Tech-IPO der Geschichte. [PERSON] behaelt Kontrolle durch spezielle Aktienklassen.
+
+[H032] (2012-06-26, sonstiges)
+  [PERSON] und das [FIRMA] Brain Team veroeffentlichen die beruehmt gewordene Studie, in der ein neuronales Netz mit 16.000 Prozessoren lernt, Katzen in [FIRMA]-Videos zu erkennen -- ohne vorher mit gelabelten Daten trainiert worden zu sein (unsupervised learning).
+
+[H033] (2013-03-15, kauf)
+  Aldebaran Robotics Übernahme (später [FIRMA] Robotics) - Entwicklung des humanoiden Roboters [PRODUKT-ROBOTER]
+
+[H034] (2013-12-09, gruendung)
+  [PERSON] tritt [FIRMA] bei und gruendet [FIRMA] AI Research (FAIR) als Director. Unter seiner Fuehrung wird FAIR zu einem der fuehrenden industriellen KI-Forschungslabore weltweit mit Standorten in Menlo Park, New York, Paris und [UNI].
+
+[H035] (2014-02-19, kauf)
+  [FIRMA] uebernimmt [FIRMA] fuer $19 Milliarden -- zu diesem Zeitpunkt die groesste Uebernahme eines VC-finanzierten Startups. [FIRMA] hatte 55 Mitarbeiter und 450 Millionen Nutzer.
+
+[H036] (2014-02-21, einstellung)
+  [PERSON] wird Praesident von [FIRMA] und loest Paul Graham ab. Unter seiner Fuehrung foerdert YC ca. 1.900 Startups, darunter Airbnb, DoorDash, [FIRMA] und Twitch.
+
+[H037] (2014-03-25, kauf)
+  [FIRMA] uebernimmt Oculus VR fuer $2,3 Milliarden, um in Virtual Reality einzusteigen. Oculus hatte die Kickstarter-gefundete Oculus Rift entwickelt.
+
+[H038] (2014-05-16, einstellung)
+  [PERSON] tritt als Chief Scientist bei Baidu ein und leitet die KI-Strategie des chinesischen Suchmaschinen-Giganten. Er baut das Baidu Research Lab auf und gruendet das 'Baidu Brain'-Projekt mit einem Team von 1.300 Mitarbeitern.
+
+[H039] (2014-06-05, produktlaunch)
+  [PRODUKT-ROBOTER] Roboter Launch - humanoider Roboter für Kundeninteraktion, Co-Design mit Aldebaran
+
+[H040] (2015-12-01, gruendung)
+  [PERSON] und Priscilla Chan gruenden die Chan [PERSON] Initiative (CZI) und verpflichten sich, 99% ihrer [FIRMA]-Aktien (damals ca. $45 Milliarden) zu spenden. CZI wird als LLC strukturiert, nicht als klassische Stiftung.
+
+[H041] (2015-12-11, gruendung)
+  [PERSON], [PERSON], [PERSON], [PERSON] und weitere gruenden [FIRMA] als Non-Profit-Forschungslabor. Eine Gruppe von Unterstuetzern (u.a. [PERSON], [PERSON]) sagen $1 Mrd. Foerderung zu. [PERSON] und [PERSON] sind Co-Vorsitzende.
+
+[H042] (2016-05-25, klage)
+  [PERSON] finanziert geheim Hulk Hogans Klage gegen Gawker Media wegen Veroeffentlichung eines Sex-Videos. Gawker verliert den Prozess ($140 Mio. Schadenersatz) und geht in Konkurs.
+
+[H043] (2016-09-05, kauf)
+  ARM Holdings Übernahme - Kauf des britischen Chip-Designers für Vorbereitung auf KI-Revolution und IoT-Ära
+
+[H044] (2016-10-15, spende)
+  [PERSON] spendet $1,25 Millionen an Donald Trumps Praesidentschaftskampagne -- groesste Einzelspende eines Tech-CEOs. Er haelt Rede bei Republican National Convention.
+
+[H045] (2016-11-09, politisch)
+  [PERSON] wird Mitglied von Donald Trumps Transition-Team und organisiert Tech-Treffen im Trump Tower (Cook, [PERSON], [PERSON], Sandberg). Er wird als Kandidat fuer Supreme Court gehandelt.
+
+[H046] (2017-03-22, ruecktritt)
+  [PERSON] kuendigt seinen Ruecktritt als Chief Scientist bei Baidu an, um sich auf neue KI-Projekte zu konzentrieren. Er verlaesst Baidu nach drei Jahren, in denen er Baidu Brain aufgebaut hat.
+
+[H047] (2017-05-20, gruendung)
+  [FIRMA] Vision Fund - Gründung des weltweit größten Tech-Investmentfonds mit Fokus auf KI, Robotik und IoT
+
+[H048] (2017-08-08, gruendung)
+  [PERSON] gruendet DeepLearning.AI, ein Bildungsunternehmen, das KI-Kurse und Spezialisierungen auf [FIRMA] anbietet. Die Plattform startet mit dem 'Deep Learning Specialization', einem 5-Kurse-Programm.
+
+[H049] (2017-08-25, investition)
+  WeWork Investment durch Vision Fund - massive Investition in Co-Working Startup (später 14 Mrd. USD Abschreibung)
+
+[H050] (2017-12-14, gruendung)
+  [PERSON] gruendet Landing AI, ein Unternehmen, das sich auf KI-Loesungen fuer das verarbeitende Gewerbe spezialisiert. Landing AI fokussiert auf Computer Vision und 'Small Data'-Ansaetze fuer die Fertigung.
+
+[H051] (2018, einstellung)
+  [PERSON] wird Chief AI Scientist bei [FIRMA] (ehemals [FIRMA]) und uebergibt die Leitung von FAIR an Jerome Pesenti. Er konzentriert sich auf langfristige Forschung und Strategieberatung.
+
+[H052] (2018, investition)
+  [PERSON] investiert ueber [FIRMA] in Unity Biotechnology, ein Anti-Aging-Startup, das senolytische Therapien entwickelt. Investment: Teil einer $116 Mio. Series B.
+
+[H053] (2018-01-30, investition)
+  [PERSON] startet den AI Fund, einen $175 Millionen Venture-Capital-Fonds und Studio, das neue KI-Startups gruendet. Der Fonds investiert in Unternehmen wie Woebot (mental health AI) und Landing AI.
+
+[H054] (2018-02-01, partnerschaft)
+  Landing AI geht eine strategische Partnerschaft mit Foxconn ein, um KI-basierte visuelle Inspektion in der Elektronikfertigung einzufuehren. Foxconn nutzt Landing AI fuer Qualitaetskontrolle.
+
+[H055] (2018-03-17, politisch)
+  Es wird bekannt, dass [UNI] Analytica Daten von 87 Millionen [FIRMA]-Nutzern ohne Einwilligung fuer politische Werbung gesammelt hat. [PERSON] muss vor dem US-Kongress und dem EU-Parlament aussagen.
+
+[H056] (2018-10-12, produktlaunch)
+  [PERSON] veroeffentlicht 'Machine Learning Yearning', ein kostenloses E-Book, das praktische Ratschlaege fuer die Strukturierung von Machine-Learning-Projekten bietet. Das Buch wird von Hunderttausenden gelesen.
+
+[H057] (2018-12-17, produktlaunch)
+  [PERSON] startet 'AI for Everyone', einen nicht-technischen Kurs auf [FIRMA], der KI fuer Manager, Fuehrungskraefte und Nicht-Techniker zugaenglich macht. Der Kurs wird ueber 1 Million Mal belegt.
+
+[H058] (2019-02-28, verkauf)
+  [FIRMA] Stake Verkauf - Verkauf der gesamten 4.9% [FIRMA] Position (später als großer strategischer Fehler bezeichnet, Son "was crying")
+
+[H059] (2019-03-08, einstellung)
+  [PERSON] wird CEO von [FIRMA] und verlaesst seine Position als Praesident von [FIRMA], um sich voll auf [FIRMA] zu konzentrieren.
+
+[H060] (2019-03-27, sonstiges)
+  [PERSON] erhaelt gemeinsam mit [PERSON] und [PERSON] den ACM A.M. Turing Award 2018 'fuer konzeptionelle und technische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computing gemacht haben'. Preisgeld: $1 Million (finanziert von [FIRMA]).
+
+[H061] (2019-07-22, investition)
+  [FIRMA] investiert $1 Milliarde in [FIRMA] und wird exklusiver Cloud-Partner. [FIRMA] fuehrt eine gewinnbegrenzte Gesellschaftsform (capped-profit) ein.
+
+[H062] (2019-07-24, klage)
+  [FIRMA] zahlt eine Rekordstrafe von $5 Milliarden an die FTC wegen Datenschutzverletzungen im Zusammenhang mit [UNI] Analytica und anderen Verstoessen. [PERSON] muss persoenlich vierteljährlich Compliance zertifizieren.
+
+[H063] (2020-06-11, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] mit 175 Milliarden Parametern -- das zu diesem Zeitpunkt groesste Sprachmodell der Welt. Zunaechst Zugang nur per API.
+
+[H064] (2020-09-30, produktlaunch)
+  [FIRMA] Technologies geht per Direct Listing an die Boerse (NYSE: PLTR). Bewertung: ca. $16 Milliarden. [PERSON] besitzt ca. 7% (~$1,1 Mrd.). [FIRMA] arbeitet mit CIA, NSA, ICE, IDF zusammen.
+
+[H065] (2021-03-31, sonstiges)
+  [FIRMA] geht an die Boerse (NYSE: COUR) mit einer Bewertung von $4,3 Milliarden. [PERSON] ist zu diesem Zeitpunkt nicht mehr operativ taetig, bleibt aber Chairman des Board.
+
+[H066] (2021-05-06, sonstiges)
+  [PERSON] startet die 'Data-Centric AI'-Bewegung, die den Fokus von Modellverbesserungen auf Datenqualitaet verlagert. Er organisiert den ersten Data-Centric AI Workshop und Competition.
+
+[H067] (2021-10-28, umstrukturierung)
+  [FIRMA] Inc. benennt sich in [FIRMA] Inc. um, um die strategische Neuausrichtung auf das [FIRMA]verse zu signalisieren. [FIRMA], [FIRMA] und [FIRMA] bleiben Produktnamen.
+
+[H068] (2021-11-09, produktlaunch)
+  Landing AI launcht LandingLens, eine Cloud-basierte Computer-Vision-Plattform, die es Unternehmen ermoeglicht, visuelle Inspektionssysteme mit minimalen Daten zu trainieren. Die Plattform implementiert data-centric AI-Prinzipien.
+
+[H069] (2022, spende)
+  [PERSON] spendet $15 Millionen an J.D. Vances erfolgreiche Senatskampagne in Ohio -- groesste Spende an einen einzelnen Kandidaten. Vance ist ehemaliger Angestellter von [PERSON]s Mithril Capital.
+
+[H070] (2022-02-07, ruecktritt)
+  [PERSON] verlaesst nach 17 Jahren den Verwaltungsrat von [FIRMA]/[FIRMA], um sich auf Trump-Unterstuetzung und eigene Ventures zu konzentrieren. Er veraeussert grosse Teile seiner Anteile.
+
+[H071] (2022-06-14, investition)
+  Landing AI sichert sich eine $57 Millionen Series-A-Finanzierung gefuehrt von McRock Capital. Das Kapital wird genutzt, um LandingLens zu skalieren und neue Manufacturing-Kunden zu gewinnen.
+
+[H072] (2022-08-01, gruendung)
+  Gründung von [FIRMA] AI als KI-gestützte Answer Engine mit Quellenangaben. Co-Gründer und CEO.
+
+[H073] (2022-11-09, entlassung)
+  [FIRMA] entlaesst 11.000 Mitarbeiter (ca. 13% der Belegschaft) -- die groesste Entlassungswelle in der Geschichte des Unternehmens. [PERSON] uebernimmt oeffentlich die Verantwortung fuer Fehleinschaetzungen beim Wachstum.
+
+[H074] (2022-11-30, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] als kostenlose Forschungsvorschau. Der Chatbot erreicht 1 Million Nutzer in 5 Tagen und 100 Millionen in 2 Monaten -- die am schnellsten wachsende Verbraucheranwendung der Geschichte.
+
+[H075] (2023, investition)
+  [FIRMA] investiert massiv in KI-Startups: [FIRMA] ($100+ Mio.), [FIRMA], [FIRMA], [FIRMA]. [PERSON] verfolgt Strategie: KI als militaerische/nationale Sicherheitstechnologie.
+
+[H076] (2023-01-23, investition)
+  [FIRMA] investiert weitere ca. $10 Milliarden in [FIRMA] (kumulativ nun ca. $13 Mrd.). [FIRMA] wird auf ca. $86 Milliarden bewertet.
+
+[H077] (2023-02, produktlaunch)
+  [FIRMA] AI veroeffentlicht I-JEPA (Image Joint Embedding Predictive Architecture), das erste KI-Modell basierend auf [PERSON]s Vision fuer menschenaehnlichere KI. I-JEPA lernt durch interne Modelle der Aussenwelt statt durch Pixel-Vergleiche.
+
+[H078] (2023-02-24, produktlaunch)
+  [FIRMA] veroeffentlicht LLaMA (Large Language Model [FIRMA] AI) als Open-Source-Modell. [PERSON] ist ein starker Befuerworter dieser Entscheidung und verteidigt sie oeffentlich gegen Kritik. LLaMA wird zu einer der wichtigsten Open-Source-LLM-Familien.
+
+[H079] (2023-03-14, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], ein multimodales grosses Sprachmodell mit deutlich verbessertem Reasoning. [FIRMA] wird fuer mangelnde Transparenz kritisiert, da kaum technische Details veroeffentlicht werden.
+
+[H080] (2023-03-14, entlassung)
+  [FIRMA] kuendigt weitere 10.000 Entlassungen und einen Einstellungsstopp fuer 5.000 Stellen als Teil des 'Year of Efficiency' an. Insgesamt wurden 2023 ueber 21.000 Stellen abgebaut.
+
+[H081] (2023-05-01, produktlaunch)
+  DeepLearning.AI launcht in Partnerschaft mit [FIRMA] den Kurs '[PRODUKT] Prompt Engineering for Developers', der eine Million Einschreibungen in den ersten Wochen erreicht.
+
+[H082] (2023-07-05, produktlaunch)
+  [FIRMA] launcht Threads, eine [PLATTFORM]-Alternative. Die App erreicht 100 Millionen Nutzer in 5 Tagen -- der schnellste Wachstum einer Consumer-App jemals, schneller selbst als [PRODUKT].
+
+[H083] (2023-07-12, partnerschaft)
+  DeepLearning.AI geht eine Partnerschaft mit [FIRMA] Cloud ein, um Kurse zu entwickeln, die [FIRMA]-Cloud-KI-Tools lehren, einschliesslich Vertex AI und Generative AI-Anwendungen.
+
+[H084] (2023-07-18, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] als Open-Source-Sprachmodell mit bis zu 70 Milliarden Parametern. Kostenlos fuer Forschung und kommerzielle Nutzung (mit Einschraenkungen fuer grosse Unternehmen).
+
+[H085] (2023-07-24, gruendung)
+  [PERSON] launcht [PROJEKT] (spaeter 'World') mit Tools for Humanity. Das Projekt nutzt Iris-Scanner ('Orb') um eine globale digitale Identitaet ([PROJEKT]) und Kryptowaehrung bereitzustellen. Ueber 2 Millionen Nutzer verifizieren sich bis zum Launch. $250 Mio. Venture-Capital eingesammelt.
+
+[H086] (2023-08-15, sonstiges)
+  DeepLearning.AI gibt bekannt, dass ueber 5 Millionen Menschen ihre Kurse absolviert haben. Die Plattform bietet inzwischen 20+ Spezialisierungen und Kurse in KI-Themen.
+
+[H087] (2023-11-17, entlassung)
+  Der [FIRMA]-Vorstand entlaesst [PERSON] als CEO mit der Begruendung, er sei 'nicht durchgaengig aufrichtig' in seiner Kommunikation mit dem Board gewesen. [PERSON] kuendigt ebenfalls. [FIRMA] wird erst eine Minute vor der Oeffentlichkeit informiert.
+
+[H088] (2023-11-21, einstellung)
+  Nach 4 Tagen intensiver Verhandlungen kehrt [PERSON] als CEO zurueck. Ueber 700 von 770 [FIRMA]-Mitarbeitern hatten mit Kuendigung gedroht. [PERSON] bedauert seine Rolle oeffentlich. Ein neuer Board unter [PERSON] wird installiert. [FIRMA] erhaelt einen Beobachtersitz.
+
+[H089] (2024-01-04, investition)
+  Series B Finanzierungsrunde: 73,6 Millionen USD bei 520 Millionen USD Bewertung. Lead: IVP, mit Beteiligung von [FIRMA], [PERSON] ([PERSON] Expeditions), und weiteren Investoren.
+
+[H090] (2024-01-31, politisch)
+  [PERSON] sagt vor dem Senate Judiciary Committee zu Online-Kindersicherheit aus. Er entschuldigt sich direkt bei anwesenden Opferfamilien, nachdem Senator Hawley ihn dazu draengt. Senator Graham sagt, er habe 'Blut an den Haenden'.
+
+[H091] (2024-02-19, investition)
+  [PROJEKT] Ankündigung - geplante 100 Mrd. USD AI Chip Venture zum [FIRMA]-Wettbewerb (Name spielt auf AGI an)
+
+[H092] (2024-03-10, investition)
+  Weitere Finanzierung von 63 Millionen USD, Erreichen des Unicorn-Status mit 1,04 Milliarden USD Bewertung. Lead: [PERSON] (ehemals [FIRMA] AI Lead), mit [PERSON], [FIRMA], Stan Druckenmiller, Tobi Lutke, Garry Tan.
+
+[H093] (2024-03-26, produktlaunch)
+  [PERSON] launcht einen Kurs zu 'AI Agentic Design Patterns', in dem er seine Vision fuer agentic workflows erklaert: Reflection, Tool Use, Planning, Multi-Agent Collaboration. Der Kurs wird ein Bestseller.
+
+[H094] (2024-05-07, investition)
+  Wayve autonomous driving Investment - 1,05 Mrd. USD Finanzierungsrunde für UK Self-Driving Startup (mit [FIRMA], [FIRMA])
+
+[H095] (2024-05-10, verkauf)
+  Vision Fund US Portfolio Abbau - Verkauf/Abschreibung von 29 Mrd. USD in US-Aktien (Coupang, DoorDash, Grab) für Pivot zu KI/Chips
+
+[H096] (2024-05-13, produktlaunch)
+  [FIRMA] stellt [PRODUKT] vor, ein schnelleres und guenstigeres Modell als [PRODUKT] mit verbesserten multimodalen Faehigkeiten (Text, Audio, Bild). Kostenlos verfuegbar fuer alle Nutzer.
+
+[H097] (2024-05-15, sonstiges)
+  Keynote beim [UNI] GSB View From The Top - dem führenden Leadership Speaker Series seit 1978. Themen: Entrepreneurship, Building Teams, Bias for Action, Ethische KI.
+
+[H098] (2024-07-23, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT].1 mit 405 Milliarden Parametern -- das groesste Open-Source-Sprachmodell und laut [FIRMA] wettbewerbsfaehig mit [PRODUKT] und [PRODUKT]. Begleitet von [PERSON]s 'Open Source AI is the Path Forward'-Manifest.
+
+[H099] (2024-07-30, partnerschaft)
+  Launch des Publishers Program: Revenue-Sharing-Modell mit Medienunternehmen als Reaktion auf Plagiatsvorwürfe. Erste Partner: Fortune, Time, Entrepreneur, The Texas Tribune, Der Spiegel, WordPress.com.
+
+[H100] (2024-09-12, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT-REASONING] (intern 'Strawberry'), ein Reasoning-Modell, das vor der Antwort plant und mehrere Loesungswege durchgeht. Bei der Internationalen Mathematik-Olympiade loest es 83% der Aufgaben ([PRODUKT]: 13%).
+
+[H101] (2024-10-02, investition)
+  [FIRMA] schliesst eine $6,6 Milliarden Finanzierungsrunde ab (gefuehrt von Thrive Capital mit $1,3 Mrd.). Bewertung: $157 Milliarden. Investoren: [FIRMA] ($750 Mio.), [FIRMA] ($500 Mio.), [FIRMA] ($100 Mio.) u.a. Bedingung: For-Profit-Umbau innerhalb von 2 Jahren.
+
+[H102] (2024-10-16, spende)
+  [PERSON] und [PERSON] spenden insgesamt $5 Millionen an den pro-Trump Super PAC 'Right For America', der sich auf Swing States konzentriert. [PERSON] spendet persoenlich $2,5 Millionen.
+
+[H103] (2024-11-12, produktlaunch)
+  Launch des Werbegeschäfts: Sponsored Follow-up Questions und Video Ads. Erste Partner: Indeed, Whole Foods, Universal McCann, PMG. CPM über 50 USD.
+
+[H104] (2024-11-15, investition)
+  Persönliche Beteiligung an 9 Millionen USD Finanzierungsrunde für ein KI-Startup im Finanzbereich, das Finance-Routinearbeit um 40% reduziert und Monatsabschlüsse halbiert.
+
+[H105] (2024-11-18, produktlaunch)
+  Launch des Shopping Hub für Pro-Nutzer in den USA: Visual Product Cards, Snap to Shop (Foto-basierte Produktsuche), One-Click Checkout mit kostenlosem Versand für Pro-Abonnenten. Integration mit Shopify.
+
+[H106] (2024-12-13, politisch)
+  [PERSON] spendet persoenlich $1 Million an Trumps Inaugurations-Fonds. Zuvor hatte er 2023 $200.000 an Biden gespendet und Trump 2016 mit Hitler verglichen.
+
+[H107] (2024-12-18, investition)
+  Series D Finanzierungsrunde: 500 Millionen USD bei 9 Milliarden USD Bewertung - Verdreifachung des Werts innerhalb weniger Monate. Vierte Finanzierungsrunde in 2024.
+
+[H108] (2024-12-28, politisch)
+  Treffen mit dem indischen Premierminister Narendra Modi in Neu-Delhi. Diskussion über KI-Adoption in Indien und weltweit. [PERSON] bot an, [FIRMA] Pro für indische Studenten, Forscher und Fakultät zugänglich zu machen.
+
+[H109] (2025-01-21, investition)
+  [FIRMA], [FIRMA], [FIRMA] und MGX kuendigen gemeinsam mit Praesident Trump das [PROJEKT]-Projekt an: bis zu $500 Milliarden Investition in KI-Infrastruktur (Rechenzentren) in den USA. [FIRMA] hat operative Verantwortung, [FIRMA] die finanzielle. Geplant: 100.000 neue Jobs.
+
+[H110] (2025-01-21, partnerschaft)
+  [PROJEKT] Ankündigung mit Trump - 500 Mrd. USD KI-Infrastruktur Initiative ([FIRMA] Chairman), 100k Jobs
+
+[H111] (2025-03-15, investition)
+  [FIRMA] Investment Commitment - bis zu 40 Mrd. USD Gesamtverpflichtung, Teil von [PROJEKT]
+
+[H112] (2025-03-31, investition)
+  [FIRMA] schliesst eine $40 Milliarden Finanzierungsrunde ab, die groesste private Tech-Finanzierung aller Zeiten. [FIRMA] fuehrt mit $30 Mrd. Bewertung: $300 Milliarden. Weitere Investoren: [FIRMA], Coatue, Altimeter, Thrive.
+
+[H113] (2025-04-15, investition)
+  [FIRMA] investiert in [PERSON]s KI-Firma [FIRMA]. [FIRMA] uebernimmt im April 2025 [PLATTFORM] fuer $45 Milliarden inklusive Schulden.
+
+[H114] (2025-06-10, investition)
+  [FIRMA] investiert $14,3 Milliarden in [FIRMA] und stellt dessen CEO [PERSON] ein. Die Investition ist Teil von [FIRMA]s AGI-Sprint und soll [FIRMA]s Datenannotation und KI-Training beschleunigen.
+
+[H115] (2025-06-17, gruendung)
+  [FIRMA] gruendet die 'Superintelligence Group', die FAIR ([FIRMA] AI Research) und GenAI-Teams vereint mit dem Ziel, AGI/Superintelligenz zu entwickeln. [PERSON] erklaert Superintelligenz als 'in Sichtweite'.
+
+[H116] (2025-10-15, investition)
+  [FIRMA] Vision Fund 2 Investment - 22,5 Mrd. USD durch SVF2 (dritte Tranche, effektiv 30 Mrd. nach Syndizierung)
+
+[H117] (2025-10-29, umstrukturierung)
+  Nach fast einem Jahr Verhandlungen schliesst [FIRMA] den Umbau zu einer Public Benefit Corporation (PBC) ab. Die gemeinnuetzige [FIRMA] Foundation erhaelt 26% ($130 Mrd. Anteil), [FIRMA] 27%, Mitarbeiter/andere Investoren 47%. Gewinndeckelungen entfallen.
+
+[H118] (2025-11-11, verkauf)
+  [FIRMA] Komplett-Ausstieg - Verkauf aller verbliebenen 32,1 Mio. [FIRMA] Aktien für Fokus auf eigene AI-Infrastruktur
+
+[H119] (2025-11-19, ruecktritt)
+  Nach 12 Jahren bei [FIRMA] kuendigt [PERSON] seinen Ruecktritt als Chief AI Scientist an. Er verlaesst das Unternehmen Ende 2025, um sein eigenes Startup AMI Labs (Advanced Machine Intelligence) zu gruenden.
+
+[H120] (2025-11-25, kauf)
+  Ampere Computing Übernahme - Erwerb des ARM-basierten Server-Chip Designers für ASI-Computing-Power
+
+[H121] (2025-12, gruendung)
+  [PERSON] gruendet Advanced Machine Intelligence (AMI) Labs mit Alexandre LeBrun (Nabla-Gruender) als CEO und [PERSON] als Executive Chairman. Das Startup zielt darauf ab, 'World Models' zu entwickeln -- KI-Systeme, die die physische Welt verstehen, persistentes Gedaechtnis haben und planen koennen. Hauptsitz in Paris ab Anfang 2026.
+
+[H122] (2025-12, investition)
+  Noch vor dem offiziellen Launch befindet sich AMI Labs in Gespraechen, €500 Millionen bei einer Bewertung von €3 Milliarden (ca. $3,5 Mrd.) einzusammeln. Dies waere eine der hoechsten Pre-Launch-Bewertungen in der KI-Industrie.
+
+[H123] (2025-12-08, umstrukturierung)
+  [PERSON] kuendigt Budgetkuerzungen von bis zu 30% fuer Reality Labs ([FIRMA]verse-Abteilung) und Entlassungen von 10-30% des Teams an. Fokus verschiebt sich zu KI-gesteuerten Smart Glasses statt VR-Headsets.
+
+[H124] (2025-12-29, kauf)
+  [FIRMA] uebernimmt Manus, ein in Singapur ansaessiges KI-Startup mit chinesischen Wurzeln, fuer ueber $2 Milliarden. Manus entwickelt KI-Agenten. Eine seltene Uebernahme eines China-gegruendeten Startups durch einen US-Tech-Giganten.
+
+[H125] (2026-01-09, investition)
+  [FIRMA] schliesst Fundraising-Runden im Wert von ueber $15 Milliarden ab, die groesste Kapitalbeschaffung in der Firmengeschichte. Die Fonds zielen auf KI-Infrastruktur ($1,7 Mrd.), Wachstumskapital ($6,75 Mrd.), American Dynamism und weitere Bereiche.
+
+[H126] (2026-02-01, umstrukturierung)
+  Die Chan [PERSON] Initiative entlaesst 70 Mitarbeiter und stellt Finanzierung fuer Bildung, Klimawandel und soziale Gerechtigkeit ein. Volle Fokussierung auf KI-getriebene biomedizinische Forschung und das Biohub-Netzwerk.
+
+[H127] (2026-02-06, investition)
+  [FIRMA] kuendigt '[FIRMA] Compute' an: eine massive Infrastruktur-Initiative mit Multi-Gigawatt-Rechenzentren. Das erste 'Prometheus'-Zentrum (1 GW) in Ohio, das groesste 'Hyperion' (5 GW, $10 Mrd.) in Louisiana.
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================

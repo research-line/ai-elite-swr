@@ -1,0 +1,568 @@
+========================================================================
+SYNTHESEEINHEIT: GR_akad_H
+Beschreibung: Akademiker/Forscher — NUR Handlungen (für Say-Do-Analyse)
+Generiert: 2026-03-31 12:39
+========================================================================
+
+Datenpunkte: 183 Handlungen + 0 Aussagen = 183 gesamt
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+HANDLUNGEN (183 Stueck)
+------------------------------------------------------------------------
+
+[H001] (1978, sonstiges)
+  [PERSON] promoviert an der Universitaet Edinburgh mit einer Dissertation ueber 'Relaxation and its role in vision' unter der Betreuung von Christopher Longuet-Higgins.
+
+[H002] (1982, einstellung)
+  [PERSON] tritt eine Professur an der [UNI] University an, wo er mit Kollegen an neuronalen Netzen forscht.
+
+[H003] (1985, sonstiges)
+  [PERSON] erfindet zusammen mit David Ackley und Terry Sejnowski die Boltzmann-Maschine, ein stochastisches neuronales Netz, das lernen kann, charakteristische Elemente in Daten zu erkennen.
+
+[H004] (1986, sonstiges)
+  [PERSON] veroeffentlicht zusammen mit David Rumelhart und Ronald J. Williams ein einflussreiches Paper, das den Backpropagation-Algorithmus fuer das Training mehrschichtiger neuronaler Netze popularisiert.
+
+[H005] (1987, sonstiges)
+  [PERSON] schliesst seine Promotion in Informatik an der Universite Pierre et Marie Curie ab. In seiner Dissertation schlaegt er eine fruehe Form des Backpropagation-Lernalgorithmus fuer neuronale Netze vor.
+
+[H006] (1987, einstellung)
+  [PERSON] wechselt zur University of [UNI], wo er eine Professur fuer Informatik uebernimmt und bis heute forscht.
+
+[H007] (1988, einstellung)
+  [PERSON] tritt dem Adaptive Systems Research Department bei AT&T Bell Laboratories in Holmdel, New Jersey bei. Dort entwickelt er in den folgenden Jahren das Convolutional Neural Network (LeNet) und wendet es erfolgreich auf Handschrifterkennung an.
+
+[H008] (1989, produktlaunch)
+  [PERSON] und sein Team bei AT&T Bell Labs entwickeln LeNet, eine Serie von Convolutional Neural Network-Architekturen zum Lesen handgeschriebener Ziffern. LeNet wird erfolgreich fuer die automatische Scheckverarbeitung bei Banken und Geldautomaten eingesetzt.
+
+[H009] (1991, sonstiges)
+  [PERSON] promoviert an der McGill University in [UNI] unter [PERSON] und [PERSON] mit einer Dissertation ueber kuenstliche neuronale Netze und deren Anwendung auf Spracherkennung.
+
+[H010] (1993, einstellung)
+  [PERSON] wird Professor fuer Informatik an der Universitaet [UNI] und beginnt seine lebenslange Forschung an maschinellem Lernen und neuronalen Netzen.
+
+[H011] (1993, gruendung)
+  [PERSON] gruendet das [UNI] Institute for Learning Algorithms (MILA), das zu einem der weltweit fuehrenden KI-Forschungszentren wird. MILA beschaeftigt heute ueber 500 Forscher.
+
+[H012] (1995-01-01, sonstiges)
+  Co-authored "Artificial Intelligence: A Modern Approach" with Peter Norvig - the number one bestselling AI textbook used in over 1,400 universities in 128 countries. Fourth edition published April 2020 with revised sections stating standard AI model is wrong.
+
+[H013] (2000-01-01, gruendung)
+  Founded [UNI] NLP Group, one of the world's leading natural language processing research groups
+
+[H014] (2001-01-01, politisch)
+  Resigned from editorial board of journal Machine Learning along with other editors, issuing public letter arguing for less restrictive access and pledging support for new open access journal, the Journal of Machine Learning Research.
+
+[H015] (2003, einstellung)
+  [PERSON] wird Professor fuer Computer Science und Neural Science an der New York University (Courant Institute und Center for Neural Science). Er erhaelt die Jacob T. Schwartz Chaired Professorship.
+
+[H016] (2003, produktlaunch)
+  [PERSON] startet den [UNI] Machine Learning Kurs (CS229), der zu einem der beliebtesten Kurse der Universitaet wird und Tausende von Studenten anzieht. Der Kurs wird spaeter zur Grundlage fuer [FIRMA].
+
+[H017] (2003, produktlaunch)
+  [PERSON] veroeffentlicht 'A Neural Probabilistic Language Model', ein bahnbrechendes Paper, das Word Embeddings und neuronale Sprachmodelle einfuehrt -- Grundlage fuer [PRODUKT-FAMILIE] und BERT.
+
+[H018] (2004, einstellung)
+  [PERSON] wird Direktor des CIFAR-Programms 'Neural Computation and Adaptive Perception', das die Deep-Learning-Revolution massgeblich foerderte.
+
+[H019] (2004-01-01, sonstiges)
+  Received MacArthur Foundation Fellowship (Genius Grant)
+
+[H020] (2007, gruendung)
+  [PERSON] startet das ImageNet-Projekt an der Princeton University. Ziel: Erstellung einer riesigen visuellen Datenbank mit Millionen beschrifteter Bilder, organisiert nach WordNet-Hierarchie. Das Projekt verwendet [FIRMA] Mechanical Turk fuer Crowdsourcing.
+
+[H021] (2008-04-01, sonstiges)
+  Received ACM-Infosys Foundation Award in Computing Sciences ($150,000)
+
+[H022] (2010, produktlaunch)
+  [PERSON] und ihr Team lancieren die ImageNet Large Scale Visual Recognition Challenge (ILSVRC), einen jaehrlichen Wettbewerb fuer Computer-Vision-Algorithmen. Der Wettbewerb wird zum Standard-Benchmark der KI-Community.
+
+[H023] (2010-01-01, sonstiges)
+  Elected member of National Academy of Engineering for contributions to the foundations and applications of machine learning.
+
+[H024] (2010-01-01, gruendung)
+  Co-founded [UNI] Artificial Intelligence Research (BAIR) Lab at UC [UNI], one of the world's premier AI research laboratories bringing together researchers in computer vision, machine learning, natural language processing, planning, and robotics.
+
+[H025] (2011, gruendung)
+  [PERSON] gruendet gemeinsam mit [PERSON] das [FIRMA] Brain-Projekt, [FIRMA]s Deep-Learning-Forschungsinitiative. Das Projekt entwickelt DistBelief, einen Vorgaenger von TensorFlow.
+
+[H026] (2011-01-01, gruendung)
+  Co-directed AMPLab (Algorithms, Machines and People Lab) at UC [UNI] with Michael Franklin and Ion Stoica. The lab was officially launched in 2011 and awarded NSF CISE Expeditions in Computing grant in 2012. AMPLab created Apache Spark, Apache Mesos, and Alluxio, influential big data technologies.
+
+[H027] (2011-01-01, sonstiges)
+  Elected to National Academy of Engineering
+
+[H028] (2012, gruendung)
+  [PERSON] wird der gruendende Direktor des NYU Center for Data Science, einem der ersten universitaeren Data-Science-Programme in den USA.
+
+[H029] (2012, gruendung)
+  [PERSON] gruendet zusammen mit seinen Doktoranden Alex Krizhevsky und [PERSON] das Startup DNNresearch Inc., nachdem ihr AlexNet-Modell 2012 die ImageNet-Challenge gewann.
+
+[H030] (2012-01-01, gruendung)
+  Co-founded [FIRMA] with [PERSON], online education platform that reached over 100 million learners worldwide
+
+[H031] (2012-04-18, gruendung)
+  [PERSON] und [PERSON] gruenden [FIRMA], eine Online-Lernplattform, die Kurse von Top-Universitaeten kostenlos oder zu niedrigen Kosten anbietet. [FIRMA] startet mit einem $16 Mio. Investment von Kleiner Perkins und New Enterprise Associates.
+
+[H032] (2012-06-26, sonstiges)
+  [PERSON] und das [FIRMA] Brain Team veroeffentlichen die beruehmt gewordene Studie, in der ein neuronales Netz mit 16.000 Prozessoren lernt, Katzen in [FIRMA]-Videos zu erkennen -- ohne vorher mit gelabelten Daten trainiert worden zu sein (unsupervised learning).
+
+[H033] (2012-09-30, sonstiges)
+  [PERSON]s Team (Krizhevsky, [PERSON], [PERSON]) gewinnt die ImageNet Large Scale Visual Recognition Challenge 2012 mit AlexNet, einem tiefen neuronalen Netz. Die Top-5-Fehlerrate von 15.3% uebertrifft die Konkurrenz um 10.8 Prozentpunkte -- ein historischer Durchbruch.
+
+[H034] (2013-01, einstellung)
+  [PERSON] wird Direktorin des [UNI] Artificial Intelligence Laboratory (SAIL), einem der aeltesten und renommiertesten KI-Forschungslabore der Welt.
+
+[H035] (2013-03-12, verkauf)
+  [FIRMA] erwirbt DNNresearch Inc. fuer $44 Millionen nach einer Auktion, an der auch Baidu, [FIRMA] und [FIRMA] teilnahmen. [PERSON], Krizhevsky und [PERSON] treten [FIRMA] Brain bei.
+
+[H036] (2013-03-12, einstellung)
+  [PERSON] tritt [FIRMA] Brain bei und wird Vice President und Engineering Fellow. Er arbeitet in Teilzeit (spaeter 50%, dann 20%) parallel zu seiner Professur in [UNI].
+
+[H037] (2013-10-01, politisch)
+  [PERSON] unterzeichnet einen offenen Brief von ueber 270 Ingenieuren und KI-Experten, der ein Verbot autonomer Waffensysteme fordert, die ohne menschliche Kontrolle ueber Gewaltanwendung entscheiden.
+
+[H038] (2013-10-01, produktlaunch)
+  Released [UNI] Sentiment Treebank, the first corpus with fully labeled parse trees for sentiment analysis (215,154 phrases from 11,855 sentences)
+
+[H039] (2013-12-09, gruendung)
+  [PERSON] tritt [FIRMA] bei und gruendet [FIRMA] AI Research (FAIR) als Director. Unter seiner Fuehrung wird FAIR zu einem der fuehrenden industriellen KI-Forschungslabore weltweit mit Standorten in Menlo Park, New York, Paris und [UNI].
+
+[H040] (2014, einstellung)
+  [PERSON] wird zum CIFAR Senior Fellow und Co-Director des Learning in Machines & Brains Program ernannt.
+
+[H041] (2014-01-01, gruendung)
+  Co-founded Gradescope with Arjun Singh, Sergey Karayev, and Ibrahim Awwal to use AI for streamlined grading in education
+
+[H042] (2014-01-01, produktlaunch)
+  Released [UNI] CoreNLP as open source software suite providing extensive NLP tools and models for research and commercial use
+
+[H043] (2014-01-01, produktlaunch)
+  Released Caffe deep learning framework as open-source software, developed by Yangqing Jia in [PERSON]'s lab at UC [UNI]. Caffe quickly became one of the most widely used platforms for deep learning, particularly in computer vision applications.
+
+[H044] (2014-05-16, einstellung)
+  [PERSON] tritt als Chief Scientist bei Baidu ein und leitet die KI-Strategie des chinesischen Suchmaschinen-Giganten. Er baut das Baidu Research Lab auf und gruendet das 'Baidu Brain'-Projekt mit einem Team von 1.300 Mitarbeitern.
+
+[H045] (2014-10-01, produktlaunch)
+  Released GloVe (Global Vectors for Word Representation) model, which became one of the most widely used word embedding approaches
+
+[H046] (2015-01-01, lobbying)
+  Drafted and became first signatory of open letter "Research Priorities for Robust and Beneficial Artificial Intelligence" calling for expanded AI safety research. Letter signed by thousands including leading AI researchers at [FIRMA], [FIRMA], [FIRMA] and top computer scientists, physicists and philosophers worldwide.
+
+[H047] (2015-01-01, partnerschaft)
+  Serves on Advisory Boards of Centre for the Study of Existential Risk (CSER), Future of Life Institute (FLI), and Machine Intelligence Research Institute (MIRI).
+
+[H048] (2015-01-01, partnerschaft)
+  Contributed to Universal Dependencies project as core member managing universal guidelines for morphosyntactic annotation of 100+ languages
+
+[H049] (2015-03, sonstiges)
+  [PERSON] haelt ihren beruhmten TED Talk 'How we're teaching computers to understand pictures', der ueber 2,5 Millionen Views erreicht und Computer Vision einem breiten Publikum erklaert.
+
+[H050] (2015-03-01, gruendung)
+  Founded [UNI] DeepDrive (BDD) Industrial Consortium, investigating state-of-the-art technologies in computer vision, robotics, and machine learning for autonomous vehicle applications, with industry partners including Volkswagen, Ford, Toyota, Samsung, Bosch, Honda, Hyundai, Qualcomm and [FIRMA].
+
+[H051] (2015-07-01, lobbying)
+  Launched open letter calling for ban on offensive autonomous weapons beyond meaningful human control. Letter signed by 4,667 AI researchers including almost entire leadership of the field, plus nearly 27,000 other signatories.
+
+[H052] (2015-09-01, produktlaunch)
+  Developed and taught freshman-level undergraduate Data Science course at [UNI] (Fall 2015) that blends computer science and statistics, teaching Python programming for data analysis with resampling-based inferential procedures.
+
+[H053] (2016-01-01, gruendung)
+  Founded the Center for Human-Compatible Artificial Intelligence (CHAI) at UC [UNI] with co-principal investigators [PERSON], Anca Dragan, Tom Griffiths, Bart Selman, Joseph Halpern, Michael Wellman and Satinder Singh Baveja. Center mission: develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.
+
+[H054] (2016-01-01, partnerschaft)
+  Became co-chair of the World Economic Forum's Global AI Council on AI and Robotics, later joined Global AI Council in 2018 to help galvanize thinking about achieving positive futures with AI through planning and policy development.
+
+[H055] (2016-08-01, ruecktritt)
+  Stepped down as President of [FIRMA] to join Calico as Chief Computing Officer
+
+[H056] (2016-11-01, sonstiges)
+  Co-authored article "Yes, We Are Worried About the Existential Risk of Artificial Intelligence" published in [UNI] Technology Review explaining AI existential risk concerns.
+
+[H057] (2016-11-18, produktlaunch)
+  [PERSON], Ian Goodfellow und Aaron Courville veroeffentlichen das Lehrbuch 'Deep Learning', das zum Standard-Lehrbuch des Feldes wird.
+
+[H058] (2016-12-01, sonstiges)
+  Published foundational research paper "Cooperative Inverse Reinforcement Learning" (NIPS 2016) with Dylan Hadfield-Menell, Anca Dragan, and [PERSON], formalizing value alignment problem as cooperative game where robot learns human preferences.
+
+[H059] (2017, sonstiges)
+  [PERSON] erhaelt den Killam Prize in Engineering, einen der hoechsten wissenschaftlichen Preise Kanadas, dotiert mit $100.000 CAD.
+
+[H060] (2017-01, einstellung)
+  [PERSON] tritt eine Sabbatical-Position als Chief Scientist of AI/ML bei [FIRMA] Cloud an. Sie leitet die Entwicklung von Cloud-basierten KI- und ML-Tools fuer Unternehmenskunden.
+
+[H061] (2017-01-01, gruendung)
+  Affiliated faculty member and leader in RISELab (Real-time Intelligent Secure Execution), the successor to AMPLab. RISELab focuses on enabling computers to make intelligent real-time decisions.
+
+[H062] (2017-01-01, partnerschaft)
+  Launched BAIR Commons (later BAIR Open Research Commons) program in partnership with [FIRMA], [FIRMA], [FIRMA], [FIRMA], and other major tech companies to enable collaboration between top industry labs, startups, and AI researchers at [UNI].
+
+[H063] (2017-01-01, einstellung)
+  Appointed as Chief Scientist at Nexar (consulting role), leading and overseeing research in machine vision deep learning and vehicle path prediction for the AI-powered dashcam and automotive safety company.
+
+[H064] (2017-03-22, ruecktritt)
+  [PERSON] kuendigt seinen Ruecktritt als Chief Scientist bei Baidu an, um sich auf neue KI-Projekte zu konzentrieren. Er verlaesst Baidu nach drei Jahren, in denen er Baidu Brain aufgebaut hat.
+
+[H065] (2017-04, gruendung)
+  [PERSON] gruendet gemeinsam mit Rick Sommer und Olga Russakovsky die Non-Profit-Organisation AI4ALL (urspruenglich SAILORS - [UNI] AI Lab Outreach Summer Program). Ziel: Diversitaet in KI durch Ausbildung unterrepraesentierter Gruppen.
+
+[H066] (2017-04-25, sonstiges)
+  Gave TED Talk "3 principles for creating safer AI" in Vancouver presenting principles for building provably altruistic, humble, and humanitarian AI machines to avoid superintelligent AI pitfalls.
+
+[H067] (2017-08-08, gruendung)
+  [PERSON] gruendet DeepLearning.AI, ein Bildungsunternehmen, das KI-Kurse und Spezialisierungen auf [FIRMA] anbietet. Die Plattform startet mit dem 'Deep Learning Specialization', einem 5-Kurse-Programm.
+
+[H068] (2017-10-01, gruendung)
+  Co-founded Covariant (originally Embodied Intelligence) with Peter Chen, Rocky Duan, and Tianhao Zhang to build AI foundation models for robotics in warehouses and factories
+
+[H069] (2017-12-14, gruendung)
+  [PERSON] gruendet Landing AI, ein Unternehmen, das sich auf KI-Loesungen fuer das verarbeitende Gewerbe spezialisiert. Landing AI fokussiert auf Computer Vision und 'Small Data'-Ansaetze fuer die Fertigung.
+
+[H070] (2018, einstellung)
+  [PERSON] wird Chief AI Scientist bei [FIRMA] (ehemals [FIRMA]) und uebergibt die Leitung von FAIR an Jerome Pesenti. Er konzentriert sich auf langfristige Forschung und Strategieberatung.
+
+[H071] (2018-01-01, einstellung)
+  Became Director of [UNI] Artificial Intelligence Laboratory (SAIL), leading the lab through period of enormous growth for AI from 2018-2025
+
+[H072] (2018-01-01, einstellung)
+  Served as co-editor for Harvard Data Science Review, contributing to inaugural issue and helping establish the publication.
+
+[H073] (2018-01-01, partnerschaft)
+  Joined The House Fund as Co-Founder & Faculty Partner of AI@The House initiative, adding six world-leading entrepreneurial AI researchers to the pre-seed and early-stage venture capital fund focused on [UNI] startups.
+
+[H074] (2018-01-01, partnerschaft)
+  Joined SafelyYou as advisor, contributing computer vision and AI expertise to the company developing fall detection and prevention technology for senior care facilities using privacy-preserving AI.
+
+[H075] (2018-01-01, einstellung)
+  Appointed as Faculty Director of PATH (Partners for Advanced Transportation Technology) at UC [UNI], leading transportation research initiatives including autonomous vehicle development and intelligent transportation systems.
+
+[H076] (2018-01-01, gruendung)
+  Founded and became Director of the Intelligent and Interactive Autonomous Systems Group (ILIAD) at [UNI] University
+
+[H077] (2018-01-01, einstellung)
+  Joined [UNI] University as Assistant Professor in Computer Science and Electrical Engineering
+
+[H078] (2018-01-17, produktlaunch)
+  Unter [PERSON]s Leitung lanciert [FIRMA] Cloud AutoML Vision, ein Tool, das es Nutzern ohne ML-Expertise ermoeglicht, eigene Computer-Vision-Modelle zu trainieren. Demokratisierung von KI.
+
+[H079] (2018-01-30, investition)
+  [PERSON] startet den AI Fund, einen $175 Millionen Venture-Capital-Fonds und Studio, das neue KI-Startups gruendet. Der Fonds investiert in Unternehmen wie Woebot (mental health AI) und Landing AI.
+
+[H080] (2018-02-01, partnerschaft)
+  Landing AI geht eine strategische Partnerschaft mit Foxconn ein, um KI-basierte visuelle Inspektion in der Elektronikfertigung einzufuehren. Foxconn nutzt Landing AI fuer Qualitaetskontrolle.
+
+[H081] (2018-03-01, gruendung)
+  Founded [FIRMA], machine learning-driven drug discovery and development company
+
+[H082] (2018-03-01, ruecktritt)
+  Resigned from Calico as Chief Computing Officer after 18 months
+
+[H083] (2018-03-27, sonstiges)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den ACM Turing Award 2018 fuer bahnbrechende Arbeiten zu Deep Neural Networks. Die drei werden als 'Godfathers of Deep Learning' bezeichnet.
+
+[H084] (2018-03-29, einstellung)
+  [PERSON] wird einer der ersten Canada CIFAR AI Chairs, ein Programm der kanadischen Regierung mit $125 Millionen Foerderung zur Staerkung der KI-Forschung in Kanada.
+
+[H085] (2018-05-30, produktlaunch)
+  Released BDD100K, the largest and most diverse open driving video dataset for computer vision research, containing 100,000 videos with detailed annotations for object detection, lane marking, drivable area, and full-frame semantic/instance segmentation.
+
+[H086] (2018-09-10, ruecktritt)
+  Nach 18 Monaten verlaesst [PERSON] ihre Position als Chief Scientist bei [FIRMA] Cloud und kehrt vollzeit zu [UNI] zurueck, um sich auf Forschung, Lehre und die Gruendung von [UNI] HAI zu konzentrieren.
+
+[H087] (2018-10-01, verkauf)
+  Gradescope acquired by Turnitin, expanding educational technology tools for STEM assessment
+
+[H088] (2018-10-12, produktlaunch)
+  [PERSON] veroeffentlicht 'Machine Learning Yearning', ein kostenloses E-Book, das praktische Ratschlaege fuer die Strukturierung von Machine-Learning-Projekten bietet. Das Buch wird von Hunderttausenden gelesen.
+
+[H089] (2018-12-04, politisch)
+  [PERSON] leitet die Entwicklung der [UNI] Declaration for Responsible AI, ein ethisches Rahmenwerk mit 10 Prinzipien fuer verantwortungsvolle KI-Entwicklung.
+
+[H090] (2018-12-17, produktlaunch)
+  [PERSON] startet 'AI for Everyone', einen nicht-technischen Kurs auf [FIRMA], der KI fuer Manager, Fuehrungskraefte und Nicht-Techniker zugaenglich macht. Der Kurs wird ueber 1 Million Mal belegt.
+
+[H091] (2019-01-01, investition)
+  Covariant raised $20 million Series A funding led by Amplify Partners
+
+[H092] (2019-01-01, partnerschaft)
+  Established [FIRMA] Research partnership with [UNI] AI Research (BAIR) for Phase 2 collaborations, forging strong collaborations between [FIRMA] researchers, students and faculty pursuing research on fundamental advances in computer vision, machine learning, natural language processing, planning, control, and robotics.
+
+[H093] (2019-01-01, sonstiges)
+  Received NSF CAREER Award for research on Active Learning of Preferences for Human-Aware Autonomy
+
+[H094] (2019-03-18, gruendung)
+  [PERSON] gruendet gemeinsam mit John Etchemendy das [UNI] Institute for Human-Centered Artificial Intelligence (HAI). Das Institut erhaelt Startkapital von $1 Milliarde und wird zu einem fuehrenden Zentrum fuer interdisziplinaere KI-Forschung und -Ethik.
+
+[H095] (2019-03-18, gruendung)
+  Co-founded [UNI] Institute for Human-Centered Artificial Intelligence (HAI) with John Etchemendy, [PERSON], and James Landay to promote interdisciplinary AI research with focus on human impact
+
+[H096] (2019-03-25, partnerschaft)
+  Established partnership with Wave Computing for BAIR Open Research Alliance to accelerate cutting-edge artificial intelligence research, providing access to Wave's dataflow architecture and AI acceleration technology.
+
+[H097] (2019-03-27, sonstiges)
+  [PERSON] erhaelt gemeinsam mit [PERSON] und [PERSON] den ACM A.M. Turing Award 2018 'fuer konzeptionelle und technische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computing gemacht haben'. Preisgeld: $1 Million (finanziert von [FIRMA]).
+
+[H098] (2019-03-27, sonstiges)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den Turing Award 2018 -- den 'Nobelpreis der Informatik' -- fuer konzeptionelle und ingenieurtechnische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computings gemacht haben.
+
+[H099] (2019-04-16, partnerschaft)
+  Announced partnership between [FIRMA] and Gilead Sciences for NASH drug discovery worth up to $1.05 billion
+
+[H100] (2019-07-22, investition)
+  Raised $100 million Series A for [FIRMA]
+
+[H101] (2019-09, sonstiges)
+  Nach Kritik an problematischen und offensiven Labels in ImageNet fuehrt [PERSON]'s Team eine umfassende Ueberarbeitung durch. Ueber 600.000 Bilder aus der 'person'-Kategorie werden entfernt, um Bias und problematische Kategorisierungen zu adressieren.
+
+[H102] (2019-10-01, sonstiges)
+  Published "Human Compatible: Artificial Intelligence and the Problem of Control" proposing new approach to AI based on uncertainty about human objectives, machines designed to be provably beneficial rather than optimize fixed objectives.
+
+[H103] (2020-01-01, produktlaunch)
+  Covariant officially launched from stealth mode to bring universal AI to robots
+
+[H104] (2020-01-01, produktlaunch)
+  Released Stanza, a Python NLP toolkit for 70+ languages using Universal Dependencies formalism, expanding NLP access to low-resource languages
+
+[H105] (2020-01-01, sonstiges)
+  Awarded AFOSR Young Investigator Research Program (YIP)
+
+[H106] (2020-01-01, sonstiges)
+  Served as Area Chair on Program Committee for Robotics: Science and Systems (RSS) 2020 conference
+
+[H107] (2020-03-01, sonstiges)
+  Published ELECTRA paper with Kevin Clark, Minh-Thang Luong, and Quoc V. Le, introducing more efficient pre-training using discriminators rather than generators
+
+[H108] (2020-05-06, investition)
+  Covariant raised $40 million Series B funding led by Index Ventures with participation from Radical Ventures and Amplify Partners
+
+[H109] (2020-05-26, investition)
+  Raised $143 million Series B for [FIRMA]
+
+[H110] (2020-08-01, gruendung)
+  Co-founded Engageli, digital learning platform with video conferencing tool for higher education
+
+[H111] (2020-10-14, investition)
+  Raised $14.5 million seed funding for Engageli
+
+[H112] (2020-10-28, partnerschaft)
+  Announced 5-year discovery collaboration with Bristol Myers Squibb for ALS and frontotemporal dementia treatments
+
+[H113] (2021-01-01, einstellung)
+  Joined AIX Ventures as Investment Partner, a venture capital fund investing in AI startups
+
+[H114] (2021-01-01, partnerschaft)
+  Became Investing Partner at AIX Ventures, an AI-focused venture capital firm founded by leading AI practitioners including Richard Socher and Anthony Goldbloom
+
+[H115] (2021-01-01, sonstiges)
+  Awarded 2021 American Mathematical Society (AMS) Ulf Grenander Prize in Stochastic Theory and Modeling.
+
+[H116] (2021-01-01, sonstiges)
+  Awarded Vannevar Bush Faculty Fellowship for 2021-2026.
+
+[H117] (2021-01-01, sonstiges)
+  Received Okawa Foundation Research Grant for Adaptive Human-Robot Interaction research
+
+[H118] (2021-01-01, sonstiges)
+  Named to [UNI] Technology Review 35 Innovators Under 35 list
+
+[H119] (2021-03-01, produktlaunch)
+  Launched 'The Robot Brains Podcast' featuring conversations with top AI and robotics experts and entrepreneurs
+
+[H120] (2021-03-15, investition)
+  Raised $400 million Series C for [FIRMA]
+
+[H121] (2021-03-31, sonstiges)
+  [FIRMA] geht an die Boerse (NYSE: COUR) mit einer Bewertung von $4,3 Milliarden. [PERSON] ist zu diesem Zeitpunkt nicht mehr operativ taetig, bleibt aber Chairman des Board.
+
+[H122] (2021-05-01, sonstiges)
+  Named Foreign Member of the Royal Society.
+
+[H123] (2021-05-06, sonstiges)
+  [PERSON] startet die 'Data-Centric AI'-Bewegung, die den Fokus von Modellverbesserungen auf Datenqualitaet verlagert. Er organisiert den ersten Data-Centric AI Workshop und Competition.
+
+[H124] (2021-06-10, politisch)
+  [PERSON] wird von der US-Regierung in die National AI Research Resource Task Force berufen, die Empfehlungen fuer eine nationale KI-Forschungsinfrastruktur entwickelt.
+
+[H125] (2021-07-27, investition)
+  Covariant raised $80 million Series C funding led by Index Ventures with participation from Temasek and CPP Investments
+
+[H126] (2021-11-09, produktlaunch)
+  Landing AI launcht LandingLens, eine Cloud-basierte Computer-Vision-Plattform, die es Unternehmen ermoeglicht, visuelle Inspektionssysteme mit minimalen Daten zu trainieren. Die Plattform implementiert data-centric AI-Prinzipien.
+
+[H127] (2021-12-01, sonstiges)
+  Delivered BBC Reith Lectures 2021 series "Living With Artificial Intelligence" - four lectures examining AI birth, autonomous weapons dangers, threat to jobs, and need to abandon current AI model. Lectures broadcast on BBC Radio 4, BBC World Service and BBC Sounds.
+
+[H128] (2022-01-01, sonstiges)
+  Awarded inaugural World Laureates Association Prize for fundamental contributions to the foundations of machine learning and its application.
+
+[H129] (2022-01-01, sonstiges)
+  Awarded Sloan Research Fellowship
+
+[H130] (2022-01-01, sonstiges)
+  Received ONR Young Investigator Award
+
+[H131] (2022-04-01, sonstiges)
+  Received ACM Prize in Computing for contributions to robot learning, including learning from demonstrations and deep reinforcement learning. Prize carries $250,000.
+
+[H132] (2022-06-01, gruendung)
+  Co-founded and leads BAIR Climate Initiative, a multi-disciplinary student-led hub dedicated to fighting climate change through AI research, partnering with climate experts, government agencies, and industry. Committed to open publication of all research.
+
+[H133] (2022-06-14, investition)
+  Landing AI sichert sich eine $57 Millionen Series-A-Finanzierung gefuehrt von McRock Capital. Das Kapital wird genutzt, um LandingLens zu skalieren und neue Manufacturing-Kunden zu gewinnen.
+
+[H134] (2022-09-15, partnerschaft)
+  MILA unter [PERSON]s Leitung geht Partnerschaft mit Valence Labs (ValAI) ein, einem KI-Startup fuer Medikamentenentwicklung, das GFlowNets fuer Drug Discovery nutzt.
+
+[H135] (2023-01-01, partnerschaft)
+  Launched five-year "Markets and Machine Learning" research chair at Inria Foundation in Paris, in collaboration with CNRS and École Normale Supérieure-Université PSL. Chair backed by Air Liquide, BNP Paribas Asset Management Europe, EDF, Orange and SNCF.
+
+[H136] (2023-01-01, partnerschaft)
+  Became research scientist at [FIRMA] while maintaining [UNI] faculty position
+
+[H137] (2023-01-01, sonstiges)
+  Promoted to Associate Professor in Computer Science and Electrical Engineering at [UNI] University
+
+[H138] (2023-02, produktlaunch)
+  [FIRMA] AI veroeffentlicht I-JEPA (Image Joint Embedding Predictive Architecture), das erste KI-Modell basierend auf [PERSON]s Vision fuer menschenaehnlichere KI. I-JEPA lernt durch interne Modelle der Aussenwelt statt durch Pixel-Vergleiche.
+
+[H139] (2023-02-24, produktlaunch)
+  [FIRMA] veroeffentlicht LLaMA (Large Language Model [FIRMA] AI) als Open-Source-Modell. [PERSON] ist ein starker Befuerworter dieser Entscheidung und verteidigt sie oeffentlich gegen Kritik. LLaMA wird zu einer der wichtigsten Open-Source-LLM-Familien.
+
+[H140] (2023-03-01, lobbying)
+  Signed Future of Life Institute open letter calling for all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than [PRODUKT]. Letter received over 30,000 signatures including [PERSON], [PERSON], Steve Wozniak and Yuval Noah Harari.
+
+[H141] (2023-03-22, politisch)
+  [PERSON] unterzeichnet den offenen Brief des Future of Life Institute, der eine 6-monatige Pause beim Training von KI-Systemen maechtigeren als [PRODUKT] fordert. Der Brief wird von ueber 30.000 Menschen unterzeichnet.
+
+[H142] (2023-04, gruendung)
+  [PERSON] gruendet World Labs, ein Startup zur Entwicklung von 'Spatial Intelligence' – KI-Systeme, die 3D-Welten generieren, verstehen und simulieren koennen. Das Unternehmen startet im Stealth-Modus.
+
+[H143] (2023-04-04, investition)
+  Covariant raised additional $75 million in Series C funding led by Index Ventures and Radical Ventures, bringing total funding to $222M
+
+[H144] (2023-04-13, sonstiges)
+  [PERSON] wird in die TIME 100-Liste der einflussreichsten Menschen 2023 aufgenommen, geehrt fuer ihre Beitraege zu Computer Vision, Human-Centered AI und Diversitaet in der Technologie.
+
+[H145] (2023-05-01, ruecktritt)
+  [PERSON] kuendigt seinen Ruecktritt von [FIRMA] an, um frei ueber KI-Risiken sprechen zu koennen, ohne Ruecksicht auf [FIRMA]s Geschaeftsinteressen nehmen zu muessen. Er verzichtet auf ein Gehalt von ueber $1 Million pro Jahr.
+
+[H146] (2023-05-01, produktlaunch)
+  DeepLearning.AI launcht in Partnerschaft mit [FIRMA] den Kurs '[PRODUKT] Prompt Engineering for Developers', der eine Million Einschreibungen in den ersten Wochen erreicht.
+
+[H147] (2023-06-14, lobbying)
+  [PERSON] gibt vor dem Europaeischen Parlament Zeugnis ab und unterstuetzt den EU AI Act, fordert aber strengere Sicherheitsanforderungen fuer Frontier-Modelle.
+
+[H148] (2023-07-12, partnerschaft)
+  DeepLearning.AI geht eine Partnerschaft mit [FIRMA] Cloud ein, um Kurse zu entwickeln, die [FIRMA]-Cloud-KI-Tools lehren, einschliesslich Vertex AI und Generative AI-Anwendungen.
+
+[H149] (2023-07-25, lobbying)
+  Testified before U.S. Senate Judiciary Subcommittee on Privacy, Technology, and the Law on AI regulation. Recommended: absolute right to know if interacting with AI, prohibition on AI killing decisions in nuclear warfare, mandatory kill switches in AI systems.
+
+[H150] (2023-08-15, sonstiges)
+  DeepLearning.AI gibt bekannt, dass ueber 5 Millionen Menschen ihre Kurse absolviert haben. Die Plattform bietet inzwischen 20+ Spezialisierungen und Kurse in KI-Themen.
+
+[H151] (2023-10-26, einstellung)
+  UN-Generalsekretaer Antonio Guterres ernennt [PERSON] zum Mitglied des High-Level Advisory Body on Artificial Intelligence, einem 39-koepfigen internationalen Gremium zur Beratung ueber KI-Governance.
+
+[H152] (2023-11-07, sonstiges)
+  [PERSON] veroeffentlicht ihre Autobiographie 'The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI' bei Flatiron Books. Das Buch wird zum Bestseller und erhaelt breite Aufmerksamkeit.
+
+[H153] (2024-01-01, investition)
+  Invested in [FIRMA] (AI search startup), Wispr, Workera, and Workhelix through AIX Ventures
+
+[H154] (2024-01-01, sonstiges)
+  Received ACM SIGMM Test of Time Paper Award for "Caffe: Convolutional Architecture for Fast Feature Embedding" (with Jia, Shelhamer, Donahue, Karayev, Long, Girshick, Guadarrama), recognizing lasting impact on multimedia computing.
+
+[H155] (2024-01-01, sonstiges)
+  Awarded National Artificial Intelligence Research Resource (NAIRR) Grant for project on learning reward functions for robotics using large datasets and human feedback
+
+[H156] (2024-03-11, produktlaunch)
+  Covariant launched RFM-1, the first Robotics Foundation Model giving robots human-like reasoning capabilities with 8 billion parameters
+
+[H157] (2024-03-12, produktlaunch)
+  [PERSON] veroeffentlicht in Science Magazine den Artikel 'Managing extreme AI risks amid rapid progress', der vor den Gefahren offener KI-Modelle warnt und Compute-Governance fordert.
+
+[H158] (2024-03-26, produktlaunch)
+  [PERSON] launcht einen Kurs zu 'AI Agentic Design Patterns', in dem er seine Vision fuer agentic workflows erklaert: Reflection, Tool Use, Planning, Multi-Agent Collaboration. Der Kurs wird ein Bestseller.
+
+[H159] (2024-05-01, produktlaunch)
+  Released Octo, an open-source generalist robot policy trained on 800k trajectories from the Open X-Embodiment dataset
+
+[H160] (2024-05-08, investition)
+  World Labs sichert sich eine Serie-A-Finanzierung von $230 Millionen bei einer Bewertung von $1 Milliarde und erreicht direkt Unicorn-Status. Investoren: [FIRMA], NEA, Radical Ventures. [PERSON] ist CEO.
+
+[H161] (2024-05-17, produktlaunch)
+  [PERSON] veroeffentlicht als Hauptautor den International Scientific Report on the Safety of Advanced AI, einen umfassenden wissenschaftlichen Bericht ueber KI-Risiken, verfasst von ueber 30 fuehrenden KI-Forschern.
+
+[H162] (2024-05-21, partnerschaft)
+  [PERSON] nimmt am AI Seoul Summit teil und unterstuetzt die Seoul Declaration on Safe, Innovative and Inclusive AI, die internationale Kooperation zur KI-Sicherheit foerdert.
+
+[H163] (2024-06-01, lobbying)
+  Signed open letter calling for AI employees to be free to whistleblow about their company's lack of attention to AI risks. Signed with other AI "godfathers" and current/former AI safety employees.
+
+[H164] (2024-06-01, sonstiges)
+  Received CVPR Longuet-Higgins Prize for paper "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation" (with Girshick, Donahue, Malik), recognizing fundamental contribution to computer vision over 10-year period.
+
+[H165] (2024-07-01, sonstiges)
+  Received ICML Test of Time Award for paper "DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition" (with Donahue, Jia, Vinyals, [PERSON], Zhang, Tzeng), recognizing exceptional long-term impact on machine learning field.
+
+[H166] (2024-07-22, gruendung)
+  [PERSON] lanciert bei MILA eine neue AI Safety Research Initiative mit ca. $10 Millionen Foerderung, um die KI-Sicherheitsforschung in [UNI] zu staerken.
+
+[H167] (2024-08-01, einstellung)
+  Joined [FIRMA] as Distinguished Scientist and VP/Scholar focusing on advancing AI and robotics
+
+[H168] (2024-08-15, politisch)
+  [PERSON] unterzeichnet zusammen mit [PERSON], [PERSON] und Lawrence Lessig einen offenen Brief zur Unterstuetzung von Kaliforniens AI Safety Bill SB 1047, der Risikobewertungen fuer grosse KI-Modelle vorschreibt.
+
+[H169] (2024-08-30, partnerschaft)
+  [FIRMA] entered non-exclusive licensing agreement with Covariant and hired 25% of workforce including founders [PERSON], Chen, and Duan
+
+[H170] (2024-10-08, sonstiges)
+  [PERSON] erhaelt gemeinsam mit John J. Hopfield den Nobelpreis fuer Physik 2024 'fuer grundlegende Entdeckungen und Erfindungen, die maschinelles Lernen mit kuenstlichen neuronalen Netzen ermoeglichen'.
+
+[H171] (2024-10-09, partnerschaft)
+  Announced three strategic agreements with Eli Lilly for metabolic diseases including MASLD
+
+[H172] (2024-11-01, produktlaunch)
+  Launched RoboCrowd platform demonstrating crowdsourced robot data collection with over 200 volunteers in university cafe
+
+[H173] (2025-01-01, ruecktritt)
+  Stepped down as Director of [UNI] Artificial Intelligence Laboratory (SAIL) after 7 years of leadership
+
+[H174] (2025-01-01, sonstiges)
+  Awarded BBVA Foundation Frontiers of Knowledge Award in Information and Communication Technologies (jointly with Anil Jain) for core contributions to machine learning enabling AI applications including [PRODUKT], recommender systems, and business decision tools.
+
+[H175] (2025-01-01, sonstiges)
+  Organized [UNI] HAI conference "Robotics in a Human-Centered World: Hype, Hope, and Future Directions" with Karen Liu and Allison Okamura
+
+[H176] (2025-02-01, sonstiges)
+  Elected to National Academy of Engineering (NAE) for "the development and dissemination of natural language processing methods"
+
+[H177] (2025-02-06, politisch)
+  Publicly criticized [FIRMA] CEO [PERSON] and [FIRMA] CEO [PERSON] for making unrealistic AGI timeline claims, calling their "super AGI" vision "nonsense" at scientific conference in Paris.
+
+[H178] (2025-04-01, sonstiges)
+  Elected to American Academy of Arts and Sciences for contributions to natural language processing and human-centered AI
+
+[H179] (2025-07-02, einstellung)
+  Joined AIX Ventures as General Partner on leave of absence from [UNI], focusing full-time on backing deep AI companies pushing boundaries of ML and NLP
+
+[H180] (2025-11-19, ruecktritt)
+  Nach 12 Jahren bei [FIRMA] kuendigt [PERSON] seinen Ruecktritt als Chief AI Scientist an. Er verlaesst das Unternehmen Ende 2025, um sein eigenes Startup AMI Labs (Advanced Machine Intelligence) zu gruenden.
+
+[H181] (2025-12, gruendung)
+  [PERSON] gruendet Advanced Machine Intelligence (AMI) Labs mit Alexandre LeBrun (Nabla-Gruender) als CEO und [PERSON] als Executive Chairman. Das Startup zielt darauf ab, 'World Models' zu entwickeln -- KI-Systeme, die die physische Welt verstehen, persistentes Gedaechtnis haben und planen koennen. Hauptsitz in Paris ab Anfang 2026.
+
+[H182] (2025-12, investition)
+  Noch vor dem offiziellen Launch befindet sich AMI Labs in Gespraechen, €500 Millionen bei einer Bewertung von €3 Milliarden (ca. $3,5 Mrd.) einzusammeln. Dies waere eine der hoechsten Pre-Launch-Bewertungen in der KI-Industrie.
+
+[H183] (2025-12-17, einstellung)
+  Appointed head of [FIRMA]'s frontier model research team (LLM base models) in AGI organization while continuing robotics work
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================

@@ -1,0 +1,295 @@
+========================================================================
+SYNTHESEEINHEIT: GH_risk_H
+Beschreibung: Risiko-Warner — NUR Handlungen (für Say-Do-Analyse)
+Generiert: 2026-03-31 12:39
+========================================================================
+
+Datenpunkte: 92 Handlungen + 0 Aussagen = 92 gesamt
+
+HINWEIS: Alle identifizierenden Informationen wurden entfernt.
+Die Daten stammen von einer oder mehreren Personen.
+Versuchen Sie NICHT, die Identitaet zu rekonstruieren.
+
+------------------------------------------------------------------------
+HANDLUNGEN (92 Stueck)
+------------------------------------------------------------------------
+
+[H001] (1978, sonstiges)
+  [PERSON] promoviert an der Universitaet Edinburgh mit einer Dissertation ueber 'Relaxation and its role in vision' unter der Betreuung von Christopher Longuet-Higgins.
+
+[H002] (1982, einstellung)
+  [PERSON] tritt eine Professur an der [UNI] University an, wo er mit Kollegen an neuronalen Netzen forscht.
+
+[H003] (1985, sonstiges)
+  [PERSON] erfindet zusammen mit David Ackley und Terry Sejnowski die Boltzmann-Maschine, ein stochastisches neuronales Netz, das lernen kann, charakteristische Elemente in Daten zu erkennen.
+
+[H004] (1986, sonstiges)
+  [PERSON] veroeffentlicht zusammen mit David Rumelhart und Ronald J. Williams ein einflussreiches Paper, das den Backpropagation-Algorithmus fuer das Training mehrschichtiger neuronaler Netze popularisiert.
+
+[H005] (1987, einstellung)
+  [PERSON] wechselt zur University of [UNI], wo er eine Professur fuer Informatik uebernimmt und bis heute forscht.
+
+[H006] (1991, sonstiges)
+  [PERSON] promoviert an der McGill University in [UNI] unter [PERSON] und [PERSON] mit einer Dissertation ueber kuenstliche neuronale Netze und deren Anwendung auf Spracherkennung.
+
+[H007] (1993, einstellung)
+  [PERSON] wird Professor fuer Informatik an der Universitaet [UNI] und beginnt seine lebenslange Forschung an maschinellem Lernen und neuronalen Netzen.
+
+[H008] (1993, gruendung)
+  [PERSON] gruendet das [UNI] Institute for Learning Algorithms (MILA), das zu einem der weltweit fuehrenden KI-Forschungszentren wird. MILA beschaeftigt heute ueber 500 Forscher.
+
+[H009] (1995-01-01, sonstiges)
+  Co-authored "Artificial Intelligence: A Modern Approach" with Peter Norvig - the number one bestselling AI textbook used in over 1,400 universities in 128 countries. Fourth edition published April 2020 with revised sections stating standard AI model is wrong.
+
+[H010] (2003, produktlaunch)
+  [PERSON] veroeffentlicht 'A Neural Probabilistic Language Model', ein bahnbrechendes Paper, das Word Embeddings und neuronale Sprachmodelle einfuehrt -- Grundlage fuer [PRODUKT-FAMILIE] und BERT.
+
+[H011] (2004, einstellung)
+  [PERSON] wird Direktor des CIFAR-Programms 'Neural Computation and Adaptive Perception', das die Deep-Learning-Revolution massgeblich foerderte.
+
+[H012] (2012, gruendung)
+  [PERSON] gruendet zusammen mit seinen Doktoranden Alex Krizhevsky und [PERSON] das Startup DNNresearch Inc., nachdem ihr AlexNet-Modell 2012 die ImageNet-Challenge gewann.
+
+[H013] (2012-09-30, produktlaunch)
+  [PERSON], Alex Krizhevsky und [PERSON] entwickeln AlexNet, das die ImageNet LSVRC-2012-Konkurrenz mit grossem Vorsprung gewinnt. Dies loest die Deep-Learning-Revolution aus.
+
+[H014] (2012-09-30, sonstiges)
+  [PERSON]s Team (Krizhevsky, [PERSON], [PERSON]) gewinnt die ImageNet Large Scale Visual Recognition Challenge 2012 mit AlexNet, einem tiefen neuronalen Netz. Die Top-5-Fehlerrate von 15.3% uebertrifft die Konkurrenz um 10.8 Prozentpunkte -- ein historischer Durchbruch.
+
+[H015] (2013-03-12, verkauf)
+  [FIRMA] erwirbt das AlexNet-Team ([PERSON], [PERSON], Alex Krizhevsky) fuer $44 Millionen und weist sie [FIRMA] Brain zu.
+
+[H016] (2013-03-12, verkauf)
+  [FIRMA] erwirbt DNNresearch Inc. fuer $44 Millionen nach einer Auktion, an der auch Baidu, [FIRMA] und [FIRMA] teilnahmen. [PERSON], Krizhevsky und [PERSON] treten [FIRMA] Brain bei.
+
+[H017] (2013-03-12, einstellung)
+  [PERSON] tritt [FIRMA] Brain bei und wird Vice President und Engineering Fellow. Er arbeitet in Teilzeit (spaeter 50%, dann 20%) parallel zu seiner Professur in [UNI].
+
+[H018] (2013-10-01, politisch)
+  [PERSON] unterzeichnet einen offenen Brief von ueber 270 Ingenieuren und KI-Experten, der ein Verbot autonomer Waffensysteme fordert, die ohne menschliche Kontrolle ueber Gewaltanwendung entscheiden.
+
+[H019] (2014, einstellung)
+  [PERSON] wird zum CIFAR Senior Fellow und Co-Director des Learning in Machines & Brains Program ernannt.
+
+[H020] (2015-01-01, lobbying)
+  Drafted and became first signatory of open letter "Research Priorities for Robust and Beneficial Artificial Intelligence" calling for expanded AI safety research. Letter signed by thousands including leading AI researchers at [FIRMA], [FIRMA], [FIRMA] and top computer scientists, physicists and philosophers worldwide.
+
+[H021] (2015-01-01, partnerschaft)
+  Serves on Advisory Boards of Centre for the Study of Existential Risk (CSER), Future of Life Institute (FLI), and Machine Intelligence Research Institute (MIRI).
+
+[H022] (2015-07-01, lobbying)
+  Launched open letter calling for ban on offensive autonomous weapons beyond meaningful human control. Letter signed by 4,667 AI researchers including almost entire leadership of the field, plus nearly 27,000 other signatories.
+
+[H023] (2015-12-11, gruendung)
+  [PERSON] und [PERSON] gruenden zusammen mit [PERSON], [PERSON] und weiteren das Non-Profit-KI-Forschungslabor [FIRMA]. [PERSON] ist Co-Vorsitzender und verpflichtet sich zu $1 Mrd. Foerderung (tatsaechlich ca. $100 Mio. eingezahlt).
+
+[H024] (2015-12-11, gruendung)
+  [PERSON] verlaesst [FIRMA] Brain und gruendet [FIRMA] zusammen mit [PERSON], [PERSON], [PERSON], Wojciech Zaremba und John Schulman. [PERSON] wird Chief Scientist. [FIRMA] wird als gemeinnuetziges KI-Forschungslabor gegruendet.
+
+[H025] (2016-01-01, gruendung)
+  Founded the Center for Human-Compatible Artificial Intelligence (CHAI) at UC [UNI] with co-principal investigators [PERSON], Anca Dragan, Tom Griffiths, Bart Selman, Joseph Halpern, Michael Wellman and Satinder Singh Baveja. Center mission: develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.
+
+[H026] (2016-01-01, partnerschaft)
+  Became co-chair of the World Economic Forum's Global AI Council on AI and Robotics, later joined Global AI Council in 2018 to help galvanize thinking about achieving positive futures with AI through planning and policy development.
+
+[H027] (2016-01-01, sonstiges)
+  Completed PhD in reinforcement learning theory at Australian National University under supervision of Marcus Hutter. Thesis: "Nonparametric General Reinforcement Learning"
+
+[H028] (2016-06-01, einstellung)
+  Six-month postdoctoral fellowship at Future of Humanity Institute, [UNI], focusing on theoretical alignment research
+
+[H029] (2016-07-01, gruendung)
+  [PERSON] gruendet [FIRMA], ein Neurotechnologie-Unternehmen, das Brain-Computer-Interfaces entwickelt, um eine 'Symbiose mit KI' zu ermoeglichen. Ziel: Behandlung neurologischer Erkrankungen und Erweiterung menschlicher Faehigkeiten.
+
+[H030] (2016-11-01, sonstiges)
+  Co-authored article "Yes, We Are Worried About the Existential Risk of Artificial Intelligence" published in [UNI] Technology Review explaining AI existential risk concerns.
+
+[H031] (2016-11-18, produktlaunch)
+  [PERSON], Ian Goodfellow und Aaron Courville veroeffentlichen das Lehrbuch 'Deep Learning', das zum Standard-Lehrbuch des Feldes wird.
+
+[H032] (2016-12-01, sonstiges)
+  Published foundational research paper "Cooperative Inverse Reinforcement Learning" (NIPS 2016) with Dylan Hadfield-Menell, Anca Dragan, and [PERSON], formalizing value alignment problem as cooperative game where robot learns human preferences.
+
+[H033] (2017, sonstiges)
+  [PERSON] erhaelt den Killam Prize in Engineering, einen der hoechsten wissenschaftlichen Preise Kanadas, dotiert mit $100.000 CAD.
+
+[H034] (2017-01-01, einstellung)
+  Joined [FIRMA] as alignment researcher to focus on empirical AI safety research, prototyped reinforcement learning from human feedback (RLHF)
+
+[H035] (2017-04-25, sonstiges)
+  Gave TED Talk "3 principles for creating safer AI" in Vancouver presenting principles for building provably altruistic, humble, and humanitarian AI machines to avoid superintelligent AI pitfalls.
+
+[H036] (2017-06-01, produktlaunch)
+  Co-authored seminal paper "Deep Reinforcement Learning from Human Preferences" with Paul Christiano, Tom B. Brown, Miljan Martic, Shane Legg, and [PERSON] at NIPS 2017
+
+[H037] (2018-02-20, ruecktritt)
+  [PERSON] tritt vom Board von [FIRMA] zurueck, nachdem Verhandlungen ueber volle Kontrolle scheitern. [FIRMA] lehnt [PERSON]s Forderung nach absolutem Entscheidungsrecht ab.
+
+[H038] (2018-03-27, sonstiges)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den ACM Turing Award 2018 fuer bahnbrechende Arbeiten zu Deep Neural Networks. Die drei werden als 'Godfathers of Deep Learning' bezeichnet.
+
+[H039] (2018-03-29, einstellung)
+  [PERSON] wird einer der ersten Canada CIFAR AI Chairs, ein Programm der kanadischen Regierung mit $125 Millionen Foerderung zur Staerkung der KI-Forschung in Kanada.
+
+[H040] (2018-11-01, produktlaunch)
+  Published "Scalable agent alignment via reward modeling: a research direction" with co-authors David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, and Shane Legg, introducing recursive reward modeling
+
+[H041] (2018-12-04, politisch)
+  [PERSON] leitet die Entwicklung der [UNI] Declaration for Responsible AI, ein ethisches Rahmenwerk mit 10 Prinzipien fuer verantwortungsvolle KI-Entwicklung.
+
+[H042] (2019-02-14, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT], ein 1,5-Milliarden-Parameter-Sprachmodell. Wegen befuerchteten Missbrauchs wird es zunaechst nur teilweise freigegeben. [PERSON] spielt eine zentrale Rolle in der Entwicklung.
+
+[H043] (2019-03-27, sonstiges)
+  [PERSON] erhaelt zusammen mit [PERSON] und [PERSON] den Turing Award 2018 -- den 'Nobelpreis der Informatik' -- fuer konzeptionelle und ingenieurtechnische Durchbrueche, die tiefe neuronale Netze zu einer kritischen Komponente des Computings gemacht haben.
+
+[H044] (2019-10-01, sonstiges)
+  Published "Human Compatible: Artificial Intelligence and the Problem of Control" proposing new approach to AI based on uncertainty about human objectives, machines designed to be provably beneficial rather than optimize fixed objectives.
+
+[H045] (2020-06-11, produktlaunch)
+  [FIRMA] launcht [PRODUKT] mit 175 Milliarden Parametern -- das groesste Sprachmodell seiner Zeit. [PERSON] ist massgeblich an der Entwicklung beteiligt.
+
+[H046] (2021-01-01, einstellung)
+  Joined [FIRMA] as alignment researcher, later became Head of Alignment
+
+[H047] (2021-01-05, produktlaunch)
+  [PERSON] leitet die Entwicklung von [PRODUKT] 1, einem KI-Bildgenerator, der Bilder aus Textbeschreibungen erstellt.
+
+[H048] (2021-12-01, sonstiges)
+  Delivered BBC Reith Lectures 2021 series "Living With Artificial Intelligence" - four lectures examining AI birth, autonomous weapons dangers, threat to jobs, and need to abandon current AI model. Lectures broadcast on BBC Radio 4, BBC World Service and BBC Sounds.
+
+[H049] (2022-03-01, produktlaunch)
+  Co-authored "Training language models to follow instructions with human feedback" (Instruct[PRODUKT-FAMILIE] paper), developing first RLHF language model at NIPS 2022
+
+[H050] (2022-09-15, partnerschaft)
+  MILA unter [PERSON]s Leitung geht Partnerschaft mit Valence Labs (ValAI) ein, einem KI-Startup fuer Medikamentenentwicklung, das GFlowNets fuer Drug Discovery nutzt.
+
+[H051] (2022-11-01, produktlaunch)
+  Led alignment efforts for [PRODUKT] including RLHF training and red-teaming, using similar approach as Instruct[PRODUKT-FAMILIE]
+
+[H052] (2023-03-01, lobbying)
+  Signed Future of Life Institute open letter calling for all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than [PRODUKT]. Letter received over 30,000 signatures including [PERSON], [PERSON], Steve Wozniak and Yuval Noah Harari.
+
+[H053] (2023-03-09, gruendung)
+  [PERSON] gruendet [FIRMA], ein KI-Unternehmen mit der Mission, 'die wahre Natur des Universums zu verstehen'. Fokus auf 'wahrheitssuchende' KI ohne politische Korrektheit.
+
+[H054] (2023-03-14, produktlaunch)
+  [PERSON] ist einer der Hauptarchitekten von [PRODUKT], dem multimodalen Sprachmodell, das im Maerz 2023 veroeffentlicht wird.
+
+[H055] (2023-03-22, politisch)
+  [PERSON] unterzeichnet den offenen Brief des Future of Life Institute, der eine 6-monatige Pause beim Training von KI-Systemen maechtigeren als [PRODUKT] fordert. Der Brief wird von ueber 30.000 Menschen unterzeichnet.
+
+[H056] (2023-05-01, ruecktritt)
+  [PERSON] kuendigt seinen Ruecktritt von [FIRMA] an, um frei ueber KI-Risiken sprechen zu koennen, ohne Ruecksicht auf [FIRMA]s Geschaeftsinteressen nehmen zu muessen. Er verzichtet auf ein Gehalt von ueber $1 Million pro Jahr.
+
+[H057] (2023-06-14, lobbying)
+  [PERSON] gibt vor dem Europaeischen Parlament Zeugnis ab und unterstuetzt den EU AI Act, fordert aber strengere Sicherheitsanforderungen fuer Frontier-Modelle.
+
+[H058] (2023-07-05, gruendung)
+  Co-founded and co-led Superalignment team with [PERSON], with 20% of [FIRMA] compute allocated. Goal: solve core technical challenges of superintelligence alignment in 4 years
+
+[H059] (2023-07-25, lobbying)
+  Testified before U.S. Senate Judiciary Subcommittee on Privacy, Technology, and the Law on AI regulation. Recommended: absolute right to know if interacting with AI, prohibition on AI killing decisions in nuclear warfare, mandatory kill switches in AI systems.
+
+[H060] (2023-09-01, sonstiges)
+  Named to TIME 100 Most Influential People in AI 2023 list for co-leading [FIRMA] Superalignment team
+
+[H061] (2023-10-26, einstellung)
+  UN-Generalsekretaer Antonio Guterres ernennt [PERSON] zum Mitglied des High-Level Advisory Body on Artificial Intelligence, einem 39-koepfigen internationalen Gremium zur Beratung ueber KI-Governance.
+
+[H062] (2023-11-04, produktlaunch)
+  [FIRMA] launcht [PRODUKT], einen KI-Chatbot mit Zugang zu Echtzeit-Daten von X ([PLATTFORM]). [PRODUKT] ist provokant, 'rebellisch' und fuer X-Premium-Nutzer verfuegbar. Alternative zu [PRODUKT].
+
+[H063] (2023-11-17, entlassung)
+  [PERSON] fuehrt als Board-Mitglied die Entlassung von [PERSON] als [FIRMA]-CEO an. Der Board wirft [PERSON] mangelnde Aufrichtigkeit vor.
+
+[H064] (2023-11-19, sonstiges)
+  [PERSON] unterzeichnet den offenen Brief von 700+ [FIRMA]-Mitarbeitern, der den Ruecktritt des Boards fordert -- obwohl er selbst Board-Mitglied ist und [PERSON] entlassen hat.
+
+[H065] (2023-11-22, ruecktritt)
+  Nach der Rueckkehr von [PERSON] als CEO tritt [PERSON] vom [FIRMA]-Board zurueck. Er bleibt zunaechst Chief Scientist.
+
+[H066] (2023-12-01, produktlaunch)
+  Published weak-to-strong generalization research showing [PRODUKT]-level models can elicit most [PRODUKT] capabilities, addressing superhuman AI supervision challenge
+
+[H067] (2024-01-28, produktlaunch)
+  [FIRMA] fuehrt die erste erfolgreiche Gehirn-Chip-Implantation bei einem Menschen durch: Noland Arbaugh, ein gelahmter Patient. Der Chip ermoeglicht [FIRMA]-Steuerung allein durch Gedanken.
+
+[H068] (2024-03-01, klage)
+  [PERSON] verklagt [FIRMA] und [PERSON]. Vorwurf: Abweichung von der gemeinnuetzigen Mission, Vertragsbruch, Manipulation. [PERSON] fordert Rueckkehr zum Non-Profit-Modell.
+
+[H069] (2024-03-12, produktlaunch)
+  [PERSON] veroeffentlicht in Science Magazine den Artikel 'Managing extreme AI risks amid rapid progress', der vor den Gefahren offener KI-Modelle warnt und Compute-Governance fordert.
+
+[H070] (2024-03-17, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] als Open Source unter der Apache-2.0-Lizenz. Das Sprachmodell wird frei verfuegbar fuer Forschung und kommerzielle Nutzung.
+
+[H071] (2024-05-14, ruecktritt)
+  [PERSON] kuendigt seinen Ruecktritt als Chief Scientist von [FIRMA] an, um sich einem neuen Projekt zu widmen, das 'sehr persoenlich bedeutungsvoll' fuer ihn sei. [PERSON] uebernimmt seine Position.
+
+[H072] (2024-05-17, produktlaunch)
+  [PERSON] veroeffentlicht als Hauptautor den International Scientific Report on the Safety of Advanced AI, einen umfassenden wissenschaftlichen Bericht ueber KI-Risiken, verfasst von ueber 30 fuehrenden KI-Forschern.
+
+[H073] (2024-05-17, ruecktritt)
+  Resigned as Head of Alignment, Superalignment lead, and executive at [FIRMA] citing disagreement with leadership priorities and insufficient safety focus
+
+[H074] (2024-05-21, partnerschaft)
+  [PERSON] nimmt am AI Seoul Summit teil und unterstuetzt die Seoul Declaration on Safe, Innovative and Inclusive AI, die internationale Kooperation zur KI-Sicherheit foerdert.
+
+[H075] (2024-05-26, investition)
+  [FIRMA] sichert sich $6 Milliarden in einer Series-B-Finanzierungsrunde gefuehrt von [FIRMA], [FIRMA] Capital, Lightspeed und Tribe Capital. Bewertung: $24 Milliarden.
+
+[H076] (2024-05-28, einstellung)
+  Joined [FIRMA] to lead new superalignment team working on scalable oversight, weak-to-strong generalization, and automated alignment research. Reports to [PERSON] (Chief Science Officer)
+
+[H077] (2024-06-01, lobbying)
+  Signed open letter calling for AI employees to be free to whistleblow about their company's lack of attention to AI risks. Signed with other AI "godfathers" and current/former AI safety employees.
+
+[H078] (2024-06-19, gruendung)
+  [PERSON] gruendet [FIRMA] Inc. ([FIRMA]) zusammen mit [PERSON] und Daniel Levy. [FIRMA] hat Bueros in Palo Alto und Tel Aviv und fokussiert ausschliesslich auf sichere Superintelligenz.
+
+[H079] (2024-07-22, gruendung)
+  [PERSON] lanciert bei MILA eine neue AI Safety Research Initiative mit ca. $10 Millionen Foerderung, um die KI-Sicherheitsforschung in [UNI] zu staerken.
+
+[H080] (2024-08-15, produktlaunch)
+  [FIRMA] implantiert erfolgreich einen zweiten Patienten mit einem Brain-Computer-Interface. Expansion der klinischen Studien.
+
+[H081] (2024-08-15, politisch)
+  [PERSON] unterzeichnet zusammen mit [PERSON], [PERSON] und Lawrence Lessig einen offenen Brief zur Unterstuetzung von Kaliforniens AI Safety Bill SB 1047, der Risikobewertungen fuer grosse KI-Modelle vorschreibt.
+
+[H082] (2024-09-01, investition)
+  [FIRMA] baut 'Colossus', den weltweit groessten Supercomputer, in 122 Tagen. Standort: umgebaute Electrolux-Fabrik in Memphis. Anfangs 100.000 [FIRMA]-GPUs, dann verdoppelt auf 200.000 GPUs.
+
+[H083] (2024-09-01, sonstiges)
+  Named to TIME 100 Most Influential People in AI 2024 list for second consecutive year, recognized for dramatic exit from [FIRMA] and continued alignment work at [FIRMA]
+
+[H084] (2024-09-04, investition)
+  [FIRMA] ([FIRMA]) sichert sich $1 Milliarde Finanzierung von NFDG ([PERSON] & [PERSON]), [FIRMA], [FIRMA] Capital, DST Global und SV Angel. Bewertung: $5 Milliarden.
+
+[H085] (2024-10-08, sonstiges)
+  [PERSON] erhaelt gemeinsam mit John J. Hopfield den Nobelpreis fuer Physik 2024 'fuer grundlegende Entdeckungen und Erfindungen, die maschinelles Lernen mit kuenstlichen neuronalen Netzen ermoeglichen'.
+
+[H086] (2024-11-15, klage)
+  [PERSON] reicht erweiterte Klage gegen [FIRMA] ein, diesmal mit [FIRMA] als Beklagtem. Neue Vorwuerfe: Kartellrechtsverletzung, monopolistische Praktiken, illegale Fusion. Forderung: $79-134 Milliarden Schadenersatz.
+
+[H087] (2024-12-10, sonstiges)
+  [PERSON], Oriol Vinyals und Quoc V. Le erhalten den NeurIPS 2024 Test of Time Award fuer ihr Paper 'Sequence to Sequence Learning with Neural Networks'.
+
+[H088] (2024-12-23, investition)
+  [FIRMA] sammelt weitere $6 Milliarden in einer Series-C-Runde mit Beteiligung von Fidelity, BlackRock und [FIRMA] Capital. Bewertung steigt auf $50 Milliarden. Gesamtfinanzierung: ueber $12 Milliarden.
+
+[H089] (2025-02-17, produktlaunch)
+  [FIRMA] veroeffentlicht [PRODUKT] 3, trainiert mit '10x mehr Rechenleistung' als [PRODUKT] 2 im Colossus-Rechenzentrum mit 200.000 GPUs. Uebertrifft laut [FIRMA] [FIRMA] [PRODUKT] in Benchmarks.
+
+[H090] (2025-03-10, investition)
+  [FIRMA] ([FIRMA]) sichert sich weitere $2 Milliarden in einer von Greenoaks Capital gefuehrten Finanzierungsrunde. Die Bewertung steigt auf $30-32 Milliarden -- das Sechsfache der vorherigen Bewertung.
+
+[H091] (2026-01-06, investition)
+  [FIRMA] schliesst eine $20 Milliarden Series-E-Finanzierungsrunde ab mit Beteiligung von [FIRMA], Cisco und Fidelity. Bewertung: $230 Milliarden. Uebertrifft urspruengliches $15-Mrd.-Ziel.
+
+[H092] (2026-02-02, kauf)
+  [FIRMA] akquiriert [FIRMA] in einer All-Stock-Transaktion. [FIRMA] wird vollstaendige Tochtergesellschaft von [FIRMA]. [FIRMA]-Bewertung: $1 Billion, [FIRMA]-Bewertung: $250 Milliarden. Kombinierte Bewertung: $1,25 Billionen.
+
+========================================================================
+ENDE DER SYNTHESEEINHEIT
+========================================================================
