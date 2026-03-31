@@ -88,6 +88,9 @@ _data_A/tools/aussagen_p81_90.json
 _results_A/_blindtest/
 _results_A/_g5_data/
 
+# Review artifacts (generated during review cycles)
+FAKTENCHECK_*.md
+
 # Artifacts from other tools
 compass_artifact_*.md
 

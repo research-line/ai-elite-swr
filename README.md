@@ -36,31 +36,37 @@ This works better at the **group level** than at the individual level, because:
 
 | Test | Result |
 |------|--------|
-| Run convergence (test-retest) | ICC = 0.902 (excellent) |
-| Cross-modal prediction | 88% of statement-based predictions confirmed by real actions |
-| Expected-discrepancy control | No artifactual say-do gap (control MAE = 0.50 vs. real 1.25) |
-| Aggregation-synthesis comparison | r = 0.623 with systematic amplification effect |
+| IMIIRR (5×2 runs) | ICC(2,1) = 0.902 (excellent) |
+| IMIIRR (N=15 independent) | ICC(3,1) = 0.847, Mean SD = 0.45 |
+| Cross-modal prediction | 72% confirmed, 0% contradicted (5 groups × 10 predictions) |
+| Expected-discrepancy control | v2 baseline MAE = 0.92; real gap MAE = 0.75 (below baseline) |
+| Instance separation effect | v1 MAE 1.42 → v2 MAE 0.75 (−47%) |
+| Blinding robustness | r = 0.987 (placeholders vs. fictional names) |
+| Aggregation-synthesis comparison | r = 0.623 with systematic amplification (71.7%) |
 | PCA | 5 components, 80% variance explained |
 | HDBSCAN | No natural clusters (confirms Weberian ideal types) |
 | Kruskal-Wallis | 6/12 dimensions p < .001 across types |
+| Simpson's paradox | Aggregate say-do gap = noise; group-specific gaps substantial |
 
 ## Repository Structure
 
 ```
-paper_A/            AI Elite papers (EN + DE, .tex + .pdf)
-paper_B/            SWR method papers (EN + DE, .tex + .pdf)
-_data/              Data collection pipeline
-  85 actor-specific collect/insert scripts
-  generate_topf.py  — Synthesis unit generator
-  extract_blinded.py — Focus control (blinding) script
-  create_db.py      — Database schema
+paper_A/            AI Elite papers (EN + DE, .tex + .pdf) — v7.0
+paper_B/            SWR method papers (EN + DE, .tex + .pdf) — v6.0
+_data_A/            Data collection pipeline
+  collect/          56 data collection scripts
+  coding/           12 coding scripts
+  insert/           38 insert scripts
+  tools/            Infrastructure (create_db, extract_blinded, generate_topf)
 _results_A/         Analysis outputs for Paper A
+  de/               13 German validation reports
+  en/               12 English validation reports
+  n15_opus_independent/  N=15 IMIIRR validation (15 independent runs + analysis)
   figures/          7 figures (PNG + SVG)
-  toepfe/           54 synthesis units (blinded data corpora)
+  synthesis_units/  54 synthesis units (blinded data corpora)
   synthesen/        Group syntheses + ratings
-  G5_BERICHT.md     — Cross-modal prediction results
-  G8_BERICHT.md     — Aggregation comparison results
-  *.json            — Statistical analysis outputs
+  translations_en/  29 English translations of older reports
+prompts/            Prompt templates v2 (EN + DE)
 ```
 
 ## Data
@@ -74,7 +80,7 @@ _results_A/         Analysis outputs for Paper A
 
 ```bash
 # 1. Rebuild database
-cd _data && python create_db.py
+cd _data_A/tools && python create_db.py
 
 # 2. Run insert scripts (requires the collect scripts to have run first)
 python insert_*.py
@@ -84,7 +90,7 @@ python generate_topf.py --all
 
 # 4. Compile papers
 cd ../paper_A && pdflatex KI_Elite_v2_en.tex && pdflatex KI_Elite_v2_en.tex
-cd ../paper_B && pdflatex SWR_v2_en.tex && pdflatex SWR_v2_en.tex
+cd ../paper_B && pdflatex SWR_v3_en.tex && pdflatex SWR_v3_en.tex
 ```
 
 ## Citation
@@ -100,10 +106,10 @@ cd ../paper_B && pdflatex SWR_v2_en.tex && pdflatex SWR_v2_en.tex
 
 @article{Geiger2026SWR,
   author  = {Geiger, Lukas},
-  title   = {Synthetic Worldview Reconstruction: An {LLM}-Supported Method for Analyzing Latent Collective Belief Systems},
+  title   = {Synthetic Worldview Reconstruction ({SWR}): A Methodological Framework for {LLM}-Assisted Group-Level Belief System Analysis},
   year    = {2026},
   doi     = {10.5281/zenodo.18736720},
-  note    = {Preprint}
+  note    = {Preprint, v6.0}
 }
 ```
 
