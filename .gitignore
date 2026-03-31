@@ -65,6 +65,12 @@ ZENODO_CREDENTIALS*.md
 # Review chain results (internal, archived)
 _results_A/_archive/
 
+# Old non-independent validation runs (withdrawn from Paper A v7.0)
+_results_A/n15_opus/
+_results_A/n30_haiku/
+_results_A/n15_opus_n30_haiku_comparison.json
+_results_A/n30_haiku_results.json
+
 # Database (rebuild with create_db.py + insert scripts)
 _data_A/tools/aussagen_top100.db
 
