@@ -62,22 +62,25 @@ ZENODO_CREDENTIALS*.md
 *CREDENTIALS*
 *.env
 
-# Review chain results (internal)
-_results_A/REVIEW_CHAIN_*.md
-_results_B/
+# Review chain results (internal, archived)
+_results_A/_archive/
 
 # Database (rebuild with create_db.py + insert scripts)
-_data/aussagen_top100.db
+_data_A/tools/aussagen_top100.db
 
 # Verification and log files
-_data/verify_*.py
-_data/check_tables.py
-_data/cleanup_vaswani_duplicates.py
-_data/final_check_vaswani.py
-_data/collect_murati_log.txt
+_data_A/tools/verify_*.py
+_data_A/tools/check_tables.py
+_data_A/tools/cleanup_vaswani_duplicates.py
+_data_A/tools/final_check_vaswani.py
+_data_A/collect/collect_murati_log.txt
 
 # Temporary data files
-_data/aussagen_p81_90.json
+_data_A/tools/aussagen_p81_90.json
+
+# Blindtest and G5 working data (results documented in reports)
+_results_A/_blindtest/
+_results_A/_g5_data/
 
 # Artifacts from other tools
 compass_artifact_*.md
@@ -85,6 +88,5 @@ compass_artifact_*.md
 # Binary documents (keep PDFs in paper/)
 *.docx
 
-# Combined/legacy PDF
-paper_B/SWR_KI_Elite_Combined_EN.pdf
-paper_B/TitlePage_SMR.*
+# Session handoff (internal)
+SESSION_HANDOFF.md
