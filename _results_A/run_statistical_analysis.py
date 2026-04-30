@@ -21,8 +21,8 @@ from pathlib import Path
 # 1. DATEN EINLESEN
 # ============================================================
 
-data_path = Path(r"C:\Users\User\OneDrive\.RESEARCH\.PRIO-1\!!!PP__Transhumanismus\_results\synthesen\rating_GESAMT_D01-D12.md")
-output_dir = Path(r"C:\Users\User\OneDrive\.RESEARCH\.PRIO-1\!!!PP__Transhumanismus\_results")
+data_path = Path(r"C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.PRIO-1\!!!PP__Transhumanismus\_results\synthesen\rating_GESAMT_D01-D12.md")
+output_dir = Path(r"C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.PRIO-1\!!!PP__Transhumanismus\_results")
 
 with open(data_path, "r", encoding="utf-8") as f:
     content = f.read()

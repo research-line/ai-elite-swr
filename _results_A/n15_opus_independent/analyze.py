@@ -7,7 +7,7 @@ import os
 import numpy as np
 from scipy import stats
 
-BASE = r"C:\Users\User\OneDrive\.RESEARCH\.PRIO-1\PP_SWR_AB\_results_A"
+BASE = r"C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.PRIO-1\PP_SWR_AB\_results_A"
 
 # --- Haiku N=30 data (extracted from n30_haiku/runs_*.md) ---
 haiku_raw = [

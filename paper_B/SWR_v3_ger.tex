@@ -82,7 +82,7 @@
 %% --- Abstract ----------------------------------------------------------------
 \begin{abstract}
 \noindent
-Dieses Paper pr\"asentiert \emph{Synthetic Worldview Reconstruction} (SWR) -- eine Methode zur Rekonstruktion der kollektiven Glaubenssysteme soziologisch definierter Gruppen mittels gro\ss{}er Sprachmodelle. SWR formuliert Weltanschauungsanalyse als inverses Problem: Gegeben die aggregierten \"offentlichen \"Au\ss{}erungen und dokumentierten Handlungen einer Gruppe, rekonstruiere das latente Glaubenssystem, das diese Outputs am koh\"arentesten erzeugt. Die Methode konstruiert eine \emph{fiktive Syntheseperson} -- einen Weberschen Idealtypus -- deren Weltanschauung die kollektiven \"Uberzeugungen der Gruppe in destillierter Form repr\"asentiert. Dieses Paper abstrahiert SWR von seiner urspr\"unglichen Anwendung (einer Studie \"uber 100 einflussreiche KI-Akteure; Geiger, 2026) zu einem \"ubertragbaren methodologischen Rahmenwerk. Wir beschreiben das F\"unfschritte-Protokoll, das Verfahren zur dimensionalen Bewertung und die Infrastruktur der Fokuskontrolle. Die Qualit\"atssicherung wird durch empirische Ergebnisse aus der Pilotstudie dokumentiert: Intra-Model Inter-Instance Rating Reliability (IMIIRR) erreicht ICC(2,1)\,=\,0,902 ($5 \times 2$ Durchl\"aufe) und ICC(3,1)\,=\,0,847 ($N$\,=\,15 unabh\"angige Einzelinstanz-Durchl\"aufe); modalit\"ats\"ubergreifende Vorhersage erzielt 72\% Best\"atigung bei 0\% Widerspruch; und ein Verblindungs-Robustheitstest zeigt $r$\,=\,0,987 \"uber verschiedene Anonymisierungsstrategien hinweg. Abgestufte Akzeptanzkriterien unterscheiden zwischen Mindestanforderungen (Stufe~1) und w\"unschenswerten Erweiterungen (Stufe~2). Ein schrittweiser Anwendungsleitfaden erm\"oglicht es Forschenden, SWR auf eigene Populationen anzuwenden. Die Methode ist f\"ur die Analyse auf Gruppenebene konzipiert, wobei sie einen strukturellen Vorteil nutzt: Kein LLM-Trainingskorpus enth\"alt vorgefertigte kollektive Weltanschauungen soziologischer Gruppen, was das Kontaminationsrisiko reduziert, das Ans\"atze auf Individualebene dominiert.
+Dieses Paper pr\"asentiert \emph{Synthetic Worldview Reconstruction} (SWR) -- eine Methode zur Rekonstruktion der kollektiven Glaubenssysteme soziologisch definierter Gruppen mittels gro\ss{}er Sprachmodelle. SWR formuliert Weltanschauungsanalyse als inverses Problem: Gegeben die aggregierten \"offentlichen \"Au\ss{}erungen und dokumentierten Handlungen einer Gruppe, rekonstruiere das latente Glaubenssystem, das diese Outputs am koh\"arentesten erzeugt. Die Methode konstruiert eine \emph{fiktive Syntheseperson} -- einen Weberschen Idealtypus -- deren Weltanschauung die kollektiven \"Uberzeugungen der Gruppe in destillierter Form repr\"asentiert. Dieses Paper abstrahiert SWR von seiner urspr\"unglichen Anwendung (einer Studie \"uber 100 einflussreiche KI-Akteure; Geiger, 2026) zu einem \"ubertragbaren methodologischen Rahmenwerk. Wir beschreiben das F\"unfschritte-Protokoll, das Verfahren zur dimensionalen Bewertung als ein Operationalisierungsbeispiel und die Infrastruktur der Fokuskontrolle. Die Qualit\"atssicherung wird durch empirische Ergebnisse aus der Pilotstudie dokumentiert: Intra-Model Inter-Instance Rating Reliability (IMIIRR) erreicht ICC(2,1)\,=\,0,902 ($5 \times 2$ Durchl\"aufe) und ICC(3,1)\,=\,0,847 ($N$\,=\,15 unabh\"angige Einzelinstanz-Durchl\"aufe); modalit\"ats\"ubergreifende Vorhersage erzielt 72\% Best\"atigung bei 0\% Widerspruch; und ein Verblindungs-Robustheitstest zeigt $r$\,=\,0,987 \"uber verschiedene Anonymisierungsstrategien hinweg. Abgestufte Akzeptanzkriterien unterscheiden zwischen Mindestanforderungen (Stufe~1) und w\"unschenswerten Erweiterungen (Stufe~2). Ein schrittweiser Anwendungsleitfaden erm\"oglicht es Forschenden, SWR auf eigene Populationen anzuwenden. Die Methode ist f\"ur die Analyse auf Gruppenebene konzipiert, wobei sie einen strukturellen Vorteil nutzt: Kein LLM-Trainingskorpus enth\"alt vorgefertigte kollektive Weltanschauungen soziologischer Gruppen, was das Kontaminationsrisiko reduziert, das Ans\"atze auf Individualebene dominiert.
 
 \medskip
 \noindent\textbf{Schl\"usselw\"orter:} Synthetic Worldview Reconstruction, LLM-gest\"utzte Methodologie, kollektive Glaubenssysteme, Idealtypus, Analyse auf Gruppenebene, Computational Social Science, Interinstanz-Reliabilit\"at
@@ -114,6 +114,8 @@ In den letzten Jahren war ein rasantes Wachstum LLM-gest\"utzter sozialwissensch
 
 Bestehende LLM-gest\"utzte Ans\"atze dienen jedoch anderen Zwecken als SWR. \citet{Argyle2023} verwenden LLMs, um menschliche Stichproben zu \emph{simulieren} -- \glqq{}Silicon Samples\grqq{}, die auf demographische Hintergrundgeschichten konditioniert werden, um Surveyantworten zu approximieren. \citet{Ge2024} skalieren synthetische Personas zur \emph{Datengenerierung}. In beiden F\"allen generiert das LLM Daten \emph{de novo}. SWR hingegen nutzt das LLM, um bestehende reale Daten in eine koh\"arente Darstellung zu \emph{komprimieren}. Die synthetische Person ist kein Simulakrum, sondern ein analytisches Kondensierungsinstrument -- n\"aher an einem Weberschen Idealtypus als an einem Simulationsagenten.
 
+Eine eng verwandte Tradition ist die Kritische Diskursanalyse \citep[KDA;][]{Fairclough1992, Wodak2001}, die qualitative analytische Raster auf Texte anwendet, um Machtstrukturen und Ideologien aufzudecken. Die KDA erreicht reiche interpretative Tiefe, steht aber vor bekannten Skalierungsgrenzen: Sie operiert typischerweise auf kleinen Korpora (5--20~Texte) mit begrenzter Inter-Rater-Reliabilit\"at. LLMs adressieren diese Einschr\"ankungen bereits f\"ur die \emph{Analyse} einzelner Texte; was fehlte, war eine Methode f\"ur die \emph{Synthese} auf Gruppenebene -- die KDA und analoge Analysemethoden nicht auf einzelne Texte, sondern auf gruppenaggregierten synthetischen Repr\"asentationen anzuwenden. SWR stellt diese fehlende Syntheseschicht bereit.
+
 Was fehlte, war eine systematische Methode zur Rekonstruktion des \emph{koh\"arenten Glaubenssystems} einer soziologisch definierten Gruppe aus heterogenen \"offentlichen Daten -- eine Methode, die qualitative Tiefe (narrative Reichhaltigkeit, Spannungserkennung, innere Logik) mit quantitativer Strenge (dimensionale Bewertung, Reliabilit\"atstests, modalit\"ats\"ubergreifende Validierung) verbindet. SWR f\"ullt diese L\"ucke.
 
 
@@ -123,7 +125,7 @@ Was fehlte, war eine systematische Methode zur Rekonstruktion des \emph{koh\"are
 Dieses Paper leistet drei Beitr\"age:
 
 \begin{enumerate}[nosep]
-  \item \textbf{Methodenformalisierung:} Es beschreibt SWR als \"ubertragbares F\"unfschritte-Protokoll mit expliziten Qualit\"atskriterien und grenzt es von verwandten Ans\"atzen ab (LLM-als-Teilnehmer, synthetische Datengenerierung, automatisierte Kodierung).
+  \item \textbf{Methodenformalisierung:} Es beschreibt SWR als \"ubertragbares F\"unfschritte-Protokoll mit expliziten Qualit\"atskriterien und grenzt es von verwandten Ans\"atzen ab (LLM-als-Teilnehmer, synthetische Datengenerierung, automatisierte Kodierung, Kritische Diskursanalyse). Die Formalisierung trennt zwei unabh\"angige Beitr\"age: (a)~die Synthese-Pipeline (Schritte~1--4) als neuartige Methode zur Rekonstruktion von Glaubenssystemen auf Gruppenebene aus heterogenen Daten, und (b)~das dimensionale Rating (Schritt~5) als eine spezifische, austauschbare Operationalisierung aus der Pilotstudie.
   \item \textbf{Qualit\"atsrahmenwerk:} Es pr\"asentiert empirische Qualit\"atsmetriken aus der Pilotstudie -- IMIIRR, modalit\"ats\"ubergreifende Vorhersage, Erwartungs-Diskrepanz-Kontrolle, Verblindungs-Robustheit -- und definiert abgestufte Akzeptanzkriterien f\"ur zuk\"unftige Anwendungen.
   \item \textbf{Anwendungsleitfaden:} Es bietet einen Schritt-f\"ur-Schritt-Leitfaden, der es Forschenden erm\"oglicht, SWR auf eigene Populationen anzuwenden, einschlie\ss{}lich praktischer Empfehlungen f\"ur Datenerhebung, Prompt-Design, Validierung und h\"aufige Fallstricke.
 \end{enumerate}
@@ -196,6 +198,8 @@ Ein separater Prompt weist das LLM an, interne Spannungen, blinde Flecken -- ein
 \subsubsection{Schritt 5: Dimensionale Bewertung}
 
 Die synthetisierte Weltanschauung wird auf einer Reihe forscherseitig definierter Dimensionen mittels einer numerischen Skala (z.\,B. 1--10) bewertet. Die Dimensionen operationalisieren die drei abh\"angigen Variablen in messbare Konstrukte. In der Pilotstudie wurden 12~Dimensionen (D01--D12) verwendet, gleichm\"a\ss{}ig \"uber die drei DVs verteilt (Tabelle~\ref{tab:dimensions}). Das Dimensionssystem ist modular: Forschende k\"onnen Dimensionen definieren, die f\"ur ihre Population und Forschungsfragen geeignet sind.
+
+Das F\"unfschritte-Protokoll ist als \emph{modulare Architektur} konzipiert: Schritte~1--4 bilden die Synthese-Pipeline und stellen die methodische Kerninnovation von SWR dar, indem sie die fiktive Syntheseperson als prim\"ares Analyseobjekt erzeugen. Schritt~5 (dimensionales Rating) ist eine spezifische Operationalisierung, die f\"ur die Pilotstudie gew\"ahlt wurde und grunds\"atzlich durch andere analytische Verfahren ersetzt werden kann, die auf dasselbe Syntheseprodukt angewendet werden -- einschlie\ss{}lich Diskursanalyse, psychometrischer Instrumente, strukturierter Interviewprotokolle oder komparativer Narrativanalyse. Die Synthese-Pipeline (Schritte~1--4) kann daher als allgemeine Eingangsstufe f\"ur ein breites Spektrum analytischer Ans\"atze dienen.
 
 
 \subsection{Dimensionale Bewertung: Das 12-Dimensionen-Beispiel}
@@ -465,17 +469,17 @@ SWR nimmt eine eigenst\"andige Position an der Schnittstelle qualitativer und qu
   \caption{SWR im Vergleich mit verwandten methodologischen Ans\"atzen.}
   \label{tab:comparison}
   \scriptsize
-  \begin{tabular}{@{} p{2.5cm} p{2.0cm} p{2.0cm} p{2.0cm} p{2.0cm} p{2.0cm} @{}}
+  \begin{tabular}{@{} p{2.2cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} @{}}
     \toprule
-    \textbf{Merkmal} & \textbf{SWR} & \textbf{Thematische Analyse} & \textbf{Survey} & \textbf{LLM-as-Participant} & \textbf{Automatisierte Kodierung} \\
+    \textbf{Merkmal} & \textbf{SWR} & \textbf{Thematische Analyse} & \textbf{Survey} & \textbf{LLM-as-Participant} & \textbf{Automatisierte Kodierung} & \textbf{KDA} \\
     \midrule
-    Datenquelle & \"Offentl. \"Au\ss{}erungen + Handlungen & Interviews, Texte & Direkte Antworten & LLM-generiert & Bestehende Texte \\[3pt]
-    Analyseeinheit & Gruppe & Variabel & Individuum & Simuliertes Individuum & Dokument \\[3pt]
-    Zugang zu Befragten erforderlich & Nein & Ja & Ja & Nein & Nein \\[3pt]
-    Erfasst Koh\"arenz & Ja & Teilweise & Nein & Begrenzt & Nein \\[3pt]
-    Skalierbar & Ja & Begrenzt & Ja & Ja & Ja \\[3pt]
-    Externe Validierung & Modal.\"ubergr. & Member Checking & Test--Retest & Demograf. Passung & Experten-Kodierung \\[3pt]
-    Prim\"ares Risiko & Koh\"arenzverzerrung & Forscherverzerrung & Antwortverzerrung & Stereotyp-Reproduktion & Kontextverlust \\
+    Datenquelle & \"Offentl. \"Au\ss{}erungen + Handlungen & Interviews, Texte & Direkte Antworten & LLM-generiert & Bestehende Texte & Texte (vorhanden) \\[3pt]
+    Analyseeinheit & Gruppe & Variabel & Individuum & Simuliertes Individuum & Dokument & Variabel \\[3pt]
+    Zugang zu Befragten erforderlich & Nein & Ja & Ja & Nein & Nein & Nein \\[3pt]
+    Erfasst Koh\"arenz & Ja & Teilweise & Nein & Begrenzt & Nein & Teilweise \\[3pt]
+    Skalierbar & Ja & Begrenzt & Ja & Ja & Ja & Begrenzt \\[3pt]
+    Externe Validierung & Modal.\"ubergr. & Member Checking & Test--Retest & Demograf. Passung & Experten-Kodierung & Analyst-Triangulation \\[3pt]
+    Prim\"ares Risiko & Koh\"arenzverzerrung & Forscherverzerrung & Antwortverzerrung & Stereotyp-Reproduktion & Kontextverlust & Kleines N, Subjektivit\"at \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -485,6 +489,8 @@ SWR nimmt eine eigenst\"andige Position an der Schnittstelle qualitativer und qu
 \textbf{SWR vs.\ LLM-as-Participant} \citep{Argyle2023}. LLM-as-Participant generiert synthetische Daten, indem das LLM auf demografische Hintergrundgeschichten konditioniert wird. SWR komprimiert reale Daten durch LLM-gest\"utzte Synthese. Inputs und Outputs sind fundamental verschieden: LLM-as-Participant produziert Surveyantworten; SWR produziert Weltanschauungsprofile. Auch die Kontaminationsstruktur unterscheidet sich: LLM-as-Participant greift (designgem\"a\ss{}) auf Trainingsdaten \"uber demografische Gruppen zur\"uck; SWR vermeidet dies auf Gruppenebene strukturell.
 
 \textbf{SWR vs.\ Automatisierte Kodierung} \citep{Tai2024}. Automatisierte Kodierung klassifiziert Textsegmente in vordefinierte Kategorien. SWR geht dar\"uber hinaus, indem es diese Segmente zu einem koh\"arenten Ganzen integriert. Automatisierte Kodierung beantwortet \glqq{}Welche Themen sind pr\"asent?\grqq{}; SWR beantwortet \glqq{}Was glaubt diese Gruppe?\grqq{}
+
+\textbf{SWR vs.\ Kritische Diskursanalyse} \citep[KDA;][]{Fairclough1992, Wodak2001}. Die KDA wendet qualitative analytische Raster auf Texte an, um Machtstrukturen, ideologische Formationen und hegemoniale Diskursmuster aufzudecken. Sowohl KDA als auch SWR zielen darauf ab, latente Glaubensstrukturen zu enth\"ullen; ihre Beziehung ist eher komplement\"ar als kompetitiv. Die KDA analysiert einzelne Texte oder kleine Korpora im Hinblick auf Macht und Ideologie; SWR synthetisiert zun\"achst eine gruppenaggregierten Repr\"asentation und erm\"oglicht so KDA-\"ahnliche Analysen auf Gruppenebene statt auf Textebene. Die Synthese-Pipeline (Schritte~1--4) kann damit als Vorverarbeitungsstufe fungieren, die Diskursanalyse auf Gruppenebene handhabbar macht.
 
 \textbf{Theoretische Wurzeln.} SWR st\"utzt sich auf \citet{Weber1904} (Idealtypus als analytisches Konstrukt), \citet{Mannheim1929} (Seinsverbundenheit des Denkens), \citet{Gadamer1960} (der hermeneutische Zirkel des Verstehens) und die wissenssoziologische Tradition, die Weltanschauungen als soziale Ph\"anomene behandelt, die empirischer Untersuchung zug\"anglich sind \citep{BergerLuckmann1966}. Das entstehende Feld der Computational Hermeneutics \citep{Kommers2026} bietet eine konzeptuelle Br\"ucke zwischen diesen interpretativen Traditionen und LLM-gest\"utzter Analyse, w\"ahrend \citet{Hornby2024} untersucht, wie Gadamersche Hermeneutik die Epistemologie LLM-vermittelten Verstehens informieren kann. Die Formalisierung als inverses Problem verbindet sich mit \citet{Tarantola2005} und \citet{Hadamard1923}. Der Einsatz von LLMs als analytische Instrumente f\"ugt sich in das aufkommende Paradigma \glqq{}LLMs f\"ur Sozialwissenschaften\grqq{} ein \citep{Ziems2024, Bail2024}, w\"ahrend die epistemologische Vorsicht auf \citet{Messeri2024} zur\"uckgreift, die vor \glqq{}Illusionen des Verstehens\grqq{} warnen, wenn KI-Werkzeuge ohne hinreichende methodologische Reflexion eingesetzt werden.
 
@@ -590,7 +596,7 @@ Synthetic Worldview Reconstruction bietet eine neue Methode zur Rekonstruktion d
   \item \textbf{Analyse auf Gruppenebene als Standard:} SWR ist f\"ur kollektive Glaubenssysteme konzipiert, nicht f\"ur Individualportr\"ats, und bietet damit einen strukturellen Kontaminationsvorteil (vgl.\ Abstract).
   \item \textbf{Duale Datenmodalit\"at:} Durch den Einsatz auf sowohl \"Au\ss{}erungen als auch Handlungen erm\"oglicht SWR den Sagen-Tun-Vergleich und die modalit\"ats\"ubergreifende Vorhersage -- Validierungsmechanismen, die Methoden mit nur einem einzigen Datentyp nicht zur Verf\"ugung stehen.
   \item \textbf{Zuverl\"assige Instrumentierung:} IMIIRR-Koeffizienten (ICC\,=\,0,847--0,902) belegen hohe Messkonsistenz. Reliabilit\"at garantiert keine Validit\"at (vgl.\ Abschnitt~\ref{sec:qa:imiirr}), etabliert aber eine stabile Grundlage f\"ur aussagekr\"aftige Vergleiche, wobei vollst\"andige Prompt-Dokumentation implizite Kodierregeln ersetzt.
-  \item \textbf{\"Ubertragbarkeit:} Das F\"unfschritte-Protokoll, das dimensionale Bewertungsrahmenwerk und die abgestuften Akzeptanzkriterien sind f\"ur die Anwendung auf jede soziologisch definierte Population konzipiert -- politische Eliten, Unternehmenskulturen, religi\"ose Gemeinschaften, wissenschaftliche Disziplinen.
+  \item \textbf{\"Ubertragbarkeit:} Das F\"unfschritte-Protokoll, das dimensionale Bewertungsrahmenwerk und die abgestuften Akzeptanzkriterien sind f\"ur die Anwendung auf jede soziologisch definierte Population konzipiert -- politische Eliten, Unternehmenskulturen, religi\"ose Gemeinschaften, wissenschaftliche Disziplinen. Dar\"uber hinaus ist die Synthese-Pipeline (Schritte~1--4) nicht an Personen oder Weltanschauungen gebunden: Sie kann als Eingangsstufe dienen, wo immer heterogene Textevidenz in eine koh\"arente kollektive Darstellung synthetisiert werden muss -- einschlie\ss{}lich Organisationskulturen, Policy-Diskursen und historischen Epochen.
 \end{enumerate}
 
 Die Methode wurde in einer Pilotstudie \"uber 100~einflussreiche KI-Akteure \citep{Geiger2026PaperA} entwickelt und validiert, die ihre F\"ahigkeit demonstrierte, diskriminierende Gruppenprofile zu erzeugen, interne Spannungen aufzudecken und systematische Muster zu identifizieren, die aggregierte Berichterstattung verschleiern w\"urde. Das vorliegende Paper abstrahiert diese F\"ahigkeiten in ein \"ubertragbares methodologisches Rahmenwerk.
@@ -665,6 +671,11 @@ Dieses Manuskript wurde mit Unterst\"utzung von Claude Opus~4.6 (Anthropic; Mode
   Gadamer, H.-G. (1960).
   \textit{Wahrheit und Methode}.
   T\"ubingen: Mohr.
+
+\bibitem[Fairclough(1992)]{Fairclough1992}
+  Fairclough, N. (1992).
+  \textit{Discourse and Social Change}.
+  Cambridge: Polity Press.
 
 \bibitem[Fugard \& Potts(2015)]{FugardPotts2015}
   Fugard, A.~J.~B.~\& Potts, H.~W.~W. (2015).
@@ -760,6 +771,11 @@ Dieses Manuskript wurde mit Unterst\"utzung von Claude Opus~4.6 (Anthropic; Mode
   Weber, M. (1904).
   Die ``Objektivit\"at'' sozialwissenschaftlicher und sozialpolitischer Erkenntnis.
   \textit{Archiv f\"ur Sozialwissenschaft und Sozialpolitik}, \textit{19}, 22--87.
+
+\bibitem[Wodak \& Meyer(2001)]{Wodak2001}
+  Wodak, R.~\& Meyer, M. (Eds.) (2001).
+  \textit{Methods of Critical Discourse Analysis}.
+  London: Sage.
 
 \bibitem[Ziems et~al.(2024)]{Ziems2024}
   Ziems, C., Held, W., Shaikh, O., Chen, J., Zhang, Z.~\& Yang, D. (2024).

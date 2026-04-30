@@ -51,6 +51,7 @@ REVISION_PROCESSING_NOTES.md
 ROADMAP.md
 START.md
 TODO.md
+DONE.md
 UNTERSUCHUNGSERGEBNISSE.md
 UNTERSUCHUNGSPLAN_LEGACY.txt
 
@@ -80,6 +81,8 @@ _data_A/tools/check_tables.py
 _data_A/tools/cleanup_vaswani_duplicates.py
 _data_A/tools/final_check_vaswani.py
 _data_A/collect/collect_murati_log.txt
+_data_A/extract_cited_authors.py
+_data_A/generate_pdfs.py
 
 # Temporary data files
 _data_A/tools/aussagen_p81_90.json

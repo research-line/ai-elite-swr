@@ -93,7 +93,7 @@ GRUPPEN = {
     "Beschleuniger":       [9,9,8,6,8,10,7,10,3,8,4,9],
 }
 
-OUT_DIR = Path(r"C:\Users\User\OneDrive\.RESEARCH\.PRIO-1\PP_SWR_AB\_results_A\figures")
+OUT_DIR = Path(r"C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.PRIO-1\PP_SWR_AB\_results_A\figures")
 
 
 def setup():

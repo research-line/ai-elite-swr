@@ -82,7 +82,7 @@
 %% --- Abstract ----------------------------------------------------------------
 \begin{abstract}
 \noindent
-This paper presents \emph{Synthetic Worldview Reconstruction} (SWR) -- a method for reconstructing the collective belief systems of sociologically defined groups using large language models. SWR formulates worldview analysis as an inverse problem: given the aggregated public statements and documented actions of a group, reconstruct the latent belief system that most coherently generates these outputs. The method constructs a \emph{fictive synthetic person} -- a Weberian ideal type -- whose worldview represents the group's collective beliefs in distilled form. This paper abstracts SWR from its original application (a study of 100 influential AI actors; Geiger, 2026) into a transferable methodological framework. We describe the five-step protocol, the dimensional rating procedure, and the focus control infrastructure. Quality assurance is documented through empirical results from the pilot study: Intra-Model Inter-Instance Rating Reliability (IMIIRR) reaches ICC(2,1)\,=\,0.902 ($5 \times 2$ runs) and ICC(3,1)\,=\,0.847 ($N$\,=\,15 independent single-instance runs); cross-modal prediction achieves 72\% confirmation with 0\% contradiction; and a blinding robustness test shows $r$\,=\,0.987 across anonymization strategies. Tiered acceptance criteria distinguish between minimum requirements (Tier~1) and desirable extensions (Tier~2). A step-by-step application guide enables researchers to apply SWR to their own populations. The method is designed for group-level analysis, where it exploits a structural advantage: no LLM training corpus contains pre-formed collective worldviews of sociological groups, reducing the contamination risk that dominates individual-level approaches.
+This paper presents \emph{Synthetic Worldview Reconstruction} (SWR) -- a method for reconstructing the collective belief systems of sociologically defined groups using large language models. SWR formulates worldview analysis as an inverse problem: given the aggregated public statements and documented actions of a group, reconstruct the latent belief system that most coherently generates these outputs. The method constructs a \emph{fictive synthetic person} -- a Weberian ideal type -- whose worldview represents the group's collective beliefs in distilled form. This paper abstracts SWR from its original application (a study of 100 influential AI actors; Geiger, 2026) into a transferable methodological framework. We describe the five-step protocol, the dimensional rating procedure as one operationalization example, and the focus control infrastructure. Quality assurance is documented through empirical results from the pilot study: Intra-Model Inter-Instance Rating Reliability (IMIIRR) reaches ICC(2,1)\,=\,0.902 ($5 \times 2$ runs) and ICC(3,1)\,=\,0.847 ($N$\,=\,15 independent single-instance runs); cross-modal prediction achieves 72\% confirmation with 0\% contradiction; and a blinding robustness test shows $r$\,=\,0.987 across anonymization strategies. Tiered acceptance criteria distinguish between minimum requirements (Tier~1) and desirable extensions (Tier~2). A step-by-step application guide enables researchers to apply SWR to their own populations. The method is designed for group-level analysis, where it exploits a structural advantage: no LLM training corpus contains pre-formed collective worldviews of sociological groups, reducing the contamination risk that dominates individual-level approaches.
 
 \medskip
 \noindent\textbf{Keywords:} synthetic worldview reconstruction, LLM-assisted methodology, collective belief systems, ideal type, group-level analysis, computational social science, inter-instance reliability
@@ -114,6 +114,8 @@ Recent years have seen rapid growth in LLM-assisted social science research. \ci
 
 However, existing LLM-assisted approaches serve different purposes than SWR. \citet{Argyle2023} use LLMs to \emph{simulate} human samples -- ``silicon samples'' conditioned on demographic backstories to approximate survey responses. \citet{Ge2024} scale synthetic personas for \emph{data generation}. In both cases, the LLM generates data \emph{de novo}. SWR, by contrast, uses the LLM to \emph{compress} existing real-world data into a coherent representation. The synthetic person is not a simulacrum but an analytical condensation instrument -- closer to a Weberian ideal type than to a simulation agent.
 
+A closely related tradition is Critical Discourse Analysis \citep[CDA;][]{Fairclough1992, Wodak2001}, which applies qualitative analytical grids to texts to uncover power structures and ideology. CDA achieves rich interpretive depth but faces well-known scalability constraints: it typically operates on small corpora (5--20 texts) with limited inter-rater reliability. LLMs already address these constraints for \emph{analysis} of individual texts; what has been missing is a method for \emph{synthesis} at the group level -- enabling CDA and analogous analytical methods to be applied not to individual texts, but to group-aggregated synthetic representations. SWR provides this missing synthesis layer.
+
 What has been missing is a systematic method for reconstructing the \emph{coherent belief system} of a sociologically defined group from heterogeneous public data -- one that combines qualitative depth (narrative richness, tension detection, internal logic) with quantitative rigor (dimensional rating, reliability testing, cross-modal validation). SWR fills this gap.
 
 
@@ -123,7 +125,7 @@ What has been missing is a systematic method for reconstructing the \emph{cohere
 This paper makes three contributions:
 
 \begin{enumerate}[nosep]
-  \item \textbf{Method formalization:} It describes SWR as a transferable five-step protocol with explicit quality criteria, distinguishing it from related approaches (LLM-as-participant, synthetic data generation, automated coding).
+  \item \textbf{Method formalization:} It describes SWR as a transferable five-step protocol with explicit quality criteria, distinguishing it from related approaches (LLM-as-participant, synthetic data generation, automated coding, critical discourse analysis). The formalization separates two independent contributions: (a)~the synthesis pipeline (Steps~1--4) as a novel method for group-level belief system reconstruction from heterogeneous data, and (b)~dimensional rating (Step~5) as one specific, exchangeable operationalization applied in the pilot study.
   \item \textbf{Quality framework:} It presents empirical quality metrics from the pilot study -- IMIIRR, cross-modal prediction, expected-discrepancy control, blinding robustness -- and defines tiered acceptance criteria for future applications.
   \item \textbf{Application guide:} It provides a step-by-step guide enabling researchers to apply SWR to their own populations, including practical recommendations for data collection, prompt design, validation, and common pitfalls.
 \end{enumerate}
@@ -196,6 +198,8 @@ A separate prompt instructs the LLM to identify internal tensions, blind spots -
 \subsubsection{Step 5: Dimensional Rating}
 
 The synthesized worldview is rated on a set of researcher-defined dimensions using a numerical scale (e.g., 1--10). The dimensions operationalize the three dependent variables into measurable constructs. In the pilot study, 12~dimensions (D01--D12) were used, evenly distributed across the three DVs (Table~\ref{tab:dimensions}). The dimensional system is modular: researchers can define dimensions appropriate to their population and research questions.
+
+The five-step protocol is designed as a \emph{modular architecture}: Steps~1--4 constitute the synthesis pipeline and represent the core methodological innovation of SWR, producing the fictive synthetic person as the primary analytical object. Step~5 (dimensional rating) is one specific operationalization chosen for the pilot study and is in principle replaceable by other analytical procedures applied to the same synthesis product -- including discourse analysis, psychometric instruments, structured interview protocols, or comparative narrative analysis. The synthesis pipeline (Steps~1--4) can therefore serve as a general input stage for a wide range of analytical approaches.
 
 
 \subsection{Dimensional Rating: The 12-Dimension Example}
@@ -465,17 +469,17 @@ SWR occupies a distinct position at the intersection of qualitative and quantita
   \caption{SWR compared with related methodological approaches.}
   \label{tab:comparison}
   \scriptsize
-  \begin{tabular}{@{} p{2.5cm} p{2.0cm} p{2.0cm} p{2.0cm} p{2.0cm} p{2.0cm} @{}}
+  \begin{tabular}{@{} p{2.2cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} @{}}
     \toprule
-    \textbf{Feature} & \textbf{SWR} & \textbf{Thematic Analysis} & \textbf{Survey} & \textbf{LLM-as-Participant} & \textbf{Auto\-mated Coding} \\
+    \textbf{Feature} & \textbf{SWR} & \textbf{Thematic Analysis} & \textbf{Survey} & \textbf{LLM-as-Participant} & \textbf{Auto\-mated Coding} & \textbf{CDA} \\
     \midrule
-    Data source & Public statements + actions & Interviews, texts & Direct responses & LLM-generated & Existing texts \\[3pt]
-    Unit of analysis & Group & Variable & Individual & Simulated individual & Document \\[3pt]
-    Requires respondent access & No & Yes & Yes & No & No \\[3pt]
-    Captures coherence & Yes & Partially & No & Limited & No \\[3pt]
-    Scalable & Yes & Limited & Yes & Yes & Yes \\[3pt]
-    External validation & Cross-modal & Member checking & Test--retest & Demographic fit & Expert coding \\[3pt]
-    Primary risk & Coherence bias & Researcher bias & Response bias & Stereotype reprod. & Context loss \\
+    Data source & Public state\-ments + actions & Interviews, texts & Direct responses & LLM-generated & Existing texts & Texts (existing) \\[3pt]
+    Unit of analysis & Group & Variable & Individual & Simulated individual & Document & Variable \\[3pt]
+    Requires respondent access & No & Yes & Yes & No & No & No \\[3pt]
+    Captures coherence & Yes & Partially & No & Limited & No & Partially \\[3pt]
+    Scalable & Yes & Limited & Yes & Yes & Yes & Limited \\[3pt]
+    External validation & Cross-modal & Member checking & Test--retest & Demographic fit & Expert coding & Analyst triangulation \\[3pt]
+    Primary risk & Coherence bias & Researcher bias & Response bias & Stereotype reprod. & Context loss & Small N, subjectivity \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -485,6 +489,8 @@ SWR occupies a distinct position at the intersection of qualitative and quantita
 \textbf{SWR vs.\ LLM-as-Participant} \citep{Argyle2023}. LLM-as-Participant generates synthetic data by conditioning the LLM on demographic backstories. SWR compresses real data through LLM-assisted synthesis. The inputs and outputs are fundamentally different: LLM-as-Participant produces survey responses; SWR produces worldview profiles. The contamination structure also differs: LLM-as-Participant draws on training data about demographic groups (by design); SWR structurally avoids this at the group level.
 
 \textbf{SWR vs.\ Automated Coding} \citep{Tai2024}. Automated coding classifies text segments into predefined categories. SWR goes further by integrating these segments into a coherent whole. Automated coding answers ``what topics are present?''; SWR answers ``what does this group believe?''
+
+\textbf{SWR vs.\ Critical Discourse Analysis} \citep[CDA;][]{Fairclough1992, Wodak2001}. CDA applies qualitative analytical grids to texts to uncover power structures, ideological formations, and hegemonic discourse patterns. Both CDA and SWR aim to reveal latent belief structures; their relationship is complementary rather than competitive. CDA analyzes individual texts or small corpora on power and ideology; SWR first synthesizes a group-aggregated representation, enabling CDA-style analysis to be applied at the group level rather than the text level. The synthesis pipeline (Steps~1--4) can thus function as a preprocessing stage that makes group-level discourse analysis tractable.
 
 \textbf{Theoretical roots.} SWR draws on \citet{Weber1904} (ideal type as analytical construct), \citet{Mannheim1929} (situational determination of thought), \citet{Gadamer1960} (the hermeneutic circle of understanding), and the sociology-of-knowledge tradition that treats worldviews as social phenomena amenable to empirical investigation \citep{BergerLuckmann1966}. The emerging field of computational hermeneutics \citep{Kommers2026} provides a conceptual bridge between these interpretive traditions and LLM-assisted analysis, while \citet{Hornby2024} examines how Gadamerian hermeneutics can inform the epistemology of LLM-mediated understanding. The inverse-problem formalization connects to \citet{Tarantola2005} and \citet{Hadamard1923}. The use of LLMs as analytical instruments aligns with the emerging ``LLMs for social science'' paradigm \citep{Ziems2024, Bail2024}, while the epistemological caution draws on \citet{Messeri2024}, who warn of ``illusions of understanding'' when AI tools are deployed without sufficient methodological reflection.
 
@@ -590,7 +596,7 @@ Synthetic Worldview Reconstruction offers a new method for reconstructing the co
   \item \textbf{Group-level analysis as default:} SWR is designed for collective belief systems, not individual portraits, providing a structural contamination advantage (cf.\ Abstract).
   \item \textbf{Dual data modality:} By operating on both statements and actions, SWR enables say-do comparison and cross-modal prediction -- validation mechanisms unavailable to methods that rely on a single data type.
   \item \textbf{Reliable instrumentation:} IMIIRR coefficients (ICC\,=\,0.847--0.902) demonstrate high measurement consistency. Reliability does not guarantee validity (cf.\ Section~\ref{sec:qa:imiirr}), but establishes a stable foundation for meaningful comparisons, with full prompt documentation replacing implicit coding rules.
-  \item \textbf{Transferability:} The five-step protocol, the dimensional rating framework, and the tiered acceptance criteria are designed for application to any sociologically defined population -- political elites, corporate cultures, religious communities, scientific disciplines.
+  \item \textbf{Transferability:} The five-step protocol, the dimensional rating framework, and the tiered acceptance criteria are designed for application to any sociologically defined population -- political elites, corporate cultures, religious communities, scientific disciplines. More broadly, the synthesis pipeline (Steps~1--4) is not bound to persons or worldviews: it can serve as an input stage wherever heterogeneous textual evidence needs to be synthesized into a coherent collective representation -- including organizational cultures, policy discourses, and historical periods.
 \end{enumerate}
 
 The method has been developed and validated through a pilot study of 100~influential AI actors \citep{Geiger2026PaperA}, which demonstrated its capacity to produce discriminating group profiles, detect internal tensions, and identify systematic patterns that aggregate reporting would obscure. The present paper abstracts these capabilities into a transferable methodological framework.
@@ -665,6 +671,11 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
   Gadamer, H.-G. (1960).
   \textit{Wahrheit und Methode}.
   T\"ubingen: Mohr.
+
+\bibitem[Fairclough(1992)]{Fairclough1992}
+  Fairclough, N. (1992).
+  \textit{Discourse and Social Change}.
+  Cambridge: Polity Press.
 
 \bibitem[Fugard \& Potts(2015)]{FugardPotts2015}
   Fugard, A.~J.~B.~\& Potts, H.~W.~W. (2015).
@@ -760,6 +771,11 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
   Weber, M. (1904).
   Die ``Objektivit\"at'' sozialwissenschaftlicher und sozialpolitischer Erkenntnis.
   \textit{Archiv f\"ur Sozialwissenschaft und Sozialpolitik}, \textit{19}, 22--87.
+
+\bibitem[Wodak \& Meyer(2001)]{Wodak2001}
+  Wodak, R.~\& Meyer, M. (Eds.) (2001).
+  \textit{Methods of Critical Discourse Analysis}.
+  London: Sage.
 
 \bibitem[Ziems et~al.(2024)]{Ziems2024}
   Ziems, C., Held, W., Shaikh, O., Chen, J., Zhang, Z.~\& Yang, D. (2024).
