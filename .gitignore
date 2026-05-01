@@ -105,6 +105,9 @@ _results_A/_g5_data/
 
 # Review artifacts (generated during review cycles)
 FAKTENCHECK_*.md
+REVIEW_CHAIN*.md
+reviews/
+paper_*/Step*.md
 
 # Artifacts from other tools
 compass_artifact_*.md

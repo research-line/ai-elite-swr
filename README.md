@@ -51,13 +51,13 @@ This works better at the **group level** than at the individual level, because:
 ## Repository Structure
 
 ```
-paper_A/            AI Elite papers (EN + DE, .tex + .pdf) — v7.0
-paper_B/            SWR method papers (EN + DE, .tex + .pdf) — v6.0
+paper_A/            AI Elite papers (EN + DE, .tex + .pdf)
+paper_B/            SWR method papers (EN + DE, .tex + .pdf)
 _data_A/            Data collection pipeline
   collect/          56 data collection scripts
   coding/           12 coding scripts
   insert/           38 insert scripts
-  tools/            Infrastructure (create_db, extract_blinded, generate_topf)
+  tools/            Infrastructure (create_db, extract_blinded, generate_synthesis_unit)
 _results_A/         Analysis outputs for Paper A
   de/               13 German validation reports
   en/               12 English validation reports
@@ -82,14 +82,15 @@ prompts/            Prompt templates v2 (EN + DE)
 # 1. Rebuild database
 cd _data_A/tools && python create_db.py
 
-# 2. Run insert scripts (requires the collect scripts to have run first)
-python insert_*.py
+# 2. Run data collection and insert scripts as needed, one script or batch at a time
+cd ../collect && python collect_altman.py
+cd ../insert && python insert_adam_dangelo.py
 
 # 3. Generate synthesis units
-python generate_topf.py --all
+cd ../tools && python generate_synthesis_unit.py --all
 
 # 4. Compile papers
-cd ../paper_A && pdflatex KI_Elite_v2_en.tex && pdflatex KI_Elite_v2_en.tex
+cd ../../paper_A && pdflatex KI_Elite_v2_en.tex && pdflatex KI_Elite_v2_en.tex
 cd ../paper_B && pdflatex SWR_v3_en.tex && pdflatex SWR_v3_en.tex
 ```
 
@@ -115,7 +116,7 @@ cd ../paper_B && pdflatex SWR_v3_en.tex && pdflatex SWR_v3_en.tex
 
 ## Author
 
-**Lukas Geiger** — Independent Researcher, Bernau im Schwarzwald
+**Lukas Geiger** — Independent Researcher, Bernau
 ORCID: [0009-0005-7296-1534](https://orcid.org/0009-0005-7296-1534)
 
 ## AI Disclosure (Level 5 — Extensive)
