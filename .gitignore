@@ -35,6 +35,9 @@ Thumbs.db
 
 # Internal project management (not for public repo)
 Plan.txt
+BEWEISNOTIZ.md
+REVISE.txt
+SOLVED*.txt
 _archive/
 _Big_Data_Society/
 _review_*.md
@@ -57,6 +60,15 @@ UNTERSUCHUNGSPLAN_LEGACY.txt
 
 # Bad Bank (internal documentation of removed content)
 _bad_bank/
+
+# Private and workflow-only material
+_copilot/
+_partners/
+_private/
+_handoff/
+*_submission/
+*_SUBMISSION*/
+SUBMISSION*/
 
 # Credentials and sensitive data
 ZENODO_CREDENTIALS*.md
