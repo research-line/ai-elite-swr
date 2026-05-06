@@ -90,7 +90,7 @@ cd ../insert && python insert_adam_dangelo.py
 cd ../tools && python generate_synthesis_unit.py --all
 
 # 4. Compile papers
-cd ../../paper_A && pdflatex KI_Elite_v2_en.tex && pdflatex KI_Elite_v2_en.tex
+cd ../../paper_A && pdflatex KI_Elite_v3_en.tex && pdflatex KI_Elite_v3_en.tex
 cd ../paper_B && pdflatex SWR_v3_en.tex && pdflatex SWR_v3_en.tex
 ```
 

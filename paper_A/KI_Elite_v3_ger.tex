@@ -1,8 +1,8 @@
-%% HINWEIS: Die DE-Version wird parallel zur EN-Version gepflegt.
+%% HINWEIS: Die Kombi-PDF wird per Merge aus EN+GER erzeugt.
 %% Master: EN-Version. Bei Aenderungen immer EN zuerst, dann DE.
-%% Stand: 2026-03-31 v7.0 -- Instanztrennung, IMIIRR, 11 neue Validierungen
+%% Stand: 2026-05-06 v8.0 -- Quellencheck und bibliographische Metadaten
 %% =============================================================================
-%% KI_Elite_v2_ger.tex -- Deutsche Version
+%% KI_Elite_v3_ger.tex -- Deutsche Version
 %% Was denkt die KI-Elite? Kollektive Weltbild-Rekonstruktion
 %% der Gruppen innerhalb der 100 einflussreichsten KI-Akteure (2010--2026)
 %% Autor: Lukas Geiger, Unabhaengiger Forscher, Bernau
@@ -13,7 +13,7 @@
 %% --- Kodierung und Sprache ---------------------------------------------------
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[ngerman]{babel} % Deutscher Text -- Datei korrekt benannt als KI_Elite_v2_ger.tex
+\usepackage[ngerman]{babel} % Deutscher Text -- Datei korrekt benannt als KI_Elite_v3_ger.tex
 
 %% --- Schrift: Times New Roman ------------------------------------------------
 \usepackage{mathptmx}
@@ -52,6 +52,10 @@
 \usepackage{url}
 \usepackage[german=quotes]{csquotes}
 \usepackage[breaklinks=true]{hyperref}
+\setlength{\tabcolsep}{4pt}
+\setlength{\emergencystretch}{3em}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \hypersetup{
   colorlinks  = true,
   linkcolor   = black,
@@ -61,6 +65,9 @@
   pdftitle    = {Weltbild-Rekonstruktion der KI-Elite: Eine LLM-gestuetzte Analyse (2010--2026)},
   pdfsubject  = {Computational Social Science},
 }
+\makeatletter
+\renewcommand*{\HyperDestNameFilter}[1]{ger.#1}
+\makeatother
 
 %% --- Titelblock --------------------------------------------------------------
 \title{%
@@ -75,13 +82,14 @@
   \small Unabh\"angiger Forscher, Bernau, Deutschland
 }
 
-\date{M\"arz 2026}
+\date{Mai 2026}
 
 %% =============================================================================
 
 \begin{document}
 
 % Sprache: Deutsch (ngerman)
+\pagenumbering{gobble}
 
 %% =============================================================================
 
@@ -97,8 +105,8 @@ Diese Studie rekonstruiert die kollektiven Weltbilder soziologisch definierter G
 \noindent\textbf{Schl\"usselw\"orter:} KI-Elite, kollektives Weltbild, Gruppenanalyse, Transhumanismus, Large Language Models, Silicon Valley, Ideologieanalyse, Computational Social Science
 \end{abstract}
 
-\newpage
-\setcounter{page}{1}
+\clearpage
+\pagenumbering{arabic}
 
 %% =============================================================================
 %% 1. EINLEITUNG
@@ -242,7 +250,7 @@ Die drei abh\"angigen Variablen (AV1: Selbstbild, AV2: Weltbild, AV3: Menschenbi
   \caption{Die sechs Operationalisierungen der SWR.}
   \label{tab:ops}
   \small
-  \begin{tabularx}{\textwidth}{l l X l}
+  \begin{tabularx}{\textwidth}{l L{3.1cm} Y l}
     \toprule
     \textbf{Op} & \textbf{Technik} & \textbf{Beschreibung} & \textbf{MVs} \\
     \midrule
@@ -290,7 +298,7 @@ Tabelle~\ref{tab:zuordnung} gibt eine kompakte \"Ubersicht, welche Operationalis
   \caption{Zuordnung von Forschungsfragen, Operationalisierungen und Kern-SEs.}
   \label{tab:zuordnung}
   \footnotesize
-  \begin{tabularx}{\textwidth}{l l l X}
+  \begin{tabularx}{\textwidth}{l l l Y}
     \toprule
     \textbf{F} & \textbf{Ops} & \textbf{Kern-SEs} & \textbf{Gegenstand} \\
     \midrule
@@ -537,6 +545,7 @@ Aus den Daten lassen sich vier distinkte Weltbild-Typen identifizieren (Tabelle~
   \caption{Die vier Weltbild-Typen der KI-Elite. Die Werte sind Cluster-Durchschnitte aus den Gruppen-Synthesen; individuelle Abweichungen innerhalb eines Clusters k\"onnen erheblich sein (vgl.\ die Andreessen-Diskrepanz in der nachfolgenden Fu\ss{}note).}
   \label{tab:typen}
   \small
+  \resizebox{\textwidth}{!}{%
   \begin{tabular}{l c c c c}
     \toprule
     \textbf{Merkmal} & \textbf{I \glqq Architekt\grqq} & \textbf{II \glqq H\"uter\grqq} & \textbf{III \glqq Innovator\grqq} & \textbf{IV \glqq Befreier\grqq} \\
@@ -549,7 +558,8 @@ Aus den Daten lassen sich vier distinkte Weltbild-Typen identifizieren (Tabelle~
     D09 Menschenfreundl. & \textbf{3,3} & 5,8 & 4,8 & \textbf{6,5} \\
     D11 Egalitarismus & \textbf{2,8} & \textbf{7,2} & 5,0 & \textbf{7,5} \\
     \bottomrule
-  \end{tabular}
+  \end{tabular}%
+  }
 \end{table}
 
 Der \textbf{Architekt} vereint maximales Sendungsbewusstsein mit minimalem Egalitarismus: Machtkonzentration ist Voraussetzung f\"ur Handlungsf\"ahigkeit. Der \textbf{H\"uter} bildet den Gegenpol: maximale Verantwortung, Forderung nach institutioneller Begrenzung. Der \textbf{Innovator} steht dazwischen. Der \textbf{Befreier} ist die \"uberraschendste Entdeckung: minimale Machtkonzentration \emph{und} hoher Egalitarismus -- Regulierungsgegner, die Macht radikaler verteilen wollen als alle anderen, allerdings durch M\"arkte und Open-Source-Communities.\footnote{Der hohe D11-Wert des Befreier-Typs (7,5) und der niedrige D11-Wert einzelner Prototypen (z.\,B.\ Andreessen: D11=2) markieren eine Konstruktvalidit\"atsproblem: D11 misst Gleichheitsorientierung, nicht deren \emph{Mechanismus}. Marktlibertaerer Zugangs-Egalitarismus (Befreier) und redistributiver Egalitarismus (H\"uter) produzieren \"ahnliche Skalenwerte auf D11, meinen aber Verschiedenes. Der Prototyp-Wert bezieht sich auf die Einzelperson-Synthese, der Cluster-Wert auf das Gruppenaggregat -- Andreessens individuelles Profil weicht vom Cluster-Durchschnitt ab. K\"unftige Operationalisierungen sollten hier differenzieren.}
@@ -782,7 +792,7 @@ Tabelle~\ref{tab:validation_overview} gibt einen kompakten \"Uberblick \"uber di
   \caption{Validierungs\"ubersicht: Methodische Probleme, Gegenma\ss{}nahmen und Ergebnisse.}
   \label{tab:validation_overview}
   \scriptsize
-  \begin{tabular}{@{} p{2.4cm} p{1.4cm} p{4.2cm} p{4.5cm} p{1.0cm} @{}}
+  \begin{tabular}{@{} L{3.2cm} L{1.7cm} L{3.5cm} L{4.0cm} L{0.9cm} @{}}
     \toprule
     \textbf{Problem} & \textbf{Typ} & \textbf{Gegenma\ss{}nahme} & \textbf{Ergebnis} & \textbf{Ref.} \\
     \midrule
@@ -952,11 +962,13 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Barbrook, R.~\& Cameron, A. (1996).
   The Californian Ideology.
   \textit{Science as Culture}, \textit{6}(1), 44--72.
+  \url{https://doi.org/10.1080/09505439609526455}.
 
 \bibitem[Bengio et~al.(2024)]{Bengio2024}
   Bengio, Y., Hinton, G.~E.~et~al. (2024).
   Managing extreme AI risks amid rapid progress.
   \textit{Science}, \textit{384}(6698), 842--845.
+  \url{https://doi.org/10.1126/science.adn0117}.
 
 \bibitem[Berger \& Luckmann(1966)]{BergerLuckmann1966}
   Berger, P.~L.~\& Luckmann, T. (1966).
@@ -987,7 +999,7 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   OpenAI (2023).
   Our approach to AI safety.
   \textit{OpenAI Blog}, 5.~April 2023.
-  \url{https://openai.com/blog/our-approach-to-ai-safety}.
+  \url{https://openai.com/index/our-approach-to-ai-safety/}.
 
 \bibitem[Anthropic(2023)]{AnthropicCoreViews2023}
   Anthropic (2023).
@@ -1006,9 +1018,10 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   New York: FSG Originals.
 
 \bibitem[Ge et~al.(2024)]{Ge2024}
-  Ge, T.~et~al. (2024).
+  Ge, T., Chan, X., Wang, X., Yu, D., Mi, H.~\& Yu, D. (2024).
   Scaling synthetic data creation with 1{,}000{,}000{,}000 personas.
   \textit{arXiv:2406.20094}.
+  \url{https://doi.org/10.48550/arXiv.2406.20094}.
 
 % Geiger2026SWR entfernt -- Paper B wird nach Paper A Einreichung separat verfasst
 
@@ -1016,11 +1029,13 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Fugard, A.~J.~B.~\& Potts, H.~W.~W. (2015).
   Supporting thinking on sample sizes for thematic analyses: A quantitative tool.
   \textit{International Journal of Social Research Methodology}, \textit{18}(6), 669--684.
+  \url{https://doi.org/10.1080/13645579.2015.1005453}.
 
 \bibitem[Guest et~al.(2006)]{Guest2006}
   Guest, G., Bunce, A.~\& Johnson, L. (2006).
   How many interviews are enough? An experiment with data saturation and variability.
   \textit{Field Methods}, \textit{18}(1), 59--82.
+  \url{https://doi.org/10.1177/1525822X05279903}.
 
 \bibitem[Habermas(2001)]{Habermas2001}
   Habermas, J. (2001).
@@ -1031,16 +1046,19 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Hallgren, K.~A. (2012).
   Computing Inter-Rater Reliability for Observational Data: An Overview and Tutorial.
   \textit{Tutorials in Quantitative Methods for Psychology}, \textit{8}(1), 23--34.
+  \url{https://doi.org/10.20982/tqmp.08.1.p023}.
 
 \bibitem[Hayes(2025)]{Hayes2025}
   Hayes, A.~S. (2025).
-  `Conversing' With Qualitative Data: Can Generative AI Transform Qualitative Research?
-  \textit{International Journal of Qualitative Methods}, \textit{24}.
+  `Conversing' With Qualitative Data: Enhancing Qualitative Research Through Large Language Models (LLMs).
+  \textit{International Journal of Qualitative Methods}, \textit{24}, Article 16094069251322346.
+  \url{https://doi.org/10.1177/16094069251322346}.
 
 \bibitem[Jara-Ettinger(2019)]{JaraEttinger2019}
   Jara-Ettinger, J. (2019).
   Theory of mind as inverse reinforcement learning.
   \textit{Current Opinion in Behavioral Sciences}, \textit{29}, 105--110.
+  \url{https://doi.org/10.1016/j.cobeha.2019.04.010}.
 
 \bibitem[Kurzweil(2005)]{Kurzweil2005}
   Kurzweil, R. (2005).
@@ -1079,8 +1097,9 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
 
 \bibitem[Nicmanis \& Spurrier(2025)]{NicmanisSpurrier2025}
   Nicmanis, M.~\& Spurrier, H. (2025).
-  Getting Started with Artificial Intelligence Assisted Qualitative Analysis.
-  \textit{International Journal of Qualitative Methods}, \textit{24}.
+  Getting Started with Artificial Intelligence Assisted Qualitative Analysis: An Introductory Guide to Qualitative Research Approaches with Exploratory Examples from Reflexive Content Analysis.
+  \textit{International Journal of Qualitative Methods}, \textit{24}, Article 16094069251354863.
+  \url{https://doi.org/10.1177/16094069251354863}.
 
 \bibitem[Strauss \& Corbin(1990)]{StraussCorbin1990}
   Strauss, A.~\& Corbin, J. (1990).
@@ -1088,14 +1107,16 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Newbury Park: Sage.
 
 \bibitem[Tai et~al.(2024)]{Tai2024}
-  Tai, R.~et~al. (2024).
+  Tai, R.~H., Bentley, L.~R., Xia, X., Sitt, J.~M., Fankhauser, S.~C., Chicas-Mosier, A.~M.~\& Monteith, B.~G. (2024).
   An Examination of the Use of Large Language Models to Aid Analysis of Textual Data.
-  \textit{International Journal of Qualitative Methods}, \textit{23}.
+  \textit{International Journal of Qualitative Methods}, \textit{23}, Article 16094069241231168.
+  \url{https://doi.org/10.1177/16094069241231168}.
 
 \bibitem[Gebru \& Torres(2024)]{TorresGebru2024}
   Gebru, T.~\& Torres, \'E.~P. (2024).
-  The TESCREAL bundle: Eugenics and the promise of utopia through AGI.
+  The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence.
   \textit{First Monday}, \textit{29}(4).
+  \url{https://doi.org/10.5210/fm.v29i4.13636}.
 
 \bibitem[Turner(2006)]{Turner2006}
   Turner, F. (2006).
@@ -1121,6 +1142,7 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Floridi, L. (2019).
   Establishing the Rules for Building Trustworthy AI.
   \textit{Nature Machine Intelligence}, \textit{1}(6), 261--262.
+  \url{https://doi.org/10.1038/s42256-019-0055-y}.
 
 \bibitem[Couldry and Mejias(2019)]{Couldry2019}
   Couldry, N. \& Mejias, U.\,A. (2019).
@@ -1131,6 +1153,7 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Whittaker, M. (2021).
   The steep cost of capture.
   \textit{Interactions}, \textit{28}(6), 50--55.
+  \url{https://doi.org/10.1145/3488666}.
 
 \bibitem[Floridi(2023)]{Floridi2023}
   Floridi, L. (2023).
@@ -1146,23 +1169,27 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
 \bibitem[Santurkar et~al.(2023)]{Santurkar2023}
   Santurkar, S., Durmus, E., Ladhak, F., Lee, C., Liang, P.~\& Hashimoto, T. (2023).
   Whose opinions do language models reflect?
-  In: \textit{Proc.\ ICML 2023}.
+  In: \textit{Proceedings of the 40th International Conference on Machine Learning},
+  PMLR~202, 29971--30004.
+  \url{https://proceedings.mlr.press/v202/santurkar23a.html}.
 
 \bibitem[Argyle et~al.(2023)]{Argyle2023}
   Argyle, L.~P., Busby, E.~C., Fulda, N., Gubler, J.~R., Rytting, C. \& Wingate, D. (2023).
   Out of One, Many: Using Language Models to Simulate Human Samples.
-  \textit{Political Analysis}, 31(3), 337--351.
+  \textit{Political Analysis}, \textit{31}(3), 337--351.
+  \url{https://doi.org/10.1017/pan.2023.2}.
 
 \bibitem[Batzner et~al.(2025)]{Batzner2025WhosePersonae}
   Batzner, J., Stocker, V., Tang, B., Natarajan, A., Chen, Q., Schmid, S. \& Kasneci, G. (2025).
   Whose Personae? Synthetic Persona Experiments in LLM Research and Pathways to Transparency.
-  \textit{Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society}, 8(1), 343--354.
-  doi:10.1609/aies.v8i1.36553; arXiv:2512.00461.
+  \textit{Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society}, \textit{8}(1), 343--354.
+  \url{https://doi.org/10.1609/aies.v8i1.36553}; arXiv:2512.00461.
 
 \bibitem[Soysal \& T\"urkmen(2024)]{SoysalTurkmen2024}
   Soysal, Y.~\& T\"urkmen, S. (2024).
   Reinterpreting the Member Checking Validation Strategy in Qualitative Research Through the Hermeneutics Lens.
   \textit{Qualitative Inquiry in Education: Theory \& Practice}, \textit{2}(1), 42--63.
+  \url{https://doi.org/10.59455/qietp.19}.
 
 \bibitem[Acemoglu \& Johnson(2023)]{AcemogluJohnson2023}
   Acemoglu, D.~\& Johnson, S. (2023).
@@ -1218,15 +1245,10 @@ Die Stichprobe wurde durch ein dreistufiges Verfahren erstellt: (1)~22 systemati
 \section{Die 12 Rating-Dimensionen (D01--D12)}
 \label{app:dimensionen}
 
-\begin{longtable}{l l l l}
+\begin{tabular}{@{} L{1.1cm} L{4.8cm} L{4.3cm} L{4.5cm} @{}}
   \toprule
   \textbf{Dim.} & \textbf{Name} & \textbf{Pol 1 (=1)} & \textbf{Pol 10 (=10)} \\
   \midrule
-  \endfirsthead
-  \toprule
-  \textbf{Dim.} & \textbf{Name} & \textbf{Pol 1} & \textbf{Pol 10} \\
-  \midrule
-  \endhead
   D01 & Sendungsbewusstsein & Kein Auftrag & Messianisch \\
   D02 & Selbstwirksamkeit & Ohnmacht & Omnipotent \\
   D03 & Arbeitsethos & Distanz & Totale Identifikation \\
@@ -1240,17 +1262,16 @@ Die Stichprobe wurde durch ein dreistufiges Verfahren erstellt: (1)~22 systemati
   D11 & Egalitarismus & Ungleichheit nat\"urlich & Gleichheit anstreben \\
   D12 & Kontroll\"uberzeugung & Pessimismus & Volle Kontrolle \\
   \bottomrule
-\end{longtable}
+\end{tabular}
 
 
 \section{Reduktionskriterien (K1--K9)}
 \label{app:reduktion}
 
-\begin{longtable}{l l p{8cm}}
+\begin{tabular}{@{} L{1.0cm} L{2.8cm} L{10.8cm} @{}}
   \toprule
   \textbf{K} & \textbf{Typ} & \textbf{Beschreibung} \\
   \midrule
-  \endfirsthead
   K1 & obligatorisch & Fragestellungsbindung: Jede SE muss $\geq 1$ Forschungsfrage zugeordnet sein \\
   K2 & obligatorisch & Mindestgr\"o\ss{}e: $\geq 15$ Datenpunkte pro SE \\
   K3 & obligatorisch & Redundanzverbot: Echte Teilmengen werden eliminiert \\
@@ -1261,7 +1282,7 @@ Die Stichprobe wurde durch ein dreistufiges Verfahren erstellt: (1)~22 systemati
   K8 & Prinzip & Aggregationsfokus: Keine Einzelperson-SE \\
   K9 & Prinzip & Cluster-Verschmelzung: Bottom-Up ersetzt a-priori \\
   \bottomrule
-\end{longtable}
+\end{tabular}
 
 \textbf{Bilanz:} ${\sim}1.227$ theoretische SE $\to$ ${\sim}51$--$56$ Kern-SE (Reduktion ${\sim}95$\,\%).
 
@@ -1272,11 +1293,10 @@ Die Stichprobe wurde durch ein dreistufiges Verfahren erstellt: (1)~22 systemati
 Das Kern-Design umfasst 43 vordefinierte plus ${\sim}8$--$13$ emergente Syntheseeinheiten:
 
 {\small
-\begin{longtable}{r l l l}
+\begin{tabular}{@{} r L{3.2cm} L{7.4cm} L{2.0cm} @{}}
   \toprule
   \textbf{Nr} & \textbf{SE-ID} & \textbf{UV-Kombination} & \textbf{F} \\
   \midrule
-  \endfirsthead
   1 & GA\_ges\_AH & Alle, AH, Gesamt & F1a \\
   2 & GA\_ges\_A & Alle, nur A, Gesamt & F3a \\
   3 & GA\_ges\_H & Alle, nur H, Gesamt & F3a \\
@@ -1290,7 +1310,7 @@ Das Kern-Design umfasst 43 vordefinierte plus ${\sim}8$--$13$ emergente Synthese
   40--41 & GD\_*\_AH & Frauen, M\"anner & F5e \\
   42--43 & KG\_*\_AH & Konsistent, Widerspr\"uchlich & F3c \\
   \bottomrule
-\end{longtable}
+\end{tabular}
 }
 
 Zus\"atzlich: 9 Vergleichs-Runs (Op6). Kreuzmodale Vorhersage-Runs (Op4) wurden in dieser Studie nicht durchgef\"uhrt und verbleiben als Validierungsdesiderat.
@@ -1299,10 +1319,10 @@ Zus\"atzlich: 9 Vergleichs-Runs (Op6). Kreuzmodale Vorhersage-Runs (Op4) wurden 
 \section{Exemplarischer Prompt (Op2: Rating)}
 \label{app:prompt}
 
-Der folgende Prompt illustriert die Rating-Abfrage (Op2) f\"ur eine Gruppen-Synthese. S\"amtliche Prompts sind im Repository dokumentiert (\url{https://github.com/lukisch/ai-elite-worldview}).
+Der folgende Prompt illustriert die Rating-Abfrage (Op2) f\"ur eine Gruppen-Synthese. S\"amtliche Prompts sind im Repository dokumentiert (\url{https://github.com/research-line/ai-elite-swr}).
 
 \begin{quote}
-\small\ttfamily
+\small\raggedright
 Du erh\"altst eine Sammlung anonymisierter Aussagen und Handlungen einer Gruppe von Personen aus dem Technologiesektor. Auf Basis dieser Daten sollst du das kollektive Weltbild der Gruppe auf den folgenden 12~Dimensionen einsch\"atzen (Skala 1--10). Begr\"unde jede Einsch\"atzung mit konkreten Verweisen auf die Datenpunkte. [Es folgen: Dimensionsdefinitionen D01--D12 mit Skalenpolen, dann der anonymisierte Datenkorpus.]
 \end{quote}
 
