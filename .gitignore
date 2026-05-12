@@ -69,11 +69,18 @@ _handoff/
 *_submission/
 *_SUBMISSION*/
 SUBMISSION*/
+_sources/
 
 # Credentials and sensitive data
 ZENODO_CREDENTIALS*.md
 *CREDENTIALS*
 *.env
+
+# Research maintenance notes (internal, not yet publication-ready)
+FORSCHUNGSSTAND*.md
+GAPS*.md
+POI-USECASES*.md
+VERGRIFFEN*.md
 
 # Review chain results (internal, archived)
 _results_A/_archive/
