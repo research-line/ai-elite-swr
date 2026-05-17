@@ -91,7 +91,7 @@ cd ../tools && python generate_synthesis_unit.py --all
 
 # 4. Compile papers
 cd ../../paper_A && pdflatex KI_Elite_v3_en.tex && pdflatex KI_Elite_v3_en.tex
-cd ../paper_B && pdflatex SWR_v3_en.tex && pdflatex SWR_v3_en.tex
+cd ../paper_B && pdflatex SWR_v4_en.tex && pdflatex SWR_v4_en.tex
 ```
 
 ## Citation
@@ -110,7 +110,7 @@ cd ../paper_B && pdflatex SWR_v3_en.tex && pdflatex SWR_v3_en.tex
   title   = {Synthetic Worldview Reconstruction ({SWR}): A Methodological Framework for {LLM}-Assisted Group-Level Belief System Analysis},
   year    = {2026},
   doi     = {10.5281/zenodo.18736720},
-  note    = {Preprint, v6.0}
+  note    = {Working paper, v6.1}
 }
 ```
 

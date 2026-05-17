@@ -1,10 +1,10 @@
 %% =============================================================================
-%% SWR_v3_en.tex -- English version
+%% SWR_v4_en.tex -- English version
 %% Synthetic Worldview Reconstruction: A Method for LLM-Assisted
 %% Group-Level Belief System Analysis
 %% Autor: Lukas Geiger, Independent Researcher, Bernau
-%% Paper B v3.0 -- Complete rewrite (fresh start, no v2 legacy)
-%% Ground Truth: Paper A v7.0 (KI_Elite_v2_en.tex)
+%% Paper B v4.0 -- Source-check maintenance version
+%% Ground Truth: Paper A v8.0 live Zenodo version
 %% =============================================================================
 \documentclass[11pt,a4paper]{article}
 
@@ -23,6 +23,8 @@
 %% --- Line Spacing: 1.5 ------------------------------------------------------
 \usepackage{setspace}
 \onehalfspacing
+\emergencystretch=3em
+\sloppy
 
 %% --- Section Headings: sans-serif --------------------------------------------
 \usepackage{titlesec}
@@ -46,8 +48,15 @@
 \usepackage{amsmath,amssymb}
 \usepackage{enumitem}
 \usepackage{xcolor}
-\usepackage{url}
-\usepackage[breaklinks=true]{hyperref}
+\usepackage{xurl}
+\usepackage[unicode=true,breaklinks=true]{hyperref}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newenvironment{promptquote}{%
+  \begin{quote}\footnotesize\ttfamily\raggedright\sloppy
+}{%
+  \end{quote}
+}
+\setlength{\emergencystretch}{1.5em}
 \hypersetup{
   colorlinks  = true,
   linkcolor   = black,
@@ -56,6 +65,7 @@
   pdfauthor   = {Lukas Geiger},
   pdftitle    = {Synthetic Worldview Reconstruction: A Method for LLM-Assisted Group-Level Belief System Analysis},
   pdfsubject  = {Computational Social Science, Methodology},
+  pdfkeywords = {synthetic worldview reconstruction, LLM-assisted methodology, collective belief systems, ideal type, group-level analysis, computational social science, inter-instance reliability},
 }
 
 %% --- Title Block -------------------------------------------------------------
@@ -71,11 +81,12 @@
   \small Independent Researcher, Bernau, Germany
 }
 
-\date{March 2026}
+\date{May 2026}
 
 %% =============================================================================
 \begin{document}
 
+\hypersetup{pageanchor=false}
 \maketitle
 \thispagestyle{empty}
 
@@ -89,6 +100,7 @@ This paper presents \emph{Synthetic Worldview Reconstruction} (SWR) -- a method 
 \end{abstract}
 
 \newpage
+\hypersetup{pageanchor=true}
 \setcounter{page}{1}
 
 %% =============================================================================
@@ -332,7 +344,7 @@ Table~\ref{tab:validation} summarizes the complete validation battery from the p
   \caption{Quality assurance battery: measures, results, and status from the pilot study.}
   \label{tab:validation}
   \scriptsize
-  \begin{tabular}{@{} p{3.0cm} p{4.5cm} p{4.5cm} p{1.5cm} @{}}
+  \begin{tabularx}{\textwidth}{@{} p{2.7cm} Y Y p{1.8cm} @{}}
     \toprule
     \textbf{Measure} & \textbf{Design} & \textbf{Result} & \textbf{Status} \\
     \midrule
@@ -350,7 +362,7 @@ Table~\ref{tab:validation} summarizes the complete validation battery from the p
     Structural validation & PCA + HDBSCAN on $100 \times 12$ matrix & 5 components (80\% var.); 80--100\% noise & Completed \\[3pt]
     Inter-model comparison & Independent runs with different model & Future work & Open \\
     \bottomrule
-  \end{tabular}
+  \end{tabularx}
 \end{table}
 
 
@@ -468,20 +480,23 @@ SWR occupies a distinct position at the intersection of qualitative and quantita
   \centering
   \caption{SWR compared with related methodological approaches.}
   \label{tab:comparison}
-  \scriptsize
-  \begin{tabular}{@{} p{2.2cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} p{1.7cm} @{}}
+  \footnotesize
+  \setlength{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{1.05}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{@{} l l l l l l l @{}}
     \toprule
-    \textbf{Feature} & \textbf{SWR} & \textbf{Thematic Analysis} & \textbf{Survey} & \textbf{LLM-as-Participant} & \textbf{Auto\-mated Coding} & \textbf{CDA} \\
+    \textbf{Feature} & \textbf{SWR} & \shortstack[l]{\textbf{Thematic}\\\textbf{Analysis}} & \textbf{Survey} & \shortstack[l]{\textbf{LLM-as-}\\\textbf{Participant}} & \shortstack[l]{\textbf{Automated}\\\textbf{Coding}} & \textbf{CDA} \\
     \midrule
-    Data source & Public state\-ments + actions & Interviews, texts & Direct responses & LLM-generated & Existing texts & Texts (existing) \\[3pt]
-    Unit of analysis & Group & Variable & Individual & Simulated individual & Document & Variable \\[3pt]
-    Requires respondent access & No & Yes & Yes & No & No & No \\[3pt]
+    Data source & \shortstack[l]{Public statements\\+ actions} & \shortstack[l]{Interviews,\\texts} & \shortstack[l]{Direct\\responses} & LLM-generated & \shortstack[l]{Existing\\texts} & \shortstack[l]{Existing\\texts} \\[3pt]
+    Unit of analysis & Group & Variable & Individual & \shortstack[l]{Simulated\\individual} & Document & Variable \\[3pt]
+    \shortstack[l]{Requires respondent\\access} & No & Yes & Yes & No & No & No \\[3pt]
     Captures coherence & Yes & Partially & No & Limited & No & Partially \\[3pt]
     Scalable & Yes & Limited & Yes & Yes & Yes & Limited \\[3pt]
-    External validation & Cross-modal & Member checking & Test--retest & Demographic fit & Expert coding & Analyst triangulation \\[3pt]
-    Primary risk & Coherence bias & Researcher bias & Response bias & Stereotype reprod. & Context loss & Small N, subjectivity \\
+    External validation & Cross-modal & \shortstack[l]{Member\\checking} & Test--retest & \shortstack[l]{Demographic\\fit} & \shortstack[l]{Expert\\coding} & \shortstack[l]{Analyst\\triangulation} \\[3pt]
+    Primary risk & \shortstack[l]{Coherence\\bias} & \shortstack[l]{Researcher\\bias} & \shortstack[l]{Response\\bias} & \shortstack[l]{Stereotype\\reproduction} & \shortstack[l]{Context\\loss} & \shortstack[l]{Small N,\\subjectivity} \\
     \bottomrule
-  \end{tabular}
+  \end{tabular}}
 \end{table}
 
 \textbf{SWR vs.\ Thematic Analysis} \citep{Braun2006}. Both extract patterns from qualitative data, but thematic analysis identifies themes across a corpus while SWR reconstructs a coherent belief system. The key difference is the coherence constraint: thematic analysis can report contradictory themes side by side; SWR forces them into a single worldview portrait, making tensions visible as internal contradictions rather than separate categories.
@@ -640,7 +655,7 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
 \bibitem[Barros et~al.(2024)]{Barros2024}
   Barros, C.\,F., Azevedo, B.\,B., Graciano Neto, V.\,V., Kassab, M., Kalinowski, M., do Nascimento, H.\,A.\,D.~\& Bandeira, M.\,C.\,G.\,S.\,P. (2024).
   Large Language Model for Qualitative Research---A Systematic Mapping Study.
-  \textit{arXiv:2411.14473}.
+  \textit{arXiv:2411.14473}. \url{https://arxiv.org/abs/2411.14473}.
 
 \bibitem[Berger \& Luckmann(1966)]{BergerLuckmann1966}
   Berger, P.~L.~\& Luckmann, T. (1966).
@@ -655,17 +670,17 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
 \bibitem[Argyle et~al.(2023)]{Argyle2023}
   Argyle, L.~P., Busby, E.~C., Fulda, N., Gubler, J.~R., Rytting, C.~\& Wingate, D. (2023).
   Out of One, Many: Using Language Models to Simulate Human Samples.
-  \textit{Political Analysis}, \textit{31}(3), 337--351.
+  \textit{Political Analysis}, \textit{31}(3), 337--351. \url{https://doi.org/10.1017/pan.2023.2}.
 
 \bibitem[Bail(2024)]{Bail2024}
   Bail, C.~A. (2024).
   Can Generative AI improve social science?
-  \textit{Proceedings of the National Academy of Sciences}, \textit{121}(21), e2314021121.
+  \textit{Proceedings of the National Academy of Sciences}, \textit{121}(21), Article~e2314021121. \url{https://doi.org/10.1073/pnas.2314021121}.
 
 \bibitem[Braun \& Clarke(2006)]{Braun2006}
   Braun, V.~\& Clarke, V. (2006).
   Using thematic analysis in psychology.
-  \textit{Qualitative Research in Psychology}, \textit{3}(2), 77--101.
+  \textit{Qualitative Research in Psychology}, \textit{3}(2), 77--101. \url{https://doi.org/10.1191/1478088706qp063oa}.
 
 \bibitem[Gadamer(1960)]{Gadamer1960}
   Gadamer, H.-G. (1960).
@@ -680,22 +695,22 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
 \bibitem[Fugard \& Potts(2015)]{FugardPotts2015}
   Fugard, A.~J.~B.~\& Potts, H.~W.~W. (2015).
   Supporting thinking on sample sizes for thematic analyses: A quantitative tool.
-  \textit{International Journal of Social Research Methodology}, \textit{18}(6), 669--684.
+  \textit{International Journal of Social Research Methodology}, \textit{18}(6), 669--684. \url{https://doi.org/10.1080/13645579.2015.1005453}.
 
 \bibitem[Ge et~al.(2024)]{Ge2024}
   Ge, T.~et~al. (2024).
   Scaling synthetic data creation with 1{,}000{,}000{,}000 personas.
-  \textit{arXiv:2406.20094}.
+  \textit{arXiv:2406.20094}. \url{https://arxiv.org/abs/2406.20094}.
 
 \bibitem[Geiger(2026)]{Geiger2026PaperA}
   Geiger, L. (2026).
   What does the AI elite think? A synthetic worldview reconstruction of the 100 most influential AI actors (2010--2026).
-  Zenodo. DOI: 10.5281/zenodo.18736737.
+  Zenodo. \url{https://doi.org/10.5281/zenodo.18736737}.
 
 \bibitem[Guest et~al.(2006)]{Guest2006}
   Guest, G., Bunce, A.~\& Johnson, L. (2006).
   How many interviews are enough? An experiment with data saturation and variability.
-  \textit{Field Methods}, \textit{18}(1), 59--82.
+  \textit{Field Methods}, \textit{18}(1), 59--82. \url{https://doi.org/10.1177/1525822X05279903}.
 
 \bibitem[Hadamard(1923)]{Hadamard1923}
   Hadamard, J. (1923).
@@ -705,17 +720,17 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
 \bibitem[Hallgren(2012)]{Hallgren2012}
   Hallgren, K.~A. (2012).
   Computing Inter-Rater Reliability for Observational Data: An Overview and Tutorial.
-  \textit{Tutorials in Quantitative Methods for Psychology}, \textit{8}(1), 23--34.
+  \textit{Tutorials in Quantitative Methods for Psychology}, \textit{8}(1), 23--34. \url{https://doi.org/10.20982/tqmp.08.1.p023}.
 
-\bibitem[Hornby(2024)]{Hornby2024}
-  Hornby, R. (2024).
-  Is Generative AI Ready to Join the Conversation That We Are? Gadamer's Hermeneutics after ChatGPT.
-  \textit{Technophany: A Journal for Philosophy and Technology}, \textit{3}(1).
+\bibitem[Hornby(2025)]{Hornby2024}
+  Hornby, R. (2025).
+  Is Generative AI Ready to Join the Conversation That We Are?
+  \textit{Technophany: A Journal for Philosophy and Technology}, \textit{3}(1), 1--31. \url{https://doi.org/10.54195/technophany.18134}.
 
 \bibitem[Kommers et~al.(2026)]{Kommers2026}
   Kommers, C., Ahnert, R., Antoniak, M., Benetos, E., Benford, S., Bunz, M.~et~al. (2026).
   Computational Hermeneutics: Evaluating Generative AI as a Cultural Technology.
-  \textit{Frontiers in Artificial Intelligence}, \textit{9}, 1753041.
+  \textit{Frontiers in Artificial Intelligence}, \textit{9}, Article~1753041. \url{https://doi.org/10.3389/frai.2026.1753041}.
 
 \bibitem[Mannheim(1929)]{Mannheim1929}
   Mannheim, K. (1929).
@@ -725,42 +740,42 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
 \bibitem[Messeri \& Crockett(2024)]{Messeri2024}
   Messeri, L.~\& Crockett, M.~J. (2024).
   Artificial intelligence and illusions of understanding in scientific research.
-  \textit{Nature}, \textit{627}, 49--58.
+  \textit{Nature}, \textit{627}, 49--58. \url{https://doi.org/10.1038/s41586-024-07146-0}.
 
 \bibitem[Norman(2010)]{Norman2010}
   Norman, G. (2010).
   Likert scales, levels of measurement and the ``laws'' of statistics.
-  \textit{Advances in Health Sciences Education}, \textit{15}(5), 625--632.
+  \textit{Advances in Health Sciences Education}, \textit{15}(5), 625--632. \url{https://doi.org/10.1007/s10459-010-9222-y}.
 
 \bibitem[Santurkar et~al.(2023)]{Santurkar2023}
   Santurkar, S., Durmus, E., Ladhak, F., Lee, C., Liang, P.~\& Hashimoto, T. (2023).
   Whose opinions do language models reflect?
-  In: \textit{Proc.\ ICML 2023}.
+  In: \textit{Proceedings of the 40th International Conference on Machine Learning}, PMLR~202, 29971--30004. \url{https://proceedings.mlr.press/v202/santurkar23a.html}.
 
 \bibitem[Soysal \& T\"urkmen(2024)]{SoysalTurkmen2024}
   Soysal, Y.~\& T\"urkmen, S. (2024).
   Reinterpreting the Member Checking Validation Strategy in Qualitative Research Through the Hermeneutics Lens.
-  \textit{Qualitative Inquiry in Education: Theory \& Practice}, \textit{2}(1), 42--63.
+  \textit{Qualitative Inquiry in Education: Theory \& Practice}, \textit{2}(1), 42--63. \url{https://doi.org/10.59455/qietp.19}.
 
 \bibitem[Ornstein et~al.(2025)]{Ornstein2025}
   Ornstein, J.~T., Blasingame, E.~N.~\& Truscott, J.~S. (2025).
   How to Train Your Stochastic Parrot: Large Language Models for Political Texts.
-  \textit{Political Science Research and Methods}, \textit{13}(1), 47--64.
+  \textit{Political Science Research and Methods}, \textit{13}(2), 264--281. \url{https://doi.org/10.1017/psrm.2024.64}.
 
 \bibitem[Tai et~al.(2024)]{Tai2024}
   Tai, R.~H.~et~al. (2024).
   An Examination of the Use of Large Language Models to Aid Analysis of Textual Data.
-  \textit{International Journal of Qualitative Methods}, \textit{23}, 1--14.
+  \textit{International Journal of Qualitative Methods}, \textit{23}, Article~16094069241231168. \url{https://doi.org/10.1177/16094069241231168}.
 
 \bibitem[Wang et~al.(2025)]{Wang2025}
   Wang, Q., Erqsous, M., Barner, K.~E.~\& Mauriello, M.~L. (2025).
   LATA: A Pilot Study on LLM-Assisted Thematic Analysis of Online Social Network Data Generation Experiences.
-  \textit{Proceedings of the ACM on Human-Computer Interaction}, \textit{9}(CSCW), Article~124.
+  \textit{Proceedings of the ACM on Human-Computer Interaction}, \textit{9}(2), Article~124, 1--28. \url{https://doi.org/10.1145/3711022}.
 
 \bibitem[Trope \& Liberman(2010)]{TropeLiberman2010}
   Trope, Y.~\& Liberman, N. (2010).
   Construal-Level Theory of Psychological Distance.
-  \textit{Psychological Review}, \textit{117}(2), 440--463.
+  \textit{Psychological Review}, \textit{117}(2), 440--463. \url{https://doi.org/10.1037/a0018963}.
 
 \bibitem[Tarantola(2005)]{Tarantola2005}
   Tarantola, A. (2005).
@@ -780,7 +795,7 @@ This manuscript was drafted with the assistance of Claude Opus~4.6 (Anthropic; m
 \bibitem[Ziems et~al.(2024)]{Ziems2024}
   Ziems, C., Held, W., Shaikh, O., Chen, J., Zhang, Z.~\& Yang, D. (2024).
   Can Large Language Models Transform Computational Social Science?
-  \textit{Computational Linguistics}, \textit{50}(1), 237--291.
+  \textit{Computational Linguistics}, \textit{50}(1), 237--291. \url{https://doi.org/10.1162/coli_a_00502}.
 
 \end{thebibliography}
 
@@ -798,8 +813,7 @@ The following templates illustrate the five-step protocol. All prompts used in t
 
 \subsection{Step 2: Synthesis Prompt (Op1)}
 
-\begin{quote}
-\small\ttfamily
+\begin{promptquote}
 You receive a collection of anonymized statements and actions from a group of persons. Your task is to construct a fictional person whose worldview best explains the totality of the presented data. This person does not exist -- they are an analytical construct that distills the group's collective beliefs.
 
 Describe this person's:
@@ -813,34 +827,31 @@ Describe this person's:
 Also identify: Internal tensions, blind spots, and beliefs this person holds without being aware of them.
 
 [Data corpus follows]
-\end{quote}
+\end{promptquote}
 
 \subsection{Step 5: Rating Prompt (Op2)}
 
-\begin{quote}
-\small\ttfamily
+\begin{promptquote}
 You receive a collection of anonymized statements and actions from a group of persons in a professional domain. Based on these data, assess the collective worldview of the group on the following 12 dimensions (scale 1--10). Justify each assessment with concrete references to the data points.
 
 [Followed by: dimension definitions D01--D12 with scale poles, then the anonymized data corpus.]
-\end{quote}
+\end{promptquote}
 
 \subsection{Cross-Modal Prediction Prompts (Op4)}
 
 \textbf{Op4a (Prediction):}
-\begin{quote}
-\small\ttfamily
+\begin{promptquote}
 You receive the public statements of a group of persons. Based ONLY on these statements, predict 10 concrete actions you would expect from this group. Be specific: what investments, decisions, organizational changes, or political activities would follow from these stated beliefs?
 
 [Statement corpus follows]
-\end{quote}
+\end{promptquote}
 
 \textbf{Op4b (Evaluation):}
-\begin{quote}
-\small\ttfamily
+\begin{promptquote}
 You receive two inputs: (1) a list of 10 predicted actions and (2) the documented real actions of a group of persons. For each prediction, assess: Is it CONFIRMED by the real actions, PLAUSIBLE but without direct match, or CONTRADICTED?
 
 [Predictions + action corpus follow]
-\end{quote}
+\end{promptquote}
 
 
 \section{Glossary}

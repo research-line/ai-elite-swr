@@ -1,0 +1,871 @@
+﻿%% =============================================================================
+%% SWR_v4_ger.tex -- Deutsche Version
+%% Synthetic Worldview Reconstruction: A Method for LLM-Assisted
+%% Group-Level Belief System Analysis
+%% Autor: Lukas Geiger, Independent Researcher, Bernau
+%% Paper B v4.0 -- Quellencheck-Wartungsversion
+%% Ground Truth: Paper A v8.0 live Zenodo version
+%% =============================================================================
+\documentclass[11pt,a4paper]{article}
+
+%% --- Encoding and Language ---------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+%% --- Fonts: Times + Helvetica ------------------------------------------------
+\usepackage{mathptmx}
+\usepackage[scaled=0.92]{helvet}
+
+%% --- Page Layout -------------------------------------------------------------
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+%% --- Line Spacing: 1.5 ------------------------------------------------------
+\usepackage{setspace}
+\onehalfspacing
+\emergencystretch=3em
+\sloppy
+
+%% --- Section Headings: sans-serif --------------------------------------------
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily}{\thesection.}{0.5em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\sffamily}{\thesubsubsection}{0.5em}{}
+
+%% --- Citations: natbib -------------------------------------------------------
+\usepackage[round,authoryear,semicolon]{natbib}
+
+%% --- Packages ----------------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage[unicode=true,breaklinks=true]{hyperref}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newenvironment{promptquote}{%
+  \begin{quote}\footnotesize\ttfamily\raggedright\sloppy
+}{%
+  \end{quote}
+}
+\setlength{\emergencystretch}{1.5em}
+\hypersetup{
+  colorlinks  = true,
+  linkcolor   = black,
+  citecolor   = blue!60!black,
+  urlcolor    = blue!70!black,
+  pdfauthor   = {Lukas Geiger},
+  pdftitle    = {Synthetic Worldview Reconstruction: Eine Methode zur LLM-gestuetzten Analyse kollektiver Glaubenssysteme auf Gruppenebene},
+  pdfsubject  = {Computational Social Science, Methodologie},
+  pdfkeywords = {Synthetic Worldview Reconstruction, LLM-gestuetzte Methodologie, kollektive Glaubenssysteme, Idealtypus, Analyse auf Gruppenebene, Computational Social Science, Interinstanz-Reliabilitaet},
+}
+
+%% --- Title Block -------------------------------------------------------------
+\title{%
+  \sffamily\bfseries
+  Synthetic Worldview Reconstruction:\\[0.3em]
+  \large Eine Methode zur LLM-gestützten\\
+  Analyse kollektiver Glaubenssysteme auf Gruppenebene%
+}
+
+\author{%
+  Lukas Geiger\thanks{Korrespondenz: Lukas Geiger, Bernau, Deutschland. ORCID: \url{https://orcid.org/0009-0005-7296-1534}}\\[0.3em]
+  \small Unabhängiger Forscher, Bernau, Deutschland
+}
+
+\date{Mai 2026}
+
+%% =============================================================================
+\begin{document}
+
+\hypersetup{pageanchor=false}
+\maketitle
+\thispagestyle{empty}
+
+%% --- Abstract ----------------------------------------------------------------
+\begin{abstract}
+\noindent
+Dieses Paper präsentiert \emph{Synthetic Worldview Reconstruction} (SWR) -- eine Methode zur Rekonstruktion der kollektiven Glaubenssysteme soziologisch definierter Gruppen mittels großer Sprachmodelle. SWR formuliert Weltanschauungsanalyse als inverses Problem: Aus den aggregierten öffentlichen Äußerungen und dokumentierten Handlungen einer Gruppe wird das latente Glaubenssystem rekonstruiert, das diese beobachtbaren Outputs am kohärentesten erzeugt. Die Methode konstruiert eine \emph{fiktive Syntheseperson} -- einen Weberschen Idealtypus -- deren Weltanschauung die kollektiven Überzeugungen der Gruppe in destillierter Form repräsentiert. Dieses Paper abstrahiert SWR von seiner ursprünglichen Anwendung (einer Studie über 100 einflussreiche KI-Akteure; Geiger, 2026) zu einem übertragbaren methodologischen Rahmenwerk. Wir beschreiben das Fünfschritte-Protokoll, das Verfahren zur dimensionalen Bewertung als ein Operationalisierungsbeispiel und die Infrastruktur der Fokuskontrolle. Die Qualitätssicherung wird durch empirische Ergebnisse aus der Pilotstudie dokumentiert: Intra-Model Inter-Instance Rating Reliability (IMIIRR) erreicht ICC(2,1)\,=\,0,902 ($5 \times 2$ Durchläufe) und ICC(3,1)\,=\,0,847 ($N$\,=\,15 unabhängige Einzelinstanz-Durchläufe); modalitätsübergreifende Vorhersage erzielt 72\% Bestätigung bei 0\% Widerspruch; und ein Verblindungs-Robustheitstest zeigt $r$\,=\,0,987 über verschiedene Anonymisierungsstrategien hinweg. Abgestufte Akzeptanzkriterien unterscheiden zwischen Mindestanforderungen (Stufe~1) und wünschenswerten Erweiterungen (Stufe~2). Ein schrittweiser Anwendungsleitfaden ermöglicht es Forschenden, SWR auf eigene Populationen anzuwenden. Die Methode ist für die Analyse auf Gruppenebene konzipiert, wobei sie einen strukturellen Vorteil nutzt: Kein LLM-Trainingskorpus enthält vorgefertigte kollektive Weltanschauungen soziologischer Gruppen, was das Kontaminationsrisiko reduziert, das Ansätze auf Individualebene dominiert.
+
+\medskip
+\noindent\textbf{Schlüsselwörter:} \small Synthetic Worldview Reconstruction, LLM-gestützte Methodologie, kollektive Glaubenssysteme, Idealtypus, Analyse auf Gruppenebene, Computational Social Science, Interinstanz-Reliabilität
+\end{abstract}
+
+\newpage
+\hypersetup{pageanchor=true}
+\setcounter{page}{1}
+
+%% =============================================================================
+%% 1. EINLEITUNG
+%% =============================================================================
+\section{Einleitung}
+\label{sec:introduction}
+
+\subsection{Das Problem: Rekonstruktion kollektiver Weltanschauungen}
+\label{sec:intro:problem}
+
+Sozialwissenschaftler müssen häufig verstehen, was Gruppen glauben -- nicht als Summe individueller Meinungen, sondern als kohärente kollektive Muster. Politische Eliten, Führungsteams in Unternehmen, religiöse Gemeinschaften, militärische Kader und wissenschaftliche Disziplinen entwickeln geteilte \emph{Glaubenssysteme}, die ihr kollektives Handeln prägen. Ein Glaubenssystem umfasst, wie hier verwendet, drei Domänen von nah bis fern: Selbstbild (wie die Gruppe sich selbst sieht), Menschenbild (wie sie andere sieht) und Weltanschauung im engeren Sinne (wie sie die Welt sieht). In diesem Paper wird \glqq{}Weltanschauung\grqq{} durchgängig als Kurzbezeichnung für dieses integrierte Drei-Domänen-Konstrukt verwendet. Die Rekonstruktion dieser Glaubenssysteme in großem Maßstab stellt jedoch ein methodologisches Dilemma dar: Qualitative Methoden erreichen die erforderliche Tiefe, skalieren aber nicht; Surveyinstrumente skalieren, erfordern jedoch direkten Zugang zu den Befragten und erfassen nur, was die Teilnehmenden bereit und in der Lage sind zu artikulieren; quantitative Text-Mining-Ansätze erfassen Oberflächenmuster, verfehlen aber die Kohärenzstruktur von Weltanschauungen.
+
+Dieses Paper präsentiert \emph{Synthetic Worldview Reconstruction} (SWR), eine Methode, die die Fähigkeit großer Sprachmodelle (LLMs) nutzt, heterogene textuelle Evidenz zu kohärenten Darstellungen zu synthetisieren. SWR verwendet LLMs nicht, um Meinungen zu \emph{generieren} oder zu \emph{simulieren}, was eine Gruppe denken könnte. Vielmehr werden sie als \emph{analytische Komprimierungsinstrumente} eingesetzt: Auf Basis der dokumentierten Äußerungen und Handlungen einer Gruppe konstruiert das LLM ein kohärentes kollektives Porträt -- einen Weberschen Idealtypus \citep{Weber1904} --, das das Glaubenssystem der Gruppe in destillierter Form repräsentiert.
+
+Die Methode wurde in einer Pilotstudie entwickelt und validiert, die die kollektiven Weltanschauungen soziologisch definierter Gruppen innerhalb der 100 einflussreichsten KI-Akteure (2010--2026) rekonstruierte, basierend auf 3.132 Datenpunkten \citep{Geiger2026PaperA}. Das vorliegende Paper abstrahiert die Methode von dieser spezifischen Anwendung zu einem übertragbaren Rahmenwerk, das andere Forschende auf ihre eigenen Populationen anwenden können.
+
+
+\subsection{Methodologische Lücke}
+\label{sec:intro:gap}
+
+In den letzten Jahren war ein rasantes Wachstum LLM-gestützter sozialwissenschaftlicher Forschung zu verzeichnen. \citet{Ziems2024} liefern eine umfassende Roadmap für den Einsatz von LLMs als Werkzeuge der Computational Social Science. \citet{Bail2024} untersucht die Chancen und Risiken generativer KI für die Sozialwissenschaften im weiteren Sinne. \citet{Tai2024} zeigen, dass LLMs deduktives Kodieren qualitativer Daten mit einer Reliabilität durchführen können, die mit menschlichen Kodierern vergleichbar ist. \citet{Wang2025} erweitern dies auf LLM-gestützte thematische Analyse und zeigen, dass LLMs iterative Themenentwicklung unterstützen können. \citet{Barros2024} liefern ein systematisches Mapping von LLM-Anwendungen in der qualitativen Forschung und bestätigen, dass die meisten existierenden Arbeiten auf Kodierung und Klassifikation abzielen, nicht auf ganzheitliche Rekonstruktion von Glaubenssystemen. \citet{Ornstein2025} zeigen, dass Few-Shot-LLM-Prompts konventionelles überwachtes Lernen für politisches Text-Scaling übertreffen und etablieren LLMs damit als taugliche Instrumente für multidimensionale Textanalyse -- die Kategorie, zu der SWR gehört.
+
+Bestehende LLM-gestützte Ansätze dienen jedoch anderen Zwecken als SWR. \citet{Argyle2023} verwenden LLMs, um menschliche Stichproben zu \emph{simulieren} -- \glqq{}Silicon Samples\grqq{}, die auf demografische Hintergrundgeschichten konditioniert werden, um Surveyantworten zu approximieren. \citet{Ge2024} skalieren synthetische Personas zur \emph{Datengenerierung}. In beiden Fällen generiert das LLM Daten \emph{de novo}. SWR hingegen nutzt das LLM, um bestehende reale Daten in eine kohärente Darstellung zu \emph{komprimieren}. Die synthetische Person ist kein Simulakrum, sondern ein analytisches Kondensierungsinstrument -- näher an einem Weberschen Idealtypus als an einem Simulationsagenten.
+
+Eine eng verwandte Tradition ist die Kritische Diskursanalyse \citep[KDA;][]{Fairclough1992, Wodak2001}, die qualitative analytische Raster auf Texte anwendet, um Machtstrukturen und Ideologien aufzudecken. Die KDA erreicht reiche interpretative Tiefe, steht aber vor bekannten Skalierungsgrenzen: Sie operiert typischerweise auf kleinen Korpora (5--20~Texte) mit begrenzter Inter-Rater-Reliabilität. LLMs adressieren diese Einschränkungen bereits für die \emph{Analyse} einzelner Texte; was fehlte, war eine Methode für die \emph{Synthese} auf Gruppenebene -- die KDA und analoge Analysemethoden nicht auf einzelne Texte, sondern auf gruppenaggregierten synthetischen Repräsentationen anzuwenden. SWR stellt diese fehlende Syntheseschicht bereit.
+
+Was fehlte, war eine systematische Methode zur Rekonstruktion des \emph{kohärenten Glaubenssystems} einer soziologisch definierten Gruppe aus heterogenen öffentlichen Daten -- eine Methode, die qualitative Tiefe (narrative Reichhaltigkeit, Spannungserkennung, innere Logik) mit quantitativer Strenge (dimensionale Bewertung, Reliabilitätstests, modalitätsübergreifende Validierung) verbindet. SWR füllt diese Lücke.
+
+
+\subsection{Beitrag}
+\label{sec:intro:contribution}
+
+Dieses Paper leistet drei Beiträge:
+
+\begin{enumerate}[nosep]
+  \item \textbf{Methodenformalisierung:} Es beschreibt SWR als übertragbares Fünfschritte-Protokoll mit expliziten Qualitätskriterien und grenzt es von verwandten Ansätzen ab (LLM-als-Teilnehmer, synthetische Datengenerierung, automatisierte Kodierung, Kritische Diskursanalyse). Die Formalisierung trennt zwei unabhängige Beiträge: (a)~die Synthese-Pipeline (Schritte~1--4) als neuartige Methode zur Rekonstruktion von Glaubenssystemen auf Gruppenebene aus heterogenen Daten, und (b)~das dimensionale Rating (Schritt~5) als eine spezifische, austauschbare Operationalisierung aus der Pilotstudie.
+  \item \textbf{Qualitätsrahmenwerk:} Es präsentiert empirische Qualitätsmetriken aus der Pilotstudie -- IMIIRR, modalitätsübergreifende Vorhersage, Erwartungs-Diskrepanz-Kontrolle, Verblindungs-Robustheit -- und definiert abgestufte Akzeptanzkriterien für zukünftige Anwendungen.
+  \item \textbf{Anwendungsleitfaden:} Es bietet einen Schritt-für-Schritt-Leitfaden, der es Forschenden ermöglicht, SWR auf eigene Populationen anzuwenden, einschließlich praktischer Empfehlungen für Datenerhebung, Prompt-Design, Validierung und häufige Fallstricke.
+\end{enumerate}
+
+
+%% =============================================================================
+%% 2. DIE METHODE
+%% =============================================================================
+\section{Die Methode}
+\label{sec:method}
+
+\subsection{Weltanschauungsrekonstruktion als inverses Problem}
+\label{sec:method:inverse}
+
+SWR formuliert Weltanschauungsanalyse als inverses Problem im Sinne von \citet{Hadamard1923} und \citet{Tarantola2005}. Das \emph{Vorwärtsproblem} ist unmittelbar: Ein Glaubenssystem $W$ erzeugt beobachtbare Outputs (Äußerungen, Entscheidungen, Handlungen):
+\begin{equation}
+  W \;\longrightarrow\; \{A_1, A_2, \ldots, A_n,\; H_1, H_2, \ldots, H_m\}
+  \label{eq:forward}
+\end{equation}
+wobei $A_i$ öffentliche Äußerungen und $H_j$ dokumentierte Handlungen sind. Das \emph{inverse Problem} verläuft in entgegengesetzter Richtung: Aus den beobachtbaren Outputs einer soziologisch definierten Gruppe $G$ wird das latente Glaubenssystem $W_G^*$ rekonstruiert, das diese Outputs am kohärentesten erzeugt:
+\begin{equation}
+  \{A_1, \ldots, A_n,\; H_1, \ldots, H_m\} \;\longrightarrow\; W_G^*
+  \label{eq:inverse}
+\end{equation}
+
+Dieses inverse Problem ist \emph{schlecht gestellt} im Sinne Hadamards: Die Lösung ist weder eindeutig (mehrere Glaubenssysteme könnten dieselben beobachtbaren Outputs erzeugen) noch stabil (kleine Datenänderungen können verschiedene Rekonstruktionen hervorbringen). SWR begegnet der Schlecht-Gestelltheit durch drei Mechanismen: (1)~die vom LLM auferlegte Kohärenzbedingung bei der Synthese, die als Regularisierer analog zur Tichonow-Regularisierung in der klassischen Theorie inverser Probleme dient; (2)~die Idealtypus-Konstruktion, die explizit die \emph{kohärenteste} Interpretation sucht statt der einzig möglichen; und (3)~Multi-Run-Reliabilitätstests, die die Stabilität der Lösung quantifizieren.
+
+
+\subsection{Die fiktive Syntheseperson als Gruppendestillat}
+\label{sec:method:fiction}
+
+Das zentrale analytische Konstrukt in SWR ist die \emph{fiktive Syntheseperson} -- eine fiktionale Einzelperson, deren Weltanschauung die kollektiven Überzeugungen einer soziologisch definierten Gruppe in gereinigter Form repräsentiert. Dieses Konstrukt ist ein Weberscher Idealtypus \citep{Weber1904}: eine analytische Abstraktion, die vom Forschenden geschaffen wird, kein emergentes Muster, das in den Daten entdeckt wird. So wie Webers \glqq{}protestantische Ethik\grqq{} keine Beschreibung der Überzeugungen eines einzelnen Protestanten war, sondern eine idealtypische Verdichtung eines kollektiven Musters, kondensiert die fiktive Syntheseperson die heterogenen Daten einer Gruppe zu einem einzigen kohärenten Porträt.
+
+Der Fiktionsansatz erfüllt fünf methodologische Funktionen:
+
+\begin{enumerate}[nosep]
+  \item \textbf{Kontaminationsreduktion:} Kein LLM-Trainingskorpus enthält \glqq{}die kollektive Weltanschauung von CEOs\grqq{} oder \glqq{}das geteilte Glaubenssystem von Risikowarnern\grqq{} als vorgefertigtes Objekt. Die kollektive Weltanschauung wird durch die Synthese \emph{erzeugt}, nicht aus dem Gedächtnis abgerufen. Dies reduziert strukturell das primäre methodologische Risiko für LLM-basierte Rekonstruktion.\footnote{Dieser Vorteil ist spezifisch für die Analyse auf Gruppenebene. Bei der Analyse auf Individualebene für öffentliche Persönlichkeiten kann das LLM auf umfangreiches gespeichertes Wissen zurückgreifen, wodurch das Kontaminationsrisiko erheblich höher ist.}
+  \item \textbf{Trennung von Weltanschauung und Biografie:} Die Fiktion entfernt individuelles biografisches Rauschen, PR-Strategien und situativen Kontext und isoliert die geteilten Überzeugungsmuster.
+  \item \textbf{Natürliche Aggregation:} Statt numerische Bewertungen über Individuen zu mitteln, führt das LLM eine qualitative Synthese durch -- es integriert Widersprüche, gewichtet nach Salienz und produziert eine kohärente Erzählung.
+  \item \textbf{Vergleichbarkeit:} Fiktive Synthesepersonen verschiedener Gruppen können entlang derselben Dimensionen systematisch verglichen werden, was eine strukturierte Intergruppenanalyse ermöglicht.
+  \item \textbf{Spannungssichtbarkeit:} Interne Widersprüche innerhalb des Glaubenssystems einer Gruppe werden als Spannungen \emph{innerhalb} der fiktiven Person sichtbar, anstatt weggemittelt zu werden.
+\end{enumerate}
+
+
+\subsection{Das Fünfschritte-Protokoll}
+\label{sec:method:protocol}
+
+SWR verläuft in fünf operativen Schritten. Die Schritte~2--4 (Synthese, Interview, Metareflexion) werden innerhalb einer einzelnen LLM-Sitzung durchgeführt, um den Gesprächskontext zu bewahren. Schritt~5 (dimensionale Bewertung) kann eine separate Sitzung verwenden. Für jede \emph{Syntheseeinheit} wird eine neue Sitzung gestartet, um Querkontamination zwischen Gruppen zu verhindern. Instance Separation (Abschnitt~\ref{sec:method:instance}) gilt für \emph{Reliabilitätsdurchläufe}: Wenn dieselbe SE mehrfach für die IMIIRR-Schätzung verarbeitet wird, muss jeder Durchlauf einen vollständig unabhängigen Agenten verwenden.
+
+\subsubsection{Schritt 1: Zusammenstellung des Datenkorpus auf Gruppenebene}
+
+Für jede soziologisch definierte Gruppe (z.\,B. \glqq{}alle CEOs\grqq{}, \glqq{}alle Risikowarner\grqq{}) werden die Äußerungen und Handlungen aller Gruppenmitglieder in einem einzigen Dossier zusammengeführt, chronologisch geordnet. Es erfolgt keine zwischengeschaltete Aggregation auf Individualebene: Das kollektive Porträt entsteht direkt aus der zusammengeführten Evidenz, analog dazu, wie ein Historiker den \emph{Zeitgeist} einer Epoche aus Primärquellen rekonstruiert statt aus gemittelten Biografien.
+
+\emph{Datentypen.} SWR operiert auf zwei Datentypen: \textbf{öffentliche Äußerungen} (wörtliche Zitate aus Interviews, Keynotes, Podcasts, Social-Media-Posts, Blogbeiträgen, Büchern, Anhörungen im Kongress) und \textbf{beobachtbare Handlungen} (Investitionsentscheidungen, Firmengründungen, Personalentscheidungen, politische Aktivitäten, Produkteinführungen). In der Pilotstudie umfasste der Gesamtkorpus 1.738~Äußerungen und 1.394~Handlungen (3.132~Datenpunkte) für 100~Akteure \citep{Geiger2026PaperA}.
+
+\emph{Mindest-Datendichte.} Basierend auf Forschung zur qualitativen Sättigung \citep{Guest2006, FugardPotts2015} wird ein Minimum von 15~Datenpunkten pro Syntheseeinheit empfohlen. In der Pilotstudie reichten die Datenpunkte pro Akteur von 20 bis 72 (Mittelwert: 31,3; SD~$\approx$~12).
+
+\subsubsection{Schritt 2: LLM-gestützte Synthese einer fiktiven Syntheseperson}
+
+Der zusammengeführte Datenkorpus wird dem LLM mit der Anweisung präsentiert, eine fiktive Syntheseperson zu konstruieren, deren Weltanschauung die Gesamtheit der präsentierten Daten am besten erklärt. Das Prompt-Design folgt den Prinzipien der Fokuskontrolle (Abschnitt~\ref{sec:method:focus}): In diesem Stadium werden keine Gruppenbezeichnungen, keine erwarteten Ergebnisse und keine Dimensionskategorien erwähnt. Das LLM erzeugt ein narratives Porträt -- Selbstbild, Weltanschauung, Menschenbild --, das die heterogenen Daten zu einem kohärenten Ganzen synthetisiert.
+
+\subsubsection{Schritt 3: Strukturiertes Interview}
+
+Die fiktive Syntheseperson wird einem strukturierten dreiteiligen Interview unterzogen: (1)~Selbstbild (\glqq{}Wer sind Sie? Was treibt Sie an?\grqq{}), (2)~Weltanschauung (\glqq{}Wie funktioniert die Welt? Welche Rolle spielen Technologie/Macht/Fortschritt?\grqq{}) und (3)~Menschenbild (\glqq{}Was ist die Natur des Menschen? Kann er verbessert werden?\grqq{}). Diese drei Domänen bilden die abhängigen Variablen (DV1--DV3) des SWR-Rahmenwerks -- eine Progression von nah (Selbst) über Andere (Menschheit) zu fern (Welt), die die Struktur psychologischer Distanz gemäß der Construal Level Theory widerspiegelt \citep{TropeLiberman2010}. Zusammen bilden sie das untersuchte Glaubenssystem; \glqq{}Weltanschauung\grqq{} im engeren Sinne bezieht sich auf DV2, wird in diesem Paper aber durchgängig als Kurzbezeichnung für das integrierte Drei-Domänen-Konstrukt verwendet. Das qualitative Interview generiert das Material; die quantitative Messung erfolgt in Schritt~5 durch dimensionale Bewertung (D01--D12, vier Dimensionen pro DV).
+
+\subsubsection{Schritt 4: Metareflexion}
+
+Ein separater Prompt weist das LLM an, interne Spannungen, blinde Flecken -- einschließlich dessen, was \citet{Bourdieu1977} als \emph{Doxa} bezeichnet: Überzeugungen, die als selbstverständlich gelten und daher für die Gruppe selbst unsichtbar sind -- sowie Widersprüche innerhalb der synthetisierten Weltanschauung zu identifizieren. Dieser Schritt wirkt der Kohärenzverzerrung des LLM (Abschnitt~\ref{sec:limitations:coherence}) entgegen, indem er explizit die Erkennung von Inkonsistenzen anfordert.
+
+\subsubsection{Schritt 5: Dimensionale Bewertung}
+
+Die synthetisierte Weltanschauung wird auf einer Reihe forscherseitig definierter Dimensionen mittels einer numerischen Skala (z.\,B. 1--10) bewertet. Die Dimensionen operationalisieren die drei abhängigen Variablen in messbare Konstrukte. In der Pilotstudie wurden 12~Dimensionen (D01--D12) verwendet, gleichmäßig über die drei DVs verteilt (Tabelle~\ref{tab:dimensions}). Das Dimensionssystem ist modular: Forschende können Dimensionen definieren, die für ihre Population und Forschungsfragen geeignet sind.
+
+Das Fünfschritte-Protokoll ist als \emph{modulare Architektur} konzipiert: Schritte~1--4 bilden die Synthese-Pipeline und stellen die methodische Kerninnovation von SWR dar, indem sie die fiktive Syntheseperson als primäres Analyseobjekt erzeugen. Schritt~5 (dimensionales Rating) ist eine spezifische Operationalisierung, die für die Pilotstudie gewählt wurde und grundsätzlich durch andere analytische Verfahren ersetzt werden kann, die auf dasselbe Syntheseprodukt angewendet werden -- einschließlich Diskursanalyse, psychometrischer Instrumente, strukturierter Interviewprotokolle oder komparativer Narrativanalyse. Die Synthese-Pipeline (Schritte~1--4) kann daher als allgemeine Eingangsstufe für ein breites Spektrum analytischer Ansätze dienen.
+
+
+\subsection{Dimensionale Bewertung: Das 12-Dimensionen-Beispiel}
+\label{sec:method:dimensions}
+
+Die Pilotstudie verwendete 12~Weltanschauungsdimensionen auf einer 1--10-Skala. Dieses Dimensionssystem wird hier als ausgearbeitetes Beispiel vorgestellt; andere Anwendungen erfordern domänenspezifische Dimensionen.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Die 12 Weltanschauungsdimensionen der Pilotstudie, gruppiert nach abhängiger Variable.}
+  \label{tab:dimensions}
+  \small
+  \begin{tabular}{l l l l l}
+    \toprule
+    \textbf{DV} & \textbf{Dim.} & \textbf{Name} & \textbf{Pol 1 (=1)} & \textbf{Pol 10 (=10)} \\
+    \midrule
+    \multirow{4}{*}{DV1: Selbstbild}
+    & D01 & Sendungsbewusstsein & Keine Mission & Messianisch \\
+    & D02 & Selbstwirksamkeit & Machtlos & Omnipotent \\
+    & D03 & Arbeitsethik & Distanz & Totale Identifikation \\
+    & D04 & Verantwortung & Keine & Weltverantwortung \\
+    \midrule
+    \multirow{4}{*}{DV2: Weltanschauung}
+    & D05 & Techno-Determinismus & Neutral & Bestimmt alles \\
+    & D06 & Fortschrittsglaube & Niedergang & Goldene Zukunft \\
+    & D07 & Machtkonzentration & Radikal verteilen & Bei Experten \\
+    & D08 & Dringlichkeit & Entspannt & Existenzieller Druck \\
+    \midrule
+    \multirow{4}{*}{DV3: Menschenbild}
+    & D09 & Menschenwürdigung & Ersetzbar & Einzigartig \\
+    & D10 & Posthumanismus & Mensch bleibt & Mensch wird mehr \\
+    & D11 & Egalitarismus & Ungleichheit natürlich & Streben nach Gleichheit \\
+    & D12 & Kontrollüberzeugung & Pessimismus & Volle Kontrolle \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\emph{Skalenbehandlung.} In Anlehnung an \citet{Norman2010}, der zeigt, dass parametrische Statistik robust gegenüber Verletzungen der Intervallskalenannahme für Ratingskalen ist, werden die ordinalen Bewertungen für Zwecke der Reliabilitätsberechnung (ICC) und deskriptiver Statistik (Mittelwert, SD) als quasi-intervallskaliert behandelt. Für inferenzstatistische Analysen werden nichtparametrische Methoden (Spearman, Kruskal-Wallis) eingesetzt.
+
+
+\subsection{Syntheseeinheiten und systematische Reduktion}
+\label{sec:method:su}
+
+Eine \emph{Syntheseeinheit} (SE) ist die atomare Einheit der SWR-Analyse: ein spezifischer Datenkorpus auf Gruppenebene, der durch das Fünfschritte-Protokoll verarbeitet wird. Jede SE wird durch die Kreuzung unabhängiger Variablen definiert -- z.\,B. \glqq{}alle CEOs, Äußerungen und Handlungen, gesamter Zeitraum\grqq{}. Der theoretische Kombinationsraum kann groß sein; in der Pilotstudie wurden ca. 1.227~mögliche SEs durch neun Reduktionskriterien auf 51--56~Kern-SEs reduziert (95,4\% Reduktion):
+
+\begin{enumerate}[nosep]
+  \item \textbf{Forschungsfragenbindung:} Jede SE muss mit mindestens einer Forschungsfrage verknüpft sein.
+  \item \textbf{Mindestgröße:} $\geq$~15 Datenpunkte pro SE.
+  \item \textbf{Keine Redundanz:} Echte Teilmengen werden eliminiert.
+  \item \textbf{Modalitätssparsamkeit:} Trennung in Äußerungen/Handlungen nur beim Vergleich von Sagen vs.\ Tun.
+  \item \textbf{Temporale Sparsamkeit:} Jährliche SEs nur für Longitudinalanalysen.
+  \item \textbf{Gruppensparsamkeit:} Nur a-priori-begründete Gruppen.
+  \item \textbf{Schrittweise Erweiterung:} Kern-SEs zuerst, Erweiterungen später.
+  \item \textbf{Fokus auf Gruppenebene:} Keine SEs für einzelne Personen.
+  \item \textbf{Cluster-Zusammenführung:} Bottom-up ersetzt A-priori, wenn die Daten es nahelegen.
+\end{enumerate}
+
+
+\subsection{Instance Separation}
+\label{sec:method:instance}
+
+Ein nicht verhandelbares Prinzip von SWR ist \emph{Instance Separation}: Jede LLM-Interaktion, die zu einer Messung beiträgt, muss in einer separaten Agenteninstanz ohne geteilten Kontext erfolgen. Konkret:
+
+\begin{itemize}[nosep]
+  \item Jeder Reliabilitätsdurchlauf (Abschnitt~\ref{sec:qa:imiirr}) ist eine separate Agenteninstanz.
+  \item Modalitätsübergreifende Vorhersage (Abschnitt~\ref{sec:qa:crossmodal}): Der Vorhersageagent und der Evaluationsagent teilen keinen Kontext.
+  \item Sagen-Tun-Vergleich: Die aussagenbasierte Synthese und die handlungsbasierte Synthese werden von unabhängigen Agenten erzeugt.
+\end{itemize}
+
+Durchläufe mit geteiltem Kontext sind keine unabhängigen Messungen. In der Pilotstudie wurde die Verletzung dieses Prinzips in einem frühen Sagen-Tun-Vergleich erkannt und korrigiert: Die Lücke schrumpfte von MAE\,=\,1,42 (gemeinsame Instanz, v1) auf MAE\,=\,0,75 (instanzgetrennt, v2) -- eine 47\%-Reduktion, sobald die Querkontamination eliminiert wurde \citep{Geiger2026PaperA}.
+
+
+\subsection{Fokuskontrolle}
+\label{sec:method:focus}
+
+Fokuskontrolle stellt sicher, dass das LLM aus den präsentierten Daten synthetisiert, anstatt Stereotypen zu reproduzieren oder gespeichertes Wissen abzurufen. Sie operiert auf zwei Ebenen:
+
+\begin{enumerate}[nosep]
+  \item \textbf{Anonymisierung:} Alle identifizierenden Informationen (Personennamen, Firmennamen, Produktnamen, Universitätszugehörigkeiten) werden durch neutrale Platzhalter ersetzt (z.\,B. [PERSON], [FIRMA]). Ein empirischer Test in der Pilotstudie bestätigte, dass Platzhalter-Tokens und fiktive Namen nahezu identische Ergebnisse liefern ($r$\,=\,0,987, MAE\,=\,0,33; \citealp{Geiger2026PaperA}).
+  \item \textbf{Aufgabenfokus:} Das Prompt-Design lenkt das LLM auf die Synthese einer kohärenten Weltanschauung aus den präsentierten Daten. Keine Gruppenbezeichnungen (\glqq{}KI-Elite\grqq{}, \glqq{}Silicon Valley\grqq{}), keine erwarteten Ergebnisse und keine Dimensionskategorien werden im Synthese-Prompt (Schritte~1--4) erwähnt. Dimensionen werden erst im Bewertungsschritt (Schritt~5) eingeführt.
+\end{enumerate}
+
+Fokuskontrolle ist keine Behauptung, dass das LLM Einzelpersonen nicht erkennen könne -- insbesondere bei berühmten öffentlichen Persönlichkeiten ist dies weder erreichbar noch auf Gruppenebene nötig. Das Ziel ist \emph{Aufgabencompliance}: sicherzustellen, dass das Modell aus den bereitgestellten Daten synthetisiert, nicht aus Stereotypen. Der strukturelle Vorteil der Analyse auf Gruppenebene (vgl.\ Abschnitt~\ref{sec:introduction}) verstärkt dieses Ziel.
+
+
+%% =============================================================================
+%% 3. QUALITÄTSSICHERUNG
+%% =============================================================================
+\section{Qualitätssicherung}
+\label{sec:qa}
+
+Dieser Abschnitt präsentiert das Qualitätssicherungsrahmenwerk, das in der Pilotstudie \citep{Geiger2026PaperA} entwickelt und empirisch getestet wurde. Alle berichteten Zahlen sind empirische Ergebnisse aus dieser Studie.
+
+
+\subsection{Intra-Model Inter-Instance Rating Reliability (IMIIRR)}
+\label{sec:qa:imiirr}
+
+IMIIRR quantifiziert die Konsistenz des als Instrument eingesetzten LLM über unabhängige Instanzen hinweg. Es ist das SWR-Analogon der Inter-Rater-Reliabilität in der qualitativen Kodierung -- mit dem entscheidenden Unterschied, dass jeder \glqq{}Rater\grqq{} identische Anweisungen (den Prompt) erhält, wodurch die implizite Variation entfällt, die menschliche Kodierteams belastet.
+
+\emph{Validierung 1: $5 \times 2$-Durchlauf-Konvergenz.} Fünf Syntheseeinheiten auf Gruppenebene wurden jeweils zweimal unabhängig von Claude Opus~4.6 verarbeitet. Die resultierenden D01--D12-Profile zeigten: Gesamt-Pearson $r$\,=\,0,908, ICC(2,1)\,=\,0,902, MAE\,=\,0,40 auf der 10-Punkte-Skala (Messpräzision $\pm$\,0,2 Skalenpunkte). Alle 12~Dimensionen waren über die Durchläufe hinweg stabil (Mittelwert $|\Delta| \leq 0,8$).
+
+\emph{Validierung 2: $N$\,=\,15 unabhängige Einzelinstanz-Durchläufe.} Fünfzehn vollständig unabhängige Opus-Instanzen -- jeweils ein separater Agent ohne geteilten Kontext -- verarbeiteten eine einzelne Syntheseeinheit auf Gruppenebene (GA\_ges\_AH). Ergebnisse: ICC(3,1)\,=\,0,847, mittlere SD\,=\,0,45 über alle 12~Dimensionen (Spannweite: 0,00--0,74). Eine Dimension (D02, Selbstwirksamkeit) zeigte perfekte Übereinstimmung: Alle 15~Instanzen vergaben exakt dieselbe Bewertung. Zehn von 12~Dimensionen hatten über 15~Durchläufe hinweg nur 2 verschiedene Werte.
+
+Diese IMIIRR-Koeffizienten übertreffen typische menschliche Inter-Rater-Reliabilität in der qualitativen Kodierung (ICC\,=\,0,6--0,8; \citealp{Hallgren2012}) und belegen, dass das LLM \emph{konsistente} Bewertungen über unabhängige Instanzen hinweg produziert. Eine kritische Unterscheidung muss aufrechterhalten werden: IMIIRR belegt \emph{Reliabilität} (Konsistenz der Messung), nicht \emph{Validität} (Genauigkeit der Messung). Ein hochreliables Instrument kann systematisch verzerrt sein. Die modalitätsübergreifende Vorhersage (Abschnitt~\ref{sec:qa:crossmodal}) liefert partielle Validitätsevidenz, indem sie LLM-generierte Vorhersagen gegen empirische Grundwahrheit testet. Eine externe Validierung -- unabhängige Domänenexperten, die dieselben Gruppen auf denselben Dimensionen bewerten -- steht jedoch noch aus (vgl.\ Abschnitt~\ref{sec:limitations:desiderata}). Bis eine solche Validierung durchgeführt wird, sollte IMIIRR so interpretiert werden, dass das Instrument \emph{stabil genug ist, um aussagekräftige Vergleiche zu ermöglichen}, nicht dass seine absoluten Werte akkurat sind.
+
+
+\subsection{Modalitätsübergreifende Vorhersage}
+\label{sec:qa:crossmodal}
+
+Modalitätsübergreifende Vorhersage ist der stärkste nicht-zirkuläre Validierungsmechanismus, der SWR zur Verfügung steht. Die Logik: Wenn eine rekonstruierte Weltanschauung funktionale Vorhersagekonsistenz besitzt, sollten Vorhersagen, die aus einer Datenmodalität (Äußerungen) abgeleitet werden, durch eine andere Modalität (Handlungen) bestätigt werden. Entscheidend ist, dass der Vorhersageagent (Op4a) und der Evaluationsagent (Op4b) separate Instanzen sind: Der Evaluator weiß nicht, dass die Vorhersagen von einer anderen Instanz desselben Modells generiert wurden, was einen verblindeten Vergleich sicherstellt.
+
+\emph{Protokoll.} Für fünf soziologische Gruppen generierte eine erste Agenteninstanz 10~Verhaltensvorhersagen ausschließlich aus dem Äußerungskorpus (Op4a). Eine \emph{separate} Agenteninstanz -- die die ursprünglichen Äußerungen nie gesehen hatte -- evaluierte diese Vorhersagen anhand der tatsächlich dokumentierten Handlungen (Op4b).
+
+\emph{Ergebnisse.} Von 50~Vorhersagen wurden 36 (72\%) direkt durch reale Handlungen bestätigt, 13 (26\%) waren plausibel, aber ohne direkte Übereinstimmung, und 0 (0\%) wurden widerlegt. Die Bestätigungsraten variierten nach Gruppenkohärenz: Ideologisch kohärente Gruppen (Akademiker, Risikowarner) erreichten 90\% Bestätigung; heterogene Gruppen (Investoren, Beschleuniger) erreichten 50\% Bestätigung mit zusätzlichen 40--50\% plausibel.
+
+
+\subsection{Erwartungs-Diskrepanz-Kontrolle}
+\label{sec:qa:discrepancy}
+
+Beim Vergleich aussagenbasierter und handlungsbasierter Weltanschauungsprofile (Sagen-Tun-Analyse) wird eine Baseline benötigt, um echte Diskrepanzen von Messrauschen zu unterscheiden. Die Pilotstudie konstruierte einen synthetischen Kontrollkorpus: eine fiktive Gruppe von Umweltwissenschaftlern mit 30~Äußerungen und 30~Handlungen ohne beabsichtigte Sagen-Tun-Lücke. Unter strikter Instance Separation (v2-Protokoll) betrug die Kontrollgruppen-Lücke MAE\,=\,0,92. Die reale Sagen-Tun-Lücke der KI-Elite unter vergleichbaren Bedingungen war MAE\,=\,0,75 -- \emph{unterhalb} der Kontroll-Baseline, was darauf hinweist, dass die aggregierte Lücke nicht zuverlässig vom Messrauschen unterscheidbar ist. Allerdings offenbarte die Zerlegung auf Gruppenebene substanzielle gruppenspezifische Lücken: CEOs (MAE\,=\,1,08) und Risikowarner (MAE\,=\,1,92) überschritten beide die Baseline mit stabilen Richtungsmustern.
+
+
+\subsection{Weitere Validierungsergebnisse}
+\label{sec:qa:additional}
+
+Tabelle~\ref{tab:validation} fasst die vollständige Validierungsbatterie der Pilotstudie zusammen.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Qualitätssicherungsbatterie: Maße, Ergebnisse und Status aus der Pilotstudie.}
+  \label{tab:validation}
+  \scriptsize
+  \begin{tabularx}{\textwidth}{@{} p{2.7cm} Y Y p{1.8cm} @{}}
+    \toprule
+    \textbf{Maß} & \textbf{Design} & \textbf{Ergebnis} & \textbf{Status} \\
+    \midrule
+    IMIIRR ($5 \times 2$) & 5 Gruppen, je 2 Durchläufe & ICC(2,1)\,=\,0,902, MAE\,=\,0,40 & Abgeschlossen \\[3pt]
+    IMIIRR ($N$\,=\,15) & 15 unabhängige Einzelinstanz-Durchläufe & ICC(3,1)\,=\,0,847, mittlere SD\,=\,0,45 & Abgeschlossen \\[3pt]
+    Modal.übergr. Vorhersage & 5 Gruppen $\times$ 10 Vorhersagen & 72\% bestätigt, 0\% widerlegt & Abgeschlossen \\[3pt]
+    Erwartungs-Diskrepanz & Fiktive Kontrollgruppe (v2) & Baseline MAE\,=\,0,92 & Abgeschlossen \\[3pt]
+    Verblindungs-Robustheit & Platzhalter vs.\ fiktive Namen & $r$\,=\,0,987, MAE\,=\,0,33 & Abgeschlossen \\[3pt]
+    Voller Identitätstest & Realnamen vs.\ Platzhalter & $r$\,=\,0,850, MAE\,=\,0,67 & Abgeschlossen \\[3pt]
+    Reihenfolge-Invarianz & 2 Permutationen von D01--D12 & 12/12 identisch & Abgeschlossen \\[3pt]
+    Ausreißer-Erkennung & 5 Gruppen, Passung & 80--88\% Passung pro Gruppe & Abgeschlossen \\[3pt]
+    Inversionskontrolle & Anti-Kohärenz-Test, 5 Gruppen & 58\% der Dim. $|\Delta| \geq 5$ & Abgeschlossen \\[3pt]
+    Anthropic Matched-Sample & Creator-Org-Bias-Test ($n$\,=\,9 vs.\ 9) & MAE\,=\,1,00, kein system. Bias & Abgeschlossen \\[3pt]
+    Aggregation-Synthese & Direkte vs.\ gemittelte Profile & $r$\,=\,0,623, Verstärkungseffekt & Abgeschlossen \\[3pt]
+    Strukturvalidierung & PCA + HDBSCAN auf $100 \times 12$ Matrix & 5 Komponenten (80\% Var.); 80--100\% Rauschen & Abgeschlossen \\[3pt]
+    Intermodell-Vergleich & Unabh. Durchläufe mit anderem Modell & Zukünftige Arbeit & Offen \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+
+\subsection{Abgestufte Akzeptanzkriterien}
+\label{sec:qa:tiers}
+
+Basierend auf den Ergebnissen der Pilotstudie schlagen wir ein zweistufiges Akzeptanzrahmenwerk für SWR-Anwendungen vor:
+
+\textbf{Stufe~1 (Erforderlich für jede SWR-Studie):}
+\begin{itemize}[nosep]
+  \item Within-Model-IMIIRR: ICC\,$>$\,0,75 (aus $\geq$\,5 unabhängigen Einzelinstanz-Durchläufen).
+  \item Prompt-Sensitivität: $<$\,15\% Variation in den Bewertungen über semantisch äquivalente Prompt-Varianten.
+  \item Mindestens ein externer Anker: modalitätsübergreifende Vorhersage, Expertenvalidierung oder Surveyvergleich.
+  \item Instance Separation für alle Messungen, die zu inferenzstatistischen Aussagen beitragen.
+\end{itemize}
+
+\textbf{Stufe~2 (Wünschenswert für methodologischen Beitrag):}
+\begin{itemize}[nosep]
+  \item Intermodell-ICC\,$>$\,0,70 (Replikation mit mindestens einem weiteren Frontier-Modell).
+  \item Diskriminabilitätstest: Die Methode unterscheidet zuverlässig zwischen Gruppen, von denen Unterschiede erwartet werden.
+  \item Erwartungs-Diskrepanz-Kontrolle: Eine Baseline zur Unterscheidung echter Effekte von Rauschen.
+  \item $N \geq 15$ unabhängige Durchläufe für formale Power-Analyse.
+\end{itemize}
+
+Die Pilotstudie erfüllt alle Stufe-1- und die meisten Stufe-2-Kriterien. Der Intermodell-Vergleich (Stufe~2) steht noch aus und stellt eine Priorität für zukünftige Replikation dar -- analog zur Replikation eines Surveys mit verschiedenen Interviewer-Teams.
+
+
+%% =============================================================================
+%% 4. ANWENDUNGSLEITFADEN
+%% =============================================================================
+\section{Anwendungsleitfaden}
+\label{sec:application}
+
+Dieser Abschnitt bietet einen Schritt-für-Schritt-Leitfaden für Forschende, die SWR auf eigene Populationen anwenden möchten. Der Leitfaden setzt Vertrautheit mit qualitativer Forschungsmethodologie und grundlegender LLM-Interaktion voraus.
+
+\subsection{Schritt 1: Population definieren und Daten erheben}
+\label{sec:app:step1}
+
+\textbf{Gruppen definieren.} SWR operiert auf soziologisch definierten Gruppen -- nicht auf Ad-hoc-Clustern. Gruppen sollten durch beobachtbare, intersubjektiv überprüfbare Kriterien definiert werden (institutionelle Rolle, Organisationszugehörigkeit, demografische Kategorie, ideologische Ausrichtung). Beispiel: \glqq{}Alle CEOs von Fortune-500-Technologieunternehmen\grqq{} ist eine klar definierte Gruppe; \glqq{}Menschen, die insgeheim an Transhumanismus glauben\grqq{} ist es nicht.
+
+\textbf{Heterogene Daten erheben.} Für jedes Gruppenmitglied sowohl Äußerungen (Interviews, Reden, Publikationen, Social Media) als auch Handlungen (Entscheidungen, Investitionen, organisatorisches Verhalten) erheben. Die Dualität von Äußerungs- und Handlungsdaten ist methodologisch bedeutsam: Sie ermöglicht den Sagen-Tun-Vergleich (Abschnitt~\ref{sec:qa:discrepancy}) und die modalitätsübergreifende Vorhersage (Abschnitt~\ref{sec:qa:crossmodal}).
+
+\textbf{Mindest-Datendichte sicherstellen.} Angestrebt werden $\geq$\,15 Datenpunkte pro Syntheseeinheit. In der Pilotstudie lieferten 20--72 Datenpunkte pro Akteur (Mittelwert: 31,3) ausreichende Dichte für stabile Synthesen auf Gruppenebene.
+
+\textbf{Provenienz dokumentieren.} Jeder Datenpunkt sollte Metadaten tragen: Quelle, Datum, Kontext. Für die Verwaltung großer Korpora wird eine relationale Datenbank empfohlen. Die Pilotstudie verwendete eine SQLite-Datenbank mit 9~Tabellen und 5~Views.
+
+\subsection{Schritt 2: Syntheseeinheiten bilden}
+\label{sec:app:step2}
+
+\textbf{Kombinationsraum abbilden.} Alle sinnvollen Kombinationen aus Gruppe $\times$ Modalität $\times$ Zeitraum auflisten. Die neun Reduktionskriterien (Abschnitt~\ref{sec:method:su}) anwenden, um diesen Raum auf eine handhabbare Menge von Kern-SEs zu reduzieren.
+
+\textbf{Priorisieren.} Mit der inklusivsten SE beginnen (alle Mitglieder, alle Daten, gesamter Zeitraum), um ein Basisprofil zu etablieren. Dann gruppenspezifische SEs zum Vergleich ergänzen.
+
+\textbf{Daten direkt zusammenführen.} Für jede SE die Rohdaten aller Gruppenmitglieder in einem einzigen chronologischen Dossier zusammenfassen. Nicht zuerst Individualprofile aggregieren -- die Gruppensynthese soll aus der zusammengeführten Evidenz entstehen.
+
+\subsection{Schritt 3: Das Prompt-Protokoll durchführen}
+\label{sec:app:step3}
+
+\textbf{Fokuskontrolle anwenden.} Vor der Dateneingabe in das LLM alle identifizierenden Informationen durch neutrale Platzhalter ersetzen. Ein Verblindungsskript vorbereiten, das auf das spezifische Datenformat abgestimmt ist.
+
+\textbf{Instance Separation einhalten.} Jeder Schritt, der zu einer eigenständigen Messung beiträgt, muss eine frische LLM-Instanz ohne geteilten Kontext verwenden. Dies ist besonders kritisch für:
+\begin{itemize}[nosep]
+  \item Reliabilitätsdurchläufe: Jedes Replikat ist eine separate Instanz.
+  \item Modalitätsübergreifende Vorhersage: Vorhersageagent und Evaluator teilen keinen Kontext.
+  \item Sagen-Tun-Vergleich: Aussagenbasierte und handlungsbasierte Synthesen werden unabhängig erzeugt.
+\end{itemize}
+
+\textbf{Temperatur auf 0 setzen.} Dies maximiert die Reproduzierbarkeit. Auch bei Temperatur~0 sind LLM-Outputs nicht vollständig deterministisch; Multi-Run-Reliabilitätstests quantifizieren die Restvariation.
+
+\textbf{Die fünf Schritte durchführen.} Für jede SE das Protokoll sequenziell ausführen: Datenzusammenstellung $\to$ Synthese $\to$ strukturiertes Interview $\to$ Metareflexion $\to$ dimensionale Bewertung. Alle Prompts und Modellparameter dokumentieren.
+
+\subsection{Schritt 4: Dimensionen definieren und bewerten}
+\label{sec:app:step4}
+
+\textbf{Dimensionssystem entwerfen.} Die 12~Dimensionen der Pilotstudie (Tabelle~\ref{tab:dimensions}) sind spezifisch für die KI-Elite-Anwendung. Für die eigene Population Dimensionen definieren, die die für die Forschungsfragen relevanten Weltanschauungskonstrukte erfassen. Jede Dimension sollte klar beschriftete Pole haben (was bedeutet 1? was bedeutet 10?) und möglichst unabhängig von anderen Dimensionen sein.
+
+\textbf{Jede SE bewerten.} Die synthetisierte Weltanschauung (aus den Schritten~2--4) zusammen mit den Dimensionsdefinitionen einer frischen LLM-Instanz präsentieren. Für jede Dimension eine numerische Bewertung mit Begründung anfordern. Die Begründung dient zwei Zwecken: Sie ermöglicht dem Forschenden, zu verifizieren, dass die Bewertung die Daten widerspiegelt, und sie dokumentiert die Argumentation für die Replikation.
+
+\textbf{Reliabilitätsdurchläufe durchführen.} Für mindestens eine SE die gesamte Pipeline (Schritte~1--5) mit $\geq$\,5 unabhängigen Instanzen wiederholen. ICC als IMIIRR-Metrik berechnen. Wenn ICC\,$<$\,0,75, die Dimensionsdefinitionen überarbeiten (mehrdeutige Pole sind die häufigste Ursache für niedrige Reliabilität).
+
+\subsection{Schritt 5: Validieren}
+\label{sec:app:step5}
+
+\textbf{Minimalvalidierung (Stufe~1):} IMIIRR-Tests, Sensitivitätsanalyse (Prompt-Formulierung variieren) und mindestens ein externer Anker durchführen. Das Protokoll der modalitätsübergreifenden Vorhersage wird als stärkster verfügbarer Anker empfohlen: Verhaltensvorhersagen aus Äußerungsdaten ableiten, dann anhand der tatsächlich dokumentierten Handlungen evaluieren.
+
+\textbf{Erweiterte Validierung (Stufe~2):} Wenn die Ressourcen es erlauben, Erwartungs-Diskrepanz-Kontrolle (synthetischer Kontrollkorpus), Intermodell-Replikation und formale Power-Analyse ($N \geq 15$ unabhängige Durchläufe) durchführen.
+
+
+\subsection{Praktische Hinweise}
+\label{sec:app:practical}
+
+\textbf{Kosten und Zeit.} In der Pilotstudie (100~Akteure, 3.132~Datenpunkte, 51--56~Kern-SEs, 11~abgeschlossene Validierungsexperimente plus ein identifiziertes Desiderat) beliefen sich die gesamten LLM-Kosten (Claude Opus~4.6 und Claude Sonnet~4.5 via API) auf ca. \$200--300 USD. Eine kleinere Studie (2--5~Gruppen, 200--500~Datenpunkte) würde \$20--50 USD kosten. Die Datenerhebung ist die primäre Zeitinvestition; die SWR-Pipeline selbst läuft in Stunden.
+
+\textbf{Häufige Fallstricke.}
+\begin{itemize}[nosep]
+  \item \emph{Geteilter Kontext:} Vergessen von Instance Separation bläht Reliabilitätsschätzungen auf und kann Scheineffekte erzeugen (die Pilotstudie dokumentierte eine 47\%-Aufblähung der Sagen-Tun-Lücke).
+  \item \emph{Leitende Prompts:} Die Aufnahme von Gruppenbezeichnungen (\glqq{}progressive Aktivisten\grqq{}, \glqq{}konservative Wähler\grqq{}) in Synthese-Prompts lädt zur Stereotyp-Reproduktion ein. Neutrale Beschreibungen verwenden.
+  \item \emph{Dimensionale Mehrdeutigkeit:} Schlecht definierte Skalenpole sind die primäre Ursache für niedrige IMIIRR. Die Dimensionen mit 3--5 Durchläufen pilottesten, bevor man sich auf das vollständige Protokoll festlegt.
+  \item \emph{Versuchung der Individualebene:} SWR ist für die Analyse auf Gruppenebene konzipiert. Die Anwendung auf Einzelpersonen führt das Kontaminationsrisiko wieder ein, das der Ansatz auf Gruppenebene strukturell vermeidet.
+  \item \emph{Überinterpretation einzelner Durchläufe:} Die Pilotstudie zeigte, dass Einzeldurchlauf-Schätzungen vom $N$\,=\,15-Mittelwert um MAE\,=\,0,73 abweichen. Multi-Run-Durchschnitte berichten, nicht Einzeldurchlauf-Ergebnisse, für jede Aussage, die auf präzisen numerischen Werten beruht.
+\end{itemize}
+
+\textbf{Transferskizze: SWR angewendet auf Klimawissenschaftler.} Ein Forschender, der die kollektiven Weltanschauungen von Klimawissenschaftlern untersucht (z.\,B. IPCC-Autoren vs.\ industriefinanzierte Forscher), würde wie folgt vorgehen: (1)~öffentliche Äußerungen (Kongressanhörungen, Meinungsbeiträge, Interviews) und Handlungen (Politikempfehlungen, Förderentscheidungen, institutionelle Zugehörigkeiten) für beide Gruppen erheben; (2)~Syntheseeinheiten definieren (\glqq{}IPCC-Autoren, alle Daten\grqq{} vs.\ \glqq{}industriefinanziert, alle Daten\grqq{}); (3)~domänenspezifische Dimensionen entwickeln -- z.\,B. \emph{Dringlichkeit des Handelns} (1\,=\,keine Eile bis 10\,=\,existenzieller Notfall), \emph{Vertrauen in Modelle} (1\,=\,skeptisch bis 10\,=\,volles Vertrauen), \emph{Rolle der Technologie} (1\,=\,Verhaltensänderung bis 10\,=\,Geoengineering); (4)~das Fünfschritte-Protokoll mit Instance Separation durchführen; (5)~die beiden Gruppenprofile auf dem Dimensionssystem vergleichen. Das erwartete Ergebnis: Zwei kontrastierende Weltanschauungsporträts, deren dimensionale Unterschiede aufzeigen, wo die Gruppen tatsächlich uneins sind vs.\ wo sie Gemeinsamkeiten teilen.
+
+
+%% =============================================================================
+%% 5. POSITIONIERUNG
+%% =============================================================================
+\section{Positionierung: SWR in der methodologischen Landschaft}
+\label{sec:positioning}
+
+SWR nimmt eine eigenständige Position an der Schnittstelle qualitativer und quantitativer Traditionen ein (Tabelle~\ref{tab:comparison}).
+
+\begin{table}[htbp]
+  \centering
+  \caption{SWR im Vergleich mit verwandten methodologischen Ansätzen.}
+  \label{tab:comparison}
+  \footnotesize
+  \setlength{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{1.05}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{@{} l l l l l l l @{}}
+    \toprule
+    \textbf{Merkmal} & \textbf{SWR} & \shortstack[l]{\textbf{Thematische}\\\textbf{Analyse}} & \textbf{Survey} & \shortstack[l]{\textbf{LLM-as-}\\\textbf{Participant}} & \shortstack[l]{\textbf{Automatisierte}\\\textbf{Kodierung}} & \textbf{KDA} \\
+    \midrule
+    Datenquelle & \shortstack[l]{Öffentl. Äußerungen\\+ Handlungen} & \shortstack[l]{Interviews,\\Texte} & \shortstack[l]{Direkte\\Antworten} & LLM-generiert & \shortstack[l]{Bestehende\\Texte} & \shortstack[l]{Bestehende\\Texte} \\[3pt]
+    Analyseeinheit & Gruppe & Variabel & Individuum & \shortstack[l]{Simuliertes\\Individuum} & Dokument & Variabel \\[3pt]
+    \shortstack[l]{Zugang zu Befragten\\erforderlich} & Nein & Ja & Ja & Nein & Nein & Nein \\[3pt]
+    Erfasst Kohärenz & Ja & Teilweise & Nein & Begrenzt & Nein & Teilweise \\[3pt]
+    Skalierbar & Ja & Begrenzt & Ja & Ja & Ja & Begrenzt \\[3pt]
+    Externe Validierung & Modal.übergr. & \shortstack[l]{Member\\Checking} & Test--Retest & \shortstack[l]{Demograf.\\Passung} & \shortstack[l]{Experten-\\Kodierung} & \shortstack[l]{Analyst-\\Triangulation} \\[3pt]
+    Primäres Risiko & \shortstack[l]{Kohärenz-\\verzerrung} & \shortstack[l]{Forscher-\\verzerrung} & \shortstack[l]{Antwort-\\verzerrung} & \shortstack[l]{Stereotyp-\\Reproduktion} & \shortstack[l]{Kontext-\\verlust} & \shortstack[l]{Kleines N,\\Subjektivität} \\
+    \bottomrule
+  \end{tabular}}
+\end{table}
+
+\textbf{SWR vs.\ Thematische Analyse} \citep{Braun2006}. Beide extrahieren Muster aus qualitativen Daten, aber die thematische Analyse identifiziert Themen über einen Korpus hinweg, während SWR ein kohärentes Glaubenssystem rekonstruiert. Der zentrale Unterschied ist die Kohärenzbedingung: Die thematische Analyse kann widersprüchliche Themen nebeneinander berichten; SWR zwingt sie in ein einzelnes Weltanschauungsporträt, wodurch Spannungen als interne Widersprüche sichtbar werden statt als separate Kategorien.
+
+\textbf{SWR vs.\ LLM-as-Participant} \citep{Argyle2023}. LLM-as-Participant generiert synthetische Daten, indem das LLM auf demografische Hintergrundgeschichten konditioniert wird. SWR komprimiert reale Daten durch LLM-gestützte Synthese. Inputs und Outputs sind fundamental verschieden: LLM-as-Participant produziert Surveyantworten; SWR produziert Weltanschauungsprofile. Auch die Kontaminationsstruktur unterscheidet sich: LLM-as-Participant greift (designgemäß) auf Trainingsdaten über demografische Gruppen zurück; SWR vermeidet dies auf Gruppenebene strukturell.
+
+\textbf{SWR vs.\ Automatisierte Kodierung} \citep{Tai2024}. Automatisierte Kodierung klassifiziert Textsegmente in vordefinierte Kategorien. SWR geht darüber hinaus, indem es diese Segmente zu einem kohärenten Ganzen integriert. Automatisierte Kodierung beantwortet \glqq{}Welche Themen sind präsent?\grqq{}; SWR beantwortet \glqq{}Was glaubt diese Gruppe?\grqq{}
+
+\textbf{SWR vs.\ Kritische Diskursanalyse} \citep[KDA;][]{Fairclough1992, Wodak2001}. Die KDA wendet qualitative analytische Raster auf Texte an, um Machtstrukturen, ideologische Formationen und hegemoniale Diskursmuster aufzudecken. Sowohl KDA als auch SWR zielen darauf ab, latente Glaubensstrukturen zu enthüllen; ihre Beziehung ist eher komplementär als kompetitiv. Die KDA analysiert einzelne Texte oder kleine Korpora im Hinblick auf Macht und Ideologie; SWR synthetisiert zunächst eine gruppenaggregierten Repräsentation und ermöglicht so KDA-ähnliche Analysen auf Gruppenebene statt auf Textebene. Die Synthese-Pipeline (Schritte~1--4) kann damit als Vorverarbeitungsstufe fungieren, die Diskursanalyse auf Gruppenebene handhabbar macht.
+
+\textbf{Theoretische Wurzeln.} SWR stützt sich auf \citet{Weber1904} (Idealtypus als analytisches Konstrukt), \citet{Mannheim1929} (Seinsverbundenheit des Denkens), \citet{Gadamer1960} (der hermeneutische Zirkel des Verstehens) und die wissenssoziologische Tradition, die Weltanschauungen als soziale Phänomene behandelt, die empirischer Untersuchung zugänglich sind \citep{BergerLuckmann1966}. Das entstehende Feld der Computational Hermeneutics \citep{Kommers2026} bietet eine konzeptuelle Brücke zwischen diesen interpretativen Traditionen und LLM-gestützter Analyse, während \citet{Hornby2024} untersucht, wie Gadamersche Hermeneutik die Epistemologie LLM-vermittelten Verstehens informieren kann. Die Formalisierung als inverses Problem verbindet sich mit \citet{Tarantola2005} und \citet{Hadamard1923}. Der Einsatz von LLMs als analytische Instrumente fügt sich in das aufkommende Paradigma \glqq{}LLMs für Sozialwissenschaften\grqq{} ein \citep{Ziems2024, Bail2024}, während die epistemologische Vorsicht auf \citet{Messeri2024} zurückgreift, die vor \glqq{}Illusionen des Verstehens\grqq{} warnen, wenn KI-Werkzeuge ohne hinreichende methodologische Reflexion eingesetzt werden.
+
+
+%% =============================================================================
+%% 6. LIMITATIONEN
+%% =============================================================================
+\section{Limitationen}
+\label{sec:limitations}
+
+\subsection{Kohärenzverzerrung als Instrumenteneigenschaft}
+\label{sec:limitations:coherence}
+
+LLMs sind auf logische Kohärenz optimiert; Menschen sind inhärent inkonsistent. Für die Weltanschauungsrekonstruktion ist diese Eigenschaft sowohl ein operativer Vorteil als auch eine Quelle systematischer Verzerrung \citep{Geiger2026PaperA}. Der Vorteil: Kohärenz ermöglicht SWR, ein stabiles, interpretierbares Profil auf Gruppenebene aus heterogenen Daten zu extrahieren -- die Methode \emph{nutzt} Kohärenz als Kompressionsmechanismus, analog dazu, wie die Faktorenanalyse Kovarianzstruktur nutzt. Die Verzerrung: Die resultierenden Weltanschauungstypen können schärfer konturiert erscheinen, als sie in der Realität sind. Interne Spannungen, die reale Personen erleben -- z.\,B. zwischen Machtstreben und Verantwortungsbewusstsein -- riskieren, vom LLM zugunsten eines konsistenten Profils aufgelöst zu werden.
+
+Die tatsächliche Limitation ist daher \emph{Überkohärenz}: Cluster, die schärfer sind als die empirische Realität. Der zugrunde liegende Mechanismus ist zweifach: Erstens incentiviert RLHF-getriebenes Alignment konversationelle Flüssigkeit und narrative Glätte, was LLMs dazu verleiten kann, kognitive Dissonanzen in den Quelldaten zu eliminieren; zweitens erzeugt der autoregressive Generierungsprozess jedes Token auf Basis des vorhergehenden Kontexts, was eine strukturelle Tendenz zu kohärenter Fortsetzung schafft statt zur Repräsentation genuiner Ambivalenz. Diese Tendenzen können erzeugen, was als \emph{voreilige Schließung} bezeichnet werden könnte -- Konvergenz auf eine kohärente Interpretation, bevor die volle Komplexität der Daten exploriert wurde.
+
+Vier Kontrollmechanismen adressieren dieses Risiko teilweise:
+\begin{enumerate}[nosep]
+  \item Der Metareflexionsschritt (Schritt~4) weist das LLM explizit an, Spannungen zu identifizieren. Es gibt jedoch keine Garantie, dass diese Metareflexion genuine Metakognition darstellt statt einer algorithmischen Simulation derselben -- die Metareflexion kann dieselben Kohärenzverzerrungen reproduzieren, die sie erkennen soll.
+  \item Die Ausreißer-Erkennung in der Pilotstudie zeigte 80--88\% Passung auf Gruppenebene, nicht 100\%, was darauf hindeutet, dass das Modell Heterogenität innerhalb der Gruppe registriert und bewahrt.
+  \item Die Inversionskontrolle (Konstruktion von Anti-Personen, deren Weltanschauung die Daten maximal widerlegt) bestätigte, dass 58\% der Dimension-Gruppen-Kombinationen $|\Delta| \geq 5$ zeigten, was belegt, dass die kohärente Interpretation eine spezifische, datengestützte Wahl ist -- nicht die einzig mögliche Lesart.
+  \item Der Aggregation-Synthese-Vergleich zeigte einen systematischen Verstärkungseffekt: Gruppensynthesen erzeugen schärfere Konturen als gemittelte Individualprofile (71,7\% der Dimension-Gruppen-Kombinationen weiter vom Mittelpunkt entfernt), analog zur Gruppenpolarisierung in der Sozialpsychologie.
+\end{enumerate}
+
+Trotz dieser Maßnahmen bleibt Kohärenzverzerrung eine inhärente Eigenschaft der Methode. Ergebnisse sollten als \emph{idealisierte Modelle} von Weltanschauungen interpretiert werden -- vergleichbare, skalierbare Approximationen -- nicht als getreue Abbildungen tatsächlicher kognitiver Zustände. Vergleichende Analysen (Gruppenunterschiede) sind robuster als absolute Aussagen über die interne Kohärenz einer einzelnen Gruppe.
+
+
+\subsection{Kontamination und Grenzen der Fokuskontrolle}
+\label{sec:limitations:contamination}
+
+Trotz konsistenter Fokuskontrolle kann nicht ausgeschlossen werden, dass das LLM auf Trainingswissen zurückgreift -- insbesondere bei bekannten öffentlichen Persönlichkeiten. Zwei empirische Ergebnisse begrenzen diese Sorge: (1)~der Verblindungs-Robustheitstest zeigte, dass die Wahl der Anonymisierungsstrategie (Platzhalter vs.\ fiktive Namen) keinen materiellen Effekt hat ($r$\,=\,0,987, MAE\,=\,0,33); (2)~volle Identitätsoffenlegung (Realnamen) produzierte nur eine moderate Verschiebung ($r$\,=\,0,850, MAE\,=\,0,67, mit demselben Gruppenmittel). Der strukturelle Vorteil der Analyse auf Gruppenebene bleibt die primäre Absicherung (vgl.\ Abstract).
+
+
+\subsection{Zirkularitätsrisiko}
+\label{sec:limitations:circularity}
+
+Die SWR-Pipeline verwendet dieselbe Modellfamilie (Claude Opus~4.6) sowohl für die Synthese als auch für die Validierung. Dies wirft die Frage auf, ob die Validierung empirische Genauigkeit oder lediglich die interne Konsistenz des Modells bestätigt. Die Sorge muss jedoch präzise eingegrenzt werden: Alle Validierungsschritte verwenden \emph{separate Instanzen} ohne geteilten Kontext. Der Evaluationsagent in Op4b weiß nicht, dass sein Input von einer anderen Instanz desselben Modells generiert wurde -- er operiert als unabhängiger Gutachter. Dies ist analog zu zwei menschlichen Ratern, die mit demselben Kodierbuch geschult wurden: Sie teilen ein Rahmenwerk, operieren aber unabhängig.
+
+Drei Designmerkmale begrenzen das Zirkularitätsrisiko: (1)~IMIIRR belegt, dass das Instrument über unabhängige Instanzen hinweg stabil ist -- eine notwendige Voraussetzung für jede Validierung; (2)~die Erwartungs-Diskrepanz-Kontrolle zeigt, dass das LLM keine Sagen-Tun-Lücken fabriziert, wo keine in den Daten existieren; (3)~modalitätsübergreifende Vorhersage (Op4) vergleicht LLM-generierte Vorhersagen mit \emph{empirischer Grundwahrheit} (realen dokumentierten Handlungen) und bietet damit einen nicht-zirkulären Anker. Ein Restrisiko betrifft spezifisch den Bewertungsschritt (Op2): Die in der Pilotstudie berichteten dimensionalen Korrelationen könnten teilweise die internen Kohärenzmuster des LLM widerspiegeln statt empirischer Zusammenhänge. Dieses Risiko teilt jedes Bewertungsverfahren einschließlich menschlicher Rater -- ein menschlicher Kodierer, der Posthumanismus hoch bewertet, wird aus kognitiver Kohärenz auch Kontrollüberzeugung tendenziell hoch bewerten. Externe Replikation durch andere Forschungsgruppen mit unterschiedlichen Modellen würde die Validitätsaussage stärken, stellt aber unabhängige Replikation dar, nicht eine Voraussetzung für die interne Kohärenz einer einzelnen Studie.
+
+
+\subsection{Blackbox-Charakter}
+\label{sec:limitations:blackbox}
+
+Der Syntheseprozess des LLM ist auf mechanistischer Ebene nicht interpretierbar. Der Forschende erhält ein Ergebnis, kann aber nicht nachverfolgen, welche spezifischen Datenpunkte welche Aspekte der Synthese beeinflusst haben. Die in Schritt~5 angeforderten dimensionalen Begründungen bieten partielle Transparenz, aber die Integrationslogik bleibt opak. Dies ist eine genuine Limitation, die mit jeder LLM-basierten Analyse geteilt wird und durch Multi-Run-Reliabilitätstests gemildert (nicht eliminiert) wird: Wenn das Instrument über unabhängige Instanzen hinweg konsistente Outputs produziert, ist der Blackbox-Prozess zumindest \emph{stabil}, auch wenn nicht vollständig transparent.
+
+
+\subsection{Epistemische Risiken der LLM-Delegation}
+\label{sec:limitations:epistemic}
+
+Eine umfassendere epistemologische Sorge betrifft SWR als Instanz LLM-gestützter Forschung: das Risiko des \emph{epistemischen Trittbrettfahrens} -- die Auslagerung kognitiver Arbeit an KI-Systeme auf Kosten der eigenen epistemischen Handlungsfähigkeit des Forschenden. Wenn ein Forschender die interpretative Synthese der Weltanschauung einer Gruppe an ein LLM delegiert, besteht die Gefahr, dass funktionale Outputs produziert werden, ohne dass ein entsprechendes Verständnis entsteht. SWR mildert dieses Risiko durch sein mehrschichtiges Design: Der Forschende muss den Datenkorpus kuratieren, Syntheseeinheiten definieren, dimensionale Bewertungen evaluieren und modalitätsübergreifende Diskrepanzen interpretieren -- Aktivitäten, die substanzielle Auseinandersetzung mit dem Material erfordern. Dennoch sollten Forschende LLM-generierte Rekonstruktionen als Hypothesen behandeln, die kritische Prüfung erfordern, nicht als fertige analytische Produkte.
+
+
+\subsection{Zeitliche und kulturelle Grenzen}
+\label{sec:limitations:temporal}
+
+SWR rekonstruiert Weltanschauungen aus einem spezifischen Datenfenster. Die Pilotstudie deckte den Zeitraum 2010--2026 ab; die rekonstruierten Weltanschauungen sind für diesen Zeitraum gültig, nicht darüber hinaus. Ferner tragen LLMs kulturelle Verzerrungen aus ihren Trainingsdaten (überwiegend englischsprachige, westliche, gebildete Quellen; vgl.\ \citealp{Santurkar2023}). Für nicht-westliche Populationen kann diese Verzerrung die Synthese verzerren. Forschende, die mit nicht-westlichen Gruppen arbeiten, sollten diese Limitation berücksichtigen und modellspezifische Kalibrierung erkunden.
+
+
+\subsection{Offene Desiderate}
+\label{sec:limitations:desiderata}
+
+Drei empirische Erweiterungen stehen noch aus: (1)~\textbf{Intermodell-Replikation:} Der Nachweis, dass die SWR-Pipeline über verschiedene Frontier-Modelle hinweg (z.\,B. Claude, GPT, Gemini) bei strikter Instance Separation konvergente Ergebnisse liefert. Dies ist analog zur Replikation eines Surveys mit verschiedenen Interviewer-Teams und stellt externe Replikation dar, nicht eine Voraussetzung für die Validität einer einzelnen Studie. (2)~\textbf{Expertenvalidierung:} Unabhängige Domänenexperten, die dieselben Gruppen auf denselben Dimensionen bewerten und damit eine menschliche Baseline für den Vergleich mit LLM-generierten Profilen liefern. (3)~\textbf{Erweiterte Power-Analyse:} Die $N$\,=\,15-Validierung wurde an einer einzigen Syntheseeinheit durchgeführt; die Generalisierung über alle SEs erfordert zusätzliche Daten.
+
+
+%% =============================================================================
+%% 7. ETHISCHE BETRACHTUNGEN
+%% =============================================================================
+\section{Ethische Betrachtungen}
+\label{sec:ethics}
+
+\subsection{Epistemische Privatheit}
+
+SWR wirft ein neuartiges ethisches Problem auf: \emph{epistemische Privatheit} -- das Recht von Individuen und Gruppen, dass ihre impliziten Überzeugungen nicht aus öffentlichen Daten inferiert werden. Traditionelle Forschungsethik fokussiert auf die Datenerhebung (informierte Einwilligung, Datenschutz); SWR operiert auf öffentlich verfügbaren Daten, generiert aber Inferenzen, die über das hinausgehen, was die Teilnehmenden explizit kommuniziert haben. Das Weltanschauungsprofil einer Gruppe kann kollektive Überzeugungen offenlegen, die Gruppenmitglieder individuell nicht befürworten oder auch nur erkennen würden.
+
+Das Design auf Gruppenebene bietet eine strukturelle Absicherung: SWR berichtet kollektive Muster, nicht individuelle Überzeugungen. Keiner namentlich genannten Person wird eine spezifische Weltanschauungsposition zugeschrieben. Bei kleinen Gruppen ($n < 10$) bietet die Aggregation jedoch schwächere Anonymisierung, und ein quasi-individuelles Profil kann entstehen. Forschende sollten Ergebnisse auf Gruppenebene nur für Gruppen berichten, die groß genug sind, um individuelle Identifikation zu verhindern.
+
+\subsection{Dual-Use-Charakter}
+
+SWR kann für legitime Zwecke eingesetzt werden (Verständnis elitärer Glaubenssysteme, Information demokratischer Deliberation, Analyse institutioneller Kulturen) und für illegitime (Profiling politischer Gegner, Konstruktion gezielter Manipulationskampagnen, Instrumentalisierung der Glaubenssystemanalyse). Dieser Dual-Use-Charakter ist jeder Methode inhärent, die implizite Überzeugungen explizit macht. Die Forschungsgemeinschaft sollte Normen für verantwortungsvollen SWR-Einsatz entwickeln, analog zu den Normen, die die surveybasierte Meinungsforschung regulieren.
+
+\subsection{Empfehlungen}
+
+\begin{enumerate}[nosep]
+  \item Nur Ergebnisse auf Gruppenebene berichten; keine Überzeugungen namentlich genannten Personen zuschreiben.
+  \item Für Gruppen mit $n < 10$ das Re-Identifikationsrisiko explizit diskutieren.
+  \item Alle Prompts und Modellparameter für volle Transparenz dokumentieren und veröffentlichen.
+  \item Ergebnisse als \glqq{}rekonstruierte Überzeugungsmuster\grqq{} rahmen, nicht als \glqq{}was Gruppe $X$ wirklich denkt\grqq{}.
+  \item Member Checking \citep{SoysalTurkmen2024} als Desiderat in Betracht ziehen, wenn Zugang zu Gruppenvertretern besteht.
+\end{enumerate}
+
+
+%% =============================================================================
+%% 8. FAZIT
+%% =============================================================================
+\section{Fazit}
+\label{sec:conclusion}
+
+Synthetic Worldview Reconstruction bietet eine neue Methode zur Rekonstruktion der kollektiven Glaubenssysteme soziologisch definierter Gruppen. Indem SWR Weltanschauungsanalyse als inverses Problem formuliert und LLMs als analytische Komprimierungsinstrumente einsetzt, überbrückt es die Kluft zwischen qualitativer Tiefe und quantitativer Strenge. Die Alleinstellungsmerkmale der Methode sind:
+
+\begin{enumerate}[nosep]
+  \item \textbf{Analyse auf Gruppenebene als Standard:} SWR ist für kollektive Glaubenssysteme konzipiert, nicht für Individualporträts, und bietet damit einen strukturellen Kontaminationsvorteil (vgl.\ Abstract).
+  \item \textbf{Duale Datenmodalität:} Durch den Einsatz auf sowohl Äußerungen als auch Handlungen ermöglicht SWR den Sagen-Tun-Vergleich und die modalitätsübergreifende Vorhersage -- Validierungsmechanismen, die Methoden mit nur einem einzigen Datentyp nicht zur Verfügung stehen.
+  \item \textbf{Zuverlässige Instrumentierung:} IMIIRR-Koeffizienten (ICC\,=\,0,847--0,902) belegen hohe Messkonsistenz. Reliabilität garantiert keine Validität (vgl.\ Abschnitt~\ref{sec:qa:imiirr}), etabliert aber eine stabile Grundlage für aussagekräftige Vergleiche, wobei vollständige Prompt-Dokumentation implizite Kodierregeln ersetzt.
+  \item \textbf{Übertragbarkeit:} Das Fünfschritte-Protokoll, das dimensionale Bewertungsrahmenwerk und die abgestuften Akzeptanzkriterien sind für die Anwendung auf jede soziologisch definierte Population konzipiert -- politische Eliten, Unternehmenskulturen, religiöse Gemeinschaften, wissenschaftliche Disziplinen. Darüber hinaus ist die Synthese-Pipeline (Schritte~1--4) nicht an Personen oder Weltanschauungen gebunden: Sie kann als Eingangsstufe dienen, wo immer heterogene Textevidenz in eine kohärente kollektive Darstellung synthetisiert werden muss -- einschließlich Organisationskulturen, Policy-Diskursen und historischen Epochen.
+\end{enumerate}
+
+Die Methode wurde in einer Pilotstudie über 100~einflussreiche KI-Akteure \citep{Geiger2026PaperA} entwickelt und validiert, die ihre Fähigkeit demonstrierte, diskriminierende Gruppenprofile zu erzeugen, interne Spannungen aufzudecken und systematische Muster zu identifizieren, die aggregierte Berichterstattung verschleiern würde. Das vorliegende Paper abstrahiert diese Fähigkeiten in ein übertragbares methodologisches Rahmenwerk.
+
+SWR ersetzt keine bestehenden Methoden; es fügt dem Werkzeugkasten des Sozialwissenschaftlers ein neues Instrument hinzu -- eines, das am wertvollsten ist, wenn direkter Zugang zu Befragten nicht verfügbar ist, wenn öffentliche Daten reichlich vorhanden sind und wenn die Forschungsfrage auf kollektive Glaubenssysteme abzielt statt auf individuelle Meinungen. Seine Limitationen -- Kohärenzverzerrung, Kontaminationsrisiko, Blackbox-Charakter, kulturelle Grenzen -- sind dokumentiert und teilweise kontrolliert; seine offenen Desiderate -- Intermodell-Replikation, Expertenvalidierung, erweiterte Power-Analyse -- definieren eine klare Forschungsagenda. Die Frage ist nicht, ob LLMs als Instrumente für sozialwissenschaftliche Forschung eingesetzt werden sollten, sondern wie sie \emph{rigoros} eingesetzt werden können. SWR schlägt eine Antwort vor.
+
+
+%% =============================================================================
+%% KI-OFFENLEGUNG
+%% =============================================================================
+\section*{Offenlegung: Einsatz Künstlicher Intelligenz}
+
+\noindent\textbf{KI-Offenlegungsstufe~5 (Umfangreich).}
+Dieses Manuskript wurde mit Unterstützung von Claude Opus~4.6 (Anthropic; Modell-ID: \texttt{claude-opus-4-6}; Zugang via Claude Code CLI, März 2026; Temperatur~$= 0$; 1M-Kontextfenster) erstellt. Der Autor hat die Methode entworfen, die Papierstruktur festgelegt, alle Qualitätskriterien definiert und trägt die volle Verantwortung für alle substanziellen Aussagen. Alle in diesem Paper berichteten Validierungsergebnisse stammen aus der Pilotstudie \citep{Geiger2026PaperA}, in der die Methodik für Datenerhebung, LLM-gestützte Synthese und statistische Analyse vollständig dokumentiert ist.
+
+
+%% =============================================================================
+%% DATENVERFUEGBARKEIT
+%% =============================================================================
+\section*{Erklärung zur Datenverfügbarkeit}
+
+\noindent Die Pilotstudien-Daten, Analyseskripte, Prompt-Templates und Dimensionsdefinitionen sind öffentlich verfügbar unter: \url{https://github.com/research-line/ai-elite-swr}. Das Repository enthält die vollständige Prompt-Bibliothek, die $100 \times 12$-Bewertungsmatrix und alle Validierungsanalyse-Skripte.
+
+
+%% =============================================================================
+%% LIZENZ
+%% =============================================================================
+\section*{Lizenz}
+
+\noindent Dieses Werk ist lizenziert unter der Creative Commons Attribution 4.0 International License (CC-BY-4.0). Eine Kopie dieser Lizenz ist einsehbar unter \url{https://creativecommons.org/licenses/by/4.0/}.
+
+
+%% =============================================================================
+%% BIBLIOGRAFIE
+%% =============================================================================
+\newpage
+
+\bibliographystyle{plainnat}
+\begin{thebibliography}{99}
+
+\bibitem[Barros et~al.(2024)]{Barros2024}
+  Barros, C.\,F., Azevedo, B.\,B., Graciano Neto, V.\,V., Kassab, M., Kalinowski, M., do Nascimento, H.\,A.\,D.~\& Bandeira, M.\,C.\,G.\,S.\,P. (2024).
+  Large Language Model for Qualitative Research---A Systematic Mapping Study.
+  \textit{arXiv:2411.14473}. \url{https://arxiv.org/abs/2411.14473}.
+
+\bibitem[Berger \& Luckmann(1966)]{BergerLuckmann1966}
+  Berger, P.~L.~\& Luckmann, T. (1966).
+  \textit{The Social Construction of Reality}.
+  New York: Doubleday.
+
+\bibitem[Bourdieu(1977)]{Bourdieu1977}
+  Bourdieu, P. (1977).
+  \textit{Outline of a Theory of Practice}.
+  Cambridge University Press.
+
+\bibitem[Argyle et~al.(2023)]{Argyle2023}
+  Argyle, L.~P., Busby, E.~C., Fulda, N., Gubler, J.~R., Rytting, C.~\& Wingate, D. (2023).
+  Out of One, Many: Using Language Models to Simulate Human Samples.
+  \textit{Political Analysis}, \textit{31}(3), 337--351. \url{https://doi.org/10.1017/pan.2023.2}.
+
+\bibitem[Bail(2024)]{Bail2024}
+  Bail, C.~A. (2024).
+  Can Generative AI improve social science?
+  \textit{Proceedings of the National Academy of Sciences}, \textit{121}(21), Article~e2314021121. \url{https://doi.org/10.1073/pnas.2314021121}.
+
+\bibitem[Braun \& Clarke(2006)]{Braun2006}
+  Braun, V.~\& Clarke, V. (2006).
+  Using thematic analysis in psychology.
+  \textit{Qualitative Research in Psychology}, \textit{3}(2), 77--101. \url{https://doi.org/10.1191/1478088706qp063oa}.
+
+\bibitem[Gadamer(1960)]{Gadamer1960}
+  Gadamer, H.-G. (1960).
+  \textit{Wahrheit und Methode}.
+  Tübingen: Mohr.
+
+\bibitem[Fairclough(1992)]{Fairclough1992}
+  Fairclough, N. (1992).
+  \textit{Discourse and Social Change}.
+  Cambridge: Polity Press.
+
+\bibitem[Fugard \& Potts(2015)]{FugardPotts2015}
+  Fugard, A.~J.~B.~\& Potts, H.~W.~W. (2015).
+  Supporting thinking on sample sizes for thematic analyses: A quantitative tool.
+  \textit{International Journal of Social Research Methodology}, \textit{18}(6), 669--684. \url{https://doi.org/10.1080/13645579.2015.1005453}.
+
+\bibitem[Ge et~al.(2024)]{Ge2024}
+  Ge, T.~et~al. (2024).
+  Scaling synthetic data creation with 1{,}000{,}000{,}000 personas.
+  \textit{arXiv:2406.20094}. \url{https://arxiv.org/abs/2406.20094}.
+
+\bibitem[Geiger(2026)]{Geiger2026PaperA}
+  Geiger, L. (2026).
+  What does the AI elite think? A synthetic worldview reconstruction of the 100 most influential AI actors (2010--2026).
+  Zenodo. \url{https://doi.org/10.5281/zenodo.18736737}.
+
+\bibitem[Guest et~al.(2006)]{Guest2006}
+  Guest, G., Bunce, A.~\& Johnson, L. (2006).
+  How many interviews are enough? An experiment with data saturation and variability.
+  \textit{Field Methods}, \textit{18}(1), 59--82. \url{https://doi.org/10.1177/1525822X05279903}.
+
+\bibitem[Hadamard(1923)]{Hadamard1923}
+  Hadamard, J. (1923).
+  \textit{Lectures on Cauchy's Problem in Linear Partial Differential Equations}.
+  New Haven: Yale University Press.
+
+\bibitem[Hallgren(2012)]{Hallgren2012}
+  Hallgren, K.~A. (2012).
+  Computing Inter-Rater Reliability for Observational Data: An Overview and Tutorial.
+  \textit{Tutorials in Quantitative Methods for Psychology}, \textit{8}(1), 23--34. \url{https://doi.org/10.20982/tqmp.08.1.p023}.
+
+\bibitem[Hornby(2025)]{Hornby2024}
+  Hornby, R. (2025).
+  Is Generative AI Ready to Join the Conversation That We Are?
+  \textit{Technophany: A Journal for Philosophy and Technology}, \textit{3}(1), 1--31. \url{https://doi.org/10.54195/technophany.18134}.
+
+\bibitem[Kommers et~al.(2026)]{Kommers2026}
+  Kommers, C., Ahnert, R., Antoniak, M., Benetos, E., Benford, S., Bunz, M.~et~al. (2026).
+  Computational Hermeneutics: Evaluating Generative AI as a Cultural Technology.
+  \textit{Frontiers in Artificial Intelligence}, \textit{9}, Article~1753041. \url{https://doi.org/10.3389/frai.2026.1753041}.
+
+\bibitem[Mannheim(1929)]{Mannheim1929}
+  Mannheim, K. (1929).
+  \textit{Ideologie und Utopie}.
+  Bonn: Cohen.
+
+\bibitem[Messeri \& Crockett(2024)]{Messeri2024}
+  Messeri, L.~\& Crockett, M.~J. (2024).
+  Artificial intelligence and illusions of understanding in scientific research.
+  \textit{Nature}, \textit{627}, 49--58. \url{https://doi.org/10.1038/s41586-024-07146-0}.
+
+\bibitem[Norman(2010)]{Norman2010}
+  Norman, G. (2010).
+  Likert scales, levels of measurement and the ``laws'' of statistics.
+  \textit{Advances in Health Sciences Education}, \textit{15}(5), 625--632. \url{https://doi.org/10.1007/s10459-010-9222-y}.
+
+\bibitem[Santurkar et~al.(2023)]{Santurkar2023}
+  Santurkar, S., Durmus, E., Ladhak, F., Lee, C., Liang, P.~\& Hashimoto, T. (2023).
+  Whose opinions do language models reflect?
+  In: \textit{Proceedings of the 40th International Conference on Machine Learning}, PMLR~202, 29971--30004. \url{https://proceedings.mlr.press/v202/santurkar23a.html}.
+
+\bibitem[Soysal \& Türkmen(2024)]{SoysalTurkmen2024}
+  Soysal, Y.~\& Türkmen, S. (2024).
+  Reinterpreting the Member Checking Validation Strategy in Qualitative Research Through the Hermeneutics Lens.
+  \textit{Qualitative Inquiry in Education: Theory \& Practice}, \textit{2}(1), 42--63. \url{https://doi.org/10.59455/qietp.19}.
+
+\bibitem[Ornstein et~al.(2025)]{Ornstein2025}
+  Ornstein, J.~T., Blasingame, E.~N.~\& Truscott, J.~S. (2025).
+  How to Train Your Stochastic Parrot: Large Language Models for Political Texts.
+  \textit{Political Science Research and Methods}, \textit{13}(2), 264--281. \url{https://doi.org/10.1017/psrm.2024.64}.
+
+\bibitem[Tai et~al.(2024)]{Tai2024}
+  Tai, R.~H.~et~al. (2024).
+  An Examination of the Use of Large Language Models to Aid Analysis of Textual Data.
+  \textit{International Journal of Qualitative Methods}, \textit{23}, Article~16094069241231168. \url{https://doi.org/10.1177/16094069241231168}.
+
+\bibitem[Wang et~al.(2025)]{Wang2025}
+  Wang, Q., Erqsous, M., Barner, K.~E.~\& Mauriello, M.~L. (2025).
+  LATA: A Pilot Study on LLM-Assisted Thematic Analysis of Online Social Network Data Generation Experiences.
+  \textit{Proceedings of the ACM on Human-Computer Interaction}, \textit{9}(2), Article~124, 1--28. \url{https://doi.org/10.1145/3711022}.
+
+\bibitem[Trope \& Liberman(2010)]{TropeLiberman2010}
+  Trope, Y.~\& Liberman, N. (2010).
+  Construal-Level Theory of Psychological Distance.
+  \textit{Psychological Review}, \textit{117}(2), 440--463. \url{https://doi.org/10.1037/a0018963}.
+
+\bibitem[Tarantola(2005)]{Tarantola2005}
+  Tarantola, A. (2005).
+  \textit{Inverse Problem Theory and Methods for Model Parameter Estimation}.
+  Philadelphia: SIAM.
+
+\bibitem[Weber(1904)]{Weber1904}
+  Weber, M. (1904).
+  Die ``Objektivität'' sozialwissenschaftlicher und sozialpolitischer Erkenntnis.
+  \textit{Archiv für Sozialwissenschaft und Sozialpolitik}, \textit{19}, 22--87.
+
+\bibitem[Wodak \& Meyer(2001)]{Wodak2001}
+  Wodak, R.~\& Meyer, M. (Eds.) (2001).
+  \textit{Methods of Critical Discourse Analysis}.
+  London: Sage.
+
+\bibitem[Ziems et~al.(2024)]{Ziems2024}
+  Ziems, C., Held, W., Shaikh, O., Chen, J., Zhang, Z.~\& Yang, D. (2024).
+  Can Large Language Models Transform Computational Social Science?
+  \textit{Computational Linguistics}, \textit{50}(1), 237--291. \url{https://doi.org/10.1162/coli_a_00502}.
+
+\end{thebibliography}
+
+
+%% =============================================================================
+%% ANHANG
+%% =============================================================================
+\newpage
+\appendix
+
+\section{Prompt-Templates}
+\label{app:prompts}
+
+Die folgenden Templates illustrieren das Fünfschritte-Protokoll. Alle in der Pilotstudie verwendeten Prompts sind im Repository archiviert (\url{https://github.com/research-line/ai-elite-swr}).
+
+\subsection{Schritt 2: Synthese-Prompt (Op1)}
+
+\begin{promptquote}
+You receive a collection of anonymized statements and actions from a group of persons. Your task is to construct a fictional person whose worldview best explains the totality of the presented data. This person does not exist -- they are an analytical construct that distills the group's collective beliefs.
+
+Describe this person's:
+
+1. Self-image: Who are they? What drives them? How do they see their role?
+
+2. Worldview: How does the world work? What forces shape the future? What is the role of technology, power, and institutions?
+
+3. View of humanity: What is the nature of human beings? What are their strengths and limitations? Can they be improved?
+
+Also identify: Internal tensions, blind spots, and beliefs this person holds without being aware of them.
+
+[Data corpus follows]
+\end{promptquote}
+
+\subsection{Schritt 5: Bewertungs-Prompt (Op2)}
+
+\begin{promptquote}
+You receive a collection of anonymized statements and actions from a group of persons in a professional domain. Based on these data, assess the collective worldview of the group on the following 12 dimensions (scale 1--10). Justify each assessment with concrete references to the data points.
+
+[Followed by: dimension definitions D01--D12 with scale poles, then the anonymized data corpus.]
+\end{promptquote}
+
+\subsection{Modalitätsübergreifende Vorhersage-Prompts (Op4)}
+
+\textbf{Op4a (Vorhersage):}
+\begin{promptquote}
+You receive the public statements of a group of persons. Based ONLY on these statements, predict 10 concrete actions you would expect from this group. Be specific: what investments, decisions, organizational changes, or political activities would follow from these stated beliefs?
+
+[Statement corpus follows]
+\end{promptquote}
+
+\textbf{Op4b (Evaluation):}
+\begin{promptquote}
+You receive two inputs: (1) a list of 10 predicted actions and (2) the documented real actions of a group of persons. For each prediction, assess: Is it CONFIRMED by the real actions, PLAUSIBLE but without direct match, or CONTRADICTED?
+
+[Predictions + action corpus follow]
+\end{promptquote}
+
+
+\section{Glossar}
+\label{app:glossary}
+
+\begin{description}[style=nextline, leftmargin=2cm]
+  \item[DV] Abhängige Variable (Dependent Variable). SWR definiert drei: DV1 (Selbstbild), DV2 (Weltanschauung), DV3 (Menschenbild).
+  \item[Focus Control] Das Ensemble von Maßnahmen zur Sicherstellung der LLM-Aufgabencompliance: Anonymisierung + aufgabenfokussiertes Prompting.
+  \item[IMIIRR] Intra-Model Inter-Instance Rating Reliability. Die Konsistenz der Bewertungen über unabhängige LLM-Instanzen, die dieselben Daten verarbeiten.
+  \item[Instance Separation] Die Anforderung, dass jede Messung, die zu einer inferenzstatistischen Aussage beiträgt, eine frische LLM-Instanz ohne geteilten Kontext verwendet.
+  \item[Op1--Op6] Im SWR-Rahmenwerk definierte Operationalisierungen. Op1: Kernsynthese; Op2: dimensionale Bewertung; Op4: modalitätsübergreifende Vorhersage; Op5: Bottom-up-Clustering; Op6: strukturierter Dialog. Op3 (Textanalyse) wurde definiert, aber in der Pilotstudie nicht implementiert. Op5 wurde als PCA + HDBSCAN auf der $100 \times 12$-Bewertungsmatrix implementiert (nicht als Sentence-BERT-Clustering wie ursprünglich konzipiert).
+  \item[SE] Syntheseeinheit (Synthesis Unit). Die atomare Einheit der SWR-Analyse: eine spezifische Kombination aus Gruppe $\times$ Modalität $\times$ Zeitraum, die durch das Fünfschritte-Protokoll verarbeitet wird.
+  \item[SWR] Synthetic Worldview Reconstruction. Die in diesem Paper beschriebene Methode.
+\end{description}
+
+
+\end{document}
