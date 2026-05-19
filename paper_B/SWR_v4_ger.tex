@@ -4,7 +4,7 @@
 %% Group-Level Belief System Analysis
 %% Autor: Lukas Geiger, Independent Researcher, Bernau
 %% Paper B v4.0 -- Quellencheck-Wartungsversion
-%% Ground Truth: Paper A v8.0 live Zenodo version
+%% Referenzbasis: Paper A v8.0 live Zenodo version
 %% =============================================================================
 \documentclass[11pt,a4paper]{article}
 
@@ -63,9 +63,9 @@
   citecolor   = blue!60!black,
   urlcolor    = blue!70!black,
   pdfauthor   = {Lukas Geiger},
-  pdftitle    = {Synthetic Worldview Reconstruction: Eine Methode zur LLM-gestuetzten Analyse kollektiver Glaubenssysteme auf Gruppenebene},
+  pdftitle    = {Synthetic Worldview Reconstruction: Eine Methode zur LLM-gestützten Analyse kollektiver Glaubenssysteme auf Gruppenebene},
   pdfsubject  = {Computational Social Science, Methodologie},
-  pdfkeywords = {Synthetic Worldview Reconstruction, LLM-gestuetzte Methodologie, kollektive Glaubenssysteme, Idealtypus, Analyse auf Gruppenebene, Computational Social Science, Interinstanz-Reliabilitaet},
+  pdfkeywords = {Synthetic Worldview Reconstruction, LLM-gestützte Methodologie, kollektive Glaubenssysteme, Idealtypus, Analyse auf Gruppenebene, Computational Social Science, Interinstanz-Reliabilität},
 }
 
 %% --- Title Block -------------------------------------------------------------
@@ -315,7 +315,7 @@ IMIIRR quantifiziert die Konsistenz des als Instrument eingesetzten LLM über un
 
 \emph{Validierung 2: $N$\,=\,15 unabhängige Einzelinstanz-Durchläufe.} Fünfzehn vollständig unabhängige Opus-Instanzen -- jeweils ein separater Agent ohne geteilten Kontext -- verarbeiteten eine einzelne Syntheseeinheit auf Gruppenebene (GA\_ges\_AH). Ergebnisse: ICC(3,1)\,=\,0,847, mittlere SD\,=\,0,45 über alle 12~Dimensionen (Spannweite: 0,00--0,74). Eine Dimension (D02, Selbstwirksamkeit) zeigte perfekte Übereinstimmung: Alle 15~Instanzen vergaben exakt dieselbe Bewertung. Zehn von 12~Dimensionen hatten über 15~Durchläufe hinweg nur 2 verschiedene Werte.
 
-Diese IMIIRR-Koeffizienten übertreffen typische menschliche Inter-Rater-Reliabilität in der qualitativen Kodierung (ICC\,=\,0,6--0,8; \citealp{Hallgren2012}) und belegen, dass das LLM \emph{konsistente} Bewertungen über unabhängige Instanzen hinweg produziert. Eine kritische Unterscheidung muss aufrechterhalten werden: IMIIRR belegt \emph{Reliabilität} (Konsistenz der Messung), nicht \emph{Validität} (Genauigkeit der Messung). Ein hochreliables Instrument kann systematisch verzerrt sein. Die modalitätsübergreifende Vorhersage (Abschnitt~\ref{sec:qa:crossmodal}) liefert partielle Validitätsevidenz, indem sie LLM-generierte Vorhersagen gegen empirische Grundwahrheit testet. Eine externe Validierung -- unabhängige Domänenexperten, die dieselben Gruppen auf denselben Dimensionen bewerten -- steht jedoch noch aus (vgl.\ Abschnitt~\ref{sec:limitations:desiderata}). Bis eine solche Validierung durchgeführt wird, sollte IMIIRR so interpretiert werden, dass das Instrument \emph{stabil genug ist, um aussagekräftige Vergleiche zu ermöglichen}, nicht dass seine absoluten Werte akkurat sind.
+Diese IMIIRR-Koeffizienten übertreffen typische menschliche Inter-Rater-Reliabilität in der qualitativen Kodierung (ICC\,=\,0,6--0,8; \citealp{Hallgren2012}) und belegen, dass das LLM \emph{konsistente} Bewertungen über unabhängige Instanzen hinweg produziert. Eine kritische Unterscheidung muss aufrechterhalten werden: IMIIRR belegt \emph{Reliabilität} (Konsistenz der Messung), nicht \emph{Validität} (Genauigkeit der Messung). Ein hochreliables Instrument kann systematisch verzerrt sein. Die modalitätsübergreifende Vorhersage (Abschnitt~\ref{sec:qa:crossmodal}) liefert partielle Validitätsevidenz, indem sie LLM-generierte Vorhersagen gegen dokumentierte empirische Handlungen testet. Eine externe Validierung -- unabhängige Domänenexperten, die dieselben Gruppen auf denselben Dimensionen bewerten -- steht jedoch noch aus (vgl.\ Abschnitt~\ref{sec:limitations:desiderata}). Bis eine solche Validierung durchgeführt wird, sollte IMIIRR so interpretiert werden, dass das Instrument \emph{stabil genug ist, um aussagekräftige Vergleiche zu ermöglichen}, nicht dass seine absoluten Werte akkurat sind.
 
 
 \subsection{Modalitätsübergreifende Vorhersage}
@@ -545,7 +545,7 @@ Trotz konsistenter Fokuskontrolle kann nicht ausgeschlossen werden, dass das LLM
 
 Die SWR-Pipeline verwendet dieselbe Modellfamilie (Claude Opus~4.6) sowohl für die Synthese als auch für die Validierung. Dies wirft die Frage auf, ob die Validierung empirische Genauigkeit oder lediglich die interne Konsistenz des Modells bestätigt. Die Sorge muss jedoch präzise eingegrenzt werden: Alle Validierungsschritte verwenden \emph{separate Instanzen} ohne geteilten Kontext. Der Evaluationsagent in Op4b weiß nicht, dass sein Input von einer anderen Instanz desselben Modells generiert wurde -- er operiert als unabhängiger Gutachter. Dies ist analog zu zwei menschlichen Ratern, die mit demselben Kodierbuch geschult wurden: Sie teilen ein Rahmenwerk, operieren aber unabhängig.
 
-Drei Designmerkmale begrenzen das Zirkularitätsrisiko: (1)~IMIIRR belegt, dass das Instrument über unabhängige Instanzen hinweg stabil ist -- eine notwendige Voraussetzung für jede Validierung; (2)~die Erwartungs-Diskrepanz-Kontrolle zeigt, dass das LLM keine Sagen-Tun-Lücken fabriziert, wo keine in den Daten existieren; (3)~modalitätsübergreifende Vorhersage (Op4) vergleicht LLM-generierte Vorhersagen mit \emph{empirischer Grundwahrheit} (realen dokumentierten Handlungen) und bietet damit einen nicht-zirkulären Anker. Ein Restrisiko betrifft spezifisch den Bewertungsschritt (Op2): Die in der Pilotstudie berichteten dimensionalen Korrelationen könnten teilweise die internen Kohärenzmuster des LLM widerspiegeln statt empirischer Zusammenhänge. Dieses Risiko teilt jedes Bewertungsverfahren einschließlich menschlicher Rater -- ein menschlicher Kodierer, der Posthumanismus hoch bewertet, wird aus kognitiver Kohärenz auch Kontrollüberzeugung tendenziell hoch bewerten. Externe Replikation durch andere Forschungsgruppen mit unterschiedlichen Modellen würde die Validitätsaussage stärken, stellt aber unabhängige Replikation dar, nicht eine Voraussetzung für die interne Kohärenz einer einzelnen Studie.
+Drei Designmerkmale begrenzen das Zirkularitätsrisiko: (1)~IMIIRR belegt, dass das Instrument über unabhängige Instanzen hinweg stabil ist -- eine notwendige Voraussetzung für jede Validierung; (2)~die Erwartungs-Diskrepanz-Kontrolle zeigt, dass das LLM keine Sagen-Tun-Lücken fabriziert, wo keine in den Daten existieren; (3)~modalitätsübergreifende Vorhersage (Op4) vergleicht LLM-generierte Vorhersagen mit \emph{dokumentierten empirischen Handlungen} und bietet damit einen nicht-zirkulären Anker. Ein Restrisiko betrifft spezifisch den Bewertungsschritt (Op2): Die in der Pilotstudie berichteten dimensionalen Korrelationen könnten teilweise die internen Kohärenzmuster des LLM widerspiegeln statt empirischer Zusammenhänge. Dieses Risiko teilt jedes Bewertungsverfahren einschließlich menschlicher Rater -- ein menschlicher Kodierer, der Posthumanismus hoch bewertet, wird aus kognitiver Kohärenz auch Kontrollüberzeugung tendenziell hoch bewerten. Externe Replikation durch andere Forschungsgruppen mit unterschiedlichen Modellen würde die Validitätsaussage stärken, stellt aber unabhängige Replikation dar, nicht eine Voraussetzung für die interne Kohärenz einer einzelnen Studie.
 
 
 \subsection{Blackbox-Charakter}
@@ -625,7 +625,7 @@ SWR ersetzt keine bestehenden Methoden; es fügt dem Werkzeugkasten des Sozialwi
 \section*{Offenlegung: Einsatz Künstlicher Intelligenz}
 
 \noindent\textbf{KI-Offenlegungsstufe~5 (Umfangreich).}
-Dieses Manuskript wurde mit Unterstützung von Claude Opus~4.6 (Anthropic; Modell-ID: \texttt{claude-opus-4-6}; Zugang via Claude Code CLI, März 2026; Temperatur~$= 0$; 1M-Kontextfenster) erstellt. Der Autor hat die Methode entworfen, die Papierstruktur festgelegt, alle Qualitätskriterien definiert und trägt die volle Verantwortung für alle substanziellen Aussagen. Alle in diesem Paper berichteten Validierungsergebnisse stammen aus der Pilotstudie \citep{Geiger2026PaperA}, in der die Methodik für Datenerhebung, LLM-gestützte Synthese und statistische Analyse vollständig dokumentiert ist.
+Dieses Manuskript wurde mit KI-gestützter redaktioneller und formulierender Unterstützung durch Claude Opus~4.6 (Anthropic; Modell-ID: \texttt{claude-opus-4-6}; Zugang via Claude Code CLI, März 2026; Temperatur~$= 0$; 1M-Kontextfenster) erstellt. Der Autor hat die Methode entworfen, die Paperstruktur festgelegt, alle Qualitätskriterien definiert, die Ergebnisse interpretiert und trägt die alleinige Verantwortung für alle substanziellen Aussagen, Fehler und Auslassungen. Das Modell wird nicht als Autor oder Koautor geführt, nicht als Beitragender gewürdigt und fungiert weder als Validierungs- noch als Wahrheitsinstanz. Alle in diesem Paper berichteten Validierungsergebnisse stammen aus der Pilotstudie \citep{Geiger2026PaperA}, in der die Methodik für Datenerhebung, LLM-gestützte Synthese und statistische Analyse vollständig dokumentiert ist.
 
 
 %% =============================================================================
@@ -652,6 +652,16 @@ Dieses Manuskript wurde mit Unterstützung von Claude Opus~4.6 (Anthropic; Model
 \bibliographystyle{plainnat}
 \begin{thebibliography}{99}
 
+\bibitem[Argyle et~al.(2023)]{Argyle2023}
+  Argyle, L.~P., Busby, E.~C., Fulda, N., Gubler, J.~R., Rytting, C.~\& Wingate, D. (2023).
+  Out of One, Many: Using Language Models to Simulate Human Samples.
+  \textit{Political Analysis}, \textit{31}(3), 337--351. \url{https://doi.org/10.1017/pan.2023.2}.
+
+\bibitem[Bail(2024)]{Bail2024}
+  Bail, C.~A. (2024).
+  Can Generative AI improve social science?
+  \textit{Proceedings of the National Academy of Sciences}, \textit{121}(21), Article~e2314021121. \url{https://doi.org/10.1073/pnas.2314021121}.
+
 \bibitem[Barros et~al.(2024)]{Barros2024}
   Barros, C.\,F., Azevedo, B.\,B., Graciano Neto, V.\,V., Kassab, M., Kalinowski, M., do Nascimento, H.\,A.\,D.~\& Bandeira, M.\,C.\,G.\,S.\,P. (2024).
   Large Language Model for Qualitative Research---A Systematic Mapping Study.
@@ -667,25 +677,10 @@ Dieses Manuskript wurde mit Unterstützung von Claude Opus~4.6 (Anthropic; Model
   \textit{Outline of a Theory of Practice}.
   Cambridge University Press.
 
-\bibitem[Argyle et~al.(2023)]{Argyle2023}
-  Argyle, L.~P., Busby, E.~C., Fulda, N., Gubler, J.~R., Rytting, C.~\& Wingate, D. (2023).
-  Out of One, Many: Using Language Models to Simulate Human Samples.
-  \textit{Political Analysis}, \textit{31}(3), 337--351. \url{https://doi.org/10.1017/pan.2023.2}.
-
-\bibitem[Bail(2024)]{Bail2024}
-  Bail, C.~A. (2024).
-  Can Generative AI improve social science?
-  \textit{Proceedings of the National Academy of Sciences}, \textit{121}(21), Article~e2314021121. \url{https://doi.org/10.1073/pnas.2314021121}.
-
 \bibitem[Braun \& Clarke(2006)]{Braun2006}
   Braun, V.~\& Clarke, V. (2006).
   Using thematic analysis in psychology.
   \textit{Qualitative Research in Psychology}, \textit{3}(2), 77--101. \url{https://doi.org/10.1191/1478088706qp063oa}.
-
-\bibitem[Gadamer(1960)]{Gadamer1960}
-  Gadamer, H.-G. (1960).
-  \textit{Wahrheit und Methode}.
-  Tübingen: Mohr.
 
 \bibitem[Fairclough(1992)]{Fairclough1992}
   Fairclough, N. (1992).
@@ -696,6 +691,11 @@ Dieses Manuskript wurde mit Unterstützung von Claude Opus~4.6 (Anthropic; Model
   Fugard, A.~J.~B.~\& Potts, H.~W.~W. (2015).
   Supporting thinking on sample sizes for thematic analyses: A quantitative tool.
   \textit{International Journal of Social Research Methodology}, \textit{18}(6), 669--684. \url{https://doi.org/10.1080/13645579.2015.1005453}.
+
+\bibitem[Gadamer(1960)]{Gadamer1960}
+  Gadamer, H.-G. (1960).
+  \textit{Wahrheit und Methode}.
+  Tübingen: Mohr.
 
 \bibitem[Ge et~al.(2024)]{Ge2024}
   Ge, T.~et~al. (2024).
@@ -747,6 +747,11 @@ Dieses Manuskript wurde mit Unterstützung von Claude Opus~4.6 (Anthropic; Model
   Likert scales, levels of measurement and the ``laws'' of statistics.
   \textit{Advances in Health Sciences Education}, \textit{15}(5), 625--632. \url{https://doi.org/10.1007/s10459-010-9222-y}.
 
+\bibitem[Ornstein et~al.(2025)]{Ornstein2025}
+  Ornstein, J.~T., Blasingame, E.~N.~\& Truscott, J.~S. (2025).
+  How to Train Your Stochastic Parrot: Large Language Models for Political Texts.
+  \textit{Political Science Research and Methods}, \textit{13}(2), 264--281. \url{https://doi.org/10.1017/psrm.2024.64}.
+
 \bibitem[Santurkar et~al.(2023)]{Santurkar2023}
   Santurkar, S., Durmus, E., Ladhak, F., Lee, C., Liang, P.~\& Hashimoto, T. (2023).
   Whose opinions do language models reflect?
@@ -757,30 +762,25 @@ Dieses Manuskript wurde mit Unterstützung von Claude Opus~4.6 (Anthropic; Model
   Reinterpreting the Member Checking Validation Strategy in Qualitative Research Through the Hermeneutics Lens.
   \textit{Qualitative Inquiry in Education: Theory \& Practice}, \textit{2}(1), 42--63. \url{https://doi.org/10.59455/qietp.19}.
 
-\bibitem[Ornstein et~al.(2025)]{Ornstein2025}
-  Ornstein, J.~T., Blasingame, E.~N.~\& Truscott, J.~S. (2025).
-  How to Train Your Stochastic Parrot: Large Language Models for Political Texts.
-  \textit{Political Science Research and Methods}, \textit{13}(2), 264--281. \url{https://doi.org/10.1017/psrm.2024.64}.
-
 \bibitem[Tai et~al.(2024)]{Tai2024}
   Tai, R.~H.~et~al. (2024).
   An Examination of the Use of Large Language Models to Aid Analysis of Textual Data.
   \textit{International Journal of Qualitative Methods}, \textit{23}, Article~16094069241231168. \url{https://doi.org/10.1177/16094069241231168}.
 
-\bibitem[Wang et~al.(2025)]{Wang2025}
-  Wang, Q., Erqsous, M., Barner, K.~E.~\& Mauriello, M.~L. (2025).
-  LATA: A Pilot Study on LLM-Assisted Thematic Analysis of Online Social Network Data Generation Experiences.
-  \textit{Proceedings of the ACM on Human-Computer Interaction}, \textit{9}(2), Article~124, 1--28. \url{https://doi.org/10.1145/3711022}.
+\bibitem[Tarantola(2005)]{Tarantola2005}
+  Tarantola, A. (2005).
+  \textit{Inverse Problem Theory and Methods for Model Parameter Estimation}.
+  Philadelphia: SIAM.
 
 \bibitem[Trope \& Liberman(2010)]{TropeLiberman2010}
   Trope, Y.~\& Liberman, N. (2010).
   Construal-Level Theory of Psychological Distance.
   \textit{Psychological Review}, \textit{117}(2), 440--463. \url{https://doi.org/10.1037/a0018963}.
 
-\bibitem[Tarantola(2005)]{Tarantola2005}
-  Tarantola, A. (2005).
-  \textit{Inverse Problem Theory and Methods for Model Parameter Estimation}.
-  Philadelphia: SIAM.
+\bibitem[Wang et~al.(2025)]{Wang2025}
+  Wang, Q., Erqsous, M., Barner, K.~E.~\& Mauriello, M.~L. (2025).
+  LATA: A Pilot Study on LLM-Assisted Thematic Analysis of Online Social Network Data Generation Experiences.
+  \textit{Proceedings of the ACM on Human-Computer Interaction}, \textit{9}(2), Article~124, 1--28. \url{https://doi.org/10.1145/3711022}.
 
 \bibitem[Weber(1904)]{Weber1904}
   Weber, M. (1904).

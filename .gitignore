@@ -114,7 +114,13 @@ _results_A/_g5_data/
 FAKTENCHECK_*.md
 REVIEW_CHAIN*.md
 reviews/
+_review/
 paper_*/Step*.md
+paper_*/_designcheck*/
+paper_*/*_en.txt
+paper_*/*_ger.txt
+paper_*/*_kombi.txt
+paper_*/*_test.pdf
 
 # Artifacts from other tools
 compass_artifact_*.md
