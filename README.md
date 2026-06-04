@@ -4,6 +4,24 @@
 [![DOI Paper B](https://zenodo.org/badge/DOI/10.5281/zenodo.18736720.svg)](https://doi.org/10.5281/zenodo.18736720)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+## Start Here
+
+| Goal | File or link |
+|------|--------------|
+| Read the application paper | [`paper_A/KI_Elite_v3_en.pdf`](paper_A/KI_Elite_v3_en.pdf) |
+| Read the methods paper | [`paper_B/SWR_v4_en.pdf`](paper_B/SWR_v4_en.pdf) |
+| Inspect the prompt protocol | [`prompts/README.md`](prompts/README.md) |
+| Review validation outputs | [`_results_A/en/`](_results_A/en/) and [`_results_B/`](_results_B/) |
+| Rebuild the data pipeline | [`_data_A/tools/create_db.py`](_data_A/tools/create_db.py) |
+| Cite the project | [`CITATION.cff`](CITATION.cff) and the Zenodo records below |
+| Provide machine-readable context | [`llms.txt`](llms.txt) |
+
+**Canonical repository:** <https://github.com/research-line/ai-elite-swr>
+
+**Latest public versions checked on 2026-06-04:**
+- Paper A: v8.0, DOI [`10.5281/zenodo.20091973`](https://doi.org/10.5281/zenodo.20091973), concept DOI [`10.5281/zenodo.18736737`](https://doi.org/10.5281/zenodo.18736737)
+- Paper B: v6.1, DOI [`10.5281/zenodo.20260688`](https://doi.org/10.5281/zenodo.20260688), concept DOI [`10.5281/zenodo.18736720`](https://doi.org/10.5281/zenodo.18736720)
+
 ## What is this?
 
 This repository contains two companion papers:
@@ -12,6 +30,12 @@ This repository contains two companion papers:
 - **Paper B (SWR):** *Synthetic Worldview Reconstruction* — A methods paper that describes the general method used in Paper A: using LLMs' synthetic integration capability to derive collective worldviews for societal groups.
 
 **Paper A applies the method. Paper B describes it.**
+
+## Visual Preview
+
+![Group-level worldview heatmap for the AI Elite SWR study](_results_A/figures/fig5_gruppen_heatmap.png)
+
+The figure above is one of the public validation and analysis outputs. Additional figures are available in [`_results_A/figures/`](_results_A/figures/).
 
 ## The Core Idea
 
@@ -101,18 +125,24 @@ cd ../paper_B && pdflatex SWR_v4_en.tex && pdflatex SWR_v4_en.tex
   author  = {Geiger, Lukas},
   title   = {What Does the {AI} Elite Think? {A} Synthetic Worldview Reconstruction of the 100 Most Influential {AI} Actors (2010--2026)},
   year    = {2026},
-  doi     = {10.5281/zenodo.18736737},
-  note    = {Preprint}
+  doi     = {10.5281/zenodo.20091973},
+  note    = {Preprint, v8.0}
 }
 
 @article{Geiger2026SWR,
   author  = {Geiger, Lukas},
   title   = {Synthetic Worldview Reconstruction ({SWR}): A Methodological Framework for {LLM}-Assisted Group-Level Belief System Analysis},
   year    = {2026},
-  doi     = {10.5281/zenodo.18736720},
+  doi     = {10.5281/zenodo.20260688},
   note    = {Working paper, v6.1}
 }
 ```
+
+For durable cross-version links, use the concept DOIs `10.5281/zenodo.18736737` (Paper A) and `10.5281/zenodo.18736720` (Paper B).
+
+## Search and Disambiguation
+
+Use the full repository name **research-line/ai-elite-swr** when linking or searching. The project is about **Synthetic Worldview Reconstruction**, **AI Elite worldview analysis**, **LLM-assisted sociology**, **group-level belief system analysis**, and **AI governance sociology**. It is not a generic AI leaderboard, not an AI safety benchmark, and not a commercial trend report.
 
 ## Author
 

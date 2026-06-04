@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite both companion papers and reference the repository."
+title: "Synthetic Worldview Reconstruction (SWR) Applied to the AI Elite"
+type: dataset
+authors:
+  - family-names: Geiger
+    given-names: Lukas
+    orcid: "https://orcid.org/0009-0005-7296-1534"
+repository-code: "https://github.com/research-line/ai-elite-swr"
+license: "CC-BY-4.0"
+date-released: "2026-05-17"
+keywords:
+  - Synthetic Worldview Reconstruction
+  - AI Elite
+  - LLM-assisted sociology
+  - group-level belief systems
+  - AI governance
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18736737"
+    description: "Paper A concept DOI"
+  - type: doi
+    value: "10.5281/zenodo.18736720"
+    description: "Paper B concept DOI"
+references:
+  - type: article
+    title: "What Does the AI Elite Think? Synthetic Worldview Reconstruction of the 100 Most Influential AI Actors (2010-2026)"
+    authors:
+      - family-names: Geiger
+        given-names: Lukas
+        orcid: "https://orcid.org/0009-0005-7296-1534"
+    doi: "10.5281/zenodo.20091973"
+    date-released: "2026-05-09"
+  - type: article
+    title: "Synthetic Worldview Reconstruction (SWR): A Methodological Framework for LLM-Assisted Group-Level Belief System Analysis"
+    authors:
+      - family-names: Geiger
+        given-names: Lukas
+        orcid: "https://orcid.org/0009-0005-7296-1534"
+    doi: "10.5281/zenodo.20260688"
+    date-released: "2026-05-17"

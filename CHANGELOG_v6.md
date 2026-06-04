@@ -7,6 +7,15 @@
 
 ---
 
+## Repository Discoverability Update (2026-06-04)
+
+- README-Einstieg um Start-Here-Tabelle, Visual Preview, Such-/Disambiguation-Kontext und aktuelle Zenodo-Versions-DOIs ergänzt.
+- `llms.txt` für maschinenlesbaren Repository-Kontext ergänzt.
+- `CITATION.cff` mit den beiden companion-paper DOI-Referenzen ergänzt.
+- Community-Workflows auf aktuelle Action-Major-Versionen nachgezogen.
+
+---
+
 ## Versionshistorie
 
 | Version | Record-ID  | Datum      | Dateien                          |

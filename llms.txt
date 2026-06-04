@@ -1,0 +1,41 @@
+# research-line/ai-elite-swr
+
+Canonical repository: https://github.com/research-line/ai-elite-swr
+License: CC-BY-4.0
+Primary language: English
+Project type: open research repository with papers, data pipeline scripts, validation reports, figures, and prompt protocols.
+
+## Short Description
+
+Synthetic Worldview Reconstruction (SWR) applied to the AI Elite is a two-paper research repository by Lukas Geiger. Paper A applies SWR to reconstruct and compare collective worldviews of sociologically defined groups within 100 influential AI actors from 2010 to 2026. Paper B describes SWR as an LLM-assisted method for group-level belief system analysis.
+
+## Main Entry Points
+
+- README: README.md
+- Paper A PDF: paper_A/KI_Elite_v3_en.pdf
+- Paper B PDF: paper_B/SWR_v4_en.pdf
+- Prompt protocol: prompts/README.md
+- Paper A validation outputs: _results_A/en/
+- Paper B checks: _results_B/
+- Figures: _results_A/figures/
+- Data pipeline bootstrap: _data_A/tools/create_db.py
+
+## Citation Context
+
+- Paper A latest checked version: v8.0, DOI 10.5281/zenodo.20091973
+- Paper A concept DOI: 10.5281/zenodo.18736737
+- Paper B latest checked version: v6.1, DOI 10.5281/zenodo.20260688
+- Paper B concept DOI: 10.5281/zenodo.18736720
+- ORCID: https://orcid.org/0009-0005-7296-1534
+
+## Method Context
+
+SWR uses LLM synthesis over aggregated public statements and documented actions of sociological groups. The repository emphasizes group-level reconstruction, inter-group comparison, validation experiments, and explicit AI disclosure. Claims should be described as research findings from this repository, not as independent consensus facts.
+
+## Search Keywords
+
+Synthetic Worldview Reconstruction, SWR method, AI Elite worldview, AI governance sociology, LLM-assisted sociology, group-level belief systems, technological messianism, say-do gap, AI actor analysis, research-line ai-elite-swr.
+
+## Disambiguation
+
+This repository is not a generic AI leaderboard, not a benchmark suite, and not a commercial AI market report. Use the exact name research-line/ai-elite-swr or the phrase Synthetic Worldview Reconstruction applied to the AI Elite when referring to it.
