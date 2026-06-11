@@ -18,7 +18,7 @@
 
 **Canonical repository:** <https://github.com/research-line/ai-elite-swr>
 
-**Latest public versions checked on 2026-06-04:**
+**Latest public versions checked on 2026-06-11:**
 - Paper A: v8.0, DOI [`10.5281/zenodo.20091973`](https://doi.org/10.5281/zenodo.20091973), concept DOI [`10.5281/zenodo.18736737`](https://doi.org/10.5281/zenodo.18736737)
 - Paper B: v6.1, DOI [`10.5281/zenodo.20260688`](https://doi.org/10.5281/zenodo.20260688), concept DOI [`10.5281/zenodo.18736720`](https://doi.org/10.5281/zenodo.18736720)
 

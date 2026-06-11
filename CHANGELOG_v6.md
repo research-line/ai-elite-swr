@@ -14,6 +14,11 @@
 - `CITATION.cff` mit den beiden companion-paper DOI-Referenzen ergänzt.
 - Community-Workflows auf aktuelle Action-Major-Versionen nachgezogen.
 
+## Repository Discoverability Update (2026-06-11)
+
+- Zenodo-Record-Stand für Paper A v8.0 und Paper B v6.1 erneut geprüft und README-Checkdatum aktualisiert.
+- `llms.txt` um `Last checked`, Audience-Kontext und bevorzugte Suchphrasen ergänzt.
+
 ---
 
 ## Versionshistorie
