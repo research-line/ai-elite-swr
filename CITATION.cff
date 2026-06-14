@@ -29,8 +29,8 @@ references:
       - family-names: Geiger
         given-names: Lukas
         orcid: "https://orcid.org/0009-0005-7296-1534"
-    doi: "10.5281/zenodo.20091973"
-    date-released: "2026-05-09"
+    doi: "10.5281/zenodo.20686161"
+    date-released: "2026-06-14"
   - type: article
     title: "Synthetic Worldview Reconstruction (SWR): A Methodological Framework for LLM-Assisted Group-Level Belief System Analysis"
     authors:

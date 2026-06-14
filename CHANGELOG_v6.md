@@ -19,6 +19,11 @@
 - Zenodo-Record-Stand für Paper A v8.0 und Paper B v6.1 erneut geprüft und README-Checkdatum aktualisiert.
 - `llms.txt` um `Last checked`, Audience-Kontext und bevorzugte Suchphrasen ergänzt.
 
+## Repository / Zenodo Update (2026-06-14)
+
+- Paper A Zenodo latest auf v8.1 aktualisiert: Record `20686161`, DOI `10.5281/zenodo.20686161`.
+- `README.md`, `CITATION.cff` und `llms.txt` auf den veröffentlichten v8.1-Stand nachgezogen.
+
 ---
 
 ## Versionshistorie
