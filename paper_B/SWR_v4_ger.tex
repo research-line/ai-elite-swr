@@ -11,6 +11,8 @@
 %% --- Encoding and Language ---------------------------------------------------
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
 \usepackage[ngerman]{babel}
 
 %% --- Fonts: Times + Helvetica ------------------------------------------------
@@ -50,11 +52,18 @@
 \usepackage{xcolor}
 \usepackage{xurl}
 \usepackage[unicode=true,breaklinks=true]{hyperref}
+\makeatletter
+\renewcommand*{\HyperDestNameFilter}[1]{swrb-de-#1}
+\makeatother
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newenvironment{promptquote}{%
   \begin{quote}\footnotesize\ttfamily\raggedright\sloppy
 }{%
   \end{quote}
+}
+\newcommand{\backmatterlabel}[1]{%
+  \par\smallskip
+  \noindent\textbf{#1}\enspace
 }
 \setlength{\emergencystretch}{1.5em}
 \hypersetup{
@@ -81,7 +90,7 @@
   \small Unabhängiger Forscher, Bernau, Deutschland
 }
 
-\date{Mai 2026}
+\date{Juni 2026}
 
 %% =============================================================================
 \begin{document}
@@ -126,7 +135,7 @@ In den letzten Jahren war ein rasantes Wachstum LLM-gestützter sozialwissenscha
 
 Bestehende LLM-gestützte Ansätze dienen jedoch anderen Zwecken als SWR. \citet{Argyle2023} verwenden LLMs, um menschliche Stichproben zu \emph{simulieren} -- \glqq{}Silicon Samples\grqq{}, die auf demografische Hintergrundgeschichten konditioniert werden, um Surveyantworten zu approximieren. \citet{Ge2024} skalieren synthetische Personas zur \emph{Datengenerierung}. In beiden Fällen generiert das LLM Daten \emph{de novo}. SWR hingegen nutzt das LLM, um bestehende reale Daten in eine kohärente Darstellung zu \emph{komprimieren}. Die synthetische Person ist kein Simulakrum, sondern ein analytisches Kondensierungsinstrument -- näher an einem Weberschen Idealtypus als an einem Simulationsagenten.
 
-Eine eng verwandte Tradition ist die Kritische Diskursanalyse \citep[KDA;][]{Fairclough1992, Wodak2001}, die qualitative analytische Raster auf Texte anwendet, um Machtstrukturen und Ideologien aufzudecken. Die KDA erreicht reiche interpretative Tiefe, steht aber vor bekannten Skalierungsgrenzen: Sie operiert typischerweise auf kleinen Korpora (5--20~Texte) mit begrenzter Inter-Rater-Reliabilität. LLMs adressieren diese Einschränkungen bereits für die \emph{Analyse} einzelner Texte; was fehlte, war eine Methode für die \emph{Synthese} auf Gruppenebene -- die KDA und analoge Analysemethoden nicht auf einzelne Texte, sondern auf gruppenaggregierten synthetischen Repräsentationen anzuwenden. SWR stellt diese fehlende Syntheseschicht bereit.
+Eine eng verwandte Tradition ist die Kritische Diskursanalyse \citep[KDA;][]{Fairclough1992, Wodak2001}, die qualitative analytische Raster auf Texte anwendet, um Machtstrukturen und Ideologien aufzudecken. Die KDA erreicht reiche interpretative Tiefe, steht aber vor bekannten Skalierungsgrenzen: Sie operiert typischerweise auf kleinen Korpora (5--20~Texte) mit begrenzter Inter-Rater-Reliabilität. LLMs adressieren diese Einschränkungen bereits für die \emph{Analyse} einzelner Texte; was fehlte, war eine Methode für die \emph{Synthese} auf Gruppenebene, die es erlaubt, KDA und analoge Analysemethoden nicht auf einzelne Texte, sondern auf gruppenaggregierte synthetische Repräsentationen anzuwenden. SWR stellt diese fehlende Syntheseschicht bereit.
 
 Was fehlte, war eine systematische Methode zur Rekonstruktion des \emph{kohärenten Glaubenssystems} einer soziologisch definierten Gruppe aus heterogenen öffentlichen Daten -- eine Methode, die qualitative Tiefe (narrative Reichhaltigkeit, Spannungserkennung, innere Logik) mit quantitativer Strenge (dimensionale Bewertung, Reliabilitätstests, modalitätsübergreifende Validierung) verbindet. SWR füllt diese Lücke.
 
@@ -398,6 +407,26 @@ Die Pilotstudie erfüllt alle Stufe-1- und die meisten Stufe-2-Kriterien. Der In
 
 Dieser Abschnitt bietet einen Schritt-für-Schritt-Leitfaden für Forschende, die SWR auf eigene Populationen anwenden möchten. Der Leitfaden setzt Vertrautheit mit qualitativer Forschungsmethodologie und grundlegender LLM-Interaktion voraus.
 
+Tabelle~\ref{tab:implementierungsledger} verdichtet den Leitfaden zu einem prüfbaren Implementierungsledger. Sie führt keinen neuen statistischen Test ein, sondern macht sichtbar, welches Artefakt vorliegen muss, damit eine SWR-Anwendung als reproduzierbar, minimal validiert und gegen die häufigsten LLM-spezifischen Fehlermodi abgesichert bewertet werden kann.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Mindest-Implementierungsledger für eine reproduzierbare SWR-Anwendung.}
+  \label{tab:implementierungsledger}
+  \scriptsize
+  \begin{tabularx}{\textwidth}{@{} p{2.6cm} Y Y Y @{}}
+    \toprule
+    \textbf{Workflow-Objekt} & \textbf{Erforderliches Artefakt} & \textbf{Mindest-Gate} & \textbf{Kontrolliertes Risiko} \\
+    \midrule
+    Population und Korpus & Einschluss-/Ausschlussregeln plus Quellen-, Datums- und Kontextmetadaten für jeden Datenpunkt & Intersubjektiv überprüfbare Gruppenkriterien; $\geq$\,15 Datenpunkte pro SE & Ad-hoc-Stichprobe; nicht prüfbare Provenienz \\[3pt]
+    SE-Karte & Gruppe $\times$ Modalität $\times$ Zeitraum-Matrix mit Reduktionsbegründung & Jede behaltene SE ist einer Forschungsfrage zugeordnet; keine unbegründete Teilmengen-Duplikation & Verdeckte Freiheitsgrade des Forschenden \\[3pt]
+    Prompt- und Instanzlog & Prompttext, Modellversion, Temperatur, Durchlaufdatum und Frischinstanz-Nachweis & Kein geteilter Kontext für Reliabilitäts-, Vorhersage- oder Sagen-Tun-Messungen & Kontextleck; aufgeblähte Reliabilität \\[3pt]
+    Bewertungsbogen & Dimensionsdefinitionen, numerische Bewertungen und datenbasierte Begründungen & Klar definierte Pole; Begründung für jede Bewertung & Opakes Scoring; nachträgliche Interpretation \\[3pt]
+    Validierungspaket & IMIIRR, Prompt-Sensitivitätsprüfung und mindestens ein externer Anker & Stufe-1-Akzeptanz vor inferenznahen Aussagen & Überinterpretation eines einzelnen LLM-Durchlaufs \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
 \subsection{Schritt 1: Population definieren und Daten erheben}
 \label{sec:app:step1}
 
@@ -505,7 +534,7 @@ SWR nimmt eine eigenständige Position an der Schnittstelle qualitativer und qua
 
 \textbf{SWR vs.\ Automatisierte Kodierung} \citep{Tai2024}. Automatisierte Kodierung klassifiziert Textsegmente in vordefinierte Kategorien. SWR geht darüber hinaus, indem es diese Segmente zu einem kohärenten Ganzen integriert. Automatisierte Kodierung beantwortet \glqq{}Welche Themen sind präsent?\grqq{}; SWR beantwortet \glqq{}Was glaubt diese Gruppe?\grqq{}
 
-\textbf{SWR vs.\ Kritische Diskursanalyse} \citep[KDA;][]{Fairclough1992, Wodak2001}. Die KDA wendet qualitative analytische Raster auf Texte an, um Machtstrukturen, ideologische Formationen und hegemoniale Diskursmuster aufzudecken. Sowohl KDA als auch SWR zielen darauf ab, latente Glaubensstrukturen zu enthüllen; ihre Beziehung ist eher komplementär als kompetitiv. Die KDA analysiert einzelne Texte oder kleine Korpora im Hinblick auf Macht und Ideologie; SWR synthetisiert zunächst eine gruppenaggregierten Repräsentation und ermöglicht so KDA-ähnliche Analysen auf Gruppenebene statt auf Textebene. Die Synthese-Pipeline (Schritte~1--4) kann damit als Vorverarbeitungsstufe fungieren, die Diskursanalyse auf Gruppenebene handhabbar macht.
+\textbf{SWR vs.\ Kritische Diskursanalyse} \citep[KDA;][]{Fairclough1992, Wodak2001}. Die KDA wendet qualitative analytische Raster auf Texte an, um Machtstrukturen, ideologische Formationen und hegemoniale Diskursmuster aufzudecken. Sowohl KDA als auch SWR zielen darauf ab, latente Glaubensstrukturen zu enthüllen; ihre Beziehung ist eher komplementär als kompetitiv. Die KDA analysiert einzelne Texte oder kleine Korpora im Hinblick auf Macht und Ideologie; SWR synthetisiert zunächst eine gruppenaggregierte Repräsentation und ermöglicht so KDA-ähnliche Analysen auf Gruppenebene statt auf Textebene. Die Synthese-Pipeline (Schritte~1--4) kann damit als Vorverarbeitungsstufe fungieren, die Diskursanalyse auf Gruppenebene handhabbar macht.
 
 \textbf{Theoretische Wurzeln.} SWR stützt sich auf \citet{Weber1904} (Idealtypus als analytisches Konstrukt), \citet{Mannheim1929} (Seinsverbundenheit des Denkens), \citet{Gadamer1960} (der hermeneutische Zirkel des Verstehens) und die wissenssoziologische Tradition, die Weltanschauungen als soziale Phänomene behandelt, die empirischer Untersuchung zugänglich sind \citep{BergerLuckmann1966}. Das entstehende Feld der Computational Hermeneutics \citep{Kommers2026} bietet eine konzeptuelle Brücke zwischen diesen interpretativen Traditionen und LLM-gestützter Analyse, während \citet{Hornby2024} untersucht, wie Gadamersche Hermeneutik die Epistemologie LLM-vermittelten Verstehens informieren kann. Die Formalisierung als inverses Problem verbindet sich mit \citet{Tarantola2005} und \citet{Hadamard1923}. Der Einsatz von LLMs als analytische Instrumente fügt sich in das aufkommende Paradigma \glqq{}LLMs für Sozialwissenschaften\grqq{} ein \citep{Ziems2024, Bail2024}, während die epistemologische Vorsicht auf \citet{Messeri2024} zurückgreift, die vor \glqq{}Illusionen des Verstehens\grqq{} warnen, wenn KI-Werkzeuge ohne hinreichende methodologische Reflexion eingesetzt werden.
 
@@ -614,7 +643,7 @@ Synthetic Worldview Reconstruction bietet eine neue Methode zur Rekonstruktion d
   \item \textbf{Übertragbarkeit:} Das Fünfschritte-Protokoll, das dimensionale Bewertungsrahmenwerk und die abgestuften Akzeptanzkriterien sind für die Anwendung auf jede soziologisch definierte Population konzipiert -- politische Eliten, Unternehmenskulturen, religiöse Gemeinschaften, wissenschaftliche Disziplinen. Darüber hinaus ist die Synthese-Pipeline (Schritte~1--4) nicht an Personen oder Weltanschauungen gebunden: Sie kann als Eingangsstufe dienen, wo immer heterogene Textevidenz in eine kohärente kollektive Darstellung synthetisiert werden muss -- einschließlich Organisationskulturen, Policy-Diskursen und historischen Epochen.
 \end{enumerate}
 
-Die Methode wurde in einer Pilotstudie über 100~einflussreiche KI-Akteure \citep{Geiger2026PaperA} entwickelt und validiert, die ihre Fähigkeit demonstrierte, diskriminierende Gruppenprofile zu erzeugen, interne Spannungen aufzudecken und systematische Muster zu identifizieren, die aggregierte Berichterstattung verschleiern würde. Das vorliegende Paper abstrahiert diese Fähigkeiten in ein übertragbares methodologisches Rahmenwerk.
+Die Methode wurde in einer Pilotstudie über 100~einflussreiche KI-Akteure \citep{Geiger2026PaperA} entwickelt und validiert, die ihre Fähigkeit demonstrierte, diskriminierende Gruppenprofile zu erzeugen, interne Spannungen aufzudecken und systematische Muster zu identifizieren, die aggregierte Berichterstattung verschleiern würden. Das vorliegende Paper abstrahiert diese Fähigkeiten in ein übertragbares methodologisches Rahmenwerk.
 
 SWR ersetzt keine bestehenden Methoden; es fügt dem Werkzeugkasten des Sozialwissenschaftlers ein neues Instrument hinzu -- eines, das am wertvollsten ist, wenn direkter Zugang zu Befragten nicht verfügbar ist, wenn öffentliche Daten reichlich vorhanden sind und wenn die Forschungsfrage auf kollektive Glaubenssysteme abzielt statt auf individuelle Meinungen. Seine Limitationen -- Kohärenzverzerrung, Kontaminationsrisiko, Blackbox-Charakter, kulturelle Grenzen -- sind dokumentiert und teilweise kontrolliert; seine offenen Desiderate -- Intermodell-Replikation, Expertenvalidierung, erweiterte Power-Analyse -- definieren eine klare Forschungsagenda. Die Frage ist nicht, ob LLMs als Instrumente für sozialwissenschaftliche Forschung eingesetzt werden sollten, sondern wie sie \emph{rigoros} eingesetzt werden können. SWR schlägt eine Antwort vor.
 
@@ -622,7 +651,11 @@ SWR ersetzt keine bestehenden Methoden; es fügt dem Werkzeugkasten des Sozialwi
 %% =============================================================================
 %% KI-OFFENLEGUNG
 %% =============================================================================
-\section*{Offenlegung: Einsatz Künstlicher Intelligenz}
+\begingroup
+\footnotesize
+\setstretch{1.0}
+\setlength{\parskip}{0pt}
+\backmatterlabel{Offenlegung: Einsatz Künstlicher Intelligenz}
 
 \noindent\textbf{KI-Offenlegungsstufe~5 (Umfangreich).}
 Dieses Manuskript wurde mit KI-gestützter redaktioneller und formulierender Unterstützung durch Claude Opus~4.6 (Anthropic; Modell-ID: \texttt{claude-opus-4-6}; Zugang via Claude Code CLI, März 2026; Temperatur~$= 0$; 1M-Kontextfenster) erstellt. Der Autor hat die Methode entworfen, die Paperstruktur festgelegt, alle Qualitätskriterien definiert, die Ergebnisse interpretiert und trägt die alleinige Verantwortung für alle substanziellen Aussagen, Fehler und Auslassungen. Das Modell wird nicht als Autor oder Koautor geführt, nicht als Beitragender gewürdigt und fungiert weder als Validierungs- noch als Wahrheitsinstanz. Alle in diesem Paper berichteten Validierungsergebnisse stammen aus der Pilotstudie \citep{Geiger2026PaperA}, in der die Methodik für Datenerhebung, LLM-gestützte Synthese und statistische Analyse vollständig dokumentiert ist.
@@ -631,17 +664,18 @@ Dieses Manuskript wurde mit KI-gestützter redaktioneller und formulierender Unt
 %% =============================================================================
 %% DATENVERFUEGBARKEIT
 %% =============================================================================
-\section*{Erklärung zur Datenverfügbarkeit}
+\backmatterlabel{Erklärung zur Datenverfügbarkeit}
 
-\noindent Die Pilotstudien-Daten, Analyseskripte, Prompt-Templates und Dimensionsdefinitionen sind öffentlich verfügbar unter: \url{https://github.com/research-line/ai-elite-swr}. Das Repository enthält die vollständige Prompt-Bibliothek, die $100 \times 12$-Bewertungsmatrix und alle Validierungsanalyse-Skripte.
+\noindent Die Pilotstudien-Daten, Analyseskripte, Prompt-Templates und Dimensionsdefinitionen sind öffentlich im \href{https://github.com/research-line/ai-elite-swr}{Projekt-Repository} verfügbar. Das Repository enthält die vollständige Prompt-Bibliothek, die $100 \times 12$-Bewertungsmatrix und alle Validierungsanalyse-Skripte.
 
 
 %% =============================================================================
 %% LIZENZ
 %% =============================================================================
-\section*{Lizenz}
+\backmatterlabel{Lizenz}
 
-\noindent Dieses Werk ist lizenziert unter der Creative Commons Attribution 4.0 International License (CC-BY-4.0). Eine Kopie dieser Lizenz ist einsehbar unter \url{https://creativecommons.org/licenses/by/4.0/}.
+\noindent Dieses Werk ist lizenziert unter der Creative Commons Attribution 4.0 International License (CC-BY-4.0). Der vollständige Lizenztext ist auf der \href{https://creativecommons.org/licenses/by/4.0/}{CC-BY-4.0-Lizenzseite} abrufbar.
+\endgroup
 
 
 %% =============================================================================

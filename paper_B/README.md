@@ -1,14 +1,21 @@
 # Paper B: Synthetic Worldview Reconstruction (SWR) -- Method Paper
 
-**Status:** Zenodo v6.1 live (2026-05-17); local source files are v4.
+**Status:** Zenodo v6.1 live (2026-05-17); the local v4 source files include post-v6.1 maintenance and currently represent the v6.2 candidate.
 
 **Zenodo DOI:** [10.5281/zenodo.18736720](https://doi.org/10.5281/zenodo.18736720) (concept DOI)
 
 ## Relationship to Paper A
 
-Paper A (*What Does the AI Elite Think?*, v8.0 live) developed and applied SWR to the AI elite (100 actors, 3,132 data points). Paper B abstracts the method from that specific application and presents it as a generalized, transferable framework.
+Paper A (*What Does the AI Elite Think?*, v8.1 live) developed and applied SWR to the AI elite (100 actors, 3,132 data points). Paper B abstracts the method from that specific application and presents it as a generalized, transferable framework.
 
-**Paper A is the ground truth.** All empirical numbers in Paper B derive from the Paper A validation corpus; the current live Paper A release is v8.0.
+**Paper A is the ground truth.** All empirical numbers in Paper B derive from the Paper A validation corpus; the current live Paper A release is v8.1.
+
+## Local maintenance after v6.1
+
+- June 2026 maintenance adds the implementation ledger used in the application guide.
+- PDF metadata and internal link targets were refreshed for the current paper set.
+- German PDF text extraction was hardened with ToUnicode support and verified with real umlauts.
+- These updates are present in the repository and remain a deliberate Zenodo v6.2 candidate until a dedicated release is made.
 
 ## v6.1 Source-Check Release (2026-05-17)
 

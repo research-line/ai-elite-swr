@@ -11,6 +11,8 @@
 %% --- Encoding and Language ---------------------------------------------------
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
 \usepackage[english]{babel}
 
 %% --- Fonts: Times + Helvetica ------------------------------------------------
@@ -50,11 +52,18 @@
 \usepackage{xcolor}
 \usepackage{xurl}
 \usepackage[unicode=true,breaklinks=true]{hyperref}
+\makeatletter
+\renewcommand*{\HyperDestNameFilter}[1]{swrb-en-#1}
+\makeatother
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newenvironment{promptquote}{%
   \begin{quote}\footnotesize\ttfamily\raggedright\sloppy
 }{%
   \end{quote}
+}
+\newcommand{\backmatterlabel}[1]{%
+  \par\smallskip
+  \noindent\textbf{#1}\enspace
 }
 \setlength{\emergencystretch}{1.5em}
 \hypersetup{
@@ -81,7 +90,7 @@
   \small Independent Researcher, Bernau, Germany
 }
 
-\date{May 2026}
+\date{June 2026}
 
 %% =============================================================================
 \begin{document}
@@ -93,7 +102,7 @@
 %% --- Abstract ----------------------------------------------------------------
 \begin{abstract}
 \noindent
-This paper presents \emph{Synthetic Worldview Reconstruction} (SWR) -- a method for reconstructing the collective belief systems of sociologically defined groups using large language models. SWR formulates worldview analysis as an inverse problem: given the aggregated public statements and documented actions of a group, reconstruct the latent belief system that most coherently generates these outputs. The method constructs a \emph{fictive synthetic person} -- a Weberian ideal type -- whose worldview represents the group's collective beliefs in distilled form. This paper abstracts SWR from its original application (a study of 100 influential AI actors; Geiger, 2026) into a transferable methodological framework. We describe the five-step protocol, the dimensional rating procedure as one operationalization example, and the focus control infrastructure. Quality assurance is documented through empirical results from the pilot study: Intra-Model Inter-Instance Rating Reliability (IMIIRR) reaches ICC(2,1)\,=\,0.902 ($5 \times 2$ runs) and ICC(3,1)\,=\,0.847 ($N$\,=\,15 independent single-instance runs); cross-modal prediction achieves 72\% confirmation with 0\% contradiction; and a blinding robustness test shows $r$\,=\,0.987 across anonymization strategies. Tiered acceptance criteria distinguish between minimum requirements (Tier~1) and desirable extensions (Tier~2). A step-by-step application guide enables researchers to apply SWR to their own populations. The method is designed for group-level analysis, where it exploits a structural advantage: no LLM training corpus contains pre-formed collective worldviews of sociological groups, reducing the contamination risk that dominates individual-level approaches.
+This paper presents \emph{Synthetic Worldview Reconstruction} (SWR) -- a method for reconstructing the collective belief systems of sociologically defined groups using large language models. SWR formulates worldview analysis as an inverse problem: given the aggregated public statements and documented actions of a group, reconstruct the latent belief system that most coherently generates these outputs. The method constructs a \emph{fictive synthetic person} -- a Weberian ideal type -- whose worldview represents the group's collective beliefs in distilled form. This paper abstracts SWR from its original application (a study of 100 influential AI actors; Geiger, 2026) into a transferable methodological framework. We describe the five-step protocol, the dimensional rating procedure as one operationalization example, and the focus control infrastructure. Quality assurance is documented through empirical results from the pilot study: Intra-Model Inter-Instance Rating Reliability (IMIIRR) reaches ICC(2,1)\,=\,0.902 ($5 \times 2$ runs) and ICC(3,1)\,=\,0.847 ($N$\,=\,15 independent single-instance runs); cross-modal prediction achieves 72\% confirmation with 0\% contradiction; and a blinding robustness test shows $r$\,=\,0.987 across anonymization strategies. Tiered acceptance criteria distinguish between minimum requirements (Tier~1) and desirable extensions (Tier~2). A step-by-step application guide enables researchers to apply SWR to their own populations. The method is designed for group-level analysis, where ready-made collective worldviews of sociological groups are less likely to exist in the training corpus than public knowledge about prominent individuals, thereby reducing a contamination risk that is typically more acute in individual-level applications.
 
 \medskip
 \noindent\textbf{Keywords:} synthetic worldview reconstruction, LLM-assisted methodology, collective belief systems, ideal type, group-level analysis, computational social science, inter-instance reliability
@@ -128,7 +137,7 @@ However, existing LLM-assisted approaches serve different purposes than SWR. \ci
 
 A closely related tradition is Critical Discourse Analysis \citep[CDA;][]{Fairclough1992, Wodak2001}, which applies qualitative analytical grids to texts to uncover power structures and ideology. CDA achieves rich interpretive depth but faces well-known scalability constraints: it typically operates on small corpora (5--20 texts) with limited inter-rater reliability. LLMs already address these constraints for \emph{analysis} of individual texts; what has been missing is a method for \emph{synthesis} at the group level -- enabling CDA and analogous analytical methods to be applied not to individual texts, but to group-aggregated synthetic representations. SWR provides this missing synthesis layer.
 
-What has been missing is a systematic method for reconstructing the \emph{coherent belief system} of a sociologically defined group from heterogeneous public data -- one that combines qualitative depth (narrative richness, tension detection, internal logic) with quantitative rigor (dimensional rating, reliability testing, cross-modal validation). SWR fills this gap.
+What has been missing is a systematic method for reconstructing the \emph{coherent belief system} of a sociologically defined group from heterogeneous public data -- one that combines qualitative depth (narrative richness, tension detection, internal logic) with quantitative rigor (dimensional rating, reliability testing, cross-modal validation). SWR addresses this gap.
 
 
 \subsection{Contribution}
@@ -137,7 +146,7 @@ What has been missing is a systematic method for reconstructing the \emph{cohere
 This paper makes three contributions:
 
 \begin{enumerate}[nosep]
-  \item \textbf{Method formalization:} It describes SWR as a transferable five-step protocol with explicit quality criteria, distinguishing it from related approaches (LLM-as-participant, synthetic data generation, automated coding, critical discourse analysis). The formalization separates two independent contributions: (a)~the synthesis pipeline (Steps~1--4) as a novel method for group-level belief system reconstruction from heterogeneous data, and (b)~dimensional rating (Step~5) as one specific, exchangeable operationalization applied in the pilot study.
+  \item \textbf{Method formalization:} It describes SWR as a transferable five-step protocol with explicit quality criteria, distinguishing it from related approaches (LLM-as-participant, synthetic data generation, automated coding, critical discourse analysis). The formalization separates two independent contributions: (a)~the synthesis pipeline (Steps~1--4) as a structured method for group-level belief system reconstruction from heterogeneous data, and (b)~dimensional rating (Step~5) as one specific, exchangeable operationalization applied in the pilot study.
   \item \textbf{Quality framework:} It presents empirical quality metrics from the pilot study -- IMIIRR, cross-modal prediction, expected-discrepancy control, blinding robustness -- and defines tiered acceptance criteria for future applications.
   \item \textbf{Application guide:} It provides a step-by-step guide enabling researchers to apply SWR to their own populations, including practical recommendations for data collection, prompt design, validation, and common pitfalls.
 \end{enumerate}
@@ -174,7 +183,7 @@ The central analytical construct in SWR is the \emph{fictive synthetic person} -
 The fiction approach serves five methodological functions:
 
 \begin{enumerate}[nosep]
-  \item \textbf{Contamination reduction:} No LLM training corpus contains ``the collective worldview of CEOs'' or ``the shared belief system of risk warners'' as a pre-formed object. The collective worldview is \emph{created} by the synthesis, not retrieved from memory. This structurally reduces the primary methodological concern for LLM-based reconstruction.\footnote{This advantage is specific to group-level analysis. For individual-level analysis of public figures, the LLM may draw on extensive stored knowledge, making the contamination risk substantially higher.}
+  \item \textbf{Contamination reduction:} Training corpora are less likely to contain ready-made objects such as ``the collective worldview of CEOs'' or ``the shared belief system of risk warners'' than public background knowledge about individual high-profile actors. The collective worldview is therefore \emph{constructed} through synthesis rather than simply retrieved from memory. This reduces a primary methodological concern for LLM-based reconstruction.\footnote{This advantage is specific to group-level analysis. For individual-level analysis of public figures, the LLM may draw on extensive stored knowledge, making the contamination risk substantially higher.}
   \item \textbf{Separation of worldview and biography:} The fiction strips away individual biographical noise, PR strategies, and situational context, isolating the shared belief patterns.
   \item \textbf{Natural aggregation:} Rather than averaging numerical ratings across individuals, the LLM performs a qualitative synthesis -- integrating contradictions, weighting by salience, and producing a coherent narrative.
   \item \textbf{Comparability:} Fictive synthetic persons of different groups can be systematically compared along the same dimensions, enabling structured inter-group analysis.
@@ -294,7 +303,7 @@ Focus control ensures that the LLM synthesizes from the presented data rather th
   \item \textbf{Task focus:} Prompt design directs the LLM toward synthesizing a coherent worldview from the presented data. No group labels (``AI elite,'' ``Silicon Valley''), no expected outcomes, and no dimensional categories are mentioned in the synthesis prompt (Steps~1--4). Dimensions are introduced only in the rating step (Step~5).
 \end{enumerate}
 
-Focus control is not a claim that the LLM cannot recognize individuals -- especially for famous public figures, this is neither achievable nor necessary at the group level. The goal is \emph{task compliance}: ensure the model synthesizes from the provided data, not from stereotypes. The structural advantage of group-level analysis (cf.\ Section~\ref{sec:introduction}) reinforces this goal.
+Focus control is not a claim that the LLM cannot recognize individuals -- especially for famous public figures, this is neither achievable nor necessary at the group level. The goal is \emph{task compliance}: ensure the model synthesizes from the provided data, not from stereotypes. The group-level framing described above (cf.\ Section~\ref{sec:introduction}) supports this goal.
 
 
 %% =============================================================================
@@ -397,6 +406,26 @@ The pilot study meets all Tier~1 and most Tier~2 criteria. The inter-model compa
 \label{sec:application}
 
 This section provides a step-by-step guide for researchers who wish to apply SWR to their own populations. The guide assumes familiarity with qualitative research methodology and basic LLM interaction.
+
+Table~\ref{tab:implementation-ledger} condenses the guide into an auditable implementation ledger. Its purpose is not to add a new statistical test, but to make explicit which artifact must exist before a reader can evaluate an SWR application as reproducible, minimally validated, and protected against the most common LLM-specific failure modes.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Minimum implementation ledger for a reproducible SWR application.}
+  \label{tab:implementation-ledger}
+  \scriptsize
+  \begin{tabularx}{\textwidth}{@{} p{2.6cm} Y Y Y @{}}
+    \toprule
+    \textbf{Workflow object} & \textbf{Required artifact} & \textbf{Minimum gate} & \textbf{Controlled risk} \\
+    \midrule
+    Population and corpus & Inclusion/exclusion rules plus source, date, and context metadata for each data point & Intersubjectively verifiable group criteria; $\geq$\,15 data points per SU & Ad hoc sampling; unverifiable provenance \\[3pt]
+    Synthesis-unit map & Group $\times$ modality $\times$ period matrix with reduction rationale & Each retained SU is linked to a research question; no unmotivated subset duplication & Hidden researcher degrees of freedom \\[3pt]
+    Prompt and instance log & Prompt text, model version, temperature, run date, and fresh-instance record & No shared context for reliability, prediction, or say-do measurements & Context leakage; inflated reliability \\[3pt]
+    Rating sheet & Dimension definitions, numerical ratings, and data-based justifications & Clearly defined poles; justification for every rating & Opaque scoring; post-hoc interpretation \\[3pt]
+    Validation packet & IMIIRR, prompt-sensitivity check, and at least one external anchor & Tier~1 acceptance before inferential claims & Over-reading a single LLM run \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
 
 \subsection{Step 1: Define Population and Collect Data}
 \label{sec:app:step1}
@@ -531,13 +560,13 @@ Four control mechanisms partially address this risk:
   \item The aggregation-synthesis comparison showed a systematic amplification effect: group syntheses produce sharper contours than averaged individual profiles (71.7\% of dimension-group combinations further from midpoint), analogous to group polarization in social psychology.
 \end{enumerate}
 
-Despite these measures, coherence bias remains an inherent property of the method. Results should be interpreted as \emph{idealized models} of worldviews -- comparable, scalable approximations -- not as faithful representations of actual cognitive states. Comparative analyses (between-group differences) are more robust than absolute claims about any single group's internal coherence.
+Despite these measures, coherence bias remains an inherent property of the method. Results should be interpreted as \emph{idealized models} of worldviews -- comparable, scalable approximations -- not as faithful representations of actual cognitive states. Comparative analyses (between-group differences) are generally more robust than absolute claims about any single group's internal coherence.
 
 
 \subsection{Contamination and Focus Control Limits}
 \label{sec:limitations:contamination}
 
-Despite consistent focus control, it cannot be excluded that the LLM draws on training knowledge -- particularly for well-known public figures. Two empirical results constrain this concern: (1)~the blinding robustness test showed that the choice of anonymization strategy (placeholders vs.\ fictional names) has no material effect ($r$\,=\,0.987, MAE\,=\,0.33); (2)~full identity disclosure (real names) produced only a moderate shift ($r$\,=\,0.850, MAE\,=\,0.67, with the same group average). The structural advantage of group-level analysis remains the primary safeguard (cf.\ Abstract).
+Despite consistent focus control, it cannot be excluded that the LLM draws on training knowledge -- particularly for well-known public figures. Two empirical results constrain this concern: (1)~the blinding robustness test showed that the choice of anonymization strategy (placeholders vs.\ fictional names) has no material effect ($r$\,=\,0.987, MAE\,=\,0.33); (2)~full identity disclosure (real names) produced only a moderate shift ($r$\,=\,0.850, MAE\,=\,0.67, with the same group average). The group-level design remains an important safeguard (cf.\ Abstract).
 
 
 \subsection{Circularity Risk}
@@ -608,21 +637,25 @@ SWR can be used for legitimate purposes (understanding elite belief systems, inf
 Synthetic Worldview Reconstruction offers a new method for reconstructing the collective belief systems of sociologically defined groups. By formulating worldview analysis as an inverse problem and using LLMs as analytical compression instruments, SWR bridges the gap between qualitative depth and quantitative rigor. The method's distinctive features are:
 
 \begin{enumerate}[nosep]
-  \item \textbf{Group-level analysis as default:} SWR is designed for collective belief systems, not individual portraits, providing a structural contamination advantage (cf.\ Abstract).
+  \item \textbf{Group-level analysis as default:} SWR is designed for collective belief systems, not individual portraits, and therefore offers a structural contamination advantage (cf.\ Abstract).
   \item \textbf{Dual data modality:} By operating on both statements and actions, SWR enables say-do comparison and cross-modal prediction -- validation mechanisms unavailable to methods that rely on a single data type.
-  \item \textbf{Reliable instrumentation:} IMIIRR coefficients (ICC\,=\,0.847--0.902) demonstrate high measurement consistency. Reliability does not guarantee validity (cf.\ Section~\ref{sec:qa:imiirr}), but establishes a stable foundation for meaningful comparisons, with full prompt documentation replacing implicit coding rules.
+  \item \textbf{Consistent instrumentation:} IMIIRR coefficients (ICC\,=\,0.847--0.902) demonstrate high measurement consistency. Reliability does not guarantee validity (cf.\ Section~\ref{sec:qa:imiirr}), but it provides a stable basis for meaningful comparisons, with full prompt documentation replacing implicit coding rules.
   \item \textbf{Transferability:} The five-step protocol, the dimensional rating framework, and the tiered acceptance criteria are designed for application to any sociologically defined population -- political elites, corporate cultures, religious communities, scientific disciplines. More broadly, the synthesis pipeline (Steps~1--4) is not bound to persons or worldviews: it can serve as an input stage wherever heterogeneous textual evidence needs to be synthesized into a coherent collective representation -- including organizational cultures, policy discourses, and historical periods.
 \end{enumerate}
 
-The method has been developed and validated through a pilot study of 100~influential AI actors \citep{Geiger2026PaperA}, which demonstrated its capacity to produce discriminating group profiles, detect internal tensions, and identify systematic patterns that aggregate reporting would obscure. The present paper abstracts these capabilities into a transferable methodological framework.
+The method has been developed and validated through a pilot study of 100~influential AI actors \citep{Geiger2026PaperA}, which illustrated its capacity to produce discriminating group profiles, detect internal tensions, and identify systematic patterns that aggregate reporting would obscure. The present paper abstracts these capabilities into a transferable methodological framework.
 
-SWR does not replace existing methods; it adds a new instrument to the social scientist's toolkit -- one that is most valuable when direct access to respondents is unavailable, when public data are abundant, and when the research question targets collective belief systems rather than individual opinions. Its limitations -- coherence bias, contamination risk, black-box character, cultural boundaries -- are documented and partially controlled; its open desiderata -- inter-model replication, expert validation, extended power analysis -- define a clear research agenda. The question is not whether LLMs should be used as instruments for social science research, but how they can be used \emph{rigorously}. SWR proposes one answer.
+SWR does not replace existing methods; it adds a new instrument to the social scientist's toolkit -- one that is especially useful when direct access to respondents is unavailable, when public data are abundant, and when the research question targets collective belief systems rather than individual opinions. Its limitations -- coherence bias, contamination risk, black-box character, cultural boundaries -- are documented and partially controlled; its open desiderata -- inter-model replication, expert validation, extended power analysis -- define a clear research agenda. The question is not whether LLMs should be used as instruments for social science research, but how they can be used \emph{rigorously}. SWR offers one possible answer.
 
 
 %% =============================================================================
 %% AI DISCLOSURE
 %% =============================================================================
-\section*{Disclosure Statement: Use of Artificial Intelligence}
+\begingroup
+\footnotesize
+\setstretch{1.0}
+\setlength{\parskip}{0pt}
+\backmatterlabel{Disclosure Statement: Use of Artificial Intelligence}
 
 \noindent\textbf{AI Disclosure Level~5 (Extensive).}
 This manuscript was prepared with AI-assisted editorial and drafting support from Claude Opus~4.6 (Anthropic; model ID: \texttt{claude-opus-4-6}; accessed via Claude Code CLI, March 2026; temperature~$= 0$; 1M context window). The author designed the method, determined the paper structure, defined all quality criteria, interpreted the results, and retains sole responsibility for all substantive claims, errors, and omissions. The model is not an author or co-author, is not acknowledged as a contributor, and does not function as a validation or ground-truth authority. All validation results reported in this paper originate from the pilot study \citep{Geiger2026PaperA}, where the methodology for data collection, LLM-assisted synthesis, and statistical analysis is documented in full.
@@ -631,17 +664,18 @@ This manuscript was prepared with AI-assisted editorial and drafting support fro
 %% =============================================================================
 %% DATA AVAILABILITY
 %% =============================================================================
-\section*{Data Availability Statement}
+\backmatterlabel{Data Availability Statement}
 
-\noindent The pilot study data, analysis scripts, prompt templates, and dimensional definitions are publicly available at: \url{https://github.com/research-line/ai-elite-swr}. The repository contains the complete prompt library, the $100 \times 12$ rating matrix, and all validation analysis scripts.
+\noindent The pilot study data, analysis scripts, prompt templates, and dimensional definitions are publicly available in the \href{https://github.com/research-line/ai-elite-swr}{project repository}. The repository contains the complete prompt library, the $100 \times 12$ rating matrix, and all validation analysis scripts.
 
 
 %% =============================================================================
 %% LICENSE
 %% =============================================================================
-\section*{License}
+\backmatterlabel{License}
 
-\noindent This work is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0). To view a copy of this license, visit \url{https://creativecommons.org/licenses/by/4.0/}.
+\noindent This work is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0). The full license text is available on the \href{https://creativecommons.org/licenses/by/4.0/}{CC-BY-4.0 license page}.
+\endgroup
 
 
 %% =============================================================================
