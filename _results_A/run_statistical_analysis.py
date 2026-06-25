@@ -14,15 +14,42 @@ Ergebnisse -> statistical_analysis.json + STATISTICAL_REPORT.md
 
 import json
 import re
+import argparse
 import numpy as np
 from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+DEFAULT_DATA_PATH = SCRIPT_DIR / "synthesen" / "rating_GESAMT_D01-D12.md"
+DEFAULT_OUTPUT_DIR = SCRIPT_DIR
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Statistische Gruppenvergleichstests auf den versionierten SWR/KI-Elite-Daten."
+    )
+    parser.add_argument(
+        "--data-path",
+        type=Path,
+        default=DEFAULT_DATA_PATH,
+        help="Markdown-Ratingtabelle. Default: _results_A/synthesen/rating_GESAMT_D01-D12.md",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=DEFAULT_OUTPUT_DIR,
+        help="Ausgabeordner für statistical_analysis.json und STATISTICAL_REPORT.md. Default: _results_A/",
+    )
+    return parser.parse_args()
+
+
+args = parse_args()
+data_path = args.data_path.expanduser().resolve()
+output_dir = args.output_dir.expanduser().resolve()
+output_dir.mkdir(parents=True, exist_ok=True)
 
 # ============================================================
 # 1. DATEN EINLESEN
 # ============================================================
-
-data_path = Path(r"C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.PRIO-1\!!!PP__Transhumanismus\_results\synthesen\rating_GESAMT_D01-D12.md")
-output_dir = Path(r"C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.PRIO-1\!!!PP__Transhumanismus\_results")
 
 with open(data_path, "r", encoding="utf-8") as f:
     content = f.read()
