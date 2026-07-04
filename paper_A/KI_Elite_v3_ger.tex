@@ -211,11 +211,11 @@ Dieser Abschnitt stellt die vollst\"andige Methodik dar, wie sie in dieser Studi
 
 \subsubsection{Stichprobe und Auswahlverfahren}
 
-Gegenstand der Untersuchung sind die 100 einflussreichsten Pers\"onlichkeiten im Bereich der k\"unstlichen Intelligenz (im Folgenden: KI-Elite). Die Auswahl erfolgte durch ein mehrstufiges Verfahren: Mittels 22 systematischer Webrecherchen wurden 187 Kandidatinnen und Kandidaten identifiziert. Jede Person wurde anhand eines 6-Kategorien-Scoring-Systems bewertet: (1)~Marktkapitalisierung/Ressourcenkontrolle, (2)~technologische Schl\"usselpositionen, (3)~\"offentliche Diskursmacht, (4)~akademischer Einfluss, (5)~politische Einflussnahme, (6)~symbolischer Status. Die resultierende Rangliste wurde auf 100 Personen reduziert, wobei die Heterogenit\"at der Branche hinsichtlich Rollen, Firmenzugeh\"origkeiten, Haltungen und Geschlecht abgebildet wird (vgl.\ Anhang~\ref{app:sampling}).
+Gegenstand der Untersuchung sind die 100 einflussreichsten Pers\"onlichkeiten im Bereich der k\"unstlichen Intelligenz (im Folgenden: KI-Elite). Die Auswahl erfolgte durch ein mehrstufiges Verfahren: Mittels 22 systematischer Webrecherchen wurden 187 Kandidatinnen und Kandidaten identifiziert. Jede Person wurde anhand eines 6-Kategorien-Bewertungssystems bewertet: (1)~Marktkapitalisierung/Ressourcenkontrolle, (2)~technologische Schl\"usselpositionen, (3)~\"offentliche Diskursmacht, (4)~akademischer Einfluss, (5)~politische Einflussnahme, (6)~symbolischer Status. Die resultierende Rangliste wurde auf 100 Personen reduziert, wobei die Heterogenit\"at der Branche hinsichtlich Rollen, Firmenzugeh\"origkeiten, Haltungen und Geschlecht abgebildet wird (vgl.\ Anhang~\ref{app:sampling}).
 
 \subsubsection{Datenquellen und Erhebungszeitraum}
 
-Der Erhebungszeitraum erstreckt sich vom 1.~Januar 2010 bis zum 11.~Februar 2026. Die Datenerhebung st\"utzt sich auf zwei Datentypen: \textbf{\"offentliche Aussagen} (w\"ortliche Zitate aus Interviews, Keynotes, Podcasts, Twitter/X-Posts, Blogbeitr\"agen, B\"uchern, Kongressanh\"orungen) und \textbf{beobachtbare Handlungen} (Investitionsentscheidungen, Firmengr\"undungen, Personalentscheidungen, politische Aktivit\"aten, Produkteinf\"uhrungen). Die Verkn\"upfung wurde in einer relationalen SQLite-Datenbank mit 9~Tabellen und 5~Views operationalisiert. Die Gesamtmenge bel\"auft sich auf 1.738 Aussagen und 1.394 Handlungen (3.132 Datenpunkte). Nach Anwendung der Ein- und Ausschlusskriterien (siehe unten) wurden 1.735 Aussagen f\"ur die Analyse beibehalten (3~Near-Duplikate ausgeschlossen, 4~Grenzf\"alle gepr\"uft und einbezogen).
+Der Erhebungszeitraum erstreckt sich vom 1.~Januar 2010 bis zum 11.~Februar 2026. Die Datenerhebung st\"utzt sich auf zwei Datentypen: \textbf{\"offentliche Aussagen} (w\"ortliche Zitate aus Interviews, Keynotes, Podcasts, Twitter/X-Posts, Blogbeitr\"agen, B\"uchern, Kongressanh\"orungen) und \textbf{beobachtbare Handlungen} (Investitionsentscheidungen, Firmengr\"undungen, Personalentscheidungen, politische Aktivit\"aten, Produkteinf\"uhrungen). Die Verkn\"upfung wurde in einer relationalen SQLite-Datenbank mit 9~Tabellen und 5~Views operationalisiert. Die Gesamtmenge bel\"auft sich auf 1.738 Aussagen und 1.394 Handlungen (3.132 Datenpunkte). Nach Anwendung der Ein- und Ausschlusskriterien (siehe unten) wurden 1.735 Aussagen f\"ur die Analyse beibehalten (3~nahe Duplikate ausgeschlossen, 4~Grenzf\"alle gepr\"uft und einbezogen).
 
 \emph{Datendichte pro Akteur.} Die Anzahl der Datenpunkte pro Akteur reicht von 20 (Minimum) bis 72 (Maximum), mit einem Mittelwert von 31,3 (SD\,$\approx$\,12). Die zeitliche Verteilung ist unausgewogen: Die Jahre 2010--2011 tragen jeweils nur 17~Datenpunkte bei, w\"ahrend 2024 insgesamt 735 beitr\"agt. Diese Ungleichverteilung spiegelt das exponentielle Wachstum des \"offentlichen KI-Diskurses wider und wird durch Epochen-Aggregation in der L\"angsschnittanalyse (Abschnitt~\ref{sec:ergebnisse:f2}) adressiert.
 
@@ -223,7 +223,7 @@ Der Erhebungszeitraum erstreckt sich vom 1.~Januar 2010 bis zum 11.~Februar 2026
 
 \subsubsection{Methodologische Verankerung}
 
-Die Datenerhebung folgt dem Grounded-Theory-Ansatz nach \citet{StraussCorbin1990}: In Phase~1 wurden keine inhaltlichen Filter angewandt; in Phase~2 wurden mittels offenen Kodierens Muster identifiziert; in Phase~3 wurde ein datengest\"utztes Kategoriensystem mit 13~Prim\"arkategorien und 13~Sekund\"armarkern entwickelt (6.161~Kodierungen insgesamt, durchschnittlich 3,5~Codes pro Aussage). Ein- und Ausschlusskriterien wurden erst in Phase~5 formuliert (3~Near-Duplikate ausgeschlossen); in Phase~6 erfolgte eine Qualit\"atssicherung (automatisierte Metadaten-Verifizierung aller Aussagen sowie manuelle Stichprobe von $n = 20$).
+Die Datenerhebung folgt dem Grounded-Theory-Ansatz nach \citet{StraussCorbin1990}: In Phase~1 wurden keine inhaltlichen Filter angewandt; in Phase~2 wurden mittels offenen Kodierens Muster identifiziert; in Phase~3 wurde ein datengest\"utztes Kategoriensystem mit 13~Prim\"arkategorien und 13~Sekund\"armarkern entwickelt (6.161~Kodierungen insgesamt, durchschnittlich 3,5~Codes pro Aussage). Ein- und Ausschlusskriterien wurden erst in Phase~5 formuliert (3~nahe Duplikate ausgeschlossen); in Phase~6 erfolgte eine Qualit\"atssicherung (automatisierte Metadaten-Verifizierung aller Aussagen sowie manuelle Stichprobe von $n = 20$).
 
 
 \subsection{Die Methode der synthetischen Weltbild-Rekonstruktion}
@@ -746,6 +746,25 @@ Aus wissenschaftssoziologischer Perspektive l\"asst sich der R\"uckgang des Egal
 
 Die Vier-Cluster-L\"osung l\"asst sich dar\"uber hinaus feldtheoretisch lesen: Die antagonistische Struktur zwischen Architekt (\"okonomisches Kapital) und H\"uter (symbolisches Kapital) reproduziert das von \citet{Bourdieu1992} f\"ur das intellektuelle und k\"unstlerische Feld diagnostizierte Muster einer \emph{umgekehrten \"okonomischen Welt}. Im KI-Feld gilt: Wer die meisten Ressourcen kontrolliert, hat die geringste Legitimation durch Gemeinwohlorientierung -- und umgekehrt. Das Macht-Gem\"a\ss{}igtheits-Paradox (F6) l\"asst sich in dieser Perspektive als strukturelle Eigenschaft des Feldes lesen -- wobei die explorative Natur der Cluster-Daten keine konfirmatorische Aussage erlaubt.
 
+Das Forschungsupdate 2026 ergänzt vier direkt einschlägige Randbedingungen. Tabelle~\ref{tab:forschungsupdate_ledger} führt keine neuen Ratings ein und ersetzt keine berichteten empirischen Outputs; sie macht sichtbar, wie die neue Literatur gegen die bestehenden SWR-Oberflächen gelesen werden sollte und wo die Claim-Grenze liegt.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Forschungsupdate-Ledger 2026 für Paper A.}
+  \label{tab:forschungsupdate_ledger}
+  \scriptsize
+  \begin{tabularx}{\textwidth}{@{} L{3.0cm} L{2.8cm} L{3.4cm} Y @{}}
+    \toprule
+    \textbf{Quellensignal 2026} & \textbf{SWR-Anker} & \textbf{Präsentationsgewinn} & \textbf{Claim-Grenze} \\
+    \midrule
+    Techno-Supremacy-Doktrin im Diskurs der AI executive elite \citep{PerezUrbina2026TechnoSupremacy} & D01/D05/D08/D10; Architekt-Innovator-Kontrast & Externer KDA-Crosswalk für Messianismus, Unvermeidbarkeit und Risiko-als-Techniklösung-Muster & Stützt nur Diskursanschluss; beweist nicht, dass alle Subgruppen eine einheitliche Doktrin teilen. \\[3pt]
+    Big-AI-Regulatory-Capture-Taxonomie \citep{BirhaneEtAl2026RegulatoryCapture} & D07/D11; F6; Sagen-Handeln-Dimensionen & Übersetzt die Macht-Gleichheits-Achse in prüfbare Capture-Mechanismen für ein künftiges v9-Ledger & Mechanismuskandidat, keine Absichts- oder Kausalbehauptung über Akteure. \\[3pt]
+    Infrastruktur-Souveränitätsgrenze \citep{Cruzesa2026InfrastructureSovereignty} & D07 materielle Macht; D11 Zugang; Macht-Gemäßigtheits-Paradox & Erweitert die Ressourcenkontroll-Lesart von Diskurs und Policy auf Compute-, Netz-, Energie- und Telemetrie-Choke-Points & Nur Kontextschicht; dieser Datensatz misst Infrastruktur-Eigentum nicht direkt. \\[3pt]
+    GenAI-Persona-Evaluationsreview \citep{AminEtAl2026GenAIPersonas} & Methodik; Limitationen; Validierungsübersicht & Schärft die Trennung zwischen SWR-Rekonstruktion und GenAI-Persona- oder Survey-Ersatz & Stützt den Methoden-Caveat; validiert die SWR-Ratings nicht extern. \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
 Der spezifische Mehrwert gegen\"uber essayistischen Diagnosen liegt in drei Punkten: \emph{Masse} (100 Personen, 16 Jahre), \emph{Differenzierung} (vier distinkte Typen) und \emph{Validierung} (Kongruenzanalyse als empirischer Test).
 
 
@@ -766,7 +785,7 @@ Die prim\"are Leistung der SWR liegt in der Verbindung qualitativer Tiefe mit qu
 
 Die Befunde auf Gruppenebene tragen direkte Implikationen f\"ur KI-Governance und demokratische Theorie. Das Macht-Gem\"a\ss{}igtheits-Paradox -- der systematische Befund, dass institutionelle Gruppen mit den meisten Ressourcen kollektive Weltbilder aufweisen, die am weitesten von demokratischen Idealen entfernt sind -- stellt eine konkrete Herausforderung f\"ur die Regulierungsarchitektur dar. Dieser Befund resoniert mit \citeauthor{Mills1956}' (\citeyear{Mills1956}) klassischer Analyse der \glqq Power Elite\grqq{} als sich selbst verst\"arkendes Stratum, dessen Weltbild systematisch von der breiteren \"Offentlichkeit divergiert, und best\"atigt die institutionen\"okonomische Analyse von \citet{AcemogluJohnson2023}: Technologische Eliten tendieren dazu, Innovationen so zu lenken, dass sie bestehende Machtstrukturen verst\"arken, statt sie aufzubrechen -- ein Muster, das die Autoren historisch von der Industrialisierung bis zur Digitalisierung nachzeichnen. Gegenw\"artige Governance-Ans\"atze (EU~AI~Act, Executive Order on AI) adressieren die technischen Artefakte, nicht die kollektiven Weltbilder der Gruppen, die diese Artefakte produzieren. Ein erg\"anzender Ansatz m\"usste die \emph{epistemische Diversit\"at} in KI-F\"uhrungspositionen als Regulierungsziel anerkennen.
 
-Die systematische Sagen-Handeln-Kluft auf Gruppenebene hat eine Policy-Implikation: Freiwillige Selbstverpflichtungen -- die derzeit bevorzugte Governance-Form \citep[vgl.][]{Bengio2024} -- erscheinen unzureichend, wenn ganze institutionelle Gruppen (nicht nur vereinzelte Individuen) konsistente Diskrepanzen zwischen \"offentlicher Rhetorik und beobachtbarem Handeln aufweisen. Die Befundlage legt nahe, dass verbindliche Strukturreformen wirksamer sein d\"urften als weitere Runden freiwilliger Commitments. Drei konkrete Ansatzpunkte zeichnen sich ab: (1)~\emph{Epistemische Diversit\"atsquoten} in KI-Governance-Gremien, die sicherstellen, dass nicht nur Technologen und Investoren, sondern auch Sozialwissenschaftler, Ethikerinnen und Betroffenenvertreter an Designentscheidungen beteiligt sind; (2)~\emph{verpflichtende Weltbild-Audits} f\"ur KI-Unternehmen ab einer bestimmten Gr\"o\ss{}e, analog zu Nachhaltigkeitsberichten; (3)~\emph{st\"arkere Entkopplung} von Kapitalgebern und Forschungssteuerung, beispielsweise durch \"offentlich finanzierte KI-Labore mit unabh\"angiger Governance \citep[vgl.][]{AcemogluJohnson2023}.
+Die systematische Sagen-Handeln-Kluft auf Gruppenebene hat eine regulierungspolitische Implikation: Freiwillige Selbstverpflichtungen -- die derzeit bevorzugte Governance-Form \citep[vgl.][]{Bengio2024} -- erscheinen unzureichend, wenn ganze institutionelle Gruppen (nicht nur vereinzelte Individuen) konsistente Diskrepanzen zwischen \"offentlicher Rhetorik und beobachtbarem Handeln aufweisen. Die Befundlage legt nahe, dass verbindliche Strukturreformen wirksamer sein d\"urften als weitere Runden freiwilliger Commitments. Drei konkrete Ansatzpunkte zeichnen sich ab: (1)~\emph{Epistemische Diversit\"atsquoten} in KI-Governance-Gremien, die sicherstellen, dass nicht nur Technologen und Investoren, sondern auch Sozialwissenschaftler, Ethikerinnen und Betroffenenvertreter an Designentscheidungen beteiligt sind; (2)~\emph{verpflichtende Weltbild-Audits} f\"ur KI-Unternehmen ab einer bestimmten Gr\"o\ss{}e, analog zu Nachhaltigkeitsberichten; (3)~\emph{st\"arkere Entkopplung} von Kapitalgebern und Forschungssteuerung, beispielsweise durch \"offentlich finanzierte KI-Labore mit unabh\"angiger Governance \citep[vgl.][]{AcemogluJohnson2023}.
 
 Die Inter-Gruppen-Vergleiche offenbaren ein weiteres governance-relevantes Muster: Die Frage der Macht (D07) und der Gleichheit (D11) ist die Achse, entlang derer sich s\"amtliche Gruppenunterschiede organisieren. Ob CEOs mit Akademikern, Beschleuniger mit Risiko-Warnern oder M\"anner mit Frauen verglichen werden -- die Macht-Gleichheits-Achse ist durchg\"angig die diskriminierendste Dimension. Dies legt nahe, dass die zentrale ideologische Bruchlinie innerhalb der KI-Elite nicht die Technik betrifft (alle Gruppen sind technologisch optimistisch), sondern die \emph{Verteilung} technologischer Macht.
 
@@ -829,7 +848,7 @@ Tabelle~\ref{tab:validation_overview} gibt einen kompakten \"Uberblick \"uber di
 
 \emph{Anthropic-interne Zirkularit\"at.} Ein besonders zugespitzter Fall des Zirkularit\"atsproblems betrifft die Synthese auf Gruppenebene f\"ur Subgruppen, die Personen enthalten, die direkt an der Entwicklung des verwendeten LLM beteiligt sind. Claude Opus~4.6 wird von Anthropic entwickelt; mehrere Anthropic-F\"uhrungskr\"afte (z.\,B.\ Dario Amodei, Daniela Amodei) geh\"oren zur analysierten Stichprobe und ihre Daten flie\ss{}en in die Gruppensynthesen ein. Um systematische Verzerrungen zu testen, wurde eine Matched-Sample-Kontrolle durchgef\"uhrt: Die Anthropic-Subgruppe ($n = 9$) wurde mit einer gematchten Kontrollgruppe nicht-Anthropic-affiliierter Gr\"under und Forscher ($n = 9$, gleiche Gr\"o\ss{}e und Rollenkomposition) verglichen. Die resultierenden Profile zeigten MAE $= 1{,}00$ ohne Dimensions-Differenz $|\Delta| \geq 3$. Die beobachteten Unterschiede -- Anthropic-Mitglieder mit h\"oherer Dringlichkeit (D08) und Machtkonzentration (D07), die Kontrollgruppe mit h\"oherem Posthumanismus (D10) und Kontroll\"uberzeugung (D12) -- sind als genuine Gruppenunterschiede interpretierbar, die Anthropics Safety-orientierte Kultur widerspiegeln, nicht als Modellverzerrung. W\"ahrend dieser Within-Model-Test Zirkularit\"at nicht vollst\"andig ausschlie\ss{}en kann (eine Cross-Model-Replikation bleibt als externe Validierung w\"unschenswert), liefert er keinen Beleg f\"ur systematische Anthropic-spezifische Verzerrung.
 
-\emph{Kritik synthetischer Personas.} Die wachsende Literatur zu LLM-generierten synthetischen Personas mahnt zur Vorsicht, aber die Kritik muss sorgf\"altig eingegrenzt werden. \citet{Santurkar2023} zeigt, dass LLMs Meinungen spezifischer demografischer Gruppen systematisch verfehlen und \glqq WEIRD\grqq-Verzerrungen aufweisen, wenn sie als \emph{Meinungsgeneratoren} eingesetzt werden -- d.\,h.\ wenn sie aufgefordert werden zu simulieren, was eine demografische Gruppe denken k\"onnte. Ebenso finden \citet{Argyle2023}, dass synthetische Agenten Leitthemen erfassen, aber an authentischer Tiefe realer Diskurse scheitern, wenn sie qualitative Daten \emph{generieren}. Ein aktuelles systematisches Review von 63 Peer-reviewed-Persona-Experimenten (2023--2025) best\"atigt dieses Muster: Die meisten Studien spezifizieren die Zielpopulation unzureichend, nur 35\,\% adressieren Repr\"asentativit\"at, und die \"okologische Validit\"at ist durchg\"angig gering \citep{Batzner2025WhosePersonae}. Diese Kritiken zielen auf einen fundamental anderen Anwendungsfall als die SWR. In der vorliegenden Studie generiert das LLM keine Meinungen; es \emph{verdichtet} 3.132 reale Datenpunkte (dokumentierte Aussagen und Handlungen) in strukturierte Profile auf Gruppenebene. Die synthetische Persona ist ein analytisches Verdichtungsinstrument -- n\"aher am Weber'schen Idealtyp als am Simulationsagenten. Die von \citeauthor{Santurkar2023} identifizierte WEIRD-Verzerrung ist weitgehend orthogonal: Die KI-Elite \emph{ist} eine westliche, gebildete, wohlhabende und industrialisierte Population, sodass jede demographische Schieflage in den Vorannahmen des Modells mit der Zielgruppe konvergiert, anstatt sie zu verzerren. Dennoch bleibt die Tendenz zur \"Uberrepr\"asentation \"offentlich dominanter Narrative und zur Unterrepr\"asentation idiosynkratischer oder widerspr\"uchlicher Positionen eine genuine Limitation.
+\emph{Kritik synthetischer Personas.} Die wachsende Literatur zu LLM-generierten synthetischen Personas mahnt zur Vorsicht, aber die Kritik muss sorgf\"altig eingegrenzt werden. \citet{Santurkar2023} zeigt, dass LLMs Meinungen spezifischer demografischer Gruppen systematisch verfehlen und \glqq WEIRD\grqq-Verzerrungen aufweisen, wenn sie als \emph{Meinungsgeneratoren} eingesetzt werden -- d.\,h.\ wenn sie aufgefordert werden zu simulieren, was eine demografische Gruppe denken k\"onnte. Ebenso finden \citet{Argyle2023}, dass synthetische Agenten Leitthemen erfassen, aber an authentischer Tiefe realer Diskurse scheitern, wenn sie qualitative Daten \emph{generieren}. Ein aktuelles systematisches Review von 63 begutachteten Persona-Experimenten (2023--2025) best\"atigt dieses Muster: Die meisten Studien spezifizieren die Zielpopulation unzureichend, nur 35\,\% adressieren Repr\"asentativit\"at, und die \"okologische Validit\"at ist durchg\"angig gering \citep{Batzner2025WhosePersonae}. Diese Kritiken zielen auf einen fundamental anderen Anwendungsfall als die SWR. In der vorliegenden Studie generiert das LLM keine Meinungen; es \emph{verdichtet} 3.132 reale Datenpunkte (dokumentierte Aussagen und Handlungen) in strukturierte Profile auf Gruppenebene. Die synthetische Persona ist ein analytisches Verdichtungsinstrument -- n\"aher am Weber'schen Idealtyp als am Simulationsagenten. Die von \citeauthor{Santurkar2023} identifizierte WEIRD-Verzerrung ist weitgehend orthogonal: Die KI-Elite \emph{ist} eine westliche, gebildete, wohlhabende und industrialisierte Population, sodass jede demographische Schieflage in den Vorannahmen des Modells mit der Zielgruppe konvergiert, anstatt sie zu verzerren. Dennoch bleibt die Tendenz zur \"Uberrepr\"asentation \"offentlich dominanter Narrative und zur Unterrepr\"asentation idiosynkratischer oder widerspr\"uchlicher Positionen eine genuine Limitation.
 
 \emph{Quantifizierung und interne Konsistenz.} Die in Abschnitt~\ref{sec:ergebnisse:f2} berichteten Dimensionskorrelationen (z.\,B.\ $r_s = +0{,}85$ zwischen D10 und D12) werden innerhalb des Rating-Prozesses des LLM generiert und k\"onnten teilweise interne Konsistenz statt empirischer Zusammenh\"ange widerspiegeln. Dieses Problem betrifft spezifisch den \emph{Rating-Schritt} (Op2) und gilt f\"ur jedes Rating-Verfahren einschlie\ss{}lich menschlicher Rater: Ein menschlicher Kodierer, der Posthumanismus hoch bewertet, wird durch kognitive Koh\"arenz auch Kontroll\"uberzeugung tendenziell hoch bewerten. Das Problem betrifft \emph{nicht} die qualitativen Synthesen (Op1), die ohne dimensionales Prompting direkt aus den Rohdaten generiert werden. Mehrere Validierungsergebnisse begrenzen die Reichweite dieser Limitation: (1)~Die kreuzmodale Vorhersage (G5, 72\,\% best\"atigt) zeigt, dass LLM-rekonstruierte Muster empirische Substanz haben -- aus Aussagen abgeleitete Vorhersagen wurden durch unabh\"angig evaluierte Handlungen best\"atigt; (2)~der Reihenfolge-Invarianztest zeigt, dass die Ratings nicht von der Pr\"asentationsreihenfolge der Dimensionen abh\"angen; (3)~die IMIIRR-Koeffizienten (ICC $= 0{,}902$ aus $5 \times 2$ Runs; ICC $= 0{,}847$ aus $N = 15$ unabh\"angigen Einzelinstanz-Runs) etablieren, dass das Rating-Verfahren stabil und reproduzierbar ist. Die berichteten Korrelationen sind als Muster eines zuverl\"assig kalibrierten Rekonstruktionsinstruments zu lesen, nicht als Artefakte willk\"urlichen Modellverhaltens -- eine externe Replikation bleibt jedoch w\"unschenswert zur Best\"atigung, welche spezifischen Korrelationen \"uber Instrumente hinweg bestehen.
 
@@ -965,6 +984,12 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
 
 \begin{thebibliography}{99}
 
+\bibitem[Amin et~al.(2026)]{AminEtAl2026GenAIPersonas}
+  Amin, D., Salminen, J., Ahmed, F., Tervola, S.~M.~H., Sethi, S.~\& Jansen, B.~J. (2026).
+  Creating and evaluating personas using generative AI: A scoping review of 81 articles.
+  \textit{arXiv preprint arXiv:2504.04927}.
+  \url{https://arxiv.org/abs/2504.04927}.
+
 \bibitem[Barbrook \& Cameron(1996)]{BarbCam1996}
   Barbrook, R.~\& Cameron, A. (1996).
   The Californian Ideology.
@@ -976,6 +1001,12 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Managing extreme AI risks amid rapid progress.
   \textit{Science}, \textit{384}(6698), 842--845.
   \url{https://doi.org/10.1126/science.adn0117}.
+
+\bibitem[Birhane et~al.(2026)]{BirhaneEtAl2026RegulatoryCapture}
+  Birhane, A., Angius, R., Agnew, W., Pandit, H.~J., Mitra, B., Dobbe, R.~\& Talat, Z. (2026).
+  Big AI's regulatory capture: Mapping industry interference and government complicity.
+  In: \textit{Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency (FAccT '26)}, Article~111.
+  \url{https://doi.org/10.1145/3805689.3806740}.
 
 \bibitem[Berger \& Luckmann(1966)]{BergerLuckmann1966}
   Berger, P.~L.~\& Luckmann, T. (1966).
@@ -1018,6 +1049,12 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   Coeckelbergh, M. (2020).
   \textit{AI Ethics}.
   Cambridge: MIT Press.
+
+\bibitem[Cruzesa(2026)]{Cruzesa2026InfrastructureSovereignty}
+  Cruzesa, S. (2026).
+  AI infrastructure sovereignty.
+  \textit{arXiv preprint arXiv:2602.10900}.
+  \url{https://arxiv.org/abs/2602.10900}.
 
 \bibitem[Daub(2020)]{Daub2020}
   Daub, A. (2020).
@@ -1172,6 +1209,12 @@ Bei der Erstellung dieser Studie wurden zwei KI-Modelle von Anthropic in erhebli
   How to train your stochastic parrot: Large language models for political texts.
   \textit{Political Science Research and Methods}, \textit{13}(2), 264--281.
   \url{https://doi.org/10.1017/psrm.2024.64}.
+
+\bibitem[P\'erez-Urbina(2026)]{PerezUrbina2026TechnoSupremacy}
+  P\'erez-Urbina, H. (2026).
+  Tracing the techno-supremacy doctrine: A critical discourse analysis of the AI executive elite.
+  \textit{AI and Ethics}, \textit{6}, 307.
+  \url{https://doi.org/10.1007/s43681-026-01141-z}.
 
 \bibitem[Santurkar et~al.(2023)]{Santurkar2023}
   Santurkar, S., Durmus, E., Ladhak, F., Lee, C., Liang, P.~\& Hashimoto, T. (2023).
