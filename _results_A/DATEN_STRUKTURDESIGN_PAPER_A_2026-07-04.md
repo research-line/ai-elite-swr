@@ -37,7 +37,7 @@ Sofort umgesetzt:
 - Vier 2026er Bibitems synchron in EN/GER ergänzt:
   - Amin et al. 2026 zu GenAI-Persona-Evaluation
   - Birhane et al. 2026 zu Big-AI-Regulatory-Capture
-  - Cruzesa 2026 zu AI Infrastructure Sovereignty
+  - Cruzes 2026 zu AI Infrastructure Sovereignty
   - Pérez-Urbina 2026 zur Techno-Supremacy Doctrine
 
 Die neue Tabelle ordnet Techno-Supremacy, Regulatory Capture, Infrastruktur-Souveränität und GenAI-Persona-Evaluation den bestehenden SWR-Ankern zu und setzt pro Zeile eine Claim-Grenze. Sie ergänzt keine neuen Ratings, keine neuen Messwerte und keine Kausal- oder Intentionsbehauptungen.
