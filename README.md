@@ -78,7 +78,7 @@ This works better at the **group level** than at the individual level, because:
 paper_A/            AI Elite papers (EN + DE, .tex + .pdf)
 paper_B/            SWR method papers (EN + DE, .tex + .pdf)
 _data_A/            Data collection pipeline
-  collect/          56 data collection scripts
+  collect/          57 data collection scripts
   coding/           12 coding scripts
   insert/           38 insert scripts
   tools/            Infrastructure (create_db, extract_blinded, generate_synthesis_unit)
