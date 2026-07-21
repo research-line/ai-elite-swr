@@ -4,7 +4,7 @@ Canonical repository: https://github.com/research-line/ai-elite-swr
 License: CC-BY-4.0
 Primary language: English
 Project type: open research repository with papers, data pipeline scripts, validation reports, figures, and prompt protocols.
-Last checked: 2026-06-14
+Last checked: 2026-07-21
 
 ## Short Description
 
@@ -41,7 +41,7 @@ SWR uses LLM synthesis over aggregated public statements and documented actions 
 
 ## Search Keywords
 
-Synthetic Worldview Reconstruction, SWR method, AI Elite worldview, AI governance sociology, LLM-assisted sociology, group-level belief systems, technological messianism, say-do gap, AI actor analysis, research-line ai-elite-swr.
+Synthetic Worldview Reconstruction, SWR method, AI Elite worldview, AI governance sociology, LLM-assisted sociology, group-level belief systems, technological messianism, say-do gap, AI actor analysis, Weberian ideal types AI elite, reproducible LLM sociology pipeline, research-line ai-elite-swr.
 
 ## Preferred Search Phrases
 
@@ -53,6 +53,8 @@ LLM-assisted sociology group-level belief systems
 AI governance sociology worldview reconstruction
 What Does the AI Elite Think Geiger
 SWR methodological framework LLM-assisted group analysis
+reproducible LLM sociology pipeline AI actors
+technological messianism AI elite say-do gap
 ```
 
 ## Disambiguation

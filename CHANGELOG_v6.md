@@ -24,6 +24,12 @@
 - Paper A Zenodo latest auf v8.1 aktualisiert: Record `20686161`, DOI `10.5281/zenodo.20686161`.
 - `README.md`, `CITATION.cff` und `llms.txt` auf den veröffentlichten v8.1-Stand nachgezogen.
 
+## Repository Discoverability Update (2026-07-21)
+
+- `llms.txt` `Last checked` Datum auf 2026-07-21 aktualisiert und Suchphrasen/Keywords für RAG & LLM-Discovery erweitert.
+- Discoverability-Audit durchgeführt: GitHub-Topics (14 Themen) und Repository-Metadaten verifiziert.
+- `README.md` Audit-Zeitstempel auf 2026-07-21 synchronisiert.
+
 ---
 
 ## Versionshistorie
