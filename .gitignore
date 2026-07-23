@@ -98,6 +98,17 @@ _results_A/n30_haiku_results.json
 # Database (rebuild with create_db.py + insert scripts)
 _data_A/tools/aussagen_top100.db
 
+# Raw (UNBLINDED) recovery snapshot - never publish.
+# Contains plain names/companies that the live DB only holds blinded.
+# Ticket T-20260723-01. Directory pattern, not a single path, so that
+# nothing inside can slip into the public repo.
+_data_A/_raw_recovery_*/
+_data_A/**/*_raw_recovery*/
+
+# SQLite side files - transient, never belong in the repo
+*.db-wal
+*.db-shm
+
 # Verification and log files
 _data_A/tools/verify_*.py
 _data_A/tools/check_tables.py
