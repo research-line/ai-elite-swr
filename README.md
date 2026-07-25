@@ -2,8 +2,13 @@
 
 [![DOI Paper A](https://zenodo.org/badge/DOI/10.5281/zenodo.18736737.svg)](https://doi.org/10.5281/zenodo.18736737)
 [![DOI Paper B](https://zenodo.org/badge/DOI/10.5281/zenodo.18736720.svg)](https://doi.org/10.5281/zenodo.18736720)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Open Science](https://img.shields.io/badge/Open%20Science-Reproducible-success.svg)](https://github.com/research-line/ai-elite-swr)
 [![llms.txt](https://img.shields.io/badge/llms.txt-standardised-blue.svg)](llms.txt)
+
+> [!NOTE]
+> **Machine-Readable Context**: For AI agents, LLMs, and automated tools, a standardized [`llms.txt`](llms.txt) is provided in the repository root containing a machine-readable summary, active DOIs, key entry points, and preferred search terms.
 
 ## Start Here
 
