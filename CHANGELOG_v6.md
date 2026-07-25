@@ -35,6 +35,13 @@
 - README-Strukturzähler für `_data_A/collect/` auf den verifizierten Ist-Stand von 57 Datensammelskripten korrigiert.
 - Interner Paper-B-Zitationscheck `_results_B/ZITATIONSCHECK_PAPER_B_2026-05-18.md` aus dem öffentlichen Git-Index entfernt; die bestehende `.gitignore`-Regel blieb unverändert.
 
+## Repository Discoverability Update (2026-07-25)
+
+- `llms.txt` `Last checked` Datum auf 2026-07-25 aktualisiert.
+- Shields.io `llms.txt` Badge in `README.md` integriert und Versionierungs-Check-Datum auf 2026-07-25 synchronisiert.
+- Automated Discoverability & Marketing Audit (Pfad B) erfolgreich abgeschlossen.
+
+
 ---
 
 ## Versionshistorie

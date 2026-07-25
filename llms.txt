@@ -4,7 +4,7 @@ Canonical repository: https://github.com/research-line/ai-elite-swr
 License: CC-BY-4.0
 Primary language: English
 Project type: open research repository with papers, data pipeline scripts, validation reports, figures, and prompt protocols.
-Last checked: 2026-07-21
+Last checked: 2026-07-25
 
 ## Short Description
 

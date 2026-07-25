@@ -3,6 +3,7 @@
 [![DOI Paper A](https://zenodo.org/badge/DOI/10.5281/zenodo.18736737.svg)](https://doi.org/10.5281/zenodo.18736737)
 [![DOI Paper B](https://zenodo.org/badge/DOI/10.5281/zenodo.18736720.svg)](https://doi.org/10.5281/zenodo.18736720)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![llms.txt](https://img.shields.io/badge/llms.txt-standardised-blue.svg)](llms.txt)
 
 ## Start Here
 
@@ -18,7 +19,7 @@
 
 **Canonical repository:** <https://github.com/research-line/ai-elite-swr>
 
-**Latest public versions checked on 2026-07-21:**
+**Latest public versions checked on 2026-07-25:**
 - Paper A: v8.1, DOI [`10.5281/zenodo.20686161`](https://doi.org/10.5281/zenodo.20686161), concept DOI [`10.5281/zenodo.18736737`](https://doi.org/10.5281/zenodo.18736737)
 - Paper B: v6.1, DOI [`10.5281/zenodo.20260688`](https://doi.org/10.5281/zenodo.20260688), concept DOI [`10.5281/zenodo.18736720`](https://doi.org/10.5281/zenodo.18736720)
 
