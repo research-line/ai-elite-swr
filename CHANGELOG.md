@@ -2,6 +2,15 @@
 
 All notable changes to the **Synthetic Worldview Reconstruction (SWR) — AI Elite** project are documented in this file.
 
+## [v8.1.2] - 2026-07-27
+
+### Discoverability & System Architecture Audit (Pfad B)
+- **Mermaid Architecture Diagram**: Added visual GFM Mermaid pipeline diagram (`System Architecture & Pipeline Flow`) to `README.md` visualizing data collection, SQLite database, synthesis units, LLM synthesis, and validation suites.
+- **Discoverability & LLM Context**: Updated `Last checked` timestamp to `2026-07-27` in `llms.txt` and `README.md`.
+- **System Verification**: Re-verified syntax compilation of all Python data pipeline scripts (`python -m compileall .`) and SQLite database creation (`_data_A/tools/create_db.py`).
+
+---
+
 ## [v8.1.1] - 2026-07-25
 
 ### Technical Hygiene & Maintenance

@@ -24,7 +24,7 @@
 
 **Canonical repository:** <https://github.com/research-line/ai-elite-swr>
 
-**Latest public versions checked on 2026-07-25:**
+**Latest public versions checked on 2026-07-27:**
 - Paper A: v8.1, DOI [`10.5281/zenodo.20686161`](https://doi.org/10.5281/zenodo.20686161), concept DOI [`10.5281/zenodo.18736737`](https://doi.org/10.5281/zenodo.18736737)
 - Paper B: v6.1, DOI [`10.5281/zenodo.20260688`](https://doi.org/10.5281/zenodo.20260688), concept DOI [`10.5281/zenodo.18736720`](https://doi.org/10.5281/zenodo.18736720)
 
@@ -36,6 +36,25 @@ This repository contains two companion papers:
 - **Paper B (SWR):** *Synthetic Worldview Reconstruction* — A methods paper that describes the general method used in Paper A: using LLMs' synthetic integration capability to derive collective worldviews for societal groups.
 
 **Paper A applies the method. Paper B describes it.**
+
+## System Architecture & Pipeline Flow
+
+```mermaid
+flowchart TD
+    subgraph DataCollection["1. Data Collection & Structuring"]
+        A["3,132 Data Points (100 AI Actors, 2010–2026)"] --> B["SQLite Database (_data_A/tools/aussagen_top100.db)"]
+        B --> C["15 Sociological Groups (Founders, Labs, Ethicists, VC, etc.)"]
+    end
+    subgraph BlindingSynthesis["2. Blinding & LLM Synthesis"]
+        C --> D["Synthesis Units (Blinded Data Corpora)"]
+        D --> E["Blinded LLM Synthesis (Claude Opus / Sonnet)"]
+    end
+    subgraph AnalysisOutput["3. Reconstructed Worldview & Ideal Types"]
+        E --> F["12-Dimensional Worldview Ratings & Say-Do Gap Analysis"]
+        F --> G["Weberian Ideal Types (Architect, Guardian, Innovator, Liberator)"]
+        G --> H["Validation Suites (IMIIRR, PCA, Kruskal-Wallis, HDBSCAN)"]
+    end
+```
 
 ## Visual Preview
 
