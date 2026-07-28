@@ -149,6 +149,8 @@ paper_*/*_en.txt
 paper_*/*_ger.txt
 paper_*/*_kombi.txt
 paper_*/*_test.pdf
+paper_*/*.tex.bak_designcheck
+paper_*/*.tex.pdf
 
 # Artifacts from other tools
 compass_artifact_*.md
