@@ -1,3 +1,4 @@
+from pathlib import Path
 # -*- coding: utf-8 -*-
 """
 Datensammlung für Ashish Vaswani (person_id=33)
@@ -8,7 +9,7 @@ Gründer: Adept AI (2021), Essential AI (2023)
 import sqlite3
 from datetime import datetime
 
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 
 def insert_aussage(cursor, person_id, aussage_data):
     """Fügt eine Aussage in die Datenbank ein"""

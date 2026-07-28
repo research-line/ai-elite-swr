@@ -1,3 +1,4 @@
+from pathlib import Path
 # -*- coding: utf-8 -*-
 """
 Coding of statements P1-P10 according to the 26-category scheme.
@@ -7,7 +8,7 @@ Created: 2026-02-12
 import sqlite3
 
 # Database connection
-conn = sqlite3.connect(r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db')
+conn = sqlite3.connect(Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db")
 c = conn.cursor()
 
 # Format: (aussage_id, kategorie_id) pairs

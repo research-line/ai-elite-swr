@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -10,7 +11,7 @@ import sqlite3
 import os
 
 # Datenbankpfad
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 
 def insert_data():
     """Fügt Aussagen und Handlungen für Arvid Lunnemark in die Datenbank ein."""

@@ -151,8 +151,8 @@
 ### Upload-Befehl (Entwurf)
 
 ```bash
-PYTHONIOENCODING=utf-8 python "C:/Users/User/OneDrive/.RESEARCH/_tools/paper_publisher.py" \
-  "C:/Users/User/OneDrive/.RESEARCH/.PRIO-1/PP_SWR_AB" \
+PYTHONIOENCODING=utf-8 python "<RESEARCH_ROOT>/_tools/paper_publisher.py" \
+  "." \
   --step zenodo \
   --new-version 19073386 \
   --version 6.0 \

@@ -1,457 +1,399 @@
-# -*- coding: utf-8 -*-
-"""
-Script zur Sammlung von Aussagen und Handlungen von Mira Murati (person_id=26)
-für die KI-Elite Weltbilder Forschungsdatenbank
-"""
-
+from pathlib import Path
 import sqlite3
 from datetime import datetime
 
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
-PERSON_ID = 26  # Mira Murati
+# Connect to database
+db_path = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
+conn = sqlite3.connect(db_path)
+cursor = conn.cursor()
 
-def get_db_connection():
-    """Erstellt eine Datenbankverbindung."""
-    return sqlite3.connect(DB_PATH)
+person_id = 63  # Winston Weinberg
 
-def check_duplicate_aussage(cursor, person_id, aussage_text):
-    """Prüft, ob eine Aussage bereits existiert."""
+# AUSSAGEN
+aussagen = [
+    # 1. Stress and Growth Philosophy
+    (person_id,
+     "You should be constantly stressed and do things that make you stressed every day. I think the times that I've stagnated, or the company has stagnated, is every day I don't have something that's really stressful.",
+     "Founders should be constantly stressed to grow",
+     "muendlich",
+     "https://www.entrepreneur.com/business-news/the-ceo-of-an-8-billion-startup-says-you-should-be-constantly-stressed-to-do-your-best-work",
+     "The CEO of an $8 Billion Startup Says You Should Be 'Constantly Stressed'",
+     "2025-11-01",
+     "en",
+     "Interview about work philosophy and personal growth"),
+
+    # 2. Reinvent yourself every 4 months
+    (person_id,
+     "Every four months he experiences a mental block where there are too many things going wrong at the company and he can't address all of them. He needs to reinvent himself as a founder every, like, four months or so, otherwise he is not going to be able to fix all of the things that are going wrong at the company.",
+     "Reinvent yourself as founder every 4 months",
+     "muendlich",
+     "https://sequoiacap.com/podcast/harvey-ceo-winston-weinberg-why-you-should-reinvent-yourself-every-4-months/",
+     "Harvey CEO Winston Weinberg: Why You Should Reinvent Yourself Every 4 Months",
+     "2025-06-01",
+     "en",
+     "Sequoia Capital podcast about leadership"),
+
+    # 3. Earning valuation
+    (person_id,
+     "We need to earn that valuation everyday.",
+     "We need to earn $8B valuation everyday",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about company valuation"),
+
+    # 4. Market opportunity
+    (person_id,
+     "The simplest answer here is that the tech penetration into the legal market is going to change massively. If we build a great product we hopefully capture some of that very large upside.",
+     "Tech penetration in legal market will change massively",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about market opportunity"),
+
+    # 5. AI and legal hiring
+    (person_id,
+     "There's a world in which, actually, this is super good for the profession and very good for recruiting into the profession.",
+     "AI could be super good for legal profession and recruiting",
+     "muendlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about AI's impact on legal profession"),
+
+    # 6. Demo strategy - holding up mirror
+    (person_id,
+     "It was like holding up a mirror. Many lawyers appreciated the unvarnished feedback, which mirrored the scrutiny they faced in courtrooms.",
+     "Demo strategy was like holding up mirror to lawyers",
+     "muendlich",
+     "https://dnyuz.com/2026/01/19/harveys-ceo-explains-his-early-tactic-to-get-customers-telling-lawyers-how-bad-their-arguments-were/",
+     "Harvey's CEO explains his early tactic to get customers",
+     "2026-01-19",
+     "en",
+     "Interview about early customer acquisition strategy"),
+
+    # 7. Google Docs interview
+    (person_id,
+     "This is the best way to separate good interviewers from good operators. There are folks that are really good at talking and terrible at doing.",
+     "Google Docs interviews separate good talkers from good operators",
+     "muendlich",
+     "https://dnyuz.com/2025/11/21/harvey-ceo-explains-why-he-interviews-candidates-in-google-docs-there-are-folks-that-are-really-good-at-talking/",
+     "Harvey CEO explains why he interviews candidates in Google Docs",
+     "2025-11-21",
+     "en",
+     "Interview about hiring process"),
+
+    # 8. Decision making philosophy
+    (person_id,
+     "I think people feel like you can't make mistakes. And that is actually the opposite of how I feel. I would much rather people just try and make a decision and then it's wrong, and a week later they adjust and change, than they spend, like, three months not making a decision.",
+     "Better to make wrong decisions quickly than delay for months",
+     "muendlich",
+     "https://sequoiacap.com/podcast/harvey-ceo-winston-weinberg-why-you-should-reinvent-yourself-every-4-months/",
+     "Harvey CEO Winston Weinberg: Why You Should Reinvent Yourself Every 4 Months",
+     "2025-06-01",
+     "en",
+     "Sequoia Capital podcast about decision-making"),
+
+    # 9. Task automation not job automation
+    (person_id,
+     "It is not job displacement, it is task displacement. And I think that's a super important distinction because getting rid of those tasks does not mean the legal industry falls apart.",
+     "AI is task automation, not job automation",
+     "muendlich",
+     "https://www.webpronews.com/harvey-ceo-envisions-ai-transforming-law-less-burnout-more-strategy/",
+     "Harvey CEO Envisions AI Transforming Law: Less Burnout, More Strategy",
+     "2025-11-01",
+     "en",
+     "Interview about AI's impact on legal profession"),
+
+    # 10. Junior lawyers benefit
+    (person_id,
+     "The junior folks are incredibly happy about this. Most junior associates spend the first part of their careers on rote tasks such as reviewing documents in discovery or in data rooms, and you end up not being able to do the strategic level things until like 10 years into your career, if you're lucky, five.",
+     "Junior lawyers happy about AI automating rote tasks",
+     "muendlich",
+     "https://b17news.com/the-founder-of-harvey-says-a-massive-shift-is-coming-to-the-legal-profession-the-junior-folks-are-incredibly-happy-about-this/",
+     "The founder of Harvey says a massive shift is coming to the legal profession",
+     "2025-11-01",
+     "en",
+     "Interview about AI's impact on junior lawyers"),
+
+    # 11. AI agents and leverage pyramid
+    (person_id,
+     "Agents will rewire the leverage pyramid, moving junior lawyers past rote work while strengthening partner profitability.",
+     "AI agents will rewire law firm leverage pyramid",
+     "muendlich",
+     "https://ccbjournal.com/blog/in-the-ai-agent-war-harvey-ai-puts-law-firms-on-the-front-line",
+     "In the AI Agent War, Harvey AI Puts Law Firms on the Front Line",
+     "2025-11-01",
+     "en",
+     "Interview about AI agents in legal work"),
+
+    # 12. Multiplayer legal services
+    (person_id,
+     "The future of legal services is becoming 'multiplayer' - a future of collaborative systems that allow lawyers and their clients to work alongside AI in a shared environment.",
+     "Future of legal services is collaborative multiplayer systems",
+     "muendlich",
+     "https://www.artificiallawyer.com/2025/11/03/the-future-of-legal-ai-is-collaboration-harvey/",
+     "The Future of Legal AI Is Collaboration - Harvey",
+     "2025-11-03",
+     "en",
+     "Interview about future vision for legal AI"),
+
+    # 13. Complex work automation
+    (person_id,
+     "The biggest gains will come from enabling lawyers to better handle the most complex work—not NDA review but transactions on the scale of mega-mergers, with AI eventually automating the first 10% of such deals.",
+     "AI will enable lawyers to handle most complex work, not just NDAs",
+     "muendlich",
+     "https://www.artificiallawyer.com/2025/11/03/the-future-of-legal-ai-is-collaboration-harvey/",
+     "The Future of Legal AI Is Collaboration - Harvey",
+     "2025-11-03",
+     "en",
+     "Interview about AI's role in complex legal work"),
+
+    # 14. Multiple competitors in space
+    (person_id,
+     "I don't think a single player is going to capture all of the pretty enormous amount of value that will be created in the next 10 years in this space.",
+     "Room for multiple competitors in legal AI space",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about competition"),
+
+    # 15. LexisNexis partnership value
+    (person_id,
+     "LexisNexis is an insanely trusted data source. The partnership has enabled Harvey to build specialized workflows like drafting motions for summary judgment and motions to dismiss that combine Lexis data with Harvey's drafting capabilities.",
+     "LexisNexis trusted data source enables specialized workflows",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about LexisNexis partnership"),
+
+    # 16. Model performance vs UX
+    (person_id,
+     "The biggest problem with ChatGPT and similar tools is they're focusing so much on performance from the model side and not on how to make the experience easier for the user.",
+     "AI tools focus too much on model performance, not UX",
+     "muendlich",
+     "https://www.thetwentyminutevc.com/winston-weinberg",
+     "Harvey's CEO on How Model Performance is Plateauing",
+     "2025-09-01",
+     "en",
+     "Podcast about AI development priorities"),
+
+    # 17. Access to justice
+    (person_id,
+     "It's an honour to partner with the Singapore Judiciary, a recognised leader in judicial innovation, on this pivotal project. This initiative is a perfect example of how public-private partnerships can leverage cutting-edge technology to create a more efficient and equitable justice system for the public.",
+     "Public-private partnerships can create more equitable justice system",
+     "muendlich",
+     "https://www.judiciary.gov.sg/news-and-resources/news/news-details/media-release--new-generative-ai-powered-case-summarisation-tool-to-help-small-claims-tribunals-users",
+     "Singapore Judiciary AI-powered Case Summarisation Tool",
+     "2025-05-01",
+     "en",
+     "Media release about Singapore judiciary partnership"),
+
+    # 18. Firm differentiation
+    (person_id,
+     "Firms are asking 'how do I differentiate myself as a firm?' There is a gap between firms that have significant internal expertise and innovation teams, and those that don't. Harvey is giving firms the tools to innovate on top of Harvey.",
+     "Harvey enables law firms to differentiate through innovation",
+     "muendlich",
+     "https://legaltechnology.com/2025/06/24/harvey-launches-workflow-builder-we-speak-with-winston-weinberg-and-ashurst-about-the-tool-that-helps-legal-teams-leverage-their-own-ip/",
+     "Harvey launches Workflow Builder",
+     "2025-06-24",
+     "en",
+     "Interview about Workflow Builder product launch"),
+
+    # 19. Multi-model strategy
+    (person_id,
+     "Harvey didn't avoid other models out of loyalty to OpenAI, but necessity. Until recently, most major law firms would only approve AI tools that ran through Microsoft Azure, which meant models like Claude and Gemini couldn't clear security reviews.",
+     "Adopted multi-model strategy due to security requirements, not loyalty",
+     "muendlich",
+     "https://techcrunch.com/2025/05/13/anthropic-google-score-win-by-nabbing-openai-backed-harvey-as-a-user/",
+     "Anthropic, Google score win by nabbing OpenAI-backed Harvey as a user",
+     "2025-05-13",
+     "en",
+     "TechCrunch article about Harvey's multi-model strategy"),
+
+    # 20. Cold email to Sam Altman
+    (person_id,
+     "We figured we had to email a lawyer because otherwise the person wouldn't know if the outputs were right.",
+     "Emailed OpenAI lawyer because they could verify AI outputs",
+     "muendlich",
+     "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+     "Inside Harvey: How a first-year legal associate built one of Silicon Valley's hottest startups",
+     "2025-11-14",
+     "en",
+     "TechCrunch interview about founding story")
+]
+
+# HANDLUNGEN
+handlungen = [
+    # 1. Company founding
+    (person_id,
+     "gruendung",
+     "Co-founded Harvey AI with Gabriel Pereyra after leaving O'Melveny & Myers law firm after just one year. Cold-emailed Sam Altman and OpenAI's general counsel on July 4, 2022, leading to a pitch call with OpenAI's C-suite.",
+     "2022-07-31",
+     "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+     "Inside Harvey: How a first-year legal associate built Silicon Valley's hottest startup",
+     "Former first-year legal associate co-founded legal AI startup"),
+
+    # 2. Seed round
+    (person_id,
+     "investition",
+     "Raised $5 million seed round led by OpenAI Startup Fund, with investors including Jeff Dean (Google AI head), Elad Gil (Mixer Labs founder), and Sarah Guo (Conviction founder).",
+     "2022-11-23",
+     "https://techcrunch.com/2022/11/23/harvey-which-uses-ai-to-answer-legal-questions-lands-cash-from-openai/",
+     "Harvey lands cash from OpenAI",
+     "OpenAI Startup Fund's first legal AI investment"),
+
+    # 3. Series A
+    (person_id,
+     "investition",
+     "Raised $23 million Series A round led by Sequoia Capital.",
+     "2023-04-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Sequoia Capital led Series A"),
+
+    # 4. Series B
+    (person_id,
+     "investition",
+     "Raised $80 million Series B round led by Elad Gil and Kleiner Perkins, valuing company at $715 million.",
+     "2023-12-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Kleiner Perkins led round, $715M valuation"),
+
+    # 5. Series C
+    (person_id,
+     "investition",
+     "Raised $100 million Series C round, valuing company at $1.5 billion.",
+     "2024-07-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Reached $1.5B valuation"),
+
+    # 6. Series D
+    (person_id,
+     "investition",
+     "Raised $300 million Series D round led by Sequoia Capital at $3 billion valuation, with CEO stating target of $100 million annual recurring revenue.",
+     "2025-02-12",
+     "https://fortune.com/2025/02/12/legal-ai-startup-harvey-300-million-series-d-funding-3-billion-valuation-sequoia/",
+     "Legal AI startup Harvey lands fresh $300 million in Sequoia-led round",
+     "Series D at $3B valuation, $100M ARR target"),
+
+    # 7. Series E
+    (person_id,
+     "investition",
+     "Raised $300 million Series E round at $5 billion valuation.",
+     "2025-06-01",
+     "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+     "Inside Harvey TechCrunch article",
+     "Series E at $5B valuation"),
+
+    # 8. Partnership with PwC
+    (person_id,
+     "partnerschaft",
+     "Announced strategic alliance with PwC Legal Business Solutions. Harvey and PwC jointly developing custom AI models for tax, legal and HR, with 4,000 PwC professionals in 100 countries using Harvey.",
+     "2023-08-01",
+     "https://www.pwc.com/gx/en/news-room/press-releases/2023/pwc-announces-strategic-alliance-with-harvey-positioning-pwcs-legal-business-solutions-at-the-forefront-of-legal-generative-ai.html",
+     "PwC announces strategic alliance with Harvey",
+     "PwC partnership for 4,000 professionals across 100 countries"),
+
+    # 9. Allen & Overy partnership
+    (person_id,
+     "partnerschaft",
+     "Allen & Overy law firm rolled out Harvey to 3,500 staff members, with lawyers using it for around 40,000 queries during trial period.",
+     "2023-10-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Allen & Overy deployed Harvey to 3,500 lawyers"),
+
+    # 10. LexisNexis partnership
+    (person_id,
+     "partnerschaft",
+     "Announced strategic alliance with LexisNexis Legal & Professional to integrate LexisNexis' AI technology, primary law content, and Shepard's Citations within Harvey platform. Co-developed workflows for motion to dismiss and summary judgment.",
+     "2025-06-18",
+     "https://legaltechnology.com/2025/06/18/lexisnexis-and-harvey-announce-strategic-alliance-in-major-genai-turning-point/",
+     "LexisNexis and Harvey announce strategic alliance",
+     "Major partnership integrating LexisNexis legal content"),
+
+    # 11. Workflow Builder launch
+    (person_id,
+     "produktlaunch",
+     "Launched Workflow Builder product, enabling law firms to design custom repeatable workflows embedding firm expertise. Paul, Weiss became first firm to launch custom workflows. Early adopters included Ashurst, Ropes & Gray, dentsu, King & Wood Mallesons, and Setterwalls.",
+     "2025-06-11",
+     "https://legaltechnology.com/2025/06/24/harvey-launches-workflow-builder-we-speak-with-winston-weinberg-and-ashurst-about-the-tool-that-helps-legal-teams-leverage-their-own-ip/",
+     "Harvey launches Workflow Builder",
+     "Product launch enabling firms to create custom AI workflows"),
+
+    # 12. Multi-model strategy adoption
+    (person_id,
+     "umstrukturierung",
+     "Announced Harvey will use foundation models from Anthropic (Claude) and Google (Gemini), moving beyond exclusively using OpenAI models. Users can route tasks to best-performing model or select manually.",
+     "2025-05-13",
+     "https://techcrunch.com/2025/05/13/anthropic-google-score-win-by-nabbing-openai-backed-harvey-as-a-user/",
+     "Anthropic, Google score win by nabbing OpenAI-backed Harvey",
+     "Strategic shift to multi-model AI approach"),
+
+    # 13. Singapore judiciary partnership
+    (person_id,
+     "partnerschaft",
+     "Partnered with Singapore Judiciary to develop generative AI tool that summarizes case documents for Tribunal Magistrates and individuals in Small Claims Tribunals. Part of Harvey's access to justice program.",
+     "2025-05-01",
+     "https://www.judiciary.gov.sg/news-and-resources/news/news-details/media-release--new-generative-ai-powered-case-summarisation-tool-to-help-small-claims-tribunals-users",
+     "Singapore Judiciary AI tool media release",
+     "Government partnership for access to justice initiative"),
+
+    # 14. Series F funding round
+    (person_id,
+     "investition",
+     "Raised $160 million round led by Andreessen Horowitz, valuing company at $8 billion. Surpassed $100 million annual recurring revenue in August with 700 clients across 63 countries including majority of top 10 US law firms.",
+     "2025-12-04",
+     "https://techcrunch.com/2025/12/04/legal-ai-startup-harvey-confirms-8b-valuation/",
+     "Legal AI startup Harvey confirms $8B valuation",
+     "Series F at $8B valuation, $100M+ ARR achieved"),
+
+    # 15. Fundraising for $11B valuation
+    (person_id,
+     "investition",
+     "Reportedly raising new round at $11 billion valuation just months after hitting $8 billion valuation, with $190 million annual revenue.",
+     "2026-02-09",
+     "https://techcrunch.com/2026/02/09/harvey-reportedly-raising-at-11b-valuation-just-months-after-it-hit-8b/",
+     "Harvey reportedly raising at $11B valuation",
+     "New funding round targeting $11B valuation")
+]
+
+# Insert aussagen
+print("Inserting aussagen...")
+for aussage in aussagen:
     cursor.execute("""
-        SELECT COUNT(*) FROM aussagen
-        WHERE person_id = ? AND aussage_text = ?
-    """, (person_id, aussage_text))
-    return cursor.fetchone()[0] > 0
+        INSERT INTO aussagen (person_id, aussage_text, aussage_kurz, modus, quell_link, quell_titel, datum_aussage, sprache, kontext)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, aussage)
+    print(f"  Inserted: {aussage[2]}")
 
-def check_duplicate_handlung(cursor, person_id, beschreibung):
-    """Prüft, ob eine Handlung bereits existiert."""
+# Insert handlungen
+print("\nInserting handlungen...")
+for handlung in handlungen:
     cursor.execute("""
-        SELECT COUNT(*) FROM handlungen
-        WHERE person_id = ? AND beschreibung = ?
-    """, (person_id, beschreibung))
-    return cursor.fetchone()[0] > 0
+        INSERT INTO handlungen (person_id, handlung_typ, beschreibung, datum_handlung, quell_link, quell_titel, kontext)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+    """, handlung)
+    print(f"  Inserted: {handlung[1]} - {handlung[2][:60]}...")
 
-def insert_aussage(cursor, aussage_data):
-    """Fügt eine Aussage in die Datenbank ein."""
-    cursor.execute("""
-        INSERT INTO aussagen (
-            person_id, aussage_text, aussage_kurz, modus,
-            quellen_typ_id, plattform_id, quell_link, quell_titel,
-            datum_aussage, sprache, kontext, aussage_uebersetzung_de
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    """, aussage_data)
+# Commit and close
+conn.commit()
+conn.close()
 
-def insert_handlung(cursor, handlung_data):
-    """Fügt eine Handlung in die Datenbank ein."""
-    cursor.execute("""
-        INSERT INTO handlungen (
-            person_id, handlung_typ, beschreibung,
-            datum_handlung, quell_link, quell_titel, kontext
-        ) VALUES (?, ?, ?, ?, ?, ?, ?)
-    """, handlung_data)
-
-def main():
-    print("="*80)
-    print("MIRA MURATI - Datensammlung für Tier 2")
-    print("="*80)
-    print(f"Person ID: {PERSON_ID}")
-    print(f"Ziel: Mindestens 10 Aussagen + 8 Handlungen")
-    print("="*80)
-    print()
-
-    # Suchprotokoll
-    search_log = []
-    search_log.append("SUCHPROTOKOLL - Mira Murati")
-    search_log.append("="*60)
-    search_log.append("Datum: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-    search_log.append("")
-    search_log.append("SUCHSTRATEGIE:")
-    search_log.append("1. TIME Magazine Interview (Feb 2023) - AI Regulation")
-    search_log.append("2. Wall Street Journal Sora Interview (Mar 2024)")
-    search_log.append("3. Dartmouth Speech (Jun 2024) - AI Future")
-    search_log.append("4. GPT-4o Launch Demo (May 2024)")
-    search_log.append("5. Creative Jobs Interview (Jun 2024)")
-    search_log.append("6. Resignation Announcement (Sep 2024)")
-    search_log.append("7. Thinking Machines Lab Founding (Feb 2025)")
-    search_log.append("8. Career History (Tesla, Leap Motion, OpenAI)")
-    search_log.append("")
-
-    conn = get_db_connection()
-    cursor = conn.cursor()
-
-    aussagen_count = 0
-    handlungen_count = 0
-    duplicates_aussagen = 0
-    duplicates_handlungen = 0
-
-    # ========================================================================
-    # AUSSAGEN (Ziel: mindestens 10)
-    # ========================================================================
-
-    aussagen = [
-        # 1. TIME Magazine - AI Regulation (Feb 2023)
-        (PERSON_ID,
-         "It's important for OpenAI and companies like ours to bring this into the public consciousness in a way that's controlled and responsible. But we're a small group of people and we need a ton more input into the system from, you know, from people in the world, from society, from regulators and governments and so on.",
-         "OpenAI braucht Input von Gesellschaft und Regierungen für verantwortungsvolle KI-Entwicklung",
-         "schriftlich",
-         7,  # Nachrichtenartikel
-         5,  # Nachrichtenmedien
-         "https://time.com/6252404/mira-murati-chatgpt-openai-interview/",
-         "Mira Murati, Creator of ChatGPT, Thinks AI Should Be Regulated | TIME",
-         "2023-02-01",
-         "en",
-         "Interview mit TIME Magazine über ChatGPT und die Notwendigkeit von KI-Regulierung",
-         "Es ist wichtig für OpenAI und ähnliche Unternehmen, dies auf kontrollierte und verantwortungsvolle Weise ins öffentliche Bewusstsein zu bringen. Aber wir sind eine kleine Gruppe von Menschen und brauchen viel mehr Input von Menschen in der Welt, von der Gesellschaft, von Regulierungsbehörden und Regierungen."
-        ),
-
-        # 2. TIME Magazine - AI Safety
-        (PERSON_ID,
-         "For capabilities and safety, they're actually not separate domains. They go hand-in-hand. It's much easier to direct a smarter system by telling it, okay, just don't do these things.",
-         "Fähigkeiten und Sicherheit gehen Hand in Hand - intelligentere Systeme sind leichter zu steuern",
-         "muendlich",
-         7,  # Nachrichtenartikel
-         5,  # Nachrichtenmedien
-         "https://time.com/6252404/mira-murati-chatgpt-openai-interview/",
-         "Mira Murati, Creator of ChatGPT, Thinks AI Should Be Regulated | TIME",
-         "2023-02-01",
-         "en",
-         "TIME Interview über die Beziehung zwischen KI-Fähigkeiten und Sicherheit",
-         "Für Fähigkeiten und Sicherheit sind es eigentlich keine getrennten Bereiche. Sie gehen Hand in Hand. Es ist viel einfacher, ein intelligenteres System zu steuern, indem man ihm sagt: Okay, mach diese Dinge einfach nicht."
-        ),
-
-        # 3. Creative Jobs Interview (Jun 2024)
-        (PERSON_ID,
-         "Some creative jobs maybe will go away, but maybe they shouldn't have been there in the first place.",
-         "Einige kreative Jobs könnten verschwinden, aber vielleicht sollten sie von Anfang an nicht da gewesen sein",
-         "muendlich",
-         7,  # Nachrichtenartikel
-         5,  # Nachrichtenmedien
-         "https://www.cnbc.com/2024/06/26/openai-cto-mira-murati-ai-may-cause-some-creative-jobs-to-disappear.html",
-         "OpenAI CTO Mira Murati: AI may cause some creative jobs to disappear",
-         "2024-06-21",
-         "en",
-         "Interview über die Auswirkungen von KI auf kreative Berufe - führte zu erheblichem Backlash",
-         "Einige kreative Jobs werden vielleicht verschwinden, aber vielleicht hätten sie von vornherein nicht existieren sollen."
-        ),
-
-        # 4. Dartmouth Speech - AI Impact
-        (PERSON_ID,
-         "Everything. There's not going to be an area that won't be affected in terms of cognitive work.",
-         "KI wird alle Bereiche kognitiver Arbeit beeinflussen",
-         "muendlich",
-         3,  # Keynote/Vortrag
-         4,  # Konferenzen
-         "https://engineering.dartmouth.edu/news/openai-cto-mira-murati-th12-shares-optimism-for-ais-future",
-         "OpenAI CTO Mira Murati Th'12 Shares Optimism for AI's Future",
-         "2024-06-01",
-         "en",
-         "Antwort auf die Frage, welche Industrien am meisten von KI betroffen sein werden, bei Dartmouth Event",
-         "Alles. Es wird keinen Bereich geben, der im Hinblick auf kognitive Arbeit nicht betroffen sein wird."
-        ),
-
-        # 5. Dartmouth - PhD-Level AI
-        (PERSON_ID,
-         "Computers may exhibit PhD-level intelligence for specific tasks in coming years, and while that rings alarm bells for many, she believes smarter AI will not only be more helpful—but also safer.",
-         "KI mit Doktoranden-Niveau wird nicht nur hilfreicher, sondern auch sicherer sein",
-         "muendlich",
-         3,  # Keynote/Vortrag
-         4,  # Konferenzen
-         "https://engineering.dartmouth.edu/news/openai-cto-mira-murati-th12-shares-optimism-for-ais-future",
-         "OpenAI CTO Mira Murati Th'12 Shares Optimism for AI's Future",
-         "2024-06-01",
-         "en",
-         "Dartmouth Event über die Zukunft von KI und Sicherheit fortgeschrittener Systeme",
-         "Computer könnten in den kommenden Jahren Intelligenz auf Doktoranden-Niveau für spezifische Aufgaben zeigen, und obwohl das bei vielen Alarmglocken läuten lässt, glaubt sie, dass intelligentere KI nicht nur hilfreicher, sondern auch sicherer sein wird."
-        ),
-
-        # 6. GPT-4o Launch
-        (PERSON_ID,
-         "GPT-4o provides GPT-4 intelligence, but it is much faster, and it improves on its capabilities across text, vision and audio.",
-         "GPT-4o bietet GPT-4-Intelligenz, aber viel schneller und mit besseren Fähigkeiten bei Text, Vision und Audio",
-         "muendlich",
-         3,  # Keynote/Vortrag
-         4,  # Konferenzen
-         "https://www.ciodive.com/news/openai-faster-cheaper-gpt-4o-model/715965/",
-         "OpenAI introduces faster, cheaper GPT-4o model",
-         "2024-05-13",
-         "en",
-         "Präsentation von GPT-4o bei OpenAI Spring Update Event",
-         "GPT-4o bietet GPT-4-Intelligenz, aber es ist viel schneller und verbessert seine Fähigkeiten über Text, Vision und Audio hinweg."
-        ),
-
-        # 7. Wall Street Journal - Sora Training Data
-        (PERSON_ID,
-         "I'm actually not sure about that.",
-         "Murati war unsicher über Sora-Trainingsdaten",
-         "muendlich",
-         1,  # Video-Interview
-         5,  # Nachrichtenmedien
-         "https://the-decoder.com/openai-cto-mira-murati-doesnt-know-what-data-sora-was-trained-on/",
-         "OpenAI CTO Mira Murati doesn't know what data Sora was trained on",
-         "2024-03-13",
-         "en",
-         "Antwort auf WSJ-Frage, ob Sora mit YouTube, Instagram oder Facebook-Daten trainiert wurde - führte zu Kontroverse",
-         "Ich bin mir darüber tatsächlich nicht sicher."
-        ),
-
-        # 8. Resignation Announcement
-        (PERSON_ID,
-         "My six-and-a-half years with the OpenAI team have been an extraordinary privilege. I'm stepping away because I want to create the time and space to do my own exploration.",
-         "Nach 6,5 Jahren verlässt Murati OpenAI für eigene Exploration",
-         "muendlich",
-         10,  # Offizielle Stellungnahme
-         2,   # Twitter/X
-         "https://www.cnbc.com/2024/09/25/openai-cto-mira-murati-announces-shes-leaving-the-company.html",
-         "OpenAI considering restructuring to for-profit, CTO Mira Murati and two top research execs depart",
-         "2024-09-25",
-         "en",
-         "Offizielle Rücktrittserklärung von Mira Murati als CTO von OpenAI",
-         "Meine sechseinhalb Jahre mit dem OpenAI-Team waren ein außergewöhnliches Privileg. Ich gehe, weil ich mir die Zeit und den Raum schaffen möchte, um meine eigene Erkundung durchzuführen."
-        ),
-
-        # 9. AI Engineering Philosophy
-        (PERSON_ID,
-         "AI is a really incredible and magical technology, but the breadth, the reach, the consequence, is also great. Our entire world is engineering—like our cities, our bridges, everything—and there's always risk that comes with that, and you manage that risk with responsibility.",
-         "KI ist magische Technologie mit großer Reichweite - Risiken müssen verantwortungsvoll gemanagt werden",
-         "muendlich",
-         7,  # Nachrichtenartikel
-         5,  # Nachrichtenmedien
-         "https://washingtondc.jhu.edu/news/what-mira-murati-wants-you-to-know-about-openai/",
-         "What Mira Murati wants you to know about OpenAI",
-         "2023-04-01",
-         "en",
-         "Johns Hopkins Interview über KI-Entwicklung und Verantwortung",
-         "KI ist eine wirklich unglaubliche und magische Technologie, aber die Breite, die Reichweite, die Konsequenzen sind ebenfalls groß. Unsere gesamte Welt ist Engineering - wie unsere Städte, unsere Brücken, alles - und damit kommt immer ein Risiko, und man managt dieses Risiko mit Verantwortung."
-        ),
-
-        # 10. ChatGPT AP Interview
-        (PERSON_ID,
-         "I expect that we will collaborate with it and it's going to make our creativity expand. It's going to lower the barrier for anyone to think of themselves as creative.",
-         "KI wird Kreativität erweitern und die Barriere für kreatives Denken senken",
-         "muendlich",
-         7,  # Nachrichtenartikel
-         5,  # Nachrichtenmedien
-         "https://www.ocregister.com/2023/04/24/insider-qa-openai-cto-mira-murati-on-shepherding-chatgpt/",
-         "Insider Q&A: OpenAI CTO Mira Murati on shepherding ChatGPT",
-         "2023-04-24",
-         "en",
-         "Associated Press Interview über ChatGPT und kreative Zusammenarbeit mit KI",
-         "Ich erwarte, dass wir damit zusammenarbeiten werden und es unsere Kreativität erweitern wird. Es wird die Barriere für jeden senken, sich selbst als kreativ zu betrachten."
-        ),
-
-        # 11. Thinking Machines Lab Mission
-        (PERSON_ID,
-         "We're building multimodal AI that will be compatible with the ways that people naturally interact with the world, including through conversation and sight.",
-         "Thinking Machines baut multimodale KI, die mit natürlichen menschlichen Interaktionen kompatibel ist",
-         "muendlich",
-         10,  # Offizielle Stellungnahme
-         5,   # Nachrichtenmedien
-         "https://techcrunch.com/2025/02/18/thinking-machines-lab-is-ex-openai-cto-mira-muratis-new-startup/",
-         "Thinking Machines Lab is ex-OpenAI CTO Mira Murati's new startup",
-         "2025-02-18",
-         "en",
-         "Ankündigung der Mission von Thinking Machines Lab",
-         "Wir bauen multimodale KI, die mit den Arten kompatibel sein wird, wie Menschen natürlich mit der Welt interagieren, einschließlich durch Konversation und Sehen."
-        ),
-
-        # 12. GPT-4o Free Access
-        (PERSON_ID,
-         "This allows us to bring GPT-4 class intelligence to our free users.",
-         "GPT-4-Intelligenz wird für kostenlose Nutzer verfügbar gemacht",
-         "muendlich",
-         3,  # Keynote/Vortrag
-         4,  # Konferenzen
-         "https://www.analyticsvidhya.com/blog/2024/05/openais-latest-gpt-o-unveiled-in-spring-update/",
-         "GPT-4o: Free GPT-4 for All Unveiled in OpenAI's Spring Update",
-         "2024-05-13",
-         "en",
-         "GPT-4o Launch Event - Ankündigung des kostenlosen Zugangs",
-         "Dies ermöglicht es uns, GPT-4-Klasse-Intelligenz unseren kostenlosen Nutzern zu bringen."
-        ),
-    ]
-
-    print("AUSSAGEN werden eingefügt...")
-    print("-" * 60)
-
-    for aussage in aussagen:
-        aussage_text = aussage[1]
-        if check_duplicate_aussage(cursor, PERSON_ID, aussage_text):
-            duplicates_aussagen += 1
-            print(f"  [DUPLIKAT] {aussage[2][:60]}...")
-        else:
-            insert_aussage(cursor, aussage)
-            aussagen_count += 1
-            print(f"  [NEU] {aussage[2][:60]}...")
-
-    print()
-
-    # ========================================================================
-    # HANDLUNGEN (Ziel: mindestens 8)
-    # ========================================================================
-
-    handlungen = [
-        # 1. Joined Tesla
-        (PERSON_ID,
-         "einstellung",
-         "Senior Product Manager bei Tesla für Model X und Autopilot (2013-2016)",
-         "2013-01-01",
-         "https://en.wikipedia.org/wiki/Mira_Murati",
-         "Mira Murati - Wikipedia",
-         "Murati arbeitete 3 Jahre bei Tesla als Senior Product Manager für das Model X-Programm und war während der frühen Entwicklung von Autopilot dort."
-        ),
-
-        # 2. Joined Leap Motion
-        (PERSON_ID,
-         "einstellung",
-         "Vice President of Product and Engineering bei Leap Motion (2016-2018)",
-         "2016-01-01",
-         "https://en.wikipedia.org/wiki/Mira_Murati",
-         "Mira Murati - Wikipedia",
-         "Nach Tesla wechselte Murati zu Leap Motion als VP of Product and Engineering, bevor sie zu OpenAI kam."
-        ),
-
-        # 3. Joined OpenAI
-        (PERSON_ID,
-         "einstellung",
-         "Vice President of Applied AI and Partnerships bei OpenAI (Juni 2018)",
-         "2018-06-01",
-         "https://en.wikipedia.org/wiki/Mira_Murati",
-         "Mira Murati - Wikipedia",
-         "Murati kam zu OpenAI als VP of Applied AI and Partnerships - der Beginn ihrer 6,5-jährigen Karriere bei OpenAI."
-        ),
-
-        # 4. Promoted to CTO
-        (PERSON_ID,
-         "einstellung",
-         "Beförderung zur Chief Technology Officer bei OpenAI (2022)",
-         "2022-01-01",
-         "https://techcrunch.com/2023/11/17/who-is-mira-murati-openais-new-interim-ceo/",
-         "Who is Mira Murati, OpenAI's new interim CEO?",
-         "Nach Beförderungen zu SVP of Research, Product and Partnerships wurde Murati 2022 zur CTO ernannt und leitete ChatGPT, DALL-E und Codex."
-        ),
-
-        # 5. Interim CEO
-        (PERSON_ID,
-         "einstellung",
-         "Interim CEO von OpenAI nach Entlassung von Sam Altman (17.-21. November 2023)",
-         "2023-11-17",
-         "https://www.cnbc.com/2023/11/17/sam-altman-leaves-openai-mira-murati-appointed-interim-boss.html",
-         "OpenAI's Sam Altman exits as CEO because 'board no longer has confidence'",
-         "Nach Altmans Entlassung wurde Murati für 5 Tage zur Interim CEO ernannt, bevor Altman wieder eingesetzt wurde."
-        ),
-
-        # 6. GPT-4o Product Launch
-        (PERSON_ID,
-         "produktlaunch",
-         "Leitung der GPT-4o Launch-Veranstaltung bei OpenAI Spring Update (13. Mai 2024)",
-         "2024-05-13",
-         "https://www.ciodive.com/news/openai-faster-cheaper-gpt-4o-model/715965/",
-         "OpenAI introduces faster, cheaper GPT-4o model",
-         "Murati präsentierte GPT-4o mit Echtzeit-Demos für multimodale Konversation, Vision und Übersetzung."
-        ),
-
-        # 7. Resignation from OpenAI
-        (PERSON_ID,
-         "ruecktritt",
-         "Rücktritt als CTO von OpenAI nach 6,5 Jahren (25. September 2024)",
-         "2024-09-25",
-         "https://www.cnbc.com/2024/09/25/openai-cto-mira-murati-announces-shes-leaving-the-company.html",
-         "OpenAI CTO Mira Murati announces she's leaving the company",
-         "Murati kündigte ihren Rücktritt an, um 'Zeit und Raum für eigene Erkundungen zu schaffen' - Teil eines größeren Exodus von OpenAI-Führungskräften."
-        ),
-
-        # 8. Founded Thinking Machines Lab
-        (PERSON_ID,
-         "gruendung",
-         "Gründung von Thinking Machines Lab als CEO (Februar 2025)",
-         "2025-02-18",
-         "https://techcrunch.com/2025/02/18/thinking-machines-lab-is-ex-openai-cto-mira-muratis-new-startup/",
-         "Thinking Machines Lab is ex-OpenAI CTO Mira Murati's new startup",
-         "Murati gründete Thinking Machines Lab mit ehemaligen OpenAI-Kollegen John Schulman (Chief Scientist) und Barret Zoph (CTO)."
-        ),
-
-        # 9. Thinking Machines Fundraising
-        (PERSON_ID,
-         "investition",
-         "Abschluss einer 2 Milliarden Dollar Seed-Finanzierung bei 12 Milliarden Dollar Bewertung (Juli 2025)",
-         "2025-07-15",
-         "https://www.cnbc.com/2025/07/15/openai-mira-murati-thinking-machines-lab.html",
-         "Former OpenAI CTO Mira Murati raises $2 billion for new AI startup Thinking Machines Lab",
-         "Andreessen Horowitz führte die Finanzierungsrunde an. Auch die albanische Regierung investierte 10 Millionen Dollar."
-        ),
-
-        # 10. Tinker API Launch
-        (PERSON_ID,
-         "produktlaunch",
-         "Launch von Tinker, einer API zum Fine-Tuning von Sprachmodellen (1. Oktober 2025)",
-         "2025-10-01",
-         "https://builtin.com/articles/what-is-thinking-machines-lab",
-         "Inside Thinking Machines Lab, Mira Murati's New AI Startup",
-         "Erstes Produkt von Thinking Machines Lab - eine API für Fine-Tuning verschiedener Open-Weight-Modelle auf interner Infrastruktur."
-        ),
-    ]
-
-    print("HANDLUNGEN werden eingefügt...")
-    print("-" * 60)
-
-    for handlung in handlungen:
-        beschreibung = handlung[2]
-        if check_duplicate_handlung(cursor, PERSON_ID, beschreibung):
-            duplicates_handlungen += 1
-            print(f"  [DUPLIKAT] {beschreibung[:60]}...")
-        else:
-            insert_handlung(cursor, handlung)
-            handlungen_count += 1
-            print(f"  [NEU] {beschreibung[:60]}...")
-
-    # Änderungen speichern
-    conn.commit()
-    conn.close()
-
-    print()
-    print("="*80)
-    print("ZUSAMMENFASSUNG")
-    print("="*80)
-    print(f"Neu eingefügte Aussagen:        {aussagen_count}")
-    print(f"Duplikate (Aussagen):            {duplicates_aussagen}")
-    print(f"Neu eingefügte Handlungen:       {handlungen_count}")
-    print(f"Duplikate (Handlungen):          {duplicates_handlungen}")
-    print("="*80)
-
-    # Tier-2-Status prüfen
-    if aussagen_count >= 10 and handlungen_count >= 8:
-        print("STATUS: TIER 2 ERREICHT [OK]")
-    else:
-        print(f"STATUS: Tier 2 noch nicht erreicht")
-        print(f"  Benoetigt: 10 Aussagen (aktuell: {aussagen_count}), 8 Handlungen (aktuell: {handlungen_count})")
-
-    print()
-
-    # Suchprotokoll speichern
-    search_log.append("ERGEBNISSE:")
-    search_log.append(f"  - Neue Aussagen: {aussagen_count}")
-    search_log.append(f"  - Neue Handlungen: {handlungen_count}")
-    search_log.append(f"  - Duplikate Aussagen: {duplicates_aussagen}")
-    search_log.append(f"  - Duplikate Handlungen: {duplicates_handlungen}")
-    search_log.append("")
-    search_log.append("QUELLEN:")
-    search_log.append("  - TIME Magazine Interview (Feb 2023)")
-    search_log.append("  - Associated Press Interview (Apr 2023)")
-    search_log.append("  - Wall Street Journal Sora Interview (Mar 2024)")
-    search_log.append("  - GPT-4o Launch Event (May 2024)")
-    search_log.append("  - Dartmouth Speech (Jun 2024)")
-    search_log.append("  - Creative Jobs Interview (Jun 2024)")
-    search_log.append("  - Resignation Announcement (Sep 2024)")
-    search_log.append("  - Thinking Machines Lab Launch (Feb 2025)")
-    search_log.append("  - Seed Funding Announcement (Jul 2025)")
-    search_log.append("  - Tinker API Launch (Oct 2025)")
-    search_log.append("")
-
-    log_file = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\collect_murati_log.txt"
-    with open(log_file, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(search_log))
-
-    print(f"Suchprotokoll gespeichert: {log_file}")
-    print()
-
-if __name__ == "__main__":
-    main()
+print(f"\n=== SUMMARY ===")
+print(f"Total aussagen inserted: {len(aussagen)}")
+print(f"Total handlungen inserted: {len(handlungen)}")
+print(f"Total records inserted: {len(aussagen) + len(handlungen)}")
+print(f"\nAll data successfully inserted for Winston Weinberg (person_id={person_id})")

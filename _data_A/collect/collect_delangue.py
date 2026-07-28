@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -10,7 +11,7 @@ import sqlite3
 from datetime import datetime
 
 # Datenbank-Pfad
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 
 def insert_aussage(cursor, person_id, aussage_text, aussage_kurz, modus, quellen_typ_id,
                    plattform_id, quell_link, quell_titel, datum_aussage, sprache,

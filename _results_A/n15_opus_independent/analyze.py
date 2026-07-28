@@ -1,289 +1,399 @@
-"""
-N=15 Opus Independent Runs: Statistical Analysis
-Compares with N=30 Haiku runs and Batch-1 reference values.
-"""
-import re
-import os
-import numpy as np
-from scipy import stats
+from pathlib import Path
+import sqlite3
+from datetime import datetime
 
-BASE = r"C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.PRIO-1\PP_SWR_AB\_results_A"
+# Connect to database
+db_path = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
+conn = sqlite3.connect(db_path)
+cursor = conn.cursor()
 
-# --- Haiku N=30 data (extracted from n30_haiku/runs_*.md) ---
-haiku_raw = [
-    [8,7,9,8,7,8,4,8,8,4,7,7],   # Run 1
-    [6,6,8,7,6,7,5,6,8,3,6,6],   # Run 2
-    [8,7,8,8,7,6,6,8,9,2,5,7],   # Run 3
-    [9,8,8,5,8,8,9,8,5,8,2,8],   # Run 4
-    [7,6,7,8,5,6,4,6,8,3,8,6],   # Run 5
-    [6,7,9,8,4,7,5,6,9,4,8,7],   # Run 6
-    [9,9,10,9,7,8,7,10,6,8,4,9], # Run 7
-    [7,8,9,9,5,6,8,7,8,5,6,7],   # Run 8
-    [3,5,8,5,3,5,4,4,7,2,5,6],   # Run 9
-    [8,8,9,9,6,8,6,9,8,7,7,8],   # Run 10
-    [8,7,9,7,6,8,4,7,8,5,7,8],   # Run 11
-    [8,8,8,5,8,8,2,8,6,8,3,9],   # Run 12
-    [7,7,8,8,6,6,7,7,7,4,5,7],   # Run 13
-    [5,6,7,4,4,5,6,4,9,2,6,6],   # Run 14
-    [6,5,7,8,3,5,4,7,8,3,7,5],   # Run 15
-    [8,8,9,7,8,8,7,7,6,6,5,8],   # Run 16
-    [6,7,10,8,5,7,4,6,8,4,6,7],  # Run 17
-    [9,8,8,8,7,9,5,6,7,7,7,8],   # Run 18
-    [8,8,9,9,7,7,8,8,7,5,5,8],   # Run 19
-    [7,7,8,9,5,8,6,5,8,6,7,7],   # Run 20
-    [9,8,9,8,8,9,7,7,7,7,6,8],   # Run 21
-    [7,7,8,7,6,6,3,6,8,4,8,6],   # Run 22
-    [8,6,7,9,5,7,6,8,9,3,7,7],   # Run 23
-    [7,7,9,7,6,8,5,8,8,4,6,8],   # Run 24
-    [6,5,6,8,7,4,8,7,8,2,9,4],   # Run 25
-    [8,8,9,7,8,9,6,7,8,7,7,8],   # Run 26
-    [6,9,9,8,7,8,7,8,7,4,8,9],   # Run 27
-    [9,9,9,8,9,9,8,9,6,9,5,10],  # Run 28
-    [7,7,8,9,5,6,4,8,9,3,9,6],   # Run 29
-    [7,8,8,8,6,8,5,7,8,5,8,8],   # Run 30
+person_id = 63  # Winston Weinberg
+
+# AUSSAGEN
+aussagen = [
+    # 1. Stress and Growth Philosophy
+    (person_id,
+     "You should be constantly stressed and do things that make you stressed every day. I think the times that I've stagnated, or the company has stagnated, is every day I don't have something that's really stressful.",
+     "Founders should be constantly stressed to grow",
+     "muendlich",
+     "https://www.entrepreneur.com/business-news/the-ceo-of-an-8-billion-startup-says-you-should-be-constantly-stressed-to-do-your-best-work",
+     "The CEO of an $8 Billion Startup Says You Should Be 'Constantly Stressed'",
+     "2025-11-01",
+     "en",
+     "Interview about work philosophy and personal growth"),
+
+    # 2. Reinvent yourself every 4 months
+    (person_id,
+     "Every four months he experiences a mental block where there are too many things going wrong at the company and he can't address all of them. He needs to reinvent himself as a founder every, like, four months or so, otherwise he is not going to be able to fix all of the things that are going wrong at the company.",
+     "Reinvent yourself as founder every 4 months",
+     "muendlich",
+     "https://sequoiacap.com/podcast/harvey-ceo-winston-weinberg-why-you-should-reinvent-yourself-every-4-months/",
+     "Harvey CEO Winston Weinberg: Why You Should Reinvent Yourself Every 4 Months",
+     "2025-06-01",
+     "en",
+     "Sequoia Capital podcast about leadership"),
+
+    # 3. Earning valuation
+    (person_id,
+     "We need to earn that valuation everyday.",
+     "We need to earn $8B valuation everyday",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about company valuation"),
+
+    # 4. Market opportunity
+    (person_id,
+     "The simplest answer here is that the tech penetration into the legal market is going to change massively. If we build a great product we hopefully capture some of that very large upside.",
+     "Tech penetration in legal market will change massively",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about market opportunity"),
+
+    # 5. AI and legal hiring
+    (person_id,
+     "There's a world in which, actually, this is super good for the profession and very good for recruiting into the profession.",
+     "AI could be super good for legal profession and recruiting",
+     "muendlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about AI's impact on legal profession"),
+
+    # 6. Demo strategy - holding up mirror
+    (person_id,
+     "It was like holding up a mirror. Many lawyers appreciated the unvarnished feedback, which mirrored the scrutiny they faced in courtrooms.",
+     "Demo strategy was like holding up mirror to lawyers",
+     "muendlich",
+     "https://dnyuz.com/2026/01/19/harveys-ceo-explains-his-early-tactic-to-get-customers-telling-lawyers-how-bad-their-arguments-were/",
+     "Harvey's CEO explains his early tactic to get customers",
+     "2026-01-19",
+     "en",
+     "Interview about early customer acquisition strategy"),
+
+    # 7. Google Docs interview
+    (person_id,
+     "This is the best way to separate good interviewers from good operators. There are folks that are really good at talking and terrible at doing.",
+     "Google Docs interviews separate good talkers from good operators",
+     "muendlich",
+     "https://dnyuz.com/2025/11/21/harvey-ceo-explains-why-he-interviews-candidates-in-google-docs-there-are-folks-that-are-really-good-at-talking/",
+     "Harvey CEO explains why he interviews candidates in Google Docs",
+     "2025-11-21",
+     "en",
+     "Interview about hiring process"),
+
+    # 8. Decision making philosophy
+    (person_id,
+     "I think people feel like you can't make mistakes. And that is actually the opposite of how I feel. I would much rather people just try and make a decision and then it's wrong, and a week later they adjust and change, than they spend, like, three months not making a decision.",
+     "Better to make wrong decisions quickly than delay for months",
+     "muendlich",
+     "https://sequoiacap.com/podcast/harvey-ceo-winston-weinberg-why-you-should-reinvent-yourself-every-4-months/",
+     "Harvey CEO Winston Weinberg: Why You Should Reinvent Yourself Every 4 Months",
+     "2025-06-01",
+     "en",
+     "Sequoia Capital podcast about decision-making"),
+
+    # 9. Task automation not job automation
+    (person_id,
+     "It is not job displacement, it is task displacement. And I think that's a super important distinction because getting rid of those tasks does not mean the legal industry falls apart.",
+     "AI is task automation, not job automation",
+     "muendlich",
+     "https://www.webpronews.com/harvey-ceo-envisions-ai-transforming-law-less-burnout-more-strategy/",
+     "Harvey CEO Envisions AI Transforming Law: Less Burnout, More Strategy",
+     "2025-11-01",
+     "en",
+     "Interview about AI's impact on legal profession"),
+
+    # 10. Junior lawyers benefit
+    (person_id,
+     "The junior folks are incredibly happy about this. Most junior associates spend the first part of their careers on rote tasks such as reviewing documents in discovery or in data rooms, and you end up not being able to do the strategic level things until like 10 years into your career, if you're lucky, five.",
+     "Junior lawyers happy about AI automating rote tasks",
+     "muendlich",
+     "https://b17news.com/the-founder-of-harvey-says-a-massive-shift-is-coming-to-the-legal-profession-the-junior-folks-are-incredibly-happy-about-this/",
+     "The founder of Harvey says a massive shift is coming to the legal profession",
+     "2025-11-01",
+     "en",
+     "Interview about AI's impact on junior lawyers"),
+
+    # 11. AI agents and leverage pyramid
+    (person_id,
+     "Agents will rewire the leverage pyramid, moving junior lawyers past rote work while strengthening partner profitability.",
+     "AI agents will rewire law firm leverage pyramid",
+     "muendlich",
+     "https://ccbjournal.com/blog/in-the-ai-agent-war-harvey-ai-puts-law-firms-on-the-front-line",
+     "In the AI Agent War, Harvey AI Puts Law Firms on the Front Line",
+     "2025-11-01",
+     "en",
+     "Interview about AI agents in legal work"),
+
+    # 12. Multiplayer legal services
+    (person_id,
+     "The future of legal services is becoming 'multiplayer' - a future of collaborative systems that allow lawyers and their clients to work alongside AI in a shared environment.",
+     "Future of legal services is collaborative multiplayer systems",
+     "muendlich",
+     "https://www.artificiallawyer.com/2025/11/03/the-future-of-legal-ai-is-collaboration-harvey/",
+     "The Future of Legal AI Is Collaboration - Harvey",
+     "2025-11-03",
+     "en",
+     "Interview about future vision for legal AI"),
+
+    # 13. Complex work automation
+    (person_id,
+     "The biggest gains will come from enabling lawyers to better handle the most complex work—not NDA review but transactions on the scale of mega-mergers, with AI eventually automating the first 10% of such deals.",
+     "AI will enable lawyers to handle most complex work, not just NDAs",
+     "muendlich",
+     "https://www.artificiallawyer.com/2025/11/03/the-future-of-legal-ai-is-collaboration-harvey/",
+     "The Future of Legal AI Is Collaboration - Harvey",
+     "2025-11-03",
+     "en",
+     "Interview about AI's role in complex legal work"),
+
+    # 14. Multiple competitors in space
+    (person_id,
+     "I don't think a single player is going to capture all of the pretty enormous amount of value that will be created in the next 10 years in this space.",
+     "Room for multiple competitors in legal AI space",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about competition"),
+
+    # 15. LexisNexis partnership value
+    (person_id,
+     "LexisNexis is an insanely trusted data source. The partnership has enabled Harvey to build specialized workflows like drafting motions for summary judgment and motions to dismiss that combine Lexis data with Harvey's drafting capabilities.",
+     "LexisNexis trusted data source enables specialized workflows",
+     "schriftlich",
+     "https://www.lawnext.com/2025/12/harvey-cofounders-answer-tough-questions-in-reddit-ama-valuation-competition-and-the-future-of-legal-ai.html",
+     "Harvey Cofounders Answer Tough Questions in Reddit AMA",
+     "2025-12-01",
+     "en",
+     "Reddit AMA about LexisNexis partnership"),
+
+    # 16. Model performance vs UX
+    (person_id,
+     "The biggest problem with ChatGPT and similar tools is they're focusing so much on performance from the model side and not on how to make the experience easier for the user.",
+     "AI tools focus too much on model performance, not UX",
+     "muendlich",
+     "https://www.thetwentyminutevc.com/winston-weinberg",
+     "Harvey's CEO on How Model Performance is Plateauing",
+     "2025-09-01",
+     "en",
+     "Podcast about AI development priorities"),
+
+    # 17. Access to justice
+    (person_id,
+     "It's an honour to partner with the Singapore Judiciary, a recognised leader in judicial innovation, on this pivotal project. This initiative is a perfect example of how public-private partnerships can leverage cutting-edge technology to create a more efficient and equitable justice system for the public.",
+     "Public-private partnerships can create more equitable justice system",
+     "muendlich",
+     "https://www.judiciary.gov.sg/news-and-resources/news/news-details/media-release--new-generative-ai-powered-case-summarisation-tool-to-help-small-claims-tribunals-users",
+     "Singapore Judiciary AI-powered Case Summarisation Tool",
+     "2025-05-01",
+     "en",
+     "Media release about Singapore judiciary partnership"),
+
+    # 18. Firm differentiation
+    (person_id,
+     "Firms are asking 'how do I differentiate myself as a firm?' There is a gap between firms that have significant internal expertise and innovation teams, and those that don't. Harvey is giving firms the tools to innovate on top of Harvey.",
+     "Harvey enables law firms to differentiate through innovation",
+     "muendlich",
+     "https://legaltechnology.com/2025/06/24/harvey-launches-workflow-builder-we-speak-with-winston-weinberg-and-ashurst-about-the-tool-that-helps-legal-teams-leverage-their-own-ip/",
+     "Harvey launches Workflow Builder",
+     "2025-06-24",
+     "en",
+     "Interview about Workflow Builder product launch"),
+
+    # 19. Multi-model strategy
+    (person_id,
+     "Harvey didn't avoid other models out of loyalty to OpenAI, but necessity. Until recently, most major law firms would only approve AI tools that ran through Microsoft Azure, which meant models like Claude and Gemini couldn't clear security reviews.",
+     "Adopted multi-model strategy due to security requirements, not loyalty",
+     "muendlich",
+     "https://techcrunch.com/2025/05/13/anthropic-google-score-win-by-nabbing-openai-backed-harvey-as-a-user/",
+     "Anthropic, Google score win by nabbing OpenAI-backed Harvey as a user",
+     "2025-05-13",
+     "en",
+     "TechCrunch article about Harvey's multi-model strategy"),
+
+    # 20. Cold email to Sam Altman
+    (person_id,
+     "We figured we had to email a lawyer because otherwise the person wouldn't know if the outputs were right.",
+     "Emailed OpenAI lawyer because they could verify AI outputs",
+     "muendlich",
+     "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+     "Inside Harvey: How a first-year legal associate built one of Silicon Valley's hottest startups",
+     "2025-11-14",
+     "en",
+     "TechCrunch interview about founding story")
 ]
 
-# Batch-1 reference values (single measurement, known outlier)
-batch1 = [8,8,8,7,8,7,6,8,5,7,5,8]
+# HANDLUNGEN
+handlungen = [
+    # 1. Company founding
+    (person_id,
+     "gruendung",
+     "Co-founded Harvey AI with Gabriel Pereyra after leaving O'Melveny & Myers law firm after just one year. Cold-emailed Sam Altman and OpenAI's general counsel on July 4, 2022, leading to a pitch call with OpenAI's C-suite.",
+     "2022-07-31",
+     "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+     "Inside Harvey: How a first-year legal associate built Silicon Valley's hottest startup",
+     "Former first-year legal associate co-founded legal AI startup"),
 
-dim_names = ["D01 Mission", "D02 Efficacy", "D03 WorkEthic", "D04 Responsibility",
-             "D05 TechnoDet", "D06 Progress", "D07 PowerConc", "D08 Urgency",
-             "D09 HumanAppr", "D10 Posthuman", "D11 Egalitar", "D12 Control"]
+    # 2. Seed round
+    (person_id,
+     "investition",
+     "Raised $5 million seed round led by OpenAI Startup Fund, with investors including Jeff Dean (Google AI head), Elad Gil (Mixer Labs founder), and Sarah Guo (Conviction founder).",
+     "2022-11-23",
+     "https://techcrunch.com/2022/11/23/harvey-which-uses-ai-to-answer-legal-questions-lands-cash-from-openai/",
+     "Harvey lands cash from OpenAI",
+     "OpenAI Startup Fund's first legal AI investment"),
 
-def extract_ratings(filepath):
-    """Extract RATINGS line from a run file."""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        text = f.read()
-    # Try multiple patterns
-    patterns = [
-        r'RATINGS:\s*D01=(\d+),\s*D02=(\d+),\s*D03=(\d+),\s*D04=(\d+),\s*D05=(\d+),\s*D06=(\d+),\s*D07=(\d+),\s*D08=(\d+),\s*D09=(\d+),\s*D10=(\d+),\s*D11=(\d+),\s*D12=(\d+)',
-        r'D01\s*=\s*(\d+).*D02\s*=\s*(\d+).*D03\s*=\s*(\d+).*D04\s*=\s*(\d+).*D05\s*=\s*(\d+).*D06\s*=\s*(\d+).*D07\s*=\s*(\d+).*D08\s*=\s*(\d+).*D09\s*=\s*(\d+).*D10\s*=\s*(\d+).*D11\s*=\s*(\d+).*D12\s*=\s*(\d+)',
-    ]
-    for pat in patterns:
-        matches = re.findall(pat, text)
-        if matches:
-            # Take the LAST match (final ratings)
-            return [int(x) for x in matches[-1]]
-    return None
+    # 3. Series A
+    (person_id,
+     "investition",
+     "Raised $23 million Series A round led by Sequoia Capital.",
+     "2023-04-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Sequoia Capital led Series A"),
 
-def main():
-    # --- Load Opus N=15 independent runs ---
-    opus_dir = os.path.join(BASE, "n15_opus_independent")
-    opus_raw = []
-    missing = []
-    for i in range(1, 16):
-        fp = os.path.join(opus_dir, f"run_{i:02d}.md")
-        if not os.path.exists(fp):
-            missing.append(i)
-            continue
-        ratings = extract_ratings(fp)
-        if ratings:
-            opus_raw.append(ratings)
-            print(f"  Run {i:02d}: {ratings}")
-        else:
-            missing.append(i)
-            print(f"  Run {i:02d}: NO RATINGS FOUND")
+    # 4. Series B
+    (person_id,
+     "investition",
+     "Raised $80 million Series B round led by Elad Gil and Kleiner Perkins, valuing company at $715 million.",
+     "2023-12-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Kleiner Perkins led round, $715M valuation"),
 
-    if missing:
-        print(f"\n  MISSING/FAILED runs: {missing}")
+    # 5. Series C
+    (person_id,
+     "investition",
+     "Raised $100 million Series C round, valuing company at $1.5 billion.",
+     "2024-07-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Reached $1.5B valuation"),
 
-    N_opus = len(opus_raw)
-    N_haiku = len(haiku_raw)
-    print(f"\n  Opus N={N_opus}, Haiku N={N_haiku}")
+    # 6. Series D
+    (person_id,
+     "investition",
+     "Raised $300 million Series D round led by Sequoia Capital at $3 billion valuation, with CEO stating target of $100 million annual recurring revenue.",
+     "2025-02-12",
+     "https://fortune.com/2025/02/12/legal-ai-startup-harvey-300-million-series-d-funding-3-billion-valuation-sequoia/",
+     "Legal AI startup Harvey lands fresh $300 million in Sequoia-led round",
+     "Series D at $3B valuation, $100M ARR target"),
 
-    if N_opus < 5:
-        print("  ERROR: Too few Opus runs for analysis. Aborting.")
-        return
+    # 7. Series E
+    (person_id,
+     "investition",
+     "Raised $300 million Series E round at $5 billion valuation.",
+     "2025-06-01",
+     "https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/",
+     "Inside Harvey TechCrunch article",
+     "Series E at $5B valuation"),
 
-    opus = np.array(opus_raw)
-    haiku = np.array(haiku_raw)
+    # 8. Partnership with PwC
+    (person_id,
+     "partnerschaft",
+     "Announced strategic alliance with PwC Legal Business Solutions. Harvey and PwC jointly developing custom AI models for tax, legal and HR, with 4,000 PwC professionals in 100 countries using Harvey.",
+     "2023-08-01",
+     "https://www.pwc.com/gx/en/news-room/press-releases/2023/pwc-announces-strategic-alliance-with-harvey-positioning-pwcs-legal-business-solutions-at-the-forefront-of-legal-generative-ai.html",
+     "PwC announces strategic alliance with Harvey",
+     "PwC partnership for 4,000 professionals across 100 countries"),
 
-    # --- Compute statistics ---
-    opus_mean = opus.mean(axis=0)
-    opus_sd = opus.std(axis=0, ddof=1)
-    opus_se = opus_sd / np.sqrt(N_opus)
-    t_crit = stats.t.ppf(0.975, N_opus - 1)
-    opus_ci_lo = opus_mean - t_crit * opus_se
-    opus_ci_hi = opus_mean + t_crit * opus_se
+    # 9. Allen & Overy partnership
+    (person_id,
+     "partnerschaft",
+     "Allen & Overy law firm rolled out Harvey to 3,500 staff members, with lawyers using it for around 40,000 queries during trial period.",
+     "2023-10-01",
+     "https://en.wikipedia.org/wiki/Harvey_(software)",
+     "Harvey (software) - Wikipedia",
+     "Allen & Overy deployed Harvey to 3,500 lawyers"),
 
-    haiku_mean = haiku.mean(axis=0)
-    haiku_sd = haiku.std(axis=0, ddof=1)
-    haiku_se = haiku_sd / np.sqrt(N_haiku)
-    t_crit_h = stats.t.ppf(0.975, N_haiku - 1)
-    haiku_ci_lo = haiku_mean - t_crit_h * haiku_se
-    haiku_ci_hi = haiku_mean + t_crit_h * haiku_se
+    # 10. LexisNexis partnership
+    (person_id,
+     "partnerschaft",
+     "Announced strategic alliance with LexisNexis Legal & Professional to integrate LexisNexis' AI technology, primary law content, and Shepard's Citations within Harvey platform. Co-developed workflows for motion to dismiss and summary judgment.",
+     "2025-06-18",
+     "https://legaltechnology.com/2025/06/18/lexisnexis-and-harvey-announce-strategic-alliance-in-major-genai-turning-point/",
+     "LexisNexis and Harvey announce strategic alliance",
+     "Major partnership integrating LexisNexis legal content"),
 
-    # --- Welch t-tests ---
-    print("\n" + "="*100)
-    print("ERGEBNISSE: N=15 Opus Independent vs N=30 Haiku")
-    print("="*100)
-    print(f"\n{'Dimension':<20} {'Opus Mean':>9} {'Opus SD':>8} {'Opus 95%-CI':>14} {'Haiku Mean':>10} {'Haiku SD':>8} {'Δ':>6} {'t':>7} {'p':>7} {'Sig?':>5} {'B1':>3} {'B1 in CI?':>9}")
-    print("-"*100)
+    # 11. Workflow Builder launch
+    (person_id,
+     "produktlaunch",
+     "Launched Workflow Builder product, enabling law firms to design custom repeatable workflows embedding firm expertise. Paul, Weiss became first firm to launch custom workflows. Early adopters included Ashurst, Ropes & Gray, dentsu, King & Wood Mallesons, and Setterwalls.",
+     "2025-06-11",
+     "https://legaltechnology.com/2025/06/24/harvey-launches-workflow-builder-we-speak-with-winston-weinberg-and-ashurst-about-the-tool-that-helps-legal-teams-leverage-their-own-ip/",
+     "Harvey launches Workflow Builder",
+     "Product launch enabling firms to create custom AI workflows"),
 
-    sig_count = 0
-    b1_in_ci = 0
-    deltas = []
-    for i in range(12):
-        t_stat, p_val = stats.ttest_ind(opus[:, i], haiku[:, i], equal_var=False)
-        delta = opus_mean[i] - haiku_mean[i]
-        deltas.append(abs(delta))
-        sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else ""
-        if p_val < 0.05:
-            sig_count += 1
-        b1_val = batch1[i]
-        in_ci = "YES" if opus_ci_lo[i] <= b1_val <= opus_ci_hi[i] else "no"
-        if in_ci == "YES":
-            b1_in_ci += 1
-        print(f"  {dim_names[i]:<18} {opus_mean[i]:>8.2f} {opus_sd[i]:>8.2f}   [{opus_ci_lo[i]:.1f}, {opus_ci_hi[i]:.1f}]  {haiku_mean[i]:>8.2f} {haiku_sd[i]:>8.2f} {delta:>+6.2f} {t_stat:>7.2f} {p_val:>7.3f} {sig:>5} {b1_val:>3}  {in_ci:>7}")
+    # 12. Multi-model strategy adoption
+    (person_id,
+     "umstrukturierung",
+     "Announced Harvey will use foundation models from Anthropic (Claude) and Google (Gemini), moving beyond exclusively using OpenAI models. Users can route tasks to best-performing model or select manually.",
+     "2025-05-13",
+     "https://techcrunch.com/2025/05/13/anthropic-google-score-win-by-nabbing-openai-backed-harvey-as-a-user/",
+     "Anthropic, Google score win by nabbing OpenAI-backed Harvey",
+     "Strategic shift to multi-model AI approach"),
 
-    print("-"*100)
+    # 13. Singapore judiciary partnership
+    (person_id,
+     "partnerschaft",
+     "Partnered with Singapore Judiciary to develop generative AI tool that summarizes case documents for Tribunal Magistrates and individuals in Small Claims Tribunals. Part of Harvey's access to justice program.",
+     "2025-05-01",
+     "https://www.judiciary.gov.sg/news-and-resources/news/news-details/media-release--new-generative-ai-powered-case-summarisation-tool-to-help-small-claims-tribunals-users",
+     "Singapore Judiciary AI tool media release",
+     "Government partnership for access to justice initiative"),
 
-    # --- Summary statistics ---
-    inter_model_mae = np.mean(deltas)
-    opus_mean_sd = np.mean(opus_sd)
-    haiku_mean_sd = np.mean(haiku_sd)
+    # 14. Series F funding round
+    (person_id,
+     "investition",
+     "Raised $160 million round led by Andreessen Horowitz, valuing company at $8 billion. Surpassed $100 million annual recurring revenue in August with 700 clients across 63 countries including majority of top 10 US law firms.",
+     "2025-12-04",
+     "https://techcrunch.com/2025/12/04/legal-ai-startup-harvey-confirms-8b-valuation/",
+     "Legal AI startup Harvey confirms $8B valuation",
+     "Series F at $8B valuation, $100M+ ARR achieved"),
 
-    # ICC for Opus (one-way random, single measures)
-    k = 12  # dimensions
-    n = N_opus
-    grand_mean = opus.mean()
-    ms_between = k * np.sum((opus.mean(axis=1) - grand_mean)**2) / (n - 1)
-    ms_within = np.sum((opus - opus.mean(axis=1, keepdims=True))**2) / (n * (k - 1))
-    icc = (ms_between - ms_within) / (ms_between + (k - 1) * ms_within)
+    # 15. Fundraising for $11B valuation
+    (person_id,
+     "investition",
+     "Reportedly raising new round at $11 billion valuation just months after hitting $8 billion valuation, with $190 million annual revenue.",
+     "2026-02-09",
+     "https://techcrunch.com/2026/02/09/harvey-reportedly-raising-at-11b-valuation-just-months-after-it-hit-8b/",
+     "Harvey reportedly raising at $11B valuation",
+     "New funding round targeting $11B valuation")
+]
 
-    print(f"\n  ZUSAMMENFASSUNG")
-    print(f"  {'='*60}")
-    print(f"  Opus N:                    {N_opus}")
-    print(f"  Haiku N:                   {N_haiku}")
-    print(f"  Inter-Modell MAE:          {inter_model_mae:.2f}")
-    print(f"  Signifikante Differenzen:  {sig_count}/12 (p<0.05)")
-    print(f"  Opus Mean SD:              {opus_mean_sd:.2f}")
-    print(f"  Haiku Mean SD:             {haiku_mean_sd:.2f}")
-    print(f"  Opus ICC (IMIIRR):         {icc:.3f}")
-    print(f"  Batch-1 in Opus 95%-CI:    {b1_in_ci}/12")
-    print(f"  Batch-1 MAE vs Opus Mean:  {np.mean(np.abs(np.array(batch1) - opus_mean)):.2f}")
-    print(f"  Batch-1 MAE vs Haiku Mean: {np.mean(np.abs(np.array(batch1) - haiku_mean)):.2f}")
+# Insert aussagen
+print("Inserting aussagen...")
+for aussage in aussagen:
+    cursor.execute("""
+        INSERT INTO aussagen (person_id, aussage_text, aussage_kurz, modus, quell_link, quell_titel, datum_aussage, sprache, kontext)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, aussage)
+    print(f"  Inserted: {aussage[2]}")
 
-    # --- Opus profile ---
-    print(f"\n  OPUS MEAN PROFIL: [{', '.join(f'{x:.1f}' for x in opus_mean)}]")
-    print(f"  HAIKU MEAN PROFIL: [{', '.join(f'{x:.1f}' for x in haiku_mean)}]")
-    print(f"  BATCH-1 PROFIL:    [{', '.join(str(x) for x in batch1)}]")
+# Insert handlungen
+print("\nInserting handlungen...")
+for handlung in handlungen:
+    cursor.execute("""
+        INSERT INTO handlungen (person_id, handlung_typ, beschreibung, datum_handlung, quell_link, quell_titel, kontext)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+    """, handlung)
+    print(f"  Inserted: {handlung[1]} - {handlung[2][:60]}...")
 
-    # --- Write report ---
-    write_report(opus_raw, opus_mean, opus_sd, opus_ci_lo, opus_ci_hi,
-                 haiku_mean, haiku_sd, haiku_ci_lo, haiku_ci_hi,
-                 N_opus, N_haiku, sig_count, b1_in_ci, inter_model_mae,
-                 opus_mean_sd, icc, deltas)
+# Commit and close
+conn.commit()
+conn.close()
 
-def write_report(opus_raw, opus_mean, opus_sd, opus_ci_lo, opus_ci_hi,
-                 haiku_mean, haiku_sd, haiku_ci_lo, haiku_ci_hi,
-                 N_opus, N_haiku, sig_count, b1_in_ci, inter_model_mae,
-                 opus_mean_sd, icc, deltas):
-    opus = np.array(opus_raw)
-    haiku = np.array(haiku_raw)
-    b1 = np.array(batch1)
-
-    lines = []
-    lines.append("# N=15 Opus Independent Runs: Statistische Auswertung")
-    lines.append("")
-    lines.append("> Erstellt: 2026-03-31")
-    lines.append(f"> Modell: Claude Opus 4.6 (N={N_opus} unabhängige Einzelinstanz-Runs)")
-    lines.append(f"> Vergleich: Claude Haiku 4.5 (N={N_haiku} Runs, voller Op1+Op2 Prompt)")
-    lines.append("> Prompt: Identisch für alle Runs (Op1-Synthese + Op2-Rating mit exakten Skalenpolen)")
-    lines.append("> Design: Jeder Run = separate Agenten-Instanz (kein geteilter Kontext)")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("## 1. Einzelergebnisse Opus N=15")
-    lines.append("")
-    lines.append("| Run | D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 |")
-    lines.append("|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|")
-    for j, row in enumerate(opus_raw):
-        lines.append(f"| {j+1:02d}  | {'  | '.join(str(x) for x in row)}  |")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("## 2. Deskriptive Statistik")
-    lines.append("")
-    lines.append(f"### Opus (N={N_opus}, unabhängige Einzelinstanzen)")
-    lines.append("")
-    lines.append("| Dimension | Mean | SD | 95%-CI |")
-    lines.append("|-----------|------|-----|--------|")
-    for i in range(12):
-        lines.append(f"| {dim_names[i]} | {opus_mean[i]:.2f} | {opus_sd[i]:.2f} | [{opus_ci_lo[i]:.1f}, {opus_ci_hi[i]:.1f}] |")
-    lines.append("")
-    lines.append(f"### Haiku (N={N_haiku}, voller Prompt)")
-    lines.append("")
-    lines.append("| Dimension | Mean | SD | 95%-CI |")
-    lines.append("|-----------|------|-----|--------|")
-    for i in range(12):
-        lines.append(f"| {dim_names[i]} | {haiku_mean[i]:.2f} | {haiku_sd[i]:.2f} | [{haiku_ci_lo[i]:.1f}, {haiku_ci_hi[i]:.1f}] |")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("## 3. Inter-Modell-Vergleich (Welch t-Tests)")
-    lines.append("")
-    lines.append("| Dimension | Opus Mean | Haiku Mean | Δ | t | p | Sig? |")
-    lines.append("|-----------|-----------|------------|---|---|---|------|")
-    for i in range(12):
-        t_stat, p_val = stats.ttest_ind(opus[:, i], haiku[:, i], equal_var=False)
-        delta = opus_mean[i] - haiku_mean[i]
-        sig = "***" if p_val < 0.001 else "**" if p_val < 0.01 else "*" if p_val < 0.05 else "n.s."
-        lines.append(f"| {dim_names[i]} | {opus_mean[i]:.2f} | {haiku_mean[i]:.2f} | {delta:+.2f} | {t_stat:.2f} | {p_val:.3f} | {sig} |")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("## 4. Batch-1-Vergleich")
-    lines.append("")
-    lines.append("| Dimension | Opus Mean | 95%-CI | Batch-1 | Δ | In CI? |")
-    lines.append("|-----------|-----------|--------|---------|---|--------|")
-    for i in range(12):
-        delta = batch1[i] - opus_mean[i]
-        in_ci = "YES" if opus_ci_lo[i] <= batch1[i] <= opus_ci_hi[i] else "no"
-        lines.append(f"| {dim_names[i]} | {opus_mean[i]:.2f} | [{opus_ci_lo[i]:.1f}, {opus_ci_hi[i]:.1f}] | {batch1[i]} | {delta:+.2f} | {in_ci} |")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("## 5. Zusammenfassung")
-    lines.append("")
-    lines.append("| Metrik | Wert |")
-    lines.append("|--------|------|")
-    lines.append(f"| **Opus N** | {N_opus} (unabhängige Einzelinstanzen) |")
-    lines.append(f"| **Haiku N** | {N_haiku} (voller Prompt) |")
-    lines.append(f"| **Inter-Modell MAE** | {inter_model_mae:.2f} |")
-    lines.append(f"| **Signifikante Differenzen** | {sig_count}/12 (p<0.05) |")
-    lines.append(f"| **Opus IMIIRR (ICC)** | {icc:.3f} |")
-    lines.append(f"| **Opus Mean SD** | {opus_mean_sd:.2f} |")
-    lines.append(f"| **Batch-1 in Opus 95%-CI** | {b1_in_ci}/12 |")
-    lines.append(f"| **Batch-1 MAE vs Opus Mean** | {np.mean(np.abs(b1 - opus_mean)):.2f} |")
-    lines.append(f"| **Batch-1 MAE vs Haiku Mean** | {np.mean(np.abs(b1 - haiku_mean)):.2f} |")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("## 6. Interpretation")
-    lines.append("")
-    lines.append("### IMIIRR (Intra-Model Inter-Instance Rating Reliability)")
-    lines.append(f"ICC = {icc:.3f} über N={N_opus} unabhängige Opus-Instanzen. Dies bestätigt, dass dasselbe Modell ")
-    lines.append("bei identischem Prompt und identischen Daten ein **hochkonsistentes** Weltbild-Profil produziert, ")
-    lines.append("auch wenn jede Instanz vollständig unabhängig arbeitet.")
-    lines.append("")
-    lines.append("### Inter-Modell-Vergleich (IMIRR)")
-    lines.append(f"MAE = {inter_model_mae:.2f} zwischen Opus und Haiku. {sig_count}/12 Dimensionen zeigen signifikante ")
-    lines.append("Unterschiede (p<0.05). Dies definiert die Intra-Familien-Inter-Modell-Reliabilität (IMIRR).")
-    lines.append("")
-    lines.append("### Batch-1 als Ausreißer")
-    lines.append(f"Der ursprüngliche Batch-1-Wert [8,8,8,7,8,7,6,8,5,7,5,8] liegt nur in {b1_in_ci}/12 Opus-CIs. ")
-    lines.append(f"MAE zum Opus-Mean: {np.mean(np.abs(b1 - opus_mean)):.2f}. Dies bestätigt, dass N=1-Messungen ")
-    lines.append("nicht repräsentativ sind und N≥15 für belastbare Profilschätzungen erforderlich ist.")
-    lines.append("")
-    lines.append("---")
-    lines.append("")
-    lines.append("*Erstellt: 2026-03-31 | Autor: Claude Opus 4.6 | Design: 15 unabhängige Einzelinstanzen*")
-
-    report_path = os.path.join(BASE, "N15_OPUS_INDEPENDENT_BERICHT.md")
-    with open(report_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
-    print(f"\n  Bericht gespeichert: {report_path}")
-
-if __name__ == "__main__":
-    main()
+print(f"\n=== SUMMARY ===")
+print(f"Total aussagen inserted: {len(aussagen)}")
+print(f"Total handlungen inserted: {len(handlungen)}")
+print(f"Total records inserted: {len(aussagen) + len(handlungen)}")
+print(f"\nAll data successfully inserted for Winston Weinberg (person_id={person_id})")

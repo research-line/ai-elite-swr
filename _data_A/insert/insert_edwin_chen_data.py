@@ -1,3 +1,4 @@
+from pathlib import Path
 # -*- coding: utf-8 -*-
 """
 Insert data for Edwin Chen (person_id=96) into aussagen_top100.db
@@ -8,7 +9,7 @@ import sqlite3
 from datetime import datetime
 
 # Database path
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 
 # Connect to database
 conn = sqlite3.connect(DB_PATH)

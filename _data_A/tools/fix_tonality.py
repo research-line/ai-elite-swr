@@ -5,8 +5,9 @@ Jede Aussage bekommt genau 1 Tonalität
 """
 
 import sqlite3
+from pathlib import Path
 
-conn = sqlite3.connect(r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db')
+conn = sqlite3.connect(Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db")
 c = conn.cursor()
 
 # Manuelle Korrektur: Entscheide für jede Aussage die korrekte Tonalität

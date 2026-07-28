@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -14,7 +15,7 @@ if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8')
 
 # Datenbank-Verbindung
-db_path = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+db_path = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 conn = sqlite3.connect(db_path)
 cursor = conn.cursor()
 

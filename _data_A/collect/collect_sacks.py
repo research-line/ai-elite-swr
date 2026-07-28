@@ -1,3 +1,4 @@
+from pathlib import Path
 # -*- coding: utf-8 -*-
 """
 collect_sacks.py
@@ -7,7 +8,7 @@ Tier 2: mindestens 10 Aussagen + mindestens 8 Handlungen
 
 import sqlite3
 
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 PERSON_ID = 36  # David Sacks
 
 def insert_aussagen(conn):

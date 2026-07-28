@@ -1,6 +1,7 @@
+from pathlib import Path
 import sqlite3
 
-conn = sqlite3.connect(r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db')
+conn = sqlite3.connect(Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db")
 c = conn.cursor()
 
 # CODING OF 73 MISSING STATEMENTS

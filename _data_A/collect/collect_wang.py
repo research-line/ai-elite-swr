@@ -14,7 +14,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Datenbank-Pfad
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 
 # Person ID für Alexandr Wang
 PERSON_ID = 29

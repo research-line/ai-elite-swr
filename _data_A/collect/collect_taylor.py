@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -8,7 +9,7 @@ Sammelt Aussagen und Handlungen von Bret Taylor (person_id=27) für die Forschun
 import sqlite3
 from datetime import datetime
 
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 PERSON_ID = 27  # Bret Taylor
 
 def check_duplicate_aussage(cursor, person_id, aussage_text):

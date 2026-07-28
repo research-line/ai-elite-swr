@@ -1,8 +1,9 @@
+from pathlib import Path
 import sqlite3
 from datetime import datetime
 
 # Verbindung zur Datenbank herstellen
-db_path = r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db'
+db_path = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 conn = sqlite3.connect(db_path)
 cursor = conn.cursor()
 

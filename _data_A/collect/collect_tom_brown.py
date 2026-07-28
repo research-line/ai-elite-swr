@@ -1,3 +1,4 @@
+from pathlib import Path
 # -*- coding: utf-8 -*-
 """
 Datensammlung: Tom Brown (id=53)
@@ -8,7 +9,7 @@ import sqlite3
 from datetime import datetime
 
 # Datenbankverbindung
-DB_PATH = r"C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db"
+DB_PATH = Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db"
 
 def insert_aussage(person_id, aussage_text, kontext, datum, quelle, modus, einschluss):
     """Fügt eine Aussage in die Datenbank ein."""

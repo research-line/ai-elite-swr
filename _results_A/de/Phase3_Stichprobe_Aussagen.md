@@ -1,7 +1,7 @@
 # Stichproben-Analyse: Aussagen-Datenbank Top100
 
 **Datum:** 2026-02-12
-**Datenbank:** `C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db`
+**Datenbank:** `_data_A/tools/aussagen_top100.db`
 **Stichprobe:** 50 zufällige Aussagen (stratifiziert nach Person-Tier)
 
 ---

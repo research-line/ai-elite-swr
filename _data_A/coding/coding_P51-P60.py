@@ -1,6 +1,7 @@
+from pathlib import Path
 import sqlite3
 
-conn = sqlite3.connect(r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db')
+conn = sqlite3.connect(Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db")
 c = conn.cursor()
 
 # Kodierungen für P51-P60 (Tom Brown, Sam McCandlish, Chris Olah, Jared Kaplan, Jack Clark, Stuart Russell, Christopher Manning, Mike Krieger, Michael I. Jordan, Pieter Abbeel)

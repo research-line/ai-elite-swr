@@ -2,7 +2,7 @@
 **Transhumanism Research Project -- Top 100 Tech Leaders**
 
 Date: 2026-02-12
-Database: `C:\Users\User\OneDrive\Desktop\Research\Social Science\Transhumanism\_data\aussagen_top100.db`
+Database: `_data_A/tools/aussagen_top100.db`
 Included Statements: **1735**
 
 ---

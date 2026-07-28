@@ -3,7 +3,7 @@
 ## Projekt
 
 - Projekt: SWR_AB / Paper A -- KI-Elite
-- Pfad: `C:\Users\User\OneDrive\.TOPICS\.RESEARCH\.LAB\.LLM\PP__SWR_AB\paper_A`
+- Pfad: `paper_A`
 - Geprüfte Dateien: `KI_Elite_v3_en.tex`, `KI_Elite_v3_ger.tex`
 
 ## Auswahlgrund

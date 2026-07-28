@@ -1,7 +1,8 @@
+from pathlib import Path
 import sqlite3
 
 # Verbindung zur Datenbank
-conn = sqlite3.connect(r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db')
+conn = sqlite3.connect(Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db")
 c = conn.cursor()
 
 # Kodierungen für P21-P30 (Geoffrey Hinton, Marc Andreessen, Mustafa Suleyman, Andrew Ng, Peter Thiel, Mira Murati, Noam Shazeer, Alexandr Wang, Bret Taylor, Greg Brockman)

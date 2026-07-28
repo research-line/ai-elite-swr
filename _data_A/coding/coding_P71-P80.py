@@ -1,6 +1,7 @@
+from pathlib import Path
 import sqlite3
 
-conn = sqlite3.connect(r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db')
+conn = sqlite3.connect(Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db")
 c = conn.cursor()
 
 # Kodierungen für P71-P80 (Adarsh Hiremath, Naveen Rao, Brendan Foody, Jan Leike, Sualeh Asif, Daniel Gross, Surya Midha, May Habib, Aman Sanger, Clay Bavor)

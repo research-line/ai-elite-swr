@@ -1,3 +1,4 @@
+from pathlib import Path
 # -*- coding: utf-8 -*-
 """
 Nachtrag: Kodierung der Aussagen P6-P10 (IDs 417-472)
@@ -7,7 +8,7 @@ müssen aber auf die korrekten IDs 417-472 gemappt werden.
 
 import sqlite3
 
-conn = sqlite3.connect(r'C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db')
+conn = sqlite3.connect(Path(__file__).resolve().parents[1] / "tools" / "aussagen_top100.db")
 c = conn.cursor()
 
 # Mapping: meine Kodierungs-IDs 152-224 -> echte Aussagen-IDs 417-472

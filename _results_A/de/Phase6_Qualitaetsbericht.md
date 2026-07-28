@@ -2,7 +2,7 @@
 **Transhumanismus-Forschungsprojekt – Top 100 Tech-Leader**
 
 Datum: 2026-02-12
-Datenbank: `C:\Users\User\OneDrive\Desktop\Forschung\Sozialwissenschaft\Transhumanismus\_data\aussagen_top100.db`
+Datenbank: `_data_A/tools/aussagen_top100.db`
 Eingeschlossene Aussagen: **1735**
 
 ---
