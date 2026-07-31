@@ -96,7 +96,10 @@ _results_A/n15_opus_n30_haiku_comparison.json
 _results_A/n30_haiku_results.json
 
 # Database (rebuild with create_db.py + insert scripts)
-_data_A/tools/aussagen_top100.db
+# Pattern covers: published DB, versioned successors (aussagen_top100_v2.db
+# etc.), backups (.bak-*) and SQLite side files of all of them. v2+ DBs hold
+# UNBLINDED restored text - never publish. Ticket T-20260723-01.
+_data_A/tools/aussagen_top100*.db*
 
 # Raw (UNBLINDED) recovery snapshot - never publish.
 # Contains plain names/companies that the live DB only holds blinded.
