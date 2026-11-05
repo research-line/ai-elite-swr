@@ -1,6 +1,12 @@
 """Test suite for repository metadata, citation, and configuration."""
 
-import tomllib
+try:
+    import tomllib
+except ImportError:
+    try:
+        import tomli as tomllib
+    except ImportError:
+        tomllib = None
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -9,18 +15,24 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 def test_pyproject_toml():
     pyproject_path = REPO_ROOT / "pyproject.toml"
     assert pyproject_path.exists(), "pyproject.toml must exist"
-    with open(pyproject_path, "rb") as f:
-        data = tomllib.load(f)
+    content = pyproject_path.read_text(encoding="utf-8")
+    assert 'name = "ai-elite-swr"' in content
+    assert 'license = { text = "CC-BY-4.0" }' in content or "CC-BY-4.0" in content
+    assert 'requires-python = ">=3.10"' in content
 
-    project = data.get("project", {})
-    assert project.get("name") == "ai-elite-swr"
-    assert "version" in project
-    assert project.get("requires-python") == ">=3.10"
-    assert project.get("license", {}).get("text") == "CC-BY-4.0"
-    urls = project.get("urls", {})
-    assert "Homepage" in urls
-    assert "Paper A DOI" in urls
-    assert "Paper B DOI" in urls
+    if tomllib is not None:
+        with open(pyproject_path, "rb") as f:
+            data = tomllib.load(f)
+
+        project = data.get("project", {})
+        assert project.get("name") == "ai-elite-swr"
+        assert "version" in project
+        assert project.get("requires-python") == ">=3.10"
+        assert project.get("license", {}).get("text") == "CC-BY-4.0"
+        urls = project.get("urls", {})
+        assert "Homepage" in urls
+        assert "Paper A DOI" in urls
+        assert "Paper B DOI" in urls
 
 
 def test_citation_cff():
