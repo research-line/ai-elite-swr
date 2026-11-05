@@ -1,5 +1,7 @@
 # G5 Cross-Modal Prediction — v2 (Instance Separation)
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 > Conducted: 2026-03-30
 > Model: Claude Opus 4.6 (1M context)
 > Method: Strict Op4a/Op4b separation (separate agent instances)
@@ -40,6 +42,10 @@ Prompts from `prompts/en/op4a_crossmodal_predict.md` and `op4b_crossmodal_compar
 | Investors (GR_inv) | 5/10 | 4/10 | 0/10 | 90% |
 | Accelerators (GH_speed) | 5/10 | 5/10 | 0/10 | 100% |
 | **Total** | **36/50 (72%)** | **13/50 (26%)** | **0/50 (0%)** | **98%** |
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die berichteten Kategorien summieren sich zu49statt50 (36confirmed+13plausible+0contradicted); bei Investoren sind9/10kategorisiert. Ohne gebundene Zuordnung des fehlenden Eintrags sind0/50Widersprüche und98%Non-Contradicted keine vollständige50er-Verteilung; die Instanztrennung ist ein berichtetes Design ohne an diesen Bericht gebundenes Run-/Sessionmanifest.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D005-Restkontrolle G5/MatchedSample; entsprechende aktuelle Ergebnisberichte und ihre Tabellen/Caveats.
 
 ### Key findings
 

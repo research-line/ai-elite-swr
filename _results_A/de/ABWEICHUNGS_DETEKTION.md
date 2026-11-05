@@ -1,5 +1,7 @@
 # Abweichungs-Detektion: Outlier Identification in 5 Gruppen-Synthesen
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 **Erstellt:** 2026-03-31
 **Analyst:** Claude Opus 4.6 (separate Instanz)
 **Methode:** Synthese + Originaldaten → Identifikation nicht-passender Datenpunkte
@@ -284,6 +286,10 @@ Die Investor-Synthese ist die politisch einseitigste der fünf Gruppen. Die Orig
 ### Beobachtungen
 
 **1. Die Methode erkennt Abweichungen zuverlässig.** In jeder Gruppe finden sich Datenpunkte, die dem rekonstruierten Weltbild widersprechen. SWR glättet nicht alles in Kohärenz -- die Originaldaten enthalten Spannungen, die die Synthese nicht vollständig auflöst.
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die Beispiele zeigen identifizierbare Spannungen in fünf Synthesen, schätzen aber weder Detektionssensitivität, Falschnegativrate, Inter-Rater-Reliabilität noch unabhängige Heterogenitätsvalidität. Zuverlässige Erkennung ist durch diese Übung nicht etabliert.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 
 **2. Hauptquelle der Abweichungen: Personen-Aggregation.** Die meisten Abweichungen entstehen, weil die Synthese mehrere reale Personen in eine fiktive Person verschmilzt. Wenn Person A pro-Trump ist und Person B anti-Trump, muss die Synthese eine Position wählen -- und die andere wird zur Abweichung.
 

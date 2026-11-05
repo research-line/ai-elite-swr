@@ -39,6 +39,6 @@ Documentation = "https://github.com/research-line/ai-elite-swr#readme"
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-testpaths = ["_data_A/tools"]
-python_files = ["check_*.py", "verify_*.py", "test_*.py"]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
 pythonpath = "."

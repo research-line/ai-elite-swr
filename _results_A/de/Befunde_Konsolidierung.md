@@ -1,4 +1,6 @@
 # Konsolidierung aller bisherigen Befunde
+
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 2 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
 **Stand:** 2026-02-12 (Phase 8 KOMPLETT, Phase 9 ~98%)
 **Status:** Phase 8 ABGESCHLOSSEN. Paper-Manuskript KOMPLETT (dt+engl, Literaturverz., Appendix).
 
@@ -80,6 +82,10 @@ Mensch-Maschine-Verschmelzung und mehr an KI-Ueberlegenheit ueber den Menschen.
 | Dimension | Sagen | Handeln | Delta | Befund |
 |-----------|-------|---------|-------|--------|
 | D11 Egalitarismus | 5 | 2 | **-3** | MASSIV weniger egalitaer in Tat |
+
+> **NACHTRAG [P 2026-09-27] — ÜBERHOLT**
+> Diese Zeile ist historisch. Der instanzgetrennte Nachfolger berichtet D11=-2 und Gesamt-MAE=.75 gegenüber seiner G6-v2-Baseline .92; die alte Zeile belegt keine systematische aggregierte Say–Do-Kluft.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 | D04 Verantwortung | 7 | 5 | **-2** | Weniger verantwortungsvoll in Tat |
 | D06 Optimismus | 8 | 6 | **-2** | Weniger optimistisch in Tat |
 | D09 Menschl. Einzigartigkeit | 5 | 3 | **-2** | Mensch ERSETZBARERER in Tat |
@@ -94,6 +100,10 @@ Die Rhetorik der Demokratisierung steht im Widerspruch zur Praxis der Konzentrat
 ## F4: CLUSTER / TYPEN -- KOMPLETT (Top-Down, Phase 8.04)
 **Quelle:** Phase8_F4_Cluster.md
 **Methode:** Top-Down-Typenbildung ueber D07/D11/D04/D06, validiert durch 9 VG-Runs
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Neun Vergleichsruns validieren aus D07/D11/D04/D06 gebildete Top-down-Typen nicht unabhängig; das Ergebnis bleibt ein deskriptiver Kontrast im selben LLM-Ratingraum.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 
 ### Vier Weltbild-Typen:
 

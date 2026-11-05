@@ -1,5 +1,7 @@
 # Anthropic Matched-Sample Kontrolle
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 > Erstellt: 2026-03-31
 > Methode: Anthropic-Subgruppe vs. gematchte Kontrollgruppe (gleiche n, ähnliche Rollen)
 
@@ -48,6 +50,10 @@
 ## Interpretation
 
 ### H0 bestätigt: Keine systematische Anthropic-Verzerrung
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Der n=9-pro-Gruppe-Vergleich ist durch unterschiedliche Bewertungsmodelle konfundiert und bestätigt keinen Nullbias. Übernommen wird nur der begrenzte Nichtbefund: Dieser aggregierte Vergleich etablierte keinen systematischen Bias; eine kausale Zuordnung der Unterschiede zu realen Gruppeneigenschaften ist damit ebenfalls nicht abgesichert.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D005-Restkontrolle G5/MatchedSample; entsprechende aktuelle Ergebnisberichte und ihre Tabellen/Caveats.
 - **Avg fast identisch:** Anthropic 6.9 vs. Control 7.1 (Δ=0.2)
 - **MAE=1.00** liegt im Bereich der Inter-Modell-Varianz (Reihenfolge-Kontrolle: Opus vs. Sonnet MAE=0.92)
 - **Kein Δ≥3** — keine Extremabweichung auf irgendeiner Dimension

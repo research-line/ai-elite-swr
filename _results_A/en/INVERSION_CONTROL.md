@@ -1,4 +1,6 @@
 # Inversion Control: Anti-Coherence Test for 5 Groups
+
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachtrag. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
 Created: 2026-03-31
 Analyst: Claude Opus 4.6 (separate instance)
 Method: From original data construct the OPPOSITE of coherent worldview
@@ -420,6 +422,10 @@ It is possible to construct coherent persons for each data group who do NOT fit 
 
 **b) Data CONSTRAINS interpretation:**
 Anti-persons contradict concrete, citable statements and actions (each anti-person has 5-7 specific contradiction points documented). Coherent reconstruction IS the best-fitting interpretation, not the only possible one.
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Contradiction of these five deliberately extreme fictional counterprofiles does not establish that the coherent reconstruction is the best-fitting interpretation. The documented exercise does not compare preregistered plausible alternatives, independent evaluations or out-of-sample fit; the explicit limitation below remains essential.
+> **Beleg:** §5 below; `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D003.
 
 **c) Some dimensions are "data-more-resistant" than others:**
 Dimensions like D05 (techno-determinism) in risk-warners are hard to invert because data itself is internally ambivalent. This is a quality feature -- it shows where data actually are genuinely ambiguous.

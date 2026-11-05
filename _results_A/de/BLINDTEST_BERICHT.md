@@ -1,5 +1,7 @@
 # Blindungstest: Platzhalter vs. Fiktive Namen
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: WIDERLEGT.
+
 > Durchgeführt: 2026-03-30
 > Modell: Claude Opus 4.6 (1M context)
 > Testgruppe: GH_risk_AH (Risiko-Warner, 139 Aussagen + 92 Handlungen)
@@ -48,6 +50,12 @@
 | Dimensionen mit Δ=0 | 8/12 (67%) |
 | Dimensionen mit Δ=1 | 4/12 (33%) |
 | Dimensionen mit Δ≥2 | 0/12 (0%) |
+
+
+> **NACHTRAG [P 2026-09-27] — WIDERLEGT**
+> Für die zwölf abgedruckten A-/B-Ratings ergibt die unabhängige zentrierte Paarrechnung Pearson r=0,9584908030371443 statt 0,987; MAE=0,3333333333, Maximaldifferenz 1 und acht identische Dimensionen bleiben erhalten. Die hohe Korrelation in dieser einen GH_risk-Paarbeobachtung ist kein Äquivalenztest, keine Varianzkomponentenschätzung und kein Nachweis allgemeiner oder kausaler Irrelevanz der Anonymisierung; ein anderer historischer Input wäre zuerst zu binden.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F25.
+
 
 ### Qualitative Übereinstimmung
 

@@ -1,5 +1,7 @@
 # Say-Do-Vergleich: Instanztrennung v1 vs v2
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 2 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: WIDERLEGT.
+
 > Erstellt: 2026-03-31
 > Modell: Claude Opus 4.6
 > Methode: GA_ges_A und GA_ges_H in separaten Instanzen (v2) vs. selber Instanz (v1)
@@ -42,6 +44,10 @@ In v1 (2026-02-12) wurden GA_ges_A (Nur Aussagen) und GA_ges_H (Nur Handlungen) 
 | Dimensionen mit Gap=0 | 0/12 | **7/12** | +7 |
 | Dimensionen mit |Gap|≥2 | 5/12 | 2/12 | -3 |
 
+> **NACHTRAG [P 2026-09-27] — WIDERLEGT**
+> Die zwölf Tabellenzeilen ergeben in v2 sechs Nullgaps statt sieben sowie in v1 vier und in v2 drei absolute Gaps≥2 statt fünf/zwei; D05+2 zählt in v2 zusätzlich. Die Änderung beträgt bei Nullgaps+6 und bei absoluten Gaps≥2−1; MAE17/12≈1.42 und9/12=.75 bleiben korrekt.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D001/D003 und Sol-Originalkontrolle; englische Vergleichs-/Inversionsquelle mit denselben Inventurgrenzen.
+
 ### Vergleich mit G6 Kontrollgruppe
 
 | Konfiguration | Kontrolle (G6) | KI-Elite | Ratio |
@@ -82,6 +88,10 @@ Die RQ3-Ergebnisse (Say-Do Gap) müssen im Paper **vorsichtiger formuliert** wer
 
 1. **RQ3 Absatz umschreiben:** "Preliminary single-run comparisons suggest directional say-do differences on D07 (power concentration) and D11 (egalitarianism), consistent across independent measurements. However, the magnitude of the overall gap is sensitive to instance separation and falls within the baseline noise range (G6 v2 control MAE=0.92). Formal quantification requires repeated measurements (N≥30)."
 2. **D07 und D11 als stabilste Say-Do-Differenzen hervorheben** (Gap +2 bzw. -2 in beiden Versionen)
+
+> **NACHTRAG [P 2026-09-27] — WIDERLEGT**
+> D11 beträgt v1−3 und v2−2, nicht−2 in beiden Versionen. Nur die Richtung bleibt in diesen beiden angezeigten Messungen erhalten; gleiche Größe und robuste Wiederholungsinferenz folgen daraus nicht.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D001/D003 und Sol-Originalkontrolle; englische Vergleichs-/Inversionsquelle mit denselben Inventurgrenzen.
 3. **Alte MAE=1.25/1.42 durch v2-Werte ersetzen** mit Transparenz über die Revision
 
 ---

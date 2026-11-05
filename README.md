@@ -1,5 +1,7 @@
 # Synthetic Worldview Reconstruction (SWR) — Applied to the AI Elite
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 5 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: WIDERLEGT.
+
 [![DOI Paper A](https://zenodo.org/badge/DOI/10.5281/zenodo.18736737.svg)](https://doi.org/10.5281/zenodo.18736737)
 [![DOI Paper B](https://zenodo.org/badge/DOI/10.5281/zenodo.18736720.svg)](https://doi.org/10.5281/zenodo.18736720)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -86,16 +88,42 @@ This works better at the **group level** than at the individual level, because:
 | Test | Result |
 |------|--------|
 | IMIIRR (5×2 runs) | ICC(2,1) = 0.902 (excellent) |
+
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Der gespeicherte G1-Weg mittelt fünf gruppenweise One-way-Koeffizienten; die Bezeichnung ICC(2,1) ist dafür nicht korrekt. Die unabhängige Zweiweg-Nachrechnung mit zwölf Dimensionen als Objekten und zwei Runs je Gruppe ergibt als arithmetisches Gruppenmittel 0,9021014941, ebenfalls gerundet 0,902: Das positive lokale Wiederholungssignal bleibt, aber es ist kein gepoolter Gesamt-ICC und der Rater-/Objekt-/Mittelungs- und Unsicherheitsvertrag muss explizit benannt werden. Der separat bestätigte N15-Befund ICC(3,1)=0,847, ICC(2,k)=0,988 und Mean SD=0,45 bleibt erhalten.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F22.
+
 | IMIIRR (N=15 independent) | ICC(3,1) = 0.847, Mean SD = 0.45 |
 | Cross-modal prediction | 72% confirmed, 0% contradicted (5 groups × 10 predictions) |
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The linked G5-v2 summary contains36confirmed+13plausible+0contradicted=49rather than50categorized outcomes. The remaining investor outcome and run provenance are not bound; this row is not a complete predictive-validity result.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D005-Restkontrolle G5/MatchedSample; entsprechende aktuelle Ergebnisberichte und ihre Tabellen/Caveats.
 | Expected-discrepancy control | v2 baseline MAE = 0.92; real gap MAE = 0.75 (below baseline) |
 | Instance separation effect | v1 MAE 1.42 → v2 MAE 0.75 (−47%) |
 | Blinding robustness | r = 0.987 (placeholders vs. fictional names) |
+
+
+> **NACHTRAG [P 2026-09-27] — WIDERLEGT**
+> Für die zwölf abgedruckten A-/B-Ratings ergibt die unabhängige zentrierte Paarrechnung Pearson r=0,9584908030371443 statt 0,987; MAE=0,3333333333, Maximaldifferenz 1 und acht identische Dimensionen bleiben erhalten. Die hohe Korrelation in dieser einen GH_risk-Paarbeobachtung ist kein Äquivalenztest, keine Varianzkomponentenschätzung und kein Nachweis allgemeiner oder kausaler Irrelevanz der Anonymisierung; ein anderer historischer Input wäre zuerst zu binden.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F25.
+
 | Aggregation-synthesis comparison | r = 0.623 with systematic amplification (71.7%) |
 | PCA | 5 components, 80% variance explained |
 | HDBSCAN | No natural clusters (confirms Weberian ideal types) |
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The stored finite HDBSCAN sweep does not confirm the Weberian ideal types or establish absence of all natural clusters. The KW contrasts describe groups assigned from the same ratings; they are not an independent confirmation of the grouping dimensions or external validity.
+> **Beleg:** BN03/BN04 inventory addenda; `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D002.
 | Kruskal-Wallis | 6/12 dimensions p < .001 across types |
 | Simpson's paradox | Aggregate say-do gap = noise; group-specific gaps substantial |
+
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The group MAEs remain descriptive differences between separately generated synthesis profiles. The directly and nonlinearly synthesised total is not an established weighted aggregate of a disjoint, exhaustive role/stance partition; without weights and a valid aggregation identity, neither Simpson reversal nor cancellation or its cause is demonstrated. The reported investor non-finding also does not support an effect in every subgroup.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F24.
+
 
 ## Repository Structure
 

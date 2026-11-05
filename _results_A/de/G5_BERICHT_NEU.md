@@ -1,5 +1,7 @@
 # G5 Cross-Modal Prediction — NEU (mit Instanztrennung)
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 2 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 > Durchgeführt: 2026-03-30
 > Modell: Claude Opus 4.6 (1M context)
 > Methode: Strikte Op4a/Op4b-Trennung (separate Agenten-Instanzen)
@@ -41,6 +43,10 @@ Englisch (Prompts aus `prompts/en/op4a_crossmodal_predict.md` und `op4b_crossmod
 | Beschleuniger (GH_speed) | 5/10 | 5/10 | 0/10 | 100% |
 | **Gesamt** | **36/50 (72%)** | **13/50 (26%)** | **0/50 (0%)** | **98%** |
 
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die berichteten Kategorien summieren sich zu49statt50 (36confirmed+13plausible+0contradicted); bei Investoren sind9/10kategorisiert. Ohne gebundene Zuordnung des fehlenden Eintrags sind0/50Widersprüche und98%Non-Contradicted keine vollständige50er-Verteilung; die Instanztrennung ist ein berichtetes Design ohne an diesen Bericht gebundenes Run-/Sessionmanifest.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D005-Restkontrolle G5/MatchedSample; entsprechende aktuelle Ergebnisberichte und ihre Tabellen/Caveats.
+
 ### Schlüsselbefunde
 
 1. **Null Widersprüche in 50 Vorhersagen.** Keine einzige aus Aussagen abgeleitete Vorhersage wurde durch die echten Handlungen widerlegt. Dies zeigt hohe innere Kohärenz der rekonstruierten Weltbilder.
@@ -73,6 +79,10 @@ Englisch (Prompts aus `prompts/en/op4a_crossmodal_predict.md` und `op4b_crossmod
 
 ### Was G5 zeigt:
 - SWR-rekonstruierte Weltbilder haben **prädiktive Validität**: Aus Aussagen abgeleitete Weltbilder sagen reales Handeln vorher
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Dieser unvollständig kategorisierte historische Fünf-Gruppen-Vergleich belegt keine allgemeine prädiktive Validität oder robuste gruppenübergreifende Generalisierung. Er dokumentiert nur berichtete Bewertungen dieser begrenzten Vorhersagestichprobe.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D005-Restkontrolle G5/MatchedSample; entsprechende aktuelle Ergebnisberichte und ihre Tabellen/Caveats.
 - Der **Say-Do-Gap** ist messbar: Die Überraschungen in jeder Gruppe zeigen systematisch, wo Aussagen und Handlungen divergieren
 - Die Methode funktioniert **gruppenübergreifend**: Von ideologisch kohärenten (Risk-Warner) bis heterogenen (CEOs) Gruppen
 

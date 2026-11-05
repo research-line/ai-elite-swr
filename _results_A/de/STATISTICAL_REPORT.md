@@ -1,5 +1,7 @@
 # Statistische Analyse: SWR/KI-Elite Weltbild-Daten
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 2 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 **Datum:** 2026-03-27
 **Datenbasis:** 100 Personen x 12 Dimensionen (D01-D12, Skala 1-10)
 **Methoden:** PCA, HDBSCAN, Cliff's delta, Kruskal-Wallis, Mann-Whitney U
@@ -281,6 +283,12 @@ Rollenverteilung: CEO n=33, Akademiker n=10, Investor n=13, Gruender n=44
 
 Frauen n=14, Maenner n=86
 
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die 14/86-Gruppierung des Statistikrunners basiert auf vermeintlich weiblichen Pseudonym-Vornamen, nicht validierten Personenmetadaten; der SU-Generator nennt zehn IDs, während Paper/Ergebnisübersicht n=18 verwenden, ohne hier gebundenes Versions-/PID-/Stichprobenmapping. Effekte und p-Werte dieses Statistikzweigs beschreiben diese technische Zuordnung, nicht nachgewiesene Geschlechterunterschiede der realen Stichprobe oder eine Bestätigung des direkt synthetisierten Gendervergleichs; der Stereotyp-Caveat heilt den Objektfehler nicht. Keine der drei Mengen wird ohne historische Bindung eigenmächtig zur richtigen erklärt, und keine Ersatz-p-Werte werden erfunden.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F21; `_results_A/run_statistical_analysis.py:119–149`; `_data_A/tools/generate_synthesis_unit.py:228–244`.
+
+
 ### Cliff's delta
 
 | Dimension | delta | Interpretation | Mean Frauen | Mean Maenner |
@@ -296,6 +304,10 @@ Frauen n=14, Maenner n=86
 | D11 (Egalitarismus) | +0.455 | medium | 6.9 | 5.5 |
 
 ## 7. Kruskal-Wallis H-Test (4 heuristische Cluster)
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die gespeicherten p-Werte sind unadjustiert, ohne gebundenes Holm-Ergebnis. Die vier heuristischen Labels entstehen aus derselben Ratingmatrix (D07/D11/D04/D06); diese Tests beschreiben induzierte Gruppenkontraste, keine unabhängige Typologie- oder Konstruktvalidierung.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 
 | Dimension | H | p-Wert | Signifikant? |
 |-----------|---|--------|--------------|

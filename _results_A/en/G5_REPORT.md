@@ -1,5 +1,11 @@
 # G5: Cross-Modal Prediction (Op4)
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: ÜBERHOLT.
+
+> **NACHTRAG [P 2026-09-27] — ÜBERHOLT**
+> This v1 report is superseded because Op4a and Op4b shared an instance. Use `G5_REPORT_v2.md` only with its category/run-provenance limitations; this older report is not a current predictive-validity result.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
+
 > Date: 2026-03-30
 > Method: Statements → Worldview → predicted actions → comparison with actual actions
 > Instrument: Claude Opus 4.6 (5 independent agents)

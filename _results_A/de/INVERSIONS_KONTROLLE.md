@@ -1,4 +1,6 @@
 # Inversions-Kontrolle: Anti-Coherence Test für 5 Gruppen
+
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
 Erstellt: 2026-03-31
 Analyst: Claude Opus 4.6 (separate Instanz)
 Methode: Aus Originaldaten das GEGENTEIL des kohärenten Weltbilds konstruieren
@@ -420,6 +422,10 @@ Es ist möglich, für jede Datengruppe kohärente Personen zu konstruieren, die 
 
 **b) Die Daten CONSTRAINEN die Interpretation:**
 Die Anti-Personen widersprechen konkreten, zitierbaren Aussagen und Handlungen (jede Anti-Person hat 5-7 spezifische Widerspruchspunkte dokumentiert). Die kohärente Rekonstruktion IST die am besten passende Interpretation, nicht die einzig mögliche.
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die absichtlich extremen Gegenprofile und ihre dokumentierten Widersprüche belegen keinen Best-fit-Vergleich plausibler Alternativen. Unabhängige Bewertung, vorab spezifizierte Kandidaten oder out-of-sample Modellgüte sind hier nicht nachgewiesen; der spätere Extremfall-Caveat ist bei jeder Verwendung mitzuführen.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` D001/D003 und Sol-Originalkontrolle; englische Vergleichs-/Inversionsquelle mit denselben Inventurgrenzen.
 
 **c) Einige Dimensionen sind "datenresistenter" als andere:**
 Dimensionen wie D05 (Technologie-Determinismus) bei den Risiko-Warnern lassen sich schwer invertieren, weil die Daten in sich ambivalent sind. Dies ist ein Qualitätsmerkmal -- es zeigt, wo die Daten tatsächlich uneindeutig sind.

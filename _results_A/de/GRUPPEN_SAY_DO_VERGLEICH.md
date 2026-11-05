@@ -1,5 +1,7 @@
 # Gruppen-Say-Do-Vergleich: Differenzierte Analyse mit Instanztrennung
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 3 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 > Erstellt: 2026-03-31
 > Modell: Claude Opus 4.6 (separate Instanzen pro Datentyp und Gruppe)
 > Methode: Je Gruppe: Aussagen-only SU → Op1+Op2 (Instanz A), Handlungen-only SU → Op1+Op2 (Instanz B)
@@ -34,6 +36,12 @@ G6 v2 Baseline (konsistente Kontrollgruppe, separate Instanzen): **MAE = 0.92**
 - **Gesamt:** MAE = 0.75 (< Baseline 0.92) — nicht universal nachweisbar
 - **CEO:** MAE = 1.08 (> Baseline) — signifikant
 - **Akademiker:** MAE = 1.75 (> Baseline) — stark signifikant
+
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> MAE-Abstände zu einer einzigen synthetischen Baseline belegen keine statistische Signifikanz; signifikant/stark signifikant sind dadurch allein nicht gerechtfertigt. Die Profilunterschiede bleiben deskriptiv.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F24.
+
 - **Risk-Warner:** MAE = 1.92 (> Baseline) — stärkster Gap aller Gruppen
 - **Investoren:** MAE = 0.75 (< Baseline) — konsistent
 
@@ -79,6 +87,12 @@ Der aggregierte Say-Do-Gap (MAE = 0.75) liegt unter der Baseline, weil die **geg
 
 **Dies ist ein klassisches Simpson-Paradox:** Der Effekt existiert in jeder Untergruppe, verschwindet aber im Aggregat weil die Richtungen divergieren.
 
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die gruppenweisen MAEs bleiben deskriptive Unterschiede der separat erzeugten Syntheseprofile. Der direkt und nichtlinear synthetisierte Totalwert ist kein nachgewiesenes gewichtetes Aggregat einer disjunkten, erschöpfenden Rollen-/Haltungsgruppenpartition; ohne Gewichte und passende Aggregationsidentität folgen weder Simpson-Umkehr noch Aufhebung oder kausale Auslöschung. Der berichtete Investoren-Nichtbefund trägt außerdem keinen Effekt in jeder Untergruppe.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F24.
+
+
 ### Implikation für RQ3
 RQ3 muss reformuliert werden: Nicht "gibt es EINEN Say-Do-Gap?" sondern "welche GRUPPEN zeigen welche GAPS?" Die Antwort ist differenziert:
 - CEOs: konventioneller Desirability-Gap (reden besser als sie handeln)
@@ -107,6 +121,12 @@ RQ3 muss reformuliert werden: Nicht "gibt es EINEN Say-Do-Gap?" sondern "welche 
 | **Beschleuniger** | **0.92** | **Auf Baseline** | Abgeschwächtes CEO-Muster: D04/D06/D11 |
 | **Investoren** | **0.75** | Darunter | Konsistent: kein Gap |
 | **Gesamt** | **0.75** | Darunter | Simpson-Paradox: Gruppen-Gaps kompensieren sich |
+
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Die gruppenweisen MAEs bleiben deskriptive Unterschiede der separat erzeugten Syntheseprofile. Der direkt und nichtlinear synthetisierte Totalwert ist kein nachgewiesenes gewichtetes Aggregat einer disjunkten, erschöpfenden Rollen-/Haltungsgruppenpartition; ohne Gewichte und passende Aggregationsidentität folgen weder Simpson-Umkehr noch Aufhebung oder kausale Auslöschung. Der berichtete Investoren-Nichtbefund trägt außerdem keinen Effekt in jeder Untergruppe.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F24.
+
 
 ---
 

@@ -1,5 +1,7 @@
 # Statistical Analysis: SWR/AI-Elite Worldview Data
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 2 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 **Date:** 2026-03-27
 **Data basis:** 100 persons x 12 dimensions (D01-D12, scale 1-10)
 **Methods:** PCA, HDBSCAN, Cliff's delta, Kruskal-Wallis, Mann-Whitney U
@@ -281,6 +283,12 @@ Role distribution: CEO n=33, Academic n=10, Investor n=13, Founder n=44
 
 Women n=14, Men n=86
 
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The statistical runner derives the 14/86 grouping from supposedly female pseudonym first names, not validated participant metadata; the synthesis-unit generator lists ten IDs, while the paper uses n=18 without a bound version/PID/sample mapping here. These effects and p-values describe the technical assignment, not established gender differences among the actual source persons or confirmation of the directly synthesised gender comparison; a stereotype caveat does not repair this object mismatch. None of the three sets is declared historically correct without provenance, and no replacement p-values are invented.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F21; `_results_A/run_statistical_analysis.py:119–149`; `_data_A/tools/generate_synthesis_unit.py:228–244`.
+
+
 ### Cliff's delta
 
 | Dimension | delta | Interpretation | Mean Women | Mean Men |
@@ -296,6 +304,10 @@ Women n=14, Men n=86
 | D11 (Egalitarianism) | +0.455 | medium | 6.9 | 5.5 |
 
 ## 7. Kruskal-Wallis H-Test (4 heuristic clusters)
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The stored p-values are unadjusted, with no bound Holm result. The four heuristic labels are formed from the same rating matrix (D07/D11/D04/D06); these tests describe induced-group contrasts, not independent typology or construct validation.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 
 | Dimension | H | p-value | Significant? |
 |-----------|---|--------|--------------|

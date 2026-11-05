@@ -1,5 +1,7 @@
 # Group Say-Do Comparison: Differentiated Analysis with Instance Separation
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 3 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 > Created: 2026-03-31
 > Model: Claude Opus 4.6 (separate instances per data type and group)
 > Method: Per group: Statements-only SU → Op1+Op2 (Instance A), Actions-only SU → Op1+Op2 (Instance B)
@@ -34,6 +36,12 @@ G6 v2 Baseline (consistent control group, separate instances): **MAE = 0.92**
 - **Total:** MAE = 0.75 (< Baseline 0.92) — not universally demonstrable
 - **CEO:** MAE = 1.08 (> Baseline) — significant
 - **Academics:** MAE = 1.75 (> Baseline) — strongly significant
+
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> MAE differences relative to one synthetic baseline do not establish statistical significance; significant/strongly significant are not justified by that comparison alone. The displayed profile differences remain descriptive.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F24.
+
 - **Risk-Warners:** MAE = 1.92 (> Baseline) — largest gap of all groups
 - **Investors:** MAE = 0.75 (< Baseline) — consistent
 
@@ -79,6 +87,12 @@ The aggregated say-do gap (MAE = 0.75) falls below the baseline because **opposi
 
 **This is a classic Simpson's Paradox:** The effect exists in every subgroup but disappears in the aggregate because the directions diverge.
 
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The group MAEs remain descriptive differences between separately generated synthesis profiles. The directly and nonlinearly synthesised total is not an established weighted aggregate of a disjoint, exhaustive role/stance partition; without weights and a valid aggregation identity, neither Simpson reversal nor cancellation or its cause is demonstrated. The reported investor non-finding also does not support an effect in every subgroup.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F24.
+
+
 ### Implication for RQ3
 RQ3 must be reformulated: Not "is there ONE say-do gap?" but "which GROUPS show which GAPS?" The answer is differentiated:
 - CEOs: conventional desirability gap (talk better than they act)
@@ -107,6 +121,12 @@ RQ3 must be reformulated: Not "is there ONE say-do gap?" but "which GROUPS show 
 | **Accelerators** | **0.92** | **On baseline** | Muted CEO pattern: D04/D06/D11 |
 | **Investors** | **0.75** | Below | Consistent: no gap |
 | **Total** | **0.75** | Below | Simpson's Paradox: group gaps cancel out |
+
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The group MAEs remain descriptive differences between separately generated synthesis profiles. The directly and nonlinearly synthesised total is not an established weighted aggregate of a disjoint, exhaustive role/stance partition; without weights and a valid aggregation identity, neither Simpson reversal nor cancellation or its cause is demonstrated. The reported investor non-finding also does not support an effect in every subgroup.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F24.
+
 
 ---
 

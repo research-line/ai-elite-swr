@@ -1,5 +1,7 @@
 # Say-Do Comparison: Instance Separation v1 vs v2
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 2 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: WIDERLEGT.
+
 > Created: 2026-03-31
 > Model: Claude Opus 4.6
 > Method: GA_ges_A and GA_ges_H in separate instances (v2) vs. same instance (v1)
@@ -42,6 +44,10 @@ In v1 (2026-02-12), GA_ges_A (statements only) and GA_ges_H (actions only) were 
 | Dimensions with Gap=0 | 0/12 | **7/12** | +7 |
 | Dimensions with \|Gap\|≥2 | 5/12 | 2/12 | -3 |
 
+> **NACHTRAG [P 2026-09-27] — WIDERLEGT**
+> The twelve displayed rows yield6/12 zero gaps in v2 (not7),4/12 absolute gaps≥2 in v1 (not5), and3/12 in v2 (not2: D05 also has+2). The MAEs17/12≈1.42 and9/12=.75 are correct; the count changes are+6 and−1, respectively.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §„Sol-Originalkontrolle — D001 SayDo/Persona, Korrekturbedarf“, direct in-memory arithmetic check.
+
 ### Comparison with G6 Control Group
 
 | Configuration | Control (G6) | AI Elite | Ratio |
@@ -82,6 +88,10 @@ The RQ3 findings (say-do gap) must be formulated **more carefully** in the paper
 
 1. **Rewrite RQ3 paragraph:** "Preliminary single-run comparisons suggest directional say-do differences on D07 (power concentration) and D11 (egalitarianism), consistent across independent measurements. However, the magnitude of the overall gap is sensitive to instance separation and falls within the baseline noise range (G6 v2 control MAE=0.92). Formal quantification requires repeated measurements (N≥30)."
 2. **Highlight D07 and D11 as most stable say-do differences** (Gap +2 and -2 in both versions)
+
+> **NACHTRAG [P 2026-09-27] — WIDERLEGT**
+> D11 is−3 in v1 and−2 in v2, not−2 in both versions. Its direction persists in these two displayed measurements; equal magnitude and robust repeated-run inference do not follow.
+> **Beleg:** dimensional table above; `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §„Sol-Originalkontrolle — D001 SayDo/Persona, Korrekturbedarf“.
 3. **Replace old MAE=1.25/1.42 with v2 values** with transparency about revision
 
 ---

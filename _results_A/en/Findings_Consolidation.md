@@ -1,5 +1,7 @@
 # Consolidation of All Previous Findings
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 2 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 **Status:** 2026-02-12 (Phase 8 COMPLETE, Phase 9 ~98%)
 **Status:** Phase 8 COMPLETED. Paper manuscript COMPLETE (German + English, bibliography, appendix).
 
@@ -80,6 +82,10 @@
 | Dimension | Saying | Doing | Delta | Finding |
 |-----------|--------|-------|-------|---------|
 | D11 Egalitarianism | 5 | 2 | **-3** | MASSIVELY less egalitarian in action |
+
+> **NACHTRAG [P 2026-09-27] — ÜBERHOLT**
+> This row is historical. The instance-separated successor reports D11=-2 and total MAE=.75, versus its G6-v2 baseline .92; this older row does not establish a systematic aggregate Say–Do gap.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 | D04 Responsibility | 7 | 5 | **-2** | Less responsible in action |
 | D06 Optimism | 8 | 6 | **-2** | Less optimistic in action |
 | D09 Human Uniqueness | 5 | 3 | **-2** | Humans MORE replaceable in action |
@@ -92,6 +98,10 @@
 ## F4: CLUSTER / TYPES — COMPLETE (Top-Down, Phase 8.04)
 **Source:** Phase8_F4_Cluster.md
 **Method:** Top-Down type formation via D07/D11/D04/D06, validated through 9 comparison runs
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> Nine comparison runs do not independently validate top-down types formed from D07/D11/D04/D06; the result remains a descriptive contrast within the same LLM-rating space.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 
 ### Four Worldview Types:
 

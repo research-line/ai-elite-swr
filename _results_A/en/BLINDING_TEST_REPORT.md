@@ -1,5 +1,7 @@
 # Blinding Test: Placeholders vs. Fictional Names
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: WIDERLEGT.
+
 > Conducted: 2026-03-30
 > Model: Claude Opus 4.6 (1M context)
 > Test group: GH_risk_AH (risk warners, 139 statements + 92 actions)
@@ -48,6 +50,12 @@
 | Dimensions with Δ=0 | 8/12 (67%) |
 | Dimensions with Δ=1 | 4/12 (33%) |
 | Dimensions with Δ≥2 | 0/12 (0%) |
+
+
+> **NACHTRAG [P 2026-09-27] — WIDERLEGT**
+> For the twelve displayed A/B ratings, the centred paired calculation gives Pearson r=0.9584908030371443, not 0.987; MAE=0.3333333333, maximum difference 1 and eight identical dimensions remain. This high correlation in one GH_risk pair is not an equivalence test, a variance-component estimate, or evidence that anonymisation is generally or causally irrelevant; any alternative historical input must first be bound.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029-ASTRA.md` N029-F25.
+
 
 ### Qualitative Agreement
 

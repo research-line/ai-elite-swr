@@ -244,3 +244,7 @@ credentials.json
 _archive/
 Plan.txt
 # <<< RESEARCH-PIPELINE MANAGED GITIGNORE <<<
+
+# Private F22 Phase-1 contract package (SWR-F22-ICC-CONTRACT-20261001)
+/_results/SWR_F22_ICC_CONTRACT_2026-10-01/
+/_claims/drafts/SWR_F22_ICC_2026-10-01.json

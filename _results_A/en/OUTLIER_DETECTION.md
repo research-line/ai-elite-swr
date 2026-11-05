@@ -1,5 +1,7 @@
 # Outlier Detection: Outlier Identification in 5 Group Syntheses
 
+> **NACHTRAGS-HINWEIS (Stand 2026-09-27):** Dieses Dokument enthält 1 Nachträge. Alle finden: Suche nach `NACHTRAG [`. Schwerste Stufe: IRREFÜHREND.
+
 **Created:** 2026-03-31
 **Analyst:** Claude Opus 4.6 (separate instance)
 **Method:** Synthesis + original data → identification of non-fitting data points
@@ -284,6 +286,10 @@ The investor synthesis is the most politically one-sided of the five groups. The
 ### Observations
 
 **1. The method detects deviations reliably.** In each group are found data points contradicting the reconstructed worldview. SWR does not smooth everything into coherence -- the original data contains tensions that the synthesis does not fully resolve.
+
+> **NACHTRAG [P 2026-09-27] — IRREFÜHREND**
+> The examples show identifiable tensions in five syntheses, but estimate no detection sensitivity, false-negative rate, inter-rater reliability or independent heterogeneity validity. Reliable detection is not established by this exercise.
+> **Beleg:** `.RESEARCH/_inventur/global/berichte/INVENTUR-WS-N029.md` §P5 und §C10; BN03–05-Nachträge, gebundene Statistik/SayDo-Originale.
 
 **2. Primary source of deviations: person aggregation.** Most deviations arise because the synthesis merges multiple real people into one fictional person. When Person A is pro-Trump and Person B is anti-Trump, the synthesis must choose a position -- and the other becomes a deviation.
 
